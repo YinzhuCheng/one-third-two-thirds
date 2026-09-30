@@ -1,15 +1,16 @@
 {
-  "round": "S74",
-  "date": "2026-09-30",
-  "title": "局部不可比度与无限串接分叉；宽度三外部候选障碍",
-  "report": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S74/REPORT.md",
-  "proof": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S74/notes/PROOF.md",
-  "page": "/S74.html",
+  "round": "S75",
+  "date": "2026-10-01",
+  "title": "任意固定模板同倍膨胀趋近半平衡；十参数等长 t>=2 的 2/5",
+  "report": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S75/REPORT.md",
+  "proof": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S75/notes/PROOF.md",
+  "page": "/S75.html",
   "main_conjecture": "OPEN",
   "width_three": "OPEN",
   "ten_parameter_two_fifths": "OPEN",
-  "ten_equal_parameters": "OPEN",
+  "ten_equal_parameters": "PROOF_DRAFT_COMPLETE_S75_t_ge_2",
   "four_outer_parameters_two_fifths": "PROOF_DRAFT_COMPLETE_S71",
-  "new_results": ["S74-COVER", "S74-DEGREE33", "S74-SERIAL", "S74-DEGREE-ENVELOPE", "S74-LOCAL-OBSTRUCTION", "S74-TAIL"],
-  "note": "解析研究稿；局部预算不随分叉总数增长；真实八点反例只否定局部菜单。未外部独立审查或全面查新。"
+  "fixed_template_uniform_dilation_half_limit": "ANALYTIC_PROOF_DRAFT_S75",
+  "new_results": ["S75-FIBRE", "S75-ATOM", "S75-TWO", "S75-DILATE", "S75-EQUAL10"],
+  "note": "一般同倍及固定正比例极限为解析证明；十点全部等长2/5由t>=40解析尾部与38项有限算术组成。不能反推原模板，不能扩展为任意多尺度全域。未外部独立审查或全面查新。"
 }
