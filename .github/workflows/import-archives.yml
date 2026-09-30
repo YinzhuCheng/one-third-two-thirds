@@ -1,11 +1,59 @@
-# One-time archive transfer; not a mathematics test or research gate.
+# One-time file transport only; never a mathematics test or research gate.
 name: Import supplied research archives
 on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/import-archives.yml']
+  release:
+    types: [published]
   workflow_dispatch:
 permissions:
   contents: write
+concurrency:
+  group: initial-research-archive-import
+  cancel-in-progress: false
+env:
+  ARCHIVE_TAG: s68-source-archives
 jobs:
-  import:
+  prepare:
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'Archive transfer will be initialized from the supplied files.'
+      - name: Prepare the source ZIP attachment area
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          if ! gh release view "$ARCHIVE_TAG" >/dev/null 2>&1; then
+            gh release create "$ARCHIVE_TAG" --target main --draft \
+              --title 'S68 原始研究包 / Source archives' \
+              --notes '请将原先提供给 ChatGPT 的两个 ZIP（完整版与阅读包）作为附件加入此草稿，上传结束后点击 Publish release。文件名可以保留下载时的 (1)/(2) 后缀。发布后，导入工作流会展开全部资料并提交到 main；原附件保留在本 Release。此操作只搬运文件，不运行数学程序、哈希验收或证明测试。若曾提前发布，可补齐附件后到 Actions 手动运行 Import supplied research archives。'
+          fi
+          gh release view "$ARCHIVE_TAG" --json url --jq '.url'
+  import:
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'release' && github.event.release.tag_name == 's68-source-archives')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - name: Download the two source ZIP attachments
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/poset-source-archives"
+          gh release download "$ARCHIVE_TAG" --pattern '*.zip' --dir "$RUNNER_TEMP/poset-source-archives"
+      - name: Preserve and expand the supplied files
+        run: python tools/import_archives.py --archives "$RUNNER_TEMP/poset-source-archives" --destination .
+      - name: Save the research archive, without running research programs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add --all
+          if ! git diff --cached --quiet; then
+            git commit -m 'archive: import complete S68 handoff, reading kit and original S67 history'
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
