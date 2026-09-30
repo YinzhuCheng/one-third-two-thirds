@@ -1,0 +1,24 @@
+{
+  "nmax": 6,
+  "stats": {
+    "posets": 5230,
+    "down_inclusion_pairs": 56136,
+    "rank_monotonicity": 56136,
+    "rank_window_bounds": 211789,
+    "branch_q40_probability": 1144,
+    "branch_q33": 404,
+    "branch_q33_nonautonomous_stem": 52,
+    "branch_q33_strict_down": 12
+  },
+  "seconds": 3.7729272842407227,
+  "counting_scope": "Natural-labelled posets of orders 2 through 6; branch_q33 counts configurations with a chosen spine and non-chain Y, not distinct isomorphism classes.",
+  "additional_constructed_checks": {
+    "branch_cases": 60,
+    "all_k_envelopes": 448,
+    "ten_endpoint_cases": 24,
+    "max_branch_n": 25,
+    "max_t": 12,
+    "seconds": 0.298
+  },
+  "proof_status": "Optional exact checks only. Infinite theorems follow from the displayed injections, rank windows and inequalities. No independent external review."
+}
