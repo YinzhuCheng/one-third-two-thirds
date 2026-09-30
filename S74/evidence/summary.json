@@ -1,0 +1,23 @@
+{
+  "exhaustive_2_to_6": {
+    "posets": 5230,
+    "configurations": 56136,
+    "degree_33_chain_checks": 18876,
+    "degree_envelopes": 47994,
+    "cover_windows": 27452,
+    "genuinely_branched_33_chain_checks": 380
+  },
+  "constructed": {
+    "configurations": 72,
+    "cover_windows": 78120,
+    "degree_33_chain_checks": 7306,
+    "genuinely_branched_33_chain_checks": 7306,
+    "degree_envelopes": 35154,
+    "beyond_S73_global_deficit_chain_checks": 6747
+  },
+  "tail_checks": {
+    "formula_checks": 2040,
+    "arbitrary_tail_posets": 408
+  },
+  "elapsed_seconds": 4.597
+}
