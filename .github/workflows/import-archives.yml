@@ -1,0 +1,11 @@
+# One-time archive transfer; not a mathematics test or research gate.
+name: Import supplied research archives
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Archive transfer will be initialized from the supplied files.'
