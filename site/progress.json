@@ -1,1 +1,15 @@
-{"round":"S73","date":"2026-09-30","title":"分叉排他上部的固定标签定理；秩窗口与新增同阶十参数区域","report":"https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S73/REPORT.md","proof":"https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S73/notes/PROOF.md","page":"/S73.html","main_conjecture":"OPEN","width_three":"OPEN","ten_parameter_two_fifths":"OPEN","four_outer_parameters_two_fifths":"PROOF_DRAFT_COMPLETE_S71","new_results":["S73-RANK","S73-WINDOW","S73-BRANCH33","S73-PAIR33","S73-ENVELOPE","S73-BRANCH40","S73-HALF","S73-ENDPOINT"],"note":"允许排他上部有受控分叉；定性部分不要求自治模块。新增两个主链/链外混合区域，并非全部十参数或全部同阶参数。主证明不依赖有限核；未外部独立审查或全面查新。"}
+{
+  "round": "S74",
+  "date": "2026-09-30",
+  "title": "局部不可比度与无限串接分叉；宽度三外部候选障碍",
+  "report": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S74/REPORT.md",
+  "proof": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S74/notes/PROOF.md",
+  "page": "/S74.html",
+  "main_conjecture": "OPEN",
+  "width_three": "OPEN",
+  "ten_parameter_two_fifths": "OPEN",
+  "ten_equal_parameters": "OPEN",
+  "four_outer_parameters_two_fifths": "PROOF_DRAFT_COMPLETE_S71",
+  "new_results": ["S74-COVER", "S74-DEGREE33", "S74-SERIAL", "S74-DEGREE-ENVELOPE", "S74-LOCAL-OBSTRUCTION", "S74-TAIL"],
+  "note": "解析研究稿；局部预算不随分叉总数增长；真实八点反例只否定局部菜单。未外部独立审查或全面查新。"
+}
