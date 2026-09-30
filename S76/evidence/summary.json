@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-01",
+  "general": {
+    "naturally_labelled_templates": 406,
+    "marked_configurations": 8504,
+    "unequal_downsets": 4580,
+    "shifted_rank_checks": 53150,
+    "fibre_configurations": 142,
+    "fibre_extensions": 27057,
+    "overlap_extensions": 23642,
+    "nonempty_overlap_fibres": 18679,
+    "all_pass": true,
+    "scope": "All naturally labelled templates of sizes 2..5; every incomparable unordered pair; module sizes (2,2),(2,3),(3,2),(3,3). Full overlap fibres only for templates <=4 and sizes (3,3).",
+    "limitations": "One bitmask template encoding. These checks do not replace the injective/FKG proof or external review."
+  },
+  "uniform_words": {
+    "atom_checks": 97500,
+    "symmetric_hypergeometric_tail_checks": 11375,
+    "equal_k2_bound": "212083/524288",
+    "e4_rational_lower": "331990103/6081075",
+    "all_pass": true,
+    "scope": "Word populations p<=25,q<=25; symmetric population halves M<=50; exact displayed constant checks."
+  },
+  "central_finite_core": {
+    "cases": 23,
+    "all_pass": true,
+    "domain": "main=(1,1,t,t,1,1), outer=(1,2t,1,1), integer t=1..23",
+    "minimum_selected_balance": "111/253",
+    "minimum_selected_at": 1,
+    "shared_inputs": "Same template and finite domain; three-chain edge flow vs ten-module direct event recurrence. Not external independent review."
+  },
+  "proof_dependency": "Only central_finite_core is a necessary finite component of the all-t central slice. General theorems have written analytic proofs, independent of these finite checks.",
+  "archive": "The S76 conversation ZIP preserves complete optional scripts, CSV outputs and process logs. GitHub preserves the proof, report, full witness fractions, necessary finite-core scripts and this scope summary."
+}
