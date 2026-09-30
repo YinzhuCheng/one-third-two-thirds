@@ -1,16 +1,17 @@
 {
-  "round": "S75",
+  "round": "S76",
   "date": "2026-10-01",
-  "title": "任意固定模板同倍膨胀趋近半平衡；十参数等长 t>=2 的 2/5",
-  "report": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S75/REPORT.md",
-  "proof": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S75/notes/PROOF.md",
-  "page": "/S75.html",
+  "title": "错开启动的双模块：四端偏移、重叠均匀与指定标签选对",
+  "report": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S76/REPORT.md",
+  "proof": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/main/S76/notes/PROOF.md",
+  "page": "/S76.html",
   "main_conjecture": "OPEN",
   "width_three": "OPEN",
   "ten_parameter_two_fifths": "OPEN",
   "ten_equal_parameters": "PROOF_DRAFT_COMPLETE_S75_t_ge_2",
   "four_outer_parameters_two_fifths": "PROOF_DRAFT_COMPLETE_S71",
-  "fixed_template_uniform_dilation_half_limit": "ANALYTIC_PROOF_DRAFT_S75",
-  "new_results": ["S75-FIBRE", "S75-ATOM", "S75-TWO", "S75-DILATE", "S75-EQUAL10"],
-  "note": "一般同倍及固定正比例极限为解析证明；十点全部等长2/5由t>=40解析尾部与38项有限算术组成。不能反推原模板，不能扩展为任意多尺度全域。未外部独立审查或全面查新。"
+  "central_slice": "PROOF_DRAFT_COMPLETE_S76_all_t_ge_1",
+  "fixed_template_uniform_dilation_half_limit": "KNOWN_QUALITATIVE_COROLLARY_OF_AIRES_KAHN_2025_THM_1_6; S75 retains a self-contained quantitative proof",
+  "new_results": ["S76-SHIFT", "S76-OVERLAP", "S76-EQUAL", "S76-ASYM", "S76-PAIR-DILATE", "S76-CENTRAL"],
+  "note": "指定两自治链模块内的选对不再要求同下集；共同上下文可任意大、宽度无界。一般证明解析；中部全t族含23项必要有限算术。全局定性极限与已有文献区分，未外部审查或全面查新。"
 }
