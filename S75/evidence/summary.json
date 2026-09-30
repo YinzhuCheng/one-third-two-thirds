@@ -1,0 +1,35 @@
+{
+  "round": "S75",
+  "date": "2026-10-01",
+  "equal_template_core": {
+    "domain": "integer t=2,...,39; all ten module lengths equal t",
+    "cases": 38,
+    "all_pass": true,
+    "smallest_selected_balance": "49361904383406613218520450975955/102553325633149541892713488939444",
+    "smallest_selected_at": 11,
+    "shared_inputs": "same ten-point template and domain; two encodings of ideal counting, not two independent reductions or external review"
+  },
+  "conditional_fibres": {
+    "domain": "all natural-labelled base posets on 2..5 points; all equal-strict-downset pairs; module length m=2,3; other modules singleton",
+    "base_templates": 406,
+    "marked_inflations": 1962,
+    "extensions": 1062179,
+    "fibres": 395065,
+    "all_pass": true
+  },
+  "uniform_word_atoms": {
+    "domain": "5<=m<=50; 1<=h<=floor((m-1)/4); 0<=r<m; h<=j<m-h; both completion types",
+    "comparisons": 562200,
+    "all_pass": true,
+    "c8": "6435/32768",
+    "tau33_8": "4514873/4294967296",
+    "tau40_8": "150871/4294967296",
+    "analytic_equal_tail_lower": "3451368105/8589934592"
+  },
+  "nonmonotonic_uniform_scaling": {
+    "delta_T3": "103506673/207068570",
+    "delta_T4": "17173851069/34810143355",
+    "relation": "delta(T[3]) > delta(T[4])"
+  },
+  "scope": "General theorems and t>=40 are analytical. Only the complete equal-ten-parameter 2/5 result uses the 38-row finite core. Optional checks do not certify the infinite quantifiers. Full scripts, logs and numeric CSV are in the S75 handoff ZIP."
+}
