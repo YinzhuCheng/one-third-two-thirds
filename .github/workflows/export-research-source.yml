@@ -1,5 +1,5 @@
 name: Export research source snapshot
-# File transport for a handoff only. This does not execute or certify mathematics.
+# S82 handoff snapshot: file transport only, not mathematical verification.
 on:
   workflow_dispatch:
   push:

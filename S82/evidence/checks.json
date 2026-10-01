@@ -1,0 +1,11 @@
+{
+  "naturally_labelled_posets_n1_to_5": 407,
+  "marked_prototypes": 1971,
+  "max_window_factorizations": 1971,
+  "log_concavity_checks": 17739,
+  "block_defect_identities": 15768,
+  "external_law_TV_bounds": 15768,
+  "single_copy_counterexample": {"extensions": 3, "single_copy_mean": "8/3", "whole_block_mean": 4},
+  "gaussian_endpoint_counterexample": {"family": "C_r disjoint union singleton", "q": "r+1", "Z": "q+1 (constant)", "theta": "1+1/q", "D": "1+1/q", "D_over_q": "1/q+1/q^2 -> 0", "standardized_law": "point mass 0, not N(0,1)"},
+  "scope": "Exact arithmetic on naturally labelled posets n<=5; does not prove the general statements."
+}

@@ -1,27 +1,15 @@
-# 最近几轮审查与同步入口 · S78–S81
+# 最近审查与新会话入口 · S82
 
-日期2026-10-01。GitHub为研究主档，网站仅阅读。此页不是全部旧稿的独立认证。新agent先读[当前状态](CURRENT_RESEARCH.md)和[下一断点](09_NEXT_SESSION.md)。
+先读 [00](00_START_HERE.md)、[01](01_PROBLEM_AND_STATUS.md)、[03](03_DEPENDENCIES.md)、[05](05_PRIORITIES_AND_CONJECTURES.md)、[09](09_NEXT_SESSION.md)。完整恢复范围见 [08](08_ARCHIVE_INVENTORY_AND_LIMITS.md)。归档不是外部审稿。
 
-| 轮次 | 数学主干 | 原稿入口 |
+| 轮次 | 原稿入口 | 本轮之后的准确边界 |
 |---|---|---|
-| S78 | 幂加权Beta/Gamma凸序；任意自治块；S53整个局部律TV；任意尾部及可数极限 | [报告](S78/REPORT.md) · [窗口证明](S78/notes/POWER_BIAS_AND_MODULE_WINDOWS.md) · [局部律证明](S78/notes/LOCAL_STABILITY_AND_INFINITE_LIMITS.md) |
-| S79 | 方差缺陷识别NB/Gamma边缘；真实重叠与端部守恒 | [报告](S79/REPORT.md) · [刚性证明](S79/notes/VARIANCE_DEFICIT_AND_NB_LIMITS.md) · [联合窗口](S79/notes/JOINT_WINDOWS.md) |
-| S80 | 局部支撑的正缺陷；保留依赖的联合鞅核；Fibonacci无限障碍 | [报告](S80/REPORT.md) · [局部缺陷](S80/notes/LOCAL_DEFICIT_AND_INFINITE_OBSTRUCTION.md) · [联合核](S80/notes/JOINT_MARTINGALE_GLUE.md) · [U58源接口记录](S80/ACPP_SOURCE_RECHECK.md) |
-| S81 | 增长块的正确高斯尺度；指定阈值平滑余量；同步并审查旧接头 | [报告](S81/REPORT.md) · [高斯判别](S81/notes/GROWING_BLOCK_CLT.md) · [阈值证明](S81/notes/THRESHOLD_GAP.md) · [审查和文献](S81/AUDIT_AND_LITERATURE.md) |
+| S78 | [幂加权与整块窗口](S78/notes/POWER_BIAS_AND_MODULE_WINDOWS.md)、[整个局部律与无限极限](S78/notes/LOCAL_STABILITY_AND_INFINITE_LIMITS.md) | 整块窗口不同于单点；独立于U58最终一般界 |
+| S79 | [方差缺陷与NB](S79/notes/VARIANCE_DEFICIT_AND_NB_LIMITS.md)、[联合窗口](S79/notes/JOINT_WINDOWS.md) | 固定q、有界均值条件保留；边缘识别不唯一恢复偏序 |
+| S80 | [局部缺陷与无限障碍](S80/notes/LOCAL_DEFICIT_AND_INFINITE_OBSTRUCTION.md)、[联合鞅核](S80/notes/JOINT_MARTINGALE_GLUE.md)、[源接口复核](S80/ACPP_SOURCE_RECHECK.md) | 条件核保留依赖；正缺陷仍不能消除有限端部 |
+| S81 | [增长块CLT](S81/notes/GROWING_BLOCK_CLT.md)、[指定阈值](S81/notes/THRESHOLD_GAP.md) | θ→常数>1不可删除；G/Z与G/T缺陷不同 |
+| S82 | [修补、曲率与固定外部极限](S82/notes/PROOF.md)、[报告](S82/REPORT.md) | 用S78修补S58§4；跨参数望远镜不等于同P联合预算；无限全序可能不是N型 |
 
-## 同步范围不能误读
+S78–S80仓库中仍为S81上传的标注阅读整理版。完整交接ZIP保留逐行原版、所有近期原ZIP、旧代码和输出；本次并未重跑旧检查。S81/S82主稿与本轮必要程序可在仓库直接取用。
 
-S78–S80这次上传的是明确标注的阅读整理版，保留自含数学主证、反例、直接依赖和限制；不是声称原始ZIP所有字节原样进入Git。完整原始快照与原脚本/原结果保存在S81合并阅读包的originals/中。S81新证明和检查程序直接入库，evidence/checks.json是实际运行摘要，完整示例输出在阅读包，也可按需重现。
-
-旧报告写的“本轮未上传”描述历史交付，不能当成当前状态。旧数值检查次数仍是旧运行，不是S81重跑。原00–07和S69–S77历史稿不反向改写。
-
-所有结果仍为待外部独立审查的数学研究稿。U58末端算术已多次核对，但整条一般界不等于已认证纪录；部分2026文献本次只能再次确认一手摘要，读取层次见S81审查表。S78–S81独立窗口结果不依赖U58成立。
-
-## 真正尚缺的箭头
-
-    有限无1/3对反设
-      -> 全局极值或有限端部
-      -- OPEN --> 特定阈值的联合预算 / 小排序缺陷ρ
-      -> 同一实际标签。
-
-窗口近极端、正局部缺陷、联合耦合和高斯极限都不自动完成这条连接。主猜想、一般宽度三、全十参数非平凡2/5仍未由项目闭合。
+U58整条一般界仍待源引理—S57几何—S58联合积分的连续独立审查。S82修补的独立计数推论不是U58最终链的必要输入，不能扩大撤回，也不能把修补当认证。
