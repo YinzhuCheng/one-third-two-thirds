@@ -1,0 +1,23 @@
+name: Export research source snapshot
+# File transport for a handoff only. This does not execute or certify mathematics.
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/export-research-source.yml'
+permissions:
+  contents: read
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Archive tracked research files only
+        run: git archive --format=zip --output=/tmp/research-source.zip HEAD
+      - uses: actions/upload-artifact@v4
+        with:
+          name: research-source
+          path: /tmp/research-source.zip
+          retention-days: 7
