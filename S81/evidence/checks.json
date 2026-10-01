@@ -1,0 +1,22 @@
+{
+  "round": "S81",
+  "date": "2026-10-01",
+  "record_kind": "summary_of_actual_run; full 16 example rows are in the S81 reading package or reproduced by src/check_s81.py",
+  "counts": {
+    "kernel_recurrences_numeric": 2070,
+    "endpoint_minimum_numeric": 400,
+    "exact_block_laws": 744,
+    "threshold_decompositions_numeric": 3720,
+    "event_bounds_numeric": 3720,
+    "finite_population_moment_identities_exact": 16,
+    "characteristic_bounds_numeric": 34
+  },
+  "base_natural_posets": {"1": 1, "2": 2, "3": 7, "4": 40},
+  "minimum_observed_hinge_gap": "0.000001657651379040808230685471166093506077805060341997629707348782796",
+  "U58_scalar_upper_exact": "146306406272/533935546875",
+  "example_parameters": "s in [12,40,120,400], m=2s, q in {2,floor(sqrt(s)),s/2,s}",
+  "precision": "65 decimal digits for kernel/threshold probes; characteristic example sums also use ordinary floating point",
+  "exact_scope": "block weights, moments, scalar rational inequalities and finite-population variances",
+  "scope": "No general theorem or CLT is inferred from these finite probes. No historical counts are relabelled as current runs.",
+  "result": "all checks passed"
+}
