@@ -1,0 +1,63 @@
+{
+  "updated": "2026-10-02",
+  "mathematical_baseline": "S82",
+  "scope": "Core index and navigation, not a full Notion export; page links require workspace access",
+  "home": "https://app.notion.com/p/3ed05a5b7caa819997e4d1db6d3c7dec",
+  "guides": {
+    "protocol": "3ed05a5b-7caa-8114-9e05-cebc09af0a1f",
+    "roadmap": "3ed05a5b-7caa-81a3-87d9-eb6aa978f7a9",
+    "literature_test": "3ed05a5b-7caa-81a7-8afc-f3b16d4dfc07"
+  },
+  "databases": {
+    "claims": {"database_id":"58429ef6-9db6-411b-807a-74168399c548", "data_source":"collection://ac671b20-11fe-4935-81d7-659721a7d095", "default_view":"view://f84a1edf-ad10-4d8c-97e4-9a0b25a1e195", "open_view":"view://3ed05a5b-7caa-81f8-94d9-000c1922a0af", "audit_view":"view://3ed05a5b-7caa-81d5-bd5e-000c6886f000"},
+    "routes": {"database_id":"fc69247d-5352-4803-9376-a4e702380914", "data_source":"collection://a33f775c-38f5-4769-8ad2-4c6d09045596", "default_view":"view://bf683d8d-3665-4c18-807e-59d39a0a8fcf", "board_view":"view://3ed05a5b-7caa-81bf-ac2e-000c5993043b"},
+    "literature": {"database_id":"46043637-b019-477e-921d-7271d05318ab", "data_source":"collection://248bccba-ced8-402c-ac88-39ede956b41e", "default_view":"view://a2b21792-5fdb-4089-a96f-a83668e44ea1", "pending_view":"view://3ed05a5b-7caa-811e-af17-000caa356f04"},
+    "guards": {"database_id":"d482642f-804d-434d-825b-b230614a31e6", "data_source":"collection://e97bb689-5e44-4449-982e-71a6f568f198"},
+    "relations": {"database_id":"8f823323-40e2-4808-95ea-775a914acad5", "data_source":"collection://49d13e75-676a-4925-af4e-0cd93f3d7e9f", "open_view":"view://3ed05a5b-7caa-81b3-befb-000cb0c768ea"}
+  },
+  "read_protocol": "Use saved views, ordinary Key search, or direct page fetch. Single-source SQL hit its free quota during setup; view retrieval still worked. Do not upgrade automatically.",
+  "canonical_claims": {
+    "MAIN33":"3ed05a5b-7caa-81f3-bf4f-c7cee1f0b67e",
+    "WIDTH3":"3ed05a5b-7caa-8121-b814-fd532b3c5694",
+    "TEN40":"3ed05a5b-7caa-81a9-827f-e9b7d31c1d50",
+    "U58":"3ed05a5b-7caa-818f-8b01-f5b81f311d9d",
+    "LOCAL-RHO":"3ed05a5b-7caa-8175-90c5-e28a49e773f7",
+    "JOINT-END":"3ed05a5b-7caa-817c-87bc-f52f171dddf8",
+    "NB-CX":"3ed05a5b-7caa-8146-a0a0-d3477e195950",
+    "S53-TV":"3ed05a5b-7caa-8152-99f1-e97f3e18ef42",
+    "S62-FRONTIER":"3ed05a5b-7caa-8193-aed6-ce41331d2669",
+    "S65-ATOM":"3ed05a5b-7caa-81f7-9c45-fbc94a058959",
+    "S70-UV":"3ed05a5b-7caa-81f8-b931-da308695700a",
+    "S71-OUTER4":"3ed05a5b-7caa-8130-8245-d926c63b0913",
+    "S72-SANDWICH":"3ed05a5b-7caa-81f1-a01a-f91c42516e08",
+    "S73-WINDOW":"3ed05a5b-7caa-8181-aa69-ed2e6dd0f4cd",
+    "S74-DEGREE":"3ed05a5b-7caa-8164-8bb2-f5427a519b2e",
+    "S75-ATOM":"3ed05a5b-7caa-81e6-baac-f07704770b30",
+    "S75-EQUAL10":"3ed05a5b-7caa-8163-af85-da770690c6fc",
+    "S76-SHIFT":"3ed05a5b-7caa-8109-9391-cafa42959ae7",
+    "S76-CENTRAL":"3ed05a5b-7caa-819b-ba6e-eda591a6f9fc",
+    "S78-POWER":"3ed05a5b-7caa-8114-9df1-db9c78884a7d",
+    "S78-BLOCK":"3ed05a5b-7caa-81a2-86c6-f0538eaab706",
+    "S79-RIGIDITY":"3ed05a5b-7caa-810f-bf75-ebe688bc4668",
+    "S79-JOINT":"3ed05a5b-7caa-81be-891a-e70b23f8e027",
+    "S80-LOCAL-DEFICIT":"3ed05a5b-7caa-819e-bbef-c55679b50833",
+    "S80-JOINT-KERNEL":"3ed05a5b-7caa-8168-8fc7-e7d9fe760810",
+    "S81-BLOCK-CLT":"3ed05a5b-7caa-8141-9c47-dff51413d646",
+    "S81-THRESHOLD":"3ed05a5b-7caa-819a-9807-d104bf917ced",
+    "S82-CURVATURE":"3ed05a5b-7caa-8173-8805-eb9b776b82a2",
+    "S82-MAXWINDOW":"3ed05a5b-7caa-810c-86e1-ca872d3fafc9",
+    "KNOWN-DILATION":"3ed05a5b-7caa-81f3-8d93-e512face2d5c",
+    "KNOWN-THIN5":"3ed05a5b-7caa-8154-a24a-f13563c9441d"
+  },
+  "routes": {
+    "R-LOCAL":"3ed05a5b-7caa-81b5-b59c-e796aef97550",
+    "R-U58":"3ed05a5b-7caa-81f2-851f-fe87a06a4287",
+    "R-TEN40":"3ed05a5b-7caa-81ad-910d-f8646640da05",
+    "R-JOINT":"3ed05a5b-7caa-8195-8701-e9de5d5506dd",
+    "R-LIT":"3ed05a5b-7caa-8140-b00f-e0438fb39bf8",
+    "R-PAUSE":"3ed05a5b-7caa-819a-b6b8-cb1292242de3"
+  },
+  "aliases": "Rows with nonempty Alias of are retained history, not additional claims. Canonical views exclude them.",
+  "recovery_text": "registry/RESEARCH_CORE.md",
+  "archive_scope": "Five core historical proofs and existing S68–S82 canonical documents are online. Full historical certificates and comments are not exhaustively exported here."
+}
