@@ -1,0 +1,22 @@
+{
+  "round": "S83",
+  "synced_on": "2026-10-03",
+  "historical_archive_baseline": "S82",
+  "canonical_math_revision": "ee85f13f4ffe9fb0edcc3cbdbd96b824aa1397d2",
+  "scope": "S83 incremental Notion locations, not a replacement or full export of the S82 registry",
+  "home": "https://app.notion.com/p/3ed05a5b7caa819997e4d1db6d3c7dec",
+  "claims": {
+    "S83-GATE": "3ed05a5b-7caa-81f5-99b1-c772250a3c2a",
+    "S83-COLLISION": "3ed05a5b-7caa-8120-a1af-c4adbca96136"
+  },
+  "guards": {
+    "S83-SCALAR-GUARD": "3ed05a5b-7caa-811f-8528-dcdb900cc1ef"
+  },
+  "updated_route": {
+    "R-LOCAL": "3ed05a5b-7caa-81b5-b59c-e796aef97550"
+  },
+  "dependency": "S83-GATE plus explicit finite seed counts -> S83-COLLISION. Neither uses U58 or the Fishburn/Chan-Pak diamond bound as a proof input.",
+  "open_connection": "A fixed S62 frontier type with a few fixed-label orientation counts under partial release; LOCAL-RHO remains open.",
+  "guard_scope": "Only initial minimal-element subset-deletion counts plus their initial antichain relations fail to determine the marked pair. Does not refute MAIN33, WIDTH3, S62, conservative sufficient bounds or richer frontier information.",
+  "write_status": "Proof, report, exact-check script and evidence were committed first. Two Claims, one Guard, Uses link, R-LOCAL and workspace home were then saved and read back. No background synchronization is claimed."
+}
