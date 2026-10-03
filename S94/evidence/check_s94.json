@@ -1,0 +1,54 @@
+{
+  "actual_random_posets": 320,
+  "actual_XYZ_and_prefix_checks": 3068,
+  "general_lambda_selector_checks": 244,
+  "qualified_random_selectors": 60,
+  "random_endpoint_failures": 0,
+  "independent_old_projection_cases": 28,
+  "old_order_fibres": 284,
+  "multithreshold_family_instances": 64,
+  "illustration_38_points": {
+    "n": 38,
+    "L": 32,
+    "d": 4,
+    "E": 224460,
+    "eQ": 20,
+    "Gamma": "1",
+    "theta": "1/11223",
+    "delta": "4546/56115",
+    "group": [18184,17500,16816,16132,15448,14764,14080,13396,12712,11536,10417,9355,8350,7402,6511,5677,4900,4180,3534,2958,2448,2000,1610,1274,988,748,550,390,264,168,98,50,20],
+    "fixed_ranks": {
+      "32": [12256,12256,12256,12256,12256,12256,12256,12256,12256,11574,10892,10210,9528,8846,8164,7482,6800,6118,5472,4862,4288,3750,3248,2782,2352,1958,1600,1278,992,742,528,350,340],
+      "33": [6612,6612,6612,6612,6612,6612,6612,6612,6783,6783,6783,6783,6783,6783,6783,6783,6900,6900,6900,6900,6900,6900,6900,6900,6900,6900,6900,6900,6900,6900,6900,6900,6900]
+    },
+    "selected": [[8,32,"31603/56115","24512/56115"]],
+    "general_lambda_checks": 2,
+    "qualified": true,
+    "endpoint_failure": false,
+    "p_x_before_y": "78403/112230",
+    "selected_index": 8,
+    "T8": "4907/11223",
+    "p_a8_before_x": "31603/56115",
+    "p_a8_before_y": "493/645"
+  },
+  "group_median_guard": {
+    "n": 20,"E": 380,"median_index": 6,"T6": "91/190",
+    "marginal_at_6": "13/19","balance_at_6": "6/19",
+    "safe_index": 7,"T7": "39/95","balance_at_7": "7/19"
+  },
+  "individual_monotonicity_guard": {
+    "n": 5,"E": 25,"group": [13,9,3],
+    "fixed_ranks": {"2": [10,10,5],"3": [7,9,9]}
+  },
+  "independent_full_permutation_cases": [
+    {"n": 5,"E": 25,"group": [13,9,3],"fixed_ranks": {"2": [10,10,5],"3": [7,9,9]}},
+    {"n": 7,"E": 96,"group": [48,32,16],"fixed_ranks": {"2": [32,32,32],"3": [32,32,32]}},
+    {"n": 8,"E": 132,"group": [57,43,23,9],"fixed_ranks": {"3": [41,41,29,21],"4": [30,34,34,34]}}
+  ],
+  "terminal_condition_guards": [
+    {"L": 16,"d": 2,"theta": "561/1225","Gamma": "1/17","endpoint_failure": true},
+    {"L": 20,"d": 2,"theta": "861/1891","Gamma": "1/21","endpoint_failure": true},
+    {"L": 32,"d": 2,"theta": "2145/4753","Gamma": "1/33","endpoint_failure": true}
+  ],
+  "status": "ALL_ASSERTIONS_PASSED"
+}
