@@ -1,0 +1,37 @@
+{
+  "updated": "2026-10-03",
+  "mathematical_baseline": "S87",
+  "canonical_math_commit": "458f7b40e8df905027abf462ec25e7024a27e16b",
+  "canonical_branch": "automation/s87-20261003",
+  "canonical_report": "S87/REPORT.md",
+  "canonical_proof": "S87/notes/PROOF.md",
+  "home": "https://app.notion.com/p/3ed05a5b7caa819997e4d1db6d3c7dec",
+  "claims": {
+    "S87-TWO-NEUTRAL": "3ee05a5b-7caa-811b-8ef8-db85d51d4677",
+    "S87-GUARD-REPAIR": "3ee05a5b-7caa-813a-b24a-d1a78e8cf745"
+  },
+  "affected_route": {
+    "R-LOCAL": "3ed05a5b-7caa-81b5-b59c-e796aef97550"
+  },
+  "dependencies": [
+    {
+      "from": "S86-PROMOTION",
+      "to": "S87-TWO-NEUTRAL",
+      "type": "SPECIALIZE",
+      "reason": "The general marked-rank interface closes to six integers when the chain has exactly two old neutral incomparable labels."
+    },
+    {
+      "from": "S87-TWO-NEUTRAL",
+      "to": "S87-GUARD-REPAIR",
+      "type": "USE",
+      "reason": "The exact rank-affine formula selects the middle chain label and proves the all-t 7/16 bound."
+    },
+    {
+      "from": "S87-TWO-NEUTRAL",
+      "to": "LOCAL-RHO",
+      "type": "OPEN",
+      "reason": "Still need a selection theorem forcing a usable two-neutral chain segment or an endpoint-to-rho alternative."
+    }
+  ],
+  "sync_boundary": "S87 research files and Notion claim pages are written. The automation runtime blocked fast-forwarding main and blocked direct updates to existing Notion Route/Home pages; canonical S87 files remain on automation/s87-20261003 until a later permitted merge/update."
+}
