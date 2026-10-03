@@ -1,0 +1,30 @@
+{
+  "updated":"2026-10-03",
+  "mathematical_baseline":"S85",
+  "canonical_math_commit":"b2eb26235c1b20c1112a29e07fa73b91dc95eee5",
+  "canonical_parent":"online S84 @02d60e5937a84140c1b893559dce3daff025f42b",
+  "canonical_report":"S85/REPORT.md",
+  "canonical_proof":"S85/notes/PROOF.md",
+  "scope":"S85 incremental index, not a full Notion export or independent mathematical certification. The different conversation-carried local S84 variant is not overwritten.",
+  "home":"https://app.notion.com/p/3ed05a5b7caa819997e4d1db6d3c7dec",
+  "claims":{
+    "S85-WINDOW":"3ee05a5b-7caa-81a5-9d59-c1167e6889ca",
+    "S85-CORE7":"3ee05a5b-7caa-8133-8830-ddb48da7c7d0",
+    "S85-MENU":"3ee05a5b-7caa-81c4-a1d0-c798f2b9b837"
+  },
+  "guards":{
+    "S85-TWOSIDED-GUARD":"3ee05a5b-7caa-813b-bd78-ec14f2c6b702"
+  },
+  "affected_route":{"R-LOCAL":"3ed05a5b-7caa-81b5-b59c-e796aef97550"},
+  "dependencies":[
+    {"from":"S84-ATTACH","to":"S85-WINDOW","type":"SCOPE","reason":"The self-contained two-sided layout theorem contains the earlier predecessor-only theorem as D empty; not a reliance on U58."},
+    {"from":"S84-CORE7","to":"S85-CORE7","type":"MOTIVE","reason":"Same seven-point core; the new four-type intersection certificate is explicitly recomputed."},
+    {"from":"S85-WINDOW","to":"S85-CORE7","type":"USE","reason":"Finite 22-event certificate and strictness lemma lift to every compatible finite exterior."},
+    {"from":"S85-WINDOW","to":"S85-MENU","type":"USE","reason":"The linear-inequality version preserves three common candidate constraints."},
+    {"from":"S62-FRONTIER","to":"S85-MENU","type":"MOTIVE","reason":"Compatible majority-direction certificates; the particular two-candidate example has a direct proof."},
+    {"from":"S85-TWOSIDED-GUARD","to":"UNCONDITIONAL_ONE_SIDED_TO_TWO_SIDED","type":"REFUTE","reason":"Same successor set with a nonempty old predecessor set gives p>2/3 for all integer t>=2. Does not refute S84 under its hypotheses."},
+    {"from":"S85-WINDOW","to":"LOCAL-RHO","type":"OPEN","reason":"A finite low-balance hypothesis has not been shown to select a bounded core with feasible window or compatible-direction certificates."}
+  ],
+  "next_target":"Move a real exterior obstruction into the induced core, preserve old candidates and add pairs with the new core point; prove a common direction constraint or a decreasing obstruction for this actual step. Core-size control remains open.",
+  "recovery":"Canonical proof, report, standard-library verifier and exact output are online in S85/. Earlier deep historical certificates remain subject to the S82 archive limits."
+}
