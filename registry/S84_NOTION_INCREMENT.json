@@ -1,0 +1,27 @@
+{
+  "updated": "2026-10-03",
+  "mathematical_baseline": "S84",
+  "canonical_math_commit": "02d60e5937a84140c1b893559dce3daff025f42b",
+  "canonical_report": "S84/REPORT.md",
+  "canonical_proof": "S84/notes/PROOF.md",
+  "scope": "S84 incremental index only; existing S82/S83 records and archive boundaries are preserved. Not a full workspace export or external mathematical certification.",
+  "home": "https://app.notion.com/p/3ed05a5b7caa819997e4d1db6d3c7dec",
+  "claims": {
+    "S84-ATTACH": "3ee05a5b-7caa-81eb-8df3-c0cfcb7312bd",
+    "S84-TAIL": "3ee05a5b-7caa-81a3-8488-ef8dd2259b47",
+    "S84-CORE7": "3ee05a5b-7caa-818a-93e8-dab6c9e73b9e",
+    "S84-FIVE-FAIL": "3ee05a5b-7caa-8186-9882-e481ee81c9b7"
+  },
+  "guards": {
+    "S84-RELEASE-GUARD": "3ee05a5b-7caa-81f7-a228-dbe3b4dc8af8"
+  },
+  "affected_route": {
+    "R-LOCAL": "3ed05a5b-7caa-81b5-b59c-e796aef97550"
+  },
+  "actual_dependencies": [
+    {"from":"S84-ATTACH","to":"S84-CORE7","type":"USE","reason":"Finite joint-tail certificate plus general attachment theorem"},
+    {"from":"S84-TAIL","to":"S84-FIVE-FAIL","type":"USE","reason":"Exact binomial profile formula and signed endpoint analysis"},
+    {"from":"S84-ATTACH","to":"LOCAL-RHO","type":"OPEN","reason":"Global finite hypothesis does not yet select a core and fixed labels satisfying tail constraints"}
+  ],
+  "recovery": "Proof, executable standard-library verifier, exact output and exploration boundaries are online in S84/. Full deep historical certificates remain subject to the S82 archive inventory."
+}
