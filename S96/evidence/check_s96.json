@@ -1,0 +1,6 @@
+{
+  "checks": {"posets":180,"root_configurations":540,"log_concavity_checks":1230,"gate_rank_equalities":1122,"tail_bounds":3800,"five_count_certificates":163},
+  "guard9": {"p":[0,5,0,4,13,29,0,68,204],"B":[2,3],"roots":[0,6],"E":737,"E_j":[737,367,105],"marked":[[187,133,60],[183,129,45]],"B_before_root_counts":[[496,225],[500,245]],"entry_pair_count":380,"independent_full_permutation_extensions":737},
+  "certificate21": {"p":[0,1,3,7,15,31,63,127,255,511,1023,2047,0,4096,12295,28679,0,65536,196639,458783,983071],"B":[0,1,2,3,4,5,6,7,8,9,10,11],"roots":[12,16],"E":24172740,"initial_marked":[[4215480,2959380],[4311300,3069990]],"geometric_upper_probabilities":["4936186564/8434271865","1475183150/2381417769"],"certified_interval_x_before_y":["906234619/2381417769","4936186564/8434271865"],"actual_probability":"585952/1208637","actual_marked":[[4215480,2959380,1975860,1232160,695520,360360,168168,72072,27720,9240,2520,504,56],[4311300,3069990,2096010,1356600,819000,450450,210210,90090,34650,11550,3150,630,70]],"state_count":297},
+  "scope":"finite diagnostics only; the general argument is in notes/PROOF.md"
+}
