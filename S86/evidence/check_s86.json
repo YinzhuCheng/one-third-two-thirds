@@ -1,0 +1,40 @@
+{
+  "round": "S86",
+  "status": "passed",
+  "seed": 861003,
+  "scope": "Diagnostic checks only; general statements are proved in notes/PROOF.md. No main conjecture certified.",
+  "promotion_cases": 121,
+  "promotion_totals": {"sections": 2894, "old_pair_identities": 4028, "new_pair_identities": 2281},
+  "promotion_examples": [
+    {"core_size": 4, "old_extensions": 2, "new_extensions": 2, "old_events": 2, "new_events": 2, "sections": 10, "old_pair_identities": 12, "new_pair_identities": 8},
+    {"core_size": 3, "old_extensions": 1, "new_extensions": 1, "old_events": 2, "new_events": 2, "sections": 8, "old_pair_identities": 6, "new_pair_identities": 6},
+    {"core_size": 7, "old_extensions": 18, "new_extensions": 38, "old_events": 22, "new_events": 116, "sections": 928, "old_pair_identities": 2436, "new_pair_identities": 812}
+  ],
+  "independent_full_permutation_cases": 4,
+  "width_three_bad_layout": {
+    "predecessor_masks": [0,1,0,3,911,131,1951,3,135,391,399],
+    "linear_extensions": 349,
+    "width": 3,
+    "core_order": [0,1,2,3,5,4,6],
+    "exterior_order": [7,8,10,9],
+    "slots": [2,3,4,5],
+    "core_event_constraints": [[[3,112],2],[[7,80],3],[[7,80],5],[[15,64],4]],
+    "refutes": "Width-three constraints alone do not eliminate every bad S85 window cell; not a conjecture counterexample."
+  },
+  "no_proper_core_family": [
+    {"chain_length": 2, "all_proper_nonchain_cores_checked": 2},
+    {"chain_length": 3, "all_proper_nonchain_cores_checked": 6},
+    {"chain_length": 4, "all_proper_nonchain_cores_checked": 14},
+    {"chain_length": 5, "all_proper_nonchain_cores_checked": 30},
+    {"chain_length": 6, "all_proper_nonchain_cores_checked": 62},
+    {"chain_length": 7, "all_proper_nonchain_cores_checked": 126},
+    {"chain_length": 8, "all_proper_nonchain_cores_checked": 254},
+    {"chain_length": 9, "all_proper_nonchain_cores_checked": 510},
+    {"chain_length": 10, "all_proper_nonchain_cores_checked": 1022}
+  ],
+  "inflated_fixed_pair_checks": 9162,
+  "gap_projection_checks": 11188,
+  "capacity_extremum_checks": 237,
+  "novelty_claim": false,
+  "minimality_claim": false
+}
