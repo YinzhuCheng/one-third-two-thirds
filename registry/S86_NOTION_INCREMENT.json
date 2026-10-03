@@ -1,0 +1,25 @@
+{
+  "updated": "2026-10-03",
+  "mathematical_baseline": "S86",
+  "canonical_math_commit": "25b4afd50cc37ddac71fbe0b6feb084010c2fa4b",
+  "canonical_report": "S86/REPORT.md",
+  "canonical_proof": "S86/notes/PROOF.md",
+  "next_session_commit": "ea468d4e6c4d604944617301567231f2af803933",
+  "home": "https://app.notion.com/p/3ed05a5b7caa819997e4d1db6d3c7dec",
+  "claims": {
+    "S86-PROMOTION": "3ee05a5b-7caa-818d-8133-f59d840f7dfb",
+    "S86-NO-PROPER-CORE": "3ee05a5b-7caa-81dc-bd6e-d23ba671a7c4"
+  },
+  "guards": {
+    "S86-CORE-SIZE-GUARD": "3ee05a5b-7caa-818f-8e64-c48df7f2b4d0"
+  },
+  "affected_route": {"R-LOCAL": "3ed05a5b-7caa-81b5-b59c-e796aef97550"},
+  "dependencies": [
+    {"from":"S85-WINDOW","to":"S86-PROMOTION","type":"USE","reason":"Uses the window-event framework; rank-deletion section proof is self-contained"},
+    {"from":"S86-PROMOTION","to":"LOCAL-RHO","type":"OPEN","reason":"Preservation of passing certificates is not repair or a selection theorem"},
+    {"from":"S86-NO-PROPER-CORE","to":"UNCONDITIONAL-TYPE-ONLY-BOUNDED-CORE","type":"REFUTE","reason":"All proper cores fail for chain plus singleton; same-type multiplicity growth defeats all core pairs"},
+    {"from":"S82-MAXWINDOW","to":"S86-NO-PROPER-CORE","type":"MOTIVE","reason":"Prior witness-escape background; no new claim to the basic asymptotic mechanism"}
+  ],
+  "boundary": "No main-conjecture counterexample; incomparability degree is unbounded in the obstruction. Fixed-degree or global-low-balance conditional core selection remains open. Capacity/median calibration is elementary background, not a new width-two existence theorem.",
+  "scope": "Incremental research index only, not a full Notion export or independent mathematical certification. S82 historical archive and prior S83-S85 sources are preserved."
+}
