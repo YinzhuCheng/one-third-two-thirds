@@ -1,0 +1,22 @@
+{
+  "updated": "2026-10-03",
+  "mathematical_baseline": "S94",
+  "canonical_math_commit": "15efe7c2b751e517507bf777118c82076ac8d9c2",
+  "canonical_report": "S94/REPORT.md",
+  "canonical_proof": "S94/notes/PROOF.md",
+  "parent_math_commit": "ee0a07c9d70a803fddd4e1cf4b5a1b906c899c0d",
+  "claims": {
+    "S94-TWO-ENTRY": "3ee05a5b-7caa-814d-8856-f7a2e88573b1",
+    "S94-MULTIRELEASE": "3ee05a5b-7caa-816a-859c-f7bea5119bbd"
+  },
+  "guards": {"S94-GROUP-GUARD": "3ee05a5b-7caa-8188-beca-f9e5c2224f10"},
+  "affected_route": {"R-LOCAL": "3ed05a5b-7caa-81b5-b59c-e796aef97550"},
+  "actual_dependencies": [
+    {"from":"S93-RELEASE","to":"S94-TWO-ENTRY","type":"SCOPE","reason":"Group first-event extends the S93 fixed-fibre FKG proof; XYZ is an additional literature input"},
+    {"from":"Shepp XYZ (1982)","to":"S94-TWO-ENTRY","type":"USE","reason":"Same-pivot event correlation turns [1/3,4/9] group survival into a fixed label"},
+    {"from":"S94-TWO-ENTRY","to":"S94-MULTIRELEASE","type":"USE","reason":"d=4, Gamma=1, arbitrary release thresholds"},
+    {"from":"S94-TWO-ENTRY","to":"LOCAL-RHO","type":"OPEN","reason":"No universal decomposition or terminal-branch transfer has been proved"}
+  ],
+  "scope":"Incremental index only; claims remain PROOF_DRAFT. FKG and XYZ are classical, no priority or external review certification. S87–S90 variants not globally merged or audited.",
+  "automation":"disabled"
+}
