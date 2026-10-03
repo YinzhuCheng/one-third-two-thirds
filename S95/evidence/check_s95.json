@@ -1,0 +1,60 @@
+{
+  "general_three_chain_cases": 180,
+  "qualified_long_prefix_cases": 36,
+  "joint_XYZ_checks": 2013,
+  "exact_prefix_and_split_indices": 2229,
+  "monotone_labelled_swap_comparisons": 4026,
+  "general_lambda_checks": 79,
+  "front5_cases_without_entry_partner": 0,
+  "terminal_long_prefix_cases": 0,
+  "infinite_family_diagnostic_cases": 48,
+  "independent_large_grid": {
+    "E": 750350286,
+    "prefix32_count": 444454650,
+    "selected_direction_counts": [407038834, 610222734]
+  },
+  "genuine_terminal_example": {
+    "n": 261,
+    "R": 256,
+    "E": 750350286,
+    "first_atom": "785903/53596449",
+    "last_atom": "5/375175143",
+    "selected": {
+      "index": 48,
+      "label": 256,
+      "joint": "165944537/375175143",
+      "direction": "203519417/375175143",
+      "balance": "171655726/375175143"
+    },
+    "initial": {
+      "L": 32,
+      "d": 4,
+      "theta": "24691925/41686127",
+      "theta_float": 0.5923295536666191,
+      "has_entry_partner": false,
+      "last_directions": {
+        "256": "253418941/375175143",
+        "259": "544725/622181"
+      }
+    },
+    "general_lambda_checks": 3,
+    "no_entry_partner_front": null,
+    "states": 2012,
+    "entries": [256, 259],
+    "entrance_x_before_y": "280721999/375175143"
+  },
+  "independent_full_permutation_cases": [
+    {"n": 6, "E": 54, "swap_injection_checks": 20},
+    {"n": 7, "E": 82, "swap_injection_checks": 40},
+    {"n": 8, "E": 176, "swap_injection_checks": 99}
+  ],
+  "long_chain_guard_cases": [
+    {"R": 1, "E": 2860, "T1": "1/13", "b1_before_x": "1/10", "b1_before_y": "1/4"},
+    {"R": 2, "E": 43743700, "T1": "1/13", "b1_before_x": "1/10", "b1_before_y": "1/4"},
+    {"R": 3, "E": 860375435920, "T1": "1/13", "b1_before_x": "1/10", "b1_before_y": "1/4"},
+    {"R": 4, "E": 18861013993849300, "T1": "1/13", "b1_before_x": "1/10", "b1_before_y": "1/4"},
+    {"R": 5, "E": 439377218993877615360, "T1": "1/13", "b1_before_x": "1/10", "b1_before_y": "1/4"},
+    {"R": 6, "E": 10641898340473282669586800, "T1": "1/13", "b1_before_x": "1/10", "b1_before_y": "1/4"}
+  ],
+  "record_boundary": "本次完整原始输出的摘要。省略随机样本明细与261点例子的完整直方图/前驱掩码；完整输出在ZIP的evidence/check_s95_full.json，运行src/check_s95.py也会重新生成完整输出。摘要数字均取自实际运行，未将重复运行累加。"
+}
