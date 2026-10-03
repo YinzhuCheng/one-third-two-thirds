@@ -1,0 +1,17 @@
+{
+  "round":"S96",
+  "date":"2026-10-04",
+  "mathematical_snapshot":"cfc4a23d87f002761d896fc93a02a1c9f6dc23d2",
+  "claims":{
+    "S96-MARKED-LC":{"page_id":"3ee05a5b-7caa-81d8-91f0-c6b1180aef32","state":"KNOWN_COROLLARY"},
+    "S96-TAIL-CERT":{"page_id":"3ee05a5b-7caa-8156-aeb2-e9b0b2ab44d2","state":"PROOF_DRAFT"},
+    "S96-MC3":{"page_id":"3ee05a5b-7caa-8123-a258-c5cb8ab0e2c2","state":"OPEN"}
+  },
+  "guard":{"key":"S96-EARLY-JUMP","page_id":"3ee05a5b-7caa-8176-95b7-c873eee2abac"},
+  "handoff_page":{"page_id":"3ee05a5b-7caa-81e6-be71-f58636c56b6e","title":"S96交接｜研究总图、证据层级与下一断点"},
+  "route":{"page_id":"3ed05a5b-7caa-81b5-b59c-e796aef97550","key":"R-LOCAL","status":"S95 pending route note completed; S96 properties and content updated","canonical_next_session_commit":"02499d66fd47d36e0a53e308493f4a509d6415f0"},
+  "workbench":{"page_id":"3ed05a5b-7caa-8199-97e4-d1db6d3c7dec","status":"S96 current panel added, old S86 panel retained as history"},
+  "dependencies":[["S95-AVOIDANCE","S96-MARKED-LC","USE"],["S95-AVOIDANCE","S96-TAIL-CERT","USE"],["S96-MARKED-LC","S96-TAIL-CERT","USE"],["S96-EARLY-JUMP","S96-MC3","GUARD/MOTIVATE"]],
+  "archive_limit":"Full historical S82 ZIP (140222634 bytes) was located in Library but raw materialization was denied; not claimed uploaded or fully included.",
+  "automation":"hourly task remains disabled"
+}
