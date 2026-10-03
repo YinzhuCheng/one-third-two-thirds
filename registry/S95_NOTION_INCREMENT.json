@@ -1,0 +1,25 @@
+{
+  "round": "S95",
+  "mathematical_revision": "0b641fce17a7211b133d70b9d31bba420bdf7374",
+  "canonical_proof": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/0b641fce17a7211b133d70b9d31bba420bdf7374/S95/notes/PROOF.md",
+  "claims": {
+    "S95-AVOIDANCE": "3ee05a5b-7caa-81ac-abea-e6278adf2f83",
+    "S95-TERMINAL": "3ee05a5b-7caa-8182-9889-c5f7782b220b"
+  },
+  "dependencies": {
+    "S95-AVOIDANCE": ["S94-TWO-ENTRY"],
+    "S95-TERMINAL": ["S95-AVOIDANCE", "S94-TWO-ENTRY"]
+  },
+  "claim_state": "PROOF_DRAFT",
+  "claim_write_status": "CREATED",
+  "verification": "S95-TERMINAL was fetched after creation and Uses update; its content, scope, dependencies and canonical revision matched.",
+  "route": {
+    "page_id": "3ed05a5b-7caa-81b5-b59c-e796aef97550",
+    "key": "R-LOCAL",
+    "status": "UPDATE_PENDING",
+    "reason": "Fetch was blocked before content was returned: This tool call was blocked by OpenAI because we couldn't determine the safety status of the request. No attempt to bypass the block or rewrite an unfetched route was made.",
+    "intended_next_step": "S95之后：宽度三的S94大末端分支已由实际避入口链闭合。现在在严格低平衡反设中保留不同极小元选择共享的完整计数，研究第2至第5步的大联合突降能否迫使固定方向菜单。五步是前缀位置界，不是有限点数核；R=1及极小元较少情形仍需另行处理。",
+    "intended_canonical": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/f8a410f7e82ee8f8cf90a06dbcecb21697761863/09_NEXT_SESSION.md",
+    "intended_stage": "OPEN"
+  }
+}
