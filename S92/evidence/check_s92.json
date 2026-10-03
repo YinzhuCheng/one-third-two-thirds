@@ -1,0 +1,31 @@
+{
+  "chain_block_posets": 400,
+  "central_rank_identities": 2400,
+  "actual_prefix_direction_identities": 800,
+  "arbitrary_block_shape_posets": 60,
+  "all_parameter_quantile_diagnostics": 640,
+  "quantile_extra_full_poset_dp": 111,
+  "symmetric_congestion_examples": [
+    {"n":0,"extensions_per_shape_factor":64,"p_x_before_c3":"3/8","p_x_before_c4":"5/8","central_atom":"1/4","epsilon3":"57/64","chi3":"15/64"},
+    {"n":1,"extensions_per_shape_factor":300,"p_x_before_c3":"1/3","p_x_before_c4":"2/3","central_atom":"1/3","epsilon3":"293/300","chi3":"33/100"},
+    {"n":2,"extensions_per_shape_factor":1000,"p_x_before_c3":"3/10","p_x_before_c4":"7/10","central_atom":"2/5","epsilon3":"993/1000","chi3":"399/1000"},
+    {"n":3,"extensions_per_shape_factor":2695,"p_x_before_c3":"3/11","p_x_before_c4":"8/11","central_atom":"5/11","epsilon3":"384/385","chi3":"1224/2695"},
+    {"n":4,"extensions_per_shape_factor":6272,"p_x_before_c3":"1/4","p_x_before_c4":"3/4","central_atom":"1/2","epsilon3":"895/896","chi3":"3135/6272"},
+    {"n":5,"extensions_per_shape_factor":13104,"p_x_before_c3":"3/13","p_x_before_c4":"10/13","central_atom":"7/13","epsilon3":"1871/1872","chi3":"7055/13104"},
+    {"n":6,"extensions_per_shape_factor":25200,"p_x_before_c3":"3/14","p_x_before_c4":"11/14","central_atom":"4/7","epsilon3":"3599/3600","chi3":"2057/3600"},
+    {"n":7,"extensions_per_shape_factor":45375,"p_x_before_c3":"1/5","p_x_before_c4":"4/5","central_atom":"3/5","epsilon3":"45368/45375","chi3":"27224/45375"},
+    {"n":8,"extensions_per_shape_factor":77440,"p_x_before_c3":"3/16","p_x_before_c4":"13/16","central_atom":"5/8","epsilon3":"77433/77440","chi3":"48399/77440"}
+  ],
+  "independent_full_permutation_cases":3,
+  "explicit_width3_example":{"predecessor_masks":[0,1,3,455,463,479,0,0,192,448,967,1991,4039],"C":[0,1,2,3,4,5],"x":9,"A":[6,7],"s":8,"u":10,"B":[11,12],"extensions":2000,"x_rank_counts":[40,160,400,800,400,160,40],"three_antichain":[6,7,0]},
+  "selected_symmetric_witnesses":[
+    {"L":5,"selected_A_rank":2,"probability_c1_before_a":"85/156","balance":"71/156","guaranteed":"1/3"},
+    {"L":10,"selected_A_rank":3,"probability_c1_before_a":"1139/2184","balance":"1045/2184","guaranteed":"11/28"},
+    {"L":30,"selected_A_rank":7,"probability_c1_before_a":"113785/227392","balance":"113607/227392","guaranteed":"31/68"},
+    {"L":1000,"selected_A_rank":207,"probability_c1_before_a":"4706591315/9417576224","balance":"4706591315/9417576224","guaranteed":"1001/2008"}
+  ],
+  "generic_collision_posets":50,
+  "generic_collision_inequalities":193,
+  "status":"passed",
+  "external_review":false
+}
