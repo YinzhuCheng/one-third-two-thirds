@@ -1,0 +1,23 @@
+{
+  "updated": "2026-10-03",
+  "mathematical_baseline": "S92",
+  "canonical_math_commit": "e3c06c94087b6653a207900d0420a71d7b664b09",
+  "canonical_report": "S92/REPORT.md",
+  "canonical_proof": "S92/notes/PROOF.md",
+  "scope": "Incremental index only, not a full workspace export or external mathematical certification.",
+  "claims": {
+    "S92-COLLISION": "3ee05a5b-7caa-8160-ad7e-cbd3a468dc4b",
+    "S92-TARGET-OBSTRUCTION": "3ee05a5b-7caa-81e0-a206-c8a2f0e0512d",
+    "S92-QUANTILE": "3ee05a5b-7caa-81e3-a5b0-e31379da953e"
+  },
+  "guards": {"S92-TARGET-GUARD":"3ee05a5b-7caa-81eb-b1ed-c7d7768596bd"},
+  "affected_route": {"R-LOCAL":"3ed05a5b-7caa-81b5-b59c-e796aef97550"},
+  "next_session_commit": "ef9fa8414b33602590aab4157b7f981312afa8bf",
+  "actual_dependencies": [
+    {"from":"S91-SPLITTER-PENALTY","to":"S92-COLLISION","type":"USE","reason":"Complete-prefix/suffix fibre decomposition; simultaneous-event refinement is a direct corollary."},
+    {"from":"S92-TARGET-OBSTRUCTION","to":"S92-QUANTILE","type":"USE","reason":"Uses the two-gate family's exact total completion counts, not the logical negation of fixed-target selection."},
+    {"from":"S92-TARGET-GUARD","to":"FIXED-X-HIGH-CONGESTION","type":"REFUTE","reason":"High congestion and a central half crossing do not unconditionally imply any balanced partner for that same x."},
+    {"from":"S92-QUANTILE","to":"LOCAL-RHO","type":"OPEN","reason":"No universal capacity-controlled two-label migration theorem under global low balance has been proved."}
+  ],
+  "preserved_limits": "MAIN33/WIDTH3/TEN40 remain open; U58 not certified. Prior S87-S90 variants not merged or certified by round-number progression."
+}
