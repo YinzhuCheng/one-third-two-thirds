@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "core_stats": {
+    "extensions": 18,
+    "c0": 4,
+    "c1": 8,
+    "h": 3,
+    "b0": 2,
+    "b1": 6,
+    "i": 1
+  },
+  "direct_total_checks": 8,
+  "direct_event_checks": 36,
+  "t_range": [1, 8],
+  "rows": [
+    {"t":1,"E":38,"chosen_r":1,"chosen_U":24,"chosen_balance":"7/19","best_r":1,"best_balance":"7/19"},
+    {"t":2,"E":64,"chosen_r":1,"chosen_U":33,"chosen_balance":"31/64","best_r":1,"best_balance":"31/64"},
+    {"t":3,"E":96,"chosen_r":1,"chosen_U":42,"chosen_balance":"7/16","best_r":1,"best_balance":"7/16"},
+    {"t":4,"E":134,"chosen_r":2,"chosen_U":70,"chosen_balance":"32/67","best_r":2,"best_balance":"32/67"},
+    {"t":5,"E":178,"chosen_r":2,"chosen_U":82,"chosen_balance":"41/89","best_r":2,"best_balance":"41/89"},
+    {"t":6,"E":228,"chosen_r":3,"chosen_U":119,"chosen_balance":"109/228","best_r":3,"best_balance":"109/228"},
+    {"t":7,"E":284,"chosen_r":3,"chosen_U":134,"chosen_balance":"67/142","best_r":3,"best_balance":"67/142"},
+    {"t":8,"E":346,"chosen_r":4,"chosen_U":180,"chosen_balance":"83/173","best_r":4,"best_balance":"83/173"}
+  ],
+  "scope": "Actual standard-library ideal-DP checks performed in this run. Finite checks are diagnostic; the all-t theorem is proved analytically in S87/notes/PROOF.md."
+}
