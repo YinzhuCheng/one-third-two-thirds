@@ -1,6 +1,6 @@
 # 下一会话断点 · 数学S84 / 2026-10-03
 
-先读AGENTS、CURRENT_RESEARCH、00和本页，再按问题选择原稿。01/03/05保留S82总图；后续增量见[S83报告](S83/REPORT.md)、[S84报告](S84/REPORT.md)。日常不必先上传ZIP。Notion旧核心稳定ID见[registry/notion_locations.json](registry/notion_locations.json)，S83/S84分别见[旧增量](registry/S83_NOTION_INCREMENT.json)、[本轮增量](registry/S84_NOTION_INCREMENT.json)。GitHub是规范主档，Notion是结构索引；没有后台自动研究。
+先读AGENTS、CURRENT_RESEARCH、00和本页，再按问题选择原稿。01/03/05保留S82总图；后续增量见[S83报告](S83/REPORT.md)、[S84报告](S84/REPORT.md)。日常不必先上传ZIP。Notion旧核心稳定ID见[registry/notion_locations.json](registry/notion_locations.json)，S83/S84分别见[旧增量](S83/NOTION_SYNC.json)、[本轮增量](registry/S84_NOTION_INCREMENT.json)。GitHub是规范主档，Notion是结构索引；没有后台自动研究。
 
 ## S84已闭合什么
 
