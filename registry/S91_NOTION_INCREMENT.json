@@ -1,0 +1,24 @@
+{
+  "round": "S91",
+  "updated": "2026-10-03",
+  "mode": "interactive; hourly automation disabled",
+  "canonical_math_commit": "dff36d6ec46fc9c14110f0f9660b4642afb00d09",
+  "entry_commit": "ecc5a67fc4b340e7eaa7308fc53853aa9005abfd",
+  "canonical_proof": "S91/notes/PROOF.md",
+  "canonical_report": "S91/REPORT.md",
+  "claims": {
+    "S91-SPLITTER-PENALTY": "3ee05a5b-7caa-81ef-8000-f2df86b0c6fd",
+    "S91-NONAUTONOMOUS-FAMILY": "3ee05a5b-7caa-81a0-9feb-eb595b642189"
+  },
+  "guards": {
+    "S91-MAXWINDOW-CORRECTION": "3ee05a5b-7caa-81e1-8ec1-ef36b7deb963"
+  },
+  "route": {"R-LOCAL": "3ed05a5b-7caa-81b5-b59c-e796aef97550"},
+  "actual_dependencies": [
+    {"from":"S91-SPLITTER-PENALTY","to":"S91-NONAUTONOMOUS-FAMILY","type":"USE","reason":"Original-law defect bound plus reflection count and half crossing"},
+    {"from":"S82-MAXWINDOW","to":"S91-MAXWINDOW-CORRECTION","type":"KNOWN","reason":"Maximum common window equals all neutral vertices; restoration rather than new theorem"},
+    {"from":"S91-SPLITTER-PENALTY","to":"LOCAL-RHO","type":"OPEN","reason":"No general selection of a half-crossing with low splitter crowding; no completed high-crowding alternative"}
+  ],
+  "scope": "S91 only; not a full Notion export, external review, or blanket merge/certification of S87-S90 drafts.",
+  "sync": "GitHub main writes and Notion claim/guard/route writes succeeded; proof, a claim and route were read back. Homepage not rewritten this round."
+}
