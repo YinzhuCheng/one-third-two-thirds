@@ -1,0 +1,24 @@
+{
+  "complete_release_profiles": 461,
+  "profile_layout_tests": 102711,
+  "generic_actual_posets": 320,
+  "prefix_identities": 1423,
+  "generic_half_crossing_checks": 229,
+  "gamma_sufficient_checks": 114,
+  "independent_old_projection_cases": 32,
+  "old_projection_fibres": 107,
+  "perturbed_sandwich_posets": 144,
+  "illustrative_non_autonomous_examples": [
+    {"n":17,"L":6,"d":3,"E":7000,"E0":520,"G0":330,"theta":"13/175","gamma":"33/52","atoms":[1330,1330,1330,1080,830,580,520],"best":"43/100","best_index":3,"thresholds":[2,5],"lower_bound":"1/3","predecessor_masks":[0,193,1987,8135,8143,8159,0,64,192,448,960,1984,4032,8128,16327,32711,32711],"chain_A":[6,7,8,9,10,11],"target":0,"width":3},
+    {"n":19,"L":8,"d":3,"E":10660,"E0":520,"G0":330,"theta":"2/41","gamma":"33/52","atoms":[1580,1580,1580,1580,1330,1080,830,580,520],"best":"237/533","best_index":3,"thresholds":[3,7],"lower_bound":"4/11","predecessor_masks":[0,449,8131,32711,32719,32735,0,64,192,448,960,1984,4032,8128,16320,32704,65479,131015,131015],"chain_A":[6,7,8,9,10,11,12,13],"target":0},
+    {"n":23,"L":12,"d":3,"E":25400,"E0":520,"G0":330,"theta":"13/635","gamma":"33/52","atoms":[2820,2820,2820,2820,2820,2500,2180,1860,1540,1220,900,580,520],"best":"113/254","best_index":5,"thresholds":[4,10],"lower_bound":"2/5","predecessor_masks":[0,961,65475,524231,524239,524255,0,64,192,448,960,1984,4032,8128,16320,32704,65472,131008,262080,524224,1048519,2097095,2097095],"chain_A":[6,7,8,9,10,11,12,13,14,15,16,17],"target":0}
+  ],
+  "terminal_guard_examples": [
+    {"L":2,"d":1,"E":9,"theta":"7/9","gamma":"1/7","atoms":[1,1,7],"best":"2/9"},
+    {"L":4,"d":1,"E":17,"theta":"13/17","gamma":"1/13","atoms":[1,1,1,1,13],"best":"4/17"},
+    {"L":8,"d":1,"E":33,"theta":"25/33","gamma":"1/25","atoms":[1,1,1,1,1,1,1,1,25],"best":"8/33"}
+  ],
+  "sharpness_cases": 40,
+  "independent_full_permutation_cases": 3,
+  "scope": "Exact diagnostics; infinite-parameter assertions are proved in notes/PROOF.md. Not an external review."
+}
