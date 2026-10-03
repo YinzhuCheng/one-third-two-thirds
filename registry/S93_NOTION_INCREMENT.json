@@ -1,0 +1,24 @@
+{
+  "updated":"2026-10-03",
+  "mathematical_baseline":"S93",
+  "canonical_math_commit":"ee0a07c9d70a803fddd4e1cf4b5a1b906c899c0d",
+  "canonical_report":"S93/REPORT.md",
+  "canonical_proof":"S93/notes/PROOF.md",
+  "parent_math_commit":"e3c06c94087b6653a207900d0420a71d7b664b09",
+  "parent_main_commit":"bfcff654d9124fa92039b7f366428344e6bfd921",
+  "claims":{
+    "S93-RELEASE":"3ee05a5b-7caa-8148-a632-e03b0d08127c",
+    "S93-DICHOTOMY":"3ee05a5b-7caa-81d4-948f-f968ebe22b2a",
+    "S93-MULTIRELEASE":"3ee05a5b-7caa-810e-8f10-e8ceedcbe755"
+  },
+  "affected_route":{"R-LOCAL":"3ed05a5b-7caa-81b5-b59c-e796aef97550"},
+  "dependencies":[
+    {"from":"S93-RELEASE","to":"S93-DICHOTOMY","type":"USE","reason":"Nonterminal jump control and exact ideal-prefix component"},
+    {"from":"S93-RELEASE","to":"S93-MULTIRELEASE","type":"USE","reason":"Uniform quantile guarantee under arbitrary release thresholds"},
+    {"from":"S92-QUANTILE","to":"S93-MULTIRELEASE","type":"SCOPE_AND_COUNT_INPUT","reason":"Same sandwich Q counts; unchanged old H polynomial is not reused for perturbed P"},
+    {"from":"S93-DICHOTOMY","to":"LOCAL-RHO","type":"OPEN","reason":"No general core selection or identity with S53 rho proved"}
+  ],
+  "notion_state":"PROOF_DRAFT",
+  "next_session_commit":"562b578949a76bddb3a2dd4dbc7354daa6b9acd9",
+  "scope":"Increment only, not a full Notion export or mathematical certification. S87-S90 variants are not silently merged."
+}
