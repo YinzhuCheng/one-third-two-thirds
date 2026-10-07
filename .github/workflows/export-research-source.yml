@@ -1,5 +1,5 @@
 name: Export research source snapshot
-# S82 handoff snapshot: file transport only, not mathematical verification.
+# S98 handoff 2026-10-08: file transport only, not mathematical verification.
 on:
   workflow_dispatch:
   push:
