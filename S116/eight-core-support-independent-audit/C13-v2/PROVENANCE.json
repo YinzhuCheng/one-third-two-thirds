@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "source": "/workspace/shared/eight-core-expanded-search/C13-four-block-theorem",
+      "manifest_sha256": "b025dacc2a1d535dc8eef8d2bd5383d357896bde87187d2dbc1c24af5de2ca96",
+      "verified_manifest_files": 4
+    },
+    {
+      "source": "/workspace/shared/eight-core-weight-independent-audit-frozen",
+      "manifest_sha256": "71c8aa797ad465f1a2fccd6e64ef3c6243cd5eb91480701d241c0da807105982",
+      "verified_manifest_files": 22
+    },
+    {
+      "source": "/workspace/shared/eight-core-expanded-search/C13-four-block-theorem-v2",
+      "manifest_sha256": "fbb2f5cef96c2700b880ab1460d1969b3fbdf8f743458012f1ed91cc2ea52e89",
+      "verified_manifest_files": 5
+    }
+  ],
+  "scope": "Corrected C13 v2 theorem only; original audit retained separately in sibling C13"
+}

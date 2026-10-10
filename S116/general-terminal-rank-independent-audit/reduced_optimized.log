@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "vectors": 41,
+  "maximum_order": 18,
+  "counts_by_ports": {
+    "(2, 2)": 7,
+    "(2, 3)": 7,
+    "(3, 2)": 7,
+    "(3, 3)": 20
+  },
+  "all_pair_checks": 1760,
+  "actual_balanced_pairs": 429,
+  "checks_use_assert": false
+}

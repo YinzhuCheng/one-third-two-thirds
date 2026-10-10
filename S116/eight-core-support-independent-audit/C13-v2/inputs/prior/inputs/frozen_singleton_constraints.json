@@ -1,0 +1,1589 @@
+[
+  {
+    "strict_up_masks": [
+      40,
+      124,
+      104,
+      32,
+      32,
+      0,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          0
+        ],
+        "cycle_representative_ports": [
+          0,
+          4,
+          5,
+          0
+        ]
+      },
+      {
+        "singleton_vertices": [
+          6
+        ],
+        "cycle_representative_ports": [
+          6,
+          7,
+          12,
+          6
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 5,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 2,
+    "necessary_total_inflation_size_from_this_filter": 9,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C01",
+    "n": 7,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ]
+    ],
+    "natural_labelled_multiplicity": 44,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 44
+  },
+  {
+    "strict_up_masks": [
+      68,
+      236,
+      64,
+      96,
+      224,
+      64,
+      0,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          7
+        ],
+        "cycle_representative_ports": [
+          11,
+          14,
+          10,
+          11
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 7,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 1,
+    "necessary_total_inflation_size_from_this_filter": 9,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C02",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "natural_labelled_multiplicity": 194,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 194
+  },
+  {
+    "strict_up_masks": [
+      72,
+      252,
+      216,
+      64,
+      192,
+      64,
+      0,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          0
+        ],
+        "cycle_representative_ports": [
+          0,
+          4,
+          5,
+          0
+        ]
+      },
+      {
+        "singleton_vertices": [
+          5
+        ],
+        "cycle_representative_ports": [
+          10,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 6,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 2,
+    "necessary_total_inflation_size_from_this_filter": 10,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C03",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "natural_labelled_multiplicity": 102,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 102
+  },
+  {
+    "strict_up_masks": [
+      72,
+      252,
+      88,
+      0,
+      64,
+      192,
+      0,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          0
+        ],
+        "cycle_representative_ports": [
+          0,
+          4,
+          5,
+          0
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 7,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 1,
+    "necessary_total_inflation_size_from_this_filter": 9,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C04",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 194,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 194
+  },
+  {
+    "strict_up_masks": [
+      84,
+      252,
+      80,
+      208,
+      64,
+      64,
+      0,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          5
+        ],
+        "cycle_representative_ports": [
+          4,
+          5,
+          10,
+          4
+        ]
+      },
+      {
+        "singleton_vertices": [
+          7
+        ],
+        "cycle_representative_ports": [
+          8,
+          9,
+          14,
+          8
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 6,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 2,
+    "necessary_total_inflation_size_from_this_filter": 10,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C05",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "natural_labelled_multiplicity": 102,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 102
+  },
+  {
+    "strict_up_masks": [
+      168,
+      252,
+      184,
+      128,
+      32,
+      0,
+      128,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          0
+        ],
+        "cycle_representative_ports": [
+          0,
+          4,
+          5,
+          0
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 7,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 1,
+    "necessary_total_inflation_size_from_this_filter": 9,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C06",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 107,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 107
+  },
+  {
+    "strict_up_masks": [
+      168,
+      252,
+      184,
+      0,
+      160,
+      128,
+      128,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          0
+        ],
+        "cycle_representative_ports": [
+          0,
+          4,
+          5,
+          0
+        ]
+      },
+      {
+        "singleton_vertices": [
+          3
+        ],
+        "cycle_representative_ports": [
+          6,
+          10,
+          11,
+          6
+        ]
+      },
+      {
+        "singleton_vertices": [
+          6
+        ],
+        "cycle_representative_ports": [
+          9,
+          12,
+          8,
+          9
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 5,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        1,
+        2,
+        4,
+        5,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 3,
+    "necessary_total_inflation_size_from_this_filter": 11,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C07",
+    "n": 8,
+    "width": 3,
+    "height": 5,
+    "cover_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 82,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 82
+  },
+  {
+    "strict_up_masks": [
+      168,
+      252,
+      136,
+      128,
+      224,
+      0,
+      128,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [],
+    "max_number_of_singleton_blocks_passing_port_filter": 8,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 0,
+    "necessary_total_inflation_size_from_this_filter": 8,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C08",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 107,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 107
+  },
+  {
+    "strict_up_masks": [
+      178,
+      16,
+      248,
+      176,
+      0,
+      128,
+      128,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [],
+    "max_number_of_singleton_blocks_passing_port_filter": 8,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 0,
+    "necessary_total_inflation_size_from_this_filter": 8,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C09",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 132,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 132
+  },
+  {
+    "strict_up_masks": [
+      178,
+      144,
+      248,
+      176,
+      128,
+      0,
+      128,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          5
+        ],
+        "cycle_representative_ports": [
+          8,
+          9,
+          10,
+          8
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 7,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 1,
+    "necessary_total_inflation_size_from_this_filter": 9,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C10",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 107,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 107
+  },
+  {
+    "strict_up_masks": [
+      68,
+      236,
+      0,
+      192,
+      224,
+      64,
+      0,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [],
+    "max_number_of_singleton_blocks_passing_port_filter": 8,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 0,
+    "necessary_total_inflation_size_from_this_filter": 8,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C11",
+    "n": 8,
+    "width": 3,
+    "height": 3,
+    "cover_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "natural_labelled_multiplicity": 318,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 318
+  },
+  {
+    "strict_up_masks": [
+      168,
+      252,
+      184,
+      128,
+      160,
+      0,
+      128,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          0
+        ],
+        "cycle_representative_ports": [
+          0,
+          4,
+          5,
+          0
+        ]
+      },
+      {
+        "singleton_vertices": [
+          6
+        ],
+        "cycle_representative_ports": [
+          9,
+          12,
+          8,
+          9
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 6,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 2,
+    "necessary_total_inflation_size_from_this_filter": 10,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C12",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 96,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 96
+  },
+  {
+    "strict_up_masks": [
+      168,
+      252,
+      232,
+      0,
+      160,
+      128,
+      128,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          0
+        ],
+        "cycle_representative_ports": [
+          0,
+          4,
+          5,
+          0
+        ]
+      },
+      {
+        "singleton_vertices": [
+          3
+        ],
+        "cycle_representative_ports": [
+          6,
+          10,
+          11,
+          6
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 6,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 2,
+    "necessary_total_inflation_size_from_this_filter": 10,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C13",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 98,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 98
+  },
+  {
+    "strict_up_masks": [
+      178,
+      144,
+      248,
+      176,
+      0,
+      128,
+      128,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [],
+    "max_number_of_singleton_blocks_passing_port_filter": 8,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 0,
+    "necessary_total_inflation_size_from_this_filter": 8,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C14",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        7
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 121,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 121
+  },
+  {
+    "strict_up_masks": [
+      180,
+      252,
+      16,
+      176,
+      0,
+      128,
+      128,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [],
+    "max_number_of_singleton_blocks_passing_port_filter": 8,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 0,
+    "necessary_total_inflation_size_from_this_filter": 8,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C15",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 121,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 121
+  },
+  {
+    "strict_up_masks": [
+      180,
+      252,
+      144,
+      176,
+      128,
+      0,
+      128,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          5
+        ],
+        "cycle_representative_ports": [
+          8,
+          9,
+          10,
+          8
+        ]
+      },
+      {
+        "singleton_vertices": [
+          6
+        ],
+        "cycle_representative_ports": [
+          4,
+          5,
+          12,
+          4
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 6,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 2,
+    "necessary_total_inflation_size_from_this_filter": 10,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C16",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 96,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 96
+  },
+  {
+    "strict_up_masks": [
+      180,
+      252,
+      144,
+      176,
+      0,
+      128,
+      128,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          6
+        ],
+        "cycle_representative_ports": [
+          4,
+          5,
+          12,
+          4
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 7,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 1,
+    "necessary_total_inflation_size_from_this_filter": 9,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C17",
+    "n": 8,
+    "width": 3,
+    "height": 4,
+    "cover_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "natural_labelled_multiplicity": 110,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 110
+  },
+  {
+    "strict_up_masks": [
+      32,
+      104,
+      248,
+      32,
+      96,
+      0,
+      0,
+      0
+    ],
+    "minimal_forbidden_singleton_subsets": [
+      {
+        "singleton_vertices": [
+          0
+        ],
+        "cycle_representative_ports": [
+          0,
+          8,
+          9,
+          0
+        ]
+      },
+      {
+        "singleton_vertices": [
+          7
+        ],
+        "cycle_representative_ports": [
+          7,
+          14,
+          6,
+          7
+        ]
+      }
+    ],
+    "max_number_of_singleton_blocks_passing_port_filter": 6,
+    "maximal_size_allowed_singleton_subsets": [
+      [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    ],
+    "necessary_number_of_nonsingleton_blocks": 2,
+    "necessary_total_inflation_size_from_this_filter": 10,
+    "interpretation": "For every listed forbidden subset S, a counterexample inflation must have at least one i in S with weight_i >= 2. This is a necessary constraint only, not a sufficiency claim.",
+    "class_id": "C18",
+    "n": 8,
+    "width": 4,
+    "height": 3,
+    "cover_edges": [
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ]
+    ],
+    "natural_labelled_multiplicity": 465,
+    "automorphisms": 1,
+    "linear_extensions_of_representative": 465
+  }
+]

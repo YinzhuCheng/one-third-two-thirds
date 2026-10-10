@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "author_vectors_matched": 41,
+  "denominators_matched": 41,
+  "independently_verified_author_pair_witnesses": 82,
+  "author_labels": "one-based within blocks",
+  "independent_labels": "zero-based within blocks",
+  "checks_use_assert": false
+}

@@ -1,0 +1,2860 @@
+{
+  "verdict": "PASS",
+  "scope": "C08,C09,C11,C14,C15: every positive-integer inflation with support cardinality <=1 has a balanced pair",
+  "classes": [
+    "C08",
+    "C09",
+    "C11",
+    "C14",
+    "C15"
+  ],
+  "exact_support_families": 40,
+  "polynomial_families": 36,
+  "inequality_families": 3,
+  "rank_crossing_families": 1,
+  "polynomial_grid_instances": 296,
+  "polynomial_and_witness_orientation_counts": 644,
+  "newton_symbolic_identities": 74,
+  "finite_and_zero_witnesses": 18,
+  "shuffle_gap_tests": 7728,
+  "records": [
+    {
+      "class_id": "C08",
+      "variable": 0,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 26,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        0,
+        6,
+        11,
+        9,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        0,
+        3,
+        5,
+        3,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        58,
+        52,
+        23,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        223,
+        262,
+        173,
+        61,
+        9,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C08",
+      "variable": 1,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 81,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        55,
+        26,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        22,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        32,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        101,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C08",
+      "variable": 2,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 33,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        3,
+        6,
+        9,
+        10,
+        5,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        6,
+        6,
+        5,
+        2,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        161,
+        118,
+        49,
+        11,
+        1,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        89,
+        124,
+        85,
+        29,
+        4,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C08",
+      "variable": 3,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 48,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        14,
+        15,
+        13,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        11,
+        10,
+        8,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        190,
+        119,
+        41,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        7,
+        8,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C08",
+      "variable": 4,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 48,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        14,
+        15,
+        13,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        11,
+        12,
+        8,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        178,
+        95,
+        26,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        19,
+        32,
+        17,
+        3,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C08",
+      "variable": 5,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 26,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        0,
+        6,
+        11,
+        9,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        0,
+        3,
+        6,
+        6,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        223,
+        262,
+        173,
+        61,
+        9,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        58,
+        52,
+        23,
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C08",
+      "variable": 6,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 33,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        3,
+        6,
+        9,
+        10,
+        5,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        2,
+        4,
+        6,
+        7,
+        3,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        245,
+        232,
+        124,
+        35,
+        4,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        5,
+        10,
+        10,
+        5,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C08",
+      "variable": 7,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 81,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        55,
+        26,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        39,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        128,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        5,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C09",
+      "variable": 0,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 51,
+      "tail_start": 2,
+      "pair": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        11,
+        17,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        11,
+        11,
+        11,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        244,
+        146,
+        46,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        22,
+        53,
+        31,
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C09",
+      "variable": 2,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 81,
+      "tail_start": 3,
+      "pair": [
+        5,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        41,
+        29,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        10,
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        3,
+        6,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        264,
+        78,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C09",
+      "variable": 3,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 54,
+      "tail_start": 2,
+      "pair": [
+        1,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        17,
+        17,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        8,
+        11,
+        8,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        103,
+        44,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        151,
+        131,
+        55,
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C09",
+      "variable": 4,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 51,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        11,
+        17,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        3,
+        6,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        58,
+        62,
+        31,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        208,
+        137,
+        46,
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C09",
+      "variable": 5,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 54,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        17,
+        17,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        4,
+        7,
+        7,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        37,
+        20,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        217,
+        155,
+        58,
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C09",
+      "variable": 7,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 81,
+      "tail_start": 3,
+      "pair": [
+        3,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        41,
+        29,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        31,
+        19,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        264,
+        78,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        3,
+        6,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C11",
+      "variable": 0,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 73,
+      "tail_start": 2,
+      "pair": [
+        1,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        8,
+        13,
+        13,
+        23,
+        16,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        8,
+        8,
+        8,
+        14,
+        10,
+        0,
+        0
+      ],
+      "lower_newton": [
+        803,
+        1040,
+        841,
+        419,
+        117,
+        14,
+        0,
+        0
+      ],
+      "upper_newton": [
+        110,
+        170,
+        142,
+        68,
+        18,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C11",
+      "variable": 1,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 154,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        40,
+        64,
+        50,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        15,
+        23,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        170,
+        105,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        362,
+        159,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C11",
+      "variable": 2,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 73,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        8,
+        13,
+        13,
+        23,
+        16,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        0,
+        0,
+        0,
+        10,
+        8,
+        0,
+        0
+      ],
+      "lower_newton": [
+        41,
+        230,
+        307,
+        197,
+        63,
+        8,
+        0,
+        0
+      ],
+      "upper_newton": [
+        872,
+        980,
+        676,
+        290,
+        72,
+        8,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C11",
+      "variable": 3,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 104,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        23,
+        31,
+        27,
+        12,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        8,
+        13,
+        12,
+        6,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        229,
+        243,
+        143,
+        45,
+        6,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        487,
+        414,
+        203,
+        54,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C11",
+      "variable": 4,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 91,
+      "tail_start": 2,
+      "pair": [
+        6,
+        0,
+        7,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        16,
+        29,
+        31,
+        15,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        7,
+        11,
+        11,
+        5,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        59,
+        41,
+        14,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        698,
+        701,
+        395,
+        119,
+        15,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C11",
+      "variable": 5,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 104,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        23,
+        31,
+        27,
+        12,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        8,
+        18,
+        22,
+        18,
+        6,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        676,
+        561,
+        260,
+        63,
+        6,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        40,
+        96,
+        86,
+        36,
+        6,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C11",
+      "variable": 6,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 154,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "denominator_coefficients": [
+        40,
+        64,
+        50,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        28,
+        44,
+        32,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        524,
+        252,
+        46,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        8,
+        12,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C11",
+      "variable": 7,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 91,
+      "tail_start": 2,
+      "pair": [
+        1,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        16,
+        29,
+        31,
+        15,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        9,
+        18,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        698,
+        701,
+        395,
+        119,
+        15,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        59,
+        41,
+        14,
+        2,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C14",
+      "variable": 0,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 48,
+      "tail_start": 2,
+      "pair": [
+        3,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        11,
+        16,
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        8,
+        8,
+        13,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        240,
+        155,
+        48,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        0,
+        20,
+        18,
+        5,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C14",
+      "variable": 1,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 39,
+      "tail_start": 2,
+      "pair": [
+        4,
+        0,
+        7,
+        0
+      ],
+      "denominator_coefficients": [
+        4,
+        9,
+        11,
+        9,
+        6,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        4,
+        7,
+        8,
+        6,
+        3,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        257,
+        214,
+        103,
+        27,
+        3,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        20,
+        49,
+        43,
+        18,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C14",
+      "variable": 2,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 73,
+      "tail_start": 2,
+      "pair": [
+        5,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        36,
+        26,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        9,
+        9,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        0,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        180,
+        65,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C14",
+      "variable": 3,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 49,
+      "tail_start": 2,
+      "pair": [
+        1,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        10,
+        15,
+        15,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        8,
+        11,
+        8,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        122,
+        54,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        113,
+        111,
+        51,
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C14",
+      "variable": 4,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 40,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        11,
+        17,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        3,
+        6,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        60,
+        62,
+        31,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        195,
+        137,
+        46,
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C14",
+      "variable": 5,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 46,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        6,
+        14,
+        17,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        6,
+        7,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        39,
+        20,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        201,
+        152,
+        58,
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C14",
+      "variable": 7,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 81,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        41,
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        18,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        28,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        133,
+        35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C15",
+      "variable": 0,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 40,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        5,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        11,
+        17,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        11,
+        11,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        222,
+        146,
+        46,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        33,
+        53,
+        31,
+        6,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C15",
+      "variable": 1,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 81,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        41,
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        11,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        70,
+        26,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        91,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C15",
+      "variable": 2,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 39,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "denominator_coefficients": [
+        4,
+        9,
+        11,
+        9,
+        6,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        2,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        20,
+        49,
+        43,
+        18,
+        3,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        257,
+        214,
+        103,
+        27,
+        3,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C15",
+      "variable": 3,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 46,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        6,
+        14,
+        17,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        8,
+        8,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        75,
+        38,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        165,
+        134,
+        55,
+        9,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C15",
+      "variable": 4,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 48,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        11,
+        16,
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        3,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        6,
+        14,
+        9,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        234,
+        161,
+        57,
+        8,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C15",
+      "variable": 5,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 49,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        10,
+        15,
+        15,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        2,
+        4,
+        7,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        113,
+        111,
+        51,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        122,
+        54,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C15",
+      "variable": 7,
+      "method": "fixed-pair polynomial",
+      "outside_fibers": 73,
+      "tail_start": 2,
+      "pair": [
+        3,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        36,
+        26,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        27,
+        17,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_newton": [
+        180,
+        65,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_newton": [
+        0,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "class_id": "C09",
+      "variable": 6,
+      "method": "strict inequality",
+      "integer_upper_bound": 2,
+      "reconstructed_rule": {
+        "target": 6,
+        "incomparable_indices": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "bottom_witnesses": [
+          3
+        ],
+        "top_witnesses": [
+          5
+        ],
+        "coefficients": [
+          -1,
+          -1,
+          0,
+          -1,
+          -1,
+          -1,
+          2,
+          0
+        ],
+        "integer_rhs": -1
+      }
+    },
+    {
+      "class_id": "C14",
+      "variable": 6,
+      "method": "strict inequality",
+      "integer_upper_bound": 2,
+      "reconstructed_rule": {
+        "target": 6,
+        "incomparable_indices": [
+          0,
+          1,
+          3,
+          4,
+          5
+        ],
+        "bottom_witnesses": [
+          3
+        ],
+        "top_witnesses": [
+          5
+        ],
+        "coefficients": [
+          -1,
+          -1,
+          0,
+          -1,
+          -1,
+          -1,
+          2,
+          0
+        ],
+        "integer_rhs": -1
+      }
+    },
+    {
+      "class_id": "C15",
+      "variable": 6,
+      "method": "strict inequality",
+      "integer_upper_bound": 2,
+      "reconstructed_rule": {
+        "target": 6,
+        "incomparable_indices": [
+          0,
+          2,
+          3,
+          4,
+          5
+        ],
+        "bottom_witnesses": [
+          3
+        ],
+        "top_witnesses": [
+          5
+        ],
+        "coefficients": [
+          -1,
+          0,
+          -1,
+          -1,
+          -1,
+          -1,
+          2,
+          0
+        ],
+        "integer_rhs": -1
+      }
+    },
+    {
+      "class_id": "C09",
+      "variable": 1,
+      "method": "rank crossing",
+      "outside_fibers": 39,
+      "incomparable_mass": 5,
+      "tail_start": 10,
+      "denominator_coefficients": [
+        4,
+        7,
+        10,
+        9,
+        6,
+        3,
+        0,
+        0
+      ],
+      "bottom_coefficients": [
+        -7,
+        -4,
+        -1,
+        3,
+        6,
+        3,
+        0,
+        0
+      ],
+      "top_coefficients": [
+        11,
+        11,
+        3,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "bottom_newton": [
+        10608,
+        5275,
+        1771,
+        390,
+        51,
+        3,
+        0,
+        0
+      ],
+      "top_newton": [
+        17340,
+        6967,
+        2029,
+        408,
+        51,
+        3,
+        0,
+        0
+      ]
+    }
+  ],
+  "witnesses": [
+    {
+      "scope": "fixed-pair finite prefix",
+      "class_id": "C09",
+      "weights": [
+        1,
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          1,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "denominator": 194,
+      "numerator": 78,
+      "reverse_numerator": 116
+    },
+    {
+      "scope": "fixed-pair finite prefix",
+      "class_id": "C09",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 194,
+      "numerator": 72,
+      "reverse_numerator": 122
+    },
+    {
+      "scope": "inequality-bounded family",
+      "class_id": "C09",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 400,
+      "numerator": 137,
+      "reverse_numerator": 263
+    },
+    {
+      "scope": "inequality-bounded family",
+      "class_id": "C14",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 374,
+      "numerator": 131,
+      "reverse_numerator": 243
+    },
+    {
+      "scope": "inequality-bounded family",
+      "class_id": "C15",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "pair": [
+        [
+          2,
+          0
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "denominator": 374,
+      "numerator": 239,
+      "reverse_numerator": 135
+    },
+    {
+      "scope": "rank-crossing finite prefix",
+      "class_id": "C09",
+      "weights": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 328,
+      "numerator": 150,
+      "reverse_numerator": 178
+    },
+    {
+      "scope": "rank-crossing finite prefix",
+      "class_id": "C09",
+      "weights": [
+        1,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 690,
+      "numerator": 353,
+      "reverse_numerator": 337
+    },
+    {
+      "scope": "rank-crossing finite prefix",
+      "class_id": "C09",
+      "weights": [
+        1,
+        4,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 1302,
+      "numerator": 723,
+      "reverse_numerator": 579
+    },
+    {
+      "scope": "rank-crossing finite prefix",
+      "class_id": "C09",
+      "weights": [
+        1,
+        5,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 2272,
+      "numerator": 1344,
+      "reverse_numerator": 928
+    },
+    {
+      "scope": "rank-crossing finite prefix",
+      "class_id": "C09",
+      "weights": [
+        1,
+        6,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 3735,
+      "numerator": 2324,
+      "reverse_numerator": 1411
+    },
+    {
+      "scope": "rank-crossing finite prefix",
+      "class_id": "C09",
+      "weights": [
+        1,
+        7,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 5856,
+      "numerator": 3798,
+      "reverse_numerator": 2058
+    },
+    {
+      "scope": "rank-crossing finite prefix",
+      "class_id": "C09",
+      "weights": [
+        1,
+        8,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 8833,
+      "numerator": 3798,
+      "reverse_numerator": 5035
+    },
+    {
+      "scope": "rank-crossing finite prefix",
+      "class_id": "C09",
+      "weights": [
+        1,
+        9,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 12900,
+      "numerator": 5931,
+      "reverse_numerator": 6969
+    },
+    {
+      "scope": "zero support",
+      "class_id": "C08",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 107,
+      "numerator": 71,
+      "reverse_numerator": 36
+    },
+    {
+      "scope": "zero support",
+      "class_id": "C09",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 132,
+      "numerator": 51,
+      "reverse_numerator": 81
+    },
+    {
+      "scope": "zero support",
+      "class_id": "C11",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "denominator": 318,
+      "numerator": 212,
+      "reverse_numerator": 106
+    },
+    {
+      "scope": "zero support",
+      "class_id": "C14",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "denominator": 121,
+      "numerator": 48,
+      "reverse_numerator": 73
+    },
+    {
+      "scope": "zero support",
+      "class_id": "C15",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "denominator": 121,
+      "numerator": 79,
+      "reverse_numerator": 42
+    }
+  ],
+  "rank_tail_validation": [
+    {
+      "t": 10,
+      "denominator": 18330,
+      "numerators": [
+        15756,
+        13644,
+        11334,
+        9009,
+        6813,
+        4853,
+        3201,
+        1896,
+        946,
+        330
+      ],
+      "balanced_zero_based_ranks": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "t": 11,
+      "denominator": 25438,
+      "numerators": [
+        22253,
+        19601,
+        16653,
+        13628,
+        10703,
+        8015,
+        5663,
+        3710,
+        2185,
+        1085,
+        377
+      ],
+      "balanced_zero_based_ranks": [
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "t": 12,
+      "denominator": 34584,
+      "numerators": [
+        30699,
+        27423,
+        23731,
+        19881,
+        16086,
+        12516,
+        9300,
+        6528,
+        4253,
+        2493,
+        1233,
+        427
+      ],
+      "balanced_zero_based_ranks": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "t": 20,
+      "denominator": 241546,
+      "numerators": [
+        228137,
+        216125,
+        201705,
+        185555,
+        168284,
+        150434,
+        132482,
+        114842,
+        97867,
+        81851,
+        67031,
+        53589,
+        41654,
+        31304,
+        22568,
+        15428,
+        9821,
+        5641,
+        2741,
+        935
+      ],
+      "balanced_zero_based_ranks": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "t": 40,
+      "denominator": 4599753,
+      "numerators": [
+        4515774,
+        4436562,
+        4336522,
+        4218222,
+        4084101,
+        3936471,
+        3777519,
+        3609309,
+        3433784,
+        3252768,
+        3067968,
+        2880976,
+        2693271,
+        2506221,
+        2321085,
+        2139015,
+        1961058,
+        1788158,
+        1621158,
+        1460802,
+        1307737,
+        1162515,
+        1025595,
+        897345,
+        778044,
+        667884,
+        566972,
+        475332,
+        392907,
+        319561,
+        255081,
+        199179,
+        151494,
+        111594,
+        78978,
+        53078,
+        33261,
+        18831,
+        9031,
+        3045
+      ],
+      "balanced_zero_based_ranks": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ]
+    },
+    {
+      "t": 100,
+      "denominator": 318914574,
+      "numerators": [
+        317795685,
+        316703673,
+        315279573,
+        313538823,
+        311496552,
+        309167582,
+        306566430,
+        303707310,
+        300604135,
+        297270519,
+        293719779,
+        289964937,
+        286018722,
+        281893572,
+        277601636,
+        273154776,
+        268564569,
+        263842309,
+        258999009,
+        254045403,
+        248991948,
+        243848826,
+        238625946,
+        233332946,
+        227979195,
+        222573795,
+        217125583,
+        211643133,
+        206134758,
+        200608512,
+        195072192,
+        189533340,
+        183999245,
+        178476945,
+        172973229,
+        167494639,
+        162047472,
+        156637782,
+        151271382,
+        145953846,
+        140690511,
+        135486479,
+        130346619,
+        125275569,
+        120277738,
+        115357308,
+        110518236,
+        105764256,
+        101098881,
+        96525405,
+        92046905,
+        87666243,
+        83386068,
+        79208818,
+        75136722,
+        71171802,
+        67315875,
+        63570555,
+        59937255,
+        56417189,
+        53011374,
+        49720632,
+        46545592,
+        43486692,
+        40544181,
+        37718121,
+        35008389,
+        32414679,
+        29936504,
+        27573198,
+        25323918,
+        23187646,
+        21163191,
+        19249191,
+        17444115,
+        15746265,
+        14153778,
+        12664628,
+        11276628,
+        9987432,
+        8794537,
+        7695285,
+        6686865,
+        5766315,
+        4930524,
+        4176234,
+        3500042,
+        2898402,
+        2367627,
+        1903891,
+        1503231,
+        1161549,
+        874614,
+        638064,
+        447408,
+        298028,
+        185181,
+        104001,
+        49501,
+        16575
+      ],
+      "balanced_zero_based_ranks": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ]
+    }
+  ]
+}

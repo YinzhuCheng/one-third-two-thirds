@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "files": {
+    "AUDIT.md": {
+      "bytes": 7524,
+      "sha256": "f18deab6e149374dd9ed8faacb6ba0575254edf30b8d042c4427af8dc7e7ad89"
+    },
+    "PROVENANCE.json": {
+      "bytes": 509,
+      "sha256": "e913a53c1081ba8fb22a1b73e936ae958663198145dc05664bcbacca8039ade7"
+    },
+    "audit-normal.log": {
+      "bytes": 279,
+      "sha256": "3f280947672c09c358f945459d8f613272864c47160110b22284f37d56e275f5"
+    },
+    "audit-optimized.log": {
+      "bytes": 279,
+      "sha256": "3f280947672c09c358f945459d8f613272864c47160110b22284f37d56e275f5"
+    },
+    "audit.py": {
+      "bytes": 13883,
+      "sha256": "405867f94816eb792f8fe2077f7f92647eb6876d242f4fd2aa302aa8ee9221a7"
+    },
+    "audit_results.json": {
+      "bytes": 41073,
+      "sha256": "62f41c24e2103eaabc5462ebd6a2e06927bd51049ae603ffa54df57ce5868daa"
+    },
+    "inputs/author/MANIFEST.json": {
+      "bytes": 350,
+      "sha256": "92565b45de5e48189c8666ed96a01eb307cb78a70049ef8478c6d6631e7c7367"
+    },
+    "inputs/author/THEOREM.md": {
+      "bytes": 7676,
+      "sha256": "1480dcbeab1bf5f6eb80989a13e7aaea1482f64a76460ab65b1b70b35e4209b8"
+    },
+    "inputs/author/certificate.json": {
+      "bytes": 40716,
+      "sha256": "e07d48091d22ad661cfaa7292a6d9a96fec9840deae9be2ef9b3cd7056a50997"
+    },
+    "inputs/author/verification.log": {
+      "bytes": 252,
+      "sha256": "d46aca9026238bed27ee54de634c8fe0e995a2451e19adcd1fa974183ca47b96"
+    },
+    "inputs/author/verify.py": {
+      "bytes": 5060,
+      "sha256": "082611a5e43b0527e324d57d2dbac8dfe715ad8aa447c8d735e20feae97bbeb2"
+    },
+    "inputs/prior/AUDIT.md": {
+      "bytes": 14983,
+      "sha256": "ad9d2a31f298a3f5ae4237f75f7c5869a464fc660247173e7027f9d12b95f1f9"
+    },
+    "inputs/prior/MANIFEST.json": {
+      "bytes": 3213,
+      "sha256": "71c8aa797ad465f1a2fccd6e64ef3c6243cd5eb91480701d241c0da807105982"
+    },
+    "inputs/prior/inputs/frozen_singleton_constraints.json": {
+      "bytes": 26293,
+      "sha256": "d5499a8d618eb74e87de86831a9bc1d5cf69f7e9eb24723bac46cfc432ae7c3d"
+    },
+    "inputs/prior/inputs/original_orbit_audit.json": {
+      "bytes": 11523,
+      "sha256": "828dfc4034243b64f73a307d030420b25766ca14db0eb3740efdf17b0c30a212"
+    },
+    "inputs/prior/inputs/weight_filter_catalogue.json": {
+      "bytes": 1446407,
+      "sha256": "793b7146d50f900ed22b87637e98f5b65d383b4dc3424a4bb5813e9500d2cf19"
+    },
+    "verify_snapshot.py": {
+      "bytes": 1157,
+      "sha256": "fca3949a9b0552150bc077eb4ed656bc38ec825f3693ca58d9bf7fe1ca6b0c0b"
+    }
+  }
+}

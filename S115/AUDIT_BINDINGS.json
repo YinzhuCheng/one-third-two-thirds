@@ -1,0 +1,243 @@
+{
+  "package": "S115",
+  "json_values": [
+    {
+      "document": "residual-rank-independent-audit/MANIFEST.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "four-tail-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "residual-rank-independent-audit/independent_normal.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "residual-rank-independent-audit/independent_optimized.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "four-tail-independent-audit/normal.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "four-tail-independent-audit/optimized.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "residual-rank-obstruction/verification.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "four-tail-rank-certificate/verification.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    }
+  ],
+  "json_source_hashes": [
+    {
+      "document": "residual-rank-independent-audit/MANIFEST.json",
+      "pointer": "/source_hashes/RANK_OBSTRUCTION.md",
+      "actual": "residual-rank-obstruction/RANK_OBSTRUCTION.md"
+    },
+    {
+      "document": "residual-rank-independent-audit/MANIFEST.json",
+      "pointer": "/source_hashes/SHA256SUMS",
+      "actual": "residual-rank-obstruction/SHA256SUMS"
+    },
+    {
+      "document": "residual-rank-independent-audit/MANIFEST.json",
+      "pointer": "/source_hashes/verification.json",
+      "actual": "residual-rank-obstruction/verification.json"
+    },
+    {
+      "document": "residual-rank-independent-audit/MANIFEST.json",
+      "pointer": "/source_hashes/verify_rank_obstruction.py",
+      "actual": "residual-rank-obstruction/verify_rank_obstruction.py"
+    },
+    {
+      "document": "four-tail-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/original_source_files_sha256/FOUR_TAIL_CERTIFICATE.md",
+      "actual": "four-tail-rank-certificate/FOUR_TAIL_CERTIFICATE.md"
+    },
+    {
+      "document": "four-tail-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/original_source_files_sha256/README.txt",
+      "actual": "four-tail-rank-certificate/README.txt"
+    },
+    {
+      "document": "four-tail-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/original_source_files_sha256/SHA256SUMS",
+      "actual": "four-tail-rank-certificate/SHA256SUMS"
+    },
+    {
+      "document": "four-tail-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/original_source_files_sha256/optimized.log",
+      "actual": "four-tail-rank-certificate/optimized.log"
+    },
+    {
+      "document": "four-tail-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/original_source_files_sha256/verification.json",
+      "actual": "four-tail-rank-certificate/verification.json"
+    },
+    {
+      "document": "four-tail-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/original_source_files_sha256/verify_four_tail.py",
+      "actual": "four-tail-rank-certificate/verify_four_tail.py"
+    },
+    {
+      "document": "four-tail-independent-audit/normal.json",
+      "pointer": "/source_sha256/FOUR_TAIL_CERTIFICATE.md",
+      "actual": "four-tail-rank-certificate/FOUR_TAIL_CERTIFICATE.md"
+    },
+    {
+      "document": "four-tail-independent-audit/optimized.json",
+      "pointer": "/source_sha256/FOUR_TAIL_CERTIFICATE.md",
+      "actual": "four-tail-rank-certificate/FOUR_TAIL_CERTIFICATE.md"
+    },
+    {
+      "document": "four-tail-independent-audit/normal.json",
+      "pointer": "/source_sha256/verify_four_tail.py",
+      "actual": "four-tail-rank-certificate/verify_four_tail.py"
+    },
+    {
+      "document": "four-tail-independent-audit/optimized.json",
+      "pointer": "/source_sha256/verify_four_tail.py",
+      "actual": "four-tail-rank-certificate/verify_four_tail.py"
+    }
+  ],
+  "byte_equalities": [
+    {
+      "left": "residual-rank-obstruction/RANK_OBSTRUCTION.md",
+      "right": "residual-rank-independent-audit/frozen/RANK_OBSTRUCTION.md"
+    },
+    {
+      "left": "residual-rank-obstruction/SHA256SUMS",
+      "right": "residual-rank-independent-audit/frozen/SHA256SUMS"
+    },
+    {
+      "left": "residual-rank-obstruction/verification.json",
+      "right": "residual-rank-independent-audit/frozen/verification.json"
+    },
+    {
+      "left": "residual-rank-obstruction/verify_rank_obstruction.py",
+      "right": "residual-rank-independent-audit/frozen/verify_rank_obstruction.py"
+    },
+    {
+      "left": "residual-rank-obstruction/verify_rank_obstruction.py",
+      "right": "residual-rank-independent-audit/author-normal/verify_rank_obstruction.py"
+    },
+    {
+      "left": "residual-rank-obstruction/verification.json",
+      "right": "residual-rank-independent-audit/author-normal/verification.json"
+    },
+    {
+      "left": "residual-rank-obstruction/verify_rank_obstruction.py",
+      "right": "residual-rank-independent-audit/author-optimized/verify_rank_obstruction.py"
+    },
+    {
+      "left": "residual-rank-obstruction/verification.json",
+      "right": "residual-rank-independent-audit/author-optimized/verification.json"
+    },
+    {
+      "left": "four-tail-rank-certificate/FOUR_TAIL_CERTIFICATE.md",
+      "right": "four-tail-independent-audit/source_snapshot/FOUR_TAIL_CERTIFICATE.md"
+    },
+    {
+      "left": "four-tail-rank-certificate/README.txt",
+      "right": "four-tail-independent-audit/source_snapshot/README.txt"
+    },
+    {
+      "left": "four-tail-rank-certificate/SHA256SUMS",
+      "right": "four-tail-independent-audit/source_snapshot/SHA256SUMS"
+    },
+    {
+      "left": "four-tail-rank-certificate/optimized.log",
+      "right": "four-tail-independent-audit/source_snapshot/optimized.log"
+    },
+    {
+      "left": "four-tail-rank-certificate/verification.json",
+      "right": "four-tail-independent-audit/source_snapshot/verification.json"
+    },
+    {
+      "left": "four-tail-rank-certificate/verify_four_tail.py",
+      "right": "four-tail-independent-audit/source_snapshot/verify_four_tail.py"
+    },
+    {
+      "left": "four-tail-rank-certificate/verify_four_tail.py",
+      "right": "four-tail-independent-audit/source_normal/verify_four_tail.py"
+    },
+    {
+      "left": "four-tail-rank-certificate/verification.json",
+      "right": "four-tail-independent-audit/source_normal/verification.json"
+    },
+    {
+      "left": "four-tail-rank-certificate/verify_four_tail.py",
+      "right": "four-tail-independent-audit/source_optimized/verify_four_tail.py"
+    },
+    {
+      "left": "four-tail-rank-certificate/verification.json",
+      "right": "four-tail-independent-audit/source_optimized/verification.json"
+    },
+    {
+      "left": "residual-rank-independent-audit/independent_normal.json",
+      "right": "residual-rank-independent-audit/independent_optimized.json"
+    },
+    {
+      "left": "four-tail-independent-audit/normal.json",
+      "right": "four-tail-independent-audit/optimized.json"
+    },
+    {
+      "left": "four-tail-independent-audit/normal_vectors.json",
+      "right": "four-tail-independent-audit/optimized_vectors.json"
+    }
+  ],
+  "checksum_manifests": [
+    {
+      "manifest": "residual-rank-obstruction/SHA256SUMS",
+      "base": "residual-rank-obstruction"
+    },
+    {
+      "manifest": "residual-rank-independent-audit/SHA256SUMS",
+      "base": "residual-rank-independent-audit"
+    },
+    {
+      "manifest": "four-tail-rank-certificate/SHA256SUMS",
+      "base": "four-tail-rank-certificate"
+    },
+    {
+      "manifest": "four-tail-independent-audit/MANIFEST.sha256",
+      "base": "four-tail-independent-audit"
+    }
+  ],
+  "historical_manifest_entries": [
+    {
+      "manifest": "references/S114/SHA256SUMS",
+      "historical_entry": "references/S112/structural_reductions.md",
+      "actual": "references/S112/structural_reductions.md"
+    },
+    {
+      "manifest": "references/S114/SHA256SUMS",
+      "historical_entry": "references/S112/structural_audit.md",
+      "actual": "references/S112/structural_audit.md"
+    },
+    {
+      "manifest": "references/S114/SHA256SUMS",
+      "historical_entry": "single-inner-spine-exclusion/SINGLE_INNER_SPINE_RESULT.md",
+      "actual": "residual-rank-independent-audit/dependencies/SINGLE_INNER_SPINE_RESULT.md"
+    },
+    {
+      "manifest": "references/S114/SHA256SUMS",
+      "historical_entry": "single-inner-spine-independent-audit/AUDIT.md",
+      "actual": "residual-rank-independent-audit/dependencies/SINGLE_INNER_SPINE_AUDIT.md"
+    }
+  ]
+}

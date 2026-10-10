@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "source_sha256": {
+    "FOUR_TAIL_CERTIFICATE.md": "227708fc40a94df919101bcd6815e2191a8e45fd7c9676b222aafa74baa0ab3c",
+    "verify_four_tail.py": "96ef9375351cda862f832e102baa577c92778fdc487dbba4ed4e9f45efb407d5",
+    "verification.json": "a02196ea9e99e2e547f9ad7be81af20c80c80424699ded4bc985540b3db1ba7c"
+  },
+  "independent_labelled_DP_vectors": 640,
+  "source_box_vectors": 625,
+  "asymmetric_larger_vectors": 15,
+  "independent_ideals_processed": 108447,
+  "unconditional_exact_rational_volume_crosschecks": 4480,
+  "largest_rank3_atom_in_source_box": "1432380/4451621",
+  "minimum_certificate_margin_in_source_box": "291260/1483581",
+  "forced_endpoint_crossing_vectors": 7,
+  "symbolic": {
+    "polynomial_identity": "formal sparse polynomial equality",
+    "small_k_cases": 5,
+    "positive_shift_terms": 12,
+    "discriminants_reduced": [
+      -16271,
+      -14087,
+      -32903,
+      -215
+    ]
+  },
+  "triangle": {
+    "exact_triangle_moments": 8649,
+    "explicit_beta_mixture_atom_equalities": 4805,
+    "beta_factorial_and_ratio_equalities": 5005
+  },
+  "positive_conditional_mixture_examples": 64,
+  "scope": "Unbounded proof validated symbolically; finite DP/integrals are independent implementation crosschecks."
+}

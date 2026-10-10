@@ -1,0 +1,7 @@
+{
+  "author_source": "/workspace/shared/eight-core-expanded-search/five-classes-two-block-theorem",
+  "author_manifest_sha256": "92565b45de5e48189c8666ed96a01eb307cb78a70049ef8478c6d6631e7c7367",
+  "prior_source": "/workspace/shared/eight-core-weight-independent-audit-frozen",
+  "prior_manifest_sha256": "71c8aa797ad465f1a2fccd6e64ef3c6243cd5eb91480701d241c0da807105982",
+  "scope": "Five classes C08,C09,C11,C14,C15 and support cardinality at most one; separate from C13 audit; no implementation imports"
+}

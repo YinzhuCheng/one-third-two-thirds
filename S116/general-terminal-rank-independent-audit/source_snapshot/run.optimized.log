@@ -1,0 +1,113 @@
+{
+  "actual_extension_checks": {
+    "duality_checks": 128,
+    "endpoint_crossings": 192,
+    "four_tail_vectors": 144,
+    "largest_threshold_interior_atom": {
+      "value": "58394/188035",
+      "weights": [
+        2,
+        1,
+        1,
+        4,
+        2,
+        1,
+        5
+      ]
+    },
+    "maximum_reachable_states": 768,
+    "threshold_vectors": 192,
+    "vectors": 464
+  },
+  "beta_checks": {
+    "all_alpha_maximum_checks": 9032,
+    "integration_ratio_checks": 15754,
+    "positive_shift_coefficients": {
+      "2": [
+        6,
+        15,
+        3
+      ],
+      "3": [
+        96,
+        1202,
+        249,
+        13
+      ],
+      "4": [
+        603960,
+        1425418,
+        140683,
+        4718,
+        53
+      ]
+    },
+    "sharpness": [
+      {
+        "alpha": 6,
+        "beta": 2,
+        "last_interior_atom": "56/165",
+        "n": 4
+      },
+      {
+        "alpha": 24,
+        "beta": 3,
+        "last_interior_atom": "1755/5236",
+        "n": 9
+      },
+      {
+        "alpha": 112,
+        "beta": 4,
+        "last_interior_atom": "1432049/4294719",
+        "n": 29
+      },
+      {
+        "alpha": 4995,
+        "beta": 5,
+        "last_interior_atom": "9282007064732500/27702065542505871",
+        "n": 1000
+      }
+    ]
+  },
+  "conditional_moment_checks": 3024,
+  "five_parameter_reduction": {
+    "balanced_pair_witnesses": 41,
+    "counts_by_ports": {
+      "2,2": 7,
+      "2,3": 7,
+      "3,2": 7,
+      "3,3": 20
+    },
+    "failed_forced_arrow_witnesses": 41,
+    "maximum_order": 18,
+    "vectors": 41
+  },
+  "small_outer_spine_caps": {
+    "bounds": [
+      {
+        "adjacent_spine_cap": 3,
+        "outer_spine": 1,
+        "ratio_after_cap": "5/14",
+        "ratio_at_cap": "2/7",
+        "terminal_cap": 3
+      },
+      {
+        "adjacent_spine_cap": 19,
+        "outer_spine": 2,
+        "ratio_after_cap": "308/899",
+        "ratio_at_cap": "19/58",
+        "terminal_cap": 9
+      },
+      {
+        "adjacent_spine_cap": 90,
+        "outer_spine": 3,
+        "ratio_after_cap": "3049501/9078630",
+        "ratio_at_cap": "83421/250954",
+        "terminal_cap": 29
+      }
+    ],
+    "maximum_middle_chain": 104,
+    "maximum_total_order": 348,
+    "scope": "Necessary region for a,d <= 3, not an all-balanced theorem."
+  }
+}

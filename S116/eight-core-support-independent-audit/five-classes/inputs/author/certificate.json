@@ -1,0 +1,2787 @@
+{
+  "scope": "C08,C09,C11,C14,C15, at most one nonsingleton chain, arbitrary positive integer weights",
+  "cores": [
+    {
+      "class_id": "C08",
+      "strict_up_masks": [
+        168,
+        252,
+        136,
+        128,
+        224,
+        0,
+        128,
+        0
+      ],
+      "cover_edges": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "class_id": "C09",
+      "strict_up_masks": [
+        178,
+        16,
+        248,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "cover_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "class_id": "C11",
+      "strict_up_masks": [
+        68,
+        236,
+        0,
+        192,
+        224,
+        64,
+        0,
+        0
+      ],
+      "cover_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "class_id": "C14",
+      "strict_up_masks": [
+        178,
+        144,
+        248,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "cover_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "class_id": "C15",
+      "strict_up_masks": [
+        180,
+        252,
+        16,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "cover_edges": [
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          6,
+          7
+        ]
+      ]
+    }
+  ],
+  "polynomial_certificates": [
+    {
+      "class_id": "C08",
+      "variable": 0,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        0,
+        6,
+        11,
+        9,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        0,
+        3,
+        5,
+        3,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        58,
+        52,
+        23,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        223,
+        262,
+        173,
+        61,
+        9,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 26
+    },
+    {
+      "class_id": "C08",
+      "variable": 1,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        55,
+        26,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        22,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        32,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        101,
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 81
+    },
+    {
+      "class_id": "C08",
+      "variable": 2,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        3,
+        6,
+        9,
+        10,
+        5,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        6,
+        6,
+        5,
+        2,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        161,
+        118,
+        49,
+        11,
+        1,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        89,
+        124,
+        85,
+        29,
+        4,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 33
+    },
+    {
+      "class_id": "C08",
+      "variable": 3,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        14,
+        15,
+        13,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        11,
+        10,
+        8,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        190,
+        119,
+        41,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        7,
+        8,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 48
+    },
+    {
+      "class_id": "C08",
+      "variable": 4,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        14,
+        15,
+        13,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        11,
+        12,
+        8,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        178,
+        95,
+        26,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        19,
+        32,
+        17,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 48
+    },
+    {
+      "class_id": "C08",
+      "variable": 5,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        0,
+        6,
+        11,
+        9,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        0,
+        3,
+        6,
+        6,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        223,
+        262,
+        173,
+        61,
+        9,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        58,
+        52,
+        23,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 26
+    },
+    {
+      "class_id": "C08",
+      "variable": 6,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        3,
+        6,
+        9,
+        10,
+        5,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        2,
+        4,
+        6,
+        7,
+        3,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        245,
+        232,
+        124,
+        35,
+        4,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        5,
+        10,
+        10,
+        5,
+        1,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 33
+    },
+    {
+      "class_id": "C08",
+      "variable": 7,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        55,
+        26,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        39,
+        16,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        128,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        5,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 81
+    },
+    {
+      "class_id": "C09",
+      "variable": 0,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        1,
+        0,
+        5,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        11,
+        17,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        11,
+        11,
+        11,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        244,
+        146,
+        46,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        22,
+        53,
+        31,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 51
+    },
+    {
+      "class_id": "C09",
+      "variable": 2,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 3,
+      "pair": [
+        5,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        41,
+        29,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        10,
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        3,
+        6,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        264,
+        78,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [
+        {
+          "weight": 2,
+          "pair": [
+            1,
+            0,
+            3,
+            0
+          ],
+          "numerator": 78,
+          "denominator": 194
+        }
+      ],
+      "outside_extension_count": 81
+    },
+    {
+      "class_id": "C09",
+      "variable": 3,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        1,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        17,
+        17,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        8,
+        11,
+        8,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        103,
+        44,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        151,
+        131,
+        55,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 54
+    },
+    {
+      "class_id": "C09",
+      "variable": 4,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        11,
+        17,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        3,
+        6,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        58,
+        62,
+        31,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        208,
+        137,
+        46,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 51
+    },
+    {
+      "class_id": "C09",
+      "variable": 5,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        17,
+        17,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        4,
+        7,
+        7,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        37,
+        20,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        217,
+        155,
+        58,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 54
+    },
+    {
+      "class_id": "C09",
+      "variable": 7,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 3,
+      "pair": [
+        3,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        41,
+        29,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        31,
+        19,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        264,
+        78,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        3,
+        6,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [
+        {
+          "weight": 2,
+          "pair": [
+            0,
+            0,
+            2,
+            0
+          ],
+          "numerator": 72,
+          "denominator": 194
+        }
+      ],
+      "outside_extension_count": 81
+    },
+    {
+      "class_id": "C11",
+      "variable": 0,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        1,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        8,
+        13,
+        13,
+        23,
+        16,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        8,
+        8,
+        8,
+        14,
+        10,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        803,
+        1040,
+        841,
+        419,
+        117,
+        14,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        110,
+        170,
+        142,
+        68,
+        18,
+        2,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 73
+    },
+    {
+      "class_id": "C11",
+      "variable": 1,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        40,
+        64,
+        50,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        15,
+        23,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        170,
+        105,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        362,
+        159,
+        25,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 154
+    },
+    {
+      "class_id": "C11",
+      "variable": 2,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        8,
+        13,
+        13,
+        23,
+        16,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        0,
+        0,
+        0,
+        10,
+        8,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        41,
+        230,
+        307,
+        197,
+        63,
+        8,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        872,
+        980,
+        676,
+        290,
+        72,
+        8,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 73
+    },
+    {
+      "class_id": "C11",
+      "variable": 3,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        23,
+        31,
+        27,
+        12,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        8,
+        13,
+        12,
+        6,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        229,
+        243,
+        143,
+        45,
+        6,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        487,
+        414,
+        203,
+        54,
+        6,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 104
+    },
+    {
+      "class_id": "C11",
+      "variable": 4,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        6,
+        0,
+        7,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        16,
+        29,
+        31,
+        15,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        7,
+        11,
+        11,
+        5,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        59,
+        41,
+        14,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        698,
+        701,
+        395,
+        119,
+        15,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 91
+    },
+    {
+      "class_id": "C11",
+      "variable": 5,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        23,
+        31,
+        27,
+        12,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        8,
+        18,
+        22,
+        18,
+        6,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        676,
+        561,
+        260,
+        63,
+        6,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        40,
+        96,
+        86,
+        36,
+        6,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 104
+    },
+    {
+      "class_id": "C11",
+      "variable": 6,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        3,
+        0
+      ],
+      "denominator_coefficients": [
+        40,
+        64,
+        50,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        28,
+        44,
+        32,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        524,
+        252,
+        46,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        8,
+        12,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 154
+    },
+    {
+      "class_id": "C11",
+      "variable": 7,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        1,
+        0,
+        4,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        16,
+        29,
+        31,
+        15,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        9,
+        18,
+        20,
+        10,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        698,
+        701,
+        395,
+        119,
+        15,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        59,
+        41,
+        14,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 91
+    },
+    {
+      "class_id": "C14",
+      "variable": 0,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        3,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        11,
+        16,
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        8,
+        8,
+        13,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        240,
+        155,
+        48,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        0,
+        20,
+        18,
+        5,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 48
+    },
+    {
+      "class_id": "C14",
+      "variable": 1,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        4,
+        0,
+        7,
+        0
+      ],
+      "denominator_coefficients": [
+        4,
+        9,
+        11,
+        9,
+        6,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        4,
+        7,
+        8,
+        6,
+        3,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        257,
+        214,
+        103,
+        27,
+        3,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        20,
+        49,
+        43,
+        18,
+        3,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 39
+    },
+    {
+      "class_id": "C14",
+      "variable": 2,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        5,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        36,
+        26,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        9,
+        9,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        0,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        180,
+        65,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 73
+    },
+    {
+      "class_id": "C14",
+      "variable": 3,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        1,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        10,
+        15,
+        15,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        8,
+        11,
+        8,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        122,
+        54,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        113,
+        111,
+        51,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 49
+    },
+    {
+      "class_id": "C14",
+      "variable": 4,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        11,
+        17,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        3,
+        6,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        60,
+        62,
+        31,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        195,
+        137,
+        46,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 40
+    },
+    {
+      "class_id": "C14",
+      "variable": 5,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        6,
+        14,
+        17,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        6,
+        7,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        39,
+        20,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        201,
+        152,
+        58,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 46
+    },
+    {
+      "class_id": "C14",
+      "variable": 7,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        2,
+        0
+      ],
+      "denominator_coefficients": [
+        41,
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        18,
+        15,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        28,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        133,
+        35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 81
+    },
+    {
+      "class_id": "C15",
+      "variable": 0,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        5,
+        0
+      ],
+      "denominator_coefficients": [
+        0,
+        11,
+        17,
+        12,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        11,
+        11,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        222,
+        146,
+        46,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        33,
+        53,
+        31,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 40
+    },
+    {
+      "class_id": "C15",
+      "variable": 1,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        41,
+        40,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        11,
+        22,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        70,
+        26,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        91,
+        14,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 81
+    },
+    {
+      "class_id": "C15",
+      "variable": 2,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "denominator_coefficients": [
+        4,
+        9,
+        11,
+        9,
+        6,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        0,
+        2,
+        3,
+        3,
+        3,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        20,
+        49,
+        43,
+        18,
+        3,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        257,
+        214,
+        103,
+        27,
+        3,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 39
+    },
+    {
+      "class_id": "C15",
+      "variable": 3,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        6,
+        14,
+        17,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        8,
+        8,
+        3,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        75,
+        38,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        165,
+        134,
+        55,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 46
+    },
+    {
+      "class_id": "C15",
+      "variable": 4,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "denominator_coefficients": [
+        11,
+        11,
+        16,
+        10,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        3,
+        3,
+        5,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        6,
+        14,
+        9,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        234,
+        161,
+        57,
+        8,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 48
+    },
+    {
+      "class_id": "C15",
+      "variable": 5,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        2,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        10,
+        15,
+        15,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        2,
+        4,
+        7,
+        6,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        113,
+        111,
+        51,
+        9,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        122,
+        54,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 49
+    },
+    {
+      "class_id": "C15",
+      "variable": 7,
+      "all_other_weights": 1,
+      "domain_lower": 2,
+      "tail_start": 2,
+      "pair": [
+        3,
+        0,
+        6,
+        0
+      ],
+      "denominator_coefficients": [
+        36,
+        26,
+        11,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "numerator_coefficients": [
+        27,
+        17,
+        7,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "lower_balance_newton_coefficients": [
+        180,
+        65,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "upper_balance_newton_coefficients": [
+        0,
+        5,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "finite_prefix": [],
+      "outside_extension_count": 73
+    }
+  ],
+  "bounded_certificates": [
+    {
+      "class_id": "C09",
+      "variable": 6,
+      "incomparable_indices": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "strict_rule": "2t < 5",
+      "integer_upper_bound": 2,
+      "case": {
+        "class_id": "C09",
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 137,
+        "denominator": 400
+      }
+    },
+    {
+      "class_id": "C14",
+      "variable": 6,
+      "incomparable_indices": [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      "strict_rule": "2t < 5",
+      "integer_upper_bound": 2,
+      "case": {
+        "class_id": "C14",
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 131,
+        "denominator": 374
+      }
+    },
+    {
+      "class_id": "C15",
+      "variable": 6,
+      "incomparable_indices": [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      "strict_rule": "2t < 5",
+      "integer_upper_bound": 2,
+      "case": {
+        "class_id": "C15",
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          1
+        ],
+        "pair": [
+          [
+            2,
+            0
+          ],
+          [
+            6,
+            1
+          ]
+        ],
+        "numerator": 239,
+        "denominator": 374
+      }
+    }
+  ],
+  "zero_support_certificates": [
+    {
+      "class_id": "C08",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "numerator": 71,
+      "denominator": 107
+    },
+    {
+      "class_id": "C09",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "numerator": 51,
+      "denominator": 132
+    },
+    {
+      "class_id": "C11",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "numerator": 212,
+      "denominator": 318
+    },
+    {
+      "class_id": "C14",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          0,
+          0
+        ],
+        [
+          2,
+          0
+        ]
+      ],
+      "numerator": 48,
+      "denominator": 121
+    },
+    {
+      "class_id": "C15",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "pair": [
+        [
+          2,
+          0
+        ],
+        [
+          5,
+          0
+        ]
+      ],
+      "numerator": 79,
+      "denominator": 121
+    }
+  ],
+  "long_chain_certificate": {
+    "class_id": "C09",
+    "variable": 1,
+    "comparison_vertex": 3,
+    "incomparable_indices": [
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "incomparable_outside_mass": 5,
+    "tail_start": 10,
+    "denominator_coefficients": [
+      4,
+      7,
+      10,
+      9,
+      6,
+      3,
+      0,
+      0
+    ],
+    "bottom_numerator_coefficients": [
+      -7,
+      -4,
+      -1,
+      3,
+      6,
+      3,
+      0,
+      0
+    ],
+    "top_numerator_coefficients": [
+      11,
+      11,
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "bottom_minus_two_thirds_newton": [
+      10608,
+      5275,
+      1771,
+      390,
+      51,
+      3,
+      0,
+      0
+    ],
+    "one_third_minus_top_newton": [
+      17340,
+      6967,
+      2029,
+      408,
+      51,
+      3,
+      0,
+      0
+    ],
+    "finite_prefix": [
+      {
+        "class_id": "C09",
+        "weights": [
+          1,
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 150,
+        "denominator": 328
+      },
+      {
+        "class_id": "C09",
+        "weights": [
+          1,
+          3,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 353,
+        "denominator": 690
+      },
+      {
+        "class_id": "C09",
+        "weights": [
+          1,
+          4,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 723,
+        "denominator": 1302
+      },
+      {
+        "class_id": "C09",
+        "weights": [
+          1,
+          5,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 1344,
+        "denominator": 2272
+      },
+      {
+        "class_id": "C09",
+        "weights": [
+          1,
+          6,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 2324,
+        "denominator": 3735
+      },
+      {
+        "class_id": "C09",
+        "weights": [
+          1,
+          7,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 3798,
+        "denominator": 5856
+      },
+      {
+        "class_id": "C09",
+        "weights": [
+          1,
+          8,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 3798,
+        "denominator": 8833
+      },
+      {
+        "class_id": "C09",
+        "weights": [
+          1,
+          9,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 5931,
+        "denominator": 12900
+      }
+    ]
+  }
+}

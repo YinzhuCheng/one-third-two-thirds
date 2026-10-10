@@ -1,0 +1,1 @@
+Separate four-terminal-chain theorem, 2026-10-10. Read FOUR_TAIL_CERTIFICATE.md. Run python verify_four_tail.py (standard library). Independent mathematical audit requested. Earlier frozen results and S114 scope unchanged.

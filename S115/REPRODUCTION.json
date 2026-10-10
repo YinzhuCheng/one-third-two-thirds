@@ -1,0 +1,157 @@
+{
+  "package": "S115",
+  "python": "3.10+",
+  "dependencies": "Python standard library only",
+  "network_required": false,
+  "checks_survive_optimization": true,
+  "steps": [
+    {
+      "id": "long-tail-author-normal",
+      "cwd": "residual-rank-obstruction",
+      "argv": [
+        "{python}",
+        "verify_rank_obstruction.py"
+      ],
+      "compare": [
+        {
+          "actual": "residual-rank-obstruction/verification.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "long-tail-author-optimized",
+      "cwd": "residual-rank-obstruction",
+      "argv": [
+        "{python}",
+        "-O",
+        "verify_rank_obstruction.py"
+      ],
+      "compare": [
+        {
+          "actual": "residual-rank-obstruction/verification.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "four-tail-author-normal",
+      "cwd": "four-tail-rank-certificate",
+      "argv": [
+        "{python}",
+        "verify_four_tail.py"
+      ],
+      "compare": [
+        {
+          "actual": "four-tail-rank-certificate/verification.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "four-tail-author-optimized",
+      "cwd": "four-tail-rank-certificate",
+      "argv": [
+        "{python}",
+        "-O",
+        "verify_four_tail.py"
+      ],
+      "compare": [
+        {
+          "actual": "four-tail-rank-certificate/verification.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "long-tail-independent-normal",
+      "cwd": "residual-rank-independent-audit",
+      "argv": [
+        "{python}",
+        "independent_check.py",
+        "--output",
+        "rerun_normal.json"
+      ],
+      "compare": [
+        {
+          "actual": "residual-rank-independent-audit/rerun_normal.json",
+          "expected": "residual-rank-independent-audit/independent_normal.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "long-tail-independent-optimized",
+      "cwd": "residual-rank-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "independent_check.py",
+        "--output",
+        "rerun_optimized.json"
+      ],
+      "compare": [
+        {
+          "actual": "residual-rank-independent-audit/rerun_optimized.json",
+          "expected": "residual-rank-independent-audit/independent_optimized.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "four-tail-independent-normal",
+      "cwd": "four-tail-independent-audit",
+      "argv": [
+        "{python}",
+        "audit.py",
+        "rerun_normal.json"
+      ],
+      "compare": [
+        {
+          "actual": "four-tail-independent-audit/rerun_normal.json",
+          "expected": "four-tail-independent-audit/normal.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "four-tail-independent-audit/rerun_normal_vectors.json",
+          "expected": "four-tail-independent-audit/normal_vectors.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "four-tail-independent-optimized",
+      "cwd": "four-tail-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "audit.py",
+        "rerun_optimized.json"
+      ],
+      "compare": [
+        {
+          "actual": "four-tail-independent-audit/rerun_optimized.json",
+          "expected": "four-tail-independent-audit/optimized.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "four-tail-independent-audit/rerun_optimized_vectors.json",
+          "expected": "four-tail-independent-audit/optimized_vectors.json",
+          "byte_exact": true
+        }
+      ]
+    }
+  ],
+  "ignored_result_fields": {},
+  "forbidden_live_source_roots": [
+    "/workspace/shared/residual-rank-obstruction",
+    "/workspace/shared/residual-rank-independent-audit",
+    "/workspace/shared/four-tail-rank-certificate",
+    "/workspace/shared/four-tail-independent-audit",
+    "/workspace/shared/poset-S112-stage",
+    "/workspace/shared/poset-S113-stage",
+    "/workspace/shared/poset-S114-stage",
+    "/workspace/shared/single-inner-spine-exclusion",
+    "/workspace/shared/single-inner-spine-independent-audit"
+  ]
+}

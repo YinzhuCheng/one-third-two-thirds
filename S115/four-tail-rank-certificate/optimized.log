@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "actual_labelled_vectors": 625,
+  "weight_scope": "u,a,b,t each 1..5; c=d=1; v=4",
+  "forced_endpoint_crossing_vectors": 7,
+  "largest_rank3_atom_in_box": "1432380/4451621",
+  "smallest_certificate_margin_in_box": "291260/1483581",
+  "exact_triangle_monomials": 10201,
+  "exact_beta_binomial_checks": 2002,
+  "structural_actual_vertex_checks": 1875,
+  "scope": "Unbounded v=4 theorem; bounded checks validate implementation only."
+}

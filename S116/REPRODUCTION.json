@@ -1,0 +1,258 @@
+{
+  "package": "S116",
+  "python": "3.10+",
+  "dependencies": "Python standard library only",
+  "network_required": false,
+  "driver_checks_survive_optimization": true,
+  "independent_checks_survive_optimization": true,
+  "author_assertion_policy": "The two eight-core author verifiers are run only with assertions enabled. Their -O execution is not evidence. Independent audit checks use explicit exceptions and run in both modes; PYTHONOPTIMIZE is removed from every child environment.",
+  "steps": [
+    {
+      "id": "terminal-author-normal",
+      "cwd": "general-terminal-rank-bounds",
+      "argv": [
+        "{python}",
+        "verify_general_terminal_rank.py"
+      ],
+      "compare": [
+        {
+          "actual": "general-terminal-rank-bounds/verification.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "general-terminal-rank-bounds/reduced_41_certificate.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "terminal-independent-normal",
+      "cwd": "general-terminal-rank-independent-audit",
+      "argv": [
+        "{python}",
+        "audit.py",
+        "--output",
+        "rerun_terminal-independent.json"
+      ],
+      "compare": [
+        {
+          "actual": "general-terminal-rank-independent-audit/rerun_terminal-independent.json",
+          "expected": "general-terminal-rank-independent-audit/normal.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "reduced-independent-normal",
+      "cwd": "general-terminal-rank-independent-audit",
+      "argv": [
+        "{python}",
+        "audit_reduced_corollary.py",
+        "--output",
+        "rerun_reduced-independent.json"
+      ],
+      "compare": [
+        {
+          "actual": "general-terminal-rank-independent-audit/rerun_reduced-independent.json",
+          "expected": "general-terminal-rank-independent-audit/reduced_normal.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "reduced-author-comparison-normal",
+      "cwd": "general-terminal-rank-independent-audit",
+      "argv": [
+        "{python}",
+        "compare_author_certificate.py"
+      ],
+      "compare": [
+        {
+          "actual": "general-terminal-rank-independent-audit/author_comparison.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "terminal-author-optimized",
+      "cwd": "general-terminal-rank-bounds",
+      "argv": [
+        "{python}",
+        "-O",
+        "verify_general_terminal_rank.py"
+      ],
+      "compare": [
+        {
+          "actual": "general-terminal-rank-bounds/verification.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "general-terminal-rank-bounds/reduced_41_certificate.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "terminal-independent-optimized",
+      "cwd": "general-terminal-rank-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "audit.py",
+        "--output",
+        "rerun_terminal-independent.json"
+      ],
+      "compare": [
+        {
+          "actual": "general-terminal-rank-independent-audit/rerun_terminal-independent.json",
+          "expected": "general-terminal-rank-independent-audit/normal.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "reduced-independent-optimized",
+      "cwd": "general-terminal-rank-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "audit_reduced_corollary.py",
+        "--output",
+        "rerun_reduced-independent.json"
+      ],
+      "compare": [
+        {
+          "actual": "general-terminal-rank-independent-audit/rerun_reduced-independent.json",
+          "expected": "general-terminal-rank-independent-audit/reduced_normal.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "reduced-author-comparison-optimized",
+      "cwd": "general-terminal-rank-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "compare_author_certificate.py"
+      ],
+      "compare": [
+        {
+          "actual": "general-terminal-rank-independent-audit/author_comparison.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "C13-author-normal",
+      "cwd": "C13-four-block-theorem-v2",
+      "argv": [
+        "{python}",
+        "verify.py"
+      ],
+      "compare": [
+        {
+          "actual": "C13-four-block-theorem-v2/replayed-verification.log",
+          "expected": "C13-four-block-theorem-v2/verification.log",
+          "format": "text",
+          "byte_exact": true
+        }
+      ],
+      "capture_stdout": "C13-four-block-theorem-v2/replayed-verification.log"
+    },
+    {
+      "id": "C13-independent-normal",
+      "cwd": "eight-core-support-independent-audit/C13-v2",
+      "argv": [
+        "{python}",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "eight-core-support-independent-audit/C13-v2/audit_results.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "C13-independent-optimized",
+      "cwd": "eight-core-support-independent-audit/C13-v2",
+      "argv": [
+        "{python}",
+        "-O",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "eight-core-support-independent-audit/C13-v2/audit_results.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "five-classes-author-normal",
+      "cwd": "five-classes-two-block-theorem",
+      "argv": [
+        "{python}",
+        "verify.py"
+      ],
+      "compare": [
+        {
+          "actual": "five-classes-two-block-theorem/replayed-verification.log",
+          "expected": "five-classes-two-block-theorem/verification.log",
+          "format": "text",
+          "byte_exact": true
+        }
+      ],
+      "capture_stdout": "five-classes-two-block-theorem/replayed-verification.log"
+    },
+    {
+      "id": "five-classes-independent-normal",
+      "cwd": "eight-core-support-independent-audit/five-classes",
+      "argv": [
+        "{python}",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "eight-core-support-independent-audit/five-classes/audit_results.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "five-classes-independent-optimized",
+      "cwd": "eight-core-support-independent-audit/five-classes",
+      "argv": [
+        "{python}",
+        "-O",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "eight-core-support-independent-audit/five-classes/audit_results.json",
+          "byte_exact": true
+        }
+      ]
+    }
+  ],
+  "ignored_result_fields": {},
+  "comparison_policy": "All generated JSON fields and complete preserved outputs are byte-exact. No elapsed fields occur in result JSON or are excluded. Driver elapsed times are receipt-only metadata.",
+  "forbidden_live_source_roots": [
+    "/workspace/shared/general-terminal-rank-bounds",
+    "/workspace/shared/general-terminal-rank-independent-audit",
+    "/workspace/shared/eight-core-expanded-search",
+    "/workspace/shared/eight-core-support-independent-audit",
+    "/workspace/shared/eight-core-weight-filters",
+    "/workspace/shared/eight-core-weight-independent-audit-frozen",
+    "/workspace/shared/poset-S114-stage",
+    "/workspace/shared/poset-S115-stage",
+    "/workspace/shared/weighted-seven-core-census",
+    "/workspace/shared/weighted-seven-core-census-independent-audit",
+    "/workspace/shared/generalized-seven-core-shuffle",
+    "/workspace/shared/generalized-seven-core-shuffle-independent-audit",
+    "/workspace/shared/four-tail-rank-certificate",
+    "/workspace/shared/four-tail-independent-audit",
+    "/workspace/shared/residual-rank-independent-audit"
+  ]
+}

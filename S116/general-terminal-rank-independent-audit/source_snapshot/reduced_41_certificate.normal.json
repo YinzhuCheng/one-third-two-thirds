@@ -1,0 +1,1396 @@
+[
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 315,
+    "failed_forced_arrow": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "4/7",
+    "probability": "4/7",
+    "weights": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "extensions": 569,
+    "failed_forced_arrow": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "375/569",
+    "probability": "306/569",
+    "weights": [
+      2,
+      1,
+      1,
+      2,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 2321,
+    "failed_forced_arrow": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "1515/2321",
+    "probability": "1095/2321",
+    "weights": [
+      2,
+      1,
+      1,
+      2,
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 569,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "336/569",
+    "probability": "306/569",
+    "weights": [
+      2,
+      1,
+      2,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        4,
+        2
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "extensions": 2321,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "1322/2321",
+    "probability": "1095/2321",
+    "weights": [
+      2,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "extensions": 1024,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "157/256",
+    "probability": "235/512",
+    "weights": [
+      2,
+      1,
+      2,
+      2,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 4726,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "2815/4726",
+    "probability": "1068/2363",
+    "weights": [
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        4,
+        2
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "extensions": 6606,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "2165/3303",
+    "probability": "3259/6606",
+    "weights": [
+      2,
+      1,
+      1,
+      2,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        3,
+        2
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "extensions": 2694,
+    "failed_forced_arrow": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "555/898",
+    "probability": "671/1347",
+    "weights": [
+      2,
+      1,
+      1,
+      3,
+      1,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        3,
+        2
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "extensions": 13567,
+    "failed_forced_arrow": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "8799/13567",
+    "probability": "6544/13567",
+    "weights": [
+      2,
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 12661,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "7175/12661",
+    "probability": "576/1151",
+    "weights": [
+      2,
+      1,
+      2,
+      2,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "extensions": 4640,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "35/58",
+    "probability": "1157/2320",
+    "weights": [
+      2,
+      1,
+      2,
+      3,
+      1,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 25852,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "15213/25852",
+    "probability": "6363/12926",
+    "weights": [
+      2,
+      1,
+      2,
+      3,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        3,
+        2
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "extensions": 105335,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "60634/105335",
+    "probability": "52681/105335",
+    "weights": [
+      2,
+      1,
+      2,
+      3,
+      3,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 6606,
+    "failed_forced_arrow": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "forced_arrow_probability": "230/367",
+    "probability": "3259/6606",
+    "weights": [
+      3,
+      1,
+      2,
+      1,
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "extensions": 12661,
+    "failed_forced_arrow": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "7935/12661",
+    "probability": "575/1151",
+    "weights": [
+      3,
+      1,
+      2,
+      2,
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "extensions": 2694,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "847/1347",
+    "probability": "671/1347",
+    "weights": [
+      3,
+      1,
+      3,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "extensions": 13567,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "8282/13567",
+    "probability": "6544/13567",
+    "weights": [
+      3,
+      1,
+      3,
+      1,
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 4640,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "599/928",
+    "probability": "1157/2320",
+    "weights": [
+      3,
+      1,
+      3,
+      2,
+      1,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        4,
+        2
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "extensions": 25852,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "4068/6463",
+    "probability": "6363/12926",
+    "weights": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "extensions": 105335,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "12971/21067",
+    "probability": "52681/105335",
+    "weights": [
+      3,
+      1,
+      3,
+      2,
+      3,
+      1,
+      2
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 7626,
+    "failed_forced_arrow": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "forced_arrow_probability": "2470/3813",
+    "probability": "3911/7626",
+    "weights": [
+      3,
+      1,
+      1,
+      1,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        4,
+        2
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "extensions": 16361,
+    "failed_forced_arrow": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "9755/16361",
+    "probability": "8003/16361",
+    "weights": [
+      3,
+      1,
+      1,
+      2,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "extensions": 31641,
+    "failed_forced_arrow": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "18074/31641",
+    "probability": "15260/31641",
+    "weights": [
+      3,
+      1,
+      1,
+      3,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 126664,
+    "failed_forced_arrow": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "9520/15833",
+    "probability": "33869/63332",
+    "weights": [
+      3,
+      1,
+      1,
+      3,
+      3,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 16361,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "10420/16361",
+    "probability": "8003/16361",
+    "weights": [
+      3,
+      1,
+      2,
+      1,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 6490,
+    "failed_forced_arrow": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "157/295",
+    "probability": "157/295",
+    "weights": [
+      3,
+      1,
+      2,
+      2,
+      1,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 35512,
+    "failed_forced_arrow": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "22851/35512",
+    "probability": "17265/35512",
+    "weights": [
+      3,
+      1,
+      2,
+      2,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "extensions": 142680,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "11648/17835",
+    "probability": "1867/3567",
+    "weights": [
+      3,
+      1,
+      2,
+      2,
+      3,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "extensions": 11507,
+    "failed_forced_arrow": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "6846/11507",
+    "probability": "5828/11507",
+    "weights": [
+      3,
+      1,
+      2,
+      3,
+      1,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 69000,
+    "failed_forced_arrow": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "469/750",
+    "probability": "7151/13800",
+    "weights": [
+      3,
+      1,
+      2,
+      3,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 300999,
+    "failed_forced_arrow": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "195664/300999",
+    "probability": "149092/300999",
+    "weights": [
+      3,
+      1,
+      2,
+      3,
+      3,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 31641,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "18370/31641",
+    "probability": "16381/31641",
+    "weights": [
+      3,
+      1,
+      3,
+      1,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        4,
+        3
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "extensions": 126664,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "8951/15833",
+    "probability": "33869/63332",
+    "weights": [
+      3,
+      1,
+      3,
+      1,
+      3,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "extensions": 11507,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "7150/11507",
+    "probability": "5828/11507",
+    "weights": [
+      3,
+      1,
+      3,
+      2,
+      1,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        3,
+        1
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "extensions": 69000,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "5224/8625",
+    "probability": "6649/13800",
+    "weights": [
+      3,
+      1,
+      3,
+      2,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        4,
+        3
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "extensions": 300999,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "178255/300999",
+    "probability": "149092/300999",
+    "weights": [
+      3,
+      1,
+      3,
+      2,
+      3,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "extensions": 20530,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "13067/20530",
+    "probability": "1043/2053",
+    "weights": [
+      3,
+      1,
+      3,
+      3,
+      1,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "extensions": 134065,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "83454/134065",
+    "probability": "66534/134065",
+    "weights": [
+      3,
+      1,
+      3,
+      3,
+      2,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "extensions": 631903,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "385628/631903",
+    "probability": "307317/631903",
+    "weights": [
+      3,
+      1,
+      3,
+      3,
+      3,
+      1,
+      3
+    ]
+  },
+  {
+    "balanced_pair": [
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "extensions": 2402401,
+    "failed_forced_arrow": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "forced_arrow_probability": "1440206/2402401",
+    "probability": "1147898/2402401",
+    "weights": [
+      3,
+      1,
+      3,
+      3,
+      4,
+      1,
+      3
+    ]
+  }
+]

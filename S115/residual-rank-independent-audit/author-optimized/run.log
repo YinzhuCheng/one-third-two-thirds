@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "actual_labelled_vectors": 1024,
+  "weight_scope": "u,a,b,t each 1..4; c=d=1; v in 5,6,7,8",
+  "endpoint_crossing_vectors": 1024,
+  "largest_actual_interior_rank_atom": "141704/494527",
+  "largest_atom_location": [
+    [
+      4,
+      1,
+      1,
+      1,
+      4,
+      1,
+      5
+    ],
+    4
+  ],
+  "exact_beta_binomial_checks": 433524,
+  "generic_n4_countercheck": "p(4,3,5)=56/165>1/3",
+  "scope": "Unbounded theorem v>=5; finite checks only validate implementation."
+}

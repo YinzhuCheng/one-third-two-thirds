@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-10",
+  "dependencies": [
+    {
+      "copy": "dependencies/FOUR_TAIL_CERTIFICATE.md",
+      "sha256": "227708fc40a94df919101bcd6815e2191a8e45fd7c9676b222aafa74baa0ab3c",
+      "source": "/workspace/shared/four-tail-rank-certificate/FOUR_TAIL_CERTIFICATE.md"
+    },
+    {
+      "copy": "dependencies/FOUR_TAIL_PROOF_REVIEW.md",
+      "sha256": "84599d56131ddbe5c46b43c8396c33e33ce1588f2c8aec986950da4cdbdc50b7",
+      "source": "/workspace/shared/four-tail-independent-audit/PROOF_REVIEW.md"
+    },
+    {
+      "copy": "dependencies/WEIGHTED_CENSUS_ANALYSIS.md",
+      "sha256": "a4d787c0b641a74a0557e0932b98804229e74281f49df000d44dcb220b0d125a",
+      "source": "/workspace/shared/weighted-seven-core-census/ANALYSIS.md"
+    },
+    {
+      "copy": "dependencies/WEIGHTED_CENSUS_AUDIT.md",
+      "sha256": "4c701e9086f882dc93ba4b4c96e6e57de7f200af4070b9aa6fe92f4991c8de5e",
+      "source": "/workspace/shared/weighted-seven-core-census-independent-audit/AUDIT.md"
+    },
+    {
+      "copy": "dependencies/ORIGINAL_RANK_AUDIT.md",
+      "sha256": "a1e8c0d409db0b2a39600b484850d331db392239abee45b6d6e2ce4ebfe49e0b",
+      "source": "/workspace/shared/residual-rank-independent-audit/AUDIT.md"
+    },
+    {
+      "copy": "dependencies/GENERALIZED_SHUFFLE_BOUND.md",
+      "sha256": "e522a13a63f73a58c1af862e603c3b90c46084a1f83b3b79da7e6bd3d6b0a8d3",
+      "source": "/workspace/shared/generalized-seven-core-shuffle/GENERALIZED_SHUFFLE_BOUND.md"
+    },
+    {
+      "copy": "dependencies/GENERALIZED_SHUFFLE_AUDIT.md",
+      "sha256": "70e2094bc3adf01ff77f45b4e57dfa5d654ebdb7eb9c506c64f2e4fce6996a58",
+      "source": "/workspace/shared/generalized-seven-core-shuffle-independent-audit/AUDIT.md"
+    }
+  ],
+  "normal_optimized_replay": "byte-identical results, certificates, and logs",
+  "proof_sha256": "f5f62c0bf2e1224926c80f895b954e274bda134dfc025202a77935262f2cdefa",
+  "publication_attempted": false,
+  "results": {
+    "actual_extension_checks": {
+      "duality_checks": 128,
+      "endpoint_crossings": 192,
+      "four_tail_vectors": 144,
+      "largest_threshold_interior_atom": {
+        "value": "58394/188035",
+        "weights": [
+          2,
+          1,
+          1,
+          4,
+          2,
+          1,
+          5
+        ]
+      },
+      "maximum_reachable_states": 768,
+      "threshold_vectors": 192,
+      "vectors": 464
+    },
+    "beta_checks": {
+      "all_alpha_maximum_checks": 9032,
+      "integration_ratio_checks": 15754,
+      "positive_shift_coefficients": {
+        "2": [
+          6,
+          15,
+          3
+        ],
+        "3": [
+          96,
+          1202,
+          249,
+          13
+        ],
+        "4": [
+          603960,
+          1425418,
+          140683,
+          4718,
+          53
+        ]
+      },
+      "sharpness": [
+        {
+          "alpha": 6,
+          "beta": 2,
+          "last_interior_atom": "56/165",
+          "n": 4
+        },
+        {
+          "alpha": 24,
+          "beta": 3,
+          "last_interior_atom": "1755/5236",
+          "n": 9
+        },
+        {
+          "alpha": 112,
+          "beta": 4,
+          "last_interior_atom": "1432049/4294719",
+          "n": 29
+        },
+        {
+          "alpha": 4995,
+          "beta": 5,
+          "last_interior_atom": "9282007064732500/27702065542505871",
+          "n": 1000
+        }
+      ]
+    },
+    "conditional_moment_checks": 3024,
+    "five_parameter_reduction": {
+      "balanced_pair_witnesses": 41,
+      "counts_by_ports": {
+        "2,2": 7,
+        "2,3": 7,
+        "3,2": 7,
+        "3,3": 20
+      },
+      "failed_forced_arrow_witnesses": 41,
+      "maximum_order": 18,
+      "vectors": 41
+    },
+    "small_outer_spine_caps": {
+      "bounds": [
+        {
+          "adjacent_spine_cap": 3,
+          "outer_spine": 1,
+          "ratio_after_cap": "5/14",
+          "ratio_at_cap": "2/7",
+          "terminal_cap": 3
+        },
+        {
+          "adjacent_spine_cap": 19,
+          "outer_spine": 2,
+          "ratio_after_cap": "308/899",
+          "ratio_at_cap": "19/58",
+          "terminal_cap": 9
+        },
+        {
+          "adjacent_spine_cap": 90,
+          "outer_spine": 3,
+          "ratio_after_cap": "3049501/9078630",
+          "ratio_at_cap": "83421/250954",
+          "terminal_cap": 29
+        }
+      ],
+      "maximum_middle_chain": 104,
+      "maximum_total_order": 348,
+      "scope": "Necessary region for a,d <= 3, not an all-balanced theorem."
+    }
+  },
+  "scope_guards": [
+    "No all-seven-weight theorem.",
+    "The a,d<=3 region is bounded, not completely excluded.",
+    "The d>=4 beta-binomial obstruction is not a poset counterexample.",
+    "Five-parameter balancedness uses the independently PASS all-spines-at-most-three census."
+  ],
+  "verifier_sha256": "0b3d5c20256d3b29b770ff6206a8cf4e5f031cb6c5b98969b8934f844c4e4143"
+}

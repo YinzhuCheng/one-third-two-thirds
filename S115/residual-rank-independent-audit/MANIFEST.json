@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "date": "2026-10-10",
+  "scope": "Every positive (u,a,b,1,t,1,v) chain inflation, v>=5; residual 2<=v<=min(4,t) needs separate v>=t+1 theorem and v=1 structural cycle.",
+  "checks": {
+    "author_normal_matches_frozen": true,
+    "author_optimized_matches_frozen": true,
+    "independent_modes_match": true,
+    "independent_logs_match": true,
+    "original_sources_unchanged": true
+  },
+  "source_hashes": {
+    "RANK_OBSTRUCTION.md": "68d7c409010fa3552a8b9cfd5cb8b2cf7e88e9fc2abc6897b67dda539888a4fc",
+    "SHA256SUMS": "f246e484438f7a8889d09220ede941111a39d398e937a76770b62c132820fc48",
+    "verification.json": "d3988f8cee72c7b548f099f1014cb5fb7bc923918a4fec5c0dcda97ae88f78a4",
+    "verify_rank_obstruction.py": "41e6c65a9efabe9008c7bd78c09f28b32be4014eefd43aa2837a31ce50a59344"
+  },
+  "new_independent_results": {
+    "exact_histogram_comparisons": 1034,
+    "actual_endpoint_arrow_checks": 2068,
+    "beta_integral_checks": 433524,
+    "positive_mixture_checks": 324,
+    "uniform_generic_atom_bound": "30/91",
+    "uniform_gap_below_one_third": "1/273"
+  },
+  "publication": "None. Next package only; frozen S114 untouched."
+}

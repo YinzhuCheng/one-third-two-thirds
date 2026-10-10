@@ -1,0 +1,2 @@
+PASS: 40 infinite exact-support families and five zero-support cases; 37 direct outside-fiber reconstructions; 74 symbolic Newton identities; normal/-O-safe checks.
+Polynomial grid instances: 296 separate precedence counts: 644 finite/zero witnesses: 18 shuffle gap checks: 7728

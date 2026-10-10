@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "date": "2026-10-10",
+  "scope": "Frozen C02-C18 eight-point cores only; unrestricted regions remain feasible; excludes only the family with singleton blocks outside the original forced set F.",
+  "sources": {
+    "/workspace/shared/prime-core-catalogue-frozen/all_survivor_singleton_constraints.json": {
+      "bytes": 26293,
+      "sha256": "d5499a8d618eb74e87de86831a9bc1d5cf69f7e9eb24723bac46cfc432ae7c3d"
+    },
+    "/workspace/shared/prime-core-catalogue-independent-audit/orbit_and_singleton_audit.json": {
+      "bytes": 11523,
+      "sha256": "828dfc4034243b64f73a307d030420b25766ca14db0eb3740efdf17b0c30a212"
+    },
+    "/workspace/shared/eight_core_weight_filters_20261010.zip": {
+      "bytes": 57823,
+      "sha256": "f608ebc19d194a78cd4d6720df5f21d48c3215efe56a9869ab644d75cb42418e"
+    }
+  },
+  "author_snapshot_copies": {
+    "author_MANIFEST.json": {
+      "bytes": 2572,
+      "sha256": "34089c05ab5084418976ef46218a848b00642219734cfd2c5695353c1cc6cb3c"
+    },
+    "author_PROVENANCE.json": {
+      "bytes": 1081,
+      "sha256": "72f4e62e01872f3c38d20d4532a103697350ce7627b6b1e9a7f0557e6bcf49af"
+    },
+    "author_RESULT.md": {
+      "bytes": 17643,
+      "sha256": "6516efdccb9d4853bdeec9dbe1d7449d08993a79205958b5b0ee3b857a505c0d"
+    },
+    "certificate_verification.json": {
+      "bytes": 402,
+      "sha256": "797eda2beed197d380d3d02d124e0cf23afc34c015082ecc2b910226da0a31e0"
+    },
+    "family_verification.json": {
+      "bytes": 299,
+      "sha256": "78c3bdf6210e6a4c6d663a36118e059186a588e7c4558533505646d380fd5c85"
+    },
+    "frozen_singleton_constraints.json": {
+      "bytes": 26293,
+      "sha256": "d5499a8d618eb74e87de86831a9bc1d5cf69f7e9eb24723bac46cfc432ae7c3d"
+    },
+    "inflation_validation.json": {
+      "bytes": 9116,
+      "sha256": "d5eb17478a1d42a57a918874940f03bbcd6a08ee89039046a5db7c5da39c065b"
+    },
+    "input_cores.json": {
+      "bytes": 24818,
+      "sha256": "bb78aaf07b41156540382d1549586f8d66ffc19864d8aeaee33c9c8337942595"
+    },
+    "minimal_support_family_certificates.json": {
+      "bytes": 25036,
+      "sha256": "1e5f6078cb54ab81051941f9a079ffffb46216924d385bb7312c11183317f4b7"
+    },
+    "original_orbit_audit.json": {
+      "bytes": 11523,
+      "sha256": "828dfc4034243b64f73a307d030420b25766ca14db0eb3740efdf17b0c30a212"
+    },
+    "weight_filter_catalogue.json": {
+      "bytes": 1446407,
+      "sha256": "793b7146d50f900ed22b87637e98f5b65d383b4dc3424a4bb5813e9500d2cf19"
+    }
+  },
+  "external_theorems": [
+    {
+      "url": "https://arxiv.org/html/1610.00809v3",
+      "purpose": "Good-pair structural implication, Definition 1 and Theorem 2",
+      "read_date": "2026-10-10"
+    },
+    {
+      "url": "https://arxiv.org/abs/2607.23926v2",
+      "purpose": "Prior verified order-14 frontier, only for attribution; not a dependency of our exact counts",
+      "read_date": "2026-10-10"
+    }
+  ],
+  "nondeterministic_result_fields": {
+    "audit_results.json": [
+      "elapsed_seconds"
+    ]
+  },
+  "code_dependencies": "Python standard library only; no imports from author source"
+}

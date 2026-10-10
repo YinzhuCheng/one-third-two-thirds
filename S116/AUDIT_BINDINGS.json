@@ -1,0 +1,666 @@
+{
+  "package": "S116",
+  "json_values": [
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/MANIFEST.json",
+      "pointer": "/verdict",
+      "expected": "PASS"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/normal.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/reduced_normal.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/optimized.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/reduced_optimized.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/author_comparison.json",
+      "pointer": "/status",
+      "expected": "PASS"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/audit_results.json",
+      "pointer": "/verdict",
+      "expected": "PASS"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/audit_results.json",
+      "pointer": "/verdict",
+      "expected": "PASS"
+    }
+  ],
+  "json_source_hashes": [
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/GENERAL_TERMINAL_RANK_BOUNDS.md",
+      "actual": "general-terminal-rank-bounds/GENERAL_TERMINAL_RANK_BOUNDS.md"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/MANIFEST.json",
+      "actual": "general-terminal-rank-bounds/MANIFEST.json"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/README.txt",
+      "actual": "general-terminal-rank-bounds/README.txt"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/SHA256SUMS",
+      "actual": "general-terminal-rank-bounds/SHA256SUMS"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/dependencies~1FOUR_TAIL_CERTIFICATE.md",
+      "actual": "general-terminal-rank-bounds/dependencies/FOUR_TAIL_CERTIFICATE.md"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/dependencies~1FOUR_TAIL_PROOF_REVIEW.md",
+      "actual": "general-terminal-rank-bounds/dependencies/FOUR_TAIL_PROOF_REVIEW.md"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/dependencies~1GENERALIZED_SHUFFLE_AUDIT.md",
+      "actual": "general-terminal-rank-bounds/dependencies/GENERALIZED_SHUFFLE_AUDIT.md"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/dependencies~1GENERALIZED_SHUFFLE_BOUND.md",
+      "actual": "general-terminal-rank-bounds/dependencies/GENERALIZED_SHUFFLE_BOUND.md"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/dependencies~1ORIGINAL_RANK_AUDIT.md",
+      "actual": "general-terminal-rank-bounds/dependencies/ORIGINAL_RANK_AUDIT.md"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/dependencies~1WEIGHTED_CENSUS_ANALYSIS.md",
+      "actual": "general-terminal-rank-bounds/dependencies/WEIGHTED_CENSUS_ANALYSIS.md"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/dependencies~1WEIGHTED_CENSUS_AUDIT.md",
+      "actual": "general-terminal-rank-bounds/dependencies/WEIGHTED_CENSUS_AUDIT.md"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/reduced_41_certificate.json",
+      "actual": "general-terminal-rank-bounds/reduced_41_certificate.json"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/reduced_41_certificate.normal.json",
+      "actual": "general-terminal-rank-bounds/reduced_41_certificate.normal.json"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/run.log",
+      "actual": "general-terminal-rank-bounds/run.log"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/run.optimized.log",
+      "actual": "general-terminal-rank-bounds/run.optimized.log"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/verification.json",
+      "actual": "general-terminal-rank-bounds/verification.json"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/verification.normal.json",
+      "actual": "general-terminal-rank-bounds/verification.normal.json"
+    },
+    {
+      "document": "general-terminal-rank-independent-audit/SOURCE_INTEGRITY.json",
+      "pointer": "/source_files_sha256/verify_general_terminal_rank.py",
+      "actual": "general-terminal-rank-bounds/verify_general_terminal_rank.py"
+    },
+    {
+      "document": "general-terminal-rank-bounds/MANIFEST.json",
+      "pointer": "/dependencies/0/sha256",
+      "actual": "general-terminal-rank-bounds/dependencies/FOUR_TAIL_CERTIFICATE.md"
+    },
+    {
+      "document": "general-terminal-rank-bounds/MANIFEST.json",
+      "pointer": "/dependencies/1/sha256",
+      "actual": "general-terminal-rank-bounds/dependencies/FOUR_TAIL_PROOF_REVIEW.md"
+    },
+    {
+      "document": "general-terminal-rank-bounds/MANIFEST.json",
+      "pointer": "/dependencies/2/sha256",
+      "actual": "general-terminal-rank-bounds/dependencies/WEIGHTED_CENSUS_ANALYSIS.md"
+    },
+    {
+      "document": "general-terminal-rank-bounds/MANIFEST.json",
+      "pointer": "/dependencies/3/sha256",
+      "actual": "general-terminal-rank-bounds/dependencies/WEIGHTED_CENSUS_AUDIT.md"
+    },
+    {
+      "document": "general-terminal-rank-bounds/MANIFEST.json",
+      "pointer": "/dependencies/4/sha256",
+      "actual": "general-terminal-rank-bounds/dependencies/ORIGINAL_RANK_AUDIT.md"
+    },
+    {
+      "document": "general-terminal-rank-bounds/MANIFEST.json",
+      "pointer": "/dependencies/5/sha256",
+      "actual": "general-terminal-rank-bounds/dependencies/GENERALIZED_SHUFFLE_BOUND.md"
+    },
+    {
+      "document": "general-terminal-rank-bounds/MANIFEST.json",
+      "pointer": "/dependencies/6/sha256",
+      "actual": "general-terminal-rank-bounds/dependencies/GENERALIZED_SHUFFLE_AUDIT.md"
+    },
+    {
+      "document": "C13-four-block-theorem-v2/MANIFEST.json",
+      "pointer": "/CORRECTION.md",
+      "actual": "C13-four-block-theorem-v2/CORRECTION.md"
+    },
+    {
+      "document": "C13-four-block-theorem-v2/MANIFEST.json",
+      "pointer": "/THEOREM.md",
+      "actual": "C13-four-block-theorem-v2/THEOREM.md"
+    },
+    {
+      "document": "C13-four-block-theorem-v2/MANIFEST.json",
+      "pointer": "/certificate.json",
+      "actual": "C13-four-block-theorem-v2/certificate.json"
+    },
+    {
+      "document": "C13-four-block-theorem-v2/MANIFEST.json",
+      "pointer": "/verification.log",
+      "actual": "C13-four-block-theorem-v2/verification.log"
+    },
+    {
+      "document": "C13-four-block-theorem-v2/MANIFEST.json",
+      "pointer": "/verify.py",
+      "actual": "C13-four-block-theorem-v2/verify.py"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/AUDIT.md/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/AUDIT.md"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/PROVENANCE.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/PROVENANCE.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/audit-normal.log/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/audit-normal.log"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/audit-optimized.log/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/audit-optimized.log"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/audit.py/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/audit.py"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/audit_results.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/audit_results.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1author~1CORRECTION.md/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/author/CORRECTION.md"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1author~1MANIFEST.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/author/MANIFEST.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1author~1THEOREM.md/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/author/THEOREM.md"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1author~1certificate.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/author/certificate.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1author~1verification.log/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/author/verification.log"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1author~1verify.py/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/author/verify.py"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1AUDIT.md/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/AUDIT.md"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1MANIFEST.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/MANIFEST.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1PROVENANCE.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/PROVENANCE.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1inputs~1frozen_singleton_constraints.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/inputs/frozen_singleton_constraints.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1inputs~1input_cores.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/inputs/input_cores.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1inputs~1original_orbit_audit.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/inputs/original_orbit_audit.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1inputs~1weight_filter_catalogue.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/inputs/weight_filter_catalogue.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/MANIFEST.json",
+      "pointer": "/files/verify_snapshot.py/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/verify_snapshot.py"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/inputs/prior/MANIFEST.json",
+      "pointer": "/files/AUDIT.md/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/AUDIT.md"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/inputs/prior/MANIFEST.json",
+      "pointer": "/files/PROVENANCE.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/PROVENANCE.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/inputs/prior/MANIFEST.json",
+      "pointer": "/files/inputs~1frozen_singleton_constraints.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/inputs/frozen_singleton_constraints.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/inputs/prior/MANIFEST.json",
+      "pointer": "/files/inputs~1input_cores.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/inputs/input_cores.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/inputs/prior/MANIFEST.json",
+      "pointer": "/files/inputs~1original_orbit_audit.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/inputs/original_orbit_audit.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/C13-v2/inputs/prior/MANIFEST.json",
+      "pointer": "/files/inputs~1weight_filter_catalogue.json/sha256",
+      "actual": "eight-core-support-independent-audit/C13-v2/inputs/prior/inputs/weight_filter_catalogue.json"
+    },
+    {
+      "document": "five-classes-two-block-theorem/MANIFEST.json",
+      "pointer": "/THEOREM.md",
+      "actual": "five-classes-two-block-theorem/THEOREM.md"
+    },
+    {
+      "document": "five-classes-two-block-theorem/MANIFEST.json",
+      "pointer": "/certificate.json",
+      "actual": "five-classes-two-block-theorem/certificate.json"
+    },
+    {
+      "document": "five-classes-two-block-theorem/MANIFEST.json",
+      "pointer": "/verification.log",
+      "actual": "five-classes-two-block-theorem/verification.log"
+    },
+    {
+      "document": "five-classes-two-block-theorem/MANIFEST.json",
+      "pointer": "/verify.py",
+      "actual": "five-classes-two-block-theorem/verify.py"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/AUDIT.md/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/AUDIT.md"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/PROVENANCE.json/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/PROVENANCE.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/audit-normal.log/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/audit-normal.log"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/audit-optimized.log/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/audit-optimized.log"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/audit.py/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/audit.py"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/audit_results.json/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/audit_results.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/inputs~1author~1MANIFEST.json/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/author/MANIFEST.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/inputs~1author~1THEOREM.md/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/author/THEOREM.md"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/inputs~1author~1certificate.json/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/author/certificate.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/inputs~1author~1verification.log/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/author/verification.log"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/inputs~1author~1verify.py/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/author/verify.py"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1AUDIT.md/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/prior/AUDIT.md"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1MANIFEST.json/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/prior/MANIFEST.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1inputs~1frozen_singleton_constraints.json/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/prior/inputs/frozen_singleton_constraints.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1inputs~1original_orbit_audit.json/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/prior/inputs/original_orbit_audit.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/inputs~1prior~1inputs~1weight_filter_catalogue.json/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/prior/inputs/weight_filter_catalogue.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/MANIFEST.json",
+      "pointer": "/files/verify_snapshot.py/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/verify_snapshot.py"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/inputs/prior/MANIFEST.json",
+      "pointer": "/files/AUDIT.md/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/prior/AUDIT.md"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/inputs/prior/MANIFEST.json",
+      "pointer": "/files/inputs~1frozen_singleton_constraints.json/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/prior/inputs/frozen_singleton_constraints.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/inputs/prior/MANIFEST.json",
+      "pointer": "/files/inputs~1original_orbit_audit.json/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/prior/inputs/original_orbit_audit.json"
+    },
+    {
+      "document": "eight-core-support-independent-audit/five-classes/inputs/prior/MANIFEST.json",
+      "pointer": "/files/inputs~1weight_filter_catalogue.json/sha256",
+      "actual": "eight-core-support-independent-audit/five-classes/inputs/prior/inputs/weight_filter_catalogue.json"
+    }
+  ],
+  "byte_equalities": [
+    {
+      "left": "general-terminal-rank-bounds/GENERAL_TERMINAL_RANK_BOUNDS.md",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/GENERAL_TERMINAL_RANK_BOUNDS.md"
+    },
+    {
+      "left": "general-terminal-rank-bounds/MANIFEST.json",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/MANIFEST.json"
+    },
+    {
+      "left": "general-terminal-rank-bounds/README.txt",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/README.txt"
+    },
+    {
+      "left": "general-terminal-rank-bounds/SHA256SUMS",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/SHA256SUMS"
+    },
+    {
+      "left": "general-terminal-rank-bounds/dependencies/FOUR_TAIL_CERTIFICATE.md",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/dependencies/FOUR_TAIL_CERTIFICATE.md"
+    },
+    {
+      "left": "general-terminal-rank-bounds/dependencies/FOUR_TAIL_PROOF_REVIEW.md",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/dependencies/FOUR_TAIL_PROOF_REVIEW.md"
+    },
+    {
+      "left": "general-terminal-rank-bounds/dependencies/GENERALIZED_SHUFFLE_AUDIT.md",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/dependencies/GENERALIZED_SHUFFLE_AUDIT.md"
+    },
+    {
+      "left": "general-terminal-rank-bounds/dependencies/GENERALIZED_SHUFFLE_BOUND.md",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/dependencies/GENERALIZED_SHUFFLE_BOUND.md"
+    },
+    {
+      "left": "general-terminal-rank-bounds/dependencies/ORIGINAL_RANK_AUDIT.md",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/dependencies/ORIGINAL_RANK_AUDIT.md"
+    },
+    {
+      "left": "general-terminal-rank-bounds/dependencies/WEIGHTED_CENSUS_ANALYSIS.md",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/dependencies/WEIGHTED_CENSUS_ANALYSIS.md"
+    },
+    {
+      "left": "general-terminal-rank-bounds/dependencies/WEIGHTED_CENSUS_AUDIT.md",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/dependencies/WEIGHTED_CENSUS_AUDIT.md"
+    },
+    {
+      "left": "general-terminal-rank-bounds/reduced_41_certificate.json",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/reduced_41_certificate.json"
+    },
+    {
+      "left": "general-terminal-rank-bounds/reduced_41_certificate.normal.json",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/reduced_41_certificate.normal.json"
+    },
+    {
+      "left": "general-terminal-rank-bounds/run.log",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/run.log"
+    },
+    {
+      "left": "general-terminal-rank-bounds/run.optimized.log",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/run.optimized.log"
+    },
+    {
+      "left": "general-terminal-rank-bounds/verification.json",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/verification.json"
+    },
+    {
+      "left": "general-terminal-rank-bounds/verification.normal.json",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/verification.normal.json"
+    },
+    {
+      "left": "general-terminal-rank-bounds/verify_general_terminal_rank.py",
+      "right": "general-terminal-rank-independent-audit/source_snapshot/verify_general_terminal_rank.py"
+    },
+    {
+      "left": "general-terminal-rank-bounds/verify_general_terminal_rank.py",
+      "right": "general-terminal-rank-independent-audit/author_normal/verify_general_terminal_rank.py"
+    },
+    {
+      "left": "general-terminal-rank-bounds/verification.json",
+      "right": "general-terminal-rank-independent-audit/author_normal/verification.json"
+    },
+    {
+      "left": "general-terminal-rank-bounds/reduced_41_certificate.json",
+      "right": "general-terminal-rank-independent-audit/author_normal/reduced_41_certificate.json"
+    },
+    {
+      "left": "general-terminal-rank-independent-audit/normal.json",
+      "right": "general-terminal-rank-independent-audit/optimized.json"
+    },
+    {
+      "left": "general-terminal-rank-independent-audit/reduced_normal.json",
+      "right": "general-terminal-rank-independent-audit/reduced_optimized.json"
+    },
+    {
+      "left": "general-terminal-rank-bounds/verify_general_terminal_rank.py",
+      "right": "general-terminal-rank-independent-audit/author_optimized/verify_general_terminal_rank.py"
+    },
+    {
+      "left": "general-terminal-rank-bounds/verification.json",
+      "right": "general-terminal-rank-independent-audit/author_optimized/verification.json"
+    },
+    {
+      "left": "general-terminal-rank-bounds/reduced_41_certificate.json",
+      "right": "general-terminal-rank-independent-audit/author_optimized/reduced_41_certificate.json"
+    },
+    {
+      "left": "C13-four-block-theorem-v2/CORRECTION.md",
+      "right": "eight-core-support-independent-audit/C13-v2/inputs/author/CORRECTION.md"
+    },
+    {
+      "left": "C13-four-block-theorem-v2/MANIFEST.json",
+      "right": "eight-core-support-independent-audit/C13-v2/inputs/author/MANIFEST.json"
+    },
+    {
+      "left": "C13-four-block-theorem-v2/THEOREM.md",
+      "right": "eight-core-support-independent-audit/C13-v2/inputs/author/THEOREM.md"
+    },
+    {
+      "left": "C13-four-block-theorem-v2/certificate.json",
+      "right": "eight-core-support-independent-audit/C13-v2/inputs/author/certificate.json"
+    },
+    {
+      "left": "C13-four-block-theorem-v2/verification.log",
+      "right": "eight-core-support-independent-audit/C13-v2/inputs/author/verification.log"
+    },
+    {
+      "left": "C13-four-block-theorem-v2/verify.py",
+      "right": "eight-core-support-independent-audit/C13-v2/inputs/author/verify.py"
+    },
+    {
+      "left": "eight-core-support-independent-audit/C13-v2/audit-normal.log",
+      "right": "eight-core-support-independent-audit/C13-v2/audit-optimized.log"
+    },
+    {
+      "left": "five-classes-two-block-theorem/MANIFEST.json",
+      "right": "eight-core-support-independent-audit/five-classes/inputs/author/MANIFEST.json"
+    },
+    {
+      "left": "five-classes-two-block-theorem/THEOREM.md",
+      "right": "eight-core-support-independent-audit/five-classes/inputs/author/THEOREM.md"
+    },
+    {
+      "left": "five-classes-two-block-theorem/certificate.json",
+      "right": "eight-core-support-independent-audit/five-classes/inputs/author/certificate.json"
+    },
+    {
+      "left": "five-classes-two-block-theorem/verification.log",
+      "right": "eight-core-support-independent-audit/five-classes/inputs/author/verification.log"
+    },
+    {
+      "left": "five-classes-two-block-theorem/verify.py",
+      "right": "eight-core-support-independent-audit/five-classes/inputs/author/verify.py"
+    },
+    {
+      "left": "eight-core-support-independent-audit/five-classes/audit-normal.log",
+      "right": "eight-core-support-independent-audit/five-classes/audit-optimized.log"
+    }
+  ],
+  "checksum_manifests": [
+    {
+      "manifest": "general-terminal-rank-bounds/SHA256SUMS",
+      "base": "general-terminal-rank-bounds"
+    },
+    {
+      "manifest": "general-terminal-rank-independent-audit/SHA256SUMS",
+      "base": "general-terminal-rank-independent-audit"
+    },
+    {
+      "manifest": "general-terminal-rank-independent-audit/source_snapshot/SHA256SUMS",
+      "base": "general-terminal-rank-independent-audit/source_snapshot"
+    }
+  ],
+  "historical_manifest_entries": [
+    {
+      "manifest": "references/S115/SHA256SUMS",
+      "historical_entry": "four-tail-independent-audit/source_snapshot/FOUR_TAIL_CERTIFICATE.md",
+      "actual": "general-terminal-rank-bounds/dependencies/FOUR_TAIL_CERTIFICATE.md"
+    },
+    {
+      "manifest": "references/S115/SHA256SUMS",
+      "historical_entry": "four-tail-independent-audit/PROOF_REVIEW.md",
+      "actual": "general-terminal-rank-bounds/dependencies/FOUR_TAIL_PROOF_REVIEW.md"
+    },
+    {
+      "manifest": "references/S114/SHA256SUMS",
+      "historical_entry": "weighted-seven-core-census/ANALYSIS.md",
+      "actual": "general-terminal-rank-bounds/dependencies/WEIGHTED_CENSUS_ANALYSIS.md"
+    },
+    {
+      "manifest": "references/S114/SHA256SUMS",
+      "historical_entry": "weighted-seven-core-census-independent-audit/AUDIT.md",
+      "actual": "general-terminal-rank-bounds/dependencies/WEIGHTED_CENSUS_AUDIT.md"
+    },
+    {
+      "manifest": "references/S115/SHA256SUMS",
+      "historical_entry": "residual-rank-independent-audit/AUDIT.md",
+      "actual": "general-terminal-rank-bounds/dependencies/ORIGINAL_RANK_AUDIT.md"
+    },
+    {
+      "manifest": "references/S114/SHA256SUMS",
+      "historical_entry": "generalized-seven-core-shuffle/GENERALIZED_SHUFFLE_BOUND.md",
+      "actual": "general-terminal-rank-bounds/dependencies/GENERALIZED_SHUFFLE_BOUND.md"
+    },
+    {
+      "manifest": "references/S114/SHA256SUMS",
+      "historical_entry": "generalized-seven-core-shuffle-independent-audit/AUDIT.md",
+      "actual": "general-terminal-rank-bounds/dependencies/GENERALIZED_SHUFFLE_AUDIT.md"
+    }
+  ]
+}

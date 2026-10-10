@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "source_root": "/workspace/shared/general-terminal-rank-bounds",
+  "source_files_sha256": {
+    "GENERAL_TERMINAL_RANK_BOUNDS.md": "f5f62c0bf2e1224926c80f895b954e274bda134dfc025202a77935262f2cdefa",
+    "MANIFEST.json": "59a85237eb524c1e7a05ef7247ad6071a1e7b9b10fa177bcbf1419a0b1fa1651",
+    "README.txt": "e7a1d9ae820a2c247e83634ea6a4084684420a71c93071dc041a6d82959db4c1",
+    "SHA256SUMS": "cdf1d5819b4db9f198584aebb3770d011a48fc202e0b0a6f309620ebaa6596e9",
+    "dependencies/FOUR_TAIL_CERTIFICATE.md": "227708fc40a94df919101bcd6815e2191a8e45fd7c9676b222aafa74baa0ab3c",
+    "dependencies/FOUR_TAIL_PROOF_REVIEW.md": "84599d56131ddbe5c46b43c8396c33e33ce1588f2c8aec986950da4cdbdc50b7",
+    "dependencies/GENERALIZED_SHUFFLE_AUDIT.md": "70e2094bc3adf01ff77f45b4e57dfa5d654ebdb7eb9c506c64f2e4fce6996a58",
+    "dependencies/GENERALIZED_SHUFFLE_BOUND.md": "e522a13a63f73a58c1af862e603c3b90c46084a1f83b3b79da7e6bd3d6b0a8d3",
+    "dependencies/ORIGINAL_RANK_AUDIT.md": "a1e8c0d409db0b2a39600b484850d331db392239abee45b6d6e2ce4ebfe49e0b",
+    "dependencies/WEIGHTED_CENSUS_ANALYSIS.md": "a4d787c0b641a74a0557e0932b98804229e74281f49df000d44dcb220b0d125a",
+    "dependencies/WEIGHTED_CENSUS_AUDIT.md": "4c701e9086f882dc93ba4b4c96e6e57de7f200af4070b9aa6fe92f4991c8de5e",
+    "reduced_41_certificate.json": "5fb330c4026b25365c4e55e7e9d42f2cacb3fbcf6ed095d9adcb39ad44c4a2ab",
+    "reduced_41_certificate.normal.json": "5fb330c4026b25365c4e55e7e9d42f2cacb3fbcf6ed095d9adcb39ad44c4a2ab",
+    "run.log": "1c5be7c10b1735784e4efe8f671e5f3bf2151933f91489160b6cb1ab2c0c6565",
+    "run.optimized.log": "1c5be7c10b1735784e4efe8f671e5f3bf2151933f91489160b6cb1ab2c0c6565",
+    "verification.json": "1c5be7c10b1735784e4efe8f671e5f3bf2151933f91489160b6cb1ab2c0c6565",
+    "verification.normal.json": "1c5be7c10b1735784e4efe8f671e5f3bf2151933f91489160b6cb1ab2c0c6565",
+    "verify_general_terminal_rank.py": "0b3d5c20256d3b29b770ff6206a8cf4e5f031cb6c5b98969b8934f844c4e4143"
+  },
+  "source_snapshot_matches_original_after_replays": true,
+  "author_outputs_normal_optimized_match_original": true,
+  "independent_outputs_normal_optimized_byte_equal": true,
+  "dependency_copies_match_declared_frozen_originals": true,
+  "author_originals_modified": false,
+  "remote_publication_or_upload": false
+}

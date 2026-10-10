@@ -1,0 +1,3 @@
+PASS: C13 all-weight <=3-support exclusion; 93 supports, 64 sections, 256 port patterns, 2 exhaustive extension lists, 220 independent precedence counts.
+support [0, 3, 4] total 2060 forward 698 reverse 1362
+support [0, 3, 6] total 2060 forward 742 reverse 1318

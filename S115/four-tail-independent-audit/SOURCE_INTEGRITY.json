@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "original_source_directory": "/workspace/shared/four-tail-rank-certificate",
+  "original_source_files_sha256": {
+    "FOUR_TAIL_CERTIFICATE.md": "227708fc40a94df919101bcd6815e2191a8e45fd7c9676b222aafa74baa0ab3c",
+    "README.txt": "1d42ef4af1a8a11271b952267d68ce5da44d03196ba4dcad3d40f5d60e72a600",
+    "SHA256SUMS": "1024667b275aa0352bde32cc6c07a64a98acc906c62e70562c9ece6c41f48a90",
+    "optimized.log": "a02196ea9e99e2e547f9ad7be81af20c80c80424699ded4bc985540b3db1ba7c",
+    "verification.json": "a02196ea9e99e2e547f9ad7be81af20c80c80424699ded4bc985540b3db1ba7c",
+    "verify_four_tail.py": "96ef9375351cda862f832e102baa577c92778fdc487dbba4ed4e9f45efb407d5"
+  },
+  "source_snapshot_matches_original_after_audit": true,
+  "independent_normal_optimized_results_byte_identical": true,
+  "independent_normal_optimized_vector_records_byte_identical": true,
+  "source_normal_optimized_reports_match_frozen_original_byte_for_byte": true,
+  "source_verifier_execution_copies_match_frozen_original": true,
+  "external_structural_reference": {
+    "author": "Imed Zaguia",
+    "title": "The 1/3-2/3 Conjecture for ordered sets whose cover graph is a forest",
+    "arxiv": "1610.00809",
+    "version": "v3",
+    "url": "https://arxiv.org/html/1610.00809",
+    "checked": "Definition 1 and Theorem 2",
+    "access_date_utc": "2026-10-10"
+  }
+}
