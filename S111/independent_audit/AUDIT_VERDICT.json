@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-10",
+  "scope_1_exact_counterexample_and_kernel": "PASS",
+  "scope_2_exhaustive_computational_minimum_n8": "PASS",
+  "minimum_n": 8,
+  "maximum_n_certified_mtp2": 7,
+  "multiple_max_D_nontrivial_configurations": 858,
+  "additional_empty_D_or_unique_max_D_configurations": 39829,
+  "equal_upper_sets": "Analytically certified for all sizes.",
+  "kernel_boundary_comparisons": 3500,
+  "full_extension_counts": {
+    "E": 200,
+    "F": 100,
+    "G": 100,
+    "H": 74,
+    "Ru": 26,
+    "Ry": 26
+  },
+  "ordinary_square_slack": 4800,
+  "dimension_sharp_slack": 23600,
+  "strict_interior_negative_rectangle": [
+    "1/10000",
+    "1/100"
+  ],
+  "strict_interior_determinant": "-6052032350938988314995726498339/1600000000000000000000000000000000000000",
+  "analytic_branches": "Sublattice domain and endpoint conventions independently checked; standard MTP2 marginal-preservation theorem externally sourced, not reproved. Finite minimum also directly certified without those analytic branches.",
+  "excluded_scope": [
+    "Section 5 common-downset recurrences",
+    "General dimension-sharp conjecture proof",
+    "Global poset conjectures",
+    "Publication"
+  ],
+  "source_note": "S110 [1/100,2/100]^2 test is positive and is not the supplied interior certificate."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "NO_FAILURE_ON_EXACT_GRID",
+  "args": {
+    "m": 5,
+    "grid": 16,
+    "trials": 1000,
+    "seed": 110,
+    "exhaustive": true,
+    "out": "exhaustive_m5.json"
+  },
+  "cases": 828,
+  "distinct_histograms": 151,
+  "elapsed_seconds": 0.0701436996459961
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "public_path": "actual_fiber/exhaustive_m6_grid.json",
+    "original_filename": "exhaustive_m6_grid.json",
+    "original_sha256": "f4c97755509f2c90204b5c74768b514d2fb01b50aa7edaacc74762f55a4e950b",
+    "publication_sha256": "f4c97755509f2c90204b5c74768b514d2fb01b50aa7edaacc74762f55a4e950b",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "actual_fiber/REPORT.md",
+    "original_filename": "REPORT.md",
+    "original_sha256": "23484a21f230c49b6a30a4436a97195e169052915e032b2f348e201ba35f2ad5",
+    "publication_sha256": "18bdcf867d8a0b632dee083a1faeafc7c6f7b566e3fa9351b21b4f342a59f1bf",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "actual_fiber/certify_small_mtp2.py",
+    "original_filename": "certify_small_mtp2.py",
+    "original_sha256": "50318ca0c06742582a0b6431df55e27d3f966de10f19a5a4302d0a107b7d3298",
+    "publication_sha256": "5d3b324dce9afe80e86d4e406371e14c831fd7ac4402bd1301b43bb3206b692f",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "actual_fiber/exhaustive_m5.json",
+    "original_filename": "exhaustive_m5.json",
+    "original_sha256": "c0fda979315400bc3d67223ea8f0b9ba2b812fddb04457c96c0ade4308c22488",
+    "publication_sha256": "7d1456882f4a3f3cd67805cafa5ef0848256349adfc2322d231fca6b4540b6cb",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "actual_fiber/bernstein_mtp2_m3.json",
+    "original_filename": "bernstein_mtp2_m3.json",
+    "original_sha256": "6e7241767fb5801a237e514b3e38f5f6ba40926616f52f9291b6f425a6d02317",
+    "publication_sha256": "6e7241767fb5801a237e514b3e38f5f6ba40926616f52f9291b6f425a6d02317",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "actual_fiber/reproduce_candidate.py",
+    "original_filename": "reproduce_candidate.py",
+    "original_sha256": "47a756c163bbc7da05934537ed64719e8e0402d54783513457cdd10e3f3ac35e",
+    "publication_sha256": "dfe05f521ba4d790381025bc54bd28893fececbd7223cbe8e5ab03408f71604b",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "actual_fiber/test_exact_fiber_mtp2.py",
+    "original_filename": "test_exact_fiber_mtp2.py",
+    "original_sha256": "bd2b6fe919f70655f94e8b0a7cd3adc4cff42f21a5d546cd2e77eccd47a66ad4",
+    "publication_sha256": "bd2b6fe919f70655f94e8b0a7cd3adc4cff42f21a5d546cd2e77eccd47a66ad4",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "actual_fiber/bernstein_mtp2_m5.json",
+    "original_filename": "bernstein_mtp2_m5.json",
+    "original_sha256": "d560495afc704dfaec7ea584f51843278921440965613691978741a6fe57ccdb",
+    "publication_sha256": "d560495afc704dfaec7ea584f51843278921440965613691978741a6fe57ccdb",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "actual_fiber/all_small_mtp2_certificates.json",
+    "original_filename": "all_small_mtp2_certificates.json",
+    "original_sha256": "a6b531e5adc8bd5d9fccb0087e31c8806c97697249f23495b0c34b3c9553685c",
+    "publication_sha256": "a6b531e5adc8bd5d9fccb0087e31c8806c97697249f23495b0c34b3c9553685c",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "actual_fiber/bernstein_mtp2_m2.json",
+    "original_filename": "bernstein_mtp2_m2.json",
+    "original_sha256": "ceaaa2db195dad680bc86177aada5d110996fbecbfcfdaa00bb5cf7423952f81",
+    "publication_sha256": "ceaaa2db195dad680bc86177aada5d110996fbecbfcfdaa00bb5cf7423952f81",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "actual_fiber/bernstein_mtp2_m4.json",
+    "original_filename": "bernstein_mtp2_m4.json",
+    "original_sha256": "3753c03281de9696ff64d99cb45799896170ae32bd8fd66710ca5d1639be4993",
+    "publication_sha256": "3753c03281de9696ff64d99cb45799896170ae32bd8fd66710ca5d1639be4993",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "actual_fiber/actual_mtp2_counter_audit.json",
+    "original_filename": "actual_mtp2_counter_audit.json",
+    "original_sha256": "43057f7aa4ba6a58b2e3a83a51a38ee6456f3c8678c20dc30dd90e1b7ab21d97",
+    "publication_sha256": "43057f7aa4ba6a58b2e3a83a51a38ee6456f3c8678c20dc30dd90e1b7ab21d97",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/proposal_coefficient_comparison.json",
+    "original_filename": "proposal_coefficient_comparison.json",
+    "original_sha256": "53ae7cd0afdee2112a6d3a2533ab6e587ef4ee72c23f5cadc00f7d6f6a3b4a90",
+    "publication_sha256": "53ae7cd0afdee2112a6d3a2533ab6e587ef4ee72c23f5cadc00f7d6f6a3b4a90",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/all_branches_coefficient_check.json",
+    "original_filename": "all_branches_coefficient_check.json",
+    "original_sha256": "033ff53a7b32513ad5df2a1a2ce498d0863a581980f052ee1fc1add91c6c9c6c",
+    "publication_sha256": "033ff53a7b32513ad5df2a1a2ce498d0863a581980f052ee1fc1add91c6c9c6c",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/audit_actual_fiber_independent.py",
+    "original_filename": "audit_actual_fiber_independent.py",
+    "original_sha256": "f2b88b76bab672b466b2ae13822f87df47ccbaa62785a7400bf55732e5ae510f",
+    "publication_sha256": "f2b88b76bab672b466b2ae13822f87df47ccbaa62785a7400bf55732e5ae510f",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/small_minimality_full_coefficients.json",
+    "original_filename": "small_minimality_full_coefficients.json",
+    "original_sha256": "5f476a765d82287ff8c66aab8f173141c7e7162ab1a8bfab7b77c53d51b78b1d",
+    "publication_sha256": "5f476a765d82287ff8c66aab8f173141c7e7162ab1a8bfab7b77c53d51b78b1d",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/small_minimality_independent_summary.json",
+    "original_filename": "small_minimality_independent_summary.json",
+    "original_sha256": "583b46928f349aaf881ed7cce47ba9a21272f4d852a6b6e3777aa874034f53f3",
+    "publication_sha256": "583b46928f349aaf881ed7cce47ba9a21272f4d852a6b6e3777aa874034f53f3",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/certify_all_branches.py",
+    "original_filename": "certify_all_branches.py",
+    "original_sha256": "7e496fd77089a34bb61f1aac3af148c6c8c205ab12a2c08d076ab574fff34ff1",
+    "publication_sha256": "7e496fd77089a34bb61f1aac3af148c6c8c205ab12a2c08d076ab574fff34ff1",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/AUDIT_VERDICT.json",
+    "original_filename": "AUDIT_VERDICT.json",
+    "original_sha256": "13d63517da04499c9e052c541205c4854dc78f1eb85c751ece8198e9407e58e2",
+    "publication_sha256": "13d63517da04499c9e052c541205c4854dc78f1eb85c751ece8198e9407e58e2",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/kernel_boundary_checks.json",
+    "original_filename": "kernel_boundary_checks.json",
+    "original_sha256": "a431208083a0fc927bc6a2f0fb9c931b0e5a2439e9a15faaed591c0028736249",
+    "publication_sha256": "a431208083a0fc927bc6a2f0fb9c931b0e5a2439e9a15faaed591c0028736249",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/compare_proposal_coefficients.py",
+    "original_filename": "compare_proposal_coefficients.py",
+    "original_sha256": "d09c4fe4162d695d9b033c5db9bab5f80a59742ec52538f87e2a9027161b649a",
+    "publication_sha256": "020ced56e7a283f299c94f8a5ebd8c212c3cfc9ca3908917fa91a6582f4587b1",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "independent_audit/actual_fiber_independent_results.json",
+    "original_filename": "actual_fiber_independent_results.json",
+    "original_sha256": "c606479230d3f7ccce16ccb131e61eda004f9d406af9fb0ff41d42e2157a681f",
+    "publication_sha256": "c606479230d3f7ccce16ccb131e61eda004f9d406af9fb0ff41d42e2157a681f",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/all_branches_full_coefficients.json",
+    "original_filename": "all_branches_full_coefficients.json",
+    "original_sha256": "7570b1c898efe4c929df1e8fc665c639eadd2c32a146edd79bd1fed860f37a1c",
+    "publication_sha256": "7570b1c898efe4c929df1e8fc665c639eadd2c32a146edd79bd1fed860f37a1c",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/audit_small_minimality_independent.py",
+    "original_filename": "audit_small_minimality_independent.py",
+    "original_sha256": "4eb80e3c6e16d061b0a8c636ad6066db924ecf57bfdfc47fdf2fd430b157c7ce",
+    "publication_sha256": "4eb80e3c6e16d061b0a8c636ad6066db924ecf57bfdfc47fdf2fd430b157c7ce",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "independent_audit/INDEPENDENT_AUDIT.md",
+    "original_filename": "INDEPENDENT_AUDIT.md",
+    "original_sha256": "c0d04de956d0b72bd59490812ef5b8c266fcd214483ce828eaee644dadf0acdb",
+    "publication_sha256": "4df36926f2fdac8dac8857ea096e200608531769c190eee63aafc137bab9ce01",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "independent_audit/check_kernel_boundaries.py",
+    "original_filename": "check_kernel_boundaries.py",
+    "original_sha256": "a878a61986020ad7cdd2ec80243800802017248fdd0b696f12418d9a75bda59c",
+    "publication_sha256": "a5f307ea893ed5315592588d8a4294f575ab7bcee4dc85c14175856640905238",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "recurrence_audit/section5_exact_checks.json",
+    "original_filename": "section5_exact_checks.json",
+    "original_sha256": "9a98d09db67804214c817251b1620354d5ed51a61eb07379759e2e58594880cb",
+    "publication_sha256": "9a98d09db67804214c817251b1620354d5ed51a61eb07379759e2e58594880cb",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "recurrence_audit/SECTION5_SOURCE.txt",
+    "original_filename": "SECTION5_SOURCE.txt",
+    "original_sha256": "9ab9704326bc486d6e79fb67ef6c972280b9d0e46ef510cfb5136a1127542a27",
+    "publication_sha256": "9ab9704326bc486d6e79fb67ef6c972280b9d0e46ef510cfb5136a1127542a27",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "recurrence_audit/AUDIT_VERDICT.json",
+    "original_filename": "AUDIT_VERDICT.json",
+    "original_sha256": "079dbe3d114b6cca5abc593fdb67c66f73ec025ea63f0a8b37457a6e86d3f937",
+    "publication_sha256": "568fb70966d091533d5f0683d972fd7033f9ed7821b77f893f0dfa8b2129672d",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "recurrence_audit/SECTION5_AUDIT.md",
+    "original_filename": "SECTION5_AUDIT.md",
+    "original_sha256": "74c2d92f0060c8602fe94db0240a77687467e52e027ffe4d071612c39f1ed731",
+    "publication_sha256": "b2fc0eb945adb4a086fcaeba590432d0df0ce88b0a5848ca070f0b72667d5c3e",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "recurrence_audit/audit_section5.py",
+    "original_filename": "audit_section5.py",
+    "original_sha256": "1608aabce644368262e03ea01bfecfe7bbad65f6a0b483e7649e3f3f5dfb2498",
+    "publication_sha256": "1608aabce644368262e03ea01bfecfe7bbad65f6a0b483e7649e3f3f5dfb2498",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "barrier_audit/audit_realizability.log",
+    "original_filename": "audit_realizability.log",
+    "original_sha256": "18876a5631788e600d888616e86ccb0ecfacf40fde0383d78b5d1d3c8721620f",
+    "publication_sha256": "e87377dde0465c77e2f7c679da43740ffebef6d6a213e3e02621c9b1603deac3",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "barrier_audit/audit_results.json",
+    "original_filename": "audit_results.json",
+    "original_sha256": "18876a5631788e600d888616e86ccb0ecfacf40fde0383d78b5d1d3c8721620f",
+    "publication_sha256": "e87377dde0465c77e2f7c679da43740ffebef6d6a213e3e02621c9b1603deac3",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "barrier_audit/AUDIT_REPORT.txt",
+    "original_filename": "AUDIT_REPORT.txt",
+    "original_sha256": "87f0d8f5ee9678cadb0e71fa61b4271f89083b9fb526af88134bbeed53e11aec",
+    "publication_sha256": "35a3a7fd0f984ff6827e6039a916c257960a0e5b339de797a066957a845d8671",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "barrier_audit/audit_realizability.py",
+    "original_filename": "audit_realizability.py",
+    "original_sha256": "1d82778d006fac112b2ab212ce68b054d99e61fb6161a6e2db845f2126884f2f",
+    "publication_sha256": "1d82778d006fac112b2ab212ce68b054d99e61fb6161a6e2db845f2126884f2f",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "barrier_audit/source_snapshot/fixed_poset_realizability_barrier.txt",
+    "original_filename": "fixed_poset_realizability_barrier.txt",
+    "original_sha256": "2304a1c4af0aac75c6efec7e16b68f127f1ebd52750d8251574c60e91323f3a0",
+    "publication_sha256": "55a5d2cf1f866a5820b290517c4890546bdfb6ae3dadb635676af253b082008f",
+    "treatment": "portable metadata/editorial changes"
+  },
+  {
+    "public_path": "barrier_audit/source_snapshot/verify_realizability_barrier.py",
+    "original_filename": "verify_realizability_barrier.py",
+    "original_sha256": "14d03b1c54387593860233916de2294df6a10e1d4d3d60876bf74fe83c1b2b37",
+    "publication_sha256": "14d03b1c54387593860233916de2294df6a10e1d4d3d60876bf74fe83c1b2b37",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "barrier_audit/source_snapshot/verify_realizability_barrier.log",
+    "original_filename": "verify_realizability_barrier.log",
+    "original_sha256": "da9edfb60ba1cc407e8c4aa1616e7ecbaf7dddbcf32ebeb97f4fafe11cb46112",
+    "publication_sha256": "da9edfb60ba1cc407e8c4aa1616e7ecbaf7dddbcf32ebeb97f4fafe11cb46112",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "barrier_audit/source_snapshot/derive_actual_fiber_mtp2_counter.py",
+    "original_filename": "derive_actual_fiber_mtp2_counter.py",
+    "original_sha256": "5641429155e7cf63c860f1d3c6285397411b3cf4cea8487b7d1362acec14fc6a",
+    "publication_sha256": "5641429155e7cf63c860f1d3c6285397411b3cf4cea8487b7d1362acec14fc6a",
+    "treatment": "unchanged"
+  },
+  {
+    "public_path": "barrier_audit/source_snapshot/proof_route_audited_excerpt.txt",
+    "original_filename": "proof_route_partial.txt",
+    "original_sha256": "8f76bdb6efa2a089bbdbb2a3abe4ae2e89c8878d16b67cd0dbdccb2f89f27111",
+    "publication_sha256": "94542a4bc3c378a9abb35244ae82e32c0750bdb115da6c126188e72fa5fd7694",
+    "treatment": "exact source sections 1 and 7 plus definitions; omitted sections not certified"
+  }
+]

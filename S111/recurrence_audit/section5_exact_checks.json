@@ -1,0 +1,195 @@
+{
+  "status": "PASS",
+  "scope": {
+    "max_m": 5,
+    "literal_partition_max_m": 5,
+    "out": "section5_exact_checks.json"
+  },
+  "dimensions": [
+    {
+      "m": 0,
+      "n": 2,
+      "common_successor_configurations": 0,
+      "configurations": 1,
+      "empty_downset_configurations": 1,
+      "empty_upper_set_configurations": 1,
+      "endpoint_and_diagonal_checks": 5,
+      "equal_upper_set_configurations": 1,
+      "forward_swap_checks": 1,
+      "full_extension_counts": 2,
+      "naturally_labelled_posets": 1,
+      "record_sha256": "ac24ec79d8216c3b3e1680b70316f619668b3bc3dfd9a95b0c68ab717acf3cf2"
+    },
+    {
+      "m": 1,
+      "n": 3,
+      "common_successor_configurations": 1,
+      "configurations": 5,
+      "empty_downset_configurations": 4,
+      "empty_suffix_branches": 1,
+      "empty_upper_set_configurations": 4,
+      "endpoint_and_diagonal_checks": 25,
+      "equal_upper_set_configurations": 3,
+      "first_coordinate_sector_identities": 2,
+      "forward_swap_checks": 8,
+      "full_extension_counts": 16,
+      "last_predecessor_sector_identities": 2,
+      "literal_H_inheritance_checks": 2,
+      "literal_branch_partition_checks": 1,
+      "marked_ideal_branches": 1,
+      "naturally_labelled_posets": 1,
+      "nonempty_downset_configurations": 1,
+      "original_count_recurrence_equalities": 8,
+      "record_sha256": "374cbe322d96ac42b4b3c03cad91e2118ff7d6fcd30c24a96173093aa2671f7a"
+    },
+    {
+      "m": 2,
+      "n": 4,
+      "common_successor_configurations": 12,
+      "configurations": 33,
+      "empty_downset_configurations": 25,
+      "empty_suffix_branches": 5,
+      "empty_upper_set_configurations": 19,
+      "endpoint_and_diagonal_checks": 165,
+      "equal_upper_set_configurations": 13,
+      "first_coordinate_sector_identities": 16,
+      "forward_swap_checks": 113,
+      "full_extension_counts": 226,
+      "last_predecessor_sector_identities": 16,
+      "literal_H_inheritance_checks": 36,
+      "literal_branch_partition_checks": 11,
+      "marked_ideal_branches": 11,
+      "naturally_labelled_posets": 2,
+      "nonempty_downset_configurations": 8,
+      "original_count_recurrence_equalities": 64,
+      "record_sha256": "1a1bec342d7a4eaa7f7fdd4369eef6c12466f2ccc7de971a725d23b1afa8695a"
+    },
+    {
+      "m": 3,
+      "n": 5,
+      "common_successor_configurations": 157,
+      "configurations": 315,
+      "empty_downset_configurations": 238,
+      "empty_suffix_branches": 33,
+      "empty_upper_set_configurations": 130,
+      "endpoint_and_diagonal_checks": 1575,
+      "equal_upper_set_configurations": 85,
+      "first_coordinate_sector_identities": 154,
+      "forward_swap_checks": 2767,
+      "full_extension_counts": 5534,
+      "last_predecessor_sector_identities": 154,
+      "literal_H_inheritance_checks": 906,
+      "literal_branch_partition_checks": 142,
+      "marked_ideal_branches": 142,
+      "naturally_labelled_posets": 7,
+      "nonempty_downset_configurations": 77,
+      "original_count_recurrence_equalities": 616,
+      "record_sha256": "e3b91237e3a2e639623e4292574f4b6223daf130befe68e7cabc42b2ba30fe45"
+    },
+    {
+      "m": 4,
+      "n": 6,
+      "common_successor_configurations": 2676,
+      "configurations": 4403,
+      "empty_downset_configurations": 3377,
+      "empty_suffix_branches": 317,
+      "empty_upper_set_configurations": 1309,
+      "endpoint_and_diagonal_checks": 22015,
+      "equal_upper_set_configurations": 833,
+      "first_coordinate_sector_identities": 2052,
+      "forward_swap_checks": 113993,
+      "full_extension_counts": 227986,
+      "last_predecessor_sector_identities": 2052,
+      "literal_H_inheritance_checks": 35756,
+      "literal_branch_partition_checks": 2495,
+      "marked_ideal_branches": 2495,
+      "naturally_labelled_posets": 40,
+      "nonempty_downset_configurations": 1026,
+      "original_count_recurrence_equalities": 8208,
+      "record_sha256": "91a5f24a04545db119595a650807240c4c2200faf666dcd016aa3fbcf8a5eeca"
+    },
+    {
+      "m": 5,
+      "n": 7,
+      "common_successor_configurations": 62285,
+      "configurations": 89611,
+      "empty_downset_configurations": 70142,
+      "empty_suffix_branches": 4467,
+      "empty_upper_set_configurations": 19294,
+      "endpoint_and_diagonal_checks": 448055,
+      "equal_upper_set_configurations": 12059,
+      "first_coordinate_sector_identities": 38938,
+      "forward_swap_checks": 7681074,
+      "full_extension_counts": 15362148,
+      "last_predecessor_sector_identities": 38938,
+      "literal_H_inheritance_checks": 2240776,
+      "literal_branch_partition_checks": 61567,
+      "marked_ideal_branches": 61567,
+      "naturally_labelled_posets": 357,
+      "nonempty_downset_configurations": 19469,
+      "original_count_recurrence_equalities": 155752,
+      "record_sha256": "5110cdb4c698c3114a31bff8bf43c2143be34a765a3a19a33d20151510e01827"
+    }
+  ],
+  "examples": {
+    "varying_forward_probability": {
+      "Q_predecessor_masks": [
+        0,
+        0,
+        3
+      ],
+      "D": 1,
+      "U": 4,
+      "V": 0,
+      "original_EFGH": [
+        11,
+        7,
+        4,
+        4
+      ],
+      "branches": [
+        {
+          "I": 1,
+          "d": 0,
+          "weighted_EFGH": [
+            8,
+            5,
+            3,
+            3
+          ],
+          "conditional_F_over_E": "5/8"
+        },
+        {
+          "I": 3,
+          "d": 0,
+          "weighted_EFGH": [
+            3,
+            2,
+            1,
+            1
+          ],
+          "conditional_F_over_E": "2/3"
+        }
+      ]
+    }
+  },
+  "eight_element_candidate": {
+    "configurations": 1,
+    "full_extension_counts": 200,
+    "forward_swap_checks": 100,
+    "common_successor_configurations": 0,
+    "equal_upper_set_configurations": 0,
+    "empty_upper_set_configurations": 0,
+    "endpoint_and_diagonal_checks": 5,
+    "nonempty_downset_configurations": 1,
+    "first_coordinate_sector_identities": 2,
+    "marked_ideal_branches": 4,
+    "empty_suffix_branches": 0,
+    "last_predecessor_sector_identities": 2,
+    "original_count_recurrence_equalities": 8,
+    "literal_H_inheritance_checks": 200,
+    "literal_branch_partition_checks": 4,
+    "record_sha256": "c16336f9c3ba8e3452ea68c2da4d0f2135dd7cbbd70ac2c53fba0b4bb61ba3b3"
+  },
+  "elapsed_seconds": 105.522
+}

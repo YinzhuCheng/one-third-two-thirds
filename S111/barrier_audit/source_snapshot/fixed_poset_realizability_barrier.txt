@@ -1,0 +1,77 @@
+S110: A decisive fixed-poset realizability barrier
+2026-10-10. Exact counterexample to a proposed GENERIC ANALYTIC proof route.
+This is NOT a poset counterexample. The dimension-sharp poset target stays OPEN.
+
+1. Two genuine fibers in dimension m=5
+Use a seven-element poset with roots u,y and five deletion vertices
+A1,A2,B1,B2,B3. Let P1 have only the relations u<A1,A2 and y<B1,B2,B3.
+Let P2 have only u<A1 and y<B1,B2,B3, so A2 is neutral.
+Both deletion posets are the five-element antichain. Their exact unnormalized
+Lebesgue fiber functions from S108 are
+  f1(s,t)=(1-s)^2(1-t)^3,
+  f2(s,t)=(1-s)(1-t)^3,
+on the unit square. P1 is sharp at n=7; P2 satisfies the inequality strictly.
+
+2. A positive mixture violates the dimension-sharp inequality
+Set
+  g=(5/6)f1+(1/6)f2
+   =(5/6)(1-s)(6/5-s)(1-t)^3.
+The exact sector and diagonal integrals are
+  F=37/1008, G=3/56, E=13/144, h=8/315.
+Multiplying by 7!=5040 gives INTEGERS
+  F*=185, G*=270, E*=455, H*=128,
+  Ru*=57, Ry*=142.
+Nevertheless
+  6 E* H* - 7 F* G* = -210 < 0.
+The ordinary Ball square still holds: H*^2-Ru*Ry*=8290>0.
+The labels E*,F*,G*,H* are integer-valued integral quantities of g, not actual
+extension counts of a poset.
+
+3. The mixture meets all of the previously proposed analytic conditions
+- Exact unit-square support, positive in the open square.
+- Coordinatewise decreasing, with vanishing top and right boundary values.
+- MTP2, with equality, because it is a product of one-variable functions.
+- Its fifth root is concave: up to a positive constant it is the weighted
+  geometric mean x^(1/5)(x+1/5)^(1/5)y^(3/5), where x=1-s,y=1-t.
+  The weights sum to 1, so concavity follows by the usual concavity of the
+  weighted geometric mean composed with affine functions.
+- It is a single global polynomial of total degree 5, with no interior knots.
+- On the sector s<=t, put x=s,y=t-s,z=1-t. Its homogeneous polynomial is
+    (y+z)(x+6y+6z)z^3/6,
+  which has nonnegative coefficients. The transposed sector has the same
+  property by expanding the corresponding nonnegative affine factors.
+Thus sector polynomiality and nonnegative simplex-Bernstein coefficients do
+not rescue the generic analytic route.
+
+4. Even an integer order-statistic-kernel histogram does not suffice
+The two true fibers have rank-pair histograms on the 120 deletion extensions.
+Their 5:1 mixture has the following NONNEGATIVE INTEGER histogram, summing to120:
+  (1,2):33, (1,3):11, (2,1):33, (2,3):1, (3,1):23,
+  (3,2):1, (4,1):13, (4,2):1, (5,1):3, (5,2):1.
+Here (p,q) are the nested-spacing widths in the true order-statistic kernels.
+Integrating these kernels gives exactly the integer quantities in Section 2.
+Therefore nonnegative/integer kernel coefficients and integer final counts
+also do not imply the dimension-sharp inequality.
+
+5. Why this does not contradict the poset conjecture
+The mixture cannot be the fiber of any SINGLE seven-element poset/pair.
+If it were, g(0,0)=1 would imply vol O(P-{u,y})=1, hence the deletion poset
+would have to be the five-element antichain. If the common downset were
+nonempty, both successor sets would have to be empty (otherwise the deletion
+poset would contain a predecessor-successor comparison). Then A=B and f
+would be symmetric in s,t, whereas g is not. Thus the common downset is empty.
+For an antichain deletion poset and empty downset,
+  f(s,0)=(1-s)^r
+for the integer number r of strict u-successors. But
+  g(s,0)=(5/6)(1-s)^2+(1/6)(1-s)
+is not a pure integer power. Contradiction.
+
+Consequently the unresolved proof must exploit rank-histogram compatibility
+for one fixed poset/pair, not merely positive mixtures of allowed kernels or
+analytic features shared by individual fibers.
+
+Verification:
+verify_realizability_barrier.py
+verify_realizability_barrier.log
+The script uses exact rational and symbolic arithmetic and asserts all stated
+counts, the negative defect, and the positive homogeneous expansion.

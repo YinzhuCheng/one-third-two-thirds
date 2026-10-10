@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "proposal_records": 165,
+  "independent_records": 165,
+  "canonical_histograms_up_to_transpose": 159,
+  "all_exact_cross_polynomial_coefficients_match": true
+}

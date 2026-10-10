@@ -1,0 +1,213 @@
+Independent S110 fixed-poset realizability and restricted-proof audit
+Date: 2026-10-10 UTC
+Verdict: PASS, with precise scope and an additional positive-ray obstruction.
+
+1. Executive finding
+
+The 5:1 mixture is a valid counterexample to the specified generic analytic
+implication, including the strengthened polynomial/Bernstein/integer-histogram
+conditions. It is NOT an actual-poset counterexample. The dimension-sharp
+shared-downset swap conjecture remains OPEN outside established subcases.
+
+The exact nonrealizability argument in fixed_poset_realizability_barrier.txt
+is correct. Its normalization is essential to that argument. Independently,
+this audit proves a separate lemma excluding every positive scalar multiple
+of the same g as an unnormalized seven-element shared-downset poset fiber.
+That additional lemma does not assume the conjectured inequality.
+
+The elementary one-wing-zero theorem and its equality classification are
+correct for every n>=2. The all-n conclusion rests on the injection proof;
+exhaustive finite checks reported below are supporting verification only.
+
+No network operations or remote state changes were performed. Audited input
+files were not edited. Source snapshots and exact arithmetic artifacts are
+included with this report.
+
+2. Definitions and normalization used throughout
+
+The pair u,y has equal strict downsets D and is therefore incomparable.
+For Q=P-{u,y}, let Omega=O(Q) be its order polytope with unnormalized ordinary
+Lebesgue measure, L=max_{d in D} z_d (L=0 if D is empty), and let T_u,T_y be
+the minimum strict-successor coordinate (1 if the corresponding set is empty).
+The fiber is f(s,t)=vol{z in Omega:T_u-L>=s,T_y-L>=t}.
+
+Let F_int and G_int be its two sector integrals, and H_int=int_0^1 t f(t,t)dt.
+For a genuine n-element poset, n! times these integrals equal integers F,G,H:
+F counts extensions with u before y; G counts the opposite orientation; H
+counts the forward extensions still valid after literally swapping u and y.
+To see the last identity, the permissible swappable-forward insertion region
+in one deletion fiber is 0<=s<t<=min(T_u-L,T_y-L); its area is half that
+minimum squared. Integrating the diagonal survival function gives that area.
+Thus both the original normalization proof and the added ray lemma refer to
+actual unnormalized fibers and these exact integer extension counts.
+
+3. Independent arithmetic and analytic checks
+
+For g(s,t)=(1-s)(6-5s)(1-t)^3/6:
+  E_int=13/144, F_int=37/1008, G_int=3/56, H_int=8/315.
+Multiplication by 7!=5040 gives:
+  E*=455, F*=185, G*=270, H*=128, Ru*=57, Ry*=142.
+Consequently:
+  6 E* H* - 7 F* G* = -210;
+  H*^2 - Ru* Ry* = 8290 > 0.
+
+An independent enumerator counted complete extensions and performed literal
+label swaps, without using the author's order-statistic counting formula:
+  P1: E=420, F=180, G=240, H=120.
+  P2: E=630, F=210, G=420, H=168.
+Their 5:1 mixture yields exactly the count-like tuple above.
+
+The deletion-rank histograms were independently regenerated from all 120
+permutations of five vertices. Their mixture is precisely the ten-entry
+nonnegative integer histogram in the source and sums to 120.
+
+The mixture is positive on the open square, decreasing in each coordinate,
+zero on the top and right boundaries, and globally polynomial of total degree
+5. The exact MTP2 determinant g*g_st-g_s*g_t is identically zero.
+
+The fifth-root concavity claim is valid and can be strengthened to strict
+concavity in the open square. Put x=1-s, y=1-t, a=1/5, R=x(x+a), and ignore
+a positive scalar: h=R^(1/5)y^(3/5). Symbolic differentiation gives
+  h_xx/h = (-6R-4a^2)/(25R^2) < 0,
+  h_yy/h = -6/(25y^2) < 0,
+  det(Hessian(h))/h^2 = 3a^2/(125R^2 y^2) > 0.
+Continuous extension gives concavity on the closed square.
+
+Both homogeneous degree-five sector polynomials were checked:
+  s<=t, coordinates (s,t-s,1-t):
+    (y+z)(x+6y+6z)z^3/6.
+  t<=s, coordinates (t,s-t,1-s):
+    z(x+y+6z)(y+z)^3/6.
+All monomial coefficients are nonnegative. Dividing by positive multinomial
+normalizers gives nonnegative simplex-Bernstein coefficients as claimed.
+
+4. Exact fixed-poset nonrealizability: source argument passes
+
+For a genuine seven-point fiber, f(0,0)=vol O(Q)=e(Q)/5!. The value g(0,0)=1
+therefore forces e(Q)=120, so Q is the five-point antichain.
+
+If D is nonempty, any successor of either u or y would be strictly above an
+element of D by transitivity, contradicting that Q is an antichain. Both
+successor sets must therefore be empty. Then T_u=T_y=1 and the fiber is
+symmetric, whereas g is not. Hence D is empty in any putative realization.
+
+With D empty and Q an antichain, the boundary f(s,0) equals (1-s)^r, where r
+is the integer number of strict u-successors. The mixture has boundary
+(5/6)(1-s)^2+(1/6)(1-s), whose derivative at 0 is -11/6, not an integer.
+This is a contradiction. There is no normalization or conditional-volume
+substitution hidden in this argument.
+
+An independent even shorter boundary check avoids splitting off symmetry:
+for an antichain Q and D nonempty, the boundary is (1-s)^|D|, because both
+successor sets are empty. For D empty, it is (1-s)^r as above. Thus in every
+case f(1/2,0) belongs to {1,1/2,1/4,1/8,1/16,1/32}, whereas g(1/2,0)=7/24.
+
+This audit enumerated all 1055 labeled shared-downset possibilities with
+antichain Q: 4^5 arbitrary successor-membership assignments when D is empty,
+and 2^5-1 nonempty choices of D, with both successor sets empty. None has the
+required boundary value. The conceptual argument already proves completeness.
+
+5. Additional audited lemma: positive-ray nonrealizability at n=7
+
+The preceding f(0,0)=1 argument alone does not exclude lambda*g. The following
+separate integrality argument does.
+
+Suppose f=lambda*g is the unnormalized fiber of a seven-element shared-downset
+pair, where lambda>0. The actual counts must satisfy
+  F=185 lambda and H=128 lambda.
+Because 9*185-13*128=1, it follows that
+  lambda=9F-13H
+is an integer. But lambda=f(0,0)=vol O(Q) lies in (0,1]. Hence lambda=1,
+which has just been excluded.
+
+Equivalently, testing the 120 candidate volumes e(Q)/120 leaves only lambda=1
+when both scaled F and H are integral. This proof excludes the entire
+positive ray at fixed n=7 without assuming the sharp inequality, and without
+an exhaustive search of all seven-element posets. It makes no claim about
+changing n or replacing the fiber by a different normalized statistic.
+
+6. Restricted sharp theorem and equality classification
+
+For any reverse extension, remove u and insert it immediately before y.
+Equal strict downsets guarantee legality: all predecessors of u already lie
+before y; moving u earlier cannot break a strict-successor constraint.
+The original extension is determined by the resulting adjacent-forward
+extension and u's old rank. If u has output rank k, at most n-k old ranks
+are possible. Thus
+  G <= (n-1) A_adj <= (n-1) F,
+and exchanging labels proves F<=(n-1)G.
+
+If Ru=F-H=0, then
+  (n-1)EH-nFG = F[(n-1)F-G] >= 0.
+The Ry=0 case is symmetric. Nested successor sets force one wing to vanish:
+for example U(u) subset U(y) forbids a u-successor strictly between u and y.
+
+Equality when Ru=0 forces both injection bounds to be equalities. Every
+forward extension is adjacent, u has rank 1 in each, and every possible old
+rank, including n, yields a legal inverse insertion. Rank 1 gives D empty;
+legal movement to rank n gives no u-successors. Thus u is isolated. A third
+minimal element z would give an extension beginning z,u,y, contradicting the
+rank-1 condition. Hence P-u has unique minimum y.
+
+Conversely, if u is isolated and P-u has unique minimum y, an extension of
+P-u permits all n insertion positions of u. Only the first position puts u
+before y; it is swappable. Thus F=H=e(P-u), G=(n-1)e(P-u), giving equality.
+Label swapping gives the complete Ry=0 classification. The n=2 case agrees.
+
+Independent exhaustive tests generated each naturally labeled poset by adding
+a valid predecessor ideal and counted actual complete extensions and swaps:
+  n=2: 2 posets, 1 shared pair, 1 one-wing pair, 1 equality.
+  n=3: 7 posets, 8 shared pairs, 8 one-wing pairs, 3 equalities.
+  n=4: 40 posets, 73 shared pairs, 70 one-wing pairs, 8 equalities.
+  n=5: 357 posets, 899 shared pairs, 813 one-wing pairs, 35 equalities.
+  n=6: 4824 posets, 15521 shared pairs, 13122 one-wing pairs, 240 equalities.
+Both insertion bounds, nested-successor implications, and the exact equality
+classification passed in every case. This is not a new claimed exhaustive
+range for the general conjecture.
+
+7. Other proof-route checks and source attribution
+
+The empty-common-downset MTP2 sublattice proof is valid. With a unique maximal
+common predecessor d, the change w=-z_d, x_v=z_v-z_d, x_d=0 has absolute
+Jacobian 1. All transformed constraints, including w<=0<=w+1, are difference
+inequalities and define a sublattice. Thus the quoted marginal-closure theorem
+applies. The multiple-maximal-predecessor obstruction is genuinely different.
+
+The explicit eight-element poset with predecessor masks [0,0,3,3,1,2,23,43]
+was independently counted: E=200, F=G=100, H=74, sharp defect=23600>0.
+Its stated sector polynomial reproduces f00=1/40, first derivatives -1/120,
+mixed derivative zero, and the exact negative epsilon=1/100 MTP2 determinant
+-24895078440973240401/6400000000000000000000000000. Thus this is an actual
+counterexample to general fiber MTP2, not to the dimension-sharp swap bound.
+The earlier analytic m=3 square-support example also reintegrates to defect
+-1/3600. Other omitted analytic examples are outside this published bundle.
+
+The only-two-minima equality result remains credited to Chan--Pak,
+Equality conditions for correlation inequalities, arXiv:2607.06275, Theorem
+4.5, exactly as in the supplied proof note. Its reduction to two disjoint
+uniquely rooted components is correct: every comparability component contains
+a minimal element. No fresh external source fetch was made in this audit,
+and the cited theorem is not presented as an original result of this work.
+
+8. Hash binding and reproduction
+
+Publication binding: the original audit source was the longer
+proof_route_partial.txt, SHA-256
+8f76bdb6efa2a089bbdbb2a3abe4ae2e89c8878d16b67cd0dbdccb2f89f27111.
+This does not mean the full longer note was audited: the published excerpt
+contains only source sections 1 and 7, whose proof and attribution were
+reviewed in Sections 6 and 7 of this audit. A neutral definitions paragraph
+is added. The excerpt source_snapshot/proof_route_audited_excerpt.txt has
+SHA-256 94542a4bc3c378a9abb35244ae82e32c0750bdb115da6c126188e72fa5fd7694.
+Other source files and audit statements retain their stated scope. The published
+source_snapshot/PROOF_ROUTE_SHA256SUMS and AUDIT_SHA256SUMS bind the
+portable files. PORTABILITY.md at the S111 root records the original
+audit/source hashes and the nonmathematical rebinding.
+
+The original verifier reproduced its saved log byte-for-byte. The independent
+script, exact JSON results, log, and input copies are in this audit directory.
+AUDIT_SHA256SUMS binds all audit files and every source snapshot file.
+
+Remaining status: compatibility of actual fixed-poset chamber histograms is
+still needed to settle the general target. The abstract integer mixture
+cannot supply a genuine counterexample or an all-poset proof.

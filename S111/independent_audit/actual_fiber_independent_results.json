@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "source_poset_predecessors": [
+    0,
+    0,
+    3,
+    3,
+    1,
+    2,
+    23,
+    43
+  ],
+  "pair": [
+    2,
+    3
+  ],
+  "D": [
+    0,
+    1
+  ],
+  "U": [
+    6
+  ],
+  "V": [
+    7
+  ],
+  "deletion_labels": [
+    0,
+    1,
+    4,
+    5,
+    6,
+    7
+  ],
+  "deletion_predecessors": [
+    0,
+    0,
+    1,
+    2,
+    7,
+    11
+  ],
+  "deletion_extension_count": 18,
+  "rank_histogram": [
+    [
+      1,
+      3,
+      1
+    ],
+    [
+      2,
+      3,
+      2
+    ],
+    [
+      2,
+      4,
+      2
+    ],
+    [
+      3,
+      1,
+      1
+    ],
+    [
+      3,
+      2,
+      2
+    ],
+    [
+      3,
+      4,
+      4
+    ],
+    [
+      4,
+      2,
+      2
+    ],
+    [
+      4,
+      3,
+      4
+    ]
+  ],
+  "f_on_s_le_t": "(t - 1)**3*(25*s**2*t + 15*s**2 - 8*s*t**2 + 6*s*t + 2*s - 3*t**3 - 15*t**2 - 16*t - 6)/240",
+  "independent_direct_integral_matches": true,
+  "origin_derivatives": {
+    "f": "1/40",
+    "f_s": "-1/120",
+    "f_t": "-1/120",
+    "f_st": "0"
+  },
+  "boundary_rectangle": [
+    "0",
+    "1/100"
+  ],
+  "boundary_fiber_values": [
+    "1/40",
+    "1992833399799/80000000000000",
+    "1992833399799/80000000000000",
+    "992840016069/40000000000000"
+  ],
+  "boundary_minor": "-24895078440973240401/6400000000000000000000000000",
+  "strictly_interior_rectangle": [
+    "1/10000",
+    "1/100"
+  ],
+  "interior_fiber_values": [
+    "999933283340000166606669/40000000000000000000000000",
+    "797106699660843/32000000000000000",
+    "797106699660843/32000000000000000",
+    "992840016069/40000000000000"
+  ],
+  "interior_minor": "-6052032350938988314995726498339/1600000000000000000000000000000000000000",
+  "full_extension_count": 200,
+  "full_extension_swap_counts": {
+    "forward_legal": 74,
+    "forward_illegal": 26,
+    "reverse_legal": 74,
+    "reverse_illegal": 26
+  },
+  "integrals": {
+    "E": "5/1008",
+    "F": "5/2016",
+    "G": "5/2016",
+    "H": "37/20160"
+  },
+  "integrals_times_n_factorial": [
+    200,
+    100,
+    100,
+    74
+  ],
+  "ordinary_square_slack": 4800,
+  "dimension_sharp_slack": 23600
+}

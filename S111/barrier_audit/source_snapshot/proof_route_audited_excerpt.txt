@@ -1,0 +1,58 @@
+S110 audited source excerpt, republished in S111 on 2026-10-10.
+Only source sections 1 and 7 are reproduced below, verbatim.
+The longer source note is not included; this excerpt makes no claim for its omitted passages.
+General dimension-sharp target (n-1)EH >= nFG remains OPEN.
+
+Definitions for this excerpt: P is a finite n-element poset, n>=2, and
+u,y are distinct incomparable elements with the same strict downset.
+E=e(P) counts all complete linear extensions. F counts extensions in which
+u precedes y; G counts the opposite order. H counts extensions in which
+u precedes y and the literal exchange of their positions is also a linear
+extension. Thus E=F+G, Ru=F-H and Ry=G-H. Strict successor sets contain all
+strict successors, not just covers. All counts use the uniform original
+complete-extension law. This paragraph is a publication introduction;
+the two numbered sections below are exact source excerpts.
+
+1. Equality classification in the known only-two-minima subcase
+Suppose the only minimal elements of P are u,y. Then F=e(P-u),
+G=e(P-y), and H=e(P-u-y). Normalized Fishburn gives the target.
+The equality criterion is also known: equality holds iff u and y are in
+distinct connected components of the comparability graph. Indeed apply
+Theorem 4.5 of Chan--Pak, Equality conditions for correlation inequalities,
+arXiv:2607.06275, with lower ideals A={u}, B={y} and upper ideals C=D=empty.
+Every connected component of a finite poset contains a minimal element.
+Therefore if u,y are the only minima, the condition says exactly that P is
+the disjoint union of two rooted posets, with unique minima u and y.
+This is only a classification inside this already-proved subcase.
+Primary source checked:
+https://arxiv.org/html/2607.06275v1#S4.SS3
+Theorem 4.5, and its comparison to Brightwell's earlier equality result.
+
+7. Elementary sharp theorem and equality classification when one wing vanishes
+This is a genuine restricted proof of the target, independent of Ball/Fishburn.
+Let Aadj count extensions with u immediately before y. From any reverse
+extension (y before u), delete u and reinsert it immediately before y. The
+result is valid: every predecessor of u is a predecessor of y and has already
+occurred, while moving u earlier cannot violate a successor relation.
+Given the result and the old rank of u, the input is uniquely recoverable.
+If u has rank k in the output, there are at most n-k<=n-1 inputs. Therefore
+  G <= (n-1) Aadj <= (n-1) F.
+Exchanging labels also gives F<=(n-1)G. In particular each orientation has
+probability at least 1/n under the original uniform extension law.
+
+If Ru=0, then F=H and E=F+G, so
+  (n-1)EH-nFG = F[(n-1)F-G] >=0.
+If Ry=0 use the symmetric argument. Nested strict successor sets force one
+wing to vanish, so this covers every pair with nested successor sets.
+
+Equality in the Ru=0 case is also elementary. It forces equality in both
+injection bounds, hence every forward extension has u immediately before y,
+u has rank 1 there, and all n-1 possible old ranks yield valid inverse moves.
+Moving u to rank n must be legal, so u has no successors. The rank-1 condition
+implies D is empty. Thus u is isolated. A third minimal element z would allow
+an extension beginning z,u,y, a contradiction. Hence P-u has unique minimum y.
+Conversely the disjoint union of isolated u and an arbitrary rooted poset
+with unique minimum y attains equality. The Ry=0 case is the label swap.
+This includes n=2 and is exactly the size-one-arm part of the proposed global
+rooted-disjoint equality family.
+

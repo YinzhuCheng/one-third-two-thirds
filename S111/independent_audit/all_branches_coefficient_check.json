@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "by_m": [
+    {
+      "m": 0,
+      "cases": {},
+      "histograms": 0,
+      "not_nonnegative_coefficient_certified": 0,
+      "first_failures": []
+    },
+    {
+      "m": 1,
+      "cases": {
+        "empty_D": 1
+      },
+      "histograms": 1,
+      "not_nonnegative_coefficient_certified": 0,
+      "first_failures": []
+    },
+    {
+      "m": 2,
+      "cases": {
+        "empty_D": 9,
+        "unique_max_D": 1
+      },
+      "histograms": 7,
+      "not_nonnegative_coefficient_certified": 0,
+      "first_failures": []
+    },
+    {
+      "m": 3,
+      "cases": {
+        "empty_D": 99,
+        "unique_max_D": 15
+      },
+      "histograms": 48,
+      "not_nonnegative_coefficient_certified": 0,
+      "first_failures": []
+    },
+    {
+      "m": 4,
+      "cases": {
+        "empty_D": 1510,
+        "unique_max_D": 246
+      },
+      "histograms": 368,
+      "not_nonnegative_coefficient_certified": 0,
+      "first_failures": []
+    },
+    {
+      "m": 5,
+      "cases": {
+        "empty_D": 32659,
+        "unique_max_D": 5289
+      },
+      "histograms": 3389,
+      "not_nonnegative_coefficient_certified": 0,
+      "first_failures": []
+    }
+  ]
+}

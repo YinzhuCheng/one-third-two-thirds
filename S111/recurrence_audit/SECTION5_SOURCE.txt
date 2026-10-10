@@ -1,0 +1,42 @@
+## 5. Exact common-downset recurrences
+
+The following recurrences retain the actual fiber and weights. They are
+structural tools, not a claim that quadratic inequalities survive mixing.
+
+### First coordinate, while D is nonempty
+
+If D≠∅, every minimal element v of Q is outside U∪V. Put
+Q_v=Q−v and D_v=D−{v}. Partition by the first coordinate z_v=ℓ, then shift
+and scale the remaining coordinates. Exactly,
+
+    f_{Q,D,U,V}(s,t)
+      = Σ_{v∈Min(Q)} ∫_0^1 (1−ℓ)^(m−1)
+          f_{Q_v,D_v,U,V}(s/(1−ℓ),t/(1−ℓ)) dℓ.
+
+The convention is f=0 outside its square support. This follows because both
+A and B scale by 1−ℓ, including the case where v is the sole element of D.
+The Jacobian is (1−ℓ)^(m−1).
+
+### Last common predecessor: reduction to empty-downset fibers
+
+For D≠∅, sum over ideals I of Q with D⊆I and over d∈D∩Max(I). Put a=|I|,
+R=Q−I. Since d is maximal in I, I contains no element of U∪V. Let
+f_R be the empty-common-downset fiber on R with upper sets U,V. Then
+
+    f_Q(s,t) = Σ_{I,d} e(I−d)/(a−1)! ∫_0^1
+        ℓ^(a−1)(1−ℓ)^(m−a)
+        f_R(s/(1−ℓ),t/(1−ℓ)) dℓ.
+
+Proof: d is the last D element, at coordinate L=ℓ; I is the ideal of all
+coordinates at most ℓ. The prefix I−d has volume e(I−d)ℓ^(a−1)/(a−1)!;
+the suffix is the scaled order polytope of R. These pieces partition Ω up to
+a null set. At s=t=0 the beta integral recovers the ordinary extension count.
+
+For each X∈{E,F,G,H}, after multiplying by n!, the same decomposition reads
+
+    X(P) = Σ_{I,d} e(I−d) X(P−I).
+
+The smaller P−I has u,y minimal. This reduces the original counts to a
+structured mixture of minimal-pair counts. It does NOT imply the target
+sharp inequality by summing: the ratios F/E can vary between branches.
+

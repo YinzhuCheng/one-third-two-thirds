@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-10",
+  "status": "PASS",
+  "scope": "Only Section 5 exact first-coordinate and marked-last-common-predecessor recurrences",
+  "general_proof": {
+    "first_coordinate_fiber": "PASS for nonempty D",
+    "last_predecessor_fiber": "PASS for nonempty D",
+    "marked_ideal_quantifiers": "I ideal in Q, D subset I, d in D intersect Max(I)",
+    "prefix_factor": "e(I-d)/(a-1)! in volume, e(I-d) in counts",
+    "fiber_endpoint_powers": "L^(a-1) (1-L)^(m-a)",
+    "count_endpoint_powers": "L^(a-1) (1-L)^(m-a+2)",
+    "original_EFGH_recurrence": "PASS; direct prefix-suffix bijection and continuous normalization",
+    "actual_swap_legal_H_inheritance": "PASS in both orientations",
+    "common_successors_and_empty_upper_sets": "INCLUDED",
+    "empty_downset": "terminal identity case, no last-d sum and no Beta(0,.)",
+    "uniform_law_weights": "full-law e(I-d)E(P-I)/E(P); deletion-law e(I-d)e(Q-I)/e(Q)",
+    "arbitrary_mixture_closure": "NOT CLAIMED"
+  },
+  "exhaustive_range": {
+    "m_min": 0,
+    "m_max": 5,
+    "n_min": 2,
+    "n_max": 7,
+    "coverage": "every naturally labelled Q and every admissible ideal D and ordered upper-ideal pair U,V, including equality and overlap"
+  },
+  "exact_test_totals": {
+    "common_successor_configurations": 65131,
+    "configurations": 94368,
+    "empty_downset_configurations": 73787,
+    "empty_suffix_branches": 4823,
+    "empty_upper_set_configurations": 20757,
+    "endpoint_and_diagonal_checks": 471840,
+    "equal_upper_set_configurations": 12994,
+    "first_coordinate_sector_identities": 41162,
+    "forward_swap_checks": 7797956,
+    "full_extension_counts": 15595912,
+    "last_predecessor_sector_identities": 41162,
+    "literal_H_inheritance_checks": 2277476,
+    "literal_branch_partition_checks": 64216,
+    "marked_ideal_branches": 64216,
+    "naturally_labelled_posets": 408,
+    "nonempty_downset_configurations": 20581,
+    "original_count_recurrence_equalities": 164648
+  },
+  "separate_eight_element_candidate": {
+    "configurations": 1,
+    "full_extension_counts": 200,
+    "forward_swap_checks": 100,
+    "common_successor_configurations": 0,
+    "equal_upper_set_configurations": 0,
+    "empty_upper_set_configurations": 0,
+    "endpoint_and_diagonal_checks": 5,
+    "nonempty_downset_configurations": 1,
+    "first_coordinate_sector_identities": 2,
+    "marked_ideal_branches": 4,
+    "empty_suffix_branches": 0,
+    "last_predecessor_sector_identities": 2,
+    "original_count_recurrence_equalities": 8,
+    "literal_H_inheritance_checks": 200,
+    "literal_branch_partition_checks": 4,
+    "record_sha256": "c16336f9c3ba8e3452ea68c2da4d0f2135dd7cbbd70ac2c53fba0b4bb61ba3b3"
+  },
+  "source_report_sha256": "18bdcf867d8a0b632dee083a1faeafc7c6f7b566e3fa9351b21b4f342a59f1bf",
+  "source_and_prior_audit_modified": false,
+  "publication_performed": false,
+  "outside_scope": [
+    "Sections 1-4 counterexample and minimality",
+    "general quadratic inequality proof",
+    "unrestricted positive-mixture closure"
+  ],
+  "reproduction": "python audit_section5.py --max-m 5 --literal-partition-max-m 5",
+  "publication_binding_note": "Portable report hash; original audited report hash is recorded in ../PORTABILITY.md. Mathematical content of section 5 unchanged."
+}

@@ -1,0 +1,164 @@
+{
+  "verdict": "PASS: exact mixture barrier, exact and ray nonrealizability at n=7, restricted one-wing theorem; general target not proved or refuted",
+  "source_sha256": {
+    "derive_actual_fiber_mtp2_counter.py": "5641429155e7cf63c860f1d3c6285397411b3cf4cea8487b7d1362acec14fc6a",
+    "fixed_poset_realizability_barrier.txt": "55a5d2cf1f866a5820b290517c4890546bdfb6ae3dadb635676af253b082008f",
+    "proof_route_audited_excerpt.txt": "94542a4bc3c378a9abb35244ae82e32c0750bdb115da6c126188e72fa5fd7694",
+    "verify_realizability_barrier.log": "da9edfb60ba1cc407e8c4aa1616e7ecbaf7dddbcf32ebeb97f4fafe11cb46112",
+    "verify_realizability_barrier.py": "14d03b1c54387593860233916de2294df6a10e1d4d3d60876bf74fe83c1b2b37"
+  },
+  "source_log_reproduced_byte_for_byte": true,
+  "mixture_integrals": {
+    "E": "13/144",
+    "F": "37/1008",
+    "G": "3/56",
+    "H": "8/315"
+  },
+  "mixture_counts": {
+    "E": 455,
+    "F": 185,
+    "G": 270,
+    "H": 128
+  },
+  "dimension_sharp_defect": -210,
+  "ordinary_square_defect": 8290,
+  "literal_swap_counts_P1": {
+    "E": 420,
+    "F": 180,
+    "G": 240,
+    "H": 120,
+    "Aadj": 120
+  },
+  "literal_swap_counts_P2": {
+    "E": 630,
+    "F": 210,
+    "G": 420,
+    "H": 168,
+    "Aadj": 144
+  },
+  "rank_histogram": [
+    {
+      "p": 1,
+      "q": 2,
+      "multiplicity": 33
+    },
+    {
+      "p": 1,
+      "q": 3,
+      "multiplicity": 11
+    },
+    {
+      "p": 2,
+      "q": 1,
+      "multiplicity": 33
+    },
+    {
+      "p": 2,
+      "q": 3,
+      "multiplicity": 1
+    },
+    {
+      "p": 3,
+      "q": 1,
+      "multiplicity": 23
+    },
+    {
+      "p": 3,
+      "q": 2,
+      "multiplicity": 1
+    },
+    {
+      "p": 4,
+      "q": 1,
+      "multiplicity": 13
+    },
+    {
+      "p": 4,
+      "q": 2,
+      "multiplicity": 1
+    },
+    {
+      "p": 5,
+      "q": 1,
+      "multiplicity": 3
+    },
+    {
+      "p": 5,
+      "q": 2,
+      "multiplicity": 1
+    }
+  ],
+  "deletion_antichain_realizations_checked": 1055,
+  "possible_boundary_values": {
+    "1/32": 33,
+    "1/16": 165,
+    "1/8": 330,
+    "1/4": 330,
+    "1/2": 165,
+    "1": 32
+  },
+  "excluded_mixture_boundary_value": "7/24",
+  "ray_certificate": "9*185-13*128=1; 0<lambda=f(0,0)<=1; integer F,H force lambda=1",
+  "admissible_scales_from_120_deletion_extension_counts": [
+    "1"
+  ],
+  "fifth_root_normalized_hessian": {
+    "xx": "2*a/(25*x*(a + x)**2) - 2/(25*(a + x)**2) - 4/(25*x**2)",
+    "yy": "-6/(25*y**2)",
+    "det": "3*a^2/(125*x^2*(x+a)^2*y^2)>0 for a=1/5"
+  },
+  "left_homogeneous_polynomial": "x*y*z**3/6 + x*z**4/6 + y**2*z**3 + 2*y*z**4 + z**5",
+  "right_homogeneous_polynomial": "x*y**3*z/6 + x*y**2*z**2/2 + x*y*z**3/2 + x*z**4/6 + y**4*z/6 + 3*y**3*z**2/2 + 7*y**2*z**3/2 + 19*y*z**4/6 + z**5",
+  "restricted_theorem_finite_checks": [
+    {
+      "n": 2,
+      "posets": 2,
+      "shared_pairs": 1,
+      "one_wing_pairs": 1,
+      "one_wing_equalities": 1,
+      "nested_pairs": 1
+    },
+    {
+      "n": 3,
+      "posets": 7,
+      "shared_pairs": 8,
+      "one_wing_pairs": 8,
+      "one_wing_equalities": 3,
+      "nested_pairs": 8
+    },
+    {
+      "n": 4,
+      "posets": 40,
+      "shared_pairs": 73,
+      "one_wing_pairs": 70,
+      "one_wing_equalities": 8,
+      "nested_pairs": 70
+    },
+    {
+      "n": 5,
+      "posets": 357,
+      "shared_pairs": 899,
+      "one_wing_pairs": 813,
+      "one_wing_equalities": 35,
+      "nested_pairs": 813
+    },
+    {
+      "n": 6,
+      "posets": 4824,
+      "shared_pairs": 15521,
+      "one_wing_pairs": 13122,
+      "one_wing_equalities": 240,
+      "nested_pairs": 13122
+    }
+  ],
+  "ancillary_actual_eight_point_counts": {
+    "E": 200,
+    "F": 100,
+    "G": 100,
+    "H": 74,
+    "Aadj": 42
+  },
+  "ancillary_actual_mtp2_defect": "-24895078440973240401/6400000000000000000000000000",
+  "ancillary_square_analytic_defect": "-1/3600",
+  "scope": "Finite tests are supporting checks only. The source proof supplies the all-n one-wing theorem. No claim that the general dimension-sharp swap conjecture is settled."
+}

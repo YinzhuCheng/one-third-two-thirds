@@ -1,0 +1,8 @@
+f1 integrals: {'E': 1/12, 'F': 1/28, 'G': 1/21, 'H': 1/42, 'delta': 0}
+f2 integrals: {'E': 1/8, 'F': 1/24, 'G': 1/12, 'H': 1/30, 'delta': 1/1440}
+g integrals: {'E': 13/144, 'F': 37/1008, 'G': 3/56, 'H': 8/315, 'delta': -1/120960}
+g rank histogram: [((1, 2), 33), ((1, 3), 11), ((2, 1), 33), ((2, 3), 1), ((3, 1), 23), ((3, 2), 1), ((4, 1), 13), ((4, 2), 1), ((5, 1), 3), ((5, 2), 1)]
+g integral counts: {'E': 455, 'F': 185, 'G': 270, 'H': 128}
+g count delta: -210
+positive homogeneous sector polynomial: x*y*z**3/6 + x*z**4/6 + y**2*z**3 + 2*y*z**4 + z**5
+PASS: all exact assertions; g is not a realizable fixed-poset fiber.

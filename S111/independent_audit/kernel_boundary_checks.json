@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "m_range": [
+    0,
+    6
+  ],
+  "all_rank_pairs": true,
+  "grid_denominator": 4,
+  "comparisons": 3500,
+  "method": "Enumerated Q^m iid uniform-bin tuples, with rank m+1 represented by deterministic endpoint 1. Includes thresholds 0,1 and rank coincidences."
+}

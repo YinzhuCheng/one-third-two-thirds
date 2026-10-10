@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "scope": "All n=2..7 shared-downset incomparable pairs, conditional only on supplied analytic cases and diagonal argument audited in accompanying report.",
+  "enumeration": "Independent recursive-ideal predecessor enumeration; no proposal imports.",
+  "by_m": [
+    {
+      "m": 0,
+      "n": 2,
+      "natural_posets": 1,
+      "distinct_UV_configurations": 0,
+      "U_equals_V_configurations": 0,
+      "distinct_histograms": 0,
+      "all_histograms_certified": true
+    },
+    {
+      "m": 1,
+      "n": 3,
+      "natural_posets": 1,
+      "distinct_UV_configurations": 0,
+      "U_equals_V_configurations": 0,
+      "distinct_histograms": 0,
+      "all_histograms_certified": true
+    },
+    {
+      "m": 2,
+      "n": 4,
+      "natural_posets": 2,
+      "distinct_UV_configurations": 0,
+      "U_equals_V_configurations": 1,
+      "distinct_histograms": 0,
+      "all_histograms_certified": true
+    },
+    {
+      "m": 3,
+      "n": 5,
+      "natural_posets": 7,
+      "distinct_UV_configurations": 1,
+      "U_equals_V_configurations": 13,
+      "distinct_histograms": 1,
+      "all_histograms_certified": true
+    },
+    {
+      "m": 4,
+      "n": 6,
+      "natural_posets": 40,
+      "distinct_UV_configurations": 29,
+      "U_equals_V_configurations": 182,
+      "distinct_histograms": 13,
+      "all_histograms_certified": true
+    },
+    {
+      "m": 5,
+      "n": 7,
+      "natural_posets": 357,
+      "distinct_UV_configurations": 828,
+      "U_equals_V_configurations": 3298,
+      "distinct_histograms": 151,
+      "all_histograms_certified": true
+    }
+  ],
+  "certificate_records": 165
+}
