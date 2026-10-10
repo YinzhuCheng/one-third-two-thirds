@@ -25,3 +25,6 @@ dU≤p²仍OPEN。条件D(u)<y后得到相同严格下集模型，但删除共�
 一般非极小点的U≤p²已被C9⊔{y}否定；固定极小y必有伙伴已被五点例否定；长B或零漂移不保证Δ小。任意根窗口凸组合未必来自同一个后端P。少量局部标签/前五步不意味着有限大小反例核。
 
 MAIN33、一般WIDTH3、MC3、TEN40仍OPEN，U58未认证。证明稿、有限诊断、文献已知结论和候选分开保存。父断点：[S98不可变版本](https://github.com/YinzhuCheng/one-third-two-thirds/blob/f6b7ba94a6954b5f25ef63fdb2ee52a936d6fc25/09_NEXT_SESSION.md)。同步回执见[S99/SYNC_STATUS.md](S99/SYNC_STATUS.md)。
+
+## S100 后的新断点
+见 [S100/REPORT.md](S100/REPORT.md)。最优先：在 S99-D.1 的真实终端双分叉中，证明兄弟对方向 r∈[1/3,2/3] 或构造 r>2/3 的真实 P；保持共同后端完成数，不以 XYZ 单独替代兄弟比较。2026-10-10 用户已授权恢复任务；旧“小时任务关闭”是历史描述，不是当前调度指令。
