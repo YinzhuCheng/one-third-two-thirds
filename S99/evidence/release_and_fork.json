@@ -1,0 +1,369 @@
+{
+  "status": "PASSED",
+  "method": "Deterministic enumeration of all linear extensions of nine specified posets; integer and Fraction arithmetic.",
+  "models": 9,
+  "total_linear_extensions_across_models": 1227,
+  "minimal_y_incomparable_u_configurations": 83,
+  "direct_swap_source_extensions_checked": 3493,
+  "nonminimal_u_configurations": 37,
+  "nonminimal_u_swap_source_extensions_checked": 1079,
+  "maximal_majority_fork_certificates": 4,
+  "exact_guards": {
+    "fixed_minimal_fork_5": {
+      "E": 20,
+      "p_a_y": "7/10",
+      "p_u_y": "7/10",
+      "p_s_y": "3/10",
+      "p_t_y": "3/10",
+      "d": "1",
+      "U": "2/5",
+      "H": 6,
+      "R_x": 8,
+      "R_y": 0,
+      "delta": "9/100",
+      "claim_refuted": "A fixed minimal y with a majority-preceding element must have a balanced partner.",
+      "main_conjecture_counterexample": false
+    },
+    "nonminimal_square_guard_10": {
+      "E": 10,
+      "u": "a2",
+      "s": "a3",
+      "y": "y",
+      "p_u_y": "4/5",
+      "p_s_y": "7/10",
+      "p_u_y_squared": "16/25",
+      "d": "9/10",
+      "U": "7/10",
+      "p_a4_y": "3/5",
+      "predecessor_corrected_lower_bound_is_equality": true,
+      "claim_refuted": "The minimal-entrance square bound and its closing interval apply unchanged to nonminimal u.",
+      "main_conjecture_counterexample": false
+    }
+  },
+  "cases": [
+    {
+      "name": "antichain_3",
+      "n": 3,
+      "width": 3,
+      "linear_extensions": 6,
+      "labels": [
+        "a",
+        "b",
+        "y"
+      ],
+      "predecessor_masks": [
+        0,
+        0,
+        0
+      ],
+      "minimal_y_incomparable_u_configurations": 6,
+      "direct_swap_source_extensions_checked": 18,
+      "nonminimal_u_configurations": 0,
+      "nonminimal_u_swap_source_extensions_checked": 0,
+      "maximal_majority_fork_certificates": []
+    },
+    {
+      "name": "two_disjoint_2_chains",
+      "n": 4,
+      "width": 2,
+      "linear_extensions": 6,
+      "labels": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "predecessor_masks": [
+        0,
+        1,
+        0,
+        4
+      ],
+      "minimal_y_incomparable_u_configurations": 4,
+      "direct_swap_source_extensions_checked": 6,
+      "nonminimal_u_configurations": 2,
+      "nonminimal_u_swap_source_extensions_checked": 2,
+      "maximal_majority_fork_certificates": []
+    },
+    {
+      "name": "fixed_minimal_fork_5",
+      "n": 5,
+      "width": 3,
+      "linear_extensions": 20,
+      "labels": [
+        "a",
+        "u",
+        "s",
+        "t",
+        "y"
+      ],
+      "predecessor_masks": [
+        0,
+        0,
+        3,
+        3,
+        0
+      ],
+      "minimal_y_incomparable_u_configurations": 8,
+      "direct_swap_source_extensions_checked": 56,
+      "nonminimal_u_configurations": 2,
+      "nonminimal_u_swap_source_extensions_checked": 12,
+      "maximal_majority_fork_certificates": [
+        {
+          "y": "y",
+          "u": "a",
+          "private_upper_covers": [
+            "s",
+            "t"
+          ],
+          "p_u": "7/10",
+          "d": "1",
+          "U": "2/5",
+          "upper_probabilities": [
+            "3/10",
+            "3/10"
+          ],
+          "lower_covers": [],
+          "lower_probabilities": []
+        },
+        {
+          "y": "y",
+          "u": "u",
+          "private_upper_covers": [
+            "s",
+            "t"
+          ],
+          "p_u": "7/10",
+          "d": "1",
+          "U": "2/5",
+          "upper_probabilities": [
+            "3/10",
+            "3/10"
+          ],
+          "lower_covers": [],
+          "lower_probabilities": []
+        }
+      ]
+    },
+    {
+      "name": "fixed_minimal_fork_ordinal_top_7",
+      "n": 7,
+      "width": 3,
+      "linear_extensions": 20,
+      "labels": [
+        "a",
+        "u",
+        "s",
+        "t",
+        "y",
+        "z1",
+        "z2"
+      ],
+      "predecessor_masks": [
+        0,
+        0,
+        3,
+        3,
+        0,
+        31,
+        63
+      ],
+      "minimal_y_incomparable_u_configurations": 8,
+      "direct_swap_source_extensions_checked": 56,
+      "nonminimal_u_configurations": 2,
+      "nonminimal_u_swap_source_extensions_checked": 12,
+      "maximal_majority_fork_certificates": [
+        {
+          "y": "y",
+          "u": "a",
+          "private_upper_covers": [
+            "s",
+            "t"
+          ],
+          "p_u": "7/10",
+          "d": "1",
+          "U": "2/5",
+          "upper_probabilities": [
+            "3/10",
+            "3/10"
+          ],
+          "lower_covers": [],
+          "lower_probabilities": []
+        },
+        {
+          "y": "y",
+          "u": "u",
+          "private_upper_covers": [
+            "s",
+            "t"
+          ],
+          "p_u": "7/10",
+          "d": "1",
+          "U": "2/5",
+          "upper_probabilities": [
+            "3/10",
+            "3/10"
+          ],
+          "lower_covers": [],
+          "lower_probabilities": []
+        }
+      ]
+    },
+    {
+      "name": "nonminimal_square_guard_10",
+      "n": 10,
+      "width": 2,
+      "linear_extensions": 10,
+      "labels": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "y"
+      ],
+      "predecessor_masks": [
+        0,
+        1,
+        3,
+        7,
+        15,
+        31,
+        63,
+        127,
+        255,
+        0
+      ],
+      "minimal_y_incomparable_u_configurations": 10,
+      "direct_swap_source_extensions_checked": 10,
+      "nonminimal_u_configurations": 8,
+      "nonminimal_u_swap_source_extensions_checked": 8,
+      "maximal_majority_fork_certificates": []
+    },
+    {
+      "name": "nonminimal_fork_6",
+      "n": 6,
+      "width": 3,
+      "linear_extensions": 36,
+      "labels": [
+        "v",
+        "a",
+        "u",
+        "s",
+        "t",
+        "y"
+      ],
+      "predecessor_masks": [
+        0,
+        0,
+        1,
+        7,
+        7,
+        0
+      ],
+      "minimal_y_incomparable_u_configurations": 10,
+      "direct_swap_source_extensions_checked": 102,
+      "nonminimal_u_configurations": 4,
+      "nonminimal_u_swap_source_extensions_checked": 38,
+      "maximal_majority_fork_certificates": []
+    },
+    {
+      "name": "delayed_release_7",
+      "n": 7,
+      "width": 3,
+      "linear_extensions": 136,
+      "labels": [
+        "b1",
+        "b2",
+        "b3",
+        "x",
+        "s",
+        "y",
+        "t"
+      ],
+      "predecessor_masks": [
+        0,
+        1,
+        3,
+        0,
+        11,
+        0,
+        33
+      ],
+      "minimal_y_incomparable_u_configurations": 12,
+      "direct_swap_source_extensions_checked": 398,
+      "nonminimal_u_configurations": 6,
+      "nonminimal_u_swap_source_extensions_checked": 144,
+      "maximal_majority_fork_certificates": []
+    },
+    {
+      "name": "s97_guard_8",
+      "n": 8,
+      "width": 3,
+      "linear_extensions": 256,
+      "labels": [
+        "b1",
+        "b2",
+        "b3",
+        "x",
+        "y",
+        "u",
+        "v",
+        "z"
+      ],
+      "predecessor_masks": [
+        0,
+        1,
+        3,
+        0,
+        0,
+        9,
+        17,
+        121
+      ],
+      "minimal_y_incomparable_u_configurations": 12,
+      "direct_swap_source_extensions_checked": 744,
+      "nonminimal_u_configurations": 6,
+      "nonminimal_u_swap_source_extensions_checked": 220,
+      "maximal_majority_fork_certificates": []
+    },
+    {
+      "name": "s96_guard_9",
+      "n": 9,
+      "width": 3,
+      "linear_extensions": 737,
+      "labels": [
+        "v0",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8"
+      ],
+      "predecessor_masks": [
+        0,
+        5,
+        0,
+        4,
+        13,
+        29,
+        0,
+        68,
+        204
+      ],
+      "minimal_y_incomparable_u_configurations": 13,
+      "direct_swap_source_extensions_checked": 2103,
+      "nonminimal_u_configurations": 7,
+      "nonminimal_u_swap_source_extensions_checked": 643,
+      "maximal_majority_fork_certificates": []
+    }
+  ],
+  "scope": "Finite diagnostics, not exhaustive isomorphism-class coverage and not a general proof. The ordinal-top case deliberately checks probability preservation; no random-search or prior-run counts are included. The unproved candidate d*U <= p^2 is not an assertion in this checker."
+}

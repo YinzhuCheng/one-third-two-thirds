@@ -1,0 +1,8 @@
+{
+  "status": "PASSED",
+  "scope": "Targeted exact diagnostics only; analytic proofs are in S99/notes.",
+  "files": [
+    "release_and_fork.json",
+    "mc3_boundaries.json"
+  ]
+}
