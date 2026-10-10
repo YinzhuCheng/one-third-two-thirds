@@ -1,0 +1,93 @@
+{
+  "seed": 948013,
+  "families": 37,
+  "compressions": 93,
+  "strict_shortenings": 54,
+  "all_final_incomparable_pair_witnesses_checked": 4727,
+  "witness_kinds": {
+    "left": 268,
+    "interior": 3672,
+    "right": 278,
+    "short": 354,
+    "zero_left": 21,
+    "zero_interior": 114,
+    "zero_right": 20
+  },
+  "minimum_output_size": 15,
+  "maximum_input_size": 561,
+  "status": "PASS",
+  "unmarked_zero_edge_cases": [
+    {
+      "D": 2,
+      "B": 0,
+      "q": 15,
+      "n": 70,
+      "new_n": 14,
+      "pairs": 10
+    },
+    {
+      "D": 2,
+      "B": 1,
+      "q": 17,
+      "n": 80,
+      "new_n": 16,
+      "pairs": 12
+    },
+    {
+      "D": 2,
+      "B": 4,
+      "q": 23,
+      "n": 110,
+      "new_n": 22,
+      "pairs": 16
+    },
+    {
+      "D": 3,
+      "B": 0,
+      "q": 21,
+      "n": 100,
+      "new_n": 20,
+      "pairs": 15
+    },
+    {
+      "D": 3,
+      "B": 1,
+      "q": 23,
+      "n": 110,
+      "new_n": 22,
+      "pairs": 16
+    },
+    {
+      "D": 3,
+      "B": 4,
+      "q": 29,
+      "n": 140,
+      "new_n": 28,
+      "pairs": 21
+    },
+    {
+      "D": 4,
+      "B": 0,
+      "q": 27,
+      "n": 130,
+      "new_n": 26,
+      "pairs": 19
+    },
+    {
+      "D": 4,
+      "B": 1,
+      "q": 29,
+      "n": 140,
+      "new_n": 28,
+      "pairs": 21
+    },
+    {
+      "D": 4,
+      "B": 4,
+      "q": 35,
+      "n": 170,
+      "new_n": 34,
+      "pairs": 25
+    }
+  ]
+}

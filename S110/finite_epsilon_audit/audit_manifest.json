@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-10",
+  "verdict": "PASS",
+  "audited_source": "../finite_epsilon_representative.md",
+  "source_sha256": "3cc5606209bad491a52c3591e2ed337f04748b4e4f267e7298aa3b84327ebfe5",
+  "dependency_status": "PASS: local-decay Theorem 2 is independently audited",
+  "files": [
+    {
+      "path": "../finite_epsilon_representative.md",
+      "sha256": "3cc5606209bad491a52c3591e2ed337f04748b4e4f267e7298aa3b84327ebfe5",
+      "bytes": 19473
+    },
+    {
+      "path": "proof_audited_snapshot.md",
+      "sha256": "3cc5606209bad491a52c3591e2ed337f04748b4e4f267e7298aa3b84327ebfe5",
+      "bytes": 19473
+    },
+    {
+      "path": "AUDIT.md",
+      "sha256": "745bb5ad148d68fb585dba761fcfec45be5d5879bc40e52624c3a0c307beb028",
+      "bytes": 13065
+    },
+    {
+      "path": "check_compression.py",
+      "sha256": "e4d63c95a02566722c9576528d5906f5294d81569c595a744db757a6e44fb072",
+      "bytes": 8155
+    },
+    {
+      "path": "compression_checks.json",
+      "sha256": "aa0e9bf736c3bebcd562a82d99bc488cf22ea8a1410071d529a369b937674889",
+      "bytes": 39056
+    },
+    {
+      "path": "compression_checks.log",
+      "sha256": "bd5bbd4beebcfba891ba213b7840d90508587428b6c05818e7e7f4af75daa084",
+      "bytes": 1408
+    },
+    {
+      "path": "author_tests_rerun.log",
+      "sha256": "70d17311687297217dad073ce321d213f9b782b34416611072f056a9185c58c2",
+      "bytes": 412
+    },
+    {
+      "path": "../finite_representative_tests/check_encoding_compression.py",
+      "sha256": "cb7a6a541a3e08707d1f78d5f4044a5afee4a3ce7ea1f221c41bdce72a964b57",
+      "bytes": 8188
+    },
+    {
+      "path": "../finite_representative_tests/exact_checks.json",
+      "sha256": "1b9376b7d5bb3c70b4a17394bd3ddd5cf0fb6458b452d855aa4d0a2de2b1ebdb",
+      "bytes": 40401
+    },
+    {
+      "path": "../local_decay/local_probability_decay.md",
+      "sha256": "7eaf6b449270286010b98b2e0725b8fbaec21bbe641dcd0e270fcc4a4628c14b",
+      "bytes": 21153
+    },
+    {
+      "path": "../local_decay/independent_audit/independent_audit.md",
+      "sha256": "9d1806231cfc43a8dfcd9d179c2d4145265864b24783703e648b390e1482d858",
+      "bytes": 13458
+    },
+    {
+      "path": "../local_decay/independent_audit/audit_manifest.json",
+      "sha256": "40a26f0355ed50faa0b080feae2fe44e383938b39930b0a52a3780985cb44859",
+      "bytes": 889
+    }
+  ]
+}

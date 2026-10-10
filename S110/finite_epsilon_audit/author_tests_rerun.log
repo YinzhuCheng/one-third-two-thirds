@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "scope": "Encoding, legality, marked and unmarked path shortening, exact local witnesses and endpoint flags. No probability-decay theorem asserted by these finite tests.",
+  "seed": 20261010,
+  "actual_poset_cases": 70,
+  "exhaustive_R1_words": 597,
+  "zero_edge_path_cases": 87,
+  "erased_nonchain_negative_control": {
+    "original_n": 41,
+    "unmarked_n": 8,
+    "marked_n": 17
+  }
+}

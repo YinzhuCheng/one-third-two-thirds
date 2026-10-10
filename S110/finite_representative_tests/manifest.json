@@ -1,0 +1,9 @@
+{
+  "status": "PASS supplementary finite checks",
+  "files": {
+    "finite_epsilon_representative.md": "3cc5606209bad491a52c3591e2ed337f04748b4e4f267e7298aa3b84327ebfe5",
+    "finite_representative_tests/check_encoding_compression.py": "cb7a6a541a3e08707d1f78d5f4044a5afee4a3ce7ea1f221c41bdce72a964b57",
+    "finite_representative_tests/exact_checks.json": "1b9376b7d5bb3c70b4a17394bd3ddd5cf0fb6458b452d855aa4d0a2de2b1ebdb",
+    "local_decay/local_probability_decay.md": "7eaf6b449270286010b98b2e0725b8fbaec21bbe641dcd0e270fcc4a4628c14b"
+  }
+}

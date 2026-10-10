@@ -1,0 +1,1 @@
+{"status": "PASS", "stats": {"natural_posets": 5232, "positive_blocks": 1357, "positive_entries": 1933, "permutation_entry_checks": 234, "common_transition_checks": 1824, "degree_one_incomparable_pairs": 38}, "actual_poset_cases": 73}

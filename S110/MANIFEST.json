@@ -1,0 +1,226 @@
+{
+  "date": "2026-10-10",
+  "scope": "S110 only; bounded-incomparability-degree research methods",
+  "evidence": "Four independently audited proof components; seven supplementary publication-side finite checker reruns. Not external peer review, formal certification, or novelty determination.",
+  "proof_sha256": {
+    "bounded_cut_profiles.md": "06cb5f863b4055a5779160a7a07bf18908f089f7a54de872d6cd4f1e067acd31",
+    "single_splice_stability.md": "3e06cfd29b5a09a3f0c67b2522d1fe8d360ea556ba6fa11204283ac6ff9baa76",
+    "local_decay/local_probability_decay.md": "7eaf6b449270286010b98b2e0725b8fbaec21bbe641dcd0e270fcc4a4628c14b",
+    "finite_epsilon_representative.md": "3cc5606209bad491a52c3591e2ed337f04748b4e4f267e7298aa3b84327ebfe5",
+    "prior_art_locality.md": "a70fcfa89314996fb57961f2abf2ae1ebf3c4e98972b0a9dda5725b471072e8a"
+  },
+  "portability": "See PORTABILITY.md for original-audit versus portable-copy hash binding and two path-only log edits.",
+  "manifest_scope": "All payload files except this manifest and the top-level SHA256SUMS. SHA256SUMS also binds this manifest.",
+  "files": [
+    {
+      "path": "PORTABILITY.md",
+      "bytes": 2709,
+      "sha256": "e48acf94b198b96a6580fd516a777e561d96dbf22f39c8ff28e9fc8e0873521d"
+    },
+    {
+      "path": "PUBLICATION_CHECKS.md",
+      "bytes": 2884,
+      "sha256": "a96fd40dcc5a83691e76e92bd1579b5c285463e192f094371ee34b78fab303e6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4934,
+      "sha256": "1960048b44827424aa8be332b68dce320433fdc8a7d8c79ddd79e0c087232e8e"
+    },
+    {
+      "path": "bounded_cut_profiles.md",
+      "bytes": 11356,
+      "sha256": "06cb5f863b4055a5779160a7a07bf18908f089f7a54de872d6cd4f1e067acd31"
+    },
+    {
+      "path": "check_s110.py",
+      "bytes": 9068,
+      "sha256": "9d63744022481d2fa5778a959449f6fcb5fcb5a4e3599b8595e16db3302794f7"
+    },
+    {
+      "path": "check_single_splice.py",
+      "bytes": 5702,
+      "sha256": "ee473f4dbd20f5f00daf39b1432b230279775efe0c4968ba69173677ec59ee68"
+    },
+    {
+      "path": "finite_epsilon_audit/AUDIT.md",
+      "bytes": 13065,
+      "sha256": "745bb5ad148d68fb585dba761fcfec45be5d5879bc40e52624c3a0c307beb028"
+    },
+    {
+      "path": "finite_epsilon_audit/SHA256SUMS",
+      "bytes": 1299,
+      "sha256": "73d6fc9cf1821d491625f7f9dc60b254ff9c9b3917fad2a6214c9550fbc2d581"
+    },
+    {
+      "path": "finite_epsilon_audit/audit_manifest.json",
+      "bytes": 2324,
+      "sha256": "3ec7169bb9aa55b2742580fad3c6874cbfa3f801a4b8bc31a0e7d2b7ae765b18"
+    },
+    {
+      "path": "finite_epsilon_audit/author_tests_rerun.log",
+      "bytes": 412,
+      "sha256": "70d17311687297217dad073ce321d213f9b782b34416611072f056a9185c58c2"
+    },
+    {
+      "path": "finite_epsilon_audit/check_compression.py",
+      "bytes": 8155,
+      "sha256": "e4d63c95a02566722c9576528d5906f5294d81569c595a744db757a6e44fb072"
+    },
+    {
+      "path": "finite_epsilon_audit/compression_checks.json",
+      "bytes": 39056,
+      "sha256": "aa0e9bf736c3bebcd562a82d99bc488cf22ea8a1410071d529a369b937674889"
+    },
+    {
+      "path": "finite_epsilon_audit/compression_checks.log",
+      "bytes": 1408,
+      "sha256": "bd5bbd4beebcfba891ba213b7840d90508587428b6c05818e7e7f4af75daa084"
+    },
+    {
+      "path": "finite_epsilon_audit/proof_audited_snapshot.md",
+      "bytes": 19473,
+      "sha256": "3cc5606209bad491a52c3591e2ed337f04748b4e4f267e7298aa3b84327ebfe5"
+    },
+    {
+      "path": "finite_epsilon_representative.md",
+      "bytes": 19473,
+      "sha256": "3cc5606209bad491a52c3591e2ed337f04748b4e4f267e7298aa3b84327ebfe5"
+    },
+    {
+      "path": "finite_representative_tests/check_encoding_compression.py",
+      "bytes": 8188,
+      "sha256": "cb7a6a541a3e08707d1f78d5f4044a5afee4a3ce7ea1f221c41bdce72a964b57"
+    },
+    {
+      "path": "finite_representative_tests/exact_checks.json",
+      "bytes": 40401,
+      "sha256": "1b9376b7d5bb3c70b4a17394bd3ddd5cf0fb6458b452d855aa4d0a2de2b1ebdb"
+    },
+    {
+      "path": "finite_representative_tests/manifest.json",
+      "bytes": 544,
+      "sha256": "789ca3dd418916b3cc86bbf0cc82a7d27677bb23a4c870bbef8d0b603c5a1e72"
+    },
+    {
+      "path": "independent_audit/audit_manifest.json",
+      "bytes": 1194,
+      "sha256": "56a2805bc63472e05623af08b6cf51292581abcaa11d781f5c0bdee26fad85a3"
+    },
+    {
+      "path": "independent_audit/independent_audit.md",
+      "bytes": 9275,
+      "sha256": "93b662051614fae0c42d4567783544f9c111038cfcfe6db01639bb643864abbb"
+    },
+    {
+      "path": "independent_audit/independent_matrix_audit.json",
+      "bytes": 2468,
+      "sha256": "32d168852c2ace86a5489a6d9aa9f5e721f7d28432db3c4c85418b5992a4f284"
+    },
+    {
+      "path": "independent_audit/independent_matrix_audit.log",
+      "bytes": 1598,
+      "sha256": "ae515f691a3325f9aeafca164898fe3136aa9f25fb233db523ce929f4b56ce5f"
+    },
+    {
+      "path": "independent_audit/independent_matrix_audit.py",
+      "bytes": 6293,
+      "sha256": "aba5bc59a00b71411d4cf484b90193bc65a29c9f1ca2dfc817ca3b760737b9ae"
+    },
+    {
+      "path": "independent_audit/supplied_checker_rerun.json",
+      "bytes": 3436,
+      "sha256": "bb49b50acca43fb3f243f0ca1dcec3c5729d1d955c2cec76b207aa5d1f59d574"
+    },
+    {
+      "path": "independent_audit/supplied_checker_rerun.log",
+      "bytes": 2366,
+      "sha256": "157bb0553158b793997bcf2ed0b2ab8c45f62a001504eec84b435ebb60033394"
+    },
+    {
+      "path": "local_decay/independent_audit/audit_manifest.json",
+      "bytes": 889,
+      "sha256": "40a26f0355ed50faa0b080feae2fe44e383938b39930b0a52a3780985cb44859"
+    },
+    {
+      "path": "local_decay/independent_audit/check_local_decay.py",
+      "bytes": 12516,
+      "sha256": "97a990dcb2e8f2035072a39451eb9831e49fa28c15d2c9848d4d50c05d5f0a75"
+    },
+    {
+      "path": "local_decay/independent_audit/exact_checks.json",
+      "bytes": 97829,
+      "sha256": "baa3a84f5d0c5ab328d5be407a14fa683ac4710504ca03f9348710c019ec1f54"
+    },
+    {
+      "path": "local_decay/independent_audit/exact_checks.log",
+      "bytes": 235,
+      "sha256": "57e16d7faff95cebbfc1254e83af54be6822b01985ba3bf4088e430a9e3a7701"
+    },
+    {
+      "path": "local_decay/independent_audit/independent_audit.md",
+      "bytes": 13458,
+      "sha256": "9d1806231cfc43a8dfcd9d179c2d4145265864b24783703e648b390e1482d858"
+    },
+    {
+      "path": "local_decay/local_probability_decay.md",
+      "bytes": 21153,
+      "sha256": "7eaf6b449270286010b98b2e0725b8fbaec21bbe641dcd0e270fcc4a4628c14b"
+    },
+    {
+      "path": "prior_art_locality.md",
+      "bytes": 11209,
+      "sha256": "a70fcfa89314996fb57961f2abf2ae1ebf3c4e98972b0a9dda5725b471072e8a"
+    },
+    {
+      "path": "s110_checks.json",
+      "bytes": 3436,
+      "sha256": "9ff16709a38dd742e24bec6d7cfb896dcadaa4dd20bd109908ef936274795cee"
+    },
+    {
+      "path": "s110_checks.log",
+      "bytes": 2355,
+      "sha256": "23cfe27a32a8a3582147a35eb0476b1f1d61cd74f3608a1fb5eba38600546007"
+    },
+    {
+      "path": "single_splice_exact_check.json",
+      "bytes": 11107,
+      "sha256": "fdede2e3a37261ca173acc030857af67cffc2d210dfed792824b4b6fcd0213c2"
+    },
+    {
+      "path": "single_splice_stability.md",
+      "bytes": 17132,
+      "sha256": "3e06cfd29b5a09a3f0c67b2522d1fe8d360ea556ba6fa11204283ac6ff9baa76"
+    },
+    {
+      "path": "splice_independent_audit/AUDIT.md",
+      "bytes": 10903,
+      "sha256": "f6ccf99092298c192014374778338ca0e302d9f0953cae11386f69b5ce122a6f"
+    },
+    {
+      "path": "splice_independent_audit/SHA256SUMS",
+      "bytes": 416,
+      "sha256": "f9dc7bdf7adbc0012251a1386837136f04febc8ccaf3341d96cb8d5189fdec4c"
+    },
+    {
+      "path": "splice_independent_audit/check_splice.py",
+      "bytes": 6311,
+      "sha256": "2bb87c36a19df542df26341b559e56e4765443e68e76b3de3a56dd78eb91238c"
+    },
+    {
+      "path": "splice_independent_audit/exact_checks.json",
+      "bytes": 10037,
+      "sha256": "6847e08ae153fcffef1c904aa6f22d6efaf6adad112b23c97b63eb007261fe3c"
+    },
+    {
+      "path": "splice_independent_audit/exact_checks.log",
+      "bytes": 480,
+      "sha256": "54b3d257ece2402bb07b3537eceea3b6c49667ba84a6dde20bef838bcda9531b"
+    },
+    {
+      "path": "splice_independent_audit/proof_audited_snapshot.md",
+      "bytes": 17132,
+      "sha256": "3e06cfd29b5a09a3f0c67b2522d1fe8d360ea556ba6fa11204283ac6ff9baa76"
+    }
+  ]
+}

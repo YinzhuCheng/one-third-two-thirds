@@ -1,0 +1,1769 @@
+{
+  "seed": 948013,
+  "families": 37,
+  "compressions": 93,
+  "strict_shortenings": 54,
+  "all_final_incomparable_pair_witnesses_checked": 4727,
+  "witness_kinds": {
+    "left": 268,
+    "interior": 3672,
+    "right": 278,
+    "short": 354,
+    "zero_left": 21,
+    "zero_interior": 114,
+    "zero_right": 20
+  },
+  "minimum_output_size": 15,
+  "maximum_input_size": 561,
+  "status": "PASS",
+  "unmarked_zero_edge_cases": [
+    {
+      "D": 2,
+      "B": 0,
+      "q": 15,
+      "n": 70,
+      "new_n": 14,
+      "pairs": 10
+    },
+    {
+      "D": 2,
+      "B": 1,
+      "q": 17,
+      "n": 80,
+      "new_n": 16,
+      "pairs": 12
+    },
+    {
+      "D": 2,
+      "B": 4,
+      "q": 23,
+      "n": 110,
+      "new_n": 22,
+      "pairs": 16
+    },
+    {
+      "D": 3,
+      "B": 0,
+      "q": 21,
+      "n": 100,
+      "new_n": 20,
+      "pairs": 15
+    },
+    {
+      "D": 3,
+      "B": 1,
+      "q": 23,
+      "n": 110,
+      "new_n": 22,
+      "pairs": 16
+    },
+    {
+      "D": 3,
+      "B": 4,
+      "q": 29,
+      "n": 140,
+      "new_n": 28,
+      "pairs": 21
+    },
+    {
+      "D": 4,
+      "B": 0,
+      "q": 27,
+      "n": 130,
+      "new_n": 26,
+      "pairs": 19
+    },
+    {
+      "D": 4,
+      "B": 1,
+      "q": 29,
+      "n": 140,
+      "new_n": 28,
+      "pairs": 21
+    },
+    {
+      "D": 4,
+      "B": 4,
+      "q": 35,
+      "n": 170,
+      "new_n": 34,
+      "pairs": 25
+    }
+  ],
+  "results": [
+    {
+      "name": "adjacent_[1]_B0",
+      "D": 2,
+      "B": 0,
+      "n": 81,
+      "new_n": 15,
+      "q": 15,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "23416728348467685/61305790721611591",
+      "delta_new": "377/987",
+      "max_witness_probability_error": "2440037638589733208/60508815442230640317",
+      "reverse_probability_error": "27777890035288/60508815442230640317"
+    },
+    {
+      "name": "adjacent_[1]_B0",
+      "D": 2,
+      "B": 0,
+      "n": 81,
+      "new_n": 16,
+      "q": 15,
+      "mark": [
+        79,
+        80
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "23416728348467685/61305790721611591",
+      "delta_new": "610/1597",
+      "max_witness_probability_error": "3948051410434623050/97905347782413710827",
+      "reverse_probability_error": "17167680177565/97905347782413710827"
+    },
+    {
+      "name": "adjacent_[1, 0]_B0",
+      "D": 2,
+      "B": 0,
+      "n": 161,
+      "new_n": 15,
+      "q": 15,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 0]_B0",
+      "D": 2,
+      "B": 0,
+      "n": 161,
+      "new_n": 15,
+      "q": 15,
+      "mark": [
+        158,
+        159
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 1, 0]_B0",
+      "D": 2,
+      "B": 0,
+      "n": 241,
+      "new_n": 16,
+      "q": 15,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/3",
+      "delta_new": "1/3",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 1, 0]_B0",
+      "D": 2,
+      "B": 0,
+      "n": 241,
+      "new_n": 16,
+      "q": 15,
+      "mark": [
+        238,
+        239
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": false,
+      "delta": "1/3",
+      "delta_new": "1/3",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B0",
+      "D": 2,
+      "B": 0,
+      "n": 561,
+      "new_n": 15,
+      "q": 15,
+      "mark": [
+        6,
+        7
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B0",
+      "D": 2,
+      "B": 0,
+      "n": 561,
+      "new_n": 15,
+      "q": 15,
+      "mark": [
+        1,
+        2
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B0",
+      "D": 2,
+      "B": 0,
+      "n": 561,
+      "new_n": 22,
+      "q": 15,
+      "mark": [
+        559,
+        560
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1]_B1",
+      "D": 2,
+      "B": 1,
+      "n": 81,
+      "new_n": 17,
+      "q": 17,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "23416728348467685/61305790721611591",
+      "delta_new": "987/2584",
+      "max_witness_probability_error": "1220014980490279155/79207081612322175572",
+      "reverse_probability_error": "10610209857723/158414163224644351144"
+    },
+    {
+      "name": "adjacent_[1]_B1",
+      "D": 2,
+      "B": 1,
+      "n": 81,
+      "new_n": 18,
+      "q": 17,
+      "mark": [
+        79,
+        80
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "23416728348467685/61305790721611591",
+      "delta_new": "1597/4181",
+      "max_witness_probability_error": "3948056155467272940/256319511007058061971",
+      "reverse_probability_error": "6557470319842/256319511007058061971"
+    },
+    {
+      "name": "adjacent_[1, 0]_B1",
+      "D": 2,
+      "B": 1,
+      "n": 161,
+      "new_n": 17,
+      "q": 17,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 0]_B1",
+      "D": 2,
+      "B": 1,
+      "n": 161,
+      "new_n": 17,
+      "q": 17,
+      "mark": [
+        158,
+        159
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 1, 0]_B1",
+      "D": 2,
+      "B": 1,
+      "n": 241,
+      "new_n": 19,
+      "q": 17,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/3",
+      "delta_new": "1/3",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 1, 0]_B1",
+      "D": 2,
+      "B": 1,
+      "n": 241,
+      "new_n": 19,
+      "q": 17,
+      "mark": [
+        238,
+        239
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/3",
+      "delta_new": "1/3",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B1",
+      "D": 2,
+      "B": 1,
+      "n": 561,
+      "new_n": 22,
+      "q": 17,
+      "mark": [
+        6,
+        7
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B1",
+      "D": 2,
+      "B": 1,
+      "n": 561,
+      "new_n": 22,
+      "q": 17,
+      "mark": [
+        1,
+        2
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B1",
+      "D": 2,
+      "B": 1,
+      "n": 561,
+      "new_n": 22,
+      "q": 17,
+      "mark": [
+        559,
+        560
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1]_B4",
+      "D": 2,
+      "B": 4,
+      "n": 81,
+      "new_n": 23,
+      "q": 23,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "23416728348467685/61305790721611591",
+      "delta_new": "17711/46368",
+      "max_witness_probability_error": "305004025160214449/355328363022460781436",
+      "reverse_probability_error": "591286729879/2842626904179686251488"
+    },
+    {
+      "name": "adjacent_[1]_B4",
+      "D": 2,
+      "B": 4,
+      "n": 81,
+      "new_n": 24,
+      "q": 23,
+      "mark": [
+        79,
+        80
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "23416728348467685/61305790721611591",
+      "delta_new": "28657/75025",
+      "max_witness_probability_error": "3948054770886584048/4599466948888909614775",
+      "reverse_probability_error": "365435296162/4599466948888909614775"
+    },
+    {
+      "name": "adjacent_[1, 0]_B4",
+      "D": 2,
+      "B": 4,
+      "n": 161,
+      "new_n": 23,
+      "q": 23,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 0]_B4",
+      "D": 2,
+      "B": 4,
+      "n": 161,
+      "new_n": 23,
+      "q": 23,
+      "mark": [
+        158,
+        159
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 1, 0]_B4",
+      "D": 2,
+      "B": 4,
+      "n": 241,
+      "new_n": 25,
+      "q": 23,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/3",
+      "delta_new": "1/3",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 1, 0]_B4",
+      "D": 2,
+      "B": 4,
+      "n": 241,
+      "new_n": 25,
+      "q": 23,
+      "mark": [
+        238,
+        239
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/3",
+      "delta_new": "1/3",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B4",
+      "D": 2,
+      "B": 4,
+      "n": 561,
+      "new_n": 29,
+      "q": 23,
+      "mark": [
+        6,
+        7
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B4",
+      "D": 2,
+      "B": 4,
+      "n": 561,
+      "new_n": 29,
+      "q": 23,
+      "mark": [
+        1,
+        2
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B4",
+      "D": 2,
+      "B": 4,
+      "n": 561,
+      "new_n": 29,
+      "q": 23,
+      "mark": [
+        559,
+        560
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1]_B8",
+      "D": 2,
+      "B": 8,
+      "n": 81,
+      "new_n": 31,
+      "q": 31,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "23416728348467685/61305790721611591",
+      "delta_new": "832040/2178309",
+      "max_witness_probability_error": "2440032085541629150/133542955681003023179619",
+      "reverse_probability_error": "12586269025/133542955681003023179619"
+    },
+    {
+      "name": "adjacent_[1]_B8",
+      "D": 2,
+      "B": 8,
+      "n": 81,
+      "new_n": 32,
+      "q": 31,
+      "mark": [
+        79,
+        80
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "23416728348467685/61305790721611591",
+      "delta_new": "1346269/3524578",
+      "max_witness_probability_error": "44360166768740407/2427831924157262226782",
+      "reverse_probability_error": "7778742049/216077041249996338183598"
+    },
+    {
+      "name": "adjacent_[1, 0]_B8",
+      "D": 2,
+      "B": 8,
+      "n": 161,
+      "new_n": 31,
+      "q": 31,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 0]_B8",
+      "D": 2,
+      "B": 8,
+      "n": 161,
+      "new_n": 31,
+      "q": 31,
+      "mark": [
+        158,
+        159
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 1, 0]_B8",
+      "D": 2,
+      "B": 8,
+      "n": 241,
+      "new_n": 31,
+      "q": 31,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/3",
+      "delta_new": "1/3",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[1, 1, 0]_B8",
+      "D": 2,
+      "B": 8,
+      "n": 241,
+      "new_n": 31,
+      "q": 31,
+      "mark": [
+        238,
+        239
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/3",
+      "delta_new": "1/3",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B8",
+      "D": 2,
+      "B": 8,
+      "n": 561,
+      "new_n": 36,
+      "q": 31,
+      "mark": [
+        6,
+        7
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B8",
+      "D": 2,
+      "B": 8,
+      "n": 561,
+      "new_n": 36,
+      "q": 31,
+      "mark": [
+        1,
+        2
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "adjacent_[0, 1, 1, 1, 0, 0, 1]_B8",
+      "D": 2,
+      "B": 8,
+      "n": 561,
+      "new_n": 36,
+      "q": 31,
+      "mark": [
+        559,
+        560
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1]_w3_B0",
+      "D": 4,
+      "B": 0,
+      "n": 31,
+      "new_n": 28,
+      "q": 27,
+      "mark": [
+        1,
+        2
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "7138790424/16987713169",
+      "delta_new": "685857951/1632091412",
+      "max_witness_probability_error": "284689891745376633/3960785824663457804",
+      "reverse_probability_error": "56687454567/3960785824663457804"
+    },
+    {
+      "name": "interval_[1]_w3_B0",
+      "D": 4,
+      "B": 0,
+      "n": 31,
+      "new_n": 28,
+      "q": 27,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "7138790424/16987713169",
+      "delta_new": "685857951/1632091412",
+      "max_witness_probability_error": "284689891745376633/3960785824663457804",
+      "reverse_probability_error": "329977903/47720311140523588"
+    },
+    {
+      "name": "interval_[1]_w3_B0",
+      "D": 4,
+      "B": 0,
+      "n": 31,
+      "new_n": 29,
+      "q": 27,
+      "mark": [
+        29,
+        30
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "7138790424/16987713169",
+      "delta_new": "249581909/593913750",
+      "max_witness_probability_error": "902713783874429621/10089236432125173750",
+      "reverse_probability_error": "63312887/24311413089458250"
+    },
+    {
+      "name": "interval_[1, 1, 2, 1, 2]_w3_B0",
+      "D": 3,
+      "B": 0,
+      "n": 151,
+      "new_n": 21,
+      "q": 21,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "98239569745436675007652370707472939185/1196979559590035357828071007686001731014",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1, 1, 2, 1, 2]_w3_B0",
+      "D": 3,
+      "B": 0,
+      "n": 151,
+      "new_n": 26,
+      "q": 21,
+      "mark": [
+        149,
+        150
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "1658433975901492056790734658358548373674/20206843132668666619464916798480696593123",
+      "reverse_probability_error": "289028207845905450839051418991/60620529398005999858394750395442089779369"
+    },
+    {
+      "name": "interval_[1, 2, 1, 3, 1]_w4_B0",
+      "D": 4,
+      "B": 0,
+      "n": 151,
+      "new_n": 31,
+      "q": 27,
+      "mark": [
+        1,
+        2
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "3284565786413648216689314085321615518360975208350/641065108661262581458568616435671736832870661800921",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1, 2, 1, 3, 1]_w4_B0",
+      "D": 4,
+      "B": 0,
+      "n": 151,
+      "new_n": 31,
+      "q": 27,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "3284565786413648216689314085321615518360975208350/641065108661262581458568616435671736832870661800921",
+      "reverse_probability_error": "5644967282579616879741360669980557740/641065108661262581458568616435671736832870661800921"
+    },
+    {
+      "name": "interval_[1, 2, 1, 3, 1]_w4_B0",
+      "D": 4,
+      "B": 0,
+      "n": 151,
+      "new_n": 31,
+      "q": 27,
+      "mark": [
+        149,
+        150
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "3284565786413648216689314085321615518360975208350/641065108661262581458568616435671736832870661800921",
+      "reverse_probability_error": "16934901847738850639224082009941673220/641065108661262581458568616435671736832870661800921"
+    },
+    {
+      "name": "interval_[1]_w3_B2",
+      "D": 4,
+      "B": 2,
+      "n": 31,
+      "new_n": 31,
+      "q": 31,
+      "mark": [
+        1,
+        2
+      ],
+      "mark_kind": "short",
+      "true_maximizer": true,
+      "delta": "7138790424/16987713169",
+      "delta_new": "7138790424/16987713169",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1]_w3_B2",
+      "D": 4,
+      "B": 2,
+      "n": 31,
+      "new_n": 31,
+      "q": 31,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "short",
+      "true_maximizer": false,
+      "delta": "7138790424/16987713169",
+      "delta_new": "7138790424/16987713169",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1]_w3_B2",
+      "D": 4,
+      "B": 2,
+      "n": 31,
+      "new_n": 31,
+      "q": 31,
+      "mark": [
+        29,
+        30
+      ],
+      "mark_kind": "short",
+      "true_maximizer": false,
+      "delta": "7138790424/16987713169",
+      "delta_new": "7138790424/16987713169",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1, 1, 2, 1, 2]_w3_B2",
+      "D": 3,
+      "B": 2,
+      "n": 151,
+      "new_n": 26,
+      "q": 25,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "219584193151143869484604186068074722313/20206843132668666619464916798480696593123",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1, 1, 2, 1, 2]_w3_B2",
+      "D": 3,
+      "B": 2,
+      "n": 151,
+      "new_n": 26,
+      "q": 25,
+      "mark": [
+        149,
+        150
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "219584193151143869484604186068074722313/20206843132668666619464916798480696593123",
+      "reverse_probability_error": "289028207845905450839051418991/60620529398005999858394750395442089779369"
+    },
+    {
+      "name": "interval_[1, 2, 1, 3, 1]_w4_B2",
+      "D": 4,
+      "B": 2,
+      "n": 151,
+      "new_n": 36,
+      "q": 31,
+      "mark": [
+        1,
+        2
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "14673922390404863083449939514239500187915114136221/19748156748620098923016984501498630307431436112603865",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1, 2, 1, 3, 1]_w4_B2",
+      "D": 4,
+      "B": 2,
+      "n": 151,
+      "new_n": 36,
+      "q": 31,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "14673922390404863083449939514239500187915114136221/19748156748620098923016984501498630307431436112603865",
+      "reverse_probability_error": "1099482329554336007498614599073229256/19748156748620098923016984501498630307431436112603865"
+    },
+    {
+      "name": "interval_[1, 2, 1, 3, 1]_w4_B2",
+      "D": 4,
+      "B": 2,
+      "n": 151,
+      "new_n": 36,
+      "q": 31,
+      "mark": [
+        149,
+        150
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "14673922390404863083449939514239500187915114136221/19748156748620098923016984501498630307431436112603865",
+      "reverse_probability_error": "3298446988663008022495843797219687768/19748156748620098923016984501498630307431436112603865"
+    },
+    {
+      "name": "interval_[1]_w3_B8",
+      "D": 4,
+      "B": 8,
+      "n": 31,
+      "new_n": 31,
+      "q": 43,
+      "mark": [
+        1,
+        2
+      ],
+      "mark_kind": "short",
+      "true_maximizer": true,
+      "delta": "7138790424/16987713169",
+      "delta_new": "7138790424/16987713169",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1]_w3_B8",
+      "D": 4,
+      "B": 8,
+      "n": 31,
+      "new_n": 31,
+      "q": 43,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "short",
+      "true_maximizer": false,
+      "delta": "7138790424/16987713169",
+      "delta_new": "7138790424/16987713169",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1]_w3_B8",
+      "D": 4,
+      "B": 8,
+      "n": 31,
+      "new_n": 31,
+      "q": 43,
+      "mark": [
+        29,
+        30
+      ],
+      "mark_kind": "short",
+      "true_maximizer": false,
+      "delta": "7138790424/16987713169",
+      "delta_new": "7138790424/16987713169",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1, 1, 2, 1, 2]_w3_B8",
+      "D": 3,
+      "B": 8,
+      "n": 151,
+      "new_n": 41,
+      "q": 37,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "2782369672444550544003850348068623405782/291645266131725028427742627390681630000236697",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1, 1, 2, 1, 2]_w3_B8",
+      "D": 3,
+      "B": 8,
+      "n": 151,
+      "new_n": 41,
+      "q": 37,
+      "mark": [
+        149,
+        150
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "2782369672444550544003850348068623405782/291645266131725028427742627390681630000236697",
+      "reverse_probability_error": "480612442726414949042029736/291645266131725028427742627390681630000236697"
+    },
+    {
+      "name": "interval_[1, 2, 1, 3, 1]_w4_B8",
+      "D": 4,
+      "B": 8,
+      "n": 151,
+      "new_n": 46,
+      "q": 43,
+      "mark": [
+        1,
+        2
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "88043534342428234050523841542703866792747218757950/18740251584721199631329926436274157000546107544441719769",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "interval_[1, 2, 1, 3, 1]_w4_B8",
+      "D": 4,
+      "B": 8,
+      "n": 151,
+      "new_n": 46,
+      "q": 43,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "88043534342428234050523841542703866792747218757950/18740251584721199631329926436274157000546107544441719769",
+      "reverse_probability_error": "41710164582147529283857498550199840/18740251584721199631329926436274157000546107544441719769"
+    },
+    {
+      "name": "interval_[1, 2, 1, 3, 1]_w4_B8",
+      "D": 4,
+      "B": 8,
+      "n": 151,
+      "new_n": 46,
+      "q": 43,
+      "mark": [
+        149,
+        150
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "88043534342428234050523841542703866792747218757950/18740251584721199631329926436274157000546107544441719769",
+      "reverse_probability_error": "125130493746442587851572495650599520/18740251584721199631329926436274157000546107544441719769"
+    },
+    {
+      "name": "permutation_0",
+      "D": 2,
+      "B": 0,
+      "n": 90,
+      "new_n": 90,
+      "q": 15,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_0",
+      "D": 2,
+      "B": 0,
+      "n": 90,
+      "new_n": 90,
+      "q": 15,
+      "mark": [
+        86,
+        89
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_1",
+      "D": 3,
+      "B": 1,
+      "n": 90,
+      "new_n": 90,
+      "q": 23,
+      "mark": [
+        9,
+        10
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_1",
+      "D": 3,
+      "B": 1,
+      "n": 90,
+      "new_n": 90,
+      "q": 23,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_1",
+      "D": 3,
+      "B": 1,
+      "n": 90,
+      "new_n": 90,
+      "q": 23,
+      "mark": [
+        87,
+        89
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_2",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        28,
+        29
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_2",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_2",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        85,
+        89
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_3",
+      "D": 2,
+      "B": 0,
+      "n": 90,
+      "new_n": 90,
+      "q": 15,
+      "mark": [
+        3,
+        4
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_3",
+      "D": 2,
+      "B": 0,
+      "n": 90,
+      "new_n": 90,
+      "q": 15,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_3",
+      "D": 2,
+      "B": 0,
+      "n": 90,
+      "new_n": 90,
+      "q": 15,
+      "mark": [
+        86,
+        89
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_4",
+      "D": 3,
+      "B": 1,
+      "n": 90,
+      "new_n": 90,
+      "q": 23,
+      "mark": [
+        10,
+        11
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_4",
+      "D": 3,
+      "B": 1,
+      "n": 90,
+      "new_n": 90,
+      "q": 23,
+      "mark": [
+        2,
+        3
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_4",
+      "D": 3,
+      "B": 1,
+      "n": 90,
+      "new_n": 90,
+      "q": 23,
+      "mark": [
+        87,
+        89
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_5",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        12,
+        13
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_5",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_5",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        85,
+        89
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_6",
+      "D": 2,
+      "B": 0,
+      "n": 90,
+      "new_n": 90,
+      "q": 15,
+      "mark": [
+        1,
+        2
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_6",
+      "D": 2,
+      "B": 0,
+      "n": 90,
+      "new_n": 90,
+      "q": 15,
+      "mark": [
+        87,
+        89
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_7",
+      "D": 3,
+      "B": 1,
+      "n": 90,
+      "new_n": 90,
+      "q": 23,
+      "mark": [
+        8,
+        9
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_7",
+      "D": 3,
+      "B": 1,
+      "n": 90,
+      "new_n": 90,
+      "q": 23,
+      "mark": [
+        0,
+        2
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_7",
+      "D": 3,
+      "B": 1,
+      "n": 90,
+      "new_n": 90,
+      "q": 23,
+      "mark": [
+        87,
+        89
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_8",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        6,
+        7
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_8",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        1,
+        3
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_8",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        87,
+        89
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_9",
+      "D": 2,
+      "B": 0,
+      "n": 90,
+      "new_n": 90,
+      "q": 15,
+      "mark": [
+        6,
+        8
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_9",
+      "D": 2,
+      "B": 0,
+      "n": 90,
+      "new_n": 90,
+      "q": 15,
+      "mark": [
+        2,
+        4
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_9",
+      "D": 2,
+      "B": 0,
+      "n": 90,
+      "new_n": 90,
+      "q": 15,
+      "mark": [
+        87,
+        88
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_10",
+      "D": 3,
+      "B": 1,
+      "n": 90,
+      "new_n": 90,
+      "q": 23,
+      "mark": [
+        0,
+        1
+      ],
+      "mark_kind": "left",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_10",
+      "D": 3,
+      "B": 1,
+      "n": 90,
+      "new_n": 90,
+      "q": 23,
+      "mark": [
+        87,
+        88
+      ],
+      "mark_kind": "right",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_11",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        11,
+        12
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": true,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_11",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        0,
+        2
+      ],
+      "mark_kind": "left",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    },
+    {
+      "name": "permutation_11",
+      "D": 4,
+      "B": 2,
+      "n": 90,
+      "new_n": 90,
+      "q": 31,
+      "mark": [
+        83,
+        85
+      ],
+      "mark_kind": "interior",
+      "true_maximizer": false,
+      "delta": "1/2",
+      "delta_new": "1/2",
+      "max_witness_probability_error": "0",
+      "reverse_probability_error": "0"
+    }
+  ]
+}

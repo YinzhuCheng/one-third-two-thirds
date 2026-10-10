@@ -1,0 +1,8 @@
+{"all_D_layer_checks": 3, "all_D_state_checks": 3, "cut_fibers": 2, "full_extensions": 1, "general_lemma_fibers": 1, "ideals": 1, "n": 0, "posets": 1}
+{"all_D_layer_checks": 8, "all_D_state_checks": 8, "cut_fibers": 4, "full_extensions": 1, "general_lemma_fibers": 2, "ideals": 2, "n": 1, "posets": 1}
+{"all_D_layer_checks": 27, "all_D_state_checks": 31, "cut_fibers": 14, "degree_one_states": 4, "full_extensions": 3, "general_lemma_fibers": 8, "ideals": 7, "n": 2, "posets": 2}
+{"all_D_layer_checks": 128, "all_D_state_checks": 178, "cut_fibers": 82, "degree_one_states": 10, "full_extensions": 20, "general_lemma_fibers": 60, "ideals": 40, "n": 3, "posets": 7}
+{"all_D_layer_checks": 935, "all_D_state_checks": 1620, "cut_fibers": 744, "degree_one_states": 25, "full_extensions": 260, "general_lemma_fibers": 811, "ideals": 357, "n": 4, "nonuniform_directions": 12, "posets": 40}
+{"all_D_layer_checks": 10200, "all_D_state_checks": 22248, "cut_fibers": 10092, "degree_one_states": 52, "full_extensions": 6105, "general_lemma_fibers": 19131, "ideals": 4824, "n": 5, "nonuniform_directions": 256, "posets": 357}
+{"all_D_layer_checks": 164682, "all_D_state_checks": 454564, "cut_fibers": 202570, "degree_one_states": 104, "full_extensions": 245877, "general_lemma_fibers": 764202, "ideals": 96428, "n": 6, "nonuniform_directions": 5740, "posets": 4824}
+PASS 19.934 {"all_D_layer_checks": 175983, "all_D_state_checks": 478652, "cut_fibers": 213508, "degree_one_states": 195, "full_extensions": 252267, "general_lemma_fibers": 784215, "ideals": 101659, "nonuniform_directions": 6008, "posets": 5232}

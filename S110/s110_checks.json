@@ -1,0 +1,150 @@
+{
+  "elapsed_seconds": 25.11,
+  "fiber_max_n": 6,
+  "max_n": 7,
+  "method": "All naturally labelled posets; exact ideal DP and independent direct permutations",
+  "passed": true,
+  "per_n": [
+    {
+      "degree_histogram": {
+        "0": 1
+      },
+      "exact_support_checks": 1,
+      "fiber_groups": 2,
+      "ideals": 1,
+      "looser_degree_ratio_checks": 0,
+      "n": 0,
+      "nonuniform_fiber_profiles": 0,
+      "normalized_checks": 6,
+      "permutation_extensions": 2,
+      "posets": 1,
+      "ratio_checks": 2
+    },
+    {
+      "degree_histogram": {
+        "0": 1
+      },
+      "exact_support_checks": 2,
+      "fiber_groups": 4,
+      "ideals": 2,
+      "looser_degree_ratio_checks": 4,
+      "n": 1,
+      "nonuniform_fiber_profiles": 0,
+      "normalized_checks": 12,
+      "permutation_extensions": 4,
+      "posets": 1,
+      "ratio_checks": 4
+    },
+    {
+      "degree_histogram": {
+        "0": 1,
+        "1": 1
+      },
+      "exact_support_checks": 6,
+      "fiber_groups": 14,
+      "ideals": 7,
+      "looser_degree_ratio_checks": 20,
+      "n": 2,
+      "nonuniform_fiber_profiles": 0,
+      "normalized_checks": 42,
+      "permutation_extensions": 16,
+      "posets": 2,
+      "ratio_checks": 14
+    },
+    {
+      "degree_histogram": {
+        "0": 1,
+        "1": 2,
+        "2": 4
+      },
+      "exact_support_checks": 28,
+      "fiber_groups": 82,
+      "ideals": 40,
+      "looser_degree_ratio_checks": 116,
+      "n": 3,
+      "nonuniform_fiber_profiles": 0,
+      "normalized_checks": 240,
+      "permutation_extensions": 120,
+      "posets": 7,
+      "ratio_checks": 80
+    },
+    {
+      "degree_histogram": {
+        "0": 1,
+        "1": 4,
+        "2": 16,
+        "3": 19
+      },
+      "exact_support_checks": 200,
+      "fiber_groups": 744,
+      "ideals": 357,
+      "looser_degree_ratio_checks": 1098,
+      "n": 4,
+      "nonuniform_fiber_profiles": 12,
+      "normalized_checks": 2142,
+      "permutation_extensions": 1622,
+      "posets": 40,
+      "ratio_checks": 714
+    },
+    {
+      "degree_histogram": {
+        "0": 1,
+        "1": 7,
+        "2": 44,
+        "3": 159,
+        "4": 146
+      },
+      "exact_support_checks": 2142,
+      "fiber_groups": 10092,
+      "ideals": 4824,
+      "looser_degree_ratio_checks": 15552,
+      "n": 5,
+      "nonuniform_fiber_profiles": 256,
+      "normalized_checks": 28944,
+      "permutation_extensions": 38262,
+      "posets": 357,
+      "ratio_checks": 9648
+    },
+    {
+      "degree_histogram": {
+        "0": 1,
+        "1": 12,
+        "2": 125,
+        "3": 773,
+        "4": 2256,
+        "5": 1657
+      },
+      "exact_support_checks": 33768,
+      "fiber_groups": 202570,
+      "ideals": 96428,
+      "looser_degree_ratio_checks": 330560,
+      "n": 6,
+      "nonuniform_fiber_profiles": 5740,
+      "normalized_checks": 578568,
+      "permutation_extensions": 1528404,
+      "posets": 4824,
+      "ratio_checks": 192856
+    },
+    {
+      "degree_histogram": {
+        "0": 1,
+        "1": 20,
+        "2": 359,
+        "3": 3189,
+        "4": 19054,
+        "5": 46343,
+        "6": 27462
+      },
+      "exact_support_checks": 771424,
+      "fiber_groups": 0,
+      "ideals": 2800472,
+      "looser_degree_ratio_checks": 10180856,
+      "n": 7,
+      "nonuniform_fiber_profiles": 0,
+      "normalized_checks": 16802832,
+      "permutation_extensions": 0,
+      "posets": 96428,
+      "ratio_checks": 5600944
+    }
+  ]
+}

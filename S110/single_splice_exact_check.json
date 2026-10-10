@@ -1,0 +1,511 @@
+{
+  "family": "P_n: i<j iff j-i>=2; incomparability graph is a path",
+  "parameters": {
+    "D": 2,
+    "R": 3,
+    "h": 5,
+    "K": 7,
+    "n": 40,
+    "a": 9,
+    "b": 26,
+    "L": 17,
+    "new_n": 23
+  },
+  "extension_counts": {
+    "old": 165580141,
+    "new": 46368
+  },
+  "profiles": {
+    "F_left": {
+      "(-1, 0)": "5/8",
+      "(-1, 1)": "3/8"
+    },
+    "F_right": {
+      "(-1, 0)": "17711/28657",
+      "(-1, 1)": "10946/28657"
+    },
+    "B_left": {
+      "(-1, 0)": "196418/317811",
+      "(-1, 1)": "121393/317811"
+    },
+    "B_right": {
+      "(-1, 0)": "55/89",
+      "(-1, 1)": "34/89"
+    }
+  },
+  "relative_errors": {
+    "F": "1597/85971",
+    "B": "1597/10803977",
+    "eta": "1597/85971",
+    "eta_float": 0.01857603145246653
+  },
+  "verified_new_incomparable_pairs": 22,
+  "max_probability_error": {
+    "kind": "surviving-right",
+    "new_pair": [
+      10,
+      11
+    ],
+    "actual_original_pair": [
+      27,
+      28
+    ],
+    "old_witness_pair": [
+      27,
+      28
+    ],
+    "old_reverse_probability": "45765394/165580141",
+    "new_reverse_probability": "12815/46368",
+    "absolute_error": "140282077/7677619977888",
+    "error_float": 1.8271557774938157e-05
+  },
+  "new_cross_seam_pair": {
+    "kind": "new-cross-seam",
+    "new_pair": [
+      9,
+      10
+    ],
+    "actual_original_pair": [
+      9,
+      27
+    ],
+    "old_witness_pair": [
+      9,
+      10
+    ],
+    "old_reverse_probability": "45773146/165580141",
+    "new_reverse_probability": "6409/23184",
+    "absolute_error": "1493195/3838809988944",
+    "error_float": 3.889734069413412e-07
+  },
+  "all_pairs": [
+    {
+      "kind": "surviving-left",
+      "new_pair": [
+        1,
+        2
+      ],
+      "actual_original_pair": [
+        1,
+        2
+      ],
+      "old_witness_pair": [
+        1,
+        2
+      ],
+      "old_reverse_probability": "63245986/165580141",
+      "new_reverse_probability": "17711/46368",
+      "absolute_error": "1597/7677619977888",
+      "error_float": 2.0800716948734822e-10
+    },
+    {
+      "kind": "surviving-left",
+      "new_pair": [
+        2,
+        3
+      ],
+      "actual_original_pair": [
+        2,
+        3
+      ],
+      "old_witness_pair": [
+        2,
+        3
+      ],
+      "old_reverse_probability": "39088169/165580141",
+      "new_reverse_probability": "5473/23184",
+      "absolute_error": "1597/3838809988944",
+      "error_float": 4.1601433897469644e-10
+    },
+    {
+      "kind": "surviving-left",
+      "new_pair": [
+        3,
+        4
+      ],
+      "actual_original_pair": [
+        3,
+        4
+      ],
+      "old_witness_pair": [
+        3,
+        4
+      ],
+      "old_reverse_probability": "48315634/165580141",
+      "new_reverse_probability": "2255/7728",
+      "absolute_error": "1597/1279603329648",
+      "error_float": 1.2480430169240894e-09
+    },
+    {
+      "kind": "surviving-left",
+      "new_pair": [
+        4,
+        5
+      ],
+      "actual_original_pair": [
+        4,
+        5
+      ],
+      "old_witness_pair": [
+        4,
+        5
+      ],
+      "old_reverse_probability": "44791056/165580141",
+      "new_reverse_probability": "4181/15456",
+      "absolute_error": "7985/2559206659296",
+      "error_float": 3.1201075423102233e-09
+    },
+    {
+      "kind": "surviving-left",
+      "new_pair": [
+        5,
+        6
+      ],
+      "actual_original_pair": [
+        5,
+        6
+      ],
+      "old_witness_pair": [
+        5,
+        6
+      ],
+      "old_reverse_probability": "46137325/165580141",
+      "new_reverse_probability": "1615/5796",
+      "absolute_error": "7985/959702497236",
+      "error_float": 8.32028677949393e-09
+    },
+    {
+      "kind": "surviving-left",
+      "new_pair": [
+        6,
+        7
+      ],
+      "actual_original_pair": [
+        6,
+        7
+      ],
+      "old_witness_pair": [
+        6,
+        7
+      ],
+      "old_reverse_probability": "45623096/165580141",
+      "new_reverse_probability": "1597/5796",
+      "absolute_error": "20761/959702497236",
+      "error_float": 2.1632745626684215e-08
+    },
+    {
+      "kind": "surviving-left",
+      "new_pair": [
+        7,
+        8
+      ],
+      "actual_original_pair": [
+        7,
+        8
+      ],
+      "old_witness_pair": [
+        7,
+        8
+      ],
+      "old_reverse_probability": "45819514/165580141",
+      "new_reverse_probability": "611/2208",
+      "absolute_error": "20761/365600951328",
+      "error_float": 5.678595727004607e-08
+    },
+    {
+      "kind": "surviving-left",
+      "new_pair": [
+        8,
+        9
+      ],
+      "actual_original_pair": [
+        8,
+        9
+      ],
+      "old_witness_pair": [
+        8,
+        9
+      ],
+      "old_reverse_probability": "45744489/165580141",
+      "new_reverse_probability": "305/1104",
+      "absolute_error": "27149/182800475664",
+      "error_float": 1.4851711901396663e-07
+    },
+    {
+      "kind": "new-cross-seam",
+      "new_pair": [
+        9,
+        10
+      ],
+      "actual_original_pair": [
+        9,
+        27
+      ],
+      "old_witness_pair": [
+        9,
+        10
+      ],
+      "old_reverse_probability": "45773146/165580141",
+      "new_reverse_probability": "6409/23184",
+      "absolute_error": "1493195/3838809988944",
+      "error_float": 3.889734069413412e-07
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        10,
+        11
+      ],
+      "actual_original_pair": [
+        27,
+        28
+      ],
+      "old_witness_pair": [
+        27,
+        28
+      ],
+      "old_reverse_probability": "45765394/165580141",
+      "new_reverse_probability": "12815/46368",
+      "absolute_error": "140282077/7677619977888",
+      "error_float": 1.8271557774938157e-05
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        11,
+        12
+      ],
+      "actual_original_pair": [
+        28,
+        29
+      ],
+      "old_witness_pair": [
+        28,
+        29
+      ],
+      "old_reverse_probability": "45764784/165580141",
+      "new_reverse_probability": "89/322",
+      "absolute_error": "372101/53316805402",
+      "error_float": 6.979056550639508e-06
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        12,
+        13
+      ],
+      "actual_original_pair": [
+        29,
+        30
+      ],
+      "old_witness_pair": [
+        29,
+        30
+      ],
+      "old_reverse_probability": "45766381/165580141",
+      "new_reverse_probability": "89/322",
+      "absolute_error": "142133/53316805402",
+      "error_float": 2.665819884149855e-06
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        13,
+        14
+      ],
+      "actual_original_pair": [
+        30,
+        31
+      ],
+      "old_witness_pair": [
+        30,
+        31
+      ],
+      "old_reverse_probability": "45762200/165580141",
+      "new_reverse_probability": "12815/46368",
+      "absolute_error": "7817315/7677619977888",
+      "error_float": 1.0181950946405696e-06
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        14,
+        15
+      ],
+      "actual_original_pair": [
+        31,
+        32
+      ],
+      "old_witness_pair": [
+        31,
+        32
+      ],
+      "old_reverse_probability": "45773146/165580141",
+      "new_reverse_probability": "6409/23184",
+      "absolute_error": "1493195/3838809988944",
+      "error_float": 3.889734069413412e-07
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        15,
+        16
+      ],
+      "actual_original_pair": [
+        32,
+        33
+      ],
+      "old_witness_pair": [
+        32,
+        33
+      ],
+      "old_reverse_probability": "45744489/165580141",
+      "new_reverse_probability": "305/1104",
+      "absolute_error": "27149/182800475664",
+      "error_float": 1.4851711901396663e-07
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        16,
+        17
+      ],
+      "actual_original_pair": [
+        33,
+        34
+      ],
+      "old_witness_pair": [
+        33,
+        34
+      ],
+      "old_reverse_probability": "45819514/165580141",
+      "new_reverse_probability": "611/2208",
+      "absolute_error": "20761/365600951328",
+      "error_float": 5.678595727004607e-08
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        17,
+        18
+      ],
+      "actual_original_pair": [
+        34,
+        35
+      ],
+      "old_witness_pair": [
+        34,
+        35
+      ],
+      "old_reverse_probability": "45623096/165580141",
+      "new_reverse_probability": "1597/5796",
+      "absolute_error": "20761/959702497236",
+      "error_float": 2.1632745626684215e-08
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        18,
+        19
+      ],
+      "actual_original_pair": [
+        35,
+        36
+      ],
+      "old_witness_pair": [
+        35,
+        36
+      ],
+      "old_reverse_probability": "46137325/165580141",
+      "new_reverse_probability": "1615/5796",
+      "absolute_error": "7985/959702497236",
+      "error_float": 8.32028677949393e-09
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        19,
+        20
+      ],
+      "actual_original_pair": [
+        36,
+        37
+      ],
+      "old_witness_pair": [
+        36,
+        37
+      ],
+      "old_reverse_probability": "44791056/165580141",
+      "new_reverse_probability": "4181/15456",
+      "absolute_error": "7985/2559206659296",
+      "error_float": 3.1201075423102233e-09
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        20,
+        21
+      ],
+      "actual_original_pair": [
+        37,
+        38
+      ],
+      "old_witness_pair": [
+        37,
+        38
+      ],
+      "old_reverse_probability": "48315634/165580141",
+      "new_reverse_probability": "2255/7728",
+      "absolute_error": "1597/1279603329648",
+      "error_float": 1.2480430169240894e-09
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        21,
+        22
+      ],
+      "actual_original_pair": [
+        38,
+        39
+      ],
+      "old_witness_pair": [
+        38,
+        39
+      ],
+      "old_reverse_probability": "39088169/165580141",
+      "new_reverse_probability": "5473/23184",
+      "absolute_error": "1597/3838809988944",
+      "error_float": 4.1601433897469644e-10
+    },
+    {
+      "kind": "surviving-right",
+      "new_pair": [
+        22,
+        23
+      ],
+      "actual_original_pair": [
+        39,
+        40
+      ],
+      "old_witness_pair": [
+        39,
+        40
+      ],
+      "old_reverse_probability": "63245986/165580141",
+      "new_reverse_probability": "17711/46368",
+      "absolute_error": "1597/7677619977888",
+      "error_float": 2.0800716948734822e-10
+    }
+  ],
+  "checks": [
+    "original and spliced words are valid actual posets",
+    "matched complete relation buffers",
+    "nonidentical normalized forward and backward profiles",
+    "exact DP extension counts",
+    "exact DP profiles at both protected cuts",
+    "all pair probabilities independently checked against Fibonacci formulas",
+    "all retained same-side pair bounds",
+    "new cross-seam actual identity and original witness distinction"
+  ]
+}

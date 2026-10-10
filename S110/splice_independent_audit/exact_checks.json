@@ -1,0 +1,348 @@
+{
+  "method": "Full ideal-mask path count with exact integers/Fractions; no imported transition matrices, no uniform deletion assumptions. Pair events counted when first endpoint is emitted while second absent.",
+  "positive_cases": [
+    {
+      "n": 29,
+      "incomparable_gaps": [
+        1
+      ],
+      "D": 2,
+      "a": 7,
+      "b": 22,
+      "L": 15,
+      "R": 3,
+      "h": 5,
+      "K": 7,
+      "new_n": 14,
+      "new_D": 2,
+      "extension_count_old": "832040",
+      "extension_count_new": "610",
+      "forward_relative_error": {
+        "exact": "610/4181",
+        "decimal": 0.1458981104998804
+      },
+      "backward_relative_error": {
+        "exact": "610/4791",
+        "decimal": 0.12732206219995826
+      },
+      "eta": {
+        "exact": "610/4181",
+        "decimal": 0.1458981104998804
+      },
+      "ideal_count_old": 58,
+      "ideal_count_new": 28,
+      "same_side_left_pairs": 6,
+      "same_side_right_pairs": 6,
+      "new_cross_seam_pairs": 1,
+      "maximum_probability_error": {
+        "exact": "273/832040",
+        "decimal": 0.00032810922551800394
+      },
+      "maximizing_witness": {
+        "new_pair": [
+          7,
+          8
+        ],
+        "original_witness": [
+          7,
+          8
+        ],
+        "original_probability": {
+          "exact": "601797/832040",
+          "decimal": 0.7232789288976491
+        },
+        "new_probability": {
+          "exact": "441/610",
+          "decimal": 0.7229508196721312
+        }
+      },
+      "all_exact_inequalities_pass": true
+    },
+    {
+      "n": 61,
+      "incomparable_gaps": [
+        1
+      ],
+      "D": 2,
+      "a": 14,
+      "b": 40,
+      "L": 26,
+      "R": 3,
+      "h": 5,
+      "K": 7,
+      "new_n": 35,
+      "new_D": 2,
+      "extension_count_old": "4052739537881",
+      "extension_count_new": "14930352",
+      "forward_relative_error": {
+        "exact": "121393/821365778",
+        "decimal": 0.00014779408060509674
+      },
+      "backward_relative_error": {
+        "exact": "121393/692290540864",
+        "decimal": 1.7534978861403736e-07
+      },
+      "eta": {
+        "exact": "121393/821365778",
+        "decimal": 0.00014779408060509674
+      },
+      "ideal_count_old": 122,
+      "ideal_count_new": 70,
+      "same_side_left_pairs": 13,
+      "same_side_right_pairs": 20,
+      "new_cross_seam_pairs": 1,
+      "maximum_probability_error": {
+        "exact": "1498185669695/10084804644146777352",
+        "decimal": 1.4855872003078882e-07
+      },
+      "maximizing_witness": {
+        "new_pair": [
+          15,
+          16
+        ],
+        "original_witness": [
+          41,
+          42
+        ],
+        "original_probability": {
+          "exact": "2932589884016/4052739537881",
+          "decimal": 0.7236067989578533
+        },
+        "new_probability": {
+          "exact": "1800617/2488392",
+          "decimal": 0.7236066503991333
+        }
+      },
+      "all_exact_inequalities_pass": true
+    },
+    {
+      "n": 121,
+      "incomparable_gaps": [
+        1,
+        2
+      ],
+      "D": 4,
+      "a": 32,
+      "b": 80,
+      "L": 48,
+      "R": 7,
+      "h": 11,
+      "K": 15,
+      "new_n": 73,
+      "new_D": 4,
+      "extension_count_old": "56473935554959973183000319023599796190401",
+      "extension_count_new": "2975781566289266382333066",
+      "forward_relative_error": {
+        "exact": "194935947396524230565701/159094280545845715855634262303",
+        "decimal": 1.2252857030919482e-06
+      },
+      "backward_relative_error": {
+        "exact": "2094825702595954872646558799/312925727660266090947690066595932495",
+        "decimal": 6.694322382051767e-09
+      },
+      "eta": {
+        "exact": "194935947396524230565701/159094280545845715855634262303",
+        "decimal": 1.2252857030919482e-06
+      },
+      "ideal_count_old": 480,
+      "ideal_count_new": 288,
+      "same_side_left_pairs": 61,
+      "same_side_right_pairs": 79,
+      "new_cross_seam_pairs": 3,
+      "maximum_probability_error": {
+        "exact": "8041403189791153162012886080547742780030593070920696480/84027048200128939549960337669779608540861995931907485058567049733",
+        "decimal": 9.570017467040825e-11
+      },
+      "maximizing_witness": {
+        "new_pair": [
+          34,
+          35
+        ],
+        "original_witness": [
+          82,
+          83
+        ],
+        "original_probability": {
+          "exact": "37688688417604149655223257541109855039681/56473935554959973183000319023599796190401",
+          "decimal": 0.6673642990743195
+        },
+        "new_probability": {
+          "exact": "992965189450066944912293/1487890783144633191166533",
+          "decimal": 0.6673642989786193
+        }
+      },
+      "all_exact_inequalities_pass": true
+    },
+    {
+      "n": 121,
+      "incomparable_gaps": [
+        1,
+        3
+      ],
+      "D": 4,
+      "a": 32,
+      "b": 80,
+      "L": 48,
+      "R": 7,
+      "h": 11,
+      "K": 15,
+      "new_n": 73,
+      "new_D": 4,
+      "extension_count_old": "4779917206433275513363614172524",
+      "extension_count_new": "2534608696798238087",
+      "forward_relative_error": {
+        "exact": "10132388657245068461/30636645313617871732960",
+        "decimal": 0.0003307277462503788
+      },
+      "backward_relative_error": {
+        "exact": "246577111994637817627/20490817239708666320347584",
+        "decimal": 1.2033542103767434e-05
+      },
+      "eta": {
+        "exact": "10132388657245068461/30636645313617871732960",
+        "decimal": 0.0003307277462503788
+      },
+      "ideal_count_old": 360,
+      "ideal_count_new": 216,
+      "same_side_left_pairs": 60,
+      "same_side_right_pairs": 78,
+      "new_cross_seam_pairs": 4,
+      "maximum_probability_error": {
+        "exact": "2072880569332252629539353860254989898480309/2019203286900219871136160438433248163530940953598",
+        "decimal": 1.0265833969171253e-06
+      },
+      "maximizing_witness": {
+        "new_pair": [
+          33,
+          34
+        ],
+        "original_witness": [
+          81,
+          82
+        ],
+        "original_probability": {
+          "exact": "518388699066739651816550203483/796652867738879252227269028754",
+          "decimal": 0.6507083826084376
+        },
+        "new_probability": {
+          "exact": "1649288523651655428/2534608696798238087",
+          "decimal": 0.6507073560250407
+        }
+      },
+      "all_exact_inequalities_pass": true
+    },
+    {
+      "n": 181,
+      "incomparable_gaps": [
+        1,
+        2,
+        3
+      ],
+      "D": 6,
+      "a": 50,
+      "b": 110,
+      "L": 60,
+      "R": 11,
+      "h": 17,
+      "K": 23,
+      "new_n": 121,
+      "new_D": 6,
+      "extension_count_old": "1788563877293064836463267883658781947712693471834278843071386126935980239193120",
+      "extension_count_new": "14876213678180773454764558801925076221277384654745692",
+      "forward_relative_error": {
+        "exact": "27548129462984685295936001578956220647173957941/82433375952666550230091247903270023582543281035397805",
+        "decimal": 3.341865978994102e-07
+      },
+      "backward_relative_error": {
+        "exact": "2008574259848980225537798183008609566400084704789430408690172/149446079940261398622288479783121641200738052194444305176144021966030955",
+        "decimal": 1.3440126771153011e-11
+      },
+      "eta": {
+        "exact": "27548129462984685295936001578956220647173957941/82433375952666550230091247903270023582543281035397805",
+        "decimal": 3.341865978994102e-07
+      },
+      "ideal_count_old": 1432,
+      "ideal_count_new": 952,
+      "same_side_left_pairs": 144,
+      "same_side_right_pairs": 207,
+      "new_cross_seam_pairs": 6,
+      "maximum_probability_error": {
+        "exact": "2138115824919082756006310924537577706952798250148475394166616778128614452622282122193923399195791850414822304626612361/207867643872555700046102035870202730194847133482282963846476950426678157158589607464715369101838685472036660635672545366444344055",
+        "decimal": 1.028594823651327e-11
+      },
+      "maximizing_witness": {
+        "new_pair": [
+          51,
+          52
+        ],
+        "original_witness": [
+          111,
+          112
+        ],
+        "original_probability": {
+          "exact": "35499206680775502333387010116479540046411414917654027945712853253591356031817/55892621165408276139477121364336935866021670994821213845980816466749382474785",
+          "decimal": 0.635132257900723
+        },
+        "new_probability": {
+          "exact": "2362090795570889814200310720541161734585271425515078/3719053419545193363691139700481269055319346163686423",
+          "decimal": 0.6351322578904371
+        }
+      },
+      "all_exact_inequalities_pass": true
+    }
+  ],
+  "overlapping_cut_negative_control": {
+    "n": 101,
+    "incomparable_gaps": [
+      1,
+      3
+    ],
+    "D": 4,
+    "a": 50,
+    "b": 51,
+    "L": 1,
+    "R": 7,
+    "h": 11,
+    "K": 15,
+    "new_n": 100,
+    "new_D": 4,
+    "extension_count_old": "36696510480113363113711279",
+    "extension_count_new": "20365026910168353685042842",
+    "forward_relative_error": {
+      "exact": "3880519595145/5236171458247602613",
+      "decimal": 7.41098649287489e-07
+    },
+    "backward_relative_error": {
+      "exact": "3880519595145/5236175338767197758",
+      "decimal": 7.410981000606881e-07
+    },
+    "eta": {
+      "exact": "3880519595145/5236171458247602613",
+      "decimal": 7.41098649287489e-07
+    },
+    "ideal_count_old": 300,
+    "ideal_count_new": 297,
+    "preserved_identity_pair": [
+      49,
+      52
+    ],
+    "new_labels": [
+      49,
+      51
+    ],
+    "old_probability": {
+      "exact": "32748907489668290491508999/36696510480113363113711279",
+      "decimal": 0.8924256574045545
+    },
+    "new_probability": {
+      "exact": "1",
+      "decimal": 1.0
+    },
+    "error": {
+      "exact": "3947602990445072622202280/36696510480113363113711279",
+      "decimal": 0.10757434259544554
+    },
+    "error_exceeds_eta": true,
+    "classification": "negative control: fails cut separation; not a counterexample to stated theorem"
+  }
+}

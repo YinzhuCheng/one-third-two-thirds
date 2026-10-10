@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "date": "2026-10-10",
+  "sha256": {
+    "../local_probability_decay.md": "7eaf6b449270286010b98b2e0725b8fbaec21bbe641dcd0e270fcc4a4628c14b",
+    "check_local_decay.py": "97a990dcb2e8f2035072a39451eb9831e49fa28c15d2c9848d4d50c05d5f0a75",
+    "exact_checks.json": "baa3a84f5d0c5ab328d5be407a14fa683ac4710504ca03f9348710c019ec1f54",
+    "exact_checks.log": "57e16d7faff95cebbfc1254e83af54be6822b01985ba3bf4088e430a9e3a7701",
+    "independent_audit.md": "9d1806231cfc43a8dfcd9d179c2d4145265864b24783703e648b390e1482d858"
+  },
+  "input_sha256": {
+    "bounded_cut_profiles.md": "06cb5f863b4055a5779160a7a07bf18908f089f7a54de872d6cd4f1e067acd31",
+    "bounded_cut_profiles_independent_audit.md": "93b662051614fae0c42d4567783544f9c111038cfcfe6db01639bb643864abbb",
+    "single_splice_stability.md": "d537434e9bfc71e6c94cad9148e78e37b8075d40239face596fef96308737a22"
+  }
+}
