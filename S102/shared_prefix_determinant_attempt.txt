@@ -1,0 +1,152 @@
+PUBLICATION REVIEW STATUS (S102): an independent research review supports the exact counting interfaces and energy-minus-variance reduction, conditional on the expressly cited Stanley and Chan--Pak theorem inputs. See shared_prefix_determinant_audit.txt. This is not formal verification, external certification, or a full re-proof of those external inputs. The candidate dU <= p^2 / H^2 >= Ru Ry and compensation for actual backend directions remain OPEN.
+
+Shared-downset determinant: a log-concave prefix interface, an exact energy reduction, and a failed scalar closure
+2026-10-10. Status: OPEN. No counterexample to U <= p^2 is claimed.
+
+Sources checked read-only:
+- YinzhuCheng/one-third-two-thirds, commit fc7999aa4cdcb8ef2fcb8bb44a51560ec0b78764:
+  S98/notes/PROOF.md, especially sections 2--5;
+  S98/REPORT.md; S99/REPORT.md; S99/LITERATURE.md.
+- Chan--Pak, https://arxiv.org/html/2211.16637v2#S6.SS1, Proposition 6.1 and matrix definitions.
+- Stanley rank log-concavity as stated in that paper, Theorem 1.3.
+- Earlier local artifact weighted_square_interfaces.txt supplies the already checked insertion-fiber identities and the conditioning normalization.
+The external inputs used below are rank log-concavity and the one-positive-direction property of the correct first-two-step matrix. The remaining reductions are derived here. No claim of originality or comprehensive literature search.
+
+1. Scope and the exact target
+
+Let Q be a finite poset, u || y, with identical strict downsets D. All counts use complete uniform linear extensions of Q, never the unweighted deletion projection. Let U be the probability that some strict successor of u occurs before y, and p=Pr(u<y).
+The checked fiber decomposition gives W=[[Ru,H],[H,Ry]], E=e(Q)=2H+Ru+Ry, p=(H+Ru)/E, U=Ru/E. Thus
+  p^2-U=(H^2-Ru Ry)/E^2.
+The target is H^2 >= Ru Ry.
+
+For the remainder assume that
+  N=Q \ (D union upward(u) union upward(y))
+is a chain n1<...<nR, with upward sets including their generators. This assumption holds whenever width(Q)<=3: each point of N is incomparable with both u and y, so two incomparable points of N would form a four-point antichain with u,y. This reduction allows D and the entire successor backend to be arbitrary, subject to Q being a poset.
+
+No point of N can lie below a point of D, because then it would be below u and belong to D. No point above u or y can precede a point of N, because then that N-point would belong to upward(u) or upward(y). Consequently D union N_j is an ideal for every N_j={n1,...,nj}.
+
+2. Real prefix counts and the additional log-concavity
+
+Define
+  a_j=e(Q[D union N_j]), 0<=j<=R,
+  a_{-1}=0,
+  c_j=a_j-a_{j-1},
+  f_j=sum_{i=0}^j a_i=sum_{i=0}^j (j-i+1)c_i.
+For D empty, interpret a_j=1, c_0=1, c_j=0 for j>0.
+For D nonempty, c_j counts the ordered prefixes on D union N_j whose last entry belongs to D. Indeed, the prefixes ending in N_j are in bijection with all extensions of D union N_{j-1}, by appending N_j. All other prefixes end in D. These are exactly the prefixes at the instant the last member of D has appeared, with precisely j members of N already consumed.
+In particular, c_j>=0. These counts depend only on the induced subposet D union N, not on how later successors are ordered. The choice of N itself, of course, is determined by Q.
+
+There is also a rigorous rank realization of a_j. Form K from Q[D union N] by adjoining a new marker z above every element of D and incomparable with every element of N. In a linear extension with z at rank |D|+j+1, the prefix is precisely a linear extension of D union N_j, and the suffix is the unique order on the remaining chain N. Therefore
+  #{L in LE(K): rank_L(z)=|D|+j+1}=a_j.
+Stanley's rank inequality yields
+  a_j^2 >= a_{j-1}a_{j+1}  (1<=j<R).
+Thus the prefix weights are not arbitrary: a_j is nondecreasing and log-concave. This does NOT assert log-concavity of its differences c_j, and no such assertion is needed for the valid reductions here.
+
+3. Correct backend matrices and the exact weighted sum
+
+Put Q_j=Q-(D union N_j), E_j=e(Q_j), and C_j=(e(Q_j-u),e(Q_j-y))^T. In Q_j the points u,y are minimal, and its avoid-entry set is exactly the suffix chain N\N_j. Use the S98 matrix
+  (V_j)_{uy}=(V_j)_{yu}=e(Q_j-u-y),
+  (V_j)_{zz}=sum_{v in min(Q_j-z), z<v} e(Q_j-z-v), z in {u,y}.
+These are actual release counts; the diagonal is not a fictitious repeated deletion.
+Set E_{R+1}=E_{R+2}=0, C_{R+1}=0. The real first-two-step matrix implies that
+  M_j = [[V_j, C_j, C_{j+1}],
+         [C_j^T, E_j, E_{j+1}],
+         [C_{j+1}^T, E_{j+1}, E_{j+2}]]
+has at most one positive eigenvalue, for j=0,...,R. Also
+  V_j 1=C_j-C_{j+1}.
+
+Conditional on one of the c_i specified ordered prefixes completing D at N_i, the remaining extension is uniform on Q_i. S98 gives its full shared/private matrix as
+  W_i=sum_{j=i}^R (j-i+1)V_j.
+Hence the ORIGINAL Q has
+  W=sum_{i=0}^R c_i W_i=sum_{j=0}^R f_j V_j.                 (A)
+Moreover
+  s=W1=sum_{j=0}^R a_j C_j,
+  E=1^T W1=sum_{i=0}^R c_i E_i.                            (B)
+The u-coordinate of s counts extensions with u<y. It also follows directly by choosing j neutral points before the first of u,y: the prefix contributes a_j, followed by the chosen entry and its C_j completion count.
+
+Equation (A) is a new, exact interface for the shared-downset problem under the neutral-chain assumption. It does not prove one-positive-direction preservation: the coefficients f_j differ from the linear coefficients j+1 in S98, and a positive sum of hyperbolic matrices is not generally hyperbolic.
+
+4. Weighted S98 elimination and its remaining quadratic gap
+
+Let h be any real two-vector with h^T s=0. Write x_j=h^T C_j and define
+  g_j=-(sum_{l=j}^R x_l)/E_j for 0<=j<=R,
+  g_{R+1}=g_{R+2}=0,
+  A_j=E_j g_j^2.
+Then
+  x_j=E_{j+1}g_{j+1}-E_jg_j,
+  sum_{j=0}^R c_j E_j g_j=0.                               (C)
+The second identity follows by summation by parts from h^Ts=sum a_j x_j=0. Notice that g_0 need not be zero. Setting g_0=0 would silently revert to a different orthogonality constraint.
+
+The local S98 calculation, with no use of g_0=0, gives
+  -h^T V_j h >= 2A_{j+1}-A_j-A_{j+2}
+                  +E_j(g_j-g_{j+1})^2,                    (D)
+for 0<=j<R. For j=R the available endpoint bound is
+  -h^T V_R h >= -A_R.
+For j<=R-2, (D) is exactly the reverse-projection version of S98's local inequality. There is a harmless isotropic endpoint extension at j=R-1, explained below; it is not obtained by dividing by E_{R+1}=0.
+
+Multiply (D) by f_j and sum, including the last endpoint. Since
+  f_j-2f_{j-1}+f_{j-2}=c_j,  f_{-1}=f_{-2}=0,
+one obtains the rigorous bound
+  -h^T W h >=
+    sum_{j=0}^{R-1} f_j E_j(g_j-g_{j+1})^2
+      -sum_{j=0}^R c_j E_j g_j^2.                         (E)
+
+Isotropic endpoint detail: use v=(h,g_R,-g_R) in M_{R-1} and b equal to its final coordinate. Then b^T M b=0, M b=(C_R,E_R,0)^T is nonzero, and v^T M b=x_R+E_R g_R=0. Take the previous scalar coordinate a, so a^T M a=E_{R-1}>0 and a^T M b=E_R>0. Applying the one-positive-direction inequality to b+epsilon a gives
+  v^T M v <= epsilon^2(v^T M a)^2/(2epsilon E_R+epsilon^2 E_{R-1}).
+Let epsilon decrease to zero. Thus v^T M v<=0, and the same expansion as for the positive reverse-projection case gives (D). No inverse zero denominator is used.
+
+For h=(1-p,-p), let q_j=Pr_{Q_j}(u<y). The definitions give g_j=p-q_j. Also
+  -h^TWh/E=p^2-U.
+Consequently (E) becomes
+  p^2-U >= (1/E)sum_{j=0}^{R-1} f_j E_j(q_j-q_{j+1})^2
+                -(1/E)sum_{j=0}^R c_j E_j(q_j-p)^2.        (F)
+The weights c_j E_j/E are precisely the true completion-prefix probabilities. The last term is their direction variance. Equation (F) makes explicit what the weighted energy would need to compensate; it does not assert that compensation occurs.
+
+5. A precise failure of a tempting scalar closure
+
+A sufficient next lemma would have been the following weighted Poincare statement for EVERY vector g satisfying (C):
+  sum c_j E_j g_j^2 <= sum f_j E_j(g_j-g_{j+1})^2.           (G)
+Even with real poset weights and log-concave a_j, (G) is false.
+
+Take Q consisting of D={d}, u,y with d<u and d<y, and an independent eight-point chain N. There are no other relations. Its width is 3. Here R=8 and, for j=0,...,8,
+  a_j=j+1, c_j=1, f_j=(j+1)(j+2)/2,
+  E_j=(10-j)(9-j).
+The a_j are exactly the genuine prefix counts and are log-concave. Set
+  mu=(sum_{j=0}^8 E_j/(j+1))/(sum_{j=0}^8 E_j),
+  g_j=1/(j+1)-mu.
+Then sum c_j E_jg_j=0, but exact rational arithmetic gives
+  sum c_j E_jg_j^2 = 359035429/10478160,
+  sum_{j=0}^7 f_j E_j(g_j-g_{j+1})^2 = 27527/840,
+  difference = 15663631/10478160 > 0.
+The script shared_prefix_determinant_check.py reproduces these numbers.
+
+THIS IS NOT A COUNTEREXAMPLE TO THE TARGET. In this symmetric Q, q_j=1/2 for every j, and the genuine direction vector h forces g_j=0. The counterexample vector above cannot arise from the C_j and h of that Q. Its purpose is to locate the missing interface sharply: a proof cannot discard the correlation between C_j and E_j and use only the scalar realizability/log-concavity of the prefix weights plus a universal mean-zero Poincare claim.
+
+6. What is established, and what remains
+
+Established:
+- The common-downset, width<=3 problem has a single neutral-chain spine.
+- Its true prefix multiplicities a_j are rank counts, hence log-concave.
+- Its exact original-law release matrix is W=sum f_j V_j with f_j=sum_{i<=j}a_i.
+- The S98 shared-block argument gives the valid energy-minus-variance lower bound (E)/(F), including a rigorously handled isotropic endpoint.
+- A natural scalar sufficient closure (G) is false on weights from an explicit width-3 poset.
+
+Not established:
+- H^2 >= Ru Ry, even under width<=3 and shared D.
+- A realizable counterexample to that determinant inequality.
+- A proof that log-concavity of a_j plus the full backend CP blocks suffices.
+
+The remaining usable target is a constrained inequality for the ACTUAL sequence g_j=-(sum_{l>=j}h^TC_l)/E_j, with the C_j and E_j from one backend and h^T sum a_jC_j=0. Alternatively, a stronger matrix gluing argument must retain information lost by the scalar projection in (E). This work does not solve MAIN33, WIDTH3, MC3, or the S99 normalized square candidate.
+
+7. Independent finite calibration (not a proof)
+
+The same script also enumerates every permutation of the asymmetric seven-point poset
+  d<u, d<y, u<s, y<t, n1<n2, n1<s, n2<t
+and its transitive closure. With D={d}, N=(n1,n2), it finds
+  a=(1,2,3), c=(1,1,1), f=(1,3,6),
+  (E_0,E_1,E_2)=(40,20,6),
+  E=66, W=[[12,24],[24,6]].
+The direct release-event counts agree exactly with sum f_j V_j. Furthermore
+  p=6/11, U=2/11, p^2-U=14/121,
+while the energy-minus-variance right side in (F) is 1/484.
+This checks the nontrivial index conventions and original-law weighting on one asymmetric instance. It does not establish the missing universal sign.

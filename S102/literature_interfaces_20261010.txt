@@ -1,0 +1,40 @@
+外部研究接口核对
+核对日期 2026-10-10
+
+状态边界
+下列原始来源仍将一般有限偏序1/3–2/3猜想作为开放问题。本次没有核实到一般宽度三的完整解决。预印本中的定理陈述、局部证明核查、全证独立审查和计算档案复跑是不同等级；以下不声称已完成所有长证明与穷举档案审查。
+
+一 Aires Chan Pak Panova
+Breaking the Infinite Barrier in the 1/3–2/3 Conjecture
+https://arxiv.org/html/2609.30888v1
+2026-09-25，核对版本v1，没有核实到v4。
+Theorem 1.2主张所有有限非链的平衡常数至少(5−√5)/10+ε，ε为绝对正数，仍小于1/3。
+Lemma 4.1按平均秩排序并用最大平均秩位移选BFT三元组，提供真实全局选点条件。
+Lemma 3.1在最大不可比度π≤D时，把涉及m个标签的非零可行比较事件概率下界为(D+1)^(−m(D+1))。
+禁止误用：Lemma 3.2的局部刚性和随后共同左右块分解，要求接近BFT常数的强反设δ≤C_BFT+η_D；仅δ<1/3不足。不能把其块分解或改进量无条件搬入WIDTH3研究。
+
+二 Aires
+Proof of the Kahn Saks Conjecture
+https://arxiv.org/html/2609.30895v1
+2026-09-25，核对版本v1。
+Theorem 1主张宽度趋无穷时δ趋1/2；Theorem 3进一步主张最大不可比度π趋无穷时δ趋1/2。
+条件推论：接受该预印本及其输入后，存在绝对D*使任何1/3–2/3反例必须π≤D*。这不是点数上界，也不是有限穷举完成。该长证明本次未全部独立审查。
+
+三 Aires Kahn
+https://arxiv.org/html/2510.26134v1
+固定宽度且不可比度增长的渐近结论已经提供于这篇较早论文，不应当作2026年9月才有的新结论。
+第2节Theorem 2.6利用两次条件XYZ将所有边界夹层比较合成为同一联合事件，适合处理真实原律兼容性。
+HTML附近两个符号应按证明解读：A=max(D)，固定秩为|D|+1，而非max(C)或|A|+1。使用前须按完整事件复核，不能照抄排字。
+本轮rank_atom_compatibility.txt及其独立审查给出了有效前沿删去自动比较后的应用；不是将各点切口概率相乘。
+
+四 Gupta及公开计算材料
+Balance Constants, Majority Cycles, and the Gold Partition Conjecture through Fourteen Elements
+https://arxiv.org/html/2607.23926v2
+版本v2为2026-07-30，v1为2026-07-27。
+报告全部n≤14的Gold Partition验证，因此报告这一范围内的1/3–2/3结论；本次没有复跑全部档案。论文第7节明确：n>9没有独立逐偏序第二实现检查，汇总/分片校验不能等同于每个分类决定都独立认证。
+作者仓库 https://github.com/agupta/gold-partition-conjecture
+图谱说明 https://github.com/agupta/gold-partition-conjecture/blob/main/data/poset-atlas-README.md
+Release 2.1提供n≤7共2450个同构类的完整图谱，含精确点对计数、规范ID、序和分解与证书分类，适合校准小反例及候选规则。十四点材料不是全部偏序的逐项完整数据库。没有核实到十五点完整结果。
+
+方法结论
+优先借用全局极值选择、原律联合XYZ、真实完成数和有界不可比度归约。不要把有限度、有限前沿类型或有限样本误写成有限点数核。任何新外部结果必须核对精确量词、版本及其对当前方法的真正影响。

@@ -1,0 +1,66 @@
+Independent audit of shared_prefix_determinant_attempt.txt
+2026-10-10. Research review, not formal verification or external certification.
+
+VERDICT
+The draft's exact counting interfaces, prefix log-concavity, and energy-minus-variance bounds (E)/(F) are mathematically supported, conditional on the two expressly cited external results (Stanley's rank log-concavity and Chan--Pak Proposition 6.1). I found no sign/index/endpoint error in these reductions. The scalar counterexample correctly refutes (G) only. The determinant target H^2 >= Ru Ry remains OPEN. These conclusions do not establish MAIN33, WIDTH3, MC3, or the S99 normalized square candidate.
+
+Reviewed research draft SHA-256 (before the S102 publication-status preface):
+97796d9239621cb1f46a318afd41b6ec52f08f6cc2297ce8ab83d92e5ae4a029
+Reviewed script SHA-256:
+743b30cd5bd5d17d4cd3bf14bef0d37bbcc4936040c184b9794ac2449dafd30a
+
+Sources actually read:
+- Both same-directory files above and weighted_square_interfaces.txt.
+- S98/notes/PROOF.md at fc7999aa4cdcb8ef2fcb8bb44a51560ec0b78764, fetched from the repository; blob 97322f8d0a961c30a398abaae023ed5de8a9267a.
+  https://github.com/YinzhuCheng/one-third-two-thirds/blob/fc7999aa4cdcb8ef2fcb8bb44a51560ec0b78764/S98/notes/PROOF.md
+- Chan--Pak arXiv:2211.16637v2, Theorem 1.3, section 6.1 matrix definitions, Proposition 6.1 and (6.1):
+  https://arxiv.org/html/2211.16637v2
+The last source provides the two external theorem inputs. Its complete atlas proof was not re-proved in this audit. The audit does not rely on the repository's claim that its finite tests passed.
+
+1. Neutral chain and ideals
+Every n in N lies neither above u or y nor strictly below either: a strict predecessor would belong to their common strict downset D. Thus n is incomparable with both. Two incomparable N-points together with u,y would be a four-element antichain. The width<=3 implication is valid.
+D is an ideal. No N-point can precede a D-point, and no point of either upward set can precede an N-point. Once N is a chain, these observations prove that D union N_j is an ideal, including j=0 and R. Relations D<N are allowed and do not invalidate the argument. Arbitrary compatible successor relations are also allowed.
+
+2. Prefix counts and Stanley realization
+For j>=1, n_j is maximal in D union N_j: it cannot precede D and is the last point of its chain. Appending n_j gives a bijection from LE(D union N_(j-1)) to extensions of D union N_j ending in n_j. These are precisely the extensions ending in N. Hence c_j counts extensions ending in D; c_0=e(D) when D is nonempty. Every such ordered prefix can be followed by every extension of Q_j because its underlying set is an ideal. For empty D only the empty completion prefix is used, consistently with c_0=1 and all later c_j=0.
+Adding z above D and incomparable with N is a consistent poset construction because N has no predecessor relation into D. Rank |D|+j+1 forces exactly D and N_j before z; the remaining chain has a unique order. Thus its rank count is a_j exactly, with no binomial factor. The cited rank inequality applies at every requested interior index. Monotonicity follows separately from appending n_j. No log-concavity of c_j follows or is used.
+
+3. Backend first-two-step matrix and its 4 by 4 compression
+In Q_j the minima are u,y and, when j<R, n_(j+1). Every other point outside the neutral suffix is above an entry, so deletion of n_(j+1) alone cannot release such a point. Its newly released successor is only n_(j+2), when present. Therefore the actual minimal-element first-two-step matrix is
+  B_j = [[V_j, C_(j+1)], [C_(j+1)^T, E_(j+2)]].
+For j=R the last coordinate is a zero padding.
+To derive its one-positive-direction property from the cited CP input, adjoin an isolated marker a to Q_j, use k=2 in the CP construction, and take the down-copy minimal-element principal submatrix. The marker is fixed at rank 3. Distinct-coordinate entries count e(Q_j-z-w); the diagonal counts a first entry z followed by its strict successor, exactly the release diagonal in the draft. This specialization is within the stated k range because Q_j has at least u and y.
+The row sums give V_j 1+C_(j+1)=C_j and E_j-E_(j+1)=1^T C_j. In B_j use vectors e_u,e_y,1_all,e_neutral as columns of a compression map. Their pairings give M_j exactly. For j=R take the neutral vector zero. Such a congruence compression cannot increase the positive inertia index. The fourth column is redundant, not an independent extra positive direction.
+
+4. Independent counting justification for W_i
+For a residual Q_i, consider an extension with u before y and no strict u-successor before y. Immediately before y the extension consists of j-i neutral points and u for a unique j>=i. The entry u can occupy any of the j-i+1 gaps of that neutral prefix, and the tail has e(Q_j-u-y) completions. This gives the off-diagonal shared count sum_(j>=i)(j-i+1)(V_j)_uy, equally for the reverse orientation.
+For an extension with a strict u-successor before y, let v be the first such successor. Before v there are only u and j-i neutral points. Removing these neutral points and u makes v minimal. Conversely, every v in min(Q_j-u) strictly above u, every tail extension of Q_j-u-v, and each of the j-i+1 positions of u yields exactly one such extension. This proves the release diagonal formula with the same coefficient. The reverse orientation is identical. There is no unweighted deletion projection in this argument.
+Partitioning by the precise ordered prefix which completes D yields W=sum_i c_i W_i, hence coefficient sum_(i<=j)(j-i+1)c_i=f_j. Telescoping V_j1=C_j-C_(j+1) gives W1=sum_j a_j C_j. The total count is sum_i c_i E_i. Thus (A)/(B), including their original-law interpretation, are verified independently of the finite calibration.
+
+5. Orthogonality and local quadratic expansion
+Write x_j=h^T C_j. The tail definition of g gives x_j=E_(j+1)g_(j+1)-E_jg_j. Summing a_j x_j yields -sum_j c_j E_jg_j; consequently h^Ts=0 is exactly (C). In particular g_0 cannot be suppressed in general.
+For j<R put v=(h,g_(j+1),-g_(j+1)) in M_j and let b denote the final scalar basis vector. Direct expansion gives
+  v^T M_j b = E_(j+2)(g_(j+2)-g_(j+1)),
+and
+  v^T M_j v - E_(j+2)(g_(j+2)-g_(j+1))^2
+  = h^T V_j h + 2A_(j+1)-A_j-A_(j+2)
+      + E_j(g_j-g_(j+1))^2.
+For j<=R-2, projection along the positive b-direction makes the left side nonpositive. This proves (D) without any g_0=0 assumption.
+For j=R-1, b is isotropic but M_j b=(C_R,E_R,0)^T is nonzero and v^T M_j b=0. The previous scalar direction a satisfies a^T M_j a=E_(R-1)>0 and a^T M_j b=E_R>0. Projection onto b+epsilon a gives the exact bound stated in the draft, which tends to zero. Thus the same expansion proves (D) at this endpoint with no division by zero.
+For j=R, projection onto the all-minima direction of V_R gives h^T V_Rh <= x_R^2/E_R=A_R. This is the required separate last bound. It also covers R=0; in that case orthogonality forces g_0=0. The R=1 case uses only the isotropic endpoint and this last bound, so no hidden minimum-length restriction remains.
+
+6. Weighted summation and probability normalization
+In the weighted sum of 2A_(j+1)-A_j-A_(j+2), with the separate final -f_R A_R, the coefficient of every A_k is
+  -f_k+2f_(k-1)-f_(k-2)=-c_k.
+Both lower-index coefficients are zero by convention; the upper A_(R+1), A_(R+2) vanish. This proves (E) with the stated negative variance term and positive energy weights.
+For h=(1-p,-p), the tail sum of the u coordinate of C is E_j q_j and the sum of both coordinates is E_j. Hence g_j=p-q_j, and h^Ts=0. Expanding h^TWh using W1=s proves -h^TWh/E=p^2-U. The normalization sum c_j E_j=E confirms that c_j E_j/E are probabilities. Thus (F) is correct and is an energy-minus-variance lower bound, not an established nonnegative lower bound.
+
+7. Numerical diagnostics actually run
+The supplied script completed successfully. It reproduced variance=359035429/10478160, energy=27527/840, and positive difference=15663631/10478160 for the scalar closure counterexample. For the seven-point asymmetric example it reproduced E=66, W=[[12,24],[24,6]], a=(1,2,3), E_j=(40,20,6), p^2-U=14/121 and the (F) right side 1/484.
+These finite computations diagnose the examples and arithmetic. They do not replace any general argument above.
+
+8. Certification ceiling and concrete remaining gap
+Supported: the exact prefix/backend interfaces, Stanley log-concavity of the real a_j, the CP-based local blocks and weighted energy lower bound, plus the explicit falsity of the universal scalar statement (G).
+Not supported: a nonnegative right side in (E)/(F) for all actual backend directions, the determinant inequality for shared nonempty D, or a realizable counterexample to that determinant inequality. An actual direction has g_j=-(sum_(l>=j)h^T C_l)/E_j for the SAME h and SAME backend and satisfies the weighted orthogonality. Replacing this correlated family by arbitrary mean-zero scalar g is precisely the invalid closure. In the supplied symmetric counterexample the actual direction is zero, so it cannot refute the determinant target.
+The remaining task is to prove compensation for these realizable correlated directions or retain additional matrix information in a stronger gluing argument. The present lower bound could also be too weak even for actual directions; the draft does not establish its sufficiency.
+No mathematical correction is required before syncing this as an OPEN research draft. Avoid describing it as a solved target, a formally verified result, external certification, or a demonstrated original theorem. The word 'new' in 'a new, exact interface' should be understood only as newly derived in this project; exhaustive novelty review has not been performed.
