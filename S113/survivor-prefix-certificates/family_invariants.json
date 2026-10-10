@@ -1,0 +1,37 @@
+{
+  "witness": "exact_23_vertex_witness.json",
+  "pi_definition": "maximum incomparability degree",
+  "incomparability_degrees": [
+    3,
+    1,
+    4,
+    3,
+    18,
+    3,
+    5,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "pi": 18,
+  "maximizers": [
+    4
+  ],
+  "family": "P_L, L >= 1",
+  "pi_family": "max(5,L+3)",
+  "escape_pi_at_most_6": "L >= 4",
+  "all_length_proof": "RESULT.md, Optional short all-length family proof"
+}

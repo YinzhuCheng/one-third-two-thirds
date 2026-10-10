@@ -1,0 +1,36 @@
+n7c00-primal max [5, 6] pairs 5 covered True selected [[0, 2]] fixed [1] cycle [0, 2, 0]
+n7c00-dual max [0, 1] pairs 5 covered True selected [[3, 6]] fixed [2] cycle [0, 2, 0]
+n8c01-primal max [5, 6, 7] pairs 7 covered True selected [[0, 4]] fixed [3] cycle [3, 7, 3]
+n8c01-dual max [0, 1, 2] pairs 7 covered True selected [[3, 7]] fixed [2] cycle [0, 4, 0]
+n8c02-primal max [2, 6, 7] pairs 7 covered True selected [[1, 4]] fixed [4] cycle None
+n8c02-dual max [0, 1, 4] pairs 7 covered True selected [[6, 7]] fixed [6] cycle None
+n8c03-primal max [6, 7] pairs 9 covered True selected [[0, 4]] fixed [2, 7] cycle [5, 7, 5]
+n8c03-dual max [0, 1, 4] pairs 6 covered True selected [[5, 7]] fixed [4] cycle [5, 7, 5]
+n8c04-primal max [3, 6, 7] pairs 6 covered True selected [[0, 2]] fixed [1] cycle [0, 2, 0]
+n8c04-dual max [0, 1] pairs 9 covered True selected [[2, 5]] fixed [0, 5] cycle [0, 2, 0]
+n8c05-primal max [6, 7] pairs 8 covered True selected [[0, 2]] fixed [1, 7] cycle [0, 2, 0]
+n8c05-dual max [0, 1] pairs 7 covered True selected [[4, 5]] fixed [4] cycle [0, 2, 0]
+n8c06-primal max [6, 7] pairs 7 covered True selected [[2, 5]] fixed [4] cycle [4, 7, 4]
+n8c06-dual max [0, 1] pairs 8 covered True selected [[2, 5]] fixed [1, 5] cycle [2, 5, 2]
+n8c07-primal max [5, 7] pairs 8 covered True selected [[0, 4]] fixed [2, 4, 7] cycle None
+n8c07-dual max [0, 1] pairs 8 covered True selected [[2, 4]] fixed [0, 4, 5] cycle None
+n8c08-primal max [3, 7] pairs 7 covered True selected [[0, 2]] fixed [1, 5] cycle [0, 2, 0]
+n8c08-dual max [0, 1] pairs 7 covered True selected [[3, 5]] fixed [2, 5] cycle [0, 2, 0]
+n8c09-primal max [5, 7] pairs 8 covered True selected [[0, 2]] fixed [1] cycle [0, 2, 0]
+n8c09-dual max [0, 1] pairs 8 covered True selected [[3, 4]] fixed [1, 4, 7] cycle [0, 2, 0]
+n8c10-primal max [5, 7] pairs 8 covered True selected [[0, 2]] fixed [1, 7] cycle [0, 2, 0]
+n8c10-dual max [0, 1] pairs 7 covered True selected [[4, 6]] fixed [4, 6] cycle [0, 2, 0]
+n8c11-primal max [3, 7] pairs 7 covered True selected [[0, 2]] fixed [1, 4, 6] cycle [0, 2, 0]
+n8c11-dual max [0, 1] pairs 7 covered True selected [[2, 4]] fixed [0, 2, 6] cycle [0, 2, 0]
+n8c12-primal max [4, 7] pairs 9 covered True selected [[0, 2]] fixed [0, 6] cycle None
+n8c12-dual max [0, 2] pairs 9 covered True selected [[1, 6]] fixed [2, 7] cycle None
+n8c13-primal max [4, 7] pairs 9 covered True selected [[0, 2]] fixed [0, 6] cycle None
+n8c13-dual max [0, 2] pairs 8 covered True selected [[1, 3], [1, 6]] fixed [] cycle None
+n8c14-primal max [5, 7] pairs 8 covered True selected [[0, 2]] fixed [0, 4, 5] cycle [4, 5, 4]
+n8c14-dual max [0, 2] pairs 8 covered True selected [[4, 5]] fixed [4] cycle [4, 5, 4]
+n8c15-primal max [4, 7] pairs 8 covered True selected [[2, 5], [2, 6]] fixed [] cycle None
+n8c15-dual max [0, 1] pairs 9 covered True selected [[2, 6]] fixed [2, 7] cycle None
+n8c16-primal max [4, 7] pairs 8 covered True selected [[2, 6]] fixed [5] cycle [2, 6, 2]
+n8c16-dual max [0, 1] pairs 8 covered True selected [[2, 6]] fixed [2] cycle [2, 6, 2]
+n8c17-primal max [5, 7] pairs 7 covered True selected [[0, 1]] fixed [0, 4] cycle [4, 5, 4]
+n8c17-dual max [0, 1] pairs 8 covered True selected [[2, 6]] fixed [2, 4] cycle [2, 6, 2]

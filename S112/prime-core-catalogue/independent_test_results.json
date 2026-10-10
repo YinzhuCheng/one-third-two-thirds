@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "independent_generator_max_n": 6,
+  "all_positive_weights_in_test_grid": [
+    1,
+    2
+  ],
+  "weight_grid_max_core_n": 4,
+  "independent_natural_counts": {
+    "1": 1,
+    "2": 2,
+    "3": 7,
+    "4": 40,
+    "5": 357,
+    "6": 4824
+  },
+  "checks": {
+    "oracle_posets": 5231,
+    "weighted_inflations": 706,
+    "very_good_lifts": 2344,
+    "forced_good_lifts": 6592,
+    "exact_balanced_existence_checks": 676,
+    "width_preservation_checks": 706
+  },
+  "elapsed_seconds": 2.442,
+  "limitations": "Finite checks supplement but do not prove the universal structural theorems. Independent oracle uses no primary predicate except in assertions."
+}

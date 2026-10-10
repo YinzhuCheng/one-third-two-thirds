@@ -1,0 +1,128 @@
+{
+  "pred": [
+    0,
+    0,
+    3,
+    2,
+    15,
+    11,
+    2,
+    107,
+    239
+  ],
+  "strict_up_masks": [
+    436,
+    508,
+    272,
+    432,
+    0,
+    384,
+    384,
+    256,
+    0
+  ],
+  "invariants": {
+    "n": 9,
+    "width": 3,
+    "height": 5,
+    "comparability_connected": true,
+    "incomparability_connected": true,
+    "proper_pair_generated_modules": [],
+    "proper_nonchain_module_witnesses": [],
+    "all_proper_modules_chains": true,
+    "cover_edges": [
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        8
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ]
+    ],
+    "cover_graph_forest": false,
+    "forced_cycle": null,
+    "vgp_bottom": [],
+    "vgp_top": []
+  },
+  "degree_pairs": [
+    [
+      0,
+      5
+    ],
+    [
+      0,
+      7
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      1,
+      4
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      7,
+      0
+    ]
+  ],
+  "automorphism_order": 1,
+  "two_port_graph_acyclic": true
+}

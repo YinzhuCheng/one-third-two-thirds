@@ -1,0 +1,37 @@
+n7c00-primal persistent [0, 2, 0] completion None
+n7c00-dual persistent [3, 6, 3] completion None
+n8c01-primal persistent [0, 4, 0] completion None
+n8c01-dual persistent [3, 7, 3] completion None
+n8c02-primal persistent None completion ([0, 0, 0], 1)
+n8c02-dual persistent None completion ([0, 0, 0], 1)
+n8c03-primal persistent None completion None
+n8c03-dual persistent [5, 7, 5] completion None
+n8c04-primal persistent [0, 2, 0] completion None
+n8c04-dual persistent None completion None
+n8c05-primal persistent [0, 2, 0] completion None
+n8c05-dual persistent [4, 5, 4] completion None
+n8c06-primal persistent [2, 5, 2] completion None
+n8c06-dual persistent [2, 5, 2] completion None
+n8c07-primal persistent None completion ([0, 0], 1)
+n8c07-dual persistent None completion ([0, 0], 1)
+n8c08-primal persistent [0, 2, 0] completion None
+n8c08-dual persistent [4, 6, 4] completion None
+n8c09-primal persistent [0, 2, 0] completion None
+n8c09-dual persistent None completion None
+n8c10-primal persistent [0, 2, 0] completion None
+n8c10-dual persistent [4, 6, 4] completion None
+n8c11-primal persistent [0, 2, 0] completion None
+n8c11-dual persistent [3, 5, 3] completion None
+n8c12-primal persistent None completion ([0, 0], 1)
+n8c12-dual persistent None completion ([0, 0], 1)
+n8c13-primal persistent None completion ([0, 0], 1)
+n8c13-dual persistent None completion ([0, 0], 1)
+n8c14-primal persistent None completion None
+n8c14-dual persistent [4, 5, 4] completion None
+n8c15-primal persistent None completion ([0, 0], 1)
+n8c15-dual persistent None completion ([0, 0], 1)
+n8c16-primal persistent [2, 6, 2] completion None
+n8c16-dual persistent [2, 6, 2] completion None
+n8c17-primal persistent [2, 6, 2] completion None
+n8c17-dual persistent [2, 6, 2] completion None
+ADAPTIVE FIXED FAILURES [{'pair': [2, 5], 'lengths': [0, 1], 'pred': [0, 0, 3, 2, 15, 11, 2, 107, 127], 'B': [1, 2], 'probability': '135/194', 'cycle': [7, 8, 7], 'vgp': [[], [(7, 8)]]}, {'pair': [2, 6], 'lengths': [15, 0], 'pred': [0, 0, 3, 2, 15, 11, 2, 107, 239, 495, 1007, 2031, 4079, 8175, 16367, 32751, 65519, 131055, 262127, 524271, 1048559, 2097135, 4194287], 'B': [16, 1], 'probability': '280/841', 'cycle': None, 'vgp': [[], []]}]

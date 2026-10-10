@@ -1,0 +1,246 @@
+{
+  "status": "PASS",
+  "scope": "Four spine blocks 1,2,3,5 singleton; all u,t,v positive integers.",
+  "coupling": {
+    "pointwise_coupling_checks": 241669,
+    "weighted_binary_checks": 1568
+  },
+  "fiber_validation": {
+    "vectors": 27,
+    "extensions_enumerated": 73261,
+    "base_fibers_checked": 8307,
+    "details": [
+      {
+        "u": 1,
+        "t": 1,
+        "v": 1,
+        "extensions_enumerated": 44,
+        "fibers_with_base": 22
+      },
+      {
+        "u": 1,
+        "t": 1,
+        "v": 2,
+        "extensions_enumerated": 113,
+        "fibers_with_base": 52
+      },
+      {
+        "u": 1,
+        "t": 1,
+        "v": 3,
+        "extensions_enumerated": 235,
+        "fibers_with_base": 100
+      },
+      {
+        "u": 1,
+        "t": 2,
+        "v": 1,
+        "extensions_enumerated": 121,
+        "fibers_with_base": 52
+      },
+      {
+        "u": 1,
+        "t": 2,
+        "v": 2,
+        "extensions_enumerated": 355,
+        "fibers_with_base": 142
+      },
+      {
+        "u": 1,
+        "t": 2,
+        "v": 3,
+        "extensions_enumerated": 831,
+        "fibers_with_base": 310
+      },
+      {
+        "u": 1,
+        "t": 3,
+        "v": 1,
+        "extensions_enumerated": 265,
+        "fibers_with_base": 100
+      },
+      {
+        "u": 1,
+        "t": 3,
+        "v": 2,
+        "extensions_enumerated": 874,
+        "fibers_with_base": 310
+      },
+      {
+        "u": 1,
+        "t": 3,
+        "v": 3,
+        "extensions_enumerated": 2274,
+        "fibers_with_base": 758
+      },
+      {
+        "u": 2,
+        "t": 1,
+        "v": 1,
+        "extensions_enumerated": 113,
+        "fibers_with_base": 33
+      },
+      {
+        "u": 2,
+        "t": 1,
+        "v": 2,
+        "extensions_enumerated": 315,
+        "fibers_with_base": 78
+      },
+      {
+        "u": 2,
+        "t": 1,
+        "v": 3,
+        "extensions_enumerated": 709,
+        "fibers_with_base": 150
+      },
+      {
+        "u": 2,
+        "t": 2,
+        "v": 1,
+        "extensions_enumerated": 355,
+        "fibers_with_base": 78
+      },
+      {
+        "u": 2,
+        "t": 2,
+        "v": 2,
+        "extensions_enumerated": 1121,
+        "fibers_with_base": 213
+      },
+      {
+        "u": 2,
+        "t": 2,
+        "v": 3,
+        "extensions_enumerated": 2821,
+        "fibers_with_base": 465
+      },
+      {
+        "u": 2,
+        "t": 3,
+        "v": 1,
+        "extensions_enumerated": 874,
+        "fibers_with_base": 150
+      },
+      {
+        "u": 2,
+        "t": 3,
+        "v": 2,
+        "extensions_enumerated": 3079,
+        "fibers_with_base": 465
+      },
+      {
+        "u": 2,
+        "t": 3,
+        "v": 3,
+        "extensions_enumerated": 8559,
+        "fibers_with_base": 1137
+      },
+      {
+        "u": 3,
+        "t": 1,
+        "v": 1,
+        "extensions_enumerated": 235,
+        "fibers_with_base": 44
+      },
+      {
+        "u": 3,
+        "t": 1,
+        "v": 2,
+        "extensions_enumerated": 709,
+        "fibers_with_base": 104
+      },
+      {
+        "u": 3,
+        "t": 1,
+        "v": 3,
+        "extensions_enumerated": 1724,
+        "fibers_with_base": 200
+      },
+      {
+        "u": 3,
+        "t": 2,
+        "v": 1,
+        "extensions_enumerated": 831,
+        "fibers_with_base": 104
+      },
+      {
+        "u": 3,
+        "t": 2,
+        "v": 2,
+        "extensions_enumerated": 2821,
+        "fibers_with_base": 284
+      },
+      {
+        "u": 3,
+        "t": 2,
+        "v": 3,
+        "extensions_enumerated": 7626,
+        "fibers_with_base": 620
+      },
+      {
+        "u": 3,
+        "t": 3,
+        "v": 1,
+        "extensions_enumerated": 2274,
+        "fibers_with_base": 200
+      },
+      {
+        "u": 3,
+        "t": 3,
+        "v": 2,
+        "extensions_enumerated": 8559,
+        "fibers_with_base": 620
+      },
+      {
+        "u": 3,
+        "t": 3,
+        "v": 3,
+        "extensions_enumerated": 25424,
+        "fibers_with_base": 1516
+      }
+    ]
+  },
+  "independent_DP": {
+    "positive_box": "1 <= u,t,v <= 12",
+    "vectors": 1728,
+    "bound_equality_vectors": []
+  },
+  "small_exceptions": [
+    {
+      "u": 2,
+      "t": 1,
+      "v": 2,
+      "Z": 315,
+      "N_2_before_4": 234,
+      "N_1_before_0": 202,
+      "p_2_before_4": "26/35",
+      "p_1_before_0": "202/315"
+    },
+    {
+      "u": 2,
+      "t": 2,
+      "v": 2,
+      "Z": 1121,
+      "N_2_before_4": 667,
+      "N_1_before_0": 766,
+      "p_2_before_4": "667/1121",
+      "p_1_before_0": "766/1121"
+    },
+    {
+      "u": 3,
+      "t": 2,
+      "v": 3,
+      "Z": 7626,
+      "N_2_before_4": 4908,
+      "N_1_before_0": 4805,
+      "p_2_before_4": "818/1271",
+      "p_1_before_0": "155/246"
+    }
+  ],
+  "cone_check": {
+    "t_range": "1..100",
+    "pairs_tested": 348550
+  },
+  "method_warning": "Finite checks audit implementation and conditioning; general conclusions are proved in AUDIT.md."
+}

@@ -1,0 +1,736 @@
+[
+  {
+    "id": "n7c00-primal",
+    "nonmax_persistent_cycle": [
+      0,
+      2,
+      0
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n7c00-dual",
+    "nonmax_persistent_cycle": [
+      3,
+      6,
+      3
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c01-primal",
+    "nonmax_persistent_cycle": [
+      0,
+      4,
+      0
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c01-dual",
+    "nonmax_persistent_cycle": [
+      3,
+      7,
+      3
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c02-primal",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": {
+      "tail_lengths": [
+        0,
+        0,
+        0
+      ],
+      "ordinal_tail_length": 1,
+      "pred": [
+        0,
+        0,
+        3,
+        2,
+        0,
+        18,
+        59,
+        26,
+        255
+      ],
+      "B": [
+        1,
+        1,
+        1
+      ],
+      "pair_probabilities": [
+        "49/159",
+        "2/3",
+        "68/159",
+        "128/159",
+        "101/159",
+        "38/159",
+        "37/53"
+      ],
+      "forced_graph": [
+        492,
+        509,
+        448,
+        484,
+        493,
+        452,
+        256,
+        320,
+        0
+      ],
+      "very_good_pairs": [
+        [],
+        []
+      ]
+    }
+  },
+  {
+    "id": "n8c02-dual",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": {
+      "tail_lengths": [
+        0,
+        0,
+        0
+      ],
+      "ordinal_tail_length": 1,
+      "pred": [
+        68,
+        236,
+        0,
+        192,
+        224,
+        64,
+        0,
+        0,
+        255
+      ],
+      "B": [
+        1,
+        1,
+        1
+      ],
+      "pair_probabilities": [
+        "128/159",
+        "2/3",
+        "49/159",
+        "68/159",
+        "16/53",
+        "38/159",
+        "101/159"
+      ],
+      "forced_graph": [
+        274,
+        256,
+        315,
+        275,
+        258,
+        283,
+        447,
+        319,
+        0
+      ],
+      "very_good_pairs": [
+        [],
+        []
+      ]
+    }
+  },
+  {
+    "id": "n8c03-primal",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c03-dual",
+    "nonmax_persistent_cycle": [
+      5,
+      7,
+      5
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c04-primal",
+    "nonmax_persistent_cycle": [
+      0,
+      2,
+      0
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c04-dual",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c05-primal",
+    "nonmax_persistent_cycle": [
+      0,
+      2,
+      0
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c05-dual",
+    "nonmax_persistent_cycle": [
+      4,
+      5,
+      4
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c06-primal",
+    "nonmax_persistent_cycle": [
+      2,
+      5,
+      2
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c06-dual",
+    "nonmax_persistent_cycle": [
+      2,
+      5,
+      2
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c07-primal",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": {
+      "tail_lengths": [
+        0,
+        0
+      ],
+      "ordinal_tail_length": 1,
+      "pred": [
+        0,
+        0,
+        2,
+        7,
+        2,
+        19,
+        18,
+        95,
+        255
+      ],
+      "B": [
+        1,
+        1
+      ],
+      "pair_probabilities": [
+        "26/107",
+        "71/107",
+        "63/107",
+        "94/107",
+        "44/107",
+        "85/107",
+        "9/107",
+        "44/107"
+      ],
+      "forced_graph": [
+        508,
+        509,
+        488,
+        416,
+        492,
+        384,
+        424,
+        256,
+        0
+      ],
+      "very_good_pairs": [
+        [],
+        []
+      ]
+    }
+  },
+  {
+    "id": "n8c07-dual",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": {
+      "tail_lengths": [
+        0,
+        0
+      ],
+      "ordinal_tail_length": 1,
+      "pred": [
+        168,
+        252,
+        136,
+        128,
+        224,
+        0,
+        128,
+        0,
+        255
+      ],
+      "B": [
+        1,
+        1
+      ],
+      "pair_probabilities": [
+        "63/107",
+        "13/107",
+        "22/107",
+        "98/107",
+        "44/107",
+        "63/107",
+        "71/107",
+        "26/107"
+      ],
+      "forced_graph": [
+        258,
+        256,
+        275,
+        343,
+        259,
+        351,
+        279,
+        383,
+        0
+      ],
+      "very_good_pairs": [
+        [],
+        []
+      ]
+    }
+  },
+  {
+    "id": "n8c08-primal",
+    "nonmax_persistent_cycle": [
+      0,
+      2,
+      0
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c08-dual",
+    "nonmax_persistent_cycle": [
+      4,
+      6,
+      4
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c09-primal",
+    "nonmax_persistent_cycle": [
+      0,
+      2,
+      0
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c09-dual",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c10-primal",
+    "nonmax_persistent_cycle": [
+      0,
+      2,
+      0
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c10-dual",
+    "nonmax_persistent_cycle": [
+      4,
+      6,
+      4
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c11-primal",
+    "nonmax_persistent_cycle": [
+      0,
+      2,
+      0
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c11-dual",
+    "nonmax_persistent_cycle": [
+      3,
+      5,
+      3
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c12-primal",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": {
+      "tail_lengths": [
+        0,
+        0
+      ],
+      "ordinal_tail_length": 1,
+      "pred": [
+        0,
+        1,
+        0,
+        4,
+        15,
+        13,
+        4,
+        109,
+        255
+      ],
+      "B": [
+        1,
+        1
+      ],
+      "pair_probabilities": [
+        "17/44",
+        "25/33",
+        "37/44",
+        "1/12",
+        "7/22",
+        "15/22",
+        "1/2",
+        "15/22",
+        "7/22"
+      ],
+      "forced_graph": [
+        506,
+        432,
+        507,
+        498,
+        384,
+        400,
+        432,
+        256,
+        0
+      ],
+      "very_good_pairs": [
+        [],
+        []
+      ]
+    }
+  },
+  {
+    "id": "n8c12-dual",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": {
+      "tail_lengths": [
+        0,
+        0
+      ],
+      "ordinal_tail_length": 1,
+      "pred": [
+        178,
+        16,
+        248,
+        176,
+        0,
+        128,
+        128,
+        0,
+        255
+      ],
+      "B": [
+        1,
+        1
+      ],
+      "pair_probabilities": [
+        "15/22",
+        "7/22",
+        "1/2",
+        "1/12",
+        "7/22",
+        "25/33",
+        "37/44",
+        "17/44",
+        "15/22"
+      ],
+      "forced_graph": [
+        260,
+        269,
+        256,
+        261,
+        367,
+        335,
+        269,
+        383,
+        0
+      ],
+      "very_good_pairs": [
+        [],
+        []
+      ]
+    }
+  },
+  {
+    "id": "n8c13-primal",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": {
+      "tail_lengths": [
+        0,
+        0
+      ],
+      "ordinal_tail_length": 1,
+      "pred": [
+        0,
+        1,
+        0,
+        4,
+        15,
+        13,
+        4,
+        111,
+        255
+      ],
+      "B": [
+        1,
+        1
+      ],
+      "pair_probabilities": [
+        "48/121",
+        "93/121",
+        "103/121",
+        "1/11",
+        "42/121",
+        "90/121",
+        "6/11",
+        "83/121",
+        "39/121"
+      ],
+      "forced_graph": [
+        506,
+        496,
+        507,
+        498,
+        384,
+        400,
+        432,
+        256,
+        0
+      ],
+      "very_good_pairs": [
+        [],
+        []
+      ]
+    }
+  },
+  {
+    "id": "n8c13-dual",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": {
+      "tail_lengths": [
+        0,
+        0
+      ],
+      "ordinal_tail_length": 1,
+      "pred": [
+        178,
+        144,
+        248,
+        176,
+        0,
+        128,
+        128,
+        0,
+        255
+      ],
+      "B": [
+        1,
+        1
+      ],
+      "pair_probabilities": [
+        "79/121",
+        "31/121",
+        "5/11",
+        "38/121",
+        "89/121",
+        "100/121",
+        "40/121",
+        "82/121"
+      ],
+      "forced_graph": [
+        260,
+        269,
+        256,
+        261,
+        367,
+        335,
+        271,
+        383,
+        0
+      ],
+      "very_good_pairs": [
+        [],
+        []
+      ]
+    }
+  },
+  {
+    "id": "n8c14-primal",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c14-dual",
+    "nonmax_persistent_cycle": [
+      4,
+      5,
+      4
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c15-primal",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": {
+      "tail_lengths": [
+        0,
+        0
+      ],
+      "ordinal_tail_length": 1,
+      "pred": [
+        0,
+        0,
+        3,
+        2,
+        15,
+        11,
+        2,
+        107,
+        255
+      ],
+      "B": [
+        1,
+        1
+      ],
+      "pair_probabilities": [
+        "40/121",
+        "89/121",
+        "100/121",
+        "31/121",
+        "79/121",
+        "5/11",
+        "82/121",
+        "38/121"
+      ],
+      "forced_graph": [
+        508,
+        509,
+        432,
+        500,
+        384,
+        400,
+        436,
+        256,
+        0
+      ],
+      "very_good_pairs": [
+        [],
+        []
+      ]
+    }
+  },
+  {
+    "id": "n8c15-dual",
+    "nonmax_persistent_cycle": null,
+    "acyclic_completion": {
+      "tail_lengths": [
+        0,
+        0
+      ],
+      "ordinal_tail_length": 1,
+      "pred": [
+        180,
+        252,
+        16,
+        176,
+        0,
+        128,
+        128,
+        0,
+        255
+      ],
+      "B": [
+        1,
+        1
+      ],
+      "pair_probabilities": [
+        "90/121",
+        "42/121",
+        "6/11",
+        "1/11",
+        "39/121",
+        "93/121",
+        "103/121",
+        "48/121",
+        "83/121"
+      ],
+      "forced_graph": [
+        258,
+        256,
+        331,
+        259,
+        367,
+        335,
+        267,
+        383,
+        0
+      ],
+      "very_good_pairs": [
+        [],
+        []
+      ]
+    }
+  },
+  {
+    "id": "n8c16-primal",
+    "nonmax_persistent_cycle": [
+      2,
+      6,
+      2
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c16-dual",
+    "nonmax_persistent_cycle": [
+      2,
+      6,
+      2
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c17-primal",
+    "nonmax_persistent_cycle": [
+      2,
+      6,
+      2
+    ],
+    "acyclic_completion": null
+  },
+  {
+    "id": "n8c17-dual",
+    "nonmax_persistent_cycle": [
+      2,
+      6,
+      2
+    ],
+    "acyclic_completion": null
+  }
+]

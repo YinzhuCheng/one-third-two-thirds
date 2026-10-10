@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "max_quotient_n": 5,
+  "each_weight": [
+    1,
+    2
+  ],
+  "checks": {
+    "base_posets": 406,
+    "base_posets_with_very_good_pair": 402,
+    "weighted_inflations": 12068,
+    "lifted_pair_witnesses": 52008
+  },
+  "source": "https://arxiv.org/html/1610.00809",
+  "source_scope": "Definition 5 plus Theorem 2: existence of some balanced pair; chosen very-good pair need not itself be balanced."
+}

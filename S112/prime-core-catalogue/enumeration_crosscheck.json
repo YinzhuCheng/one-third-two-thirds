@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "max_n": 8,
+  "compared_nested_count_fields": [
+    "n",
+    "naturally_labelled_posets",
+    "prime_cores",
+    "prime_width_at_least_3",
+    "after_very_good_both_sides",
+    "after_separate_port_cycles",
+    "after_all_uniform_filters"
+  ],
+  "identical_complete_survivor_sets": true,
+  "survivor_natural_label_count": 2596,
+  "survivor_isomorphism_classes_by_n": {
+    "7": 1,
+    "8": 17
+  },
+  "canonicalization_multiplicity_identity_all_classes": "PASS",
+  "independent_algorithms": "Python largest-maximal-vertex/ideal generator versus C++ direct strict-relation-bitmask generator."
+}

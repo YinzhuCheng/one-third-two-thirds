@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "weight_vectors": 2187,
+  "weight_range": "each wi in {1,2,3}",
+  "exact_oracle_counts": 13122,
+  "duality_checks": 2187,
+  "bound_checks": 6561,
+  "smallest_port_survivor": {
+    "weights": [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "extensions": 315,
+    "bottom1_before_bottom0": 202,
+    "top6_before_top5": 202,
+    "top0_before_top2": 96,
+    "bottom3_before_bottom6": 96
+  }
+}

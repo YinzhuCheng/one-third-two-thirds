@@ -1,0 +1,123 @@
+{
+  "freeze": "2026-10-10",
+  "scope": "Exact naturally labelled posets n<=8, followed by exact survivor-only isomorphism classification and singleton-pattern clauses.",
+  "status": "PASS",
+  "source_files_only": true,
+  "files": [
+    {
+      "path": "COUNTS.md",
+      "bytes": 5131,
+      "sha256": "dcd25164c9607c59d82f330edf7212cc572c960bceb1ccc99a5b4f0f2b140f54"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11210,
+      "sha256": "fef01ec27233671746071a55221dbc60cd5e86f39f538f130d5a98fe20d661f2"
+    },
+    {
+      "path": "all_survivor_singleton_constraints.json",
+      "bytes": 26293,
+      "sha256": "d5499a8d618eb74e87de86831a9bc1d5cf69f7e9eb24723bac46cfc432ae7c3d"
+    },
+    {
+      "path": "build_report.py",
+      "bytes": 5159,
+      "sha256": "a749bba6c17b6c3a74dddb103d91938a64f86378f98f1b912c04e0bc7726fc03"
+    },
+    {
+      "path": "canonicalize.py",
+      "bytes": 2876,
+      "sha256": "8a4604a0410130285a62c3fc28fdce3cf27f29a5ab153a7c000e0b2e19c76c17"
+    },
+    {
+      "path": "catalogue.py",
+      "bytes": 8451,
+      "sha256": "f55f3dd5e9084e9d9d89b3176c98b8793cafac59fb476cb72e76c95fe28a3ec8"
+    },
+    {
+      "path": "enumeration_crosscheck.json",
+      "bytes": 617,
+      "sha256": "f460dc361f32610e264dc81dd7561aad4ed286c698f0fc542bb9cdcc012a5c60"
+    },
+    {
+      "path": "independent_catalogue.cpp",
+      "bytes": 3574,
+      "sha256": "e1473f742c6df4d6b568ec41f5bccc1a61cef8da3dabf4acb6ff7f39948bd9b4"
+    },
+    {
+      "path": "independent_catalogue.log",
+      "bytes": 356,
+      "sha256": "4ba71eb9c1c4691f746c55e4f549e67beede9007736bea6ea39b867af35be0a5"
+    },
+    {
+      "path": "independent_catalogue_n8.json",
+      "bytes": 74705,
+      "sha256": "f53a6caa5cdfa6654d1702abbff5d733156a3166aee175caaf8b81ec3fa78665"
+    },
+    {
+      "path": "independent_test_results.json",
+      "bytes": 676,
+      "sha256": "c2391e195feb9d4318aec14fc4df20fa3bdc3e9890455d2a369eea7bb3b0e380"
+    },
+    {
+      "path": "independent_tests.log",
+      "bytes": 790,
+      "sha256": "4a8864075fc0740252c2d127ef99cd02dd6e7bd6a5602bd6e845896cf3acf1f5"
+    },
+    {
+      "path": "independent_tests.py",
+      "bytes": 6379,
+      "sha256": "47fa9ebfd1551469fd217ce4294149474f841297884e8f3e079f2b22ba002bb7"
+    },
+    {
+      "path": "n7_singleton_constraints.json",
+      "bytes": 1005,
+      "sha256": "4718c75abe42e9cf89d6c1cbb37c6b86f90bbf650cd0b107852e10c7d11b17cb"
+    },
+    {
+      "path": "n7_survivor_isomorphism_classes.json",
+      "bytes": 6453,
+      "sha256": "5ef0ddc751fc2be6bd5d40a3b2b5308e8f69b325abcb3f15b17c90f40e949c49"
+    },
+    {
+      "path": "results/cycle_beyond_very_good.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "results/summary.json",
+      "bytes": 5781,
+      "sha256": "62c3f061be3468460d2e9b85eb787494fe9b46c5211ccd6b8e06c8f23a1d843b"
+    },
+    {
+      "path": "results/survivor_isomorphism_classes.json",
+      "bytes": 339231,
+      "sha256": "5848308f42395268915d7a3f4cf422bcae7643a38690c2ed5fe87d5c8acf29b4"
+    },
+    {
+      "path": "results/survivors.json",
+      "bytes": 4465741,
+      "sha256": "42aec794e11841f1804717220e12c9955b5730bf1afee616139b90b0402d4e30"
+    },
+    {
+      "path": "results/two_port_beyond_separate.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "run.log",
+      "bytes": 4131,
+      "sha256": "667cf0057e9b9e5b72061107215b71c7fb45ee3860f0e20b993fbfd9bfa8f483"
+    },
+    {
+      "path": "singleton_constraints.py",
+      "bytes": 2431,
+      "sha256": "2ddf65af8ecf6e58996b79d3f43c8693613e41a71e35f7e6a8fdf292d23a7b2c"
+    },
+    {
+      "path": "verify_package.py",
+      "bytes": 2058,
+      "sha256": "1ae0545bd84ba28e38b832a70fbc011f23ee6980f25df1f527e18014e06ff433"
+    }
+  ]
+}

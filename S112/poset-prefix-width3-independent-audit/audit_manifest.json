@@ -1,0 +1,192 @@
+{
+  "audit_date": "2026-10-10",
+  "status": "PASS for three exact finite guarded-prefix templates; original author verifier optimized-mode caveat recorded",
+  "remote_actions": false,
+  "files": [
+    {
+      "path": "AUDIT.md",
+      "bytes": 14743,
+      "sha256": "37e9892ee5dc4562ab8356e881923e73ffd8fde00b5781a259e72e50190eb0b7"
+    },
+    {
+      "path": "author_rerun/README.md",
+      "bytes": 9472,
+      "sha256": "732fe6513ebf030d23d2ee5ff156e8c6e9db86c4366e2a784d14daad80284fa5"
+    },
+    {
+      "path": "author_rerun/analyze.py",
+      "bytes": 446,
+      "sha256": "ef9bf720db1df55e443da0f52aef22c32f183a967ded8f457d860b5fa11b6a05"
+    },
+    {
+      "path": "author_rerun/analyzed.json",
+      "bytes": 31185,
+      "sha256": "a03a830485350749395afea947cdfb32966a7f897cd9f9b2b820343fc0e03e8a"
+    },
+    {
+      "path": "author_rerun/audit_completions.py",
+      "bytes": 2418,
+      "sha256": "940ea3c0f15c8d2cd67c702e252c88a58d400748fa2e51822f9e2e21715697da"
+    },
+    {
+      "path": "author_rerun/candidates.json",
+      "bytes": 27939,
+      "sha256": "0f25ba78fb8ba08e7efffabdd811c3766870c52badc46ebc69076be6b58a3855"
+    },
+    {
+      "path": "author_rerun/certify.log",
+      "bytes": 1844,
+      "sha256": "cf6368bc029ddcd20696ddb5d05bcdf44fb0d3d882567b5e1500842cee1797ee"
+    },
+    {
+      "path": "author_rerun/certify.py",
+      "bytes": 3726,
+      "sha256": "13baed71339b33e872bb5e81e91b815131f4dd69548776481b4452a0bd2a6c3a"
+    },
+    {
+      "path": "author_rerun/certify_rerun.log",
+      "bytes": 1844,
+      "sha256": "cf6368bc029ddcd20696ddb5d05bcdf44fb0d3d882567b5e1500842cee1797ee"
+    },
+    {
+      "path": "author_rerun/completion_audit.json",
+      "bytes": 2719,
+      "sha256": "557144c8c405e6f52f8c2999beb453a0c81502a60bd8cbead2970fc431639fad"
+    },
+    {
+      "path": "author_rerun/exact_templates.json",
+      "bytes": 7054,
+      "sha256": "e1f07ca69cebe5ca816c0ed08835eb1c9b0581ec68ac4c9ba2cb7add1696c05c"
+    },
+    {
+      "path": "author_rerun/find_negative.py",
+      "bytes": 425,
+      "sha256": "831e9d7ca52016fe1460502c6df78e0173dc8e98c996e753a916032e0adf140d"
+    },
+    {
+      "path": "author_rerun/genuine_vertex_negative.json",
+      "bytes": 1483,
+      "sha256": "344ff0e15e0d57e2d0f5c57ac888bb4c394cfd2d8ab95e0e855678dcca231880"
+    },
+    {
+      "path": "author_rerun/search.log",
+      "bytes": 7894,
+      "sha256": "5668cf20149b587cb8218680e97be97aad3876e6a1661c9fc23674fd4ebb4502"
+    },
+    {
+      "path": "author_rerun/search.py",
+      "bytes": 3292,
+      "sha256": "d3f4920c58378b7bbdbbeb8544ffe3ead06f868de36283028187df79a24fa97d"
+    },
+    {
+      "path": "author_rerun/search_rerun.log",
+      "bytes": 7894,
+      "sha256": "4ca68c8d9a9a1b731ddb917690b84a92a095a36cabf2e0cc919f5f6033659804"
+    },
+    {
+      "path": "author_snapshot/README.md",
+      "bytes": 9472,
+      "sha256": "732fe6513ebf030d23d2ee5ff156e8c6e9db86c4366e2a784d14daad80284fa5"
+    },
+    {
+      "path": "author_snapshot/analyze.py",
+      "bytes": 446,
+      "sha256": "ef9bf720db1df55e443da0f52aef22c32f183a967ded8f457d860b5fa11b6a05"
+    },
+    {
+      "path": "author_snapshot/analyzed.json",
+      "bytes": 31185,
+      "sha256": "a03a830485350749395afea947cdfb32966a7f897cd9f9b2b820343fc0e03e8a"
+    },
+    {
+      "path": "author_snapshot/audit_completions.py",
+      "bytes": 2418,
+      "sha256": "940ea3c0f15c8d2cd67c702e252c88a58d400748fa2e51822f9e2e21715697da"
+    },
+    {
+      "path": "author_snapshot/candidates.json",
+      "bytes": 27939,
+      "sha256": "0f25ba78fb8ba08e7efffabdd811c3766870c52badc46ebc69076be6b58a3855"
+    },
+    {
+      "path": "author_snapshot/certify.log",
+      "bytes": 1844,
+      "sha256": "cf6368bc029ddcd20696ddb5d05bcdf44fb0d3d882567b5e1500842cee1797ee"
+    },
+    {
+      "path": "author_snapshot/certify.py",
+      "bytes": 3726,
+      "sha256": "13baed71339b33e872bb5e81e91b815131f4dd69548776481b4452a0bd2a6c3a"
+    },
+    {
+      "path": "author_snapshot/completion_audit.json",
+      "bytes": 2719,
+      "sha256": "557144c8c405e6f52f8c2999beb453a0c81502a60bd8cbead2970fc431639fad"
+    },
+    {
+      "path": "author_snapshot/exact_templates.json",
+      "bytes": 7054,
+      "sha256": "e1f07ca69cebe5ca816c0ed08835eb1c9b0581ec68ac4c9ba2cb7add1696c05c"
+    },
+    {
+      "path": "author_snapshot/find_negative.py",
+      "bytes": 425,
+      "sha256": "831e9d7ca52016fe1460502c6df78e0173dc8e98c996e753a916032e0adf140d"
+    },
+    {
+      "path": "author_snapshot/genuine_vertex_negative.json",
+      "bytes": 1483,
+      "sha256": "344ff0e15e0d57e2d0f5c57ac888bb4c394cfd2d8ab95e0e855678dcca231880"
+    },
+    {
+      "path": "author_snapshot/search.log",
+      "bytes": 7894,
+      "sha256": "5668cf20149b587cb8218680e97be97aad3876e6a1661c9fc23674fd4ebb4502"
+    },
+    {
+      "path": "author_snapshot/search.py",
+      "bytes": 3292,
+      "sha256": "d3f4920c58378b7bbdbbeb8544ffe3ead06f868de36283028187df79a24fa97d"
+    },
+    {
+      "path": "independent_checks.json",
+      "bytes": 26841,
+      "sha256": "ccd720067c7d1f856ae846bd9121e7dba2452a6810ac0d2bb9cbce4f343a5893"
+    },
+    {
+      "path": "independent_checks.log",
+      "bytes": 783,
+      "sha256": "a4270b62e98daa530cbc88a6eeb032e2bf2da33e3a4bffbc4ac9ce6a7efee287"
+    },
+    {
+      "path": "independent_checks.py",
+      "bytes": 17534,
+      "sha256": "428037748fdb37d4f968138f4e73d1581921cd5ab26b1d87c4b239e419f758b5"
+    },
+    {
+      "path": "independent_checks_optimized.json",
+      "bytes": 26840,
+      "sha256": "bcd3904ecb7dc1ea79d64fe9ce11805522af9e3c8ec57ce67b6f1efc5fc26e51"
+    },
+    {
+      "path": "independent_checks_optimized.log",
+      "bytes": 792,
+      "sha256": "7139dc57b90ff0e197b3f9dcf990372eb9ae18f3986dce36321be2f2596ccfd3"
+    },
+    {
+      "path": "search_checks.json",
+      "bytes": 9356,
+      "sha256": "e0fbe15cd7a33eb6c3c00d08419b3c89bb3118f8bf84da791381b814cd4e13e1"
+    },
+    {
+      "path": "search_checks.log",
+      "bytes": 426,
+      "sha256": "da51ac7a4bff8064eee7fab846edc8af2391cacac6a1ee4912b12abbb942e7e9"
+    },
+    {
+      "path": "search_checks.py",
+      "bytes": 3441,
+      "sha256": "e198971b50233d252320ed23f43ab71eb09fae3405af51904ae2afd3a91149dd"
+    }
+  ]
+}

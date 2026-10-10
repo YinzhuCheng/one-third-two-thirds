@@ -1,0 +1,246 @@
+{
+  "package": "S113",
+  "minimum_python": "3.10",
+  "dependencies": "Python standard library only; no network or package installation.",
+  "snapshot_policy": "All commands run only in temporary copies; no frozen original is edited.",
+  "ignored_json_keys": [],
+  "forbidden_live_source_roots": [
+    "/workspace/shared"
+  ],
+  "portability_guard": "Block file opens under the original source root; allow Python import directory discovery. All consumed research inputs must be copied into the temporary package.",
+  "comparison_policy": "Exact structured JSON comparison, plus byte-exact comparison for every declared deterministic output. No fields are currently ignored. Timing exists only in external replay receipts.",
+  "verification_scope": "Full rerun of all bounded S113 author/audit checks; no new catalogue enumeration, no larger search, and no inference of infinite results from finite data.",
+  "steps": [
+    {
+      "id": "weighted-formula",
+      "cwd": "weighted-surviving-core",
+      "argv": [
+        "{python}",
+        "weighted_core_formula.py"
+      ],
+      "compare": [
+        {
+          "actual": "weighted-surviving-core/formula_validation.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "weighted-menu",
+      "cwd": "weighted-surviving-core",
+      "argv": [
+        "{python}",
+        "screen_tested_box.py"
+      ],
+      "compare": [
+        {
+          "actual": "weighted-surviving-core/screen_tested_box.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "weighted-independent-audit",
+      "cwd": "weighted-surviving-core-independent-audit",
+      "argv": [
+        "{python}",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "weighted-surviving-core-independent-audit/results.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "prefix-author",
+      "cwd": "survivor-prefix-certificates",
+      "argv": [
+        "{python}",
+        "reproduce.py"
+      ],
+      "compare": [
+        {
+          "actual": "survivor-prefix-certificates/initial_profiles.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "survivor-prefix-certificates/completion_checks.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "survivor-prefix-certificates/adaptive_fixed_pair_failures.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "survivor-prefix-certificates/adaptive_funnel_checks.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "survivor-prefix-certificates/exact_23_vertex_witness.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "survivor-prefix-certificates/nine_vertex_tail_quotient.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "prefix-author-optimized",
+      "cwd": "survivor-prefix-certificates",
+      "argv": [
+        "{python}",
+        "-O",
+        "reproduce.py"
+      ],
+      "compare": [
+        {
+          "actual": "survivor-prefix-certificates/initial_profiles.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "survivor-prefix-certificates/completion_checks.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "survivor-prefix-certificates/adaptive_fixed_pair_failures.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "survivor-prefix-certificates/adaptive_funnel_checks.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "survivor-prefix-certificates/exact_23_vertex_witness.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "survivor-prefix-certificates/nine_vertex_tail_quotient.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "prefix-independent",
+      "cwd": "survivor-prefix-independent-audit",
+      "argv": [
+        "{python}",
+        "check.py"
+      ],
+      "compare": [
+        {
+          "actual": "survivor-prefix-independent-audit/results.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "prefix-independent-optimized",
+      "cwd": "survivor-prefix-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "check.py"
+      ],
+      "compare": [
+        {
+          "actual": "survivor-prefix-independent-audit/results_optimized.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "prefix-family",
+      "cwd": "survivor-prefix-independent-audit",
+      "argv": [
+        "{python}",
+        "check_family.py"
+      ],
+      "compare": [
+        {
+          "actual": "survivor-prefix-independent-audit/family_results.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "prefix-family-optimized",
+      "cwd": "survivor-prefix-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "check_family.py"
+      ],
+      "compare": [
+        {
+          "actual": "survivor-prefix-independent-audit/family_results_optimized.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "prefix-final-witness",
+      "cwd": "survivor-prefix-independent-audit",
+      "argv": [
+        "{python}",
+        "check_final_witness.py"
+      ],
+      "compare": [
+        {
+          "actual": "survivor-prefix-independent-audit/final_witness_results.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "prefix-final-witness-optimized",
+      "cwd": "survivor-prefix-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "check_final_witness.py"
+      ],
+      "compare": [
+        {
+          "actual": "survivor-prefix-independent-audit/final_witness_results_optimized.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "four-ray-author",
+      "cwd": "four-ray-exclusion",
+      "argv": [
+        "{python}",
+        "verify_four_ray_exclusion.py"
+      ],
+      "compare": [
+        {
+          "actual": "four-ray-exclusion/verification.json",
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "four-ray-independent",
+      "cwd": "four-ray-exclusion-independent-audit",
+      "argv": [
+        "{python}",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "four-ray-exclusion-independent-audit/results.json",
+          "byte_exact": true
+        },
+        {
+          "actual": "four-ray-exclusion-independent-audit/run.log",
+          "byte_exact": true
+        }
+      ],
+      "stdout_file": "four-ray-exclusion-independent-audit/run.log"
+    }
+  ]
+}

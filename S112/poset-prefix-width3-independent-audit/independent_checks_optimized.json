@@ -1,0 +1,1520 @@
+{
+  "verdict": "PASS",
+  "independent_methods": [
+    "full core permutations",
+    "exact rational two-row simplex subdivision",
+    "exact primal and dual identities",
+    "recursive full guarded-completion enumeration",
+    "antichain-generated naturally labeled posets"
+  ],
+  "templates": [
+    {
+      "name": "W3-six-boundary",
+      "properties": {
+        "minima": [
+          0,
+          1
+        ],
+        "maxima": [
+          3,
+          4,
+          5
+        ],
+        "width": 3,
+        "maximum_antichains": [
+          [
+            3,
+            4,
+            5
+          ]
+        ],
+        "connected": true,
+        "cover_relations": [
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "full_core_extensions": 24,
+      "profile": {
+        "maxima": [
+          3,
+          4,
+          5
+        ],
+        "ideals": [
+          55,
+          47,
+          31
+        ],
+        "common": [
+          0,
+          1,
+          2
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "F": [
+          7,
+          8,
+          9
+        ],
+        "A": [
+          [
+            5,
+            5,
+            6
+          ],
+          [
+            4,
+            6,
+            6
+          ]
+        ]
+      },
+      "selected_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "q": [
+        [
+          "5/7",
+          "5/8",
+          "2/3"
+        ],
+        [
+          "4/7",
+          "3/4",
+          "2/3"
+        ]
+      ],
+      "all_selected_cell_optima": {
+        "LL": "-1/3",
+        "LH": "-7/24",
+        "HL": "-5/21",
+        "HH": "0"
+      },
+      "all_full_menu_duals": [
+        {
+          "pattern": "LL",
+          "nu": "-1/3",
+          "lambda_pairs": [
+            "2/3",
+            "1/3"
+          ],
+          "eta": [
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "pattern": "LH",
+          "nu": "-7/24",
+          "lambda_pairs": [
+            "1",
+            "0"
+          ],
+          "eta": [
+            "5/56",
+            "0",
+            "1/24"
+          ]
+        },
+        {
+          "pattern": "HL",
+          "nu": "-5/21",
+          "lambda_pairs": [
+            "0",
+            "1"
+          ],
+          "eta": [
+            "0",
+            "5/28",
+            "2/21"
+          ]
+        },
+        {
+          "pattern": "HH",
+          "nu": "0",
+          "lambda_pairs": [
+            "2/3",
+            "1/3"
+          ],
+          "eta": [
+            "0",
+            "0",
+            "0"
+          ]
+        }
+      ],
+      "sharp_max_min": "2/3",
+      "sharp_mu": [
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "7/15",
+          "8/15",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "common_lower_bound": "4/7",
+      "affine_determinant": "0",
+      "guarded_fixed_pair_witnesses": [
+        {
+          "pair_index": 0,
+          "pair": [
+            0,
+            1
+          ],
+          "omitted": 3,
+          "chain_length": 1,
+          "total_vertices": 7,
+          "B": [
+            2,
+            1,
+            1
+          ],
+          "total_extensions": 31,
+          "direction_counts": [
+            21,
+            20
+          ],
+          "probabilities": [
+            "21/31",
+            "20/31"
+          ],
+          "failed_pair_probability": "21/31",
+          "verified_exact_cut_states": [
+            55,
+            47,
+            31
+          ]
+        },
+        {
+          "pair_index": 1,
+          "pair": [
+            1,
+            2
+          ],
+          "omitted": 4,
+          "chain_length": 1,
+          "total_vertices": 7,
+          "B": [
+            1,
+            2,
+            1
+          ],
+          "total_extensions": 32,
+          "direction_counts": [
+            21,
+            22
+          ],
+          "probabilities": [
+            "21/32",
+            "11/16"
+          ],
+          "failed_pair_probability": "11/16",
+          "verified_exact_cut_states": [
+            55,
+            47,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "name": "W3-six-triangle",
+      "properties": {
+        "minima": [
+          0,
+          1
+        ],
+        "maxima": [
+          3,
+          4,
+          5
+        ],
+        "width": 3,
+        "maximum_antichains": [
+          [
+            3,
+            4,
+            5
+          ]
+        ],
+        "connected": true,
+        "cover_relations": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "full_core_extensions": 26,
+      "profile": {
+        "maxima": [
+          3,
+          4,
+          5
+        ],
+        "ideals": [
+          55,
+          47,
+          31
+        ],
+        "common": [
+          0,
+          1,
+          2
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "F": [
+          7,
+          9,
+          10
+        ],
+        "A": [
+          [
+            5,
+            5,
+            6
+          ],
+          [
+            4,
+            7,
+            7
+          ]
+        ]
+      },
+      "selected_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "q": [
+        [
+          "5/7",
+          "5/9",
+          "3/5"
+        ],
+        [
+          "4/7",
+          "7/9",
+          "7/10"
+        ]
+      ],
+      "all_selected_cell_optima": {
+        "LL": "-16/51",
+        "LH": "-2/9",
+        "HL": "-5/21",
+        "HH": "-1/69"
+      },
+      "all_full_menu_duals": [
+        {
+          "pattern": "LL",
+          "nu": "-16/51",
+          "lambda_pairs": [
+            "9/17",
+            "8/17"
+          ],
+          "eta": [
+            "0",
+            "2/153",
+            "0"
+          ]
+        },
+        {
+          "pattern": "LH",
+          "nu": "-2/9",
+          "lambda_pairs": [
+            "1",
+            "0"
+          ],
+          "eta": [
+            "10/63",
+            "0",
+            "2/45"
+          ]
+        },
+        {
+          "pattern": "HL",
+          "nu": "-5/21",
+          "lambda_pairs": [
+            "0",
+            "1"
+          ],
+          "eta": [
+            "0",
+            "13/63",
+            "9/70"
+          ]
+        },
+        {
+          "pattern": "HH",
+          "nu": "-1/69",
+          "lambda_pairs": [
+            "13/23",
+            "10/23"
+          ],
+          "eta": [
+            "0",
+            "0",
+            "1/115"
+          ]
+        }
+      ],
+      "sharp_max_min": "15/23",
+      "sharp_mu": [
+        [
+          "14/23",
+          "9/23",
+          "0"
+        ]
+      ],
+      "common_lower_bound": "5/9",
+      "affine_determinant": "1/315",
+      "guarded_fixed_pair_witnesses": [
+        {
+          "pair_index": 0,
+          "pair": [
+            0,
+            1
+          ],
+          "omitted": 3,
+          "chain_length": 5,
+          "total_vertices": 11,
+          "B": [
+            6,
+            1,
+            1
+          ],
+          "total_extensions": 61,
+          "direction_counts": [
+            41,
+            38
+          ],
+          "probabilities": [
+            "41/61",
+            "38/61"
+          ],
+          "failed_pair_probability": "41/61",
+          "verified_exact_cut_states": [
+            55,
+            47,
+            31
+          ]
+        },
+        {
+          "pair_index": 1,
+          "pair": [
+            1,
+            2
+          ],
+          "omitted": 4,
+          "chain_length": 1,
+          "total_vertices": 7,
+          "B": [
+            1,
+            2,
+            1
+          ],
+          "total_extensions": 35,
+          "direction_counts": [
+            21,
+            25
+          ],
+          "probabilities": [
+            "3/5",
+            "5/7"
+          ],
+          "failed_pair_probability": "5/7",
+          "verified_exact_cut_states": [
+            55,
+            47,
+            31
+          ]
+        }
+      ]
+    },
+    {
+      "name": "W3-seven-three-minima",
+      "properties": {
+        "minima": [
+          0,
+          1,
+          2
+        ],
+        "maxima": [
+          4,
+          5,
+          6
+        ],
+        "width": 3,
+        "maximum_antichains": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            2,
+            4
+          ],
+          [
+            1,
+            2,
+            3
+          ],
+          [
+            1,
+            3,
+            5
+          ],
+          [
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            4,
+            6
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            4,
+            5,
+            6
+          ]
+        ],
+        "connected": true,
+        "cover_relations": [
+          [
+            0,
+            3
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            6
+          ]
+        ]
+      },
+      "full_core_extensions": 169,
+      "profile": {
+        "maxima": [
+          4,
+          5,
+          6
+        ],
+        "ideals": [
+          111,
+          95,
+          63
+        ],
+        "common": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "pairs": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "F": [
+          40,
+          54,
+          75
+        ],
+        "A": [
+          [
+            28,
+            30,
+            42
+          ],
+          [
+            26,
+            40,
+            45
+          ],
+          [
+            18,
+            38,
+            40
+          ],
+          [
+            26,
+            42,
+            61
+          ],
+          [
+            28,
+            28,
+            60
+          ]
+        ]
+      },
+      "selected_pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "q": [
+        [
+          "7/10",
+          "5/9",
+          "14/25"
+        ],
+        [
+          "9/20",
+          "19/27",
+          "8/15"
+        ]
+      ],
+      "all_selected_cell_optima": {
+        "LL": "-40/177",
+        "LH": "-2/9",
+        "HL": "-7/60",
+        "HH": "-37/645"
+      },
+      "all_full_menu_duals": [
+        {
+          "pattern": "LLLLL",
+          "nu": "-40/177",
+          "lambda_pairs": [
+            "115/118",
+            "0",
+            "3/118",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "317/2360",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "pattern": "LLLLH",
+          "nu": "-40/177",
+          "lambda_pairs": [
+            "115/118",
+            "0",
+            "3/118",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "317/2360",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "pattern": "LLLHL",
+          "nu": "-40/177",
+          "lambda_pairs": [
+            "115/118",
+            "0",
+            "3/118",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "317/2360",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "pattern": "LLLHH",
+          "nu": "-40/177",
+          "lambda_pairs": [
+            "115/118",
+            "0",
+            "3/118",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "317/2360",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "pattern": "LLHLL",
+          "nu": "-2/9",
+          "lambda_pairs": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "13/90",
+            "0",
+            "1/225"
+          ]
+        },
+        {
+          "pattern": "LLHLH",
+          "nu": "-2/9",
+          "lambda_pairs": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "13/90",
+            "0",
+            "1/225"
+          ]
+        },
+        {
+          "pattern": "LLHHL",
+          "nu": "-2/9",
+          "lambda_pairs": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "13/90",
+            "0",
+            "1/225"
+          ]
+        },
+        {
+          "pattern": "LLHHH",
+          "nu": "-2/9",
+          "lambda_pairs": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "13/90",
+            "0",
+            "1/225"
+          ]
+        },
+        {
+          "pattern": "LHLLL",
+          "nu": "-40/177",
+          "lambda_pairs": [
+            "115/118",
+            "0",
+            "3/118",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "317/2360",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "pattern": "LHLLH",
+          "nu": "-40/177",
+          "lambda_pairs": [
+            "115/118",
+            "0",
+            "3/118",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "317/2360",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "pattern": "LHLHL",
+          "nu": "-40/177",
+          "lambda_pairs": [
+            "115/118",
+            "0",
+            "3/118",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "317/2360",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "pattern": "LHLHH",
+          "nu": "-40/177",
+          "lambda_pairs": [
+            "115/118",
+            "0",
+            "3/118",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "317/2360",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "pattern": "LHHLL",
+          "nu": "-2/9",
+          "lambda_pairs": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "13/90",
+            "0",
+            "1/225"
+          ]
+        },
+        {
+          "pattern": "LHHLH",
+          "nu": "-2/9",
+          "lambda_pairs": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "13/90",
+            "0",
+            "1/225"
+          ]
+        },
+        {
+          "pattern": "LHHHL",
+          "nu": "-2/9",
+          "lambda_pairs": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "13/90",
+            "0",
+            "1/225"
+          ]
+        },
+        {
+          "pattern": "LHHHH",
+          "nu": "-2/9",
+          "lambda_pairs": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "13/90",
+            "0",
+            "1/225"
+          ]
+        },
+        {
+          "pattern": "HLLLL",
+          "nu": "-7/60",
+          "lambda_pairs": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "137/540",
+            "1/12"
+          ]
+        },
+        {
+          "pattern": "HLLLH",
+          "nu": "-7/60",
+          "lambda_pairs": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "137/540",
+            "1/12"
+          ]
+        },
+        {
+          "pattern": "HLLHL",
+          "nu": "-7/60",
+          "lambda_pairs": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "137/540",
+            "1/12"
+          ]
+        },
+        {
+          "pattern": "HLLHH",
+          "nu": "-7/60",
+          "lambda_pairs": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "137/540",
+            "1/12"
+          ]
+        },
+        {
+          "pattern": "HLHLL",
+          "nu": "-37/645",
+          "lambda_pairs": [
+            "137/215",
+            "0",
+            "78/215",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "0",
+            "317/5375"
+          ]
+        },
+        {
+          "pattern": "HLHLH",
+          "nu": "-37/645",
+          "lambda_pairs": [
+            "137/215",
+            "0",
+            "78/215",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "0",
+            "317/5375"
+          ]
+        },
+        {
+          "pattern": "HLHHL",
+          "nu": "-37/645",
+          "lambda_pairs": [
+            "137/215",
+            "0",
+            "78/215",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "0",
+            "317/5375"
+          ]
+        },
+        {
+          "pattern": "HLHHH",
+          "nu": "-37/645",
+          "lambda_pairs": [
+            "137/215",
+            "0",
+            "78/215",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "0",
+            "317/5375"
+          ]
+        },
+        {
+          "pattern": "HHLLL",
+          "nu": "-7/60",
+          "lambda_pairs": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "137/540",
+            "1/12"
+          ]
+        },
+        {
+          "pattern": "HHLLH",
+          "nu": "-7/60",
+          "lambda_pairs": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "137/540",
+            "1/12"
+          ]
+        },
+        {
+          "pattern": "HHLHL",
+          "nu": "-7/60",
+          "lambda_pairs": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "137/540",
+            "1/12"
+          ]
+        },
+        {
+          "pattern": "HHLHH",
+          "nu": "-7/60",
+          "lambda_pairs": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "137/540",
+            "1/12"
+          ]
+        },
+        {
+          "pattern": "HHHLL",
+          "nu": "-37/645",
+          "lambda_pairs": [
+            "137/215",
+            "0",
+            "78/215",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "0",
+            "317/5375"
+          ]
+        },
+        {
+          "pattern": "HHHLH",
+          "nu": "-37/645",
+          "lambda_pairs": [
+            "137/215",
+            "0",
+            "78/215",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "0",
+            "317/5375"
+          ]
+        },
+        {
+          "pattern": "HHHHL",
+          "nu": "-37/645",
+          "lambda_pairs": [
+            "137/215",
+            "0",
+            "78/215",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "0",
+            "317/5375"
+          ]
+        },
+        {
+          "pattern": "HHHHH",
+          "nu": "-37/645",
+          "lambda_pairs": [
+            "137/215",
+            "0",
+            "78/215",
+            "0",
+            "0"
+          ],
+          "eta": [
+            "0",
+            "0",
+            "317/5375"
+          ]
+        }
+      ],
+      "sharp_max_min": "131/215",
+      "sharp_mu": [
+        [
+          "16/43",
+          "27/43",
+          "0"
+        ]
+      ],
+      "common_lower_bound": "9/20",
+      "affine_determinant": "317/13500",
+      "guarded_fixed_pair_witnesses": [
+        {
+          "pair_index": 0,
+          "pair": [
+            0,
+            1
+          ],
+          "omitted": 4,
+          "chain_length": 10,
+          "total_vertices": 17,
+          "B": [
+            11,
+            1,
+            1
+          ],
+          "total_extensions": 569,
+          "direction_counts": [
+            380,
+            371,
+            276,
+            389,
+            396
+          ],
+          "probabilities": [
+            "380/569",
+            "371/569",
+            "276/569",
+            "389/569",
+            "396/569"
+          ],
+          "failed_pair_probability": "380/569",
+          "verified_exact_cut_states": [
+            111,
+            95,
+            63
+          ]
+        },
+        {
+          "pair_index": 1,
+          "pair": [
+            0,
+            2
+          ],
+          "omitted": 5,
+          "chain_length": 1,
+          "total_vertices": 8,
+          "B": [
+            1,
+            2,
+            1
+          ],
+          "total_extensions": 223,
+          "direction_counts": [
+            130,
+            151,
+            134,
+            171,
+            144
+          ],
+          "probabilities": [
+            "130/223",
+            "151/223",
+            "134/223",
+            "171/223",
+            "144/223"
+          ],
+          "failed_pair_probability": "151/223",
+          "verified_exact_cut_states": [
+            111,
+            95,
+            63
+          ]
+        },
+        {
+          "pair_index": 2,
+          "pair": [
+            1,
+            2
+          ],
+          "omitted": 5,
+          "chain_length": 9,
+          "total_vertices": 16,
+          "B": [
+            1,
+            10,
+            1
+          ],
+          "total_extensions": 655,
+          "direction_counts": [
+            370,
+            471,
+            438,
+            507,
+            368
+          ],
+          "probabilities": [
+            "74/131",
+            "471/655",
+            "438/655",
+            "507/655",
+            "368/655"
+          ],
+          "failed_pair_probability": "438/655",
+          "verified_exact_cut_states": [
+            111,
+            95,
+            63
+          ]
+        },
+        {
+          "pair_index": 3,
+          "pair": [
+            1,
+            3
+          ],
+          "omitted": 5,
+          "chain_length": 1,
+          "total_vertices": 8,
+          "B": [
+            1,
+            2,
+            1
+          ],
+          "total_extensions": 223,
+          "direction_counts": [
+            130,
+            151,
+            134,
+            171,
+            144
+          ],
+          "probabilities": [
+            "130/223",
+            "151/223",
+            "134/223",
+            "171/223",
+            "144/223"
+          ],
+          "failed_pair_probability": "171/223",
+          "verified_exact_cut_states": [
+            111,
+            95,
+            63
+          ]
+        },
+        {
+          "pair_index": 4,
+          "pair": [
+            2,
+            3
+          ],
+          "omitted": 4,
+          "chain_length": 1,
+          "total_vertices": 8,
+          "B": [
+            2,
+            1,
+            1
+          ],
+          "total_extensions": 209,
+          "direction_counts": [
+            128,
+            137,
+            114,
+            155,
+            144
+          ],
+          "probabilities": [
+            "128/209",
+            "137/209",
+            "6/11",
+            "155/209",
+            "144/209"
+          ],
+          "failed_pair_probability": "144/209",
+          "verified_exact_cut_states": [
+            111,
+            95,
+            63
+          ]
+        }
+      ]
+    }
+  ],
+  "mutation_tests_rejected": [
+    "missing mask",
+    "duplicate mask",
+    "wrong pattern length",
+    "invalid pattern letter",
+    "negative multiplier",
+    "bad dual equality",
+    "bad primal normalization",
+    "truncated eta",
+    "extra multiplier",
+    "float rational",
+    "false optimum",
+    "false aggregate",
+    "empty pair menu",
+    "wrong selected pair",
+    "wrong count row",
+    "wrong denominator",
+    "wrong cut state",
+    "nontransitive predecessor table",
+    "false nonfixed claim",
+    "missing template"
+  ],
+  "negative_controls": {
+    "unguarded_core_initial_ideal_extra_cut_states": [
+      [
+        0,
+        1,
+        2,
+        3,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        6
+      ],
+      [
+        0,
+        1,
+        2,
+        5,
+        6
+      ]
+    ],
+    "two_unguarded_points_unobserved_pair_states": [
+      [
+        0,
+        1,
+        3,
+        6,
+        7
+      ],
+      [
+        0,
+        2,
+        4,
+        6,
+        7
+      ]
+    ],
+    "vertex_only_genuine_core": {
+      "F": [
+        10,
+        15,
+        20
+      ],
+      "A": [
+        [
+          6,
+          12,
+          12
+        ],
+        [
+          7,
+          7,
+          16
+        ]
+      ],
+      "all_cells": {
+        "LL": "-61/195",
+        "LH": "-4/15",
+        "HL": "-2/15",
+        "HH": "1/120"
+      },
+      "positive_B": [
+        1,
+        4,
+        5
+      ],
+      "probabilities": [
+        "57/85",
+        "23/34"
+      ],
+      "note": "This B is an abstract positive continuation vector. No completion realizing this vector is asserted."
+    }
+  },
+  "natural_label_counts": {
+    "0": 1,
+    "1": 1,
+    "2": 2,
+    "3": 7,
+    "4": 40,
+    "5": 357,
+    "6": 4824,
+    "7": 96428
+  },
+  "optimized_python": true
+}

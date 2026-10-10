@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "frozen_source_sha256": {
+    "ANALYTIC_RESULT.md": "3a85e01475b70f9aae1e19bd90c7a8b97ac21fbc88de29e3806cd6f630a1985c",
+    "formula_validation.json": "1c21da3a7123049a787c72f56dca05c03b33a6b3b63df40587ad11f712e2eea0",
+    "screen_tested_box.json": "f66d0fcae7d20beb8eed864f6f26a10579e8d9643c8ea0bd461d4a8252b08740",
+    "screen_tested_box.py": "84f33575b8a791801dedfbe018582a827628daf23fd77892e0a2c59d9be9bffb",
+    "weighted_core_formula.py": "5fee094e71def8ce9a0a81331ff5cbf80ad5870c50cf72c47bc2b91c967e3f76"
+  },
+  "author_json_outputs_reproduced_byte_identically": true,
+  "positive_box_vectors": 2187,
+  "independent_pair_numerators_in_box": 13122,
+  "independent_total_counts_in_box": 2187,
+  "independent_six_bound_checks_in_box": 13122,
+  "auxiliary_zero_block_vectors": 4725,
+  "random_vectors_1_to_9": 160,
+  "random_seed": 20261010,
+  "strict_threshold_equality_cases": {
+    "linear_6": 99,
+    "binomial_0": 90,
+    "linear_4": 99,
+    "binomial_6": 90,
+    "linear_0": 99
+  },
+  "four_ray_boundary_t_range": [
+    1,
+    100
+  ],
+  "four_ray_vectors": 395,
+  "standalone_surviving_counts": {
+    "singleton_ports": 972,
+    "linear_0": 2043,
+    "linear_6": 2043,
+    "linear_4": 2043,
+    "binomial_0": 1413,
+    "binomial_6": 1413,
+    "endpoint_first1": 1732,
+    "endpoint_last5": 1732,
+    "endpoint_top0_top2": 247,
+    "endpoint_bottom3_bottom6": 247
+  },
+  "cumulative_surviving_counts": {
+    "singleton_ports": 972,
+    "linear_0": 927,
+    "linear_6": 883,
+    "linear_4": 874,
+    "binomial_0": 847,
+    "binomial_6": 829,
+    "endpoint_first1": 616,
+    "endpoint_last5": 441,
+    "endpoint_top0_top2": 42,
+    "endpoint_bottom3_bottom6": 25
+  },
+  "smallest_survivor": {
+    "weights": [
+      2,
+      1,
+      1,
+      1,
+      2,
+      1,
+      2
+    ],
+    "total": 1121,
+    "delta_numerator": 454,
+    "balanced_pairs": [
+      {
+        "x": [
+          0,
+          1
+        ],
+        "y": [
+          2,
+          1
+        ],
+        "numerator_x_before_y": 742
+      },
+      {
+        "x": [
+          0,
+          2
+        ],
+        "y": [
+          4,
+          1
+        ],
+        "numerator_x_before_y": 423
+      },
+      {
+        "x": [
+          0,
+          2
+        ],
+        "y": [
+          6,
+          1
+        ],
+        "numerator_x_before_y": 700
+      },
+      {
+        "x": [
+          2,
+          1
+        ],
+        "y": [
+          4,
+          1
+        ],
+        "numerator_x_before_y": 667
+      },
+      {
+        "x": [
+          3,
+          1
+        ],
+        "y": [
+          4,
+          2
+        ],
+        "numerator_x_before_y": 454
+      },
+      {
+        "x": [
+          3,
+          1
+        ],
+        "y": [
+          6,
+          2
+        ],
+        "numerator_x_before_y": 742
+      },
+      {
+        "x": [
+          4,
+          2
+        ],
+        "y": [
+          6,
+          1
+        ],
+        "numerator_x_before_y": 423
+      }
+    ],
+    "maximizing_pairs": [
+      {
+        "x": [
+          2,
+          1
+        ],
+        "y": [
+          4,
+          1
+        ],
+        "numerator_x_before_y": 667
+      },
+      {
+        "x": [
+          3,
+          1
+        ],
+        "y": [
+          4,
+          2
+        ],
+        "numerator_x_before_y": 454
+      }
+    ],
+    "explicitly_enumerated_extensions": 1121
+  },
+  "scope": "Finite checks validate implementations only; unrestricted identities, bounds, and two corollaries are audited by proofs in AUDIT.md."
+}

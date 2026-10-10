@@ -1,0 +1,6 @@
+/tmp/prefix-verifier-hardening/certify.before.py
+{"optimized": false, "result": "REJECTED", "exception": "AssertionError", "message": ""}
+{"optimized": true, "result": "ACCEPTED"}
+/workspace/shared/poset-prefix-width3-search/certify.py
+{"optimized": false, "result": "REJECTED", "exception": "Invalid", "message": "primal feasible"}
+{"optimized": true, "result": "REJECTED", "exception": "Invalid", "message": "primal feasible"}

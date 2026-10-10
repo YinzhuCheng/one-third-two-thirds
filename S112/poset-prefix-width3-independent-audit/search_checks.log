@@ -1,0 +1,12 @@
+{
+  "verdict": "PASS for exact exported outputs; author verifier hardening recommended",
+  "profiles_checked": 28,
+  "reproduction": {
+    "candidates.json": "exact JSON equality after copied author rerun",
+    "exact_templates.json": "exact JSON equality after copied author rerun"
+  },
+  "author_assertion_probe": {
+    "normal": "REJECTED invalid optimum: AssertionError",
+    "optimized": "ACCEPTED invalid optimum"
+  }
+}

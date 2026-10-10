@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "max_quotient_n": 5,
+  "each_weight": [
+    1,
+    2
+  ],
+  "checks": {
+    "inflation_cycle_equivalences": 12130,
+    "actual_ordered_pair_characterizations": 592018
+  }
+}

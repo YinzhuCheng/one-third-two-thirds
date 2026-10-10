@@ -1,0 +1,413 @@
+{
+  "schema_version": 1,
+  "package": "S112",
+  "scope": "Exact necessary minimum-counterexample reductions, all-positive-weight endpoint filters, guarded-prefix numerical certificates with very-good-pair subsumption correction, and finite prime-core catalogue through order 8.",
+  "python_minimum": "3.10",
+  "stdlib_only_python": true,
+  "full_mode_extra_dependency": "C++17 compiler (default g++); no compiled binary is shipped.",
+  "ignored_json_keys": [
+    "elapsed_seconds",
+    "total_elapsed_seconds"
+  ],
+  "comparison": "Exact parsed JSON including all fields and list order, with only the two named elapsed-time keys removed recursively; files marked bytes require exact byte equality. No other field or ordering is normalized.",
+  "assertion_policy": "Run legacy identity scripts without -O. Only the explicitly marked hardened validators and correction checks are also run optimized.",
+  "source_policy": "Every command executes in a temporary copy; input snapshots and frozen audits are not overwritten.",
+  "discovery_only_not_rerun": [
+    "poset-prefix-width3-search/search.py",
+    "poset-prefix-width3-search/analyze.py",
+    "poset-prefix-width3-search/find_negative.py"
+  ],
+  "discovery_note": "NumPy/SciPy floating-point candidate discovery is archived but not required by standard-library certificate reproduction. All 28 exported profiles/minimum covers are independently checked by search_checks.py; this does not claim a fresh SciPy discovery rerun.",
+  "snapshot_only_historical_probe": "prefix-verifier-hardening/probe.py retains an original environment path for provenance. It is not invoked by the portable workflow; the portable parameterized test_hardening.py rechecks the optimum=999 failure in both modes.",
+  "steps": [
+    {
+      "id": "catalogue-frozen-check",
+      "cwd": "prime-core-catalogue",
+      "argv": [
+        "{python}",
+        "verify_package.py",
+        "--hashes"
+      ],
+      "compare": []
+    },
+    {
+      "id": "catalogue-primary-n8",
+      "cwd": "prime-core-catalogue",
+      "argv": [
+        "{python}",
+        "catalogue.py",
+        "--max-n",
+        "8"
+      ],
+      "compare": [
+        {
+          "actual": "prime-core-catalogue/results/summary.json",
+          "format": "json"
+        },
+        {
+          "actual": "prime-core-catalogue/results/survivors.json",
+          "format": "json"
+        },
+        {
+          "actual": "prime-core-catalogue/results/cycle_beyond_very_good.json",
+          "format": "json"
+        },
+        {
+          "actual": "prime-core-catalogue/results/two_port_beyond_separate.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "reductions-identities",
+      "cwd": "minimal-counterexample-reductions",
+      "argv": [
+        "{python}",
+        "check_reductions.py"
+      ],
+      "compare": [
+        {
+          "actual": "minimal-counterexample-reductions/check_results.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "reductions-independent_audit",
+      "cwd": "minimal-counterexample-reductions/audit",
+      "argv": [
+        "{python}",
+        "independent_audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "minimal-counterexample-reductions/audit/audit_results.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "reductions-very_good_inflation",
+      "cwd": "minimal-counterexample-reductions/audit",
+      "argv": [
+        "{python}",
+        "very_good_inflation.py"
+      ],
+      "compare": [
+        {
+          "actual": "minimal-counterexample-reductions/audit/very_good_results.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "reductions-endpoint_compression",
+      "cwd": "minimal-counterexample-reductions/audit",
+      "argv": [
+        "{python}",
+        "endpoint_compression.py"
+      ],
+      "compare": [
+        {
+          "actual": "minimal-counterexample-reductions/audit/endpoint_results.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "prefix-export-normal",
+      "cwd": "poset-prefix-width3-search",
+      "argv": [
+        "{python}",
+        "certify.py"
+      ],
+      "compare": [
+        {
+          "actual": "poset-prefix-width3-search/exact_templates.json",
+          "format": "bytes"
+        },
+        {
+          "actual": "poset-prefix-width3-search/certify.log",
+          "format": "bytes"
+        }
+      ],
+      "stdout_file": "poset-prefix-width3-search/certify.log"
+    },
+    {
+      "id": "prefix-hardening-normal",
+      "cwd": "prefix-verifier-hardening",
+      "argv": [
+        "{python}",
+        "test_hardening.py",
+        "../poset-prefix-width3-search",
+        "../poset-prefix-width3-independent-audit"
+      ],
+      "compare": [
+        {
+          "actual": "prefix-verifier-hardening/tests.normal.json",
+          "format": "json"
+        }
+      ],
+      "stdout_file": "prefix-verifier-hardening/tests.normal.json"
+    },
+    {
+      "id": "prefix-export-optimized",
+      "cwd": "poset-prefix-width3-search",
+      "argv": [
+        "{python}",
+        "-O",
+        "certify.py"
+      ],
+      "compare": [
+        {
+          "actual": "poset-prefix-width3-search/exact_templates.json",
+          "format": "bytes"
+        },
+        {
+          "actual": "poset-prefix-width3-search/certify.log",
+          "format": "bytes"
+        }
+      ],
+      "stdout_file": "poset-prefix-width3-search/certify.log"
+    },
+    {
+      "id": "prefix-hardening-optimized",
+      "cwd": "prefix-verifier-hardening",
+      "argv": [
+        "{python}",
+        "-O",
+        "test_hardening.py",
+        "../poset-prefix-width3-search",
+        "../poset-prefix-width3-independent-audit"
+      ],
+      "compare": [
+        {
+          "actual": "prefix-verifier-hardening/tests.optimized.json",
+          "format": "json"
+        }
+      ],
+      "stdout_file": "prefix-verifier-hardening/tests.optimized.json"
+    },
+    {
+      "id": "prefix-completions",
+      "cwd": "poset-prefix-width3-search",
+      "argv": [
+        "{python}",
+        "audit_completions.py"
+      ],
+      "compare": [
+        {
+          "actual": "poset-prefix-width3-search/completion_audit.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "prefix-independent-normal",
+      "cwd": "poset-prefix-width3-independent-audit",
+      "argv": [
+        "{python}",
+        "independent_checks.py"
+      ],
+      "compare": [
+        {
+          "actual": "poset-prefix-width3-independent-audit/independent_checks.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "prefix-independent-optimized",
+      "cwd": "poset-prefix-width3-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "independent_checks.py"
+      ],
+      "compare": [
+        {
+          "actual": "poset-prefix-width3-independent-audit/independent_checks_optimized.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "prefix-search-audit",
+      "cwd": "poset-prefix-width3-independent-audit",
+      "argv": [
+        "{python}",
+        "search_checks.py"
+      ],
+      "compare": [
+        {
+          "actual": "poset-prefix-width3-independent-audit/search_checks.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "prefix-scope-correction-normal",
+      "cwd": "poset-prefix-width3-redundancy-audit",
+      "argv": [
+        "{python}",
+        "check_redundancy.py"
+      ],
+      "compare": [
+        {
+          "actual": "poset-prefix-width3-redundancy-audit/checks.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "prefix-scope-correction-optimized",
+      "cwd": "poset-prefix-width3-redundancy-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "check_redundancy.py"
+      ],
+      "compare": [
+        {
+          "actual": "poset-prefix-width3-redundancy-audit/checks.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "catalogue-small-oracle",
+      "cwd": "prime-core-catalogue",
+      "argv": [
+        "{python}",
+        "independent_tests.py"
+      ],
+      "compare": [
+        {
+          "actual": "prime-core-catalogue/independent_test_results.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "catalogue-direct-mask-oracle-compile",
+      "mode": "full",
+      "cwd": "prime-core-catalogue",
+      "argv": [
+        "{cxx}",
+        "-O3",
+        "-std=c++17",
+        "independent_catalogue.cpp",
+        "-o",
+        "_s112_direct_mask_oracle"
+      ],
+      "compare": []
+    },
+    {
+      "id": "catalogue-direct-mask-oracle-enumerate",
+      "mode": "full",
+      "cwd": "prime-core-catalogue",
+      "argv": [
+        "./_s112_direct_mask_oracle",
+        "8"
+      ],
+      "stdout_file": "prime-core-catalogue/independent_catalogue_n8.json",
+      "compare": [
+        {
+          "actual": "prime-core-catalogue/independent_catalogue_n8.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "catalogue-derived-reports",
+      "cwd": "prime-core-catalogue",
+      "argv": [
+        "{python}",
+        "build_report.py"
+      ],
+      "compare": [
+        {
+          "actual": "prime-core-catalogue/results/survivor_isomorphism_classes.json",
+          "format": "json"
+        },
+        {
+          "actual": "prime-core-catalogue/n7_survivor_isomorphism_classes.json",
+          "format": "json"
+        },
+        {
+          "actual": "prime-core-catalogue/n7_singleton_constraints.json",
+          "format": "json"
+        },
+        {
+          "actual": "prime-core-catalogue/all_survivor_singleton_constraints.json",
+          "format": "json"
+        },
+        {
+          "actual": "prime-core-catalogue/enumeration_crosscheck.json",
+          "format": "json"
+        },
+        {
+          "actual": "prime-core-catalogue/COUNTS.md",
+          "format": "bytes"
+        }
+      ]
+    },
+    {
+      "id": "catalogue-regenerated-check",
+      "cwd": "prime-core-catalogue",
+      "argv": [
+        "{python}",
+        "verify_package.py"
+      ],
+      "compare": []
+    },
+    {
+      "id": "catalogue-independent-audit-compile",
+      "mode": "full",
+      "cwd": "prime-core-catalogue-independent-audit",
+      "argv": [
+        "{cxx}",
+        "-O3",
+        "-std=c++17",
+        "audit_enumeration.cpp",
+        "-o",
+        "_s112_suffix_oracle"
+      ],
+      "compare": []
+    },
+    {
+      "id": "catalogue-independent-audit-enumerate",
+      "mode": "full",
+      "cwd": "prime-core-catalogue-independent-audit",
+      "argv": [
+        "./_s112_suffix_oracle",
+        "8"
+      ],
+      "stdout_file": "prime-core-catalogue-independent-audit/enumeration.json",
+      "compare": [
+        {
+          "actual": "prime-core-catalogue-independent-audit/enumeration.json",
+          "format": "json"
+        }
+      ]
+    },
+    {
+      "id": "catalogue-independent-orbits",
+      "cwd": "prime-core-catalogue-independent-audit",
+      "argv": [
+        "{python}",
+        "audit_orbits.py",
+        "--reference",
+        "../prime-core-catalogue/independent_catalogue_n8.json",
+        "--reference",
+        "../prime-core-catalogue/results/survivors.json"
+      ],
+      "compare": [
+        {
+          "actual": "prime-core-catalogue-independent-audit/orbit_and_singleton_audit.json",
+          "format": "json"
+        }
+      ]
+    }
+  ]
+}

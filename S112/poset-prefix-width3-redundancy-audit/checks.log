@@ -1,0 +1,115 @@
+{
+  "verdict": "PASS",
+  "scope": "Exact finite sanity checks; unbounded theorem has a separate proof in AUDIT.md. Three outside vertices, all natural-label predecessor ideals meeting the full guard; lower antichain sizes zero and two.",
+  "primary_source": "https://arxiv.org/pdf/1610.00809",
+  "source_pin": "arXiv:1610.00809v3, Definition 5 and Theorem 2",
+  "results": [
+    {
+      "core": "six-boundary",
+      "pair": [
+        "a",
+        "b"
+      ],
+      "strict_lower_sets": [],
+      "upper_difference_first": [
+        "c",
+        "e"
+      ],
+      "upper_difference_second": [],
+      "families": [
+        {
+          "lower_antichain_size": 0,
+          "checked_by_tail_size": {
+            "0": 1,
+            "1": 4,
+            "2": 23,
+            "3": 190
+          },
+          "total_checked": 218
+        },
+        {
+          "lower_antichain_size": 2,
+          "checked_by_tail_size": {
+            "0": 1,
+            "1": 4,
+            "2": 23,
+            "3": 190
+          },
+          "total_checked": 218
+        }
+      ]
+    },
+    {
+      "core": "six-triangle",
+      "pair": [
+        "a",
+        "b"
+      ],
+      "strict_lower_sets": [],
+      "upper_difference_first": [
+        "c",
+        "e"
+      ],
+      "upper_difference_second": [
+        "d"
+      ],
+      "families": [
+        {
+          "lower_antichain_size": 0,
+          "checked_by_tail_size": {
+            "0": 1,
+            "1": 4,
+            "2": 23,
+            "3": 190
+          },
+          "total_checked": 218
+        },
+        {
+          "lower_antichain_size": 2,
+          "checked_by_tail_size": {
+            "0": 1,
+            "1": 4,
+            "2": 23,
+            "3": 190
+          },
+          "total_checked": 218
+        }
+      ]
+    },
+    {
+      "core": "seven-three-minima",
+      "pair": [
+        "a",
+        "c"
+      ],
+      "strict_lower_sets": [],
+      "upper_difference_first": [
+        "d",
+        "g"
+      ],
+      "upper_difference_second": [],
+      "families": [
+        {
+          "lower_antichain_size": 0,
+          "checked_by_tail_size": {
+            "0": 1,
+            "1": 4,
+            "2": 23,
+            "3": 190
+          },
+          "total_checked": 218
+        },
+        {
+          "lower_antichain_size": 2,
+          "checked_by_tail_size": {
+            "0": 1,
+            "1": 4,
+            "2": 23,
+            "3": 190
+          },
+          "total_checked": 218
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+PASS quotient exhaustive modules, unique degree pairs, adaptive isomorphism: [4, 7, 1, 5, 0, 3, 6, 2]
+PASS finite family controls: [1, 2, 3, 4, 15, 31]
+{
+  "vertices": "k+8",
+  "extension_count": "48k+121",
+  "B": [
+    "k+1",
+    "1"
+  ],
+  "p_2_before_5": "(23k+79)/(48k+121)",
+  "p_2_before_6": "(15k+55)/(48k+121)",
+  "height": "k+4",
+  "width": "3",
+  "pi": "max(5,k+3)",
+  "passes_requested_funnel": "k>=4",
+  "second_selected_pair_unbalanced": "k>=15"
+}

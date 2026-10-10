@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "catalogue_comparison": [
+    {
+      "reference_name": "independent_catalogue_n8.json",
+      "status": "PASS: identical complete survivor sets through n8"
+    },
+    {
+      "reference_name": "survivors.json",
+      "status": "PASS: identical complete survivor sets through n8"
+    }
+  ],
+  "classes_by_n": {
+    "7": 1,
+    "8": 17
+  },
+  "all_class_actual_endpoint_equivalence_checks": 4480,
+  "n7_actual_endpoint_equivalence_checks": 128,
+  "n7_cycle_witness_edges": [
+    {
+      "edge": "B0 to B2",
+      "rule": "lower",
+      "down_source": [],
+      "down_target": [
+        1
+      ],
+      "upper_difference": [
+        6
+      ]
+    },
+    {
+      "edge": "T2 to T0",
+      "rule": "upper",
+      "upper_target": [
+        3,
+        5
+      ],
+      "upper_source": [
+        3,
+        5,
+        6
+      ],
+      "down_difference": [
+        1
+      ]
+    },
+    {
+      "edge": "T3 to T6",
+      "rule": "upper",
+      "upper_target": [],
+      "upper_source": [
+        5
+      ],
+      "down_difference": [
+        0
+      ]
+    },
+    {
+      "edge": "B6 to B3",
+      "rule": "lower",
+      "down_source": [
+        1,
+        2
+      ],
+      "down_target": [
+        0,
+        1,
+        2
+      ],
+      "upper_difference": [
+        5
+      ]
+    }
+  ]
+}
+n8 width/height/multiplicity: [(4, 3, 465), (3, 3, 318), (3, 4, 194), (3, 4, 194), (3, 4, 102), (3, 4, 102), (3, 4, 107), (3, 5, 82), (3, 4, 107), (3, 4, 96), (3, 4, 98), (3, 4, 132), (3, 4, 121), (3, 4, 107), (3, 4, 121), (3, 4, 110), (3, 4, 96)]

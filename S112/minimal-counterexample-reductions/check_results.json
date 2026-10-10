@@ -1,0 +1,23 @@
+{
+  "max_n": 5,
+  "naturally_labeled_posets": 407,
+  "module_laws": 3612,
+  "chain_module_fiber_laws": 366,
+  "weighted_prime_decompositions": 98,
+  "examples": {
+    "external_pair": {
+      "P_e": 4,
+      "Q_e": 3,
+      "P_p": "3/4",
+      "Q_p": "2/3"
+    },
+    "averaged_lift": {
+      "P_e": 10,
+      "Q_e": 4,
+      "P_first": "7/10",
+      "P_second": "3/10",
+      "Q_p": "1/2"
+    }
+  },
+  "status": "PASS"
+}

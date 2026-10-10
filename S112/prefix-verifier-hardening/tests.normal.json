@@ -1,0 +1,1022 @@
+{
+  "verdict": "PASS",
+  "optimized": false,
+  "author_sha256": "4d35c66632ff9f1f89cecccf18e5aaf02f8a94a18c217f1823b5e9e01a721451",
+  "audit_mutations_rejected": [
+    "missing mask",
+    "duplicate mask",
+    "wrong pattern length",
+    "invalid pattern letter",
+    "negative multiplier",
+    "bad dual equality",
+    "bad primal normalization",
+    "truncated eta",
+    "extra multiplier",
+    "float rational",
+    "false optimum",
+    "false aggregate",
+    "empty pair menu",
+    "wrong selected pair",
+    "wrong count row",
+    "wrong denominator",
+    "wrong cut state",
+    "nontransitive predecessor table",
+    "false nonfixed claim",
+    "missing template"
+  ],
+  "additional_mutations_rejected": [
+    {
+      "name": "missing cell pattern",
+      "error": "cell missing required fields"
+    },
+    {
+      "name": "missing cell optimum",
+      "error": "cell missing required fields"
+    },
+    {
+      "name": "missing cell mu",
+      "error": "cell missing required fields"
+    },
+    {
+      "name": "missing cell lambda_pairs",
+      "error": "cell missing required fields"
+    },
+    {
+      "name": "missing cell eta",
+      "error": "cell missing required fields"
+    },
+    {
+      "name": "missing cell nu",
+      "error": "cell missing required fields"
+    },
+    {
+      "name": "cell shape pattern 0",
+      "error": "cell pattern"
+    },
+    {
+      "name": "cell shape pattern 1",
+      "error": "cell pattern"
+    },
+    {
+      "name": "cell shape pattern 2",
+      "error": "cell pattern"
+    },
+    {
+      "name": "cell shape pattern 3",
+      "error": "cell pattern"
+    },
+    {
+      "name": "cell shape pattern 4",
+      "error": "cell pattern"
+    },
+    {
+      "name": "cell shape pattern 5",
+      "error": "cell pattern"
+    },
+    {
+      "name": "cell shape pattern 6",
+      "error": "cell pattern"
+    },
+    {
+      "name": "cell shape pattern 7",
+      "error": "cell pattern"
+    },
+    {
+      "name": "cell shape pattern 8",
+      "error": "cell pattern"
+    },
+    {
+      "name": "cell shape mu 0",
+      "error": "mu dimensions"
+    },
+    {
+      "name": "cell shape mu 1",
+      "error": "mu dimensions"
+    },
+    {
+      "name": "cell shape mu 2",
+      "error": "mu dimensions"
+    },
+    {
+      "name": "cell shape mu 3",
+      "error": "mu dimensions"
+    },
+    {
+      "name": "cell shape mu 4",
+      "error": "mu dimensions"
+    },
+    {
+      "name": "cell shape lambda_pairs 0",
+      "error": "lambda_pairs dimensions"
+    },
+    {
+      "name": "cell shape lambda_pairs 1",
+      "error": "lambda_pairs dimensions"
+    },
+    {
+      "name": "cell shape lambda_pairs 2",
+      "error": "lambda_pairs dimensions"
+    },
+    {
+      "name": "cell shape lambda_pairs 3",
+      "error": "lambda_pairs dimensions"
+    },
+    {
+      "name": "cell shape lambda_pairs 4",
+      "error": "lambda_pairs dimensions"
+    },
+    {
+      "name": "cell shape eta 0",
+      "error": "eta dimensions"
+    },
+    {
+      "name": "cell shape eta 1",
+      "error": "eta dimensions"
+    },
+    {
+      "name": "cell shape eta 2",
+      "error": "eta dimensions"
+    },
+    {
+      "name": "cell shape eta 3",
+      "error": "eta dimensions"
+    },
+    {
+      "name": "cell shape eta 4",
+      "error": "eta dimensions"
+    },
+    {
+      "name": "rational nu 0",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational nu 1",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational nu 2",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational nu 3",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational nu 4",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational nu 5",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational nu 6",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational nu 7",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational nu 8",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational nu 9",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational optimum 0",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational optimum 1",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational optimum 2",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational optimum 3",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational optimum 4",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational optimum 5",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational optimum 6",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational optimum 7",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational optimum 8",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational optimum 9",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational mu 0",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational mu 1",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational mu 2",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational mu 3",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational mu 4",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational mu 5",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational mu 6",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational mu 7",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational mu 8",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational mu 9",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational lambda_pairs 0",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational lambda_pairs 1",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational lambda_pairs 2",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational lambda_pairs 3",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational lambda_pairs 4",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational lambda_pairs 5",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational lambda_pairs 6",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational lambda_pairs 7",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational lambda_pairs 8",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational lambda_pairs 9",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational eta 0",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational eta 1",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational eta 2",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational eta 3",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational eta 4",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational eta 5",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational eta 6",
+      "error": "rational input must be integer or string"
+    },
+    {
+      "name": "rational eta 7",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational eta 8",
+      "error": "invalid rational"
+    },
+    {
+      "name": "rational eta 9",
+      "error": "invalid rational"
+    },
+    {
+      "name": "optimum 999",
+      "error": "primal feasible"
+    },
+    {
+      "name": "negative primal weight",
+      "error": "nonnegative multipliers"
+    },
+    {
+      "name": "negative dual pair weight",
+      "error": "nonnegative multipliers"
+    },
+    {
+      "name": "negative state residual",
+      "error": "nonnegative multipliers"
+    },
+    {
+      "name": "wrong dual normalization",
+      "error": "normalizations"
+    },
+    {
+      "name": "wrong primal normalization",
+      "error": "normalizations"
+    },
+    {
+      "name": "false nu",
+      "error": "dual identity"
+    },
+    {
+      "name": "null cell",
+      "error": "cell dictionary"
+    },
+    {
+      "name": "null cell list",
+      "error": "complete unique masks"
+    },
+    {
+      "name": "empty cell list",
+      "error": "complete unique masks"
+    },
+    {
+      "name": "extra cell",
+      "error": "complete unique masks"
+    },
+    {
+      "name": "missing cell",
+      "error": "complete unique masks"
+    },
+    {
+      "name": "duplicate mask",
+      "error": "complete unique masks"
+    },
+    {
+      "name": "missing template pred",
+      "error": "profile missing required fields"
+    },
+    {
+      "name": "missing template n",
+      "error": "profile missing required fields"
+    },
+    {
+      "name": "missing template r",
+      "error": "profile missing required fields"
+    },
+    {
+      "name": "missing template maxima",
+      "error": "profile missing required fields"
+    },
+    {
+      "name": "missing template ideals",
+      "error": "profile missing required fields"
+    },
+    {
+      "name": "missing template F",
+      "error": "profile missing required fields"
+    },
+    {
+      "name": "missing template pairs",
+      "error": "profile missing required fields"
+    },
+    {
+      "name": "missing template A",
+      "error": "profile missing required fields"
+    },
+    {
+      "name": "missing template covers",
+      "error": "profile missing required fields"
+    },
+    {
+      "name": "missing template covers_edges",
+      "error": "profile missing required fields"
+    },
+    {
+      "name": "missing template name",
+      "error": "template missing required fields"
+    },
+    {
+      "name": "missing template selected_indices",
+      "error": "template missing required fields"
+    },
+    {
+      "name": "missing template selected_pairs",
+      "error": "template missing required fields"
+    },
+    {
+      "name": "missing template certificates",
+      "error": "template missing required fields"
+    },
+    {
+      "name": "missing template covered",
+      "error": "template missing required fields"
+    },
+    {
+      "name": "missing template all_observed_pairs_nonfixed",
+      "error": "template missing required fields"
+    },
+    {
+      "name": "null template",
+      "error": "profile dictionary"
+    },
+    {
+      "name": "bool n",
+      "error": "cut"
+    },
+    {
+      "name": "negative n",
+      "error": "cut"
+    },
+    {
+      "name": "string r",
+      "error": "cut"
+    },
+    {
+      "name": "wrong r",
+      "error": "cut"
+    },
+    {
+      "name": "null pred",
+      "error": "predecessor masks"
+    },
+    {
+      "name": "truncated pred",
+      "error": "predecessor masks"
+    },
+    {
+      "name": "negative pred",
+      "error": "predecessor masks"
+    },
+    {
+      "name": "bool pred",
+      "error": "predecessor masks"
+    },
+    {
+      "name": "out of range pred",
+      "error": "predecessor masks"
+    },
+    {
+      "name": "unclosed pred",
+      "error": "predecessor closure"
+    },
+    {
+      "name": "null edges",
+      "error": "Hasse edges endpoints"
+    },
+    {
+      "name": "edge self loop",
+      "error": "Hasse edges endpoints"
+    },
+    {
+      "name": "edge wrong size",
+      "error": "Hasse edges endpoints"
+    },
+    {
+      "name": "edge bool endpoint",
+      "error": "Hasse edges endpoints"
+    },
+    {
+      "name": "edge out of range",
+      "error": "Hasse edges endpoints"
+    },
+    {
+      "name": "edge cycle",
+      "error": "acyclic order"
+    },
+    {
+      "name": "duplicate edge",
+      "error": "duplicate Hasse edges"
+    },
+    {
+      "name": "redundant Hasse edge",
+      "error": "Hasse edges"
+    },
+    {
+      "name": "null maxima",
+      "error": "recomputed maxima"
+    },
+    {
+      "name": "wrong maxima",
+      "error": "recomputed maxima"
+    },
+    {
+      "name": "wrong ideals",
+      "error": "recomputed ideals"
+    },
+    {
+      "name": "bool ideal",
+      "error": "recomputed ideals"
+    },
+    {
+      "name": "null pairs",
+      "error": "observed pairs endpoints"
+    },
+    {
+      "name": "bool pair endpoint",
+      "error": "observed pairs endpoints"
+    },
+    {
+      "name": "wrong pair",
+      "error": "recomputed pairs"
+    },
+    {
+      "name": "missing pair",
+      "error": "recomputed pairs"
+    },
+    {
+      "name": "null F",
+      "error": "F positive integers"
+    },
+    {
+      "name": "empty F",
+      "error": "F positive integers"
+    },
+    {
+      "name": "zero F",
+      "error": "F positive integers"
+    },
+    {
+      "name": "negative F",
+      "error": "F positive integers"
+    },
+    {
+      "name": "float F",
+      "error": "F positive integers"
+    },
+    {
+      "name": "string F",
+      "error": "F positive integers"
+    },
+    {
+      "name": "bool F",
+      "error": "F positive integers"
+    },
+    {
+      "name": "wrong F",
+      "error": "recomputed F and A"
+    },
+    {
+      "name": "null A",
+      "error": "A dimensions"
+    },
+    {
+      "name": "empty A",
+      "error": "A dimensions"
+    },
+    {
+      "name": "null A row",
+      "error": "A dimensions"
+    },
+    {
+      "name": "truncated A row",
+      "error": "A dimensions"
+    },
+    {
+      "name": "extra A row entry",
+      "error": "A dimensions"
+    },
+    {
+      "name": "out of range A",
+      "error": "A range"
+    },
+    {
+      "name": "negative A",
+      "error": "A range"
+    },
+    {
+      "name": "float A",
+      "error": "A range"
+    },
+    {
+      "name": "bool A",
+      "error": "A range"
+    },
+    {
+      "name": "wrong A",
+      "error": "recomputed F and A"
+    },
+    {
+      "name": "null selection",
+      "error": "selected indices"
+    },
+    {
+      "name": "empty selection",
+      "error": "selected indices"
+    },
+    {
+      "name": "bool selection",
+      "error": "selected indices"
+    },
+    {
+      "name": "duplicate selection",
+      "error": "unique selected indices"
+    },
+    {
+      "name": "negative selection",
+      "error": "selected indices"
+    },
+    {
+      "name": "out of range selection",
+      "error": "selected indices"
+    },
+    {
+      "name": "bool selected endpoints",
+      "error": "selected pairs endpoints"
+    },
+    {
+      "name": "wrong selected endpoints",
+      "error": "selected endpoints"
+    },
+    {
+      "name": "false coverage",
+      "error": "aggregate coverage"
+    },
+    {
+      "name": "integer coverage",
+      "error": "aggregate coverage"
+    },
+    {
+      "name": "false discovery claim",
+      "error": "successful profile"
+    },
+    {
+      "name": "integer discovery claim",
+      "error": "successful profile"
+    },
+    {
+      "name": "false nonfixed",
+      "error": "fixed-pair status"
+    },
+    {
+      "name": "integer nonfixed",
+      "error": "fixed-pair status"
+    },
+    {
+      "name": "null name",
+      "error": "template name"
+    },
+    {
+      "name": "empty name",
+      "error": "template name"
+    },
+    {
+      "name": "duplicate name",
+      "error": "unique templates"
+    },
+    {
+      "name": "null bundle",
+      "error": "three templates"
+    },
+    {
+      "name": "empty bundle",
+      "error": "three templates"
+    },
+    {
+      "name": "missing template",
+      "error": "three templates"
+    },
+    {
+      "name": "extra template",
+      "error": "three templates"
+    },
+    {
+      "name": "direct bad F None",
+      "error": "F positive integers"
+    },
+    {
+      "name": "direct bad F []",
+      "error": "F positive integers"
+    },
+    {
+      "name": "direct bad F [7, 8]",
+      "error": "A dimensions"
+    },
+    {
+      "name": "direct bad F [0, 8, 9]",
+      "error": "F positive integers"
+    },
+    {
+      "name": "direct bad F [True, 8, 9]",
+      "error": "F positive integers"
+    },
+    {
+      "name": "direct bad F [7.0, 8, 9]",
+      "error": "F positive integers"
+    },
+    {
+      "name": "direct bad A None",
+      "error": "A dimensions"
+    },
+    {
+      "name": "direct bad A []",
+      "error": "A dimensions"
+    },
+    {
+      "name": "direct bad A [[5, 5, 6]]",
+      "error": "cell pattern"
+    },
+    {
+      "name": "direct bad A [[5, 5], [4, 6, 6]]",
+      "error": "A dimensions"
+    },
+    {
+      "name": "direct bad A [[5, 5, 6, 0], [4, 6, 6]]",
+      "error": "A dimensions"
+    },
+    {
+      "name": "direct bad A [[5.0, 5, 6], [4, 6, 6]]",
+      "error": "A range"
+    },
+    {
+      "name": "direct false optimum 999",
+      "error": "primal feasible"
+    },
+    {
+      "name": "dot truncated vector",
+      "error": "dot dimensions"
+    },
+    {
+      "name": "solve missing row",
+      "error": "linear system dimensions"
+    },
+    {
+      "name": "solve extra row",
+      "error": "linear system dimensions"
+    },
+    {
+      "name": "LP invalid pattern None",
+      "error": "cell pattern type"
+    },
+    {
+      "name": "LP invalid pattern 1",
+      "error": "cell pattern type"
+    },
+    {
+      "name": "LP invalid pattern 'XH'",
+      "error": "cell pattern letters"
+    },
+    {
+      "name": "LP invalid pattern 'L'",
+      "error": "cell pattern"
+    },
+    {
+      "name": "LP invalid pattern 'LLL'",
+      "error": "cell pattern"
+    },
+    {
+      "name": "LP invalid pattern ['LH']",
+      "error": "cell pattern letters"
+    },
+    {
+      "name": "LP invalid pattern [False, 'H']",
+      "error": "cell pattern letters"
+    },
+    {
+      "name": "LP invalid table",
+      "error": "F positive integers"
+    },
+    {
+      "name": "schema sweep n None",
+      "error": "cut"
+    },
+    {
+      "name": "schema sweep n {}",
+      "error": "cut"
+    },
+    {
+      "name": "schema sweep n []",
+      "error": "cut"
+    },
+    {
+      "name": "schema sweep r None",
+      "error": "cut"
+    },
+    {
+      "name": "schema sweep r {}",
+      "error": "cut"
+    },
+    {
+      "name": "schema sweep r []",
+      "error": "cut"
+    },
+    {
+      "name": "schema sweep pred None",
+      "error": "predecessor masks"
+    },
+    {
+      "name": "schema sweep pred {}",
+      "error": "predecessor masks"
+    },
+    {
+      "name": "schema sweep pred []",
+      "error": "predecessor masks"
+    },
+    {
+      "name": "schema sweep covers_edges None",
+      "error": "Hasse edges endpoints"
+    },
+    {
+      "name": "schema sweep covers_edges {}",
+      "error": "Hasse edges endpoints"
+    },
+    {
+      "name": "schema sweep covers_edges []",
+      "error": "predecessor closure"
+    },
+    {
+      "name": "schema sweep maxima None",
+      "error": "recomputed maxima"
+    },
+    {
+      "name": "schema sweep maxima {}",
+      "error": "recomputed maxima"
+    },
+    {
+      "name": "schema sweep maxima []",
+      "error": "recomputed maxima"
+    },
+    {
+      "name": "schema sweep ideals None",
+      "error": "recomputed ideals"
+    },
+    {
+      "name": "schema sweep ideals {}",
+      "error": "recomputed ideals"
+    },
+    {
+      "name": "schema sweep ideals []",
+      "error": "recomputed ideals"
+    },
+    {
+      "name": "schema sweep pairs None",
+      "error": "observed pairs endpoints"
+    },
+    {
+      "name": "schema sweep pairs {}",
+      "error": "observed pairs endpoints"
+    },
+    {
+      "name": "schema sweep pairs []",
+      "error": "recomputed pairs"
+    },
+    {
+      "name": "schema sweep F None",
+      "error": "F positive integers"
+    },
+    {
+      "name": "schema sweep F {}",
+      "error": "F positive integers"
+    },
+    {
+      "name": "schema sweep F []",
+      "error": "F positive integers"
+    },
+    {
+      "name": "schema sweep A None",
+      "error": "A dimensions"
+    },
+    {
+      "name": "schema sweep A {}",
+      "error": "A dimensions"
+    },
+    {
+      "name": "schema sweep A []",
+      "error": "A dimensions"
+    },
+    {
+      "name": "schema sweep selected_indices None",
+      "error": "selected indices"
+    },
+    {
+      "name": "schema sweep selected_indices {}",
+      "error": "selected indices"
+    },
+    {
+      "name": "schema sweep selected_indices []",
+      "error": "selected indices"
+    },
+    {
+      "name": "schema sweep selected_pairs None",
+      "error": "selected pairs endpoints"
+    },
+    {
+      "name": "schema sweep selected_pairs {}",
+      "error": "selected pairs endpoints"
+    },
+    {
+      "name": "schema sweep selected_pairs []",
+      "error": "selected endpoints"
+    },
+    {
+      "name": "schema sweep certificates None",
+      "error": "complete unique masks"
+    },
+    {
+      "name": "schema sweep certificates {}",
+      "error": "complete unique masks"
+    },
+    {
+      "name": "schema sweep certificates []",
+      "error": "complete unique masks"
+    },
+    {
+      "name": "schema sweep name None",
+      "error": "template name"
+    },
+    {
+      "name": "schema sweep name {}",
+      "error": "template name"
+    },
+    {
+      "name": "schema sweep name []",
+      "error": "template name"
+    },
+    {
+      "name": "schema sweep covered None",
+      "error": "aggregate coverage"
+    },
+    {
+      "name": "schema sweep covered {}",
+      "error": "aggregate coverage"
+    },
+    {
+      "name": "schema sweep covered []",
+      "error": "aggregate coverage"
+    },
+    {
+      "name": "schema sweep covers None",
+      "error": "successful profile"
+    },
+    {
+      "name": "schema sweep covers {}",
+      "error": "successful profile"
+    },
+    {
+      "name": "schema sweep covers []",
+      "error": "successful profile"
+    },
+    {
+      "name": "schema sweep all_observed_pairs_nonfixed None",
+      "error": "fixed-pair status"
+    },
+    {
+      "name": "schema sweep all_observed_pairs_nonfixed {}",
+      "error": "fixed-pair status"
+    },
+    {
+      "name": "schema sweep all_observed_pairs_nonfixed []",
+      "error": "fixed-pair status"
+    }
+  ],
+  "total_rejections": 267,
+  "valid_templates": 3,
+  "valid_selected_cells": 12,
+  "negative_control_HH": "1/120",
+  "assertions_in_repaired_source": 0
+}

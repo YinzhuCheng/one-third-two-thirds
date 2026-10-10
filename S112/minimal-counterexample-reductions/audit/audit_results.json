@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "max_n": 6,
+  "elapsed_seconds": 7.004,
+  "checks": {
+    "posets": 5231,
+    "module_uniform_fibers": 52214,
+    "intersecting_chain_module_unions": 57501,
+    "chain_inflation_word_and_geometry_laws": 5231,
+    "rank_pair_numerators": 5225,
+    "prime_quotients_under_minimality_condition": 1320,
+    "two_chain_balanced_crossings": 5050
+  }
+}

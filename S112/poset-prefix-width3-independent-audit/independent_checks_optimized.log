@@ -1,0 +1,39 @@
+{
+  "verdict": "PASS",
+  "output": "/workspace/shared/poset-prefix-width3-independent-audit/independent_checks_optimized.json",
+  "templates": [
+    {
+      "name": "W3-six-boundary",
+      "core_extensions": 24,
+      "sharp_max_min": "2/3",
+      "witnesses": 2,
+      "full_masks": 4
+    },
+    {
+      "name": "W3-six-triangle",
+      "core_extensions": 26,
+      "sharp_max_min": "15/23",
+      "witnesses": 2,
+      "full_masks": 4
+    },
+    {
+      "name": "W3-seven-three-minima",
+      "core_extensions": 169,
+      "sharp_max_min": "131/215",
+      "witnesses": 5,
+      "full_masks": 32
+    }
+  ],
+  "rejected_mutations": 20,
+  "natural_counts": {
+    "0": 1,
+    "1": 1,
+    "2": 2,
+    "3": 7,
+    "4": 40,
+    "5": 357,
+    "6": 4824,
+    "7": 96428
+  },
+  "optimized": true
+}

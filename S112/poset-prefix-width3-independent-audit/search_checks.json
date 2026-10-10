@@ -1,0 +1,712 @@
+{
+  "verdict": "PASS for exact exported outputs; author verifier hardening recommended",
+  "reproduction": {
+    "candidates.json": "exact JSON equality after copied author rerun",
+    "exact_templates.json": "exact JSON equality after copied author rerun"
+  },
+  "recorded_search_stats": {
+    "5": [
+      357,
+      121,
+      19,
+      0
+    ],
+    "6": [
+      4824,
+      1540,
+      362,
+      5
+    ],
+    "7": [
+      96428,
+      22411,
+      2032,
+      23
+    ]
+  },
+  "all_28_profiles_and_minimum_covers": [
+    {
+      "n": 6,
+      "pred": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        9
+      ],
+      "F": [
+        10,
+        20,
+        30
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 6,
+      "pred": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        9
+      ],
+      "F": [
+        9,
+        20,
+        25
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 6,
+      "pred": [
+        0,
+        0,
+        1,
+        2,
+        5,
+        5
+      ],
+      "F": [
+        10,
+        10,
+        10
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 6,
+      "pred": [
+        0,
+        0,
+        1,
+        2,
+        5,
+        7
+      ],
+      "F": [
+        7,
+        9,
+        10
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 6,
+      "pred": [
+        0,
+        0,
+        1,
+        3,
+        5,
+        7
+      ],
+      "F": [
+        7,
+        8,
+        9
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        5,
+        11
+      ],
+      "F": [
+        40,
+        54,
+        75
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        9,
+        41
+      ],
+      "F": [
+        15,
+        30,
+        60
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        9,
+        43
+      ],
+      "F": [
+        14,
+        24,
+        60
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        0,
+        1,
+        3,
+        5,
+        11
+      ],
+      "F": [
+        40,
+        48,
+        66
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        1,
+        5,
+        7,
+        11
+      ],
+      "F": [
+        22,
+        26,
+        33
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        1,
+        5,
+        9,
+        21
+      ],
+      "F": [
+        10,
+        24,
+        36
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        1,
+        5,
+        13,
+        21
+      ],
+      "F": [
+        9,
+        24,
+        30
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        1,
+        7,
+        7,
+        11
+      ],
+      "F": [
+        22,
+        22,
+        28
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        37
+      ],
+      "F": [
+        14,
+        15,
+        35
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        2,
+        3,
+        5,
+        39
+      ],
+      "F": [
+        13,
+        14,
+        35
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        2,
+        5,
+        7,
+        21
+      ],
+      "F": [
+        12,
+        15,
+        26
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        2,
+        5,
+        7,
+        23
+      ],
+      "F": [
+        11,
+        14,
+        26
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        2,
+        5,
+        7,
+        39
+      ],
+      "F": [
+        10,
+        12,
+        26
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        3,
+        3,
+        5,
+        37
+      ],
+      "F": [
+        14,
+        14,
+        32
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        3,
+        3,
+        5,
+        39
+      ],
+      "F": [
+        13,
+        13,
+        32
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        3,
+        5,
+        5,
+        11
+      ],
+      "F": [
+        16,
+        16,
+        28
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        3,
+        5,
+        5,
+        15
+      ],
+      "F": [
+        14,
+        14,
+        28
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        0,
+        1,
+        3,
+        5,
+        7,
+        39
+      ],
+      "F": [
+        10,
+        11,
+        24
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        1,
+        1,
+        1,
+        3,
+        5,
+        19
+      ],
+      "F": [
+        10,
+        20,
+        30
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        1,
+        1,
+        1,
+        3,
+        7,
+        19
+      ],
+      "F": [
+        9,
+        20,
+        25
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        1,
+        1,
+        3,
+        5,
+        11,
+        11
+      ],
+      "F": [
+        10,
+        10,
+        10
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        1,
+        1,
+        3,
+        5,
+        11,
+        15
+      ],
+      "F": [
+        7,
+        9,
+        10
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "n": 7,
+      "pred": [
+        0,
+        1,
+        1,
+        3,
+        7,
+        11,
+        15
+      ],
+      "F": [
+        7,
+        8,
+        9
+      ],
+      "exact_minimum_cover_size": 2,
+      "exact_minimum_covers": [
+        [
+          0,
+          1
+        ]
+      ]
+    }
+  ],
+  "author_assertion_probe": {
+    "normal": "REJECTED invalid optimum: AssertionError",
+    "optimized": "ACCEPTED invalid optimum"
+  }
+}
