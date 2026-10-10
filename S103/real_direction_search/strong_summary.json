@@ -1,0 +1,12 @@
+{
+  "samples": 2000,
+  "seed": 103731,
+  "n_range": [
+    11,
+    79
+  ],
+  "negative_target": 0,
+  "negative_strengthened": 0,
+  "best_strengthened": "0",
+  "elapsed": 7.518218278884888
+}

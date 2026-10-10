@@ -1,3 +1,8 @@
+## S103 当前增量 · 2026-10-10
+
+[完整报告](S103/REPORT.md)：共享严格下集且中性集为链的平方界，以及width≤3归一化平方dU≤p²，经路径谱与离散BL完整证明及独立研究审查通过；偏序应用条件于所列S102/Stanley/Chan–Pak输入，非外部或形式化认证。任意宽度一般候选仍OPEN。
+真实13点证书否定旧能量充分闭合，但目标行列式为正；联合切口精确乘积与头尾余项见报告。MAIN33/WIDTH3/MC3/TEN40仍OPEN，U58仍UNDER_AUDIT；G7/G10护栏与S99约化保留。下方旧状态保留为历史，不覆盖本段的准确子命题范围。
+
 # 1/3–2/3 猜想 · 数学研究主档
 
 这是数学研究项目，不是软件工程任务。证明无需先通过程序、哈希、CI或形式化。
@@ -15,3 +20,4 @@ Notion核心索引的可恢复文本见[registry/RESEARCH_CORE.md](registry/RESE
 [路线总图](02_RESEARCH_ATLAS.md) · [依赖](03_DEPENDENCIES.md) · [反例](04_FALSE_ROUTES_AND_GUARDS.md) · [优先级](05_PRIORITIES_AND_CONJECTURES.md) · [文献接口](06_LITERATURE_AND_THEOREM_MAP.md) · [本次学术检索核对](literature/TOOLCHAIN_SEARCH_20261002.md) · [审查状态](10_AUDIT_STATUS.md)
 
 [公开阅读网站](https://one-third-two-thirds.vercel.app/)可停用而不影响数学主档。成功写入或部署不表示证明已获外部审查。研究方式始终遵守[AGENTS.md](AGENTS.md)。
+

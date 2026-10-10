@@ -1,0 +1,137 @@
+S103 SNAPSHOT STATUS UPDATE (2026-10-10)
+The later schur_path_spectral_proof.txt and backend_second_order_bl_proof.txt,
+with path_spectral_closure_audit.txt and backend_second_order_bl_audit.txt,
+close the strengthened scalar inequality and the shared-strict-downset,
+neutral-chain square target at independently reviewed research-proof level,
+conditional on the stated S102/Stanley/Chan-Pak inputs for the poset application.
+The width-at-most-three normalized square consequence follows. The arbitrary-
+width candidate with a general non-chain neutral set remains OPEN, as do
+MAIN33/WIDTH3/MC3/TEN40. Historical OPEN or pending-audit wording below records
+the earlier derivation stage and is superseded only within that exact scope.
+No claim of external certification, formal verification, or novelty is made.
+
+--- ORIGINAL DERIVATION (preserved; local source links normalized) ---
+
+S103 live independent mathematical audit
+2026-10-10. Research audit, not formal verification or external certification.
+
+Inputs read: published S102 shared_prefix_determinant_attempt.txt and its audit.
+The conditional external inputs (Stanley rank log concavity, CP one-positive-direction theorem) are retained; they are not re-proved here.
+
+A. Single-common-predecessor subclass: algebra APPROVED, draft pending final read.
+Assume the S102 common-downset and neutral-chain setup and D={d}.
+Since n cannot precede d and N is a chain, there is a k, 0<=k<=R,
+such that d is incomparable to n1,...,nk and d<n_(k+1),...,n_R.
+Then a_j=min(j,k)+1, c_j=1 for j<=k and 0 afterwards.
+Consequently f_j=(j+1)(j+2)/2 for j<=k, and f_j>0 afterwards.
+Let m_j=E_j>0 and S=sum_(j=0)^k m_j. The actual direction obeys
+sum_(j=0)^k m_j g_j=0. The scalar inequality being proved for k<=3
+is stronger: it holds for ANY such scalar g, with no backend direction restriction.
+Deleting the next neutral minimal point injects LE(Q_(j+1)) into LE(Q_j),
+so m_j>=m_(j+1) (indeed the u,y alternatives give strictness).
+The variance identity is
+ S sum m_j g_j^2 = sum_(a<b) m_a m_b (g_a-g_b)^2.
+Retain only energy terms j<k; all discarded terms are nonnegative.
+Set delta_i=g_i-g_(i+1). The required difference times S is delta^T B delta,
+where
+ B = S diag(F_i m_i) - sum_(a<b) m_a m_b v_ab v_ab^T,
+ F_i=(i+1)(i+2)/2, and (v_ab)_i=1 if a<=i<b and 0 otherwise.
+Independent symbolic expansion, with generic indeterminates m, gives:
+ k=1: leading minor m0^2.
+ k=2: leading minors m0^2; m0^2 S(3m1-m2).
+ k=3: leading minors m0^2; m0^2 S(3m1-m2-m3);
+       m0^2 S^2(18m1m2-3m1m3-6m2^2-5m2m3).
+These are symbolic identities, not numerical sample checks. For k=3 the last
+bracket is at least 12m2^2-8m2m3 >=4m2^2>0, since the coefficient of m1
+is 18m2-3m3>0 and m1>=m2>=m3>0. The second bracket is >=m1>0.
+The k=2 and k=1 cases are immediate. Sylvester's criterion proves positivity.
+For k=0 the weighted mean condition forces g0=0; retained variance is zero.
+Combining with S102 energy-minus-variance inequality establishes H^2>=Ru Ry
+for this subclass, including R=k and R=0. It does NOT prove the unrestricted
+single-predecessor case: k is the number of neutral points incomparable to d,
+not the cardinality of D or the total neutral chain length R.
+
+B. Full backend Schur supplement: independently derived, author draft pending.
+For j<R write a=E_j>0, b=E_(j+1)>0, c=E_(j+2)>=0,
+Delta=b^2-ac>=0, x=h^T C_j, y=h^T C_(j+1).
+The genuine backend first-two-step matrix has at most one positive eigenvalue.
+Compressing to its all-minima and neutral coordinate gives K=[[a,b],[b,c]].
+If Delta>0, K has inertia (+,-), so its Schur complement has no positive
+eigenvalue. Hence
+ -h^T V_j h >= (c x^2-2bxy+a y^2)/Delta.
+Substitution x=b g_(j+1)-a g_j, y=c g_(j+2)-b g_(j+1)
+shows this is precisely S102 local bound (D) plus
+ (c/Delta)[a(g_j-g_(j+1))+b(g_(j+2)-g_(j+1))]^2.
+This formula includes j=R-1: c=0, Delta=b^2>0, supplement=0.
+No division by c is needed in the final formula.
+
+Full exact release-matrix decomposition reported by the author is also
+independently derivable. Write z=C_(j+1)-(b/a)C_j, J=[[1,-1],[-1,1]].
+After projecting out the positive all-minima direction a, the remaining
+3x3 Schur matrix is negative semidefinite. For Delta>0, its scalar entry
+is -Delta/a. Projecting it out gives
+ V_j=C_j C_j^T/a-(a/Delta)zz^T-kappa_j J, kappa_j>=0.
+To justify the J form rather than assume it: the identities
+ V_j 1=C_j-C_(j+1), 1^T C_j=a-b, and 1^T z=Delta/a
+show that the PSD residual annihilates 1. A symmetric 2x2 PSD matrix
+annihilating 1 is kappa J, with kappa>=0.
+If B_j is the actual 3x3 first-two-step matrix, determinant expansion gives
+ det B_j=kappa_j Delta. This identity uses the determinant-one change of
+basis (e_u,e_y,all-minima), so no scale factor is missing.
+
+For Delta=0, the same negative semidefinite Schur matrix has zero scalar
+diagonal. PSD zero-diagonal row/column compatibility forces z=0. Thus
+ V_j=C_j C_j^T/a-kappa_j J, kappa_j>=0.
+The relation z=0 entails
+ a(g_j-g_(j+1))+b(g_(j+2)-g_(j+1))=0.
+Under this compatibility S102's baseline equals -x^2/a exactly, so the
+curvature term is defined as zero at Delta=0, and the only extra term is
+kappa_j(h_u-h_y)^2. One must NOT substitute 0/0 or claim an arbitrary limit.
+At j=R, the separate exact identity uses kappa_R=-det(V_R)/E_R>=0,
+and -h^T V_R h=-E_R g_R^2+kappa_R(h_u-h_y)^2.
+
+The resulting local/global exact identities retain actual backend information.
+They do not by themselves imply a nonnegative global sum: energy minus variance
+can still have a negative contribution. For probability direction h=(1-p,-p),
+h_u-h_y=1. Any eventual universal nonnegativity claim needs a proof using
+realizable C_j,V_j from one poset, not merely arbitrary mean-zero scalar g.
+
+C. Certification ceiling.
+Main conjecture, general shared-prefix determinant inequality, unrestricted
+single-predecessor case, and the general normalized square candidate remain OPEN.
+No remote write was performed.
+
+Final source read for A (07:07 UTC):
+Read full single_predecessor_case.txt, SHA256
+275567b75093adefacb720074e862f16790c6d1a7fcea8eece729bc91fcf2325.
+Status: APPROVED within its stated conditional theorem scope; no correction found.
+The author's exact script was separately run and passed. Its k=4 abstract
+counterexample arithmetic was reproduced: mean=449/34, variance=5011035/34,
+energy=139800, variance-energy=257835/34. No poset realization is asserted.
+The symbolic proof, not finite testing, establishes k<=3.
+
+Final source read for B (07:09 UTC):
+Read full backend_matrix_constraints.txt, SHA256
+1b113a506257d72731a0ae1989e40dca13120998adca3354f12fa2930ba1c598.
+Status: equations (1)-(9) APPROVED under the inherited genuine CP-block input.
+The local and global identities hold for a fixed h and its real backend tail g;
+weighted orthogonality is needed for the determinant application, not for the
+raw identity. No endpoint, denominator, sign, or kappa scale error was found.
+The checker was independently run on first_real_negative_energy.json and the
+then-current best_energy_minus_variance.json. Every rational local identity and
+global normalized identity passed; the two enhanced-bound fractions match the
+source. This does not independently certify the poset enumeration producing
+those JSON files, and does not substitute for the source proof.
+Section 5's general second-order scalar inequality and numerical 3/d pattern
+are NOT proved by this audit. Treat them strictly as conjectural experiments.
+
+D. Additional source read: adjacent_majority_extrema.txt.
+Read its full text and S102/rank_atom_compatibility.txt. The exact identity
+p_a p_b=z Pr(J) is APPROVED by direct block-extension multiplication; it
+only requires that a,b are incomparable and adjacent in the chosen reference
+linear extension. K has two equally counted internal orders, hence z<=beta.
+Under the separately inherited conditional-XYZ bound p_a,p_b>=(2m-1)^4,
+the necessary condition (2m-1)^8<=m(1-m) is valid. This does not resolve
+nonstandard interleavings, and is not a general FKG assertion for nonadjacent
+endpoints. The external XYZ theorem is not re-proved by this audit.
+No mathematical correction to these claimed counting interfaces was found.

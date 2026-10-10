@@ -1,0 +1,105 @@
+S103 SNAPSHOT STATUS UPDATE (2026-10-10)
+The later schur_path_spectral_proof.txt and backend_second_order_bl_proof.txt,
+with path_spectral_closure_audit.txt and backend_second_order_bl_audit.txt,
+close the strengthened scalar inequality and the shared-strict-downset,
+neutral-chain square target at independently reviewed research-proof level,
+conditional on the stated S102/Stanley/Chan-Pak inputs for the poset application.
+The width-at-most-three normalized square consequence follows. The arbitrary-
+width candidate with a general non-chain neutral set remains OPEN, as do
+MAIN33/WIDTH3/MC3/TEN40. Historical OPEN or pending-audit wording below records
+the earlier derivation stage and is superseded only within that exact scope.
+No claim of external certification, formal verification, or novelty is made.
+
+--- ORIGINAL DERIVATION (preserved; local source links normalized) ---
+
+A path-spectral proof of the strengthened Schur scalar closure
+2026-10-10. DRAFT FOR INDEPENDENT REVIEW. Do not promote the full poset target before the matrix-to-scalar chain is independently audited.
+
+1. Scalar hypotheses and Jacobi form
+Let a_0,...,a_R>0 be log-concave, let f_j=sum_(i=0)^j a_i, and put f_(-1)=0. Let E_0>...>E_R>0, E_(R+1)=0. First suppose
+  Delta_j=E_(j+1)^2-E_j E_(j+2)>0 for 0<=j<R,
+where E_(R+2)=0. (The last Delta is E_R^2.) Define d_j=E_j-E_(j+1)>0.
+Define a symmetric (R+1)-by-(R+1) Jacobi matrix F by
+  x^T F x = sum_(j=0)^(R-1) f_j/Delta_j *
+       [E_(j+2)x_j^2-2E_(j+1)x_j x_(j+1)+E_j x_(j+1)^2]
+        - f_R x_R^2/E_R.                              (A)
+Claim: F has exactly one negative eigenvalue; moreover
+  a^T x=0 => x^T F x>=0.                              (B)
+For R=0 this is immediate: the orthogonal subspace is zero. Assume R>=1 below.
+
+2. Exact row identity and ground-state transform
+Each j-th two-coordinate matrix in (A), applied to (d_j,d_(j+1)), gives (-1,1). The terminal matrix applied to d_R=E_R gives -f_R. Consequently
+  Fd=-a.                                               (C)
+Let J=diag(d) F diag(d). Its off-diagonal entries are -w_j with
+  w_j=f_j E_(j+1)d_j d_(j+1)/Delta_j>0.
+By (C), the j-th row sum of J is -a_j d_j. Hence exactly
+  J=K-diag(m), m_j=a_j d_j>0,                           (D)
+where K is the ordinary weighted path Laplacian with edge weights w_j:
+  z^T K z=sum_(j<R)w_j(z_j-z_(j+1))^2.
+Let L=diag(m)^(-1)K. It is self-adjoint in the m inner product and is nonnegative, with the constants as its one-dimensional kernel.
+It suffices to prove that every nonzero eigenvalue of L is at least 1. Equation (D) will then give exactly one negative direction for J and F.
+
+3. A monotone exact test function
+Put
+  phi_j=E_j/d_j, b_j=f_j/a_j.
+A direct calculation gives, for j<R,
+  phi_j-phi_(j+1)=Delta_j/(d_j d_(j+1))>0,
+  w_j(phi_j-phi_(j+1))=f_j E_(j+1).
+Thus for every j, INCLUDING both endpoints,
+  (L phi)_j=[f_j E_(j+1)-f_(j-1) E_j]/(a_j d_j)
+           =phi_j-b_j,                                (E)
+using f_(-1)=0 and E_(R+1)=0.
+
+The sequence b_j is strictly increasing. Indeed, write
+  b_j=sum_(r=0)^j a_(j-r)/a_j.
+For each r<=j, log-concavity means each of the r adjacent ratios in
+  a_(j+1-r)/a_(j+1)
+is at least the corresponding ratio in a_(j-r)/a_j. The expression for b_(j+1) therefore contains j+1 terms no smaller than those of b_j, plus one additional positive term. This proves b_(j+1)>b_j.
+Equivalently, one can check b_(j+1)=1+(a_j/a_(j+1))b_j and use nonincreasing adjacent a ratios. No monotonicity of a itself is needed for this step.
+
+4. Elementary gradient spectral argument
+Let D be the edge difference operator (Dz)_j=z_j-z_(j+1), 0<=j<R. Define
+  alpha_j=w_j/m_j for j<R, alpha_R=0,
+  beta_j=w_(j-1)/m_j for j>0, beta_0=0.
+Then
+  (Lz)_j=alpha_j(Dz)_j-beta_j(Dz)_(j-1),
+with missing endpoint terms zero. Direct subtraction gives DL=AD, where the R-by-R tridiagonal matrix A has
+  A_jj=alpha_j+beta_(j+1),
+  A_(j,j-1)=-beta_j,
+  A_(j,j+1)=-alpha_(j+1).
+This matrix is self-adjoint for the positive edge weights w_j because
+  w_j alpha_(j+1)=w_(j+1) beta_(j+1).
+Its off-diagonal entries are strictly negative when the corresponding edge pair exists. The nonzero eigenvalues of L are exactly all eigenvalues of A: D maps the R-dimensional nonconstant eigenspace injectively to edge space and DL=AD. This also handles R=1, where A is one-dimensional.
+
+For completeness, A has a strictly positive eigenvector v for its least eigenvalue lambda_min. After symmetric diagonal similarity, the Rayleigh minimizer can be taken nonnegative, because replacing coordinates by their absolute values cannot increase a quadratic form whose off-diagonals are negative. Connectedness of the path and the eigenvalue equation prohibit a zero coordinate in a nonzero nonnegative minimizer. Transforming back preserves positivity. Consequently A has a positive LEFT eigenvector as well, obtained by multiplying v by diag(w).
+
+Now t=Dphi is strictly positive. By (E) and the monotonicity of b,
+  At=D(Lphi)=Dphi-Db>=Dphi=t
+(componentwise, in fact strictly). Multiplying by the positive left eigenvector for lambda_min gives lambda_min>=1 (in fact >1). Therefore every nonzero eigenvalue of L is >=1, proving the required inertia of F.
+
+5. Why the required orthogonality is exactly a^T x=0
+Equation (C) gives d^T Fd=-a^Td<0. A real symmetric matrix with at most one negative eigenvalue is nonnegative on the F-orthogonal complement of a negative vector. This follows by completing the square in that negative direction; alternatively a negative vector there would span a negative definite two-plane with d, contradicting the inertia bound. Since x^TFd=-a^Tx, the subspace a^Tx=0 is exactly that complement. This proves (B).
+
+6. Relation to the strengthened scalar energy inequality
+For a nondecreasing a, put c_j=a_j-a_(j-1)>=0 with a_(-1)=0. For any g_0,...,g_R obeying
+  sum_j c_j E_j g_j=0,
+set g_(R+1)=g_(R+2)=0 and
+  x_j=E_(j+1)g_(j+1)-E_jg_j.
+Summation by parts gives a^Tx=-sum c_jE_jg_j=0. Direct expansion of (A) gives
+  x^TFx =
+    sum_(j<R)f_j E_j(g_j-g_(j+1))^2 -sum_(j<=R)c_j E_jg_j^2
+    +sum_(j<R) f_j E_(j+2)/Delta_j *
+      [E_j(g_(j+1)-g_j)-E_(j+1)(g_(j+2)-g_(j+1))]^2.  (F)
+The last j=R-1 term is zero because E_(R+1)=0. Thus (B) is precisely the strengthened Schur scalar closure. Identity (F) must be checked independently against the concurrently derived backend matrix formula; it is an algebraic identity, not an additional inequality.
+
+7. Non-strict log-concavity and zero-curvature compatibility
+Suppose only E_0>=...>=E_R>0 and Delta_j>=0. Require for each j<R with Delta_j=0 the compatibility condition
+  E_j(g_(j+1)-g_j)-E_(j+1)(g_(j+2)-g_(j+1))=0.          (G)
+Interpret the corresponding curvature contribution in (F) as zero.
+For epsilon>0 replace E_j by E_j^(epsilon)=E_j exp(-epsilon j^2), retaining the zero terminal E values. These E are strictly decreasing and strictly log-concave, and converge to E. Center g by subtracting
+  h_epsilon=(sum c_j E_j^(epsilon)g_j)/(sum c_j E_j^(epsilon)).
+Then h_epsilon tends to zero and the new weighted mean vanishes. All differences g_j-g_(j+1) occurring in the nonzero curvature terms are unchanged by this centering; the j=R-1 curvature term remains zero. At a zero-Delta index j<=R-2, (G) makes the perturbed numerator O(epsilon) while Delta_j^(epsilon) is of order epsilon. The resulting squared-numerator divided by Delta tends to zero. All other terms converge ordinarily. Passing to the limit proves the same nonnegative strengthened form, with zero terms interpreted as stated.
+This limiting argument is specific to compatible directions. It does not assign a finite bound to incompatible directions at Delta=0.
+
+8. Certification ceiling
+This draft proves a scalar Jacobi/path statement subject to independent checking of the algebra and all signs. Its mathematical ingredients beyond arithmetic are elementary spectral linear algebra, explicitly justified above. The application to posets still depends on the audited S102 counting identities, the Chan--Pak one-positive-direction input, and the new backend Schur reduction. Do not call the full poset candidate proved before that chain is independently reviewed. The k<=3 result remains separately archived in single_predecessor_case.txt and does not depend on this new argument.

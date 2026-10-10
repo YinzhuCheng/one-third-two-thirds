@@ -1,0 +1,79 @@
+S103 — Independent audit of the discrete Brascamp–Lieb closure
+2026-10-10, 07:15 UTC
+
+VERDICT AND PROOF GRADE
+PASS: backend_second_order_bl_proof.txt gives a complete self-contained finite-dimensional proof of its scalar theorem (T), including degeneracies and every endpoint. I independently checked this argument rather than relying on the separate path-spectral proof. Its actual-poset consequence follows from the S102 exact counting interfaces and the expressly cited Stanley rank-log-concavity and Chan–Pak one-positive-direction inputs. This is an independent mathematical research audit, not machine formal verification, external certification, a re-proof of those external theorems, or a claim of novelty.
+
+The supported closure is H^2 >= R_u R_y for identical strict downsets and a neutral-chain complement, hence the original normalized square inequality d U <= p^2 when width(P)<=3. The same conclusion holds whenever the conditioned Q has that neutral-chain complement, regardless of its total width. The unrestricted-width S99 candidate is NOT closed. MAIN33, general WIDTH3 balance, MC3, terminal-fork reductions, and other global conjectures remain OPEN unless separately proved; this subtheorem does not by itself supply their missing reductions.
+
+Reviewed proof SHA-256:
+225461199243447adfd0010d9730d9900997be84fb38b2ace8e77ff39be2eb3e
+Reviewed backend_matrix_constraints.txt SHA-256:
+1b113a506257d72731a0ae1989e40dca13120998adca3354f12fa2930ba1c598
+Files read: the two files above; S102/shared_prefix_determinant_attempt.txt; S102/shared_prefix_determinant_audit.txt; S102/weighted_square_interfaces.txt. The latter files were read from the published S102 local snapshot. The already audited external inputs are Stanley rank log-concavity and Chan–Pak Proposition 6.1 in https://arxiv.org/html/2211.16637v2 . Their full proofs were not re-audited here.
+
+1. Strict log-concavity and mass conventions
+For positive log-concave a, the ratio ordering implies a_(j+1) f_(j-1) <= a_j(f_j-a_0) < a_j f_j. Therefore f_j^2 > f_(j-1) f_(j+1). Combining this with E_(j+1)^2 >= E_j E_(j+2) gives strict log-concavity of pi_j=f_j E_j at all interior indices. The last ratio rho_R=0 makes rho_(R-1)-rho_R>0. Length two needs no interior LC assertion; length one is handled separately.
+
+Three different masses are correctly distinguished:
+- c_j E_j is the original completion-prefix mass and the g orthogonality mass;
+- pi_j=f_j E_j is the BL variance and Jacobi potential mass;
+- a_j E_j is the transformed y orthogonality mass.
+The proof does not replace any one of these by another. Nondecreasing a ensures c_j>=0 but is not secretly being used to infer log-concavity of c.
+
+2. Discrete BL lemma, independently verified
+For D u=u_(j+1)-u_j, omega_j=pi_(j+1), and the displayed reflecting birth-death L, reversibility gives <u,Lv>_pi=sum omega Du Dv. Its kernel consists exactly of constants, including the usual one-vertex case where no inversion is needed. Direct subtraction gives DL=A D with exactly the entries in the proof.
+
+In the edge quadratic form, the edge-to-edge conductance is omega_j rho_(j+1)=omega_(j+1). Expanding the claimed sum of squared differences gives diagonal 1+rho_j: at the left boundary the additional +1 is essential and correctly present; at interior edges the contribution from the previous conductance is 1; at the final edge rho_R=0. Thus (B1) is valid with no lost boundary term.
+
+For centered nonzero y solve Lu=y in constants-perpendicular. The equality <Du,A Du>_omega=<u,L^2u>_pi=<Lu,Lu>_pi follows from DL=AD and the Dirichlet identity. Weighted Cauchy–Schwarz therefore proves (BL) exactly as written. All denominators rho_j-rho_(j+1) are strictly positive. This is a genuine self-contained proof, not an invocation of an unverified discrete BL theorem.
+
+3. Jacobi form and inertia
+Writing r_j=E_(j+1)/E_j gives lambda_j=b^2/(b^2-ac) on a nondegenerate edge. Strict LC of f yields rho_(j+1)/rho_j <= r_(j+1)/r_j, hence lambda_j >= rho_j/(rho_j-rho_(j+1)). At the final edge both terminal ratios are zero and both coefficients equal 1. On an E-degenerate edge the subspace S requires y_(j+1)=y_j, so its finite BL contribution is exactly zero; no infinite coefficient or limiting argument is used.
+
+The BL inequality implies K(y,y)>=-(sum pi_j y_j)^2/sum pi_j on S. Thus K has at most one negative direction, even if restriction to S introduces zero eigenvalues. This argument does not claim that the aE-centered subspace is the pi-centered subspace.
+
+4. Change to the correct orthogonality
+v_j=1-r_j belongs to S. On each nondegenerate edge,
+ f_j E_j lambda_j(v_(j+1)-v_j)=f_j E_(j+1).
+On every degenerate edge the y difference is zero, so inserting the same coefficient contributes zero. Summation by parts with f_(-1)=0 and E_(R+1)=0 gives
+ K(v,y)=-sum a_j E_j y_j.
+Moreover K(v,v)=-sum a_j(E_j-E_(j+1))<0, because the scalar theorem assumes strict decrease and E_R>0. If an aE-centered y had K(y,y)<0, its bilinear orthogonality to v would make their span a negative-definite two-plane, contradicting the established inertia bound. This proves CLOSE on precisely the needed hyperplane, including all possible null directions.
+
+5. Schur-to-Jacobi algebra and zero determinants
+Let a=E_j,b=E_(j+1),c=E_(j+2), Delta=b^2-ac; x_j=b g_(j+1)-a g_j and y_j=x_j/a. For Delta>0, direct expansion verifies
+ (c x_j^2-2b x_j x_(j+1)+a x_(j+1)^2)/Delta
+ =a lambda_j(y_(j+1)-y_j)^2-a y_j^2.
+When Delta=0 and j<R, necessarily a,b,c>0. Backend positive semidefiniteness forces a C_(j+1)=b C_j, hence a x_(j+1)=b x_j. In g variables this is exactly the stipulated t_j=0 compatibility: a x_(j+1)-b x_j=-b t_j when ac=b^2. It implies y_(j+1)=y_j. The scalar Schur expression is then exactly -x_j^2/a, obtained from the rank-one scalar block and its compatible vector, not a limit of an inverse singular matrix.
+
+For j=R-1, c=0 and b>0, so Delta=b^2>0, lambda=1, and the curvature term vanishes normally. For j=R, b=c=0, the final scalar term is -x_R^2/E_R and no edge exists. R=0 requires no BL inversion or ratio: c_0E_0g_0=0 forces g_0=0 and (T) is equality. The actual matrix identity then leaves only its nonnegative backend slack.
+
+The backend PSD reduction is consistent: eliminating the positive E_j coordinate yields [[K,-z],[-z^T,Delta/E_j]]>=0. For Delta>0 its Schur residual is a positive-semidefinite two-by-two matrix annihilating (1,1), hence kappa_j [[1,-1],[-1,1]], kappa_j>=0. Delta=0 forces z=0 and gives the same residual structure directly. Thus the slack in the final probability identity has the claimed sign.
+
+As a supplementary exact check, SymPy expansion verified the polynomial identity
+ c x_j^2-2b x_jx_(j+1)+a x_(j+1)^2
+ =Delta P_j+c t_j^2,
+and separately substituted c=b^2/a and t_j=0 to verify P_j=-x_j^2/a. These checks support the algebra; the general argument above does not depend on finite experiments.
+
+6. Summation and original Q probability law
+Summing a_j x_j telescopes to -sum c_j E_j g_j, including both endpoints, so the transformed orthogonality is correct. In the sum of f_j P_j, the coefficient of A_k=E_k g_k^2 is -f_k+2f_(k-1)-f_(k-2)=-c_k; upper A terms vanish and lower f terms are zero. This identifies K exactly with energy+curvature-variance in (T), not merely a bound on it.
+
+For actual shared-downset Q with neutral chain N, the audited prefix counts a_j=e(D union N_j) are positive, nondecreasing and LC, and the true CP scalar block gives LC of E. The identity E_j-E_(j+1)=1^T C_j>0 verifies strict decrease. All degenerate compatibility conditions come from the same backend matrices, not independently chosen scalar directions.
+
+With W=[[R_u,H],[H,R_y]], E=e(Q)=2H+R_u+R_y, p_Q=(H+R_u)/E, U_Q=R_u/E, set h=(1-p_Q,-p_Q). Then h^T W1=0, g_j=p_Q-q_j and h_u-h_y=1. The exact backend identity gives
+ E(p_Q^2-U_Q)=K(y,y)+sum f_j kappa_j>=0.
+Also p_Q^2-U_Q=(H^2-R_uR_y)/E^2. The proof therefore establishes the claimed determinant inequality in the stated scope. No uniform deletion-projection law is substituted for complete uniform extensions.
+
+7. Explicit transfer to the original P normalized square statement
+Assume y is minimal in P and u is incomparable with y, and let D be all strict predecessors of u. Put
+ d=Pr_P(all D before y), p_P=Pr_P(u before y),
+ U_P=Pr_P(some strict successor of u before y).
+Adjoin all relations D<y and close transitively to obtain Q. This is acyclic; u and y remain incomparable and their strict downsets in Q are exactly D. The added edges do not change u's strict successor set. LE(Q) is precisely the subset of LE(P) satisfying all D before y, so d=e(Q)/e(P)>0. Both events defining p_P and U_P imply that conditioning event. Consequently
+ p_Q=p_P/d, U_Q=U_P/d,
+ p_Q^2-U_Q=(p_P^2-d U_P)/d^2.
+If width(P)<=3, adding relations cannot increase width, and the points outside D union upward(u) union upward(y) in Q form a chain: two incomparable such points together with u,y would be a four-element antichain. Thus the established Q theorem applies and gives d U_P<=p_P^2.
+
+The transfer does not assume arbitrary-width Q has a neutral chain. That is the exact scope boundary blocking closure of the full S99 conjecture. It also does not establish a reduction from this inequality to a global one-third/two-thirds balance theorem.
+
+PUBLICATION ADVICE
+The proof may be published as an independently audited mathematical proof conditional on the stated S102/external poset inputs, with the scalar theorem itself self-contained. Historical OPEN labels in backend_matrix_constraints.txt refer to the earlier stage and should be annotated as superseded only for the precisely stated scalar and neutral-chain/shared-downset targets. No correction to the reviewed BL proof is required.

@@ -1,0 +1,101 @@
+S103 SNAPSHOT STATUS UPDATE (2026-10-10)
+The later schur_path_spectral_proof.txt and backend_second_order_bl_proof.txt,
+with path_spectral_closure_audit.txt and backend_second_order_bl_audit.txt,
+close the strengthened scalar inequality and the shared-strict-downset,
+neutral-chain square target at independently reviewed research-proof level,
+conditional on the stated S102/Stanley/Chan-Pak inputs for the poset application.
+The width-at-most-three normalized square consequence follows. The arbitrary-
+width candidate with a general non-chain neutral set remains OPEN, as do
+MAIN33/WIDTH3/MC3/TEN40. Historical OPEN or pending-audit wording below records
+the earlier derivation stage and is superseded only within that exact scope.
+No claim of external certification, formal verification, or novelty is made.
+
+--- ORIGINAL DERIVATION (preserved; local source links normalized) ---
+
+S103 — A complete proposed closure via a proved discrete Brascamp–Lieb inequality
+2026-10-10, 07:12 UTC. Submitted for independent audit. This document derives the scalar closure from elementary finite-dimensional linear algebra; it must not be treated as audited until the independent reviewer checks it. It depends on the already audited S102 CP block input only for the actual-poset application.
+
+THEOREM (precise scalar formulation)
+Let R>=0, a_0,...,a_R>0 be nondecreasing and log-concave. Define a_{-1}=0, c_j=a_j-a_{j-1}, f_j=sum_{i=0}^j a_i. Let E_0>...>E_R>0, E_{R+1}=E_{R+2}=0, with E_{j+1}^2>=E_jE_{j+2}. Write Delta_j=E_{j+1}^2-E_jE_{j+2}. Let real g_0,...,g_R satisfy sum c_jE_jg_j=0 and put g_{R+1}=g_{R+2}=0. For each j<R with Delta_j=0 additionally require
+ E_j(g_{j+1}-g_j)-E_{j+1}(g_{j+2}-g_{j+1})=0.
+Then
+ sum_{j<=R}c_jE_jg_j^2
+ <= sum_{j<R}f_jE_j(g_j-g_{j+1})^2
+    +sum_{j<R,Delta_j>0}f_j E_{j+2}/Delta_j
+       [E_j(g_{j+1}-g_j)-E_{j+1}(g_{j+2}-g_{j+1})]^2.   (T)
+The j=R-1 term in the second sum is zero. R=0 is immediate because c_0E_0>0 forces g_0=0.
+
+STEP 1. Cumulative weights are strictly log-concave.
+For 1<=j<R, log-concavity of positive a gives a_{j+1}/a_j <= a_{i+1}/a_i for i<j. Summing a_{j+1}a_i<=a_j a_{i+1} over i=0,...,j-1 gives
+ a_{j+1} f_{j-1} <= a_j(f_j-a_0) < a_j f_j.
+Thus f_j^2-f_{j-1}f_{j+1}=a_j f_j-a_{j+1}f_{j-1}>0. The edge ratio statement needed below follows for all j=0,...,R-2. Hence pi_j=f_j E_j is strictly log-concave. Write rho_j=pi_{j+1}/pi_j for j<R and rho_R=0. Then rho_j-rho_{j+1}>0 for every j<R.
+
+STEP 2. Self-contained discrete BL lemma.
+For arbitrary strictly positive, strictly log-concave pi_0,...,pi_R, and real y, let mean_pi(y)=sum pi_jy_j/sum pi_j. Then
+ sum pi_j(y_j-mean_pi(y))^2
+ <= sum_{j<R} pi_j rho_j/(rho_j-rho_{j+1}) (y_{j+1}-y_j)^2.  (BL)
+
+Proof. Put (Du)_j=u_{j+1}-u_j. On vertices define the positive, reversible birth-death operator
+ (Lu)_0=rho_0(u_0-u_1),
+ (Lu)_j=(u_j-u_{j-1})+rho_j(u_j-u_{j+1})  (1<=j<R),
+ (Lu)_R=u_R-u_{R-1}.
+Its edge conductances are omega_j=pi_j rho_j=pi_{j+1}. It is positive semidefinite with kernel constants and satisfies
+ <u,Lv>_pi=sum_{j<R}omega_j (Du)_j(Dv)_j.
+Direct subtraction gives DL=A D, where, writing z outside edges as absent,
+ (Az)_j=(1+rho_j)z_j-1_{j>0}z_{j-1}-1_{j<R-1}rho_{j+1}z_{j+1}.
+A is symmetric for edge weights omega because omega_jrho_{j+1}=omega_{j+1}. Its quadratic form is
+ <z,Az>_omega
+ =sum_{j<R-1}omega_jrho_{j+1}(z_{j+1}-z_j)^2
+   +sum_{j<R}omega_j(rho_j-rho_{j+1}+1_{j=0})z_j^2
+ >=sum_{j<R}omega_j(rho_j-rho_{j+1})z_j^2.              (B1)
+For centered y solve Lu=y (possible on constants-perp). If V=sum pi_jy_j^2, then
+ V=<y,Lu>_pi=sum omega_j(Dy)_j(Du)_j.
+Weighted Cauchy–Schwarz and (B1) give
+ V^2 <= [sum omega_j/(rho_j-rho_{j+1})(Dy)_j^2]
+         [sum omega_j(rho_j-rho_{j+1})(Du)_j^2]
+      <= [first bracket] <Du,A Du>_omega
+       = [first bracket] <Lu,Lu>_pi
+       = [first bracket] V.
+Divide by V when V>0; V=0 is immediate. This proves (BL), including both endpoints.
+
+STEP 3. The Jacobi form has at most one negative direction.
+Set r_j=E_{j+1}/E_j (j<R), r_R=0. Define S to be the subspace of vectors y in R^{R+1} satisfying y_j=y_{j+1} on every j<R with Delta_j=0. For Delta_j>0 define
+ lambda_j=1/(1-r_{j+1}/r_j).
+In particular lambda_{R-1}=1. On S consider
+ K(y,y)=sum_{j<R,Delta_j>0} f_jE_j lambda_j(y_{j+1}-y_j)^2
+         -sum_{j<=R} f_jE_j y_j^2.                  (K)
+Strict LC f gives
+ rho_{j+1}/rho_j=(f_{j+2}f_j/f_{j+1}^2)(r_{j+1}/r_j)
+ <= r_{j+1}/r_j
+for j<R-1; at the last edge both terminal ratios are zero. Therefore lambda_j >= rho_j/(rho_j-rho_{j+1}) on every nondegenerate edge. On degenerate edges the gradient of y is zero, so their BL contribution vanishes exactly. Applying (BL) gives
+ K(y,y)>=-(sum pi_jy_j)^2/sum pi_j.
+Consequently K has at most one strictly negative eigenvalue on S: it is nonnegative on the codimension-at-most-one subspace sum pi_jy_j=0.
+
+STEP 4. The correct orthogonality is also valid.
+Let v_j=1-r_j=(E_j-E_{j+1})/E_j. The vector v lies in S because Delta_j=0 implies r_j=r_{j+1}. For every y in S, polarization of (K) gives
+ K(v,y)=-sum_{j=0}^R a_jE_j y_j.                   (O)
+To verify, on a nondegenerate edge
+ f_jE_jlambda_j(v_{j+1}-v_j)=f_j E_{j+1}.
+On degenerate edges y_{j+1}-y_j=0, so one may insert the same f_jE_{j+1} coefficient without changing the pairing. Summation by parts now gives
+ sum_{j<R} f_jE_{j+1}(y_{j+1}-y_j)
+ -sum_{j<=R}f_j(E_j-E_{j+1})y_j
+ =sum_{j<=R}(f_{j-1}-f_j)E_jy_j=-sum a_jE_jy_j,
+where f_{-1}=0. In particular
+ K(v,v)=-sum a_j(E_j-E_{j+1})<0.
+A symmetric form with at most one negative eigenvalue is nonnegative on the bilinear orthogonal complement of any negative vector. Indeed, otherwise the negative vector and an orthogonal negative vector span a negative-definite two-plane. Hence
+ sum a_j E_jy_j=0 implies K(y,y)>=0.             (CLOSE)
+
+STEP 5. Match to the scalar g form and the backend.
+Set x_j=E_{j+1}g_{j+1}-E_jg_j and y_j=x_j/E_j. Summation by parts gives
+ sum a_j x_j=-sum c_jE_jg_j=0.
+For Delta_j=0, the stipulated g compatibility is equivalent to E_j x_{j+1}=E_{j+1}x_j, namely y_{j+1}=y_j. Thus y belongs to S and satisfies the correct orthogonality in (CLOSE).
+For Delta_j>0 the full scalar-block Schur quadratic is
+ (E_{j+2}x_j^2-2E_{j+1}x_jx_{j+1}+E_jx_{j+1}^2)/Delta_j
+ = E_j lambda_j(y_{j+1}-y_j)^2-E_jy_j^2.
+For Delta_j=0 the compatible expression is -x_j^2/E_j=-E_jy_j^2; this also gives the separate final j=R term. Multiplying by f_j and summing shows K equals the complete scalar-block Schur lower bound.
+The expansion proved in backend_matrix_constraints.txt, equation (7), then identifies K with the right side of (T) minus its left side. Therefore (CLOSE) proves (T).
+
+ACTUAL-POSET CONSEQUENCE (conditional on S102 audited inputs)
+Real E_j satisfy strict decrease because E_j-E_{j+1}=1^TC_j>0. Their LC follows from the scalar 2x2 principal block. True a_j are positive, nondecreasing, LC by the S102 marker/rank argument. True directions satisfy degenerate compatibility by the PSD Schur kernel condition. Therefore (T) applies to h=(1-p,-p), g_j=p-q_j. The exact identity (9) from backend_matrix_constraints.txt yields
+ E(p^2-U)=K(y,y)+sum_{j<=R}f_j kappa_j>=0.
+Equivalently H^2>=Ru Ry for shared strict downset and neutral-chain backend, subject to independent audit of this proof and the external CP/Stanley inputs. Width<=3 is one sufficient condition for the neutral chain, not an extra condition inside the scalar theorem. This does not alone solve any broader balance conjecture without its own reduction.

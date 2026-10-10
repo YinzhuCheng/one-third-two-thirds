@@ -1,0 +1,195 @@
+{
+  "note": "Original research snapshots were preserved except explicit later-status prefaces and local-path normalization. Audit hashes refer to original source snapshots. Hashes are file-identity evidence only. Historical source-hash manifest is retained separately. No raw conversation, credentials, cache or compiled output is included.",
+  "files": [
+    {
+      "published_path": "S103/joint_cut_migration.txt",
+      "source_sha256": "bb89f5e6afe9cb828e5891498e3b6b6480c482157084d2dcefd12141b800ddeb",
+      "published_sha256": "bb89f5e6afe9cb828e5891498e3b6b6480c482157084d2dcefd12141b800ddeb"
+    },
+    {
+      "published_path": "S103/check_joint_cut_identity.py",
+      "source_sha256": "1aab77d44e3b5cb90066b69c87fa17f038804caced9e6da6507f2757deedeb9e",
+      "published_sha256": "1aab77d44e3b5cb90066b69c87fa17f038804caced9e6da6507f2757deedeb9e"
+    },
+    {
+      "published_path": "S103/backend_second_order_bl_proof.txt",
+      "source_sha256": "225461199243447adfd0010d9730d9900997be84fb38b2ace8e77ff39be2eb3e",
+      "published_sha256": "3a7d01998aca77ab328874b525fd2c48c44961a3eb31d00be69fa23370cb93f6"
+    },
+    {
+      "published_path": "S103/backend_second_order_bl_audit.txt",
+      "source_sha256": "9abea5073e4bf0d50d517a986136edab105855b2ab9863a682b51b9f027cc4cc",
+      "published_sha256": "9abea5073e4bf0d50d517a986136edab105855b2ab9863a682b51b9f027cc4cc"
+    },
+    {
+      "published_path": "S103/s103_live_audit.txt",
+      "source_sha256": "c73f765bb15e441f491c93753fdc3450d1e4ae964bafed4e04838ad8822b9cae",
+      "published_sha256": "95386e5b43b54127e738d6be9880c6b89a9fc52b3e01603d6e69820883d10e1d"
+    },
+    {
+      "published_path": "S103/check_schur_path_spectral.py",
+      "source_sha256": "511916c49d774901faddccb6d55c5e50b743dc8acf670fb32bcb88e4d12b9f33",
+      "published_sha256": "511916c49d774901faddccb6d55c5e50b743dc8acf670fb32bcb88e4d12b9f33"
+    },
+    {
+      "published_path": "S103/adjacent_majority_extrema.txt",
+      "source_sha256": "316b88ab38ecb94fce183db5d668f8c34dc3c0ebb8bbacc74a851b9d16e423e4",
+      "published_sha256": "1740465c5c981830833fb70ff1b1bc1eb7fe27f308ff2285937f2425d46f23e2"
+    },
+    {
+      "published_path": "S103/schur_path_spectral_proof.txt",
+      "source_sha256": "8e9bc057a03f9aa18c9e83197c2b03f0bd0da080dfd89376edcba21675f5de65",
+      "published_sha256": "276728ce94ff8c162f6759af7b8022a9b8d7d1b062d324a0dd7cf98524dbbc8a"
+    },
+    {
+      "published_path": "S103/check_backend_bl.py",
+      "source_sha256": "e4da30060d3471d51efdab5d1e23f6abe9d0120f7198fd93fb50eddecfd01f5a",
+      "published_sha256": "e4da30060d3471d51efdab5d1e23f6abe9d0120f7198fd93fb50eddecfd01f5a"
+    },
+    {
+      "published_path": "S103/check_backend_schur.py",
+      "source_sha256": "4ebf5f8bd1520c525eff7c0ac1e503213ebcdfb4dcebd407526b7747e3479df9",
+      "published_sha256": "4ebf5f8bd1520c525eff7c0ac1e503213ebcdfb4dcebd407526b7747e3479df9"
+    },
+    {
+      "published_path": "S103/path_spectral_closure_audit.txt",
+      "source_sha256": "6e40d12e3268d32a2390768e89428e36602e4695f55876557c4316ab77b4e28d",
+      "published_sha256": "6e40d12e3268d32a2390768e89428e36602e4695f55876557c4316ab77b4e28d"
+    },
+    {
+      "published_path": "S103/probe_schur_spectral.py",
+      "source_sha256": "e2f4fed0ed11d52485f94f5305f95481399f4d5bea7701d21f8e556bf9e5e701",
+      "published_sha256": "e2f4fed0ed11d52485f94f5305f95481399f4d5bea7701d21f8e556bf9e5e701"
+    },
+    {
+      "published_path": "S103/backend_matrix_constraints.txt",
+      "source_sha256": "1b113a506257d72731a0ae1989e40dca13120998adca3354f12fa2930ba1c598",
+      "published_sha256": "3a06577682c974798b8bc8e2932360565cad5563b3fbaf421f93ed1e8509d6ae"
+    },
+    {
+      "published_path": "S103/check_single_predecessor_case.py",
+      "source_sha256": "6010067753c2185b27bdbdc98b84258d3a8f72cd94c5254ac6d81525ca5a76ff",
+      "published_sha256": "6010067753c2185b27bdbdc98b84258d3a8f72cd94c5254ac6d81525ca5a76ff"
+    },
+    {
+      "published_path": "S103/single_predecessor_case.txt",
+      "source_sha256": "93f34036ea4c6b36edcce152e414990431def2b238ad23eb6eb7f767b9136d0c",
+      "published_sha256": "de6e0e979867b299b0a06b4bc42e4daa768b7a29a24d5e057e51d718ccb1f85e"
+    },
+    {
+      "published_path": "S103/real_direction_search/refine.py",
+      "source_sha256": "490fcef2e0f66a2c875173545f9f51d5198fe77758d64af98d3e0a3427391263",
+      "published_sha256": "490fcef2e0f66a2c875173545f9f51d5198fe77758d64af98d3e0a3427391263"
+    },
+    {
+      "published_path": "S103/real_direction_search/twelve_enumeration.json",
+      "source_sha256": "f4e88657496940a7c01f3f11c65977f3fd646f7974938e3c8be3da00b92c14b6",
+      "published_sha256": "f4e88657496940a7c01f3f11c65977f3fd646f7974938e3c8be3da00b92c14b6"
+    },
+    {
+      "published_path": "S103/real_direction_search/summary.json",
+      "source_sha256": "e86bb9982f44765a0fe528e9f654d0e2da79e5981a911360aea2bb69c6211f0e",
+      "published_sha256": "e86bb9982f44765a0fe528e9f654d0e2da79e5981a911360aea2bb69c6211f0e"
+    },
+    {
+      "published_path": "S103/real_direction_search/REPORT.md",
+      "source_sha256": "9ff4519e7742853dc91b94c050ba97c5d575d3df4a5bdef5ebab9b9ae100ea88",
+      "published_sha256": "4349194565541f02466437c185923c752ec44b10487516b9b72b59c7dcabddbf"
+    },
+    {
+      "published_path": "S103/real_direction_search/first_real_negative_energy.json",
+      "source_sha256": "c37b0bccd06be4058a3aa7cb66effb64ae0383e82ee0e87b11b64a0943a47f72",
+      "published_sha256": "c37b0bccd06be4058a3aa7cb66effb64ae0383e82ee0e87b11b64a0943a47f72"
+    },
+    {
+      "published_path": "S103/real_direction_search/independent_arms_baseline.json",
+      "source_sha256": "ac35c79908b39d918b4be141b61aac45628161fb6d08f79fd83b78757237ae92",
+      "published_sha256": "ac35c79908b39d918b4be141b61aac45628161fb6d08f79fd83b78757237ae92"
+    },
+    {
+      "published_path": "S103/real_direction_search/best_energy_minus_variance.json",
+      "source_sha256": "d8e95fbc5ce6f2b0f3ba939bbaafbce209252752ea733e5bb0958c7d98f4538a",
+      "published_sha256": "d8e95fbc5ce6f2b0f3ba939bbaafbce209252752ea733e5bb0958c7d98f4538a"
+    },
+    {
+      "published_path": "S103/real_direction_search/induced_minimal_twelve.json",
+      "source_sha256": "0f04a77ac68468a6efe8777dd0b2c06f0419b031298f0d03ca9f6eb5080d0638",
+      "published_sha256": "0f04a77ac68468a6efe8777dd0b2c06f0419b031298f0d03ca9f6eb5080d0638"
+    },
+    {
+      "published_path": "S103/real_direction_search/strong_search.py",
+      "source_sha256": "0e9da2e0a9ce37e336d07d2ad64e7be660be8d6990d469332cbaf26d292e6f53",
+      "published_sha256": "0e9da2e0a9ce37e336d07d2ad64e7be660be8d6990d469332cbaf26d292e6f53"
+    },
+    {
+      "published_path": "S103/real_direction_search/singleton_and_enumerate.py",
+      "source_sha256": "32302a9b34f412249eb089d044e2dc3d9e436febde15762d608a896cf8c73a2f",
+      "published_sha256": "32302a9b34f412249eb089d044e2dc3d9e436febde15762d608a896cf8c73a2f"
+    },
+    {
+      "published_path": "S103/real_direction_search/minimal_single_gate_negative_energy.json",
+      "source_sha256": "6a9c97c350920909d1155e1f24c44418d3cf2bafcf00e8816e8de30327a4bd2b",
+      "published_sha256": "6a9c97c350920909d1155e1f24c44418d3cf2bafcf00e8816e8de30327a4bd2b"
+    },
+    {
+      "published_path": "S103/real_direction_search/induced_audit.json",
+      "source_sha256": "2ddbbb52ad41234762247c9838fbecb5d7992b62ef752d73aab9b213b684a080",
+      "published_sha256": "2ddbbb52ad41234762247c9838fbecb5d7992b62ef752d73aab9b213b684a080"
+    },
+    {
+      "published_path": "S103/real_direction_search/strong_summary.json",
+      "source_sha256": "f998d9cbd978c44262b7ab0f5a60a038c7204c720509cb811aa885efa86e6566",
+      "published_sha256": "f998d9cbd978c44262b7ab0f5a60a038c7204c720509cb811aa885efa86e6566"
+    },
+    {
+      "published_path": "S103/real_direction_search/induced_audit.py",
+      "source_sha256": "4e06cf5848a43fc9a98428c97d3e42f0b00560225344eb8a5369bde6699b9d11",
+      "published_sha256": "4e06cf5848a43fc9a98428c97d3e42f0b00560225344eb8a5369bde6699b9d11"
+    },
+    {
+      "published_path": "S103/real_direction_search/best_strengthened.json",
+      "source_sha256": "3f06e7f0653d4bb627d0d88e3ff1bc5f3c6d2d9433f51e16f76f7fd378e2e25c",
+      "published_sha256": "3f06e7f0653d4bb627d0d88e3ff1bc5f3c6d2d9433f51e16f76f7fd378e2e25c"
+    },
+    {
+      "published_path": "S103/real_direction_search/export_twelve.py",
+      "source_sha256": "d2df110acdcb595128cbc66c094ce6feaec78e12398a8dd58394f21de618f2d0",
+      "published_sha256": "d2df110acdcb595128cbc66c094ce6feaec78e12398a8dd58394f21de618f2d0"
+    },
+    {
+      "published_path": "S103/real_direction_search/first_nonmonotone.json",
+      "source_sha256": "042a0061b7e2db12961f58fba0403b110da6d6f393b150ad11128d1cf5dc2daa",
+      "published_sha256": "042a0061b7e2db12961f58fba0403b110da6d6f393b150ad11128d1cf5dc2daa"
+    },
+    {
+      "published_path": "S103/real_direction_search/complete_extension_enumeration.json",
+      "source_sha256": "41cbda95b04c99eae759b88ea5069b569008c0b431f74011cab56a47c0d6ea30",
+      "published_sha256": "41cbda95b04c99eae759b88ea5069b569008c0b431f74011cab56a47c0d6ea30"
+    },
+    {
+      "published_path": "S103/real_direction_search/singleton_negative_energy.json",
+      "source_sha256": "c37b0bccd06be4058a3aa7cb66effb64ae0383e82ee0e87b11b64a0943a47f72",
+      "published_sha256": "c37b0bccd06be4058a3aa7cb66effb64ae0383e82ee0e87b11b64a0943a47f72"
+    },
+    {
+      "published_path": "S103/real_direction_search/best_gap.json",
+      "source_sha256": "30fb4b6450e6efe76d80651ecf4976379c0d4f7532ca10c5353141cc15720819",
+      "published_sha256": "30fb4b6450e6efe76d80651ecf4976379c0d4f7532ca10c5353141cc15720819"
+    },
+    {
+      "published_path": "S103/real_direction_search/best_ratio.json",
+      "source_sha256": "bef4152d842a8b89f1a419663e169625330228da19adc58243ca1658b22bf7eb",
+      "published_sha256": "bef4152d842a8b89f1a419663e169625330228da19adc58243ca1658b22bf7eb"
+    },
+    {
+      "published_path": "S103/real_direction_search/independent_checks.json",
+      "source_sha256": "8b4df0513bb9fde78eea76a85e114891dc24174ed9ae2396eb0a97effb515588",
+      "published_sha256": "8b4df0513bb9fde78eea76a85e114891dc24174ed9ae2396eb0a97effb515588"
+    },
+    {
+      "published_path": "S103/real_direction_search/search.py",
+      "source_sha256": "3b611a8a163516448a2ecd98cc219e51a3df6421b02e35912c8fe06975884a47",
+      "published_sha256": "3b611a8a163516448a2ecd98cc219e51a3df6421b02e35912c8fe06975884a47"
+    }
+  ]
+}

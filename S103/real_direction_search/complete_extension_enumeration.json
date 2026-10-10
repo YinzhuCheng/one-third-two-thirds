@@ -1,0 +1,23 @@
+{
+  "minimal_single_gate_negative_energy": {
+    "enumerated_extensions": 10053,
+    "Ru": 1708,
+    "Ry": 1583,
+    "H": 3381,
+    "u_before_y": 5089
+  },
+  "singleton_negative_energy": {
+    "enumerated_extensions": 120288,
+    "Ru": 20328,
+    "Ry": 19068,
+    "H": 40446,
+    "u_before_y": 60774
+  },
+  "first_nonmonotone": {
+    "enumerated_extensions": 288,
+    "Ru": 65,
+    "Ry": 15,
+    "H": 104,
+    "u_before_y": 169
+  }
+}

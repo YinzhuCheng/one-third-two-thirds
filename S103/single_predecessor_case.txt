@@ -1,0 +1,123 @@
+S103 SNAPSHOT STATUS UPDATE (2026-10-10)
+The later schur_path_spectral_proof.txt and backend_second_order_bl_proof.txt,
+with path_spectral_closure_audit.txt and backend_second_order_bl_audit.txt,
+close the strengthened scalar inequality and the shared-strict-downset,
+neutral-chain square target at independently reviewed research-proof level,
+conditional on the stated S102/Stanley/Chan-Pak inputs for the poset application.
+The width-at-most-three normalized square consequence follows. The arbitrary-
+width candidate with a general non-chain neutral set remains OPEN, as do
+MAIN33/WIDTH3/MC3/TEN40. Historical OPEN or pending-audit wording below records
+the earlier derivation stage and is superseded only within that exact scope.
+No claim of external certification, formal verification, or novelty is made.
+
+--- ORIGINAL DERIVATION (preserved; local source links normalized) ---
+
+Single common predecessor: a verified reduction and a k<=3 closure
+2026-10-10. Full single-predecessor candidate: OPEN.
+REVIEW STATUS: the independent S103 reviewer has checked the k<=3 proof and exact symbolic matrices and supports the special-class conclusion, conditional on the S102 energy bound and its stated Chan--Pak theorem input. See s103_live_audit.txt. This is a research review, not formal verification or an unrestricted proof. No remote write performed.
+
+1. Setup and exact prefix simplification
+
+Let Q be a finite poset of width at most 3, let u||y, and suppose their strict downsets both equal {d}. Let N be the points outside {d} union upward(u) union upward(y), with upward sets including u,y themselves. As established and audited in S102, N is a chain n_1<...<n_R. Each of its points is incomparable with u and y. No n_i<d is possible: otherwise n_i<u would contradict the given strict downset. The set of n_i above d is a suffix of the chain. Hence a uniquely determined k in {0,...,R} satisfies
+  d||n_i for i<=k, and d<n_i for i>k.
+
+For the induced prefix {d,n_1,...,n_j}, the only freedom is the slot occupied by d; that slot must precede n_(k+1) if this element is present. Thus exactly
+  a_j=min(j+1,k+1),
+  c_j=a_j-a_(j-1)=1 for 0<=j<=k, and 0 otherwise,
+  f_j=sum_(i=0)^j a_i
+     =(j+1)(j+2)/2                              (j<=k),
+     =(k+1)(j+1)-k(k+1)/2                      (j>=k).
+Here a_(-1)=0; the two formulas agree at k. No condition on successor relations beyond being a poset is added.
+
+Let Q_j=Q-({d} union {n_1,...,n_j}), E_j=e(Q_j), q_j=Pr_(Q_j)(u<y). These are genuine residual counts and probabilities, not arbitrary parameters. The extension count of the ORIGINAL Q is
+  E=sum_(j=0)^k E_j.
+The original-law comparison probability is
+  p=(sum_(j=0)^k E_j q_j)/E.
+Both follow by the exact prefix-completion partition; they do not delete d and re-uniformize.
+For every j<R, n_(j+1) is minimal in Q_j. Prepending it injects LE(Q_(j+1)) into LE(Q_j). Thus
+  E_0>=E_1>=...>=E_R>0.
+Indeed these inequalities are strict, since u and y are also minimal, but weak monotonicity suffices below.
+
+2. Precise proved special class
+
+THEOREM (conditional on the audited S102 energy bound).
+In the above setup, if k<=3, then
+  Pr_Q(some strict successor of u occurs before y) <= Pr_Q(u<y)^2.
+The number R of neutral points, the number of successors, and all allowed successor relations are unrestricted. The hypothesis is at most three neutral points incomparable with d, not at most three neutral points in total.
+
+Write U for the left probability. S102 equation (F), using exactly the real C_j,E_j and h=(1-p,-p), gives
+  E(p^2-U) >= sum_(j=0)^(R-1) f_j E_j(q_j-q_(j+1))^2
+               -sum_(j=0)^k E_j(q_j-p)^2.              (1)
+It remains to prove a weighted path inequality supported on indices 0,...,k. The omitted terms j>=k in the energy are all nonnegative. We prove, for arbitrary real t_0,...,t_k and arbitrary positive nonincreasing masses m_0,...,m_k, that, when k<=3,
+  sum_(i=0)^k m_i(t_i-bar_t)^2
+    <= sum_(j=0)^(k-1) [(j+1)(j+2)/2]m_j(t_j-t_(j+1))^2,  (2)
+where bar_t=(sum m_i t_i)/(sum m_i).
+Apply (2) with m_i=E_i and t_i=q_i. The weighted mean is exactly p. Since R>=k, every retained edge exists whenever k>0. Equations (1),(2) give the theorem. When k=0 the variance is identically zero and (1) alone suffices, including R=0.
+
+3. Exact proof of the path inequality
+
+Put S=sum m_i and delta_j=t_j-t_(j+1). The standard pairwise identity, obtained by expanding both sides, is
+  S sum_i m_i(t_i-bar_t)^2
+    =sum_(0<=a<b<=k) m_a m_b (sum_(j=a)^(b-1) delta_j)^2.
+Thus S times the right side of (2) minus S times its left side is delta^T B delta, where
+  B_ij = S F_i m_i 1_(i=j)
+           -(sum_(a=0)^min(i,j) m_a)(sum_(b=max(i,j)+1)^k m_b),
+  F_i=(i+1)(i+2)/2.
+This explicit formula has no stochastic or realizability assumptions.
+
+For k=1, B=[m_0^2]>0.
+
+For k=2, B has entries
+  B_00=m_0^2,
+  B_01=B_10=-m_0 m_2,
+  B_11=3 S m_1-(m_0+m_1)m_2.
+Its determinant is
+  det(B)=m_0^2 S(3m_1-m_2)>0,
+because m_1>=m_2>0. The leading entry is positive, so B is positive definite.
+
+For k=3, its three leading principal minors are exactly
+  D_1=m_0^2,
+  D_2=m_0^2 S(3m_1-m_2-m_3),
+  D_3=m_0^2 S^2(18m_1m_2-3m_1m_3-6m_2^2-5m_2m_3).
+The second bracket is at least m_1>0. For the final bracket, m_3<=m_2<=m_1 gives
+  18m_1m_2-3m_1m_3 >=15m_1m_2>=15m_2^2,
+  -6m_2^2-5m_2m_3 >=-11m_2^2.
+Hence the final bracket is at least 4m_2^2>0. By Sylvester's criterion B is positive definite. This proves (2) for k=3, and completes the special-class proof.
+
+In all nonzero-dimensional cases equality in (2) occurs only when t_0=...=t_k. No claim about equality in the ultimate poset inequality is made, because (1) may have additional slack.
+
+4. Why this does not close arbitrary k
+
+The proof uses a scalar sufficient inequality valid for ALL directions when k<=3. It does not claim this scalar inequality for k>=4, nor replace the actual directions by arbitrary ones in the unresolved problem.
+Already at k=4 the monotone-mass version of (2) is false, even for strictly decreasing log-concave positive masses. For an exact ABSTRACT example, take
+  m=(104,103,102,101,100),
+  t=(45,15,5,0,0), bar_t=449/34.
+Then
+  sum m_i(t_i-bar_t)^2=5011035/34,
+  sum F_j m_j(t_j-t_(j+1))^2=139800,
+  variance-energy=257835/34>0.
+The masses are log-concave since each interior m_i^2-m_(i-1)m_(i+1)=1. These masses and directions are NOT claimed to arise from one poset. This is only an obstruction to extending (2) using monotonicity/log-concavity alone, and is not a counterexample to the square candidate. S102 already contains an actual-poset-weight scalar failure at k=8, with a direction not realizable by that poset.
+
+5. Scope, provenance, and unresolved work
+
+Read and used:
+- ../S102/shared_prefix_determinant_attempt.txt
+- ../S102/shared_prefix_determinant_audit.txt
+- ../S102/weighted_square_interfaces.txt
+The sole external theorem dependency is inherited through the audited S102 energy inequality. It is not independently re-proved here. All new algebraic identities and the k<=3 scalar closure are explicit above and checked by the accompanying exact symbolic script.
+
+Established in this draft and supported by independent S103 research review: the exact one-common-predecessor prefix counts and the k<=3 special-class proof, conditional on S102's audited input.
+Remaining OPEN: the single-common-predecessor case for unrestricted k, the full shared-downset determinant inequality, and the full normalized square candidate. Nothing here establishes MAIN33, WIDTH3, MC3, or a real counterexample. A sum of layerwise Lorentzian matrices is never assumed to retain that property. No predecessor is deleted with an unjustified uniform projection.
+
+6. Concurrent real-direction obstruction (arithmetic cross-check)
+
+The concurrent exact search supplies a genuine singleton-downset width-three example with k=R=16:
+  d<u<s, d<y<t, n_1<...<n_16, and n_3<t.
+There are no other generating relations. The three chains (d,u,s), (y,t), and N certify width<=3. Its shared strict downset is exactly {d}. The certificate is
+  real_direction_search/singleton_negative_energy.json.
+The search worker reports full enumeration of its 120288 extensions. I independently read its exact E_j,q_j,f_j fields and reproduced their arithmetic:
+  E=120288, p=1447/2864,
+  [energy-variance]/E=-362411441/1317011877778176 <0,
+  H=40446, Ru=20328, Ry=19068,
+  (H^2-Ru Ry)/E^2=707633/8202496 >0.
+The entire enumeration was not rerun here. This is stronger than the abstract obstruction above: even on REAL directions, nonnegativity of the OLD S102 energy bound fails for an unrestricted single predecessor. It does not challenge the k<=3 theorem or the target inequality, and does not rule out the stronger matrix-projection bound being developed concurrently. No monotonicity assumption on the q_j is used anywhere in the k<=3 proof.

@@ -1,0 +1,10 @@
+Independent publication-side review of joint_cut_migration.txt
+2026-10-10. Scope: self-contained counting and finite sanity checks.
+
+The full text and check_joint_cut_identity.py were read. Formula (1) is confirmed by canceling alpha_i and gamma_i in the displayed block counts; the numerator has t+2 factors of z and the denominator t+1. Joint J_i,J_j counting is valid because the intermediate induced block is a chain. All concatenations follow a reference linear extension and therefore create no backward cross-block relation.
+
+For E_a minus K, the first R label is in min(R), and the last internal label is either b or c_t. Each fixed last label has at most two eligible incomparable min(R) labels by width<=3, so there are at most four fixed comparison supports. No single-event capacity beta is substituted for their sum. The deep-interleaving argument correctly uses a hypothetical four-element antichain; the terminal interleaving remains explicit and is not discarded. The dual statement follows by reversing the order.
+
+Both negative controls have the stated direct counts. Their failure to satisfy global absence of balanced pairs is correctly stated, so they only refute the structural-only strengthening. The t-dependent necessary condition does not imply a length bound.
+
+The finite checker was rerun: PASS on 1115 natural-label width-at-most-three interval instances with n=2..5. This is a bounded sanity check, not the reason the symbolic counting identity holds in general. The conditional standard-cut lower bound q=(2m-1)^4 is inherited from S102's XYZ interface; this review does not re-prove the external theorem. No claim of main-conjecture resolution, general migration termination, or novelty is approved.

@@ -1,0 +1,118 @@
+S103 SNAPSHOT STATUS UPDATE (2026-10-10)
+The later schur_path_spectral_proof.txt and backend_second_order_bl_proof.txt,
+with path_spectral_closure_audit.txt and backend_second_order_bl_audit.txt,
+close the strengthened scalar inequality and the shared-strict-downset,
+neutral-chain square target at independently reviewed research-proof level,
+conditional on the stated S102/Stanley/Chan-Pak inputs for the poset application.
+The width-at-most-three normalized square consequence follows. The arbitrary-
+width candidate with a general non-chain neutral set remains OPEN, as do
+MAIN33/WIDTH3/MC3/TEN40. Historical OPEN or pending-audit wording below records
+the earlier derivation stage and is superseded only within that exact scope.
+No claim of external certification, formal verification, or novelty is made.
+
+--- ORIGINAL DERIVATION (preserved; local source links normalized) ---
+
+S103 — Full scalar-block Schur complement and exact backend residual
+2026-10-10. Status: rigorously derived conditional on the S102 audited CP block input. Global determinant target remains OPEN.
+
+INPUTS AND SOURCES
+Read S102/shared_prefix_determinant_attempt.txt and its independent audit. Rechecked the Chan–Pak arXiv:2211.16637v2 source online, sections 5.1 and 6.1, for the one-positive-inertia framework. No new specialization of Chan–Pak is needed: use precisely the audited true first-two-step matrix B_j below. Its hyperbolicity follows by adjoining one isolated marker, selecting k=2 and the down-copy minimal-element block, as in S102's audit. No diagonal is interpreted as repeated deletion.
+Source: https://arxiv.org/html/2211.16637v2
+
+Retain all S102 hypotheses and notation. In particular N is a chain, the strict downsets of u,y agree, W=sum_j f_j V_j, V_j 1=C_j-C_{j+1}, 1^T C_j=E_j-E_{j+1}, E_{R+1}=E_{R+2}=0, C_{R+1}=0, and E_j>0 for 0<=j<=R. The actual 3x3 block is
+ B_j=[[V_j,C_{j+1}],[C_{j+1}^T,E_{j+2}]],
+with at most one positive eigenvalue. It has positive total E_j. The 4x4 compression M_j on e_u,e_y,1_all,e_neutral has bottom block
+ T_j=[[E_j,E_{j+1}],[E_{j+1},E_{j+2}]].
+
+1. EXACT SCHUR DECOMPOSITION, INCLUDING DEGENERACY
+For one index write a=E_j,b=E_{j+1},c=E_{j+2}, C=C_j, C'=C_{j+1}, V=V_j, and Delta=b^2-ac. Let
+ z=C'-(b/a)C,
+ J=[[1,-1],[-1,1]].
+Since T has at most one positive eigenvalue and a>0, Delta>=0. Eliminating the positive a coordinate from M gives the negative-semidefinite matrix
+ [[V-CC^T/a,z],[z^T,-Delta/a]].
+Equivalently K=CC^T/a-V is positive semidefinite, and
+ [[K,-z],[-z^T,Delta/a]] >= 0.
+
+If Delta>0, then K-(a/Delta)zz^T is positive semidefinite. The row-sum identities give
+ K1=z,
+ z^T1=Delta/a.
+Therefore this residual annihilates 1, and since it is 2x2 it is exactly kappa J with kappa>=0. Consequently
+ V=CC^T/a-(a/Delta)zz^T-kappa J.                    (1)
+Moreover
+ kappa=det(B_j)/Delta>=0.                          (2)
+To check (2), the change of basis from B_j to the three columns e_u,1_all,e_neutral has determinant +/-1. Its scalar 2x2 block T has determinant -Delta and its scalar Schur residual is -kappa.
+
+If Delta=0, positive semidefiniteness forces z=0: a C'=b C. Then K1=0 and
+ V=CC^T/a-kappa J,
+ kappa=C_u^2/a-V_uu>=0.                           (3)
+This avoids every zero denominator. For the terminal j=R, b=c=0 and (3) applies, with
+ kappa_R=-det(V_R)/E_R.
+For j=R-1, c=0,b=E_R>0 so Delta=b^2>0, and (1)-(2) apply normally.
+
+2. ADDITIONAL CHECKABLE CONSTRAINTS ON A TRUE DIRECTION
+Let h be any fixed real two-vector, x_j=h^T C_j, and g_j=-sum_{l>=j}x_l/E_j, with g_{R+1}=g_{R+2}=0. Thus x_j=b g_{j+1}-a g_j.
+For Delta>0, the exact projected identity is
+ -h^T V_j h = (c x_j^2-2b x_jx_{j+1}+a x_{j+1}^2)/Delta
+               +kappa_j(h_u-h_y)^2.               (4)
+For Delta=0 the real direction MUST satisfy a x_{j+1}=b x_j (not just weighted mean zero). The vector identity a C'=b C is stronger and directly checkable from counts.
+
+The nonnegative diagonal release counts yield, for each entry coordinate k and Delta>0,
+ (a/Delta)(C'_k-(b/a)C_k)^2+kappa_j <= C_k^2/a.    (5)
+Nonnegative off-diagonal counts likewise constrain the signed cross term in (1). The full matrix (1), nonnegative entry counts, and exact recurrence are therefore much stronger than scalar log-concavity alone.
+
+A further elementary probabilistic constraint, independent of CP, is
+ 0<=E_j q_j-E_{j+1}q_{j+1}<=E_j-E_{j+1},          (6)
+because the middle expression is C_{j,u}. Thus q_j=(1-r_j)theta_j+r_j q_{j+1}, where r_j=E_{j+1}/E_j and theta_j=C_{j,u}/(E_j-E_{j+1}) belongs to [0,1]. This alone does not imply monotonicity of q.
+
+3. EXACT UPGRADE OF S102 ENERGY MINUS VARIANCE
+Set A_j=E_j g_j^2. For j<R define
+ P_j=2A_{j+1}-A_j-A_{j+2}+E_j(g_j-g_{j+1})^2,
+and P_R=-A_R.
+For j<R with Delta_j>0 let
+ t_j=E_j(g_{j+1}-g_j)-E_{j+1}(g_{j+2}-g_{j+1}),
+ L_j=E_{j+2} t_j^2/Delta_j.
+For Delta_j=0 put L_j=0; compatibility forces t_j=0 when E_{j+2}>0. Put L_R=0. In particular L_{R-1}=0, since E_{R+1}=0.
+Direct expansion of (4), or (3) in the degenerate case, gives the EXACT identity
+ -h^T V_j h=P_j+L_j+kappa_j(h_u-h_y)^2.           (7)
+The degenerate case is not defined by taking an unproved limit. If j<R and Delta=0, b,c>0, compatibility yields t=0; substitution gives -hVh=P_j+kappa(h_u-h_y)^2. The separate R endpoint follows from (3).
+
+Multiplying by f_j and summing yields the exact refinement
+ -h^T W h = sum_{j<R} f_j E_j(g_j-g_{j+1})^2
+             -sum_{j<=R} c_j E_j g_j^2
+             +sum_{j<R} f_j L_j
+             +(h_u-h_y)^2 sum_{j<=R} f_j kappa_j. (8)
+The last two terms are separately nonnegative. This preserves precisely a curvature penalty and a rank-one negative residual that were discarded in S102. It is an identity, not a proof that the entire right side is nonnegative.
+
+For h=(1-p,-p), g_j=p-q_j and h_u-h_y=1, so
+ E(p^2-U)=energy-variance+curvature+backend_slack,
+ where curvature=sum f_jL_j,
+       backend_slack=sum f_jkappa_j>=0.             (9)
+Dropping only backend_slack gives a strictly stronger sufficient scalar inequality than S102. Dropping both recovers S102 exactly.
+
+4. EXACT FINITE CHECKS ON REAL NEGATIVE-OLD-BOUND EXAMPLES
+The standalone script check_backend_schur.py reads actual search certificates and uses rational arithmetic to verify (7) at every index and (9) after summation. This checks the formula, not the theorem for all posets.
+
+first_real_negative_energy.json (21 vertices, D singleton, one successor on each arm, neutral chain 16, threshold n3 below y's successor):
+ old normalized energy-variance = -0.00000027517704822176317
+ curvature/E = 0.0005564312243320722
+ strengthened lower bound = 473307465/851033567488
+                          ~=0.0005561560472838504 >0
+ backend_slack/E ~=0.08571429138725314
+ p^2-U =707633/8202496 ~=0.086270447434537.
+
+best_energy_minus_variance.json as read at 2026-10-10 07:06 UTC:
+ old normalized energy-variance ~= -0.0006057878993077302
+ curvature/E ~=0.00561281040382507
+ strengthened lower bound =675614649728730808064/134933415841289047859877
+                          ~=0.00500702250451734 >0
+ backend_slack/E ~=0.02809278445970027
+ p^2-U ~=0.03309980696421761.
+This mutable search filename may later hold a different example; use its saved inputs or rerun the checker rather than relying on the filename alone.
+
+5. POSSIBLE UNIVERSAL SECOND-ORDER SCALAR INEQUALITY, NOT PROVED
+Numerical spectral experiments suggest the strengthened inequality
+ sum c_jE_jg_j^2 <= sum f_jE_j(g_j-g_{j+1})^2+sum f_jL_j
+ under sum c_jE_jg_j=0
+ may hold for arbitrary g if a is nondecreasing log-concave and E is decreasing log-concave, with the stated degenerate compatibility. This is a conjectural next lemma, not an established result. A test of 10000 randomly generated strictly monotone LC a/E sequences of length 3 to 16 found no negative eigenvalue. Numerical positive results do not exclude other sequences or numerical errors.
+For a_j=binom(d+j,j), E_j=(R-j+2)(R-j+1), the minimum eigenvalue of (energy+curvature-variance)/variance on mean-zero g numerically equals 3/d for R in {2,4,8,16,32}, d in {1,2,4,8}. This surprising simple value is a possible solvable special family. No analytic proof is supplied here.
+The experiments are in probe_schur_spectral.py. The actual real-direction search is independently testing the strengthened lower bound. Until a valid proof or counterexample emerges, the determinant target stays OPEN.

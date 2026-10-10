@@ -1,0 +1,65 @@
+Independent audit of the path-spectral Schur closure
+2026-10-10. Research review, not formal verification, external certification, or a novelty claim.
+
+VERDICT
+I independently reconstructed the path spectral proof, the local Schur algebra and the passage to degenerate curvature. I found no sign, spectral-direction, endpoint, or compatible-limit error. The strengthened scalar closure is PROVED by the supplied elementary argument. Combined with the expressly inherited S102 counting and external theorem inputs, it proves H^2 >= Ru Ry for every shared-strict-downset poset with neutral set N a chain, hence for width at most three. The normalized original-law inequality d U <= p^2 follows by the previously audited conditioning construction. This does NOT by itself prove MAIN33, WIDTH3, MC3, or terminal double-branch closure.
+
+Documents read in this audit:
+- schur_path_spectral_proof.txt, full draft dated 2026-10-10.
+- backend_matrix_constraints.txt, full text.
+- S102/shared_prefix_determinant_attempt.txt and shared_prefix_determinant_audit.txt.
+- S102/weighted_square_interfaces.txt, including the original-poset normalization.
+- single_predecessor_case.txt for the previously isolated case and its limitations.
+The two external inputs are Stanley rank log-concavity and the Chan--Pak one-positive-direction theorem specialized to the actual first-two-step block. Their specialization and the counting interfaces were checked in the S102 audit. I have NOT independently re-proved these external theorems or newly checked their sources in this audit. Thus the poset conclusion is conditional on those explicit inputs, as any use of established external theorems is. The scalar spectral lemma has no such external combinatorial dependency.
+
+1. Precise scalar assumptions
+For the strict proof, a_j>0 is log-concave, f_j=sum_(i<=j)a_i, E_0>...>E_R>0, E_(R+1)=E_(R+2)=0, and Delta_j=E_(j+1)^2-E_jE_(j+2)>0 for j<R. Nondecreasing a is not required for the strict Jacobi inertia lemma, but is available and used when defining nonnegative c_j=a_j-a_(j-1), a_(-1)=0, for the energy formulation and its centering limit. In particular c_0=a_0>0 even if every later c_j is zero.
+
+2. Direct audit of the Jacobi form and congruence
+Let d_j=E_j-E_(j+1), not to be confused with the original conditioning probability denoted d below. A local numerator matrix [[E_(j+2),-E_(j+1)],[-E_(j+1),E_j]]/Delta_j maps (d_j,d_(j+1)) to (-1,1). The final term -f_R x_R^2/E_R maps d_R=E_R to -f_R. Therefore Fd=-a, including both endpoints.
+The off-diagonal of J=diag(d)Fdiag(d) is -w_j with w_j=f_jE_(j+1)d_jd_(j+1)/Delta_j>0. Its row sums are -a_jd_j. Thus J=K-M exactly, where K is the weighted path Laplacian and M=diag(a_jd_j)>0. This is a genuine congruence, so inertia is preserved. M^(-1/2)JM^(-1/2) is the symmetric representative of L-I, L=M^(-1)K.
+
+3. Gradient operator and spectral direction
+For D z=(z_j-z_(j+1))_(j<R), alpha_j=w_j/m_j and beta_j=w_(j-1)/m_j with alpha_R=beta_0=0, direct subtraction gives DL=AD, where
+ A_jj=alpha_j+beta_(j+1), A_(j,j-1)=-beta_j, A_(j,j+1)=-alpha_(j+1).
+In particular all existing off-diagonals are negative, not positive. diag(w)A is symmetric because w_j alpha_(j+1)=w_(j+1)beta_(j+1). L has an m-orthogonal eigenbasis and a one-dimensional constant kernel. D kills exactly that kernel, hence maps its remaining R eigenvectors to a basis of edge space. The spectrum of A is therefore precisely the nonzero spectrum of L, with multiplicity.
+For phi_j=E_j/d_j, Dphi_j=Delta_j/(d_jd_(j+1))>0 and w_jDphi_j=f_jE_(j+1). At j=0 use f_(-1)=0; at j=R use E_(R+1)=0. Then Lphi=phi-b with b_j=f_j/a_j.
+Log-concavity of positive a makes each fixed-length backwards product of adjacent ratios nondecreasing as its terminal index increases. Thus b_(j+1)>b_j, since the sum has all its old-length terms no smaller and one extra positive term. No monotonicity of a is needed here.
+Consequently t=Dphi>0 satisfies At=t-Db>t componentwise. The symmetric representative of A is an irreducible symmetric Z matrix. Replacing a Rayleigh minimizer by its absolute value cannot increase its quotient; connectedness and the eigenvalue equation then force strict positivity. Hence A has a positive left eigenvector ell for lambda_min. Multiplication gives lambda_min ell^T t=ell^T At>ell^T t, so lambda_min>1. The weak >=1 conclusion used in the draft is valid. There is no reversed Collatz inequality: equivalently, cI-A is nonnegative for sufficiently large c, and the same positive supersolution bounds its Perron root above by c-1.
+It follows that F has exactly one negative eigenvalue, with all other eigenvalues positive in the strict case.
+
+4. Orthogonality is the needed one, not Euclidean orthogonality to d
+Because d^TFd=-sum a_jd_j<0 and x^TFd=-a^Tx, a^Tx=0 is the F-orthogonal complement of a negative vector. A negative quadratic value there would, together with d, produce a two-dimensional negative definite subspace, contradicting the inertia. Hence x^TFx>=0 on a-perp. The proof does not incorrectly substitute x perpendicular to d.
+
+5. Energy identity checked independently
+Put x_j=E_(j+1)g_(j+1)-E_jg_j. Summation gives a^Tx=-sum c_jE_jg_j. For local A=E_j,B=E_(j+1),C=E_(j+2), g=g_j,h=g_(j+1),k=g_(j+2), set x=Bh-Ag, y=Ck-Bh, t=A(h-g)-B(k-h). Direct polynomial expansion gives
+ Cx^2-2Bxy+Ay^2 = (B^2-AC)[2Bh^2-Ag^2-Ck^2+A(g-h)^2]+Ct^2.
+I independently checked this identity in Sympy; the symbolic residual is identically zero. The same local computation gives the Fd identity (-1,1). The final endpoint is -f_R E_Rg_R^2. Summation of the second differences has coefficient -c_j on E_jg_j^2. This verifies the full energy-plus-curvature-minus-variance formula without relying on numerical positivity experiments.
+At Delta=0, C=B^2/A and compatibility t=0; direct substitution gives -x^2/A=2Bh^2-Ag^2-Ck^2+A(g-h)^2. Its symbolic residual also vanished independently.
+
+6. Degenerate limit is valid
+For weakly decreasing positive E and Delta>=0, use E_j(epsilon)=E_j exp(-epsilon j^2), leaving the two terminal zeros fixed. For j<R-1,
+ Delta_j(epsilon)=exp(-2epsilon(j+1)^2)[E_(j+1)^2-E_jE_(j+2)exp(-2epsilon)].
+It is strictly positive; if Delta_j=0 it equals a positive constant times epsilon+O(epsilon^2). The perturbed E are strictly decreasing even where the original consecutive entries agree. Delta_(R-1)(epsilon)=E_R(epsilon)^2>0.
+Set h_epsilon=sum c_jE_j(epsilon)g_j / sum c_jE_j(epsilon) and replace g_j by g_j-h_epsilon for 0<=j<=R, keeping g_(R+1)=g_(R+2)=0. The denominator is at least c_0 E_0=a_0E_0>0, so h_epsilon->0 for an original mean-zero g. For j<=R-2, both differences in the curvature numerator involve indices <=R, so this common centering cancels exactly. Compatibility makes the original numerator zero, and the perturbed numerator is O(epsilon). Its square divided by Delta(epsilon) is O(epsilon), so tends to zero. The j=R-1 curvature term is identically zero because E_(R+1)=0, even though its auxiliary differences include the unshifted terminal zero. Every remaining term converges ordinarily. No divergent term or extra residual is hidden in the limit.
+The proof correctly requires compatibility at Delta=0. It does not claim a finite arbitrary-direction Schur form there. Vanishing c_j create no problem. For R=0, mean zero forces g_0=0 and the result is immediate. For R=1, A is a positive one-by-one matrix and there are no nonzero curvature terms. Both cases are covered without an implicit minimum-length assumption.
+
+7. Local backend Schur reduction and compatibility
+In the actual compressed backend block, eliminate the positive scalar E_j. The remaining block is negative semidefinite, giving [[K,-z],[-z^T,Delta/E_j]]>=0 with K=C_jC_j^T/E_j-V_j and z=C_(j+1)-(E_(j+1)/E_j)C_j. The row sums give K1=z and 1^Tz=Delta/E_j. At Delta>0, K-E_jzz^T/Delta is PSD and annihilates 1, hence is kappa_j[[1,-1],[-1,1]], kappa_j>=0. At Delta=0, positivity forces z=0 and the same residual conclusion follows. These statements need only elementary Schur complementation and the inherited one-positive-direction input.
+For a true h, x_j=h^TC_j; z=0 implies E_j x_(j+1)=E_(j+1)x_j. At a degenerate index j<R, both E_(j+1),E_(j+2) are positive, and substitution of x_j=E_(j+1)g_(j+1)-E_jg_j shows this is exactly the required t_j=0. Thus the limiting scalar lemma applies to the genuine backend directions.
+The local projected identity is -h^TV_jh equal to the local Jacobi term plus kappa_j(h_u-h_y)^2; at Delta=0 use -x_j^2/E_j plus that residual. Therefore, for h^Ts=0 and s=sum a_j C_j,
+ -h^TWh = strengthened scalar form + (h_u-h_y)^2 sum f_jkappa_j >=0.
+This retains the exact nonnegative backend residual. It never assumes sums of one-positive matrices remain one-positive.
+
+8. Exact coverage of the poset conclusion
+For shared strict downset D and a chain neutral set N, the inherited exact prefix construction supplies positive nondecreasing log-concave a_j; the actual backend blocks supply decreasing positive E_j and Delta_j>=0. Row sums imply E_j-E_(j+1)=1^TC_j>0, so actual E are in fact strictly decreasing. The original-law identities are W=sum f_jV_j, W1=s, E=e(Q)=1^TW1=sum c_jE_j, and W=[[Ru,H],[H,Ry]]. No deletion is re-uniformized.
+Taking h=(1-p,-p), p=(H+Ru)/E, gives h^Ts=0 and -h^TWh/E=p^2-U=(H^2-RuRy)/E^2. The proven nonnegativity therefore establishes the shared-downset determinant target. Width<=3 suffices for N to be a chain, but the argument covers every poset satisfying that explicit chain hypothesis, even if its width is larger elsewhere.
+For an original poset P with y minimal and u||y, add D_P(u)<y to form Q. Complete extensions of Q are exactly complete extensions of P conditioned on all D_P(u) occurring before y; that event has probability d>0. The u-successor set is unchanged, p_Q=p_P/d, U_Q=U_P/d, and added order relations do not increase width. Hence U_Q<=p_Q^2 gives dU_P<=p_P^2. This is the stated normalized square candidate, not a claim about unrelated balance conjectures.
+
+9. Certification ceiling
+The proof is now an analytic closure, not merely a search-supported conjecture. This audit certifies its internal mathematical chain at research-review level, conditional on the expressly inherited Stanley and Chan--Pak theorem specializations and the S102 exact interfaces. No claim of formal proof-assistant verification, exhaustive literature novelty, or solution of MAIN33/WIDTH3/MC3 is justified. No remote writes were performed.
+
+Audited source snapshots at review time (SHA-256):
+ schur_path_spectral_proof.txt: 8e9bc057a03f9aa18c9e83197c2b03f0bd0da080dfd89376edcba21675f5de65
+ backend_matrix_constraints.txt: 1b113a506257d72731a0ae1989e40dca13120998adca3354f12fa2930ba1c598
+Later authors may append review status or theorems; these hashes identify the actual snapshots assessed above.
