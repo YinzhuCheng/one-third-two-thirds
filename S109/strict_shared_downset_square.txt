@@ -1,0 +1,143 @@
+S109: Strict shared-downset swap square for every finite poset
+2026-10-10. Proof statement; independent audit status is recorded in the companion review.
+Depends on the non-strict S108 Ball-body proof. No additional analytic equality theorem is used.
+No frozen/published snapshot is edited; no novelty claim is made.
+
+THEOREM
+Let P be a finite poset, and let u,y be incomparable elements with identical
+strict downsets. Let H count the linear extensions with u before y for which
+swapping the actual labels u and y is still a linear extension. Let Ru,Ry count
+the nonswappable extensions in the forward and reverse orientations.
+Then
+                              H^2 > Ru Ry.
+In particular, equality never occurs for a finite poset under these hypotheses.
+
+The extra structure beyond S108 is elementary: on each deletion-extension
+simplex, the two fiber widths are nested sums of uniform-simplex spacings.
+An associated radial moment is therefore a polynomial of the direction ratio
+on (0,1). Equality in S108 would make that same moment the reciprocal square
+of a nonconstant linear polynomial, which is impossible.
+
+1. NOTATION INHERITED FROM S108
+Set n=|P| and m=n-2. Let Omega=O(P-{u,y}), and define L,Tu,Ty,A=Tu-L,
+B=Ty-L and the decreasing log-concave fiber function f exactly as in S108:
+  f(s,t)=vol_m{z in Omega: A(z)>=s, B(z)>=t}.
+Thus
+  h=H/n!=integral_Omega min(A,B)^2/2 dz,
+  rplus=Ru/n!, rminus=Ry/n!.
+For 0<q<1 define
+  I(q)=integral_0^infinity r f(r,qr) dr
+      =integral_Omega min(A,B/q)^2/2 dz.                    (1)
+The second equality is Tonelli applied to the defining superlevel indicators.
+The Ball body K from S108 satisfies, for x=(1,q),
+  max{t>=0: tx in K}^2 = 2 I(q).                         (2)
+This follows either from the norm definition or from its unit-direction radial
+formula by rescaling r. We have I(q)>0 and h>0 because A,B are positive on the
+interior of the full-dimensional deletion order polytope. The m=0 convention
+also gives I(q)=h=1/2.
+
+2. POLYNOMIAL RAY-MOMENT LEMMA
+Claim: I(q) agrees with a real polynomial of degree at most m for all 0<q<1.
+
+Partition Omega, up to measure-zero coordinate ties, into its standard
+simplices indexed by the linear extensions of Q=P-{u,y}. In one such simplex,
+rename coordinates in extension order:
+  0=z_0<z_1<...<z_m<z_(m+1)=1.
+The simplex has volume 1/m!. There are fixed indices ell,i,j such that
+  L=z_ell, Tu=z_i, Ty=z_j,
+where ell=0 if the common downset is empty and i or j equals m+1 if the
+corresponding successor set is empty. Otherwise each index is the last common
+predecessor, or the first respective successor, in this fixed extension.
+All common predecessors precede all successors of either missing element, so
+  0<=ell<min(i,j)<=m+1.
+Consequently A=z_i-z_ell and B=z_j-z_ell.
+
+If i<=j, then A<=B throughout the simplex. Since 0<q<1, the integrand in (1)
+is A^2/2, independent of q, so the chamber contribution is constant.
+
+Suppose i>j. Put
+  a=j-ell>=1, b=i-j>=1, k=a+b=i-ell, c=m+1-k>=0.
+Under normalized uniform measure on this standard simplex, its m+1 spacings
+  z_1-z_0, z_2-z_1, ..., z_(m+1)-z_m
+are uniform on the simplex of nonnegative spacings summing to 1. Group them
+into B (a spacings), A-B (b spacings), and 1-A (c spacings).
+If c>0, their joint density is a constant times
+  B^(a-1) (A-B)^(b-1) (1-A)^(c-1),
+on 0<B<A<1. This follows by the volumes of the three component simplices.
+Under the change of variables B=AV, the Jacobian is A, so the density factors
+as a function of A times
+  V^(a-1)(1-V)^(b-1),  0<V<1.
+Thus V=B/A is independent of A and has beta density
+  V^(a-1)(1-V)^(b-1)/Beta(a,b).
+If c=0, A=1 identically and the same beta law for V follows by the two-group
+simplex calculation. Therefore the independence statement is still valid.
+
+It follows that this chamber's contribution to (1) is
+  E[A^2]/(2m!) * G_(a,b)(q),
+where
+  G_(a,b)(q)=E[min(1,(V/q)^2)]
+    =1 - 1/Beta(a,b) * integral_0^q
+                (1-v^2/q^2) v^(a-1)(1-v)^(b-1) dv
+    =1 - 2/Beta(a,b) * sum_(r=0)^(b-1)
+       [(-1)^r binom(b-1,r) q^(a+r)/((a+r)(a+r+2))].       (3)
+The last equality is just the finite binomial expansion of (1-v)^(b-1).
+This is a polynomial in q of degree a+b-1=k-1<=m.
+For reference, E[A^2]=k(k+1)/((m+1)(m+2)), including the c=0 endpoint;
+this numerical value is not needed for polynomiality.
+There are finitely many chambers, so summing their polynomial contributions
+proves the claim. For m=0 there is only the constant contribution.
+
+3. EQUALITY IN THE SUPPORTING-TRIANGLE STEP
+Assume, for contradiction, H^2=RuRy. Equivalently h^2=rplus*rminus.
+Because h>0, both wings rplus,rminus are positive.
+Let (d,d) be K's positive diagonal boundary point, so h=d^2/2. A support line
+there has equation
+  alpha*s+beta*t=(alpha+beta)d,
+with alpha,beta>=0. In S108, alpha=0 forces rplus=0, and beta=0 forces
+rminus=0. Hence here alpha,beta>0.
+The first-quadrant portion of K is contained in the triangle
+  T={(s,t)>=0: alpha*s+beta*t <= (alpha+beta)d}.
+The S108 wing estimates are
+  rplus <= alpha*d^2/(2beta),
+  rminus <= beta*d^2/(2alpha).
+Their upper bounds have product h^2. Since both quantities are nonnegative
+and their product equals h^2>0, both inequalities must be equalities.
+Thus K and T have equal area separately in both diagonal sectors, and hence
+in the whole quadrant. Closedness and convexity imply K intersect quadrant=T:
+otherwise a missing point of T, using an interior point of T if necessary,
+would give a positive-area subset of T outside the closed set K.
+In particular, for every 0<q<1 the endpoint of the ray (t,qt) is
+  t=(alpha+beta)d/(alpha+beta*q).
+Equation (2) gives
+  I(q)=((alpha+beta)^2*d^2)/(2*(alpha+beta*q)^2).            (4)
+
+4. FINITE-POLYNOMIAL CONTRADICTION
+By Section 2 there is a nonzero polynomial P(q) with I(q)=P(q) on (0,1).
+Equation (4) says
+  (alpha+beta*q)^2 P(q)=((alpha+beta)^2*d^2)/2
+on that nonempty open interval. Thus it is an identity of polynomials.
+But beta>0 and P is nonzero, so the left side has degree deg(P)+2>=2,
+whereas the right side is a positive constant. This is impossible.
+Therefore equality cannot hold. S108 supplies the non-strict inequality,
+so H^2>RuRy, as asserted. QED.
+
+5. SCOPE AND CAUTIONS
+- This argument does not assume that the Ball body of every compactly
+  supported log-concave function is strictly convex. That assertion is false
+  for indicators of convex bodies with faces.
+- It does not rely only on the square support of the particular f. The
+  finite nested-spacing polynomial is the extra proved obstruction.
+- General decreasing log-concave functions can attain equality (for example,
+  appropriate exponentials or indicators of triangles). Their directional
+  moment is reciprocal-square rather than a finite polynomial on this wedge.
+- The result is qualitative strictness. No new quantitative coefficient or
+  uniform margin beyond strict positivity is claimed here.
+- The theorem does not close any global one-third/two-thirds reduction.
+
+AUDIT TARGETS
+A. Index inequalities ell<min(i,j), including both empty-set conventions.
+B. Independence of A and V=B/A from the grouped simplex density, especially
+   c=0 and m=0 endpoints.
+C. Formula (3), degree k-1<=m, and the scaling identity (2).
+D. Equality of both wing bounds forcing the full first-quadrant triangle.
+E. The polynomial identity contradiction with alpha,beta>0.

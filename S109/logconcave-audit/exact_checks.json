@@ -1,0 +1,29 @@
+{
+  "uniform_downward_polygons": {
+    "cases": 5000,
+    "exact_equality_cases": 2855,
+    "zero_wing_cases": 302,
+    "maximum_RuRy_over_H2": "1",
+    "counterexamples": 0
+  },
+  "homogeneous_max_affine_exponentials": {
+    "cases": 5000,
+    "exact_equality_cases": 2099,
+    "zero_wing_cases": 0,
+    "maximum_RuRy_over_H2": "1",
+    "counterexamples": 0
+  },
+  "polynomial_product_survivals": {
+    "cases": 961,
+    "counterexamples": 0,
+    "formula": "RuRy/H^2 = mn/((m+1)(n+1))"
+  },
+  "nonhomogeneous_positive_affine_exact_witness": {
+    "f": "exp(-max(2*s+t,s+2*t-1))",
+    "H": "1/9",
+    "Ru": "2/9-1/(6*e)",
+    "Ry": "1/18",
+    "delta": "1/(108*e)>0"
+  },
+  "seed": 109002
+}

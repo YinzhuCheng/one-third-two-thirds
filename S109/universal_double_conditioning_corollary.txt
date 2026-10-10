@@ -1,0 +1,105 @@
+S108: Universal double-conditioning square constraints for arbitrary incomparable pairs
+2026-10-10. Corollary of general_shared_downset_ball_proof.txt.
+Independent audit status is recorded in the companion review.
+This removes the N-chain hypothesis from the already audited S104 conditioning
+interface. It does not prove any one-third/two-thirds balance conjecture.
+
+THEOREM
+Let P be any finite poset, and let a,b be incomparable actual labels. All
+probabilities below are under uniform complete LE(P). Let A={a before b}.
+Define the forward blocking events
+ S={some strict successor of a is before b},
+ T={some strict predecessor of b is after a},
+and reverse blocking events
+ S'={some strict successor of b is before a},
+ T'={some strict predecessor of a is after b}.
+The first pair lies inside A and the second inside its complement. Set
+ h=Pr(A\(S union T)), r=Pr(S\T), l=Pr(T\S), k=Pr(S intersection T),
+and on A^c set h',r',l',k' in the corresponding way.
+Then h'=h>0 and
+  r r' <= h^2,                     l l' <= h^2.       (C1)
+No width, neutral-chain, minimality, or shared-original-downset hypothesis is
+needed.
+
+1. SWAP CELLS
+In a forward extension, swapping the actual labels a,b is legal precisely
+when S and T are both absent: moving a later can violate only an intervening
+successor constraint, and moving b earlier can violate only an intervening
+predecessor constraint. The reverse criterion is S',T' absent. The swap is
+an involution, proving h'=h.
+Let D*=D_P(a) union D_P(b). This is an ideal not containing a,b. Listing D*
+first, then a,b consecutively in either order, then the remaining labels
+produces a swappable pair, proving h>0. Thus
+  p=Pr(A)=h+r+l+k,
+  1-p=h+r'+l'+k',
+  2h+r+l+k+r'+l'+k'=1.                               (C2)
+
+2. SHARED-DOWNSET CONDITIONING: EXACT FOUR-CELL MAP
+Add d<a and d<b for all d in D*, and take the transitive closure Q_down.
+The consecutive construction above proves acyclicity and preserves a||b.
+Their strict downsets in Q_down are both exactly D*: D* was an ideal, and
+no new relation enters it. Their original strict upper sets are unchanged:
+a or b cannot reach D* in P (that would yield either a cycle or a<b/b<a),
+so no path starting at a or b can use the first new edge.
+
+The extension set LE(Q_down) is exactly the subset of LE(P) in the event
+ E_down={all D* before both a,b}=(T union T')^c.
+Hence its probability is d_down=2h+r+r'>0. Conditioning the original uniform
+law on that event gives precisely uniform complete LE(Q_down).
+
+In the forward direction the surviving cells are h and r; in the reverse
+direction they are h and r'. The successor sets are unchanged and both
+predecessor sets are now common, so the integer swap/release counts of
+Q_down are exactly
+  H_down=e(P)h,  R_a,down=e(P)r,  R_b,down=e(P)r'.    (C3)
+These are unnormalized integers: no conditional denominator is missing.
+Apply the general S108 shared-downset theorem to Q_down. It gives
+  [e(P)h]^2 >= [e(P)r][e(P)r'],
+which is the first inequality in (C1).
+Equivalently its probability form is
+  r/d_down <= ((h+r)/d_down)^2;
+substitution of d_down cancels to exactly rr'<=h^2.
+
+3. SHARED-UPSET CONDITIONING AND DUALITY: EXACT FOUR-CELL MAP
+Let U*=U_P(a) union U_P(b). Add a<v and b<v for every v in U*, and take the
+transitive closure Q_up. This is the dual construction: a,b remain
+incomparable, their strict upper sets become exactly U*, and their original
+strict downsets are unchanged.
+Its complete extension set is the original subset in
+ E_up={all U* after both a,b}=(S union S')^c,
+with probability d_up=2h+l+l'>0.
+The surviving original-direction cells are h,l,h,l'.
+Apply the shared-downset theorem to the dual poset Q_up^*. Reversal of each
+extension is a bijection, and swapping labels commutes with reversal. Thus
+its swap count is e(P)h. Its forward successor-only count for a before b
+is e(P)l', because this dual direction is the original b-before-a direction
+and its successor blocker is the original predecessor blocker T'. The other
+release count is e(P)l. Consequently
+  [e(P)h]^2 >= [e(P)l'][e(P)l],
+which is the second inequality in (C1).
+These are two different conditioning events. No assertion equates their
+conditional laws or replaces them by conditioning on their intersection.
+
+4. ORIGINAL-LAW EXPRESSIONS
+Put s=Pr(S), t=Pr(T), s'=Pr(S'), t'=Pr(T'). Then
+ h=p-s-t+k=1-p-s'-t'+k',
+ r=s-k, r'=s'-k', l=t-k, l'=t'-k'.
+The universal conclusions can therefore be written
+ (s-k)(s'-k') <= h^2,
+ (t-k)(t'-k') <= h^2,                               (C4)
+or equivalently
+ (1-t-t')(s-k) <= (p-t)^2,
+ (1-s-s')(t-k) <= (p-s)^2.                           (C5)
+Keeping the intersections k,k' is essential. Replacing r by s or l by t
+would change the event and is not justified.
+
+5. RELATION TO THE FROZEN S104 RESULTS
+The exact conditioning construction and all cell identifications reproduce
+S104/normalized_square_global_application.txt and its independent
+joint_square_audit.txt, read from the published S105 supplement snapshot.
+Only the invoked theorem changes: S103 required a neutral chain; S108 does
+not. Consequently no assertion that N is a chain is needed in this
+corollary, including for arbitrary-width terminal pairs.
+The products do not directly bound the double-blocking masses k,k'. Existing
+scalar-relaxation obstructions and missing global balance reductions are
+not removed merely by this scope extension. No snapshot files were edited.

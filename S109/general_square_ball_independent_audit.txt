@@ -1,0 +1,210 @@
+S109 — Independent mathematical audit: general common-downset square and universal double conditioning
+Date: 2026-10-10 UTC
+Verdict: PASS for both frozen statements below, with the stated classical analytic inputs.
+No claim of formal verification, literature novelty, or a solution of the one-third/two-thirds conjecture.
+
+AUDITED, HASH-BOUND INPUTS
+1. general_shared_downset_ball_proof.txt
+   Source: general_shared_downset_ball_proof.txt
+   SHA-256: 4a22075cde8d3e391ab7c613f7681ede1abae285225a3ebb252c7179d7565557
+2. universal_double_conditioning_corollary.txt
+   Source: universal_double_conditioning_corollary.txt
+   SHA-256: 20abf5be340135c9b5ef51d727019bc9e4c7e097382eb00cb9ad9f7141928b9b
+The author's only change during review was replacing the main proof's provisional status line by a neutral statement referring to this companion review. The mathematical contents did not change. Neither source file was modified by this audit.
+
+RESULT AND SCOPE
+For every finite poset P and every incomparable pair u,y with identical strict downsets, let H be the number of forward linear extensions in which exchanging the actual labels u and y remains legal, and let Ru,Ry be the nonswappable forward and reverse counts. Then
+    H^2 >= Ru Ry.
+There is no restriction on the common-neutral set, the width of P, or the common strict downset beyond equality of the two strict downsets. In particular, a nonempty common downset and a nonchain common-neutral set are genuinely covered. The proof does not condition separately on neutral orders and then average incompatible inequalities. It integrates over the entire true deletion order polytope and uses its convex structure.
+
+For an arbitrary incomparable pair a,b in an arbitrary finite poset, the eight actual-label swap/blocking cells in the second source satisfy
+    h'=h>0,   rr'<=h^2,   ll'<=h^2.
+The two exact conditioning constructions justify this unrestricted corollary. None of these conclusions alone supplies a global balance reduction or controls all double-blocking mass.
+
+1. EXTERNAL ANALYTIC INPUTS: EXACT STATEMENT AND INDEPENDENT SOURCE CHECK
+
+I independently retrieved the publisher's PDF of Keith Ball's own published survey:
+  K. M. Ball, Convex geometry and its connections to harmonic analysis, functional analysis and probability theory,
+  Proceedings of the International Congress of Mathematicians 2022, Volume 4, pages 3104–3139.
+  DOI: https://doi.org/10.4171/ICM2022/65
+  PDF: https://ems.press/content/book-chapter-files/33237
+The downloaded copy is ball_icm2022.pdf in this audit directory. I extracted its text and visually inspected PDF page 5, printed page 3108; ball_icm2022_p3108.png records that page.
+
+Theorem 3 on that page states the precise usable result: if F:R^d->[0,infinity) is even, log-concave, and has finite strictly positive integral, then, for p>=1,
+    x -> [integral_0^infinity F(r x) r^(p-1) dr]^(-1/p)
+is a norm. The negative exponent, the range p>=1, the evenness assumption, and the finite positive integral condition were verified visually, rather than inferred from faulty PDF text extraction. The proof uses only d=2 and p=2. It does not require a nonsymmetric or p<1 extension.
+
+The preceding paragraph on printed page 3108 states marginal preservation of log-concavity; Theorem 2 on printed page 3107 gives Prékopa–Leindler. For the particular section volumes here, ordinary Brunn–Minkowski also suffices, as detailed in Section 3 below.
+
+The original 1988 reference's bibliographic metadata was independently checked at the publisher:
+  Keith Ball, Logarithmically concave functions and sections of convex sets in R^n,
+  Studia Mathematica 88 (1988), 69–84,
+  DOI https://doi.org/10.4064/sm-88-1-69-84
+  Publisher record: https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/88/1/105779/logarithmically-concave-functions-and-sections-of-convex-sets-in-r-n
+Its linked official PDF returned HTTP 403. Accordingly, this audit does NOT claim to have verified the precise original 1988 printed theorem numbering or wording. The exact sufficient theorem was verified in the author's own published ICM survey. This is a transparent source-access limitation, not a gap in the available mathematical input.
+
+2. CONVEX-BODY WING LEMMA: COMPLETE RECONSTRUCTION
+
+Let K be a compact, full-dimensional, coordinate-unconditional convex body in R^2. There is a unique a>0 such that (a,a) lies on its boundary. Sign symmetry and convexity put all four points (±a,±a), and hence the whole square [-a,a]^2, in K. Thus each first-quadrant diagonal sector contains a triangle of area a^2/2.
+
+A supporting line at (a,a) exists. Write its outward normal as (alpha,beta) and its equation as
+    alpha*s+beta*t=(alpha+beta)*a,
+with K on the <= side. Since (a-epsilon,a) and (a,a-epsilon) lie in K for small positive epsilon, alpha>=0 and beta>=0. The normal is nonzero. No differentiability or unique support normal is needed.
+
+If alpha,beta>0, the bounding first-quadrant triangle has intercepts
+    ((alpha+beta)*a/alpha,0), (0,(alpha+beta)*a/beta).
+The diagonal passes through its origin and (a,a). The sector s<=t has area
+    (alpha+beta)*a^2/(2 beta),
+and the sector t<=s has area
+    (alpha+beta)*a^2/(2 alpha).
+These formulas follow directly by the determinant areas of the triangles with vertices 0,(a,a), and the corresponding axis intercept. Subtract the contained half-square area a^2/2 from each. The two nonnegative excesses are bounded above by
+    alpha*a^2/(2 beta) and beta*a^2/(2 alpha).
+Their product is at most a^4/4.
+
+If alpha=0, then beta>0 and K in the first quadrant lies in t<=a. Its s<=t portion is contained in 0<=s<=t<=a; since the entire square is also contained in K, this portion is exactly that triangle and its excess is zero. The beta=0 case is the coordinate-reversed argument. Thus there is no zero-denominator gap.
+
+One may call the excesses wings, but the proof correctly defines them as sector area minus half-square area. The sector area itself is NOT a private count. This distinction is respected throughout the proposed proof.
+
+3. LOG-CONCAVITY: NO UNJUSTIFIED MIXTURE OR REFLECTION
+
+For nonnegative concave continuous A,B on a compact full-dimensional convex Omega, the set
+    C={(z,s,t): z in Omega, 0<=s<=A(z), 0<=t<=B(z)}
+is convex: under convex combinations, the required upper bounds follow from concavity. Its section-volume function
+    f(s,t)=vol{z in Omega: A(z)>=s, B(z)>=t}
+is nonincreasing in each nonnegative coordinate.
+
+For completeness, let Omega_q be the section at q=(s,t). Convexity implies
+    (1-lambda)Omega_q + lambda Omega_q' subset Omega_((1-lambda)q+lambda q').
+Brunn–Minkowski in dimension m gives concavity of f^(1/m) wherever the section volumes are positive, hence log-concavity by weighted arithmetic–geometric mean. If either endpoint volume vanishes, the log-concavity inequality is immediate. This confirms the asserted marginal result directly for the present uniform fibers; it does not assume any stronger positive association property.
+
+The reflected function F(x)=f(|x_1|,|x_2|) is log-concave because
+    |(1-lambda)x+lambda y| <= (1-lambda)|x|+lambda|y|
+coordinatewise. Apply coordinatewise monotonicity and then log-concavity of f. Equivalently, the centrally reflected set
+    {(z,s,t): z in Omega, |s|<=A(z), |t|<=B(z)}
+is convex and F is its section-volume function. Both arguments establish full log-concavity across axes; mere evenness without coordinate monotonicity would not suffice.
+
+In the application A,B are continuous, bounded by 1, and positive together on an interior open subset. Consequently F is bounded, compactly supported, positive on a neighborhood of 0, and has finite strictly positive integral. All nonzero-direction ray integrals are finite and strictly positive. The corresponding norm ball is a compact full-dimensional unconditional convex body. No regularization, limiting change in the events, or discontinuous-support exception is necessary.
+
+4. BALL NORMALIZATION AND EXACT SECTOR MASSES
+
+Using the verified p=2 theorem, define
+    q(x)=[integral_0^infinity r F(r x) dr]^(-1/2).
+The proposed norm is q/sqrt(2). Its unit ball K therefore has, for unit v,
+    rho_K(v)^2 = 2 integral_0^infinity r F(r v) dr.
+This is the unnormalized convention; no division by F(0) is required. If instead the conventional K_2 normalization uses F(0), the whole body is rescaled by F(0)^(-1/2), and all area formulas acquire the same factor. Mixing those conventions would be an error, but the frozen proof does not mix them.
+
+For any sector C consisting of rays from the origin, polar integration yields
+    area(K intersect C)
+      = (1/2) integral_angles_in_C rho_K(v)^2 dtheta
+      = integral_C F(s,t) ds dt.
+This includes both diagonal sectors used by the wing lemma. On the positive diagonal, v=(1,1)/sqrt(2), write r=sqrt(2)*t. Then
+    rho_K(v)^2=4 integral_0^infinity t f(t,t)dt=4h.
+But rho_K(v)^2=2a^2, so h=a^2/2 exactly. The factors 2 from polar area, the p=2 rescaling, and the diagonal change of variable all check.
+
+Tonelli/Fubini on nonnegative integrands gives
+    h=integral_Omega min(A,B)^2/2.
+The s<t part of [0,A]x[0,B] has area
+    min(A,B)^2/2 + A(B-A)_+;
+the t<s part has area
+    min(A,B)^2/2 + B(A-B)_+.
+Therefore its integrated sector masses are h+rplus and h+rminus. Subtracting h yields exactly the wing excesses, and the convex-body lemma proves h^2>=rplus*rminus.
+
+At m=0 the fiber consists of a single deterministic rectangle, for which at most one private excess is positive. The proposed separate treatment is correct.
+
+5. ORDER-POLYTOPE FIBERS AND ORIGINAL COMPLETE-EXTENSION LAW
+
+Let Omega be the order polytope of the induced deletion poset P-{u,y}, using increasing coordinates along the order. It is compact, convex, and full-dimensional for n>2. A strict linear extension with coordinates strictly between 0 and 1 gives an interior point.
+
+Write L=max_D z_d with empty value 0, and Tu=min_{v>u}z_v, Ty=min_{v>y}z_v with empty value 1. For d in D and v>u, transitivity gives d<v in the induced deletion poset. Thus L<=Tu. The same argument gives L<=Ty. Empty-set cases respect these inequalities.
+
+The minimum of affine coordinate functions is concave; the maximum is convex. Hence A=Tu-L and B=Ty-L are continuous, nonnegative, concave, and bounded by 1. At every interior point of Omega all comparable coordinates and the box endpoints have strict separation. Therefore A and B are strictly positive there. This also verifies the analytic positivity hypotheses, including cases where one or more bound sets are empty.
+
+For fixed z, all order constraints involving u say exactly L<=t_u<=Tu, and those involving y say exactly L<=t_y<=Ty. No relation between u and y exists. This gives a rectangular fiber. The identical-downset assumption is used precisely in the common lower endpoint L. Arbitrary comparisons between remaining elements, including neutral-neutral comparisons, are retained in Omega.
+
+Within this fiber subtract L from both coordinates. This is a translation for each fixed z, so its two-dimensional Jacobian is 1; no differentiation of the piecewise-linear L is needed. It preserves the order of the two coordinates. A label swap is legal exactly when both coordinates lie in the overlap [L,min(Tu,Ty)]. Its forward half has area min(A,B)^2/2. If A<B, the extra forward nonswappable rectangle has area A(B-A), with no reverse private region. The B<A case is symmetric.
+
+Every complete linear extension of P indexes one standard simplex of O(P), each of volume 1/n!, apart from coordinate ties of measure zero. The order event and actual-label swap validity are constant on the interior of each such simplex. Hence
+    H/n! = integral_Omega min(A,B)^2/2,
+    Ru/n! = integral_Omega A(B-A)_+,
+    Ry/n! = integral_Omega B(A-B)_+.
+In particular, the denominator is n!, not (n-2)! or the number of deletion extensions. Lebesgue integration over the deletion polytope retains every insertion multiplicity. The nonlinear inequality is NOT averaged over separately normalized deletion fibers.
+
+Apply Section 4 and multiply by (n!)^2. This proves the stated result for all finite P under the common-downset condition. When n=2, P is the two-element antichain, H=1 and Ru=Ry=0, as stated. More generally H>0 can also be seen by placing the common ideal D first, then u,y consecutively in either order, then a linear extension of the remainder.
+
+6. NORMALIZED EQUIVALENCES AND P0-TO-Q TRANSFER
+
+The swapping involution gives the same count H in the reverse direction, so E=e(P)=2H+Ru+Ry and p=(H+Ru)/E. Direct expansion gives
+    E*H-(H+Ru)(H+Ry)=H^2-Ru*Ry,
+    (H+Ru)^2-E*Ru=H^2-Ru*Ry.
+Thus the determinant statement is equivalent to H/E>=p(1-p) and Ru/E<=p^2, without assuming Ru,Ry positive.
+
+For P0 with y minimal and u incomparable with y, D=D_P0(u) is an ideal excluding both labels. Adding D<y produces an acyclic poset Q: concatenate an extension of D, then u,y in either order, then the remainder. The strict downsets of u,y in Q both equal D. No original path from u can reach D, so no path starting at u can use a new edge; its upper set is unchanged. LE(Q) is exactly LE(P0) restricted to E_D={all D before y}.
+
+Both original events {u before y} and {some u-successor before y} imply E_D, since D precedes u. Conditioning therefore divides their probabilities by the same d=Pr(E_D)>0. This proves p_Q=p0/d and U_Q=U0/d, and the inequality is d*U0<=p0^2. No probability from an unweighted deletion law is introduced.
+
+7. UNIVERSAL DOUBLE-CONDITIONING COROLLARY: INDEPENDENT CHECK
+
+For arbitrary a||b, forward successor blocking S and forward predecessor blocking T both imply a before b. Reverse events S',T' imply the opposite direction. Swapping actual labels in a forward extension fails exactly when S or T occurs: moving a later can cross one of its successors, and moving b earlier can cross one of its predecessors. Its own predecessors and b's own successors cannot create additional violations. The reverse test is symmetric. The involution proves h'=h. The ideal D*=D(a) union D(b), followed by a,b consecutively in either order, proves h>0.
+
+Lower conditioning. Add D* below both labels. D* remains an ideal; no new relation enters it. A path beginning at a or b cannot reach D*, so neither upper set changes. Their strict downsets become exactly D*, and both orders remain possible. The extension set is exactly the original law restricted to
+    E_down={D* before both a,b}=(T union T')^c.
+The surviving cells are h,r in the forward direction and h,r' in reverse. The four-cell denominator is 2h+r+r'>0. The actual common-downset integer counts are precisely
+    e(P)h, e(P)r, e(P)r'.
+No conditional normalization belongs in these integer identities. The main theorem therefore gives rr'<=h^2.
+
+Upper conditioning is the exact dual construction. Add both labels below U*=U(a) union U(b). Their original downsets stay unchanged and their upsets become exactly U*. Restricting the original law to
+    E_up={U* after both a,b}=(S union S')^c
+leaves forward h,l and reverse h,l'. On reversing every extension, the common-downset theorem has private counts e(P)l' and e(P)l, in that order. Swapping commutes with reversal, so its H is still e(P)h. Therefore ll'<=h^2.
+
+These are two separate valid conditional laws, both expressed back in original-law masses; no assertion equates their distributions or conditions on their intersection. The algebraic forms (C4) and (C5) follow by substituting r=s-k, l=t-k, their reverse versions, and the eight-cell sum. In particular,
+    (1-t-t')(s-k)<=(p-t)^2
+expands to rr'<=h^2, and its upper-conditioning counterpart expands to ll'<=h^2. Intersections k,k' must remain; the frozen text keeps them.
+
+The corollary no longer needs the neutral-chain hypothesis because its only former use was in the upstream shared-downset theorem. This is a genuine unrestricted conclusion. It does not establish any of the missing global or terminal-pair reductions.
+
+8. INDEPENDENT EXACT FINITE CHECKS AND THEIR LIMITS
+
+Two new scripts were written for this audit, without importing the proposed author's tests or the S103/S104 scripts. All checks use integers or rational numbers, with no sampling or floating-point tolerances.
+
+A. audit_general_square_exact.py
+For every naturally labelled poset on 2 through 6 elements, it enumerates all complete extensions recursively. For each equal-downset incomparable pair it checks the legality of the actual label swap and counts H,Ru,Ry directly. Independently, it enumerates every deletion extension and exactly integrates the three fiber polynomials on its standard simplex using Dirichlet gap moments.
+
+More explicitly, along a deletion extension write z_0=0<z_1<...<z_m<z_(m+1)=1. Let l be the largest common-predecessor rank and i,j the first-successor ranks, using m+1 for an empty successor set. Put k=min(i,j)-l. After multiplying by n!, that deletion simplex contributes
+    H: k(k+1)/2,
+    Ru: k(j-i) if i<j, otherwise 0,
+    Ry: k(i-j) if j<i, otherwise 0.
+The identities follow because sums of k disjoint uniform-simplex gaps have second moment k(k+1)/((m+1)(m+2)), and disjoint k- and q-gap sums have product moment kq/((m+1)(m+2)). Multiplication by its volume 1/m! gives denominator n!. The script compares this exact integral computation against the independently enumerated original extensions.
+
+Totals, all PASS:
+- 5,230 natural-label posets, n=2..6;
+- 16,502 equal-downset incomparable pairs;
+- 116,882 deletion fibers;
+- 3,452 pairs with nonempty common downset;
+- 6,428 pairs whose common-neutral set is not a chain;
+- 2,488 pairs with both private counts positive;
+- 383 nonchain-neutral pairs with both private counts positive.
+The same script explicitly constructs P0-to-Q conditioning for n<=5: 2,369 ordered pair instances, including 797 with nonempty D. It checks exact equality of complete extension sets and both event counts, as well as the normalized inequality after clearing denominators.
+
+A simple out-of-old-scope example among the checks has six labels, relations 0<3 and 1<2, pair (0,1), and neutral incomparable labels {4,5}. The complete count is E=180 with (H,Ru,Ry)=(60,30,30). This is only a calibration, not the proof of the unrestricted result.
+
+The script also checks exact analytic calibrations:
+- a deterministic 2-by-3 rectangle gives (h,rplus,rminus)=(2,2,0), fixing the wing subtraction;
+- Omega=[0,1], A=z, B=1-z gives h=rplus=rminus=1/24, with Ball-body diagonal a^2=1/12, attaining equality in the analytic lemma;
+- the arbitrary 50–50 mixture of rectangles (A,B)=(1,4),(4,1) gives h=1/2 and both private masses 3/2, violating the inequality. This is a negative control showing why mere mixture averaging is invalid and why the convex-fiber assumption matters.
+
+B. audit_universal_conditioning_exact.py
+For all 406 naturally labelled posets on n=2..5 and all 2,126 incomparable pairs (including 298 with nonchain common-neutral set), it explicitly constructs both conditioned transitive closures and their duals. It checks:
+- exact upper/downset preservation and common-set identities;
+- equality of the complete conditioned extension sets with the corresponding original-event filters;
+- exact four-cell maps [[h,r,0,0],[h,r',0,0]] and [[h,0,l,0],[h,0,l',0]];
+- the dual reversed map [[h,l',0,0],[h,l,0,0]];
+- both product inequalities and both cleared-denominator (C5) forms.
+All checks PASS.
+
+Natural-label enumeration includes at least one topological relabelling of every poset of the indicated size; these properties are relabelling invariant. It does not mean every redundant arbitrary numeric labelling was separately counted. The finite computations test definitions, normalization, endpoint cases, and implementation. They do not replace the general proof in Sections 2–7.
+
+9. RELEASE-READY CONCLUSION
+
+Both frozen mathematical statements pass this independent review. The only inaccessible original source is the 1988 PDF; the exact sufficient theorem is available and checked in Ball's published ICM survey, and the proof discloses this accurately. No correction to the mathematics was required.
+
+Recommended statement of status: a complete derivation of the general common-downset square and the arbitrary-pair double-conditioning inequalities, independently reviewed against the specified frozen files, with explicit standard Brunn–Minkowski/Prékopa–Leindler and Busemann–Ball inputs. Novelty is unassessed; no claim is made that this solves the general balance conjecture or legitimizes arbitrary mixtures of earlier matrix inequalities.

@@ -1,0 +1,183 @@
+S109 INDEPENDENT MATHEMATICAL AUDIT: STRICT SHARED-DOWNSET SQUARE
+2026-10-10
+Review type: Independent mathematical review
+
+VERDICT: PASS. No mathematical correction is required.
+This is a proof audit, not an inference from numerical experiments. It relies
+on the previously audited S108 non-strict Ball-body theorem and checks the
+additional finite-poset strictness argument independently. No novelty or
+machine-formal-verification claim is made.
+
+AUDITED DRAFT
+File: strict_shared_downset_square.txt
+SHA256: cf0c5edda09fa8284a88091649368ed0b39435f093a070518009eb3dfbe04ccc
+Read the entire draft and independently rederived its polynomial formula,
+normalization, equality implication, and all endpoint cases requested.
+
+EDITORIAL REBIND VERIFICATION
+The audited proof differs from the initially reviewed SHA256
+c1be8da64550d2a09b6d3f41a439fdc92e19e5e96fb87778fd203149ab0264b1
+only in line 2, which now reads:
+  2026-10-10. Proof statement; independent audit status is recorded in the companion review.
+Replacing that line with its prior text,
+  2026-10-10. Working proof, awaiting independent audit.
+reproduces the initially reviewed SHA256 exactly. No mathematical content
+changed. The PASS verdict is rebound to the current SHA256 listed above.
+
+STATEMENT VERIFIED
+For every finite poset P and incomparable u,y with the same strict downset,
+let H be the number of forward extensions preserved by swapping the actual
+labels u,y, and Ru,Ry the respective nonswappable counts. Then
+                         H^2 > Ru Ry.
+The strictness deduction is sound for the original complete-extension counts;
+no change to a uniform law on deletion extensions occurs.
+
+1. DELETION-CHAMBER INDICES
+Write m=n-2. A linear-extension chamber of the deletion order polytope is
+  0=z_0<z_1<...<z_m<z_(m+1)=1,
+with volume 1/m!. On it the three endpoint functions are fixed coordinates:
+L=z_l, Tu=z_i, Ty=z_j. Each common predecessor d is below every successor v
+of u or y, since d<u<v or d<y<v. Consequently every such predecessor appears
+before every such successor in every deletion extension. Thus
+  0 <= l < min(i,j) <= m+1.
+This is the exact condition needed to have positive integer spacing counts.
+Empty D gives l=0. A missing successor set gives its upper index m+1.
+The widths A=z_i-z_l and B=z_j-z_l share their lower endpoint, so their
+spacing blocks are nested. Arbitrary mixtures of unrelated rectangles would
+not provide this property; the proof does not assert they do.
+
+2. INDEPENDENT DERIVATION OF THE DIRECTIONAL MOMENT
+For 0<q<1, Tonelli gives
+  J(q)=integral_0^infinity r f(r,qr) dr
+      =(1/2) integral_Omega min(A,B/q)^2 dz.
+For one deletion chamber sigma, distinguish the two index orders.
+
+If i<=j, then A<=B and min(A,B/q)=A. Put k=i-l>=1. The chamber contributes
+  J_sigma(q)= k(k+1)/(2 n!),
+a positive constant.
+
+If i>j, put a=j-l>=1, b=i-j>=1, k=a+b=i-l, and c=m+1-k>=0.
+The m+1 unit-total spacings have the uniform Dirichlet(1,...,1) law under
+normalized chamber measure. Group them into
+  B: a spacings;
+  A-B: b spacings;
+  1-A: c spacings.
+The final group includes the l initial spacings AND the m+1-i terminal
+spacings. These need not be contiguous; the simplex-volume grouping formula
+only uses the size of each group, so noncontiguity causes no restriction.
+
+For c>0, the joint (B,A) density is proportional to
+  B^(a-1)(A-B)^(b-1)(1-A)^(c-1),   0<B<A<1.
+Put V=B/A. The Jacobian of (A,V)->(A,B) is A, giving density proportional to
+  A^(a+b-1)(1-A)^(c-1) V^(a-1)(1-V)^(b-1).
+Hence A and V are independent, V~Beta(a,b), and
+  E[A^2]=k(k+1)/((m+1)(m+2)).
+For c=0, necessarily l=0 and i=m+1, so A=1 identically. The remaining
+2-group simplex calculation still gives V~Beta(a,b), and the displayed
+second-moment formula equals 1. Independence with a constant is valid.
+
+Thus, using n!=m!(m+1)(m+2),
+  J_sigma(q) = k(k+1)/(2 n!) G_(a,b)(q),
+where
+  G_(a,b)(q)
+   = q^(-2) E[V^2 1_(V<q)] + Pr(V>=q)
+   = 1 - (1/Beta(a,b)) integral_0^q
+                   (1-v^2/q^2) v^(a-1)(1-v)^(b-1) dv
+   = 1 - (2/Beta(a,b)) sum_(r=0)^(b-1)
+       (-1)^r binom(b-1,r) q^(a+r)/[(a+r)(a+r+2)].
+The coefficient calculation uses
+  q^(-2) integral_0^q v^(a+r+1)dv
+       - integral_0^q v^(a+r-1)dv
+  = -2 q^(a+r)/[(a+r)(a+r+2)].
+No denominator vanishes because a+r>=1. The highest possible degree is
+  a+b-1 = k-1 <= m.
+Summing finitely many chambers gives a real polynomial J on (0,1).
+Every chamber weight is its actual Euclidean volume 1/m!, retained throughout.
+
+3. ENDPOINT AND DEGENERATE-CASE AUDIT
+- Empty common downset: l=0; all calculations remain valid.
+- Ty=1, hence j=m+1: necessarily i<=j, so the chamber is in the constant
+  branch. No Beta distribution with an invalid parameter is invoked.
+- Tu=1, hence i=m+1: either i=j and the contribution is constant, or i>j
+  and c=l. If also l=0, this is exactly the separately checked A=1 case.
+- Tu=Ty on a chamber: i=j, hence A=B. The constant branch applies. The
+  proof never invokes Beta(a,0); its Beta formula is restricted to b>=1.
+- Both successor sets empty: A=B=1-L. Again the constant branch applies.
+- D nonempty: l can be as large as m but then the upper index is m+1;
+  still k>=1, as required.
+- m=0, n=2: P consists of the incomparable pair. The 0-dimensional
+  deletion-polytope measure is 1, A=B=1, J(q)=1/2, H=1, Ru=Ry=0.
+- q=0 and q=1 are not used by the polynomial identity argument; it uses
+  the open interval (0,1). No division by zero or boundary regularization
+  is hidden. The polynomial extends continuously to these endpoints if
+  desired; J(1)=H/n! and J(0)=(1/2) integral A^2.
+- If either Ru or Ry vanishes, strictness is immediate from H>0.
+  For m>0, positive widths in the deletion-polytope interior give H>0.
+  Combinatorially, take a linear extension of the common downset D,
+  then u,y consecutively, then extend the rest. Swapping this consecutive
+  pair is legal, so H>=1. This also covers all dimensions directly.
+
+4. BALL-BODY NORMALIZATION CHECK
+The S108 rescaled Ball norm is
+  N_K(x) = [2 integral_0^infinity r F(rx)dr]^(-1/2).
+For x=(1,q), integral rF(rx)dr=J(q). Homogeneity therefore gives
+  max{t>=0: t(1,q) in K} = sqrt(2J(q)).
+This is a ray parameter, not Euclidean distance; the draft correctly uses
+this convention and introduces no missing factor 1+q^2.
+At the diagonal boundary point (d,d), d^2=2h and h=H/n!.
+The count normalization and the factor 2 in the ray identity both agree
+with S108 exactly.
+
+5. EQUALITY FORCES A FULL NONDEGENERATE TRIANGLE
+Assume equality h^2=rplus*rminus. Since h>0, both wings are positive.
+A supporting line of unconditional convex K at (d,d) is
+  alpha*s+beta*t=(alpha+beta)d,  alpha,beta>=0.
+The zero-coefficient cases force a zero wing, as in S108. Thus equality
+requires alpha,beta>0. With T the first-quadrant triangle below this line,
+K intersect quadrant is contained in T. The two wing estimates are
+  rplus <= alpha*d^2/(2beta),
+  rminus <= beta*d^2/(2alpha).
+Their positive upper bounds have product h^2. Equality of the product
+therefore forces equality in each estimate separately. Subtracting or
+adding the same core half-square area h preserves the area equality, so
+K and T have equal area in both sectors and hence in the whole quadrant.
+
+The conclusion K intersect quadrant=T is justified. If a point of compact
+T lay outside closed K, its distance to K would be positive. Since T is
+full-dimensional, a nearby interior point of T would also lie outside K,
+and a sufficiently small open disk around that point would give positive
+missing area, contradicting equality. Thus boundary-only omissions cannot
+invalidate the conclusion. No stronger strict-convexity theorem is used.
+
+For every q in (0,1), the ray parameter in this triangle is
+  t=(alpha+beta)d/(alpha+beta*q).
+The normalization checked above then forces
+  J(q)=((alpha+beta)^2 d^2)/(2(alpha+beta*q)^2).
+
+6. POLYNOMIAL CONTRADICTION
+The polynomial P with J(q)=P(q) is nonzero because J(q)>0. Equality would
+give, on a nonempty open interval,
+  (alpha+beta*q)^2 P(q)=((alpha+beta)^2 d^2)/2.
+Hence this is a polynomial identity. The left side has degree deg(P)+2
+because beta>0 and P is nonzero; the right side is a positive constant.
+This is impossible. Together with the audited non-strict inequality,
+it proves strictness in every finite case.
+
+7. EXACT SANITY CHECKS (SUPPLEMENTARY, NOT THE PROOF)
+For two disjoint 2-element chains u<a and y<b, n=4 and the deletion poset
+on a,b is an antichain. One chamber contributes 1/24. The other contributes
+(1/8)(1-2q/3). Thus J(q)=1/6-q/12 and J(1)=1/12.
+The six complete extensions give H=2, Ru=Ry=1, so H/n!=1/12 and
+H^2-RuRy=3>0. This checks the count normalization and nonconstant case.
+The n=2 antichain gives J=1/2=H/2!.
+Additionally, exact symbolic integration verified the stated finite-sum
+identity for all 64 pairs a,b in {1,...,8}; no floating-point sampling was
+used. The general algebraic derivation in Section 2 is the justification.
+
+SCOPE
+The proof establishes qualitative strictness and, because counts are
+integers, the immediate count gap H^2-RuRy>=1. It does not establish a
+size-independent positive gap for normalized probabilities, any stronger
+coefficient, or a solution to a global one-third/two-thirds reduction.
+No counterexample exists to the audited derivation under its stated inputs;
+no separate counterexample report is needed because the audit passes.

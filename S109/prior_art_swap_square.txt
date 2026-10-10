@@ -1,0 +1,233 @@
+S109 — Targeted prior-art check: shared-downset actual-swap square
+Checked 2026-10-10 UTC. Research comparison, not a novelty certificate.
+
+RESULT
+
+No exact published statement of the full shared-downset actual-label-swap
+inequality was identified in this targeted check. This is NOT evidence of
+novelty and does not establish that the statement is absent from the literature.
+
+Two concrete prior-art relationships were established:
+
+1. Chan–Pak's 2024 Theorem 1.9 yields the exact square in the special case
+   with no element incomparable to both distinguished elements (N empty).
+   A direct application of that theorem to arbitrary N was not established.
+2. The route from poset probabilities through convex bodies/log-concavity and
+   Ball's theorem to a two-dimensional geometric problem predates this work:
+   Kahn–Yu (1998) explicitly used that route. It must not be presented as a
+   new general method. Their publicly available abstract describes a different
+   target, proportional transitivity. Their complete paper was not obtained,
+   so an exact implication through an internal lemma of that paper remains open.
+
+Ball's theorem itself is a verified, sufficiently strong analytic input for
+S108, together with the explicit elementary wing argument and the verified
+order-polytope event translation. This establishes a derivation from classical
+theory; it is distinct from finding the final combinatorial inequality already
+stated in print.
+
+TARGET AND NORMALIZATION
+
+The supplied target is: P finite, u incomparable to y, D_P(u)=D_P(y).
+H counts full linear extensions with u before y such that interchanging the
+two actual labels still gives a linear extension. Ru and Ry count the
+nonswappable extensions in the two respective orientations. With E=e(P),
+
+  E=2H+Ru+Ry,   p=(H+Ru)/E,
+  H^2 >= Ru Ry  <=>  EH >= (H+Ru)(H+Ry)
+                  <=>  H/E >= p(1-p).
+
+The event uses arbitrary positions and a possibly nonempty block between u
+and y. It is not simply adjacency, the first two positions, or deletion of
+elements followed by a uniform law on the smaller poset.
+
+PRIMARY-SOURCE COMPARISONS
+
+A. Chan–Pak: the exact N-empty specialization
+
+Swee Hong Chan and Igor Pak, Correlation inequalities for linear extensions,
+Advances in Mathematics 458 (2024), article 109954.
+DOI: https://doi.org/10.1016/j.aim.2024.109954
+Full author version, dated 12 September 2024:
+https://www.math.ucla.edu/~pak/papers/Correlation17.pdf
+Relevant locations: Theorem 1.9, p.4, equation (1.17); proof in Section 6.5.
+
+For disjoint nonempty A,B contained in min(P), Theorem 1.9 says
+
+  Pr[1 in f(A),2 in f(B)]^2
+  >= Pr[1 in f(A),2 in f(A-up)]
+     Pr[1 in f(B),2 in f(B-up)].
+
+These are first-two-rank events. Theorem 1.6 and Corollary 1.7 likewise concern
+the first two ranks. Proposition 6.1 gives a hyperbolic matrix with certain
+fixed-rank restrictions, not an asserted arbitrary-mixture closure theorem.
+
+The following scope identification is our direct mathematical observation:
+assume first D empty and N empty. Then the only minimal elements are u,y.
+In a forward extension, if u and y are not the first two elements, the second
+element lies above u and before y, preventing the swap. Conversely an extension
+starting u,y permits the swap. Thus, for A={u}, B={y}, the left probability is
+H/E, and the two right probabilities are Ru/E and Ry/E. This is exactly S108's
+square in this special case.
+
+For general common D but still N empty, every remaining element is above at
+least one of u,y, and hence above every element of D. Thus P is the ordinal
+sum D plus Q, where Q has only u,y minimal. All relevant counts acquire the
+same factor e(D); the preceding specialization still applies.
+
+For arbitrary N, the identification fails. For example, for the three-element
+antichain {u,y,z}, H=3 while the count of extensions beginning u,y is 1.
+Merely summing first-two-rank inequalities over prefixes would need an extra
+theorem. In particular, off-diagonal-square dominance is not closed under
+arbitrary summation: [[100,10],[10,1]] and [[1,10],[10,100]] each have determinant
+zero, while their sum has positive determinant. This observation does not rule
+out a more sophisticated deduction from the atlas theory; none was verified.
+
+B. Fishburn: normalized ideal counts and strengthened XYZ
+
+Peter C. Fishburn, A correlational inequality for linear extensions of a poset,
+Order 1 (1984), 127–137.
+Primary publisher abstract: https://link.springer.com/article/10.1007/BF00565648
+DOI: https://doi.org/10.1007/BF00565648
+
+The abstract states a sharp bound on
+  N(213)N(312)/[(N(123)+N(132))(N(231)+N(321))]
+for three pairwise incomparable distinguished points. Its bound is
+(n-1)^2/(n+1)^2 for odd n and (n-2)/(n+2) for even n, giving strict XYZ.
+That is a six-order-pattern statistic on three points, not the two-point
+actual-swap partition. No substitution identifying those counts with H,Ru,Ry
+was established.
+
+The associated ideal-count inequality has a fully accessible new proof in:
+Graham R. Brightwell and William T. Trotter, A combinatorial approach to
+correlation inequalities, Discrete Mathematics 257 (2002), 311–327.
+https://trotter.math.gatech.edu/papers/117.pdf
+DOI: https://doi.org/10.1016/S0012-365X(02)00432-6
+Lemma 3.1, p.314: writing epsilon(S)=e(S)/|S|!, for downsets A,B,
+  epsilon(A)epsilon(B) <= epsilon(A union B)epsilon(A intersection B).
+Theorems 2.1–2.2 discuss XYZ; Theorem 5.1 restates and reproves Shepp's
+disjoint-union correlation theorem. These are explicitly different quantities
+from H,Ru,Ry. A reduction of the full target to these results was not found.
+
+C. Shepp: arbitrary relations between initially unrelated blocks
+
+L. A. Shepp, The FKG inequality and some monotonicity properties of partial
+orders, SIAM Journal on Algebraic and Discrete Methods 1 (1980), 295–299.
+DOI: https://doi.org/10.1137/0601034
+Full author-hosted original:
+https://faculty.wharton.upenn.edu/wp-content/uploads/2012/04/Fkg-inequality-and-some-monotonicity-properties-of-partial-orders.pdf
+
+Theorem 2, equation (1.6), assumes the original poset has two blocks with no
+relations between them and establishes positive association of collections
+of added comparisons all pointing from the first block to the second.
+Theorem 1 permits pre-existing cross-comparisons when each block is a chain.
+The paper explicitly gives counterexamples to removing those restrictions.
+
+Shared downsets alone do not supply such a two-block decomposition: the
+successor sets and common-incomparable elements may have cross-relations.
+Therefore neither the unrestricted-block theorem nor its two-chain variant
+can simply be invoked without constructing and verifying a reduction.
+
+Shepp's 1982 XYZ theorem has DOI https://doi.org/10.1214/aop/1176993791.
+The accessible primary reproof in Brightwell–Trotter above establishes its
+usual pair-comparison form. It does not itself identify the swap event.
+
+D. Generalized Fishburn results checked
+
+Chan–Pak, Multivariate correlation inequalities for P-partitions (2023 author
+version): https://www.math.ucla.edu/~pak/papers/AlphaBet12.pdf
+https://arxiv.org/abs/2212.11954
+Theorem 3.4 is a self-dual extension of Fishburn's normalized induced-subposet
+count inequality using lower and upper ideals. Theorems 4.9–4.10 extend to
+order polynomials and multivariate weights. These keep ideal-deletion/counting
+data; no direct encoding of the actual-swap cells was verified.
+
+Chan–Pak, Equality conditions for correlation inequalities (2026):
+https://arxiv.org/html/2607.06275v1#S4.SS3
+https://arxiv.org/abs/2607.06275
+Section 4.3, Theorems 4.4–4.5, states generalized Fishburn and characterizes
+equality using connectivity in the comparability graph. This is a recent
+primary-source check, but it does not advertise the present swap statistic.
+
+E. Ball: verified analytic implication, not an existing poset statement
+
+Keith Ball, Logarithmically concave functions and sections of convex sets in
+R^n, Studia Mathematica 88 (1988), 69–84.
+DOI: https://doi.org/10.4064/sm-88-1-69-84
+
+The precise form used is verified in Ball's own published survey:
+Convex geometry and its connections to harmonic analysis, functional analysis
+and probability theory, Proceedings of ICM 2022, vol.4, 3104–3139.
+DOI: https://doi.org/10.4171/ICM2022/65
+Full text: https://ems.press/content/book-chapter-files/33237
+Theorem 3, printed p.3108, PDF p.5: for an even nonnegative integrable
+log-concave F with positive integral and p>=1,
+  x -> [integral_0^infinity F(rx) r^(p-1) dr]^(-1/p)
+is a norm. Theorem 2 and adjacent discussion give marginal log-concavity.
+
+S108 uses p=2 and an unconditional extension F(s,t)=f(|s|,|t|). Its further
+support-line/sector calculation is explicit, so the classical theorem does
+provide a sufficient analytic foundation. Neither the cited theorem statement
+nor this inspected survey states H^2>=RuRy for posets. The distinction between
+a new derivation here and a new theorem in the literature must remain explicit.
+
+F. Kahn–Yu: important methodological predecessor; full-text comparison open
+
+Jeff Kahn and Yang Yu, Log-Concave Functions And Poset Probabilities,
+Combinatorica 18 (1998), 85–99.
+DOI: https://doi.org/10.1007/PL00009812
+Primary publisher: https://link.springer.com/article/10.1007/PL00009812
+Authors' institution record with readable formulas:
+https://www.researchwithrutgers.org/en/publications/log-concave-functions-and-poset-probabilities/
+
+Their abstract defines delta(a,b) as the infimum of Pr(x<z) subject to
+Pr(x<y)>=a and Pr(y<z)>=b. It also describes an exact geometric analogue gamma
+for a vector uniformly distributed in a compact convex set. It explicitly
+identifies Brunn–Minkowski plus Ball as the reduction to two dimensions.
+Kahn's 1997 seminar announcement confirms the consequence that probabilities
+Pr(x<y)>1/2 and Pr(y<z)>1/2 imply Pr(x<z)>1/4:
+https://archive.dimacs.rutgers.edu/archive/Events/1997/Titles/1997/Kahn.html
+
+The advertised target is proportional transitivity of three comparisons.
+The present H is a complete swap-validity event involving all relevant
+successors, not one of those three comparisons. No verified reduction of H
+to the theorem's three-coordinate event was obtained. Importantly, the full
+paper may contain geometric lemmas closer to S108 than its abstract; those
+lemmas could not be checked here. Publisher access is subscription-only,
+and neither the author's selected-paper page nor the queried bibliographic
+records supplied an open full text. No subscription, author contact, or
+access-control bypass was attempted.
+
+SEARCH COVERAGE AND LIMITS
+
+The check used primary author/publisher copies, inspected relevant theorem
+statements and proof setups, and searched wording variants involving identical
+downsets/predecessors, actual swaps/interchanges/transpositions, successor
+probabilities, and poset applications of Ball. The full Chan–Pak 2024,
+Chan–Pak multivariate, Brightwell–Trotter 2002, and Shepp 1980 PDFs were read
+at the relevant sections. Recent Chan–Pak 2026 equality conditions were also
+checked. Chan–Pak's Linear extensions of finite posets survey was used as a
+bibliographic map, not as a substitute for a missing original proof.
+
+As a nearby check, Aires–Kahn, Balancing Extensions in Posets of Large Width,
+https://arxiv.org/abs/2509.11549 (v1, 15 September 2025), Sections 3–6,
+discusses order polytopes, log-concavity, and XYZ/Fishburn correlations. No
+matching actual-swap theorem was located there. This is not an exhaustive
+review of all balancing or poset-correlation literature.
+
+The absence of a search hit cannot exclude an older result under different
+notation, an unstated classical corollary, a lemma in inaccessible full text,
+or another exact implication of the atlas/FKG literature.
+
+RECOMMENDED ATTRIBUTION AND STATUS
+
+Safe wording:
+  "We give an explicit derivation of the shared-downset swap inequality from
+  marginal log-concavity and the Busemann–Ball theorem. Related geometric
+  reductions for poset probabilities were developed by Kahn and Yu. The
+  no-common-incomparable special case follows directly from Chan and Pak's
+  first-two-position correlation inequality. We make no claim of novelty."
+
+The most important unresolved bibliographic step is a lawful full-text
+comparison against Kahn–Yu (1998), especially its two-dimensional geometric
+lemmas. This is a literature-status caveat, not a gap in S108's independently
+written derivation. No external writes, contacts, or publication were made.

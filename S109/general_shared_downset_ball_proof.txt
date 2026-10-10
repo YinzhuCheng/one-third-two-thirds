@@ -1,0 +1,189 @@
+S108: General shared-downset normalized square via a two-dimensional Ball body
+2026-10-10. Proof statement; independent audit status is recorded in the companion review.
+No frozen published snapshot is edited. No claim of novelty or formal verification.
+
+THEOREM
+Let P be a finite poset and let u,y be incomparable elements with identical
+strict downsets D. Let H count the extensions with u before y for which swapping
+the actual labels u and y leaves a linear extension. Put
+  Ru = #{extensions with u before y} - H,
+  Ry = #{extensions with y before u} - H.
+Then H^2 >= Ru Ry, without any restriction on the common-incomparable set N.
+
+This argument does not use the S103 chain machinery or Chan--Pak matrices. Its
+external analytic inputs are the marginal log-concavity theorem (Prékopa--
+Leindler; ordinary Brunn--Minkowski suffices for the particular uniform body)
+and the Busemann--Ball theorem for an even log-concave function and p=2.
+
+VERIFIED PRIMARY SOURCE FOR THE TWO ANALYTIC INPUTS
+K. M. Ball, "Convex geometry and its connections to harmonic analysis,
+functional analysis and probability theory", Proceedings of the International
+Congress of Mathematicians 2022, Vol. 4, pp. 3104--3139.
+DOI: https://doi.org/10.4171/ICM2022/65
+Author's published survey PDF:
+  https://ems.press/content/book-chapter-files/33237
+Theorem 2 and the following paragraph, printed pp. 3107--3108: marginals of
+log-concave functions remain log-concave.
+Theorem 3 (Busemann--Ball), printed p. 3108, PDF page 5: for an even,
+nonnegative log-concave function F on R^d with finite positive integral and
+p>=1, x |-> (integral_0^infinity F(rx) r^(p-1) dr)^(-1/p) is a norm.
+The original reference is Keith Ball, "Logarithmically concave functions and
+sections of convex sets in R^n", Studia Mathematica 88 (1988), 69--84,
+DOI: https://doi.org/10.4064/sm-88-1-69-84 . Its official bibliographic record was
+verified; the official PDF download returned 403, so the exact theorem was
+verified in Ball's own published ICM survey instead. The scope actually used
+is the even p=2 theorem, not a stronger asymmetric or p<1 variant.
+
+1. AN ELEMENTARY CONVEX-BODY WING LEMMA
+Let K be a compact convex body in R^2, invariant under each coordinate sign
+change, with nonempty interior. Let a>0 be determined by (a,a) in boundary K.
+Let
+  Tplus = {(s,t): 0<=s<=t},
+  Tminus = {(s,t): 0<=t<=s}.
+Set
+  h = a^2/2,
+  rplus = area(K intersect Tplus) - h,
+  rminus = area(K intersect Tminus) - h.
+Then rplus,rminus>=0 and rplus*rminus<=h^2.
+
+Proof. Coordinate sign symmetry and convexity imply [-a,a]^2 subset K, hence
+the nonnegativity. Take a supporting line at (a,a), written
+  alpha*s + beta*t = (alpha+beta)*a,
+with K on the <= side and (alpha,beta) nonzero. Since (a-epsilon,a) and
+(a,a-epsilon) belong to K, alpha,beta>=0.
+If alpha,beta>0, K in the first quadrant is contained in the triangle cut off
+by this line and the coordinate axes. The portions of that triangle in
+Tplus and Tminus have areas, respectively,
+  (alpha+beta)*a^2/(2 beta),
+  (alpha+beta)*a^2/(2 alpha).
+Subtracting a^2/2 gives
+  rplus <= alpha*a^2/(2 beta),
+  rminus <= beta*a^2/(2 alpha),
+whose product is h^2. If alpha=0, K lies in t<=a in the first quadrant; its
+Tplus part is exactly the corresponding half-square, so rplus=0. If beta=0,
+rminus=0. This handles all supporting-line degeneracies. QED.
+
+2. A TWO-DIMENSIONAL DECREASING-LOG-CONCAVE LEMMA
+Let f on [0,infinity)^2 be nonnegative, coordinatewise nonincreasing,
+log-concave, with finite positive integral, and positive on a neighborhood of
+the origin relative to the quadrant. For the application f is bounded and
+compactly supported, so all ray integrals below are finite and nonzero in
+nonzero directions. Define
+  h = integral_0^infinity t f(t,t) dt,
+  rplus = integral_{0<=s<t} f(s,t) ds dt - h,
+  rminus = integral_{0<=t<s} f(s,t) ds dt - h.
+Then rplus,rminus>=0 and rplus*rminus<=h^2.
+
+Proof. Extend f unconditionally to F(s,t)=f(|s|,|t|) on R^2. This is
+log-concave: the coordinatewise triangle inequality gives
+  |(1-lambda)x+lambda*y| <= (1-lambda)|x|+lambda|y|,
+coordinatewise; monotonicity of f followed by its log-concavity proves the
+claim. F is even, has finite positive integral, and is positive near 0.
+Apply Busemann--Ball with p=2 and rescale its norm by 1/sqrt(2). Its unit ball
+K has radial function, for every unit vector v,
+  rho_K(v)^2 = 2 integral_0^infinity r F(rv) dr.
+K is convex and unconditional. For every angular sector C through 0, polar
+integration therefore gives the exact identity
+  area(K intersect C) = integral_C F(s,t) ds dt.       (1)
+Let (a,a) be the positive diagonal boundary point of K. Substituting
+v=(1,1)/sqrt(2), then r=sqrt(2)*t, gives
+  2a^2 = rho_K(v)^2
+        = 4 integral_0^infinity t f(t,t) dt = 4h.
+Thus a^2/2=h. Formula (1) identifies rplus and rminus with the convex-body
+wing quantities in Section 1, proving the lemma. QED.
+
+In the compactly supported case used here, no endpoint regularization,
+asymmetric Ball-body theorem, or limiting interchange is needed.
+
+3. A CONCAVE-RECTANGLE FIBER LEMMA
+Let Omega be a compact convex body in R^m. Let A,B be nonnegative continuous
+concave functions on Omega, positive together on a positive-volume open
+subset. Set
+  h = integral_Omega min(A,B)^2/2 dz,
+  rplus = integral_Omega A*(B-A)_+ dz,
+  rminus = integral_Omega B*(A-B)_+ dz.
+Then h^2 >= rplus*rminus.
+
+Proof. The set
+  C = {(z,s,t): z in Omega, 0<=s<=A(z), 0<=t<=B(z)}
+is convex. Its fiber-volume function
+  f(s,t)=volume_m{z in Omega: A(z)>=s and B(z)>=t}
+is log-concave by marginal log-concavity and coordinatewise nonincreasing.
+It is compactly supported, and positive near (0,0). Fubini gives
+  integral_0^infinity t f(t,t)dt = integral_Omega min(A,B)^2/2 dz = h.
+For each rectangle [0,A]x[0,B], its area with s<t is
+  min(A,B)^2/2 + A*(B-A)_+,
+and its area with t<s is
+  min(A,B)^2/2 + B*(A-B)_+.
+Thus the two sector excesses of Section 2 are precisely rplus and rminus.
+Apply that section. QED.
+For m=0 the same lemma is immediate because at most one of rplus,rminus is
+nonzero. This covers the two-point poset endpoint below directly.
+
+4. THE ORDER-POLYTOPE APPLICATION RETAINS THE ORIGINAL WEIGHTS
+Let n=|P|. For n=2, H=1 and Ru=Ry=0. Assume n>2. Let
+  Omega = O(P-{u,y}) subset [0,1]^(n-2)
+be the order polytope of the induced deletion poset. Its measure is ordinary
+Lebesgue measure, with no uniform deletion-extension probability substituted.
+For z in Omega define
+  L(z)=max_{d in D} z_d, with max(empty)=0;
+  Tu(z)=min_{v>_P u} z_v, with min(empty)=1;
+  Ty(z)=min_{v>_P y} z_v, with min(empty)=1;
+  A(z)=Tu(z)-L(z),  B(z)=Ty(z)-L(z).
+Since d<u<v implies d<v in the deletion poset, L<=Tu,Ty on Omega, so A,B>=0.
+The functions Tu,Ty are minima of affine functions, hence concave. L is a
+maximum of affine functions, hence convex. Consequently A,B are concave.
+They are continuous, bounded by 1, and both strictly positive on the interior
+of Omega: all relevant comparable coordinates are strictly ordered there.
+
+For fixed z the exact fiber of O(P) in the two missing coordinates is
+  L<=t_u<=Tu,  L<=t_y<=Ty.
+This uses precisely the identical strict-downset hypothesis. No constraint
+between u and y is present. Shifting both coordinates by L(z) is a translation
+within each fiber and preserves its two-dimensional area and their ordering.
+
+The actual label swap of u,y remains legal exactly when both coordinates lie
+between L and min(Tu,Ty). Its forward u<y half has area min(A,B)^2/2.
+If A<B, the nonswappable forward region is the rectangle of area A(B-A), and
+there is no nonswappable reverse region. If B<A the reverse statement holds.
+Therefore
+  H/n!  = integral_Omega min(A,B)^2/2 dz,
+  Ru/n! = integral_Omega A*(B-A)_+ dz,
+  Ry/n! = integral_Omega B*(A-B)_+ dz.               (2)
+Justification of n!: O(P) decomposes, up to measure-zero coordinate ties,
+into one standard simplex of volume 1/n! for each complete linear extension.
+The order event and the validity of swapping the labels depend only on the
+extension's ordering, so each selected extension contributes exactly 1/n!.
+The integrals over Omega in (2) thus count the original complete extension
+law, including every insertion-fiber multiplicity.
+Applying the concave-rectangle lemma and multiplying by (n!)^2 proves
+  H^2 >= Ru Ry.
+
+5. EQUIVALENT NORMALIZED STATEMENT
+With E=e(P)=2H+Ru+Ry and p=(H+Ru)/E,
+  H^2-Ru Ry = E H - (H+Ru)(H+Ry).
+Thus H^2>=Ru Ry is equivalent to H/E >= p(1-p), and also to
+  Ru/E <= p^2.
+This matches the original shared-downset square statement exactly.
+
+For a poset P0 with y minimal, u incomparable y, and D=D_P0(u), adjoin D<y
+and transitively close, obtaining Q. Its extensions are exactly the extensions
+of P0 in which all D occur before y. Let d be the probability of that event.
+In Q, u,y have common strict downset D. The u-successor set is unchanged;
+with p0=Pr_P0(u before y) and U0=Pr_P0(some strict successor of u before y),
+we have p_Q=p0/d and U_Q=U0/d. The proved shared-downset inequality yields
+  d U0 <= p0^2.
+No width assumption is needed. This normalized inequality alone does not
+supply a reduction to or solve the general one-third/two-thirds conjecture.
+
+6. STATUS AND AUDIT TARGETS
+The proof is a new derivation here, conditional on the explicitly stated
+standard analytic theorems. Independent review should verify especially:
+- unconditional extension log-concavity;
+- Ball p=2 normalization and exact sector-area identity;
+- support-line wing calculations, including zero coefficients;
+- concavity of Tu-L for the true deletion polytope;
+- the original n! count normalization and the actual swap event.
+This is not a claim that arbitrary mixtures of S103 chain-refined matrices
+preserve the inequality. That stronger shortcut has real counterexamples;
+the convex-fiber argument uses the full original measure instead.

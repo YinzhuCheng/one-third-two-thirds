@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "by_n": [
+    {
+      "n": 2,
+      "posets": 2,
+      "incomparable_pairs": 1,
+      "nonchain_neutral_pairs": 0
+    },
+    {
+      "n": 3,
+      "posets": 7,
+      "incomparable_pairs": 11,
+      "nonchain_neutral_pairs": 0
+    },
+    {
+      "n": 4,
+      "posets": 40,
+      "incomparable_pairs": 130,
+      "nonchain_neutral_pairs": 6
+    },
+    {
+      "n": 5,
+      "posets": 357,
+      "incomparable_pairs": 1984,
+      "nonchain_neutral_pairs": 292
+    }
+  ]
+}
