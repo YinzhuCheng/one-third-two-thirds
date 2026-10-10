@@ -1,0 +1,174 @@
+{
+  "verdict": "PASS",
+  "component_checks": 848,
+  "mixture_checks": 120,
+  "first_atom_checks": 856,
+  "middle_peak_checks": 10058,
+  "threshold44_integer_margin": 175086646,
+  "threshold_polynomial": [
+    175086646,
+    226795165,
+    19429030,
+    642530,
+    9515,
+    53
+  ],
+  "d5_monomial_Q_A_C": [
+    "646396283/1951717773",
+    "256619324351/384488401281",
+    "497/597"
+  ],
+  "d5_genuine_fiber_Q_A_C": [
+    "5975039402610052100339/18040870122675452479134",
+    "14627871733570465872739291/21916650387363562186734621",
+    "368290882408147051/442393380631568301"
+  ],
+  "unconditional_formula_histogram_checks": 271,
+  "actual_posets": [
+    {
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        4,
+        44
+      ],
+      "extension_count": "432499452",
+      "visited_ideals": 456,
+      "Q": "205/39318132",
+      "P": "3617/144166484",
+      "endpoint_assumptions": true,
+      "balanced_tail_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "weights": [
+        2,
+        1,
+        2,
+        3,
+        2,
+        4,
+        44
+      ],
+      "extension_count": "4409932732940",
+      "visited_ideals": 1011,
+      "Q": "2979687/38347241156",
+      "P": "10935210/31499519521",
+      "endpoint_assumptions": true,
+      "balanced_tail_indices": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27
+      ]
+    },
+    {
+      "weights": [
+        3,
+        2,
+        1,
+        2,
+        3,
+        4,
+        45
+      ],
+      "extension_count": "65194492186880",
+      "visited_ideals": 1312,
+      "Q": "4254503/41684457920",
+      "P": "1466815017/3259724609344",
+      "endpoint_assumptions": true,
+      "balanced_tail_indices": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "weights": [
+        1,
+        3,
+        4,
+        1,
+        2,
+        4,
+        44
+      ],
+      "extension_count": "9683338560",
+      "visited_ideals": 615,
+      "Q": "22933/3227779520",
+      "P": "108991/3227779520",
+      "endpoint_assumptions": true,
+      "balanced_tail_indices": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ]
+    },
+    {
+      "weights": [
+        2,
+        2,
+        1,
+        10,
+        2,
+        4,
+        44
+      ],
+      "extension_count": "372179283235145925",
+      "visited_ideals": 1950,
+      "Q": "183637298/185601972435",
+      "P": "12755243956/3278968179685",
+      "endpoint_assumptions": true,
+      "balanced_tail_indices": [
+        30,
+        31,
+        32,
+        33,
+        34
+      ]
+    },
+    {
+      "weights": [
+        1,
+        1,
+        1,
+        100,
+        1,
+        4,
+        44
+      ],
+      "extension_count": "46302816067069106402610640425788445185760",
+      "visited_ideals": 9366,
+      "Q": "3777360509/22306388664",
+      "P": "781819894333/3026233395416",
+      "endpoint_assumptions": true,
+      "balanced_tail_indices": [
+        42,
+        43
+      ]
+    }
+  ]
+}

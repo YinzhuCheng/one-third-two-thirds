@@ -1,0 +1,158 @@
+{
+  "status": "EXACT_FINITE_CERTIFICATE_PASS",
+  "scope": "All positive weights with a,d in {1,2}, conditional on declared proved prerequisites",
+  "candidate_count": 62109,
+  "candidate_counts_by_outer_spines": {
+    "1,1": 41,
+    "1,2": 1609,
+    "2,1": 1609,
+    "2,2": 58850
+  },
+  "maximum_order": 83,
+  "maximum_order_vectors": [
+    [
+      9,
+      2,
+      19,
+      19,
+      23,
+      2,
+      9
+    ]
+  ],
+  "analytic_standalone_pass_counts": {
+    "rank_T1_B0_upper": 13028,
+    "rank_T6_B5_upper": 13028,
+    "T0_T2_lower": 62104,
+    "B3_B6_lower": 62104
+  },
+  "analytic_cumulative": [
+    {
+      "filter": "rank_T1_B0_upper",
+      "remaining": 13028,
+      "by_outer_spines": {
+        "1,1": 41,
+        "1,2": 1609,
+        "2,1": 12,
+        "2,2": 11366
+      }
+    },
+    {
+      "filter": "rank_T6_B5_upper",
+      "remaining": 2285,
+      "by_outer_spines": {
+        "1,1": 41,
+        "1,2": 12,
+        "2,1": 12,
+        "2,2": 2220
+      }
+    },
+    {
+      "filter": "T0_T2_lower",
+      "remaining": 2285,
+      "by_outer_spines": {
+        "1,1": 41,
+        "1,2": 12,
+        "2,1": 12,
+        "2,2": 2220
+      }
+    },
+    {
+      "filter": "B3_B6_lower",
+      "remaining": 2285,
+      "by_outer_spines": {
+        "1,1": 41,
+        "1,2": 12,
+        "2,1": 12,
+        "2,2": 2220
+      }
+    }
+  ],
+  "analytic_survivor_count": 2285,
+  "exact_filter_order": [
+    "B1<B0",
+    "T6<T5",
+    "T2<T0",
+    "B2<B4",
+    "B6<B3",
+    "T4<T3"
+  ],
+  "exact_cumulative_survivors": [
+    2254,
+    2232,
+    1,
+    0,
+    0,
+    0
+  ],
+  "first_rejection_counts": {
+    "B1<B0": 31,
+    "rank_T6_B5_upper": 10743,
+    "T6<T5": 22,
+    "rank_T1_B0_upper": 49081,
+    "T2<T0": 2231,
+    "B2<B4": 1
+  },
+  "final_survivors": [],
+  "middle_only_after_first_three": [
+    {
+      "weights": [
+        3,
+        1,
+        2,
+        2,
+        3,
+        1,
+        3
+      ],
+      "order": 15,
+      "analytic_bounds": [
+        [
+          165,
+          220
+        ],
+        [
+          165,
+          220
+        ],
+        [
+          10,
+          220
+        ],
+        [
+          10,
+          220
+        ]
+      ],
+      "analytic_passing": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "extensions": 142680,
+      "exact_numerators": [
+        95536,
+        95536,
+        105335,
+        90360,
+        105335,
+        90360
+      ],
+      "exact_passing": [
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "rejection": {
+        "kind": "exact",
+        "name": "B2<B4",
+        "numerator": 90360,
+        "denominator": 142680
+      }
+    }
+  ]
+}

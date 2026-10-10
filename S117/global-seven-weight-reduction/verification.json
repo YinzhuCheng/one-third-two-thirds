@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "arithmetic": "exact integers and fractions only",
+  "full_bound_dependency": "independently audited H4: d=4 implies v<=43 and its dual",
+  "C_lower_expression": "35960000000/55681226649",
+  "F2": "-121371128810393093/111362453298000000",
+  "F4": "125938160270820721/556812266490000000",
+  "F5": "195574644540606907/222724906596000000",
+  "gamma_uniform_lower": "16*k/25 - 12/5",
+  "mixed_cases": [
+    {
+      "a": 1,
+      "u_cap": 3,
+      "strict_d_bound": "352/7",
+      "d_cap_used": 50,
+      "strict_v_bound": "357/20",
+      "v_cap": 17,
+      "port_sum_cap": 20
+    },
+    {
+      "a": 2,
+      "u_cap": 9,
+      "strict_d_bound": "647/7",
+      "d_cap_used": 92,
+      "strict_v_bound": "163/5",
+      "v_cap": 32,
+      "port_sum_cap": 41
+    },
+    {
+      "a": 3,
+      "u_cap": 29,
+      "strict_d_bound": "1268/7",
+      "d_cap_used": 181,
+      "strict_v_bound": "1273/20",
+      "v_cap": 63,
+      "port_sum_cap": 92
+    },
+    {
+      "a": 4,
+      "u_cap": 43,
+      "strict_d_bound": "1123/7",
+      "d_cap_used": 36,
+      "strict_v_bound": "282/5",
+      "v_cap": 56,
+      "port_sum_cap": 99
+    }
+  ],
+  "unconditional_outer_max": 181,
+  "unconditional_outer_sum_max": 184,
+  "global_port_sum_max": 110,
+  "global_total_order_strict_bound": "53293/32",
+  "global_total_order_max": 1665,
+  "large_census_started": false
+}

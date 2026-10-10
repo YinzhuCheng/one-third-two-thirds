@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "scope": "a,d,u,v envelope only; no b,c,t census",
+  "requires_fourth_terminal_cap": true,
+  "canonical_a_le_d_count": 14190,
+  "canonical_counts": {
+    "both_outer_at_least_five": 979,
+    "both_outer_at_most_four": 4508,
+    "mixed": 8703
+  },
+  "ordered_count": 25526,
+  "ordered_counts": {
+    "both_outer_at_least_five": 1720,
+    "both_outer_at_most_four": 6400,
+    "mixed": 17406
+  }
+}

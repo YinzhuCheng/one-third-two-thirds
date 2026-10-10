@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Exact new complementary-domain certificate; prerequisite audits are separate dependencies",
+  "port_domain_replay": "Independent broad rectangle and direct products identical to threshold intervals",
+  "intervals": 2169,
+  "weight_vectors": 6088,
+  "integer_counts_cross_checked": 12176,
+  "maximum_order": 631,
+  "all_T0_before_T2_probabilities_gt_one_half": true,
+  "minimum_probability": "21095146905395260272614/36016977281285366345651",
+  "minimum_weights": [
+    [
+      9,
+      2,
+      16,
+      18,
+      19,
+      4,
+      5
+    ]
+  ],
+  "by_outer_weights": {
+    "2,4": 47,
+    "2,5": 6,
+    "2,6": 1,
+    "3,4": 4494,
+    "3,5": 106,
+    "4,4": 1434
+  },
+  "elapsed_seconds": 9.005
+}

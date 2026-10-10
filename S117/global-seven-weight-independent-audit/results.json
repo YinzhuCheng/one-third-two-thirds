@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "exact_checks": 27,
+  "checks": [
+    "log(3/2) rational bracket",
+    "log(3) rational bracket",
+    "log(3)>1",
+    "gamma slope",
+    "gamma lower affine bound at k=2",
+    "gamma_1=-sqrt(3)>-44/25",
+    "gamma_4>22/100",
+    "gamma_k>87/100 for k>=5 by monotonicity",
+    "large/large strict integer caps",
+    "small outer 1: rational v bound decreases in d",
+    "small outer 2: rational v bound decreases in d",
+    "small outer 3: rational v bound decreases in d",
+    "mixed small/large caps",
+    "mixed small/large outer sum",
+    "mixed small/large port sum",
+    "four/large outer cap",
+    "four/large rational v bound decreases in d",
+    "four/large port caps",
+    "small/small caps",
+    "global sum caps",
+    "d4 last allowed inner boundary",
+    "d4 first excluded inner boundary",
+    "coarse total exact fraction",
+    "inner sum and middle coordinate caps",
+    "four-coordinate canonical category counts",
+    "four-coordinate ordered category counts",
+    "four-coordinate envelope totals"
+  ],
+  "mixed_small_large": [
+    {
+      "a": 1,
+      "u_max": 3,
+      "d_max": 50,
+      "v_max": 17,
+      "S_max": 51,
+      "P_max": 20
+    },
+    {
+      "a": 2,
+      "u_max": 9,
+      "d_max": 92,
+      "v_max": 32,
+      "S_max": 94,
+      "P_max": 41
+    },
+    {
+      "a": 3,
+      "u_max": 29,
+      "d_max": 181,
+      "v_max": 63,
+      "S_max": 184,
+      "P_max": 92
+    }
+  ],
+  "global_caps": {
+    "a": 181,
+    "d": 181,
+    "a_plus_d": 184,
+    "u_plus_v": 110,
+    "u": 108,
+    "v": 108,
+    "b_plus_c": 895,
+    "b": 895,
+    "c": 895,
+    "t": 474
+  },
+  "coarse_N_strict_upper": "53293/32",
+  "coarse_N_max": 1665,
+  "four_coordinate_envelope": {
+    "canonical_a_le_d": {
+      "both_outer_at_most_four": 4508,
+      "mixed": 8703,
+      "both_outer_at_least_five": 979
+    },
+    "ordered": {
+      "both_outer_at_most_four": 6400,
+      "mixed": 17406,
+      "both_outer_at_least_five": 1720
+    },
+    "canonical_total": 14190,
+    "ordered_total": 25526
+  }
+}

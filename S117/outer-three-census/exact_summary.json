@@ -1,0 +1,63 @@
+{
+  "status": "ALL_ANALYTIC_SURVIVORS_EXACTLY_REJECTED",
+  "analytic_survivors": 65951,
+  "exact_filter_order": [
+    "B1<B0",
+    "T6<T5",
+    "T2<T0",
+    "B2<B4",
+    "B6<B3",
+    "T4<T3"
+  ],
+  "cumulative_passes": [
+    65951,
+    65951,
+    0,
+    0,
+    0,
+    0
+  ],
+  "standalone_passes": [
+    65951,
+    65951,
+    0,
+    3377,
+    0,
+    3377
+  ],
+  "first_rejection_counts": {
+    "T2<T0": 65951
+  },
+  "equalities": {},
+  "final_survivors": [],
+  "minimum_p_T0_before_T2": {
+    "value": "4465154496058864828291/8852345120096299414144",
+    "vectors": [
+      [
+        9,
+        2,
+        13,
+        19,
+        19,
+        3,
+        7
+      ]
+    ]
+  },
+  "minimum_p_B3_before_B6": {
+    "value": "4465154496058864828291/8852345120096299414144",
+    "vectors": [
+      [
+        7,
+        3,
+        19,
+        13,
+        19,
+        2,
+        9
+      ]
+    ]
+  },
+  "duality_checks": 65951,
+  "exact_counts_sha256": "0757a2a656f8f3b9dc5608ba4d7b380c8a4e172574bfd8de68cf1bfed64b7978"
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "candidate_count": 61785506,
+  "residual_vectors": 65951,
+  "integer_counts_cross_checked": 329755,
+  "binomial_bounds_checked": 263804,
+  "independent_domain_membership": "complete rectangle/direct checks versus monotone-threshold intervals",
+  "all_rejected_by_T2_before_T0": true,
+  "elapsed_seconds": 130.795,
+  "exact_counts_sha256": "0757a2a656f8f3b9dc5608ba4d7b380c8a4e172574bfd8de68cf1bfed64b7978"
+}
