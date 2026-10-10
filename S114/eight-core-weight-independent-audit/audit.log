@@ -1,0 +1,54 @@
+C02 PASS; original forced set [7] family vectors 1
+C03 PASS; original forced set [0, 5] family vectors 2
+C04 PASS; original forced set [0] family vectors 1
+C05 PASS; original forced set [5, 7] family vectors 2
+C06 PASS; original forced set [0] family vectors 0
+C07 PASS; original forced set [0, 3, 6] family vectors 3
+C08 PASS; original forced set [] family vectors 1
+C09 PASS; original forced set [] family vectors 1
+C10 PASS; original forced set [5] family vectors 0
+C11 PASS; original forced set [] family vectors 1
+C12 PASS; original forced set [0, 6] family vectors 1
+C13 PASS; original forced set [0, 3] family vectors 0
+C14 PASS; original forced set [] family vectors 1
+C15 PASS; original forced set [] family vectors 1
+C16 PASS; original forced set [5, 6] family vectors 1
+C17 PASS; original forced set [6] family vectors 1
+C18 PASS; original forced set [0, 7] family vectors 5
+{
+  "status": "PASS",
+  "counts": {
+    "distinct_inequalities": 57,
+    "bottom_witnesses": 38,
+    "top_witnesses": 38,
+    "port_singleton_patterns": 4352,
+    "integer_section_witnesses": 2313,
+    "sections": 2336,
+    "family_all_unordered_pairs": 1098,
+    "family_independent_precedence_counts": 2196,
+    "family_vectors": 22,
+    "family_occupancy_states": 1509,
+    "family_classes": 17,
+    "binary_occupancy_states": 258032,
+    "binary_all_unordered_pairs": 291584,
+    "binary_balanced_inflations": 4352,
+    "bottom_insertion_bounds": 58880,
+    "top_insertion_bounds": 58880,
+    "actual_good_pair_lifts": 19456,
+    "linear_rejections": 863,
+    "port_rejections": 2016,
+    "binary_inflations": 4352,
+    "exact_infeasibility_certificates": 23
+  },
+  "maximum_forced_support_inflation_order": 15,
+  "forced_support_order_histogram": {
+    "8": 5,
+    "9": 3,
+    "10": 5,
+    "11": 3,
+    "12": 4,
+    "14": 1,
+    "15": 1
+  },
+  "elapsed_seconds": 4.616
+}

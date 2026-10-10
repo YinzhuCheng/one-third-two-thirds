@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "date": "2026-10-10",
+  "proof_scope": "c=d=1, v>=t+1, arbitrary positive u,a,b,t; strict q+2r<2 independently proved",
+  "corollary_scope": "At least four nonsingleton blocks for this specific seven-core, dependent on independently audited singleton ports and all b=c=1 exclusion",
+  "residual": "2<=v<=t<=b remains unexcluded for (u,1,b,1,t,1,v)",
+  "reproduction": {
+    "independent_normal": "python audit.py",
+    "independent_optimized": "python -O audit.py",
+    "author_normal": "python author_replay/verify_single_inner_spine.py",
+    "author_optimized": "python -O author_replay/verify_single_inner_spine.py",
+    "json_comparison": "byte-identical",
+    "ignored_keys": []
+  },
+  "sha256": {
+    "AUDIT.md": "86e1109240eb754d73d5f56875e858ba25ee082414738d57b626a954a32a97be",
+    "audit.py": "164d7eb5eb9f3188ed243f9494098b0c5a2ec8cc69ab72fdcd84cb0e1777f209",
+    "results.json": "c20c217314d6adb1dcf66da2082c1bb7b4938c6c315da5dc2eafda8c3bb5b7cd",
+    "results.normal.json": "c20c217314d6adb1dcf66da2082c1bb7b4938c6c315da5dc2eafda8c3bb5b7cd",
+    "run.log": "c20c217314d6adb1dcf66da2082c1bb7b4938c6c315da5dc2eafda8c3bb5b7cd",
+    "run_optimized.log": "c20c217314d6adb1dcf66da2082c1bb7b4938c6c315da5dc2eafda8c3bb5b7cd",
+    "author_replay.log": "885122eec582b5de5a6ab8e01859c153d8fdd9a92435598eecc89f6146174bdb",
+    "author_replay_optimized.log": "885122eec582b5de5a6ab8e01859c153d8fdd9a92435598eecc89f6146174bdb",
+    "author_snapshot/MANIFEST.sha256": "7a0ec16f03235c34266cfe1f61a079f1a9fac13a577cb8e16fed62a15c5f1106",
+    "author_snapshot/README.txt": "87610f4301f1a99baabfbb1aba75bed2a3085f6e67fb9e4ca17f4170e9fc172b",
+    "author_snapshot/SINGLE_INNER_SPINE_RESULT.md": "8047925c9eec0257ef24ebd74875f4eab559c6aa61af87c9f5e174a522091d8c",
+    "author_snapshot/verification.json": "885122eec582b5de5a6ab8e01859c153d8fdd9a92435598eecc89f6146174bdb",
+    "author_snapshot/verify_single_inner_spine.py": "cbb84cc634705141ffc8a55596a2a86da9762df2b12a8c5d7168c4788ea088b9",
+    "author_replay/verification.json": "885122eec582b5de5a6ab8e01859c153d8fdd9a92435598eecc89f6146174bdb",
+    "author_replay/verify_single_inner_spine.py": "cbb84cc634705141ffc8a55596a2a86da9762df2b12a8c5d7168c4788ea088b9"
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "package": "S114",
+  "minimum_python": "3.10",
+  "dependencies": "Portable verification uses Python standard library only, with no package installation or network.",
+  "snapshot_policy": "Every command uses a fresh temporary copy. Expected outputs are removed there before execution; source snapshots are never edited.",
+  "forbidden_live_source_roots": [
+    "/workspace/shared",
+    "/workspace/scratch"
+  ],
+  "portability_guard": "Blocks accidental opens under original research workspaces; not a security sandbox.",
+  "comparison_policy": "Every declared output is compared structurally; byte-exact unless that specific output declares top-level elapsed metadata. Input digests and every mathematical field must match exactly.",
+  "verification_scope": "Frozen bounded checks only, not new search or inference from finite evidence to infinite scope.",
+  "steps": [
+    {
+      "id": "shuffle-author",
+      "cwd": "generalized-seven-core-shuffle",
+      "argv": [
+        "{python}",
+        "verify_generalized_shuffle.py"
+      ],
+      "compare": [
+        {
+          "actual": "generalized-seven-core-shuffle/verification.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "shuffle-author-optimized",
+      "cwd": "generalized-seven-core-shuffle",
+      "argv": [
+        "{python}",
+        "-O",
+        "verify_generalized_shuffle.py"
+      ],
+      "compare": [
+        {
+          "actual": "generalized-seven-core-shuffle/verification.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "shuffle-independent",
+      "cwd": "generalized-seven-core-shuffle-independent-audit",
+      "argv": [
+        "{python}",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "generalized-seven-core-shuffle-independent-audit/results.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "shuffle-independent-optimized",
+      "cwd": "generalized-seven-core-shuffle-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "generalized-seven-core-shuffle-independent-audit/results.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "outer-spine-author",
+      "cwd": "single-outer-spine-exclusion",
+      "argv": [
+        "{python}",
+        "verify_single_outer_spine.py"
+      ],
+      "compare": [
+        {
+          "actual": "single-outer-spine-exclusion/verification.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "outer-spine-author-optimized",
+      "cwd": "single-outer-spine-exclusion",
+      "argv": [
+        "{python}",
+        "-O",
+        "verify_single_outer_spine.py"
+      ],
+      "compare": [
+        {
+          "actual": "single-outer-spine-exclusion/verification.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "inner-singletons-author",
+      "cwd": "single-outer-spine-exclusion",
+      "argv": [
+        "{python}",
+        "verify_two_singleton_inner_blocks.py"
+      ],
+      "compare": [
+        {
+          "actual": "single-outer-spine-exclusion/two_singleton_inner_blocks_verification.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "inner-singletons-author-optimized",
+      "cwd": "single-outer-spine-exclusion",
+      "argv": [
+        "{python}",
+        "-O",
+        "verify_two_singleton_inner_blocks.py"
+      ],
+      "compare": [
+        {
+          "actual": "single-outer-spine-exclusion/two_singleton_inner_blocks_verification.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "rank-supplement-independent",
+      "cwd": "generalized-seven-core-shuffle-independent-audit",
+      "argv": [
+        "{python}",
+        "rank_chain_supplement.py"
+      ],
+      "compare": [
+        {
+          "actual": "generalized-seven-core-shuffle-independent-audit/rank_chain_results.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "rank-supplement-independent-optimized",
+      "cwd": "generalized-seven-core-shuffle-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "rank_chain_supplement.py"
+      ],
+      "compare": [
+        {
+          "actual": "generalized-seven-core-shuffle-independent-audit/rank_chain_results.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "inner-spine-author",
+      "cwd": "single-inner-spine-exclusion",
+      "argv": [
+        "{python}",
+        "verify_single_inner_spine.py"
+      ],
+      "compare": [
+        {
+          "actual": "single-inner-spine-exclusion/verification.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "inner-spine-author-optimized",
+      "cwd": "single-inner-spine-exclusion",
+      "argv": [
+        "{python}",
+        "-O",
+        "verify_single_inner_spine.py"
+      ],
+      "compare": [
+        {
+          "actual": "single-inner-spine-exclusion/verification.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "inner-spine-independent",
+      "cwd": "single-inner-spine-independent-audit",
+      "argv": [
+        "{python}",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "single-inner-spine-independent-audit/results.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "inner-spine-independent-optimized",
+      "cwd": "single-inner-spine-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "single-inner-spine-independent-audit/results.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "eight-core-author-certificates",
+      "cwd": "eight-core-weight-filters",
+      "argv": [
+        "{python}",
+        "verify.py"
+      ],
+      "compare": [
+        {
+          "actual": "eight-core-weight-filters/certificate_verification.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "eight-core-author-inflations",
+      "cwd": "eight-core-weight-filters",
+      "argv": [
+        "{python}",
+        "validate_inflations.py"
+      ],
+      "compare": [
+        {
+          "actual": "eight-core-weight-filters/inflation_validation.json",
+          "ignored_json_keys": [
+            "elapsed_seconds"
+          ],
+          "byte_exact": false
+        }
+      ]
+    },
+    {
+      "id": "eight-core-author-families",
+      "cwd": "eight-core-weight-filters",
+      "argv": [
+        "{python}",
+        "verify_families.py"
+      ],
+      "compare": [
+        {
+          "actual": "eight-core-weight-filters/family_verification.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "eight-core-family-regeneration",
+      "cwd": "eight-core-weight-filters",
+      "argv": [
+        "{python}",
+        "check_minimal_support_families.py"
+      ],
+      "compare": [
+        {
+          "actual": "eight-core-weight-filters/minimal_support_family_certificates.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "eight-core-independent",
+      "cwd": "eight-core-weight-independent-audit",
+      "argv": [
+        "{python}",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "eight-core-weight-independent-audit/audit_results.json",
+          "ignored_json_keys": [
+            "elapsed_seconds"
+          ],
+          "byte_exact": false
+        },
+        {
+          "actual": "eight-core-weight-independent-audit/all_pair_counts.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "eight-core-independent-windows",
+      "cwd": "eight-core-weight-independent-audit",
+      "argv": [
+        "{python}",
+        "audit_windows.py"
+      ],
+      "compare": [
+        {
+          "actual": "eight-core-weight-independent-audit/window_results.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "census-author",
+      "cwd": "weighted-seven-core-census",
+      "argv": [
+        "{python}",
+        "census.py"
+      ],
+      "compare": [
+        {
+          "actual": "weighted-seven-core-census/census.json",
+          "ignored_json_keys": [
+            "elapsed_seconds"
+          ],
+          "byte_exact": false
+        }
+      ]
+    },
+    {
+      "id": "census-author-verification",
+      "cwd": "weighted-seven-core-census",
+      "argv": [
+        "{python}",
+        "verify_census.py"
+      ],
+      "compare": [
+        {
+          "actual": "weighted-seven-core-census/verification.json",
+          "ignored_json_keys": [
+            "elapsed_seconds"
+          ],
+          "byte_exact": false
+        }
+      ]
+    },
+    {
+      "id": "census-analytic-diagnostic",
+      "cwd": "weighted-seven-core-census",
+      "argv": [
+        "{python}",
+        "analytic_filters.py"
+      ],
+      "compare": [
+        {
+          "actual": "weighted-seven-core-census/analytic_filters.json",
+          "ignored_json_keys": [
+            "elapsed_seconds"
+          ],
+          "byte_exact": false
+        }
+      ]
+    },
+    {
+      "id": "census-independent",
+      "cwd": "weighted-seven-core-census-independent-audit",
+      "argv": [
+        "{python}",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "weighted-seven-core-census-independent-audit/results.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    },
+    {
+      "id": "census-independent-optimized",
+      "cwd": "weighted-seven-core-census-independent-audit",
+      "argv": [
+        "{python}",
+        "-O",
+        "audit.py"
+      ],
+      "compare": [
+        {
+          "actual": "weighted-seven-core-census-independent-audit/results.json",
+          "ignored_json_keys": [],
+          "byte_exact": true
+        }
+      ]
+    }
+  ]
+}

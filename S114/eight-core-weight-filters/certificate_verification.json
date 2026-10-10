@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "method": "Independent set-based derivation and exact integer certificate verification, standard library only",
+  "counts": {
+    "cores": 17,
+    "distinct_linear_inequalities": 57,
+    "bottom_witnesses": 38,
+    "top_witnesses": 38,
+    "singleton_port_patterns": 4352,
+    "linear_sections": 2336,
+    "farkas_certificates": 23,
+    "integer_feasible_witnesses": 2313
+  }
+}

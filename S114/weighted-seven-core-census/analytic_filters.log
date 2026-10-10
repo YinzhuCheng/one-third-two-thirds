@@ -1,0 +1,182 @@
+{
+  "status": "EXACT_ARITHMETIC_PASS_PROOF_DEPENDENCIES_SEPARATE",
+  "scope": "Same entire necessary cone with spine a,b,c,d in {1,2,3}; no larger search.",
+  "base_census_sha256": "d8d05b8e2e8f3a7b39e0ea7a92d368208fbc3bcb86f197528bd32ab1c8b1ec09",
+  "filter_order": [
+    "rank_upper_T1_B0",
+    "rank_upper_T6_B5",
+    "top_lower_T0_T2",
+    "bottom_lower_B3_B6"
+  ],
+  "summaries": [
+    {
+      "max_spine": 1,
+      "starting_cone_vectors": 2,
+      "standalone_passes": {
+        "rank_upper_T1_B0": 2,
+        "rank_upper_T6_B5": 2,
+        "top_lower_T0_T2": 2,
+        "bottom_lower_B3_B6": 2
+      },
+      "cumulative_passes": [
+        {
+          "added_filter": "rank_upper_T1_B0",
+          "remaining": 2
+        },
+        {
+          "added_filter": "rank_upper_T6_B5",
+          "remaining": 2
+        },
+        {
+          "added_filter": "top_lower_T0_T2",
+          "remaining": 2
+        },
+        {
+          "added_filter": "bottom_lower_B3_B6",
+          "remaining": 2
+        }
+      ],
+      "analytic_survivor_count": 2,
+      "analytic_survivors_then_old_four_exact": [],
+      "analytic_survivors_then_full_18_exact": [],
+      "minimal_analytic_survivor": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "survivors_grouped_by_spine": {
+        "1,1,1,1": 2
+      }
+    },
+    {
+      "max_spine": 2,
+      "starting_cone_vectors": 165,
+      "standalone_passes": {
+        "rank_upper_T1_B0": 66,
+        "rank_upper_T6_B5": 66,
+        "top_lower_T0_T2": 165,
+        "bottom_lower_B3_B6": 165
+      },
+      "cumulative_passes": [
+        {
+          "added_filter": "rank_upper_T1_B0",
+          "remaining": 66
+        },
+        {
+          "added_filter": "rank_upper_T6_B5",
+          "remaining": 27
+        },
+        {
+          "added_filter": "top_lower_T0_T2",
+          "remaining": 27
+        },
+        {
+          "added_filter": "bottom_lower_B3_B6",
+          "remaining": 27
+        }
+      ],
+      "analytic_survivor_count": 27,
+      "analytic_survivors_then_old_four_exact": [
+        [
+          3,
+          1,
+          2,
+          2,
+          3,
+          1,
+          3
+        ]
+      ],
+      "analytic_survivors_then_full_18_exact": [],
+      "minimal_analytic_survivor": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "survivors_grouped_by_spine": {
+        "1,1,1,1": 2,
+        "1,1,2,1": 5,
+        "1,2,1,1": 5,
+        "1,2,2,1": 15
+      }
+    },
+    {
+      "max_spine": 3,
+      "starting_cone_vectors": 2767,
+      "standalone_passes": {
+        "rank_upper_T1_B0": 723,
+        "rank_upper_T6_B5": 723,
+        "top_lower_T0_T2": 2740,
+        "bottom_lower_B3_B6": 2740
+      },
+      "cumulative_passes": [
+        {
+          "added_filter": "rank_upper_T1_B0",
+          "remaining": 723
+        },
+        {
+          "added_filter": "rank_upper_T6_B5",
+          "remaining": 185
+        },
+        {
+          "added_filter": "top_lower_T0_T2",
+          "remaining": 185
+        },
+        {
+          "added_filter": "bottom_lower_B3_B6",
+          "remaining": 185
+        }
+      ],
+      "analytic_survivor_count": 185,
+      "analytic_survivors_then_old_four_exact": [
+        [
+          3,
+          1,
+          2,
+          2,
+          3,
+          1,
+          3
+        ]
+      ],
+      "analytic_survivors_then_full_18_exact": [],
+      "minimal_analytic_survivor": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "survivors_grouped_by_spine": {
+        "1,1,1,1": 2,
+        "1,1,2,1": 5,
+        "1,2,1,1": 5,
+        "1,1,3,1": 12,
+        "1,2,2,1": 15,
+        "1,3,1,1": 12,
+        "1,2,3,1": 29,
+        "1,3,2,1": 29,
+        "1,3,3,1": 55,
+        "1,2,3,2": 3,
+        "2,3,2,1": 3,
+        "1,3,3,2": 5,
+        "2,2,3,1": 2,
+        "2,3,3,1": 5,
+        "1,3,2,2": 2,
+        "2,3,3,2": 1
+      }
+    }
+  ],
+  "elapsed_seconds": 0.044714,
+  "interpretation": "Analytic survival establishes neither a counterexample nor an unresolved balance case. All these finite vectors already have actual labelled-DP balanced pairs and fail the full endpoint menu. The diagnostic identifies limitations of these particular universal inequalities."
+}

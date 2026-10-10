@@ -1,0 +1,17 @@
+C02 targets [0, 2, 4, 7] port [7] extra [] maxsing 7
+C03 targets [0, 5, 7] port [0, 5] extra [] maxsing 6
+C04 targets [0, 3, 5, 7] port [0] extra [] maxsing 7
+C05 targets [0, 5, 7] port [5, 7] extra [] maxsing 6
+C06 targets [0, 5, 6] port [0] extra [[1, 2, 4, 6]] maxsing 6
+C07 targets [0, 3, 6] port [0, 3, 6] extra [] maxsing 5
+C08 targets [0, 2, 5, 6] port [] extra [] maxsing 8
+C09 targets [0, 4, 6] port [] extra [] maxsing 8
+C10 targets [0, 5, 6] port [5] extra [[1, 4, 6, 7]] maxsing 6
+C11 targets [0, 2, 4, 7] port [] extra [] maxsing 8
+C12 targets [0, 5, 6] port [0, 6] extra [] maxsing 6
+C13 targets [0, 3, 4, 6] port [0, 3] extra [[1, 2, 4, 6], [4, 5, 6, 7]] maxsing 5
+C14 targets [0, 4, 6] port [] extra [] maxsing 8
+C15 targets [0, 4, 6] port [] extra [] maxsing 8
+C16 targets [0, 5, 6] port [5, 6] extra [] maxsing 6
+C17 targets [0, 4, 6] port [6] extra [] maxsing 7
+C18 targets [0, 1, 6, 7] port [0, 7] extra [] maxsing 6

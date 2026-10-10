@@ -1,0 +1,53 @@
+{
+  "verdict": "PASS",
+  "date": "2026-10-10",
+  "scope": "All positive pendant triples u,t,v for every spine (a,b,c,d) in {1,2,3}^4; uses the bound and structural dependencies explicitly described in AUDIT.md.",
+  "author_root": "/workspace/shared/weighted-seven-core-census",
+  "frozen_author_sha256": {
+    "ANALYSIS.md": "a4d787c0b641a74a0557e0932b98804229e74281f49df000d44dcb220b0d125a",
+    "README.txt": "3dcb0d7d8d61a25c62b6c099cc822169908439d88328e4a50ea1d3f67f2b8c4a",
+    "analytic_filters.json": "0213921ef533a7dc52ae47bfa115654574bfa3c433cd70a5238d365858c28bdb",
+    "analytic_filters.log": "686fc1bf14dbe1060cd72835c5a026be50bb0a41f2ab6c114c8a7492b476e9d3",
+    "analytic_filters.py": "35d7179ca40f1022c45cf8a77d8d32bb6ec741822cd5646288bac74aaddc0ada",
+    "census.json": "d8d05b8e2e8f3a7b39e0ea7a92d368208fbc3bcb86f197528bd32ab1c8b1ec09",
+    "census.log": "e090246139b35c1dd9254efb98a26bf79aa90ecc8a09d873f3ecca8c0945a255",
+    "census.py": "8d93dea4945456c105247fe1c0a60e7e169201455f110adeba25b97859d61479",
+    "cone_audit.json": "1c42c4efff0fa600a80a664b18b7401b50aaa043edab0ea33929e1b16001006a",
+    "verification.json": "c17564508b9c541a2eb298c478af628a83c5b984e035551fc7f06c272d74e0a0",
+    "verification.log": "50e5c0965c8c29da6165ade36ba866a6e457e2f746cc578f6327dadece3321de",
+    "verify_census.py": "cc15eab22bc0dadf573ecfd79f8830553b46466f2717c67fdca2540453c40f9b",
+    "MANIFEST.sha256": "0a4e90ff49693e3ac1cc86ad7cdf2df837ba45f2591e52f572d5457e3ea0501f"
+  },
+  "proof_dependency_sha256": {
+    "/workspace/shared/generalized-seven-core-shuffle/GENERALIZED_SHUFFLE_BOUND.md": "e522a13a63f73a58c1af862e603c3b90c46084a1f83b3b79da7e6bd3d6b0a8d3",
+    "/workspace/shared/generalized-seven-core-shuffle-independent-audit/AUDIT.md": "70e2094bc3adf01ff77f45b4e57dfa5d654ebdb7eb9c506c64f2e4fce6996a58",
+    "/workspace/shared/generalized-seven-core-shuffle-independent-audit/RANK_AND_INNER_SINGLETON_AUDIT.md": "26e97ed6ac8f4a5849b30668303051d4d0be09859490cdd10ea77ff0ddc263d1",
+    "/workspace/shared/single-outer-spine-exclusion/SINGLE_OUTER_SPINE_EXCLUSION.md": "b39b63f4e7b457359fe541f7224435e8e44f24e4b9a08b1c8e2348c61da5ce81",
+    "/workspace/shared/single-outer-spine-exclusion/TWO_SINGLETON_INNER_BLOCKS_EXCLUSION.md": "5599ae57a9e90a6dde17a77cd2b01c6009f026970b2df10275dc7a6f6afc056f",
+    "/workspace/shared/weighted-surviving-core-independent-audit/AUDIT.md": "46095afc8daafcfd177209a05799505ceeeb0e01ac3ba612288288ab03a850ba",
+    "/workspace/shared/prime-core-catalogue-independent-audit/AUDIT.md": "ba71fdf234a5918abb972b98965d94c738fe17b9e1d70e9f8167390ebc7d8f9d"
+  },
+  "audit_artifact_sha256": {
+    "AUDIT.md": "4c701e9086f882dc93ba4b4c96e6e57de7f200af4070b9aa6fe92f4991c8de5e",
+    "audit.py": "c2734a55c526a985413fb6f9c4c50fca528b0cde9cc1cef2887d20aee83e187d",
+    "results.json": "74b44792566c1bd91f0fede420df111e5d9b07a7bd9ab747fc2a14f34cea8d8f",
+    "results.optimized.json": "74b44792566c1bd91f0fede420df111e5d9b07a7bd9ab747fc2a14f34cea8d8f",
+    "run.log": "d3f7f6ed3b53ee05ad0e5edaa2b86a7a333ee2e9ac5e1ee234331f10f71ddb78",
+    "run.optimized.log": "d3f7f6ed3b53ee05ad0e5edaa2b86a7a333ee2e9ac5e1ee234331f10f71ddb78"
+  },
+  "normal_and_optimized_results_byte_equal": true,
+  "normal_and_optimized_logs_byte_equal": true,
+  "reproduction_ignored_json_keys": [],
+  "author_code_imported_or_executed": false,
+  "original_files_modified": false,
+  "remote_writes_performed": false,
+  "primary_counts": {
+    "rectangular_cone_candidates_checked": 158760,
+    "cone_vectors": 2767,
+    "independent_denominator_comparisons": 2767,
+    "independent_endpoint_comparisons": 49806,
+    "independent_actual_incomparable_pair_counts": 341222,
+    "independent_balanced_pairs": 63876,
+    "aggregate_ideal_states": 990547
+  }
+}

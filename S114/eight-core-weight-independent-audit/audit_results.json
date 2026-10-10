@@ -1,0 +1,1424 @@
+{
+  "status": "PASS",
+  "counts": {
+    "distinct_inequalities": 57,
+    "bottom_witnesses": 38,
+    "top_witnesses": 38,
+    "port_singleton_patterns": 4352,
+    "integer_section_witnesses": 2313,
+    "sections": 2336,
+    "family_all_unordered_pairs": 1098,
+    "family_independent_precedence_counts": 2196,
+    "family_vectors": 22,
+    "family_occupancy_states": 1509,
+    "family_classes": 17,
+    "binary_occupancy_states": 258032,
+    "binary_all_unordered_pairs": 291584,
+    "binary_balanced_inflations": 4352,
+    "bottom_insertion_bounds": 58880,
+    "top_insertion_bounds": 58880,
+    "actual_good_pair_lifts": 19456,
+    "linear_rejections": 863,
+    "port_rejections": 2016,
+    "binary_inflations": 4352,
+    "exact_infeasibility_certificates": 23
+  },
+  "maximum_forced_support_inflation_order": 15,
+  "forced_support_order_histogram": {
+    "8": 5,
+    "9": 3,
+    "10": 5,
+    "11": 3,
+    "12": 4,
+    "14": 1,
+    "15": 1
+  },
+  "family_classes": [
+    {
+      "class_id": "C02",
+      "strict_up_masks": [
+        68,
+        236,
+        64,
+        96,
+        224,
+        64,
+        0,
+        0
+      ],
+      "original_forced_set": [
+        7
+      ],
+      "certified_bounds": [
+        2
+      ],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "necessary_nonsingleton_count": 2,
+      "cases": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "order": 9,
+          "extension_count": 587,
+          "balanced_pair_count": 5,
+          "author_witness": {
+            "weights": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "extension_count": 587,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "numerator": 390,
+            "denominator": 587
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C03",
+      "strict_up_masks": [
+        72,
+        252,
+        216,
+        64,
+        192,
+        64,
+        0,
+        0
+      ],
+      "original_forced_set": [
+        0,
+        5
+      ],
+      "certified_bounds": [
+        3,
+        3
+      ],
+      "cartesian_vectors": 4,
+      "filter_feasible_vectors": 2,
+      "necessary_nonsingleton_count": 3,
+      "cases": [
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "order": 10,
+          "extension_count": 1050,
+          "balanced_pair_count": 7,
+          "author_witness": {
+            "weights": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              1
+            ],
+            "extension_count": 1050,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "numerator": 686,
+            "denominator": 1050
+          }
+        },
+        {
+          "weights": [
+            3,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1
+          ],
+          "order": 12,
+          "extension_count": 8180,
+          "balanced_pair_count": 10,
+          "author_witness": {
+            "weights": [
+              3,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              1
+            ],
+            "extension_count": 8180,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "numerator": 2924,
+            "denominator": 8180
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C04",
+      "strict_up_masks": [
+        72,
+        252,
+        88,
+        0,
+        64,
+        192,
+        0,
+        0
+      ],
+      "original_forced_set": [
+        0
+      ],
+      "certified_bounds": [
+        2
+      ],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "necessary_nonsingleton_count": 2,
+      "cases": [
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "order": 9,
+          "extension_count": 587,
+          "balanced_pair_count": 5,
+          "author_witness": {
+            "weights": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "extension_count": 587,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                1
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "numerator": 227,
+            "denominator": 587
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C05",
+      "strict_up_masks": [
+        84,
+        252,
+        80,
+        208,
+        64,
+        64,
+        0,
+        0
+      ],
+      "original_forced_set": [
+        5,
+        7
+      ],
+      "certified_bounds": [
+        3,
+        3
+      ],
+      "cartesian_vectors": 4,
+      "filter_feasible_vectors": 2,
+      "necessary_nonsingleton_count": 3,
+      "cases": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "order": 10,
+          "extension_count": 1050,
+          "balanced_pair_count": 7,
+          "author_witness": {
+            "weights": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1,
+              2
+            ],
+            "extension_count": 1050,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "numerator": 671,
+            "denominator": 1050
+          }
+        },
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            3
+          ],
+          "order": 12,
+          "extension_count": 8180,
+          "balanced_pair_count": 10,
+          "author_witness": {
+            "weights": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              3,
+              1,
+              3
+            ],
+            "extension_count": 8180,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "numerator": 4681,
+            "denominator": 8180
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C06",
+      "strict_up_masks": [
+        168,
+        252,
+        184,
+        128,
+        32,
+        0,
+        128,
+        0
+      ],
+      "original_forced_set": [
+        0
+      ],
+      "certified_bounds": [
+        1
+      ],
+      "cartesian_vectors": 0,
+      "filter_feasible_vectors": 0,
+      "necessary_nonsingleton_count": 2,
+      "cases": []
+    },
+    {
+      "class_id": "C07",
+      "strict_up_masks": [
+        168,
+        252,
+        184,
+        0,
+        160,
+        128,
+        128,
+        0
+      ],
+      "original_forced_set": [
+        0,
+        3,
+        6
+      ],
+      "certified_bounds": [
+        3,
+        3,
+        4
+      ],
+      "cartesian_vectors": 12,
+      "filter_feasible_vectors": 3,
+      "necessary_nonsingleton_count": 4,
+      "cases": [
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "order": 11,
+          "extension_count": 2332,
+          "balanced_pair_count": 6,
+          "author_witness": {
+            "weights": [
+              2,
+              1,
+              1,
+              2,
+              1,
+              1,
+              2,
+              1
+            ],
+            "extension_count": 2332,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "numerator": 814,
+            "denominator": 2332
+          }
+        },
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            2,
+            1,
+            1,
+            3,
+            1
+          ],
+          "order": 12,
+          "extension_count": 7110,
+          "balanced_pair_count": 5,
+          "author_witness": {
+            "weights": [
+              2,
+              1,
+              1,
+              2,
+              1,
+              1,
+              3,
+              1
+            ],
+            "extension_count": 7110,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                1
+              ],
+              [
+                6,
+                0
+              ]
+            ],
+            "numerator": 2559,
+            "denominator": 7110
+          }
+        },
+        {
+          "weights": [
+            3,
+            1,
+            1,
+            3,
+            1,
+            1,
+            4,
+            1
+          ],
+          "order": 15,
+          "extension_count": 125565,
+          "balanced_pair_count": 14,
+          "author_witness": {
+            "weights": [
+              3,
+              1,
+              1,
+              3,
+              1,
+              1,
+              4,
+              1
+            ],
+            "extension_count": 125565,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "numerator": 48995,
+            "denominator": 125565
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C08",
+      "strict_up_masks": [
+        168,
+        252,
+        136,
+        128,
+        224,
+        0,
+        128,
+        0
+      ],
+      "original_forced_set": [],
+      "certified_bounds": [],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "necessary_nonsingleton_count": 1,
+      "cases": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "order": 8,
+          "extension_count": 107,
+          "balanced_pair_count": 6,
+          "author_witness": {
+            "weights": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "extension_count": 107,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "numerator": 71,
+            "denominator": 107
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C09",
+      "strict_up_masks": [
+        178,
+        16,
+        248,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "original_forced_set": [],
+      "certified_bounds": [],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "necessary_nonsingleton_count": 1,
+      "cases": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "order": 8,
+          "extension_count": 132,
+          "balanced_pair_count": 3,
+          "author_witness": {
+            "weights": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "extension_count": 132,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "numerator": 51,
+            "denominator": 132
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C10",
+      "strict_up_masks": [
+        178,
+        144,
+        248,
+        176,
+        128,
+        0,
+        128,
+        0
+      ],
+      "original_forced_set": [
+        5
+      ],
+      "certified_bounds": [
+        1
+      ],
+      "cartesian_vectors": 0,
+      "filter_feasible_vectors": 0,
+      "necessary_nonsingleton_count": 2,
+      "cases": []
+    },
+    {
+      "class_id": "C11",
+      "strict_up_masks": [
+        68,
+        236,
+        0,
+        192,
+        224,
+        64,
+        0,
+        0
+      ],
+      "original_forced_set": [],
+      "certified_bounds": [],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "necessary_nonsingleton_count": 1,
+      "cases": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "order": 8,
+          "extension_count": 318,
+          "balanced_pair_count": 6,
+          "author_witness": {
+            "weights": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "extension_count": 318,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                3,
+                0
+              ]
+            ],
+            "numerator": 212,
+            "denominator": 318
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C12",
+      "strict_up_masks": [
+        168,
+        252,
+        184,
+        128,
+        160,
+        0,
+        128,
+        0
+      ],
+      "original_forced_set": [
+        0,
+        6
+      ],
+      "certified_bounds": [
+        2,
+        2
+      ],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "necessary_nonsingleton_count": 3,
+      "cases": [
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "order": 10,
+          "extension_count": 917,
+          "balanced_pair_count": 5,
+          "author_witness": {
+            "weights": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1
+            ],
+            "extension_count": 917,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "numerator": 308,
+            "denominator": 917
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C13",
+      "strict_up_masks": [
+        168,
+        252,
+        232,
+        0,
+        160,
+        128,
+        128,
+        0
+      ],
+      "original_forced_set": [
+        0,
+        3
+      ],
+      "certified_bounds": [
+        1,
+        1
+      ],
+      "cartesian_vectors": 0,
+      "filter_feasible_vectors": 0,
+      "necessary_nonsingleton_count": 3,
+      "cases": []
+    },
+    {
+      "class_id": "C14",
+      "strict_up_masks": [
+        178,
+        144,
+        248,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "original_forced_set": [],
+      "certified_bounds": [],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "necessary_nonsingleton_count": 1,
+      "cases": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "order": 8,
+          "extension_count": 121,
+          "balanced_pair_count": 3,
+          "author_witness": {
+            "weights": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "extension_count": 121,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                2,
+                0
+              ]
+            ],
+            "numerator": 48,
+            "denominator": 121
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C15",
+      "strict_up_masks": [
+        180,
+        252,
+        16,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "original_forced_set": [],
+      "certified_bounds": [],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "necessary_nonsingleton_count": 1,
+      "cases": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "order": 8,
+          "extension_count": 121,
+          "balanced_pair_count": 3,
+          "author_witness": {
+            "weights": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "extension_count": 121,
+            "balanced_pair_zero_based_ranks": [
+              [
+                2,
+                0
+              ],
+              [
+                5,
+                0
+              ]
+            ],
+            "numerator": 79,
+            "denominator": 121
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C16",
+      "strict_up_masks": [
+        180,
+        252,
+        144,
+        176,
+        128,
+        0,
+        128,
+        0
+      ],
+      "original_forced_set": [
+        5,
+        6
+      ],
+      "certified_bounds": [
+        2,
+        2
+      ],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "necessary_nonsingleton_count": 3,
+      "cases": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "order": 10,
+          "extension_count": 917,
+          "balanced_pair_count": 5,
+          "author_witness": {
+            "weights": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              1
+            ],
+            "extension_count": 917,
+            "balanced_pair_zero_based_ranks": [
+              [
+                2,
+                0
+              ],
+              [
+                6,
+                0
+              ]
+            ],
+            "numerator": 331,
+            "denominator": 917
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C17",
+      "strict_up_masks": [
+        180,
+        252,
+        144,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "original_forced_set": [
+        6
+      ],
+      "certified_bounds": [
+        2
+      ],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "necessary_nonsingleton_count": 2,
+      "cases": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "order": 9,
+          "extension_count": 348,
+          "balanced_pair_count": 2,
+          "author_witness": {
+            "weights": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              1
+            ],
+            "extension_count": 348,
+            "balanced_pair_zero_based_ranks": [
+              [
+                3,
+                0
+              ],
+              [
+                6,
+                0
+              ]
+            ],
+            "numerator": 179,
+            "denominator": 348
+          }
+        }
+      ]
+    },
+    {
+      "class_id": "C18",
+      "strict_up_masks": [
+        32,
+        104,
+        248,
+        32,
+        96,
+        0,
+        0,
+        0
+      ],
+      "original_forced_set": [
+        0,
+        7
+      ],
+      "certified_bounds": [
+        4,
+        4
+      ],
+      "cartesian_vectors": 9,
+      "filter_feasible_vectors": 5,
+      "necessary_nonsingleton_count": 3,
+      "cases": [
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "order": 10,
+          "extension_count": 7141,
+          "balanced_pair_count": 4,
+          "author_witness": {
+            "weights": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "extension_count": 7141,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "numerator": 3460,
+            "denominator": 7141
+          }
+        },
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "order": 11,
+          "extension_count": 22225,
+          "balanced_pair_count": 9,
+          "author_witness": {
+            "weights": [
+              2,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3
+            ],
+            "extension_count": 22225,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "numerator": 10674,
+            "denominator": 22225
+          }
+        },
+        {
+          "weights": [
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "order": 11,
+          "extension_count": 22225,
+          "balanced_pair_count": 9,
+          "author_witness": {
+            "weights": [
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2
+            ],
+            "extension_count": 22225,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "numerator": 13036,
+            "denominator": 22225
+          }
+        },
+        {
+          "weights": [
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "order": 12,
+          "extension_count": 75311,
+          "balanced_pair_count": 12,
+          "author_witness": {
+            "weights": [
+              3,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              3
+            ],
+            "extension_count": 75311,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "numerator": 43840,
+            "denominator": 75311
+          }
+        },
+        {
+          "weights": [
+            4,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "order": 14,
+          "extension_count": 641985,
+          "balanced_pair_count": 17,
+          "author_witness": {
+            "weights": [
+              4,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              4
+            ],
+            "extension_count": 641985,
+            "balanced_pair_zero_based_ranks": [
+              [
+                0,
+                0
+              ],
+              [
+                1,
+                0
+              ]
+            ],
+            "numerator": 415772,
+            "denominator": 641985
+          }
+        }
+      ]
+    }
+  ],
+  "binary_summary": [
+    {
+      "class_id": "C02",
+      "linear_pass": 240,
+      "port_and_linear_pass": 124,
+      "inflations": 256
+    },
+    {
+      "class_id": "C03",
+      "linear_pass": 248,
+      "port_and_linear_pass": 64,
+      "inflations": 256
+    },
+    {
+      "class_id": "C04",
+      "linear_pass": 240,
+      "port_and_linear_pass": 124,
+      "inflations": 256
+    },
+    {
+      "class_id": "C05",
+      "linear_pass": 248,
+      "port_and_linear_pass": 64,
+      "inflations": 256
+    },
+    {
+      "class_id": "C06",
+      "linear_pass": 187,
+      "port_and_linear_pass": 91,
+      "inflations": 256
+    },
+    {
+      "class_id": "C07",
+      "linear_pass": 241,
+      "port_and_linear_pass": 32,
+      "inflations": 256
+    },
+    {
+      "class_id": "C08",
+      "linear_pass": 225,
+      "port_and_linear_pass": 225,
+      "inflations": 256
+    },
+    {
+      "class_id": "C09",
+      "linear_pass": 148,
+      "port_and_linear_pass": 148,
+      "inflations": 256
+    },
+    {
+      "class_id": "C10",
+      "linear_pass": 187,
+      "port_and_linear_pass": 91,
+      "inflations": 256
+    },
+    {
+      "class_id": "C11",
+      "linear_pass": 241,
+      "port_and_linear_pass": 241,
+      "inflations": 256
+    },
+    {
+      "class_id": "C12",
+      "linear_pass": 187,
+      "port_and_linear_pass": 56,
+      "inflations": 256
+    },
+    {
+      "class_id": "C13",
+      "linear_pass": 225,
+      "port_and_linear_pass": 57,
+      "inflations": 256
+    },
+    {
+      "class_id": "C14",
+      "linear_pass": 148,
+      "port_and_linear_pass": 148,
+      "inflations": 256
+    },
+    {
+      "class_id": "C15",
+      "linear_pass": 148,
+      "port_and_linear_pass": 148,
+      "inflations": 256
+    },
+    {
+      "class_id": "C16",
+      "linear_pass": 187,
+      "port_and_linear_pass": 56,
+      "inflations": 256
+    },
+    {
+      "class_id": "C17",
+      "linear_pass": 148,
+      "port_and_linear_pass": 98,
+      "inflations": 256
+    },
+    {
+      "class_id": "C18",
+      "linear_pass": 241,
+      "port_and_linear_pass": 64,
+      "inflations": 256
+    }
+  ],
+  "elapsed_seconds": 4.616
+}

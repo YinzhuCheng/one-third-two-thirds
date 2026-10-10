@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "formula_box": {
+    "weights": "each wi in {1,2,3}",
+    "vectors": 2187
+  },
+  "total_formula_vectors": 2255,
+  "independent_block_dp_counts": 6765,
+  "strict_probability_bound_checks": 4510,
+  "complete_fiber_box": {
+    "weights": "each wi in {1,2}",
+    "vectors": 128,
+    "complete_words": 121327,
+    "conditioning_fibers": 3192
+  },
+  "integer_cone": {
+    "spine_weights": "each of a,b,c,d in {1,2,3,4}",
+    "spine_vectors": 256,
+    "candidate_triples_compared": 350020,
+    "cone_triples": 20574,
+    "componentwise_extremal_witnesses": 1892,
+    "test_range": "1<=t<=T+2, 1<=u<=t+U+2, 1<=v<=t+V+2"
+  },
+  "singleton_spine_cone": [
+    [
+      2,
+      1,
+      2
+    ],
+    [
+      3,
+      2,
+      3
+    ]
+  ],
+  "scope": "Exact finite checks validate implementations. Universal claims have direct proofs; all-positive seven-weight balance remains open."
+}

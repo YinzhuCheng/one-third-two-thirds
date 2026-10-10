@@ -1,0 +1,70 @@
+verified 0 elapsed 0.004
+verified 250 elapsed 0.081
+verified 500 elapsed 0.198
+verified 750 elapsed 0.357
+verified 1000 elapsed 0.547
+verified 1250 elapsed 0.815
+verified 1500 elapsed 1.144
+verified 1750 elapsed 1.561
+verified 2000 elapsed 2.132
+verified 2250 elapsed 3.046
+verified 2500 elapsed 4.526
+verified 2750 elapsed 7.915
+{
+  "status": "PASS",
+  "independent_peer_audit": false,
+  "description": "Full-scope independent state-representation DP and direct cone enumeration; this is author verification, not external peer audit.",
+  "source_sha256": "d8d05b8e2e8f3a7b39e0ea7a92d368208fbc3bcb86f197528bd32ab1c8b1ec09",
+  "spine_max": 3,
+  "cone_vectors": 2767,
+  "cone_enumeration_set_equality": true,
+  "actual_label_denominator_comparisons": 2767,
+  "actual_label_endpoint_comparisons": 49806,
+  "middle_binomial_formula_comparisons": 5534,
+  "actual_label_incomparable_pair_counts": 341222,
+  "actual_balanced_pairs_counted": 63876,
+  "minimum_delta": "3/7",
+  "minimum_delta_cases": [
+    {
+      "weights": [
+        2,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "extensions": 315,
+      "delta_reduced": "3/7",
+      "incomparable_pair_count": 18,
+      "balanced_pair_count": 5,
+      "maximizing_pairs": [
+        {
+          "x": [
+            0,
+            2
+          ],
+          "y": [
+            4,
+            1
+          ],
+          "numerator_x_before_y": 180
+        },
+        {
+          "x": [
+            4,
+            1
+          ],
+          "y": [
+            6,
+            1
+          ],
+          "numerator_x_before_y": 180
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 8.545933,
+  "cone_proof_status": "See cone_audit.json; not supplied by arithmetic checks."
+}

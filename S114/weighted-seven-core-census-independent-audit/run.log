@@ -1,0 +1,463 @@
+Independently counted 250/2767 vectors
+Independently counted 500/2767 vectors
+Independently counted 750/2767 vectors
+Independently counted 1000/2767 vectors
+Independently counted 1250/2767 vectors
+Independently counted 1500/2767 vectors
+Independently counted 1750/2767 vectors
+Independently counted 2000/2767 vectors
+Independently counted 2250/2767 vectors
+Independently counted 2500/2767 vectors
+Independently counted 2750/2767 vectors
+{
+  "verdict": "PASS",
+  "independent_peer_audit": true,
+  "oracle": "Actual-label augmented-comparison ideal-path recurrence; no author code imported",
+  "spine_scope": [
+    1,
+    2,
+    3
+  ],
+  "rectangular_cone_candidates_checked": 158760,
+  "cone_set_equality": true,
+  "all_spines_counted": 81,
+  "cone_vectors": 2767,
+  "arrows": [
+    "B0<B2",
+    "B0<B4",
+    "B0<B6",
+    "B1<B0",
+    "B2<B4",
+    "B4<B3",
+    "B4<B6",
+    "B6<B3",
+    "B6<B5",
+    "T1<T0",
+    "T2<T0",
+    "T4<T3",
+    "T0<T4",
+    "T2<T4",
+    "T6<T5",
+    "T0<T6",
+    "T3<T6",
+    "T4<T6"
+  ],
+  "independent_denominator_comparisons": 2767,
+  "independent_endpoint_comparisons": 49806,
+  "independent_actual_incomparable_pair_counts": 341222,
+  "independent_balanced_pairs": 63876,
+  "aggregate_ideal_states": 990547,
+  "threshold_equality_occurrences": 0,
+  "minimum_delta_within_cone_only": "3/7",
+  "minimum_delta_vectors": [
+    [
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  ],
+  "summaries": [
+    {
+      "maximum_spine_weight": 1,
+      "spines": 1,
+      "cone_vectors": 2,
+      "maximum_order": 12,
+      "old_four_survivors": [],
+      "six_test_survivor_counts": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "full_eighteen_survivors": 0,
+      "minimum_menus": {
+        "size": 1,
+        "menus": [
+          [
+            "B1<B0"
+          ],
+          [
+            "B4<B6"
+          ],
+          [
+            "T0<T4"
+          ],
+          [
+            "T6<T5"
+          ]
+        ],
+        "subsets_tested_by_size": {
+          "0": 1,
+          "1": 18
+        }
+      },
+      "analytic_sequential_counts": [
+        2,
+        2,
+        2,
+        2
+      ],
+      "analytic_then_old_four_survivors": []
+    },
+    {
+      "maximum_spine_weight": 2,
+      "spines": 16,
+      "cone_vectors": 165,
+      "maximum_order": 32,
+      "old_four_survivors": [
+        [
+          3,
+          1,
+          2,
+          2,
+          3,
+          1,
+          3
+        ]
+      ],
+      "six_test_survivor_counts": [
+        52,
+        22,
+        1,
+        1,
+        0,
+        0
+      ],
+      "full_eighteen_survivors": 0,
+      "minimum_menus": {
+        "size": 4,
+        "menus": [
+          [
+            "B0<B2",
+            "B1<B0",
+            "B6<B3",
+            "T6<T5"
+          ],
+          [
+            "B0<B2",
+            "B1<B0",
+            "T2<T0",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "B2<B4",
+            "B6<B3",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "B2<B4",
+            "T2<T0",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "B6<B3",
+            "T4<T3",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "B6<B3",
+            "T6<T5",
+            "T3<T6"
+          ],
+          [
+            "B1<B0",
+            "T2<T0",
+            "T4<T3",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "T2<T0",
+            "T6<T5",
+            "T3<T6"
+          ]
+        ],
+        "subsets_tested_by_size": {
+          "0": 1,
+          "1": 18,
+          "2": 153,
+          "3": 816,
+          "4": 3060
+        }
+      },
+      "analytic_sequential_counts": [
+        66,
+        27,
+        27,
+        27
+      ],
+      "analytic_then_old_four_survivors": [
+        [
+          3,
+          1,
+          2,
+          2,
+          3,
+          1,
+          3
+        ]
+      ]
+    },
+    {
+      "maximum_spine_weight": 3,
+      "spines": 81,
+      "cone_vectors": 2767,
+      "maximum_order": 52,
+      "old_four_survivors": [
+        [
+          3,
+          1,
+          2,
+          2,
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          3,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          2,
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          2,
+          2,
+          3,
+          3,
+          2,
+          4
+        ],
+        [
+          3,
+          3,
+          1,
+          3,
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          2,
+          3,
+          1,
+          3,
+          3,
+          3
+        ],
+        [
+          4,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ],
+        [
+          4,
+          3,
+          2,
+          2,
+          3,
+          2,
+          3
+        ],
+        [
+          4,
+          1,
+          3,
+          2,
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          2,
+          3,
+          3,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          3,
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          3,
+          2,
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          2,
+          3,
+          3,
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          3,
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          3,
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          3,
+          3,
+          2,
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          3,
+          4,
+          3,
+          5
+        ],
+        [
+          5,
+          3,
+          3,
+          2,
+          4,
+          3,
+          4
+        ],
+        [
+          5,
+          3,
+          3,
+          3,
+          5,
+          3,
+          5
+        ]
+      ],
+      "six_test_survivor_counts": [
+        923,
+        425,
+        27,
+        21,
+        1,
+        0
+      ],
+      "full_eighteen_survivors": 0,
+      "minimum_menus": {
+        "size": 5,
+        "menus": [
+          [
+            "B1<B0",
+            "B2<B4",
+            "B6<B3",
+            "T4<T3",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "B2<B4",
+            "T2<T0",
+            "T4<T3",
+            "T6<T5"
+          ]
+        ],
+        "subsets_tested_by_size": {
+          "0": 1,
+          "1": 18,
+          "2": 153,
+          "3": 816,
+          "4": 3060,
+          "5": 8568
+        }
+      },
+      "analytic_sequential_counts": [
+        723,
+        185,
+        185,
+        185
+      ],
+      "analytic_then_old_four_survivors": [
+        [
+          3,
+          1,
+          2,
+          2,
+          3,
+          1,
+          3
+        ]
+      ]
+    }
+  ],
+  "infinite_family_scope": "All positive u,t,v with each a,b,c,d in {1,2,3}, conditional on the explicitly identified previously audited structural, port, outer-cone, and generalized-shuffle proof prerequisites. No arbitrary-spine or global delta claim."
+}

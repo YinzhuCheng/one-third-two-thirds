@@ -1,0 +1,209 @@
+{
+  "status": "PASS",
+  "conditional_integrals": {
+    "parameter_grid_checks": 1728,
+    "strict_checks": 1680,
+    "equality_checks": 48,
+    "reference_identity_checks": 120,
+    "alpha_grid": [
+      "0",
+      "1/1000",
+      "1/5",
+      "1/2",
+      "4/5",
+      "999/1000"
+    ],
+    "delta_grid": [
+      "0",
+      "1/1000",
+      "1/7",
+      "1",
+      "10",
+      "10000"
+    ],
+    "outside_range_example": {
+      "t": 2,
+      "v": 2,
+      "alpha": "0",
+      "delta": "1/1000",
+      "2Ez_minus_Ex_over_D": "10024015/9024018"
+    }
+  },
+  "actual_full_extensions": {
+    "grid": "u,a,b,t,k in {1,2,3,4}; v=t+k; c=d=1",
+    "grid_vectors": 1024,
+    "dp_counts_per_vector": 6,
+    "polynomial_volume_integrals_per_vector": 3,
+    "max_ideal_states": 399,
+    "examples": [
+      {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "extensions": 113,
+        "q_numerator": 84,
+        "r_numerator": 69,
+        "strict_slack_numerator": 4,
+        "states": 27
+      },
+      {
+        "weights": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "extensions": 315,
+        "q_numerator": 216,
+        "r_numerator": 202,
+        "strict_slack_numerator": 10,
+        "states": 36
+      },
+      {
+        "weights": [
+          2,
+          1,
+          4,
+          1,
+          3,
+          1,
+          4
+        ],
+        "extensions": 125984,
+        "q_numerator": 106810,
+        "r_numerator": 63890,
+        "strict_slack_numerator": 17378,
+        "states": 136
+      },
+      {
+        "weights": [
+          4,
+          4,
+          4,
+          1,
+          4,
+          1,
+          8
+        ],
+        "extensions": 215420218,
+        "q_numerator": 191303558,
+        "r_numerator": 93860820,
+        "strict_slack_numerator": 51815238,
+        "states": 399
+      }
+    ],
+    "asymmetric_extras": [
+      {
+        "weights": [
+          8,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "extensions": 10368,
+        "q_numerator": 4725,
+        "r_numerator": 7923,
+        "strict_slack_numerator": 165,
+        "states": 90
+      },
+      {
+        "weights": [
+          1,
+          9,
+          1,
+          1,
+          3,
+          1,
+          4
+        ],
+        "extensions": 11486,
+        "q_numerator": 10010,
+        "r_numerator": 6180,
+        "strict_slack_numerator": 602,
+        "states": 91
+      },
+      {
+        "weights": [
+          2,
+          3,
+          12,
+          1,
+          5,
+          1,
+          6
+        ],
+        "extensions": 210299111,
+        "q_numerator": 194517477,
+        "r_numerator": 83180328,
+        "strict_slack_numerator": 59720089,
+        "states": 400
+      },
+      {
+        "weights": [
+          11,
+          7,
+          3,
+          1,
+          4,
+          1,
+          9
+        ],
+        "extensions": 2892475582535,
+        "q_numerator": 2270821856660,
+        "r_numerator": 1517270723850,
+        "strict_slack_numerator": 479587860710,
+        "states": 924
+      },
+      {
+        "weights": [
+          3,
+          2,
+          5,
+          1,
+          12,
+          1,
+          13
+        ],
+        "extensions": 10370598969942,
+        "q_numerator": 9493022841162,
+        "r_numerator": 5018245869000,
+        "strict_slack_numerator": 1211683360722,
+        "states": 1192
+      },
+      {
+        "weights": [
+          5,
+          11,
+          9,
+          1,
+          8,
+          1,
+          9
+        ],
+        "extensions": 20046550849677,
+        "q_numerator": 18245069465832,
+        "r_numerator": 8774791900875,
+        "strict_slack_numerator": 4298448431772,
+        "states": 1192
+      }
+    ]
+  },
+  "corollary_logic": {
+    "support_patterns_with_at_most_three_nonsingletons": 64,
+    "bounded_corollary_implications": 10725,
+    "v1_structural_cycles": 256,
+    "scope": "logical coverage only; port and both-inner-singleton theorems are independent dependencies"
+  }
+}

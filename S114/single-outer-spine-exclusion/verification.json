@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "weight_family": "(u,a,1,1,t,1,v)",
+  "exact_grid": "u,a,t,v independently in {1,2,3,4,5}",
+  "weight_vectors": 625,
+  "independent_labelled_ideal_DP_counts": 3750,
+  "prefix_probabilities_checked": 1875,
+  "middle_bound_checks": 1250,
+  "prefix_insertion_bound_checks": 1125,
+  "algebra_grid": "2<=u,v<=100; 1<=t<=50; 2t<u+2 and 2v<u+t+2",
+  "algebra_cone_points": 105400,
+  "infinite_claim_status": "Direct proof in SINGLE_OUTER_SPINE_EXCLUSION.md; independent generalized-middle-bound audit is a stated dependency."
+}

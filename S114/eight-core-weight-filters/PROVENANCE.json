@@ -1,0 +1,26 @@
+{
+  "input_files": {
+    "/workspace/shared/prime-core-catalogue-frozen/all_survivor_singleton_constraints.json": {
+      "sha256": "d5499a8d618eb74e87de86831a9bc1d5cf69f7e9eb24723bac46cfc432ae7c3d",
+      "bytes": 26293
+    },
+    "/workspace/shared/prime-core-catalogue-frozen/MANIFEST.json": {
+      "sha256": "f532f8d4d203d3df4dd239116748caf74e52c06b18ffb32785c4dfebcea4b926",
+      "bytes": 3883
+    },
+    "/workspace/shared/prime-core-catalogue-independent-audit/orbit_and_singleton_audit.json": {
+      "sha256": "828dfc4034243b64f73a307d030420b25766ca14db0eb3740efdf17b0c30a212",
+      "bytes": 11523
+    },
+    "/workspace/shared/minimal_counterexample_reductions_20261010.md": {
+      "sha256": "2c6269ef6787c691b854e04d6f09aef60feb5fe2ca43517b24f7537400ab9799",
+      "bytes": 21369
+    },
+    "/workspace/shared/weighted-surviving-core/ANALYTIC_RESULT.md": {
+      "sha256": "3a85e01475b70f9aae1e19bd90c7a8b97ac21fbc88de29e3806cd6f630a1985c",
+      "bytes": 11499
+    }
+  },
+  "external_theorem_url": "https://arxiv.org/html/1610.00809",
+  "read_date": "2026-10-10"
+}

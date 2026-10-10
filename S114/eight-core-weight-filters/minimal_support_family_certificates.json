@@ -1,0 +1,1460 @@
+{
+  "status": "PASS",
+  "theorem": "For every class C02-C18, a counterexample needs at least one nonsingleton block outside its port-forced set. This excludes an unbounded original weight family using exact finite bounds, not a finite-box extrapolation.",
+  "certificate_method": "Inverse matrices are exact and entrywise nonnegative; multiplying A*w<=b gives certified upper bounds. Every integer vector in the bounds passing all linear filters has an independently counted balanced pair.",
+  "total_filter_feasible_vectors": 22,
+  "maximum_checked_inflation_order": 15,
+  "cores": [
+    {
+      "class_id": "C02",
+      "variable_indices": [
+        7
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2
+        ]
+      ],
+      "rhs": [
+        4
+      ],
+      "inverse_rational": [
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          2,
+          1
+        ]
+      ],
+      "upper_bounds_integer": [
+        2
+      ],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "balanced_certificates": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "extension_count": 587,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "numerator": 390,
+          "denominator": 587
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "necessary_nonsingleton_count": 2
+    },
+    {
+      "class_id": "C03",
+      "variable_indices": [
+        0,
+        5
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "rhs": [
+        3,
+        3
+      ],
+      "inverse_rational": [
+        [
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "upper_bounds_integer": [
+        3,
+        3
+      ],
+      "cartesian_vectors": 4,
+      "filter_feasible_vectors": 2,
+      "balanced_certificates": [
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            1
+          ],
+          "extension_count": 1050,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "numerator": 686,
+          "denominator": 1050
+        },
+        {
+          "weights": [
+            3,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            1
+          ],
+          "extension_count": 8180,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "numerator": 2924,
+          "denominator": 8180
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "necessary_nonsingleton_count": 3
+    },
+    {
+      "class_id": "C04",
+      "variable_indices": [
+        0
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2
+        ]
+      ],
+      "rhs": [
+        4
+      ],
+      "inverse_rational": [
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          2,
+          1
+        ]
+      ],
+      "upper_bounds_integer": [
+        2
+      ],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "balanced_certificates": [
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "extension_count": 587,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              1
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "numerator": 227,
+          "denominator": 587
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "necessary_nonsingleton_count": 2
+    },
+    {
+      "class_id": "C05",
+      "variable_indices": [
+        5,
+        7
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "rhs": [
+        3,
+        3
+      ],
+      "inverse_rational": [
+        [
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ]
+      ],
+      "upper_bounds_integer": [
+        3,
+        3
+      ],
+      "cartesian_vectors": 4,
+      "filter_feasible_vectors": 2,
+      "balanced_certificates": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1,
+            2
+          ],
+          "extension_count": 1050,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "numerator": 671,
+          "denominator": 1050
+        },
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            1,
+            3
+          ],
+          "extension_count": 8180,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "numerator": 4681,
+          "denominator": 8180
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6
+      ],
+      "necessary_nonsingleton_count": 3
+    },
+    {
+      "class_id": "C06",
+      "variable_indices": [
+        0
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2
+        ]
+      ],
+      "rhs": [
+        3
+      ],
+      "inverse_rational": [
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          3,
+          2
+        ]
+      ],
+      "upper_bounds_integer": [
+        1
+      ],
+      "cartesian_vectors": 0,
+      "filter_feasible_vectors": 0,
+      "balanced_certificates": [],
+      "additional_nonsingleton_clause": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "necessary_nonsingleton_count": 2
+    },
+    {
+      "class_id": "C07",
+      "variable_indices": [
+        0,
+        3,
+        6
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2,
+          0,
+          -1
+        ],
+        [
+          0,
+          2,
+          -1
+        ],
+        [
+          -1,
+          -1,
+          2
+        ]
+      ],
+      "rhs": [
+        2,
+        2,
+        2
+      ],
+      "inverse_rational": [
+        [
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            4
+          ],
+          [
+            3,
+            4
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            1
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "upper_bounds_integer": [
+        3,
+        3,
+        4
+      ],
+      "cartesian_vectors": 12,
+      "filter_feasible_vectors": 3,
+      "balanced_certificates": [
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            2,
+            1,
+            1,
+            2,
+            1
+          ],
+          "extension_count": 2332,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "numerator": 814,
+          "denominator": 2332
+        },
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            2,
+            1,
+            1,
+            3,
+            1
+          ],
+          "extension_count": 7110,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              1
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "numerator": 2559,
+          "denominator": 7110
+        },
+        {
+          "weights": [
+            3,
+            1,
+            1,
+            3,
+            1,
+            1,
+            4,
+            1
+          ],
+          "extension_count": 125565,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "numerator": 48995,
+          "denominator": 125565
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "necessary_nonsingleton_count": 4
+    },
+    {
+      "class_id": "C08",
+      "variable_indices": [],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [],
+      "rhs": [],
+      "inverse_rational": [],
+      "upper_bounds_rational": [],
+      "upper_bounds_integer": [],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "balanced_certificates": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "extension_count": 107,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "numerator": 71,
+          "denominator": 107
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "necessary_nonsingleton_count": 1
+    },
+    {
+      "class_id": "C09",
+      "variable_indices": [],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [],
+      "rhs": [],
+      "inverse_rational": [],
+      "upper_bounds_rational": [],
+      "upper_bounds_integer": [],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "balanced_certificates": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "extension_count": 132,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "numerator": 51,
+          "denominator": 132
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "necessary_nonsingleton_count": 1
+    },
+    {
+      "class_id": "C10",
+      "variable_indices": [
+        5
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2
+        ]
+      ],
+      "rhs": [
+        3
+      ],
+      "inverse_rational": [
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          3,
+          2
+        ]
+      ],
+      "upper_bounds_integer": [
+        1
+      ],
+      "cartesian_vectors": 0,
+      "filter_feasible_vectors": 0,
+      "balanced_certificates": [],
+      "additional_nonsingleton_clause": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7
+      ],
+      "necessary_nonsingleton_count": 2
+    },
+    {
+      "class_id": "C11",
+      "variable_indices": [],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [],
+      "rhs": [],
+      "inverse_rational": [],
+      "upper_bounds_rational": [],
+      "upper_bounds_integer": [],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "balanced_certificates": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "extension_count": 318,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              3,
+              0
+            ]
+          ],
+          "numerator": 212,
+          "denominator": 318
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "necessary_nonsingleton_count": 1
+    },
+    {
+      "class_id": "C12",
+      "variable_indices": [
+        0,
+        6
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "rhs": [
+        2,
+        3
+      ],
+      "inverse_rational": [
+        [
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          3
+        ]
+      ],
+      "upper_bounds_integer": [
+        2,
+        2
+      ],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "balanced_certificates": [
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "extension_count": 917,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "numerator": 308,
+          "denominator": 917
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "necessary_nonsingleton_count": 3
+    },
+    {
+      "class_id": "C13",
+      "variable_indices": [
+        0,
+        3
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2,
+          0
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "rhs": [
+        3,
+        3
+      ],
+      "inverse_rational": [
+        [
+          [
+            1,
+            2
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          2
+        ]
+      ],
+      "upper_bounds_integer": [
+        1,
+        1
+      ],
+      "cartesian_vectors": 0,
+      "filter_feasible_vectors": 0,
+      "balanced_certificates": [],
+      "additional_nonsingleton_clause": [
+        1,
+        2,
+        4,
+        5,
+        6,
+        7
+      ],
+      "necessary_nonsingleton_count": 3
+    },
+    {
+      "class_id": "C14",
+      "variable_indices": [],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [],
+      "rhs": [],
+      "inverse_rational": [],
+      "upper_bounds_rational": [],
+      "upper_bounds_integer": [],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "balanced_certificates": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "extension_count": 121,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "numerator": 48,
+          "denominator": 121
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "necessary_nonsingleton_count": 1
+    },
+    {
+      "class_id": "C15",
+      "variable_indices": [],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [],
+      "rhs": [],
+      "inverse_rational": [],
+      "upper_bounds_rational": [],
+      "upper_bounds_integer": [],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "balanced_certificates": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "extension_count": 121,
+          "balanced_pair_zero_based_ranks": [
+            [
+              2,
+              0
+            ],
+            [
+              5,
+              0
+            ]
+          ],
+          "numerator": 79,
+          "denominator": 121
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "necessary_nonsingleton_count": 1
+    },
+    {
+      "class_id": "C16",
+      "variable_indices": [
+        5,
+        6
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "rhs": [
+        2,
+        3
+      ],
+      "inverse_rational": [
+        [
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          7,
+          3
+        ],
+        [
+          8,
+          3
+        ]
+      ],
+      "upper_bounds_integer": [
+        2,
+        2
+      ],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "balanced_certificates": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            1
+          ],
+          "extension_count": 917,
+          "balanced_pair_zero_based_ranks": [
+            [
+              2,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "numerator": 331,
+          "denominator": 917
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7
+      ],
+      "necessary_nonsingleton_count": 3
+    },
+    {
+      "class_id": "C17",
+      "variable_indices": [
+        6
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2
+        ]
+      ],
+      "rhs": [
+        4
+      ],
+      "inverse_rational": [
+        [
+          [
+            1,
+            2
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          2,
+          1
+        ]
+      ],
+      "upper_bounds_integer": [
+        2
+      ],
+      "cartesian_vectors": 1,
+      "filter_feasible_vectors": 1,
+      "balanced_certificates": [
+        {
+          "weights": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            1
+          ],
+          "extension_count": 348,
+          "balanced_pair_zero_based_ranks": [
+            [
+              3,
+              0
+            ],
+            [
+              6,
+              0
+            ]
+          ],
+          "numerator": 179,
+          "denominator": 348
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7
+      ],
+      "necessary_nonsingleton_count": 2
+    },
+    {
+      "class_id": "C18",
+      "variable_indices": [
+        0,
+        7
+      ],
+      "all_other_weights": 1,
+      "variable_lower_bound": 2,
+      "matrix": [
+        [
+          2,
+          -1
+        ],
+        [
+          -1,
+          2
+        ]
+      ],
+      "rhs": [
+        4,
+        4
+      ],
+      "inverse_rational": [
+        [
+          [
+            2,
+            3
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      ],
+      "upper_bounds_rational": [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          1
+        ]
+      ],
+      "upper_bounds_integer": [
+        4,
+        4
+      ],
+      "cartesian_vectors": 9,
+      "filter_feasible_vectors": 5,
+      "balanced_certificates": [
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "extension_count": 7141,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "numerator": 3460,
+          "denominator": 7141
+        },
+        {
+          "weights": [
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "extension_count": 22225,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "numerator": 10674,
+          "denominator": 22225
+        },
+        {
+          "weights": [
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
+          ],
+          "extension_count": 22225,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "numerator": 13036,
+          "denominator": 22225
+        },
+        {
+          "weights": [
+            3,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            3
+          ],
+          "extension_count": 75311,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "numerator": 43840,
+          "denominator": 75311
+        },
+        {
+          "weights": [
+            4,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            4
+          ],
+          "extension_count": 641985,
+          "balanced_pair_zero_based_ranks": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ]
+          ],
+          "numerator": 415772,
+          "denominator": 641985
+        }
+      ],
+      "additional_nonsingleton_clause": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "necessary_nonsingleton_count": 3
+    }
+  ]
+}

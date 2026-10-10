@@ -1,0 +1,18 @@
+C02 [7] upper [2] cases 1
+C03 [0, 5] upper [3, 3] cases 2
+C04 [0] upper [2] cases 1
+C05 [5, 7] upper [3, 3] cases 2
+C06 [0] upper [1] cases 0
+C07 [0, 3, 6] upper [3, 3, 4] cases 3
+C08 [] upper [] cases 1
+C09 [] upper [] cases 1
+C10 [5] upper [1] cases 0
+C11 [] upper [] cases 1
+C12 [0, 6] upper [2, 2] cases 1
+C13 [0, 3] upper [1, 1] cases 0
+C14 [] upper [] cases 1
+C15 [] upper [] cases 1
+C16 [5, 6] upper [2, 2] cases 1
+C17 [6] upper [2] cases 1
+C18 [0, 7] upper [4, 4] cases 5
+TOTAL 22 MAX_ORDER 15

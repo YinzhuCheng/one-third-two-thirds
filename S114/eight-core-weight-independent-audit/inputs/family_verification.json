@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "family_count": 17,
+  "balanced_pair_certificates": 22,
+  "independent_precedence_edge_counts": 44,
+  "method": "Fraction matrix identities and complete bounded-grid reconstruction, followed by independent recursive linear-extension counts with one added precedence edge."
+}

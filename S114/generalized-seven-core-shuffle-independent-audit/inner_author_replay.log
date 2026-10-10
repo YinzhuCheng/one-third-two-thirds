@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "weight_family": "(u,a,1,1,t,d,v)",
+  "exact_grid": "u,a,t,d,v independently in {1,2,3,4}",
+  "weight_vectors": 1024,
+  "independent_labelled_ideal_DP_counts": 8192,
+  "endpoint_rank_probabilities_checked": 5120,
+  "rank_product_bound_checks": 3584,
+  "strict_middle_bound_checks": 2048,
+  "algebra_grid": "2<=u<=v<=100; 1<=t<=floor((u+1)/2)",
+  "algebra_grid_points": 87025,
+  "infinite_claim_status": "Direct proof in TWO_SINGLETON_INNER_BLOCKS_EXCLUSION.md, with stated structural and shuffle dependencies."
+}

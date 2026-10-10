@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "scope": "separate rank-chain and two-singleton-inner-block audit; not part of primary shuffle source",
+  "box_cases": 2187,
+  "extra_cases": 4,
+  "inner_singleton_family_box": [
+    1,
+    5
+  ],
+  "inner_singleton_family_vectors": 3125,
+  "polynomial_integer_range": [
+    2,
+    10000
+  ],
+  "examples_where_rank_filter_adds_information": [
+    {
+      "weights": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "extensions": 55,
+      "rank_numerators": [
+        44,
+        33
+      ],
+      "balanced_C1_ranks_against_B0": [
+        2
+      ]
+    },
+    {
+      "weights": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      "extensions": 139,
+      "rank_numerators": [
+        113,
+        87
+      ],
+      "balanced_C1_ranks_against_B0": [
+        2
+      ]
+    },
+    {
+      "weights": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        1,
+        3
+      ],
+      "extensions": 285,
+      "rank_numerators": [
+        235,
+        185
+      ],
+      "balanced_C1_ranks_against_B0": [
+        2
+      ]
+    },
+    {
+      "weights": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        1
+      ],
+      "extensions": 69,
+      "rank_numerators": [
+        55,
+        41
+      ],
+      "balanced_C1_ranks_against_B0": [
+        2
+      ]
+    },
+    {
+      "weights": [
+        1,
+        2,
+        1,
+        1,
+        1,
+        2,
+        2
+      ],
+      "extensions": 208,
+      "rank_numerators": [
+        168,
+        128
+      ],
+      "balanced_C1_ranks_against_B0": [
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+lemma PASS
+general bound PASS
+fiber bijections PASS
+integer cone PASS
+sharp integer cap PASS
+Elapsed seconds: 2.136
+{
+  "status": "PASS",
+  "implementation": "independent labelled predecessor-mask ideal DP",
+  "uses_author_code": false,
+  "lemma": {
+    "cases": 756,
+    "equal_exactly_r_zero": 126,
+    "strict_r_positive": 630,
+    "q_1_cases": 216,
+    "q_k_cases": 216
+  },
+  "general_bound": {
+    "box_cases": 2187,
+    "box_oracle_calls": 10935,
+    "closed_formula_comparisons": 4374,
+    "max_ideal_states": 184,
+    "total_oracle_states": 780759,
+    "critical_examples": [
+      {
+        "weights": [
+          2,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2
+        ],
+        "extensions": 315,
+        "forward_numerator": 234,
+        "dual_numerator": 234,
+        "labelled_ideal_states": 36,
+        "comparison_states": 99,
+        "dual_ideal_states": 36
+      },
+      {
+        "weights": [
+          2,
+          1,
+          1,
+          1,
+          2,
+          1,
+          2
+        ],
+        "extensions": 1121,
+        "forward_numerator": 667,
+        "dual_numerator": 667,
+        "labelled_ideal_states": 51,
+        "comparison_states": 135,
+        "dual_ideal_states": 51
+      },
+      {
+        "weights": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "extensions": 8572,
+        "forward_numerator": 5949,
+        "dual_numerator": 5949,
+        "labelled_ideal_states": 75,
+        "comparison_states": 207,
+        "dual_ideal_states": 75
+      },
+      {
+        "weights": [
+          3,
+          1,
+          1,
+          1,
+          2,
+          1,
+          3
+        ],
+        "extensions": 7626,
+        "forward_numerator": 4908,
+        "dual_numerator": 4908,
+        "labelled_ideal_states": 80,
+        "comparison_states": 216,
+        "dual_ideal_states": 80
+      }
+    ],
+    "asymmetric_extras": [
+      {
+        "weights": [
+          1,
+          9,
+          1,
+          1,
+          1,
+          11,
+          1
+        ],
+        "extensions": 482,
+        "forward_numerator": 325,
+        "dual_numerator": 327,
+        "labelled_ideal_states": 56,
+        "comparison_states": 162,
+        "dual_ideal_states": 56
+      },
+      {
+        "weights": [
+          3,
+          7,
+          2,
+          4,
+          6,
+          9,
+          5
+        ],
+        "extensions": 12420137430,
+        "forward_numerator": 6625854270,
+        "dual_numerator": 6439369230,
+        "labelled_ideal_states": 474,
+        "comparison_states": 1326,
+        "dual_ideal_states": 474
+      },
+      {
+        "weights": [
+          8,
+          2,
+          3,
+          2,
+          8,
+          6,
+          9
+        ],
+        "extensions": 127922929770480,
+        "forward_numerator": 67547467292460,
+        "dual_numerator": 67988056954948,
+        "labelled_ideal_states": 1311,
+        "comparison_states": 3701,
+        "dual_ideal_states": 1311
+      },
+      {
+        "weights": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "extensions": 37832206358224278,
+        "forward_numerator": 25115285675786670,
+        "dual_numerator": 23005485363012152,
+        "labelled_ideal_states": 1582,
+        "comparison_states": 4530,
+        "dual_ideal_states": 1582
+      },
+      {
+        "weights": [
+          10,
+          9,
+          8,
+          7,
+          6,
+          5,
+          4
+        ],
+        "extensions": 8928509430476454,
+        "forward_numerator": 6279765324999166,
+        "dual_numerator": 6668991891210012,
+        "labelled_ideal_states": 1370,
+        "comparison_states": 3984,
+        "dual_ideal_states": 1370
+      },
+      {
+        "weights": [
+          1,
+          12,
+          1,
+          5,
+          9,
+          2,
+          13
+        ],
+        "extensions": 3677546354795,
+        "forward_numerator": 2365624301040,
+        "dual_numerator": 1409185535630,
+        "labelled_ideal_states": 1052,
+        "comparison_states": 2886,
+        "dual_ideal_states": 1052
+      },
+      {
+        "weights": [
+          7,
+          1,
+          2,
+          1,
+          9,
+          13,
+          1
+        ],
+        "extensions": 112581625,
+        "forward_numerator": 25032095,
+        "dual_numerator": 55853160,
+        "labelled_ideal_states": 374,
+        "comparison_states": 1014,
+        "dual_ideal_states": 374
+      },
+      {
+        "weights": [
+          20,
+          2,
+          1,
+          1,
+          8,
+          3,
+          15
+        ],
+        "extensions": 34117070622593593694,
+        "forward_numerator": 21913528998967404478,
+        "dual_numerator": 24096341538622873422,
+        "labelled_ideal_states": 3447,
+        "comparison_states": 9917,
+        "dual_ideal_states": 3447
+      },
+      {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          30,
+          1,
+          1
+        ],
+        "extensions": 254200,
+        "forward_numerator": 18910,
+        "dual_numerator": 18910,
+        "labelled_ideal_states": 252,
+        "comparison_states": 576,
+        "dual_ideal_states": 252
+      }
+    ]
+  },
+  "fibers": [
+    {
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "complete_labelled_extensions": 44,
+      "fibers": 6,
+      "f_zero_fibers": 2,
+      "remaining_A_zero_fibers": 3,
+      "q_min": 2,
+      "q_max": 3
+    },
+    {
+      "weights": [
+        2,
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "complete_labelled_extensions": 2152,
+      "fibers": 60,
+      "f_zero_fibers": 18,
+      "remaining_A_zero_fibers": 30,
+      "q_min": 2,
+      "q_max": 4
+    },
+    {
+      "weights": [
+        2,
+        1,
+        2,
+        2,
+        2,
+        1,
+        2
+      ],
+      "complete_labelled_extensions": 4726,
+      "fibers": 30,
+      "f_zero_fibers": 3,
+      "remaining_A_zero_fibers": 10,
+      "q_min": 3,
+      "q_max": 5
+    },
+    {
+      "weights": [
+        2,
+        2,
+        2,
+        1,
+        1,
+        2,
+        2
+      ],
+      "complete_labelled_extensions": 1156,
+      "fibers": 60,
+      "f_zero_fibers": 18,
+      "remaining_A_zero_fibers": 30,
+      "q_min": 3,
+      "q_max": 5
+    },
+    {
+      "weights": [
+        1,
+        3,
+        1,
+        2,
+        2,
+        3,
+        2
+      ],
+      "complete_labelled_extensions": 2032,
+      "fibers": 84,
+      "f_zero_fibers": 24,
+      "remaining_A_zero_fibers": 63,
+      "q_min": 2,
+      "q_max": 4
+    }
+  ],
+  "integer_cone": {
+    "spine_box": [
+      1,
+      4
+    ],
+    "pendant_box": [
+      1,
+      30
+    ],
+    "integer_candidates_checked": 6912000,
+    "cone_survivors_checked": 23774
+  },
+  "sharp_cap": {
+    "spine_box": [
+      1,
+      20
+    ],
+    "cases": 160000,
+    "examples": [
+      {
+        "spine": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "U": 1,
+        "V": 1,
+        "T": 2,
+        "witness": [
+          3,
+          1,
+          1,
+          1,
+          2,
+          1,
+          3
+        ]
+      },
+      {
+        "spine": [
+          1,
+          1,
+          1,
+          2
+        ],
+        "U": 1,
+        "V": 1,
+        "T": 2,
+        "witness": [
+          3,
+          1,
+          1,
+          1,
+          2,
+          2,
+          3
+        ]
+      },
+      {
+        "spine": [
+          1,
+          1,
+          1,
+          20
+        ],
+        "U": 7,
+        "V": 13,
+        "T": 8,
+        "witness": [
+          15,
+          1,
+          1,
+          1,
+          8,
+          20,
+          21
+        ]
+      },
+      {
+        "spine": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "U": 3,
+        "V": 3,
+        "T": 6,
+        "witness": [
+          9,
+          2,
+          2,
+          2,
+          6,
+          2,
+          9
+        ]
+      }
+    ]
+  }
+}

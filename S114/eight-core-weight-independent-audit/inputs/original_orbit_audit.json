@@ -1,0 +1,694 @@
+{
+  "status": "PASS",
+  "catalogue_comparison": [
+    {
+      "reference_name": "independent_catalogue_n8.json",
+      "status": "PASS: identical complete survivor sets through n8"
+    },
+    {
+      "reference_name": "survivors.json",
+      "status": "PASS: identical complete survivor sets through n8"
+    }
+  ],
+  "classes_by_n": {
+    "7": 1,
+    "8": 17
+  },
+  "all_class_actual_endpoint_equivalence_checks": 4480,
+  "n7_actual_endpoint_equivalence_checks": 128,
+  "n7_cycle_witness_edges": [
+    {
+      "edge": "B0 to B2",
+      "rule": "lower",
+      "down_source": [],
+      "down_target": [
+        1
+      ],
+      "upper_difference": [
+        6
+      ]
+    },
+    {
+      "edge": "T2 to T0",
+      "rule": "upper",
+      "upper_target": [
+        3,
+        5
+      ],
+      "upper_source": [
+        3,
+        5,
+        6
+      ],
+      "down_difference": [
+        1
+      ]
+    },
+    {
+      "edge": "T3 to T6",
+      "rule": "upper",
+      "upper_target": [],
+      "upper_source": [
+        5
+      ],
+      "down_difference": [
+        0
+      ]
+    },
+    {
+      "edge": "B6 to B3",
+      "rule": "lower",
+      "down_source": [
+        1,
+        2
+      ],
+      "down_target": [
+        0,
+        1,
+        2
+      ],
+      "upper_difference": [
+        5
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "n": 7,
+      "canonical_natural_masks": [
+        40,
+        124,
+        104,
+        32,
+        32,
+        0,
+        0
+      ],
+      "representative_masks": [
+        40,
+        124,
+        104,
+        32,
+        32,
+        0,
+        0
+      ],
+      "natural_multiplicity": 44,
+      "extension_count": 44,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [
+        [
+          0
+        ],
+        [
+          6
+        ]
+      ],
+      "cyclic_singleton_patterns": 96
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        32,
+        104,
+        248,
+        32,
+        96,
+        0,
+        0,
+        0
+      ],
+      "representative_masks": [
+        32,
+        104,
+        248,
+        32,
+        96,
+        0,
+        0,
+        0
+      ],
+      "natural_multiplicity": 465,
+      "extension_count": 465,
+      "automorphism_order": 1,
+      "width": 4,
+      "height": 3,
+      "minimal_forbidden_singleton_sets": [
+        [
+          0
+        ],
+        [
+          7
+        ]
+      ],
+      "cyclic_singleton_patterns": 192
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        68,
+        236,
+        0,
+        192,
+        224,
+        64,
+        0,
+        0
+      ],
+      "representative_masks": [
+        68,
+        236,
+        0,
+        192,
+        224,
+        64,
+        0,
+        0
+      ],
+      "natural_multiplicity": 318,
+      "extension_count": 318,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 3,
+      "minimal_forbidden_singleton_sets": [],
+      "cyclic_singleton_patterns": 0
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        68,
+        236,
+        64,
+        96,
+        224,
+        64,
+        0,
+        0
+      ],
+      "representative_masks": [
+        68,
+        236,
+        64,
+        96,
+        224,
+        64,
+        0,
+        0
+      ],
+      "natural_multiplicity": 194,
+      "extension_count": 194,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [
+        [
+          7
+        ]
+      ],
+      "cyclic_singleton_patterns": 128
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        72,
+        252,
+        88,
+        0,
+        64,
+        192,
+        0,
+        0
+      ],
+      "representative_masks": [
+        72,
+        252,
+        88,
+        0,
+        64,
+        192,
+        0,
+        0
+      ],
+      "natural_multiplicity": 194,
+      "extension_count": 194,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [
+        [
+          0
+        ]
+      ],
+      "cyclic_singleton_patterns": 128
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        72,
+        252,
+        216,
+        64,
+        192,
+        64,
+        0,
+        0
+      ],
+      "representative_masks": [
+        72,
+        252,
+        216,
+        64,
+        192,
+        64,
+        0,
+        0
+      ],
+      "natural_multiplicity": 102,
+      "extension_count": 102,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [
+        [
+          0
+        ],
+        [
+          5
+        ]
+      ],
+      "cyclic_singleton_patterns": 192
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        84,
+        252,
+        80,
+        208,
+        64,
+        64,
+        0,
+        0
+      ],
+      "representative_masks": [
+        84,
+        252,
+        80,
+        208,
+        64,
+        64,
+        0,
+        0
+      ],
+      "natural_multiplicity": 102,
+      "extension_count": 102,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [
+        [
+          5
+        ],
+        [
+          7
+        ]
+      ],
+      "cyclic_singleton_patterns": 192
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        168,
+        252,
+        136,
+        128,
+        224,
+        0,
+        128,
+        0
+      ],
+      "representative_masks": [
+        168,
+        252,
+        136,
+        128,
+        224,
+        0,
+        128,
+        0
+      ],
+      "natural_multiplicity": 107,
+      "extension_count": 107,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [],
+      "cyclic_singleton_patterns": 0
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        168,
+        252,
+        184,
+        0,
+        160,
+        128,
+        128,
+        0
+      ],
+      "representative_masks": [
+        168,
+        252,
+        184,
+        0,
+        160,
+        128,
+        128,
+        0
+      ],
+      "natural_multiplicity": 82,
+      "extension_count": 82,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 5,
+      "minimal_forbidden_singleton_sets": [
+        [
+          0
+        ],
+        [
+          3
+        ],
+        [
+          6
+        ]
+      ],
+      "cyclic_singleton_patterns": 224
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        168,
+        252,
+        184,
+        128,
+        32,
+        0,
+        128,
+        0
+      ],
+      "representative_masks": [
+        168,
+        252,
+        184,
+        128,
+        32,
+        0,
+        128,
+        0
+      ],
+      "natural_multiplicity": 107,
+      "extension_count": 107,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [
+        [
+          0
+        ]
+      ],
+      "cyclic_singleton_patterns": 128
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        168,
+        252,
+        184,
+        128,
+        160,
+        0,
+        128,
+        0
+      ],
+      "representative_masks": [
+        168,
+        252,
+        184,
+        128,
+        160,
+        0,
+        128,
+        0
+      ],
+      "natural_multiplicity": 96,
+      "extension_count": 96,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [
+        [
+          0
+        ],
+        [
+          6
+        ]
+      ],
+      "cyclic_singleton_patterns": 192
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        168,
+        252,
+        232,
+        0,
+        160,
+        128,
+        128,
+        0
+      ],
+      "representative_masks": [
+        168,
+        252,
+        232,
+        0,
+        160,
+        128,
+        128,
+        0
+      ],
+      "natural_multiplicity": 98,
+      "extension_count": 98,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [
+        [
+          0
+        ],
+        [
+          3
+        ]
+      ],
+      "cyclic_singleton_patterns": 192
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        178,
+        16,
+        248,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "representative_masks": [
+        178,
+        16,
+        248,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "natural_multiplicity": 132,
+      "extension_count": 132,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [],
+      "cyclic_singleton_patterns": 0
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        178,
+        144,
+        248,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "representative_masks": [
+        178,
+        144,
+        248,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "natural_multiplicity": 121,
+      "extension_count": 121,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [],
+      "cyclic_singleton_patterns": 0
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        178,
+        144,
+        248,
+        176,
+        128,
+        0,
+        128,
+        0
+      ],
+      "representative_masks": [
+        178,
+        144,
+        248,
+        176,
+        128,
+        0,
+        128,
+        0
+      ],
+      "natural_multiplicity": 107,
+      "extension_count": 107,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [
+        [
+          5
+        ]
+      ],
+      "cyclic_singleton_patterns": 128
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        180,
+        252,
+        16,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "representative_masks": [
+        180,
+        252,
+        16,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "natural_multiplicity": 121,
+      "extension_count": 121,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [],
+      "cyclic_singleton_patterns": 0
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        180,
+        252,
+        144,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "representative_masks": [
+        180,
+        252,
+        144,
+        176,
+        0,
+        128,
+        128,
+        0
+      ],
+      "natural_multiplicity": 110,
+      "extension_count": 110,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [
+        [
+          6
+        ]
+      ],
+      "cyclic_singleton_patterns": 128
+    },
+    {
+      "n": 8,
+      "canonical_natural_masks": [
+        180,
+        252,
+        144,
+        176,
+        128,
+        0,
+        128,
+        0
+      ],
+      "representative_masks": [
+        180,
+        252,
+        144,
+        176,
+        128,
+        0,
+        128,
+        0
+      ],
+      "natural_multiplicity": 96,
+      "extension_count": 96,
+      "automorphism_order": 1,
+      "width": 3,
+      "height": 4,
+      "minimal_forbidden_singleton_sets": [
+        [
+          5
+        ],
+        [
+          6
+        ]
+      ],
+      "cyclic_singleton_patterns": 192
+    }
+  ]
+}

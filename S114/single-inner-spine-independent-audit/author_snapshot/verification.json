@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "exact_labelled_vectors": 1024,
+  "weight_scope": "u,a,b,t each in {1,2,3,4}; c=d=1; v in {t+1,t+2,t+3,t+4}",
+  "independent_labelled_ideal_counts": 3072,
+  "actual_vertex_forced_edge_checks": 2048,
+  "smallest_normalized_inequality_margin": "35/1399",
+  "margin_vector": [
+    4,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2
+  ],
+  "v1_structural_cycle_vectors": 81,
+  "exact_rational_integral_checks": 384,
+  "boundary_zero_identities": 32,
+  "out_of_scope_integral_countercheck": {
+    "alpha": "0",
+    "delta": "0",
+    "t": 2,
+    "v": 2,
+    "integral_margin": "-1/36"
+  },
+  "interpretation": "Finite implementation checks only; the unbounded theorem uses the written proof."
+}

@@ -1,0 +1,1215 @@
+finished spine (1, 1, 1, 1) vectors 2 elapsed 0.001
+finished spine (1, 1, 1, 2) vectors 4 elapsed 0.002
+finished spine (1, 1, 1, 3) vectors 8 elapsed 0.003
+finished spine (1, 1, 2, 1) vectors 13 elapsed 0.005
+finished spine (1, 1, 2, 2) vectors 21 elapsed 0.01
+finished spine (1, 1, 2, 3) vectors 34 elapsed 0.019
+finished spine (1, 1, 3, 1) vectors 46 elapsed 0.029
+finished spine (1, 1, 3, 2) vectors 65 elapsed 0.048
+finished spine (1, 1, 3, 3) vectors 88 elapsed 0.069
+finished spine (1, 2, 1, 1) vectors 93 elapsed 0.071
+finished spine (1, 2, 1, 2) vectors 103 elapsed 0.076
+finished spine (1, 2, 1, 3) vectors 116 elapsed 0.083
+finished spine (1, 2, 2, 1) vectors 131 elapsed 0.103
+finished spine (1, 2, 2, 2) vectors 150 elapsed 0.121
+finished spine (1, 2, 2, 3) vectors 176 elapsed 0.149
+finished spine (1, 2, 3, 1) vectors 205 elapsed 0.18
+finished spine (1, 2, 3, 2) vectors 243 elapsed 0.225
+finished spine (1, 2, 3, 3) vectors 294 elapsed 0.302
+finished spine (1, 3, 1, 1) vectors 306 elapsed 0.31
+finished spine (1, 3, 1, 2) vectors 325 elapsed 0.325
+finished spine (1, 3, 1, 3) vectors 354 elapsed 0.36
+finished spine (1, 3, 2, 1) vectors 383 elapsed 0.391
+finished spine (1, 3, 2, 2) vectors 425 elapsed 0.452
+finished spine (1, 3, 2, 3) vectors 476 elapsed 0.525
+finished spine (1, 3, 3, 1) vectors 531 elapsed 0.635
+finished spine (1, 3, 3, 2) vectors 597 elapsed 0.786
+finished spine (1, 3, 3, 3) vectors 679 elapsed 0.991
+finished spine (2, 1, 1, 1) vectors 681 elapsed 0.992
+finished spine (2, 1, 1, 2) vectors 686 elapsed 0.994
+finished spine (2, 1, 1, 3) vectors 693 elapsed 0.997
+finished spine (2, 1, 2, 1) vectors 703 elapsed 1.002
+finished spine (2, 1, 2, 2) vectors 716 elapsed 1.009
+finished spine (2, 1, 2, 3) vectors 734 elapsed 1.021
+finished spine (2, 1, 3, 1) vectors 753 elapsed 1.046
+finished spine (2, 1, 3, 2) vectors 779 elapsed 1.07
+finished spine (2, 1, 3, 3) vectors 815 elapsed 1.112
+finished spine (2, 2, 1, 1) vectors 823 elapsed 1.116
+finished spine (2, 2, 1, 2) vectors 836 elapsed 1.124
+finished spine (2, 2, 1, 3) vectors 857 elapsed 1.141
+finished spine (2, 2, 2, 1) vectors 876 elapsed 1.157
+finished spine (2, 2, 2, 2) vectors 905 elapsed 1.194
+finished spine (2, 2, 2, 3) vectors 941 elapsed 1.234
+finished spine (2, 2, 3, 1) vectors 983 elapsed 1.304
+finished spine (2, 2, 3, 2) vectors 1034 elapsed 1.386
+finished spine (2, 2, 3, 3) vectors 1098 elapsed 1.495
+finished spine (2, 3, 1, 1) vectors 1117 elapsed 1.512
+finished spine (2, 3, 1, 2) vectors 1143 elapsed 1.537
+finished spine (2, 3, 1, 3) vectors 1179 elapsed 1.586
+finished spine (2, 3, 2, 1) vectors 1217 elapsed 1.633
+finished spine (2, 3, 2, 2) vectors 1268 elapsed 1.717
+finished spine (2, 3, 2, 3) vectors 1336 elapsed 1.853
+finished spine (2, 3, 3, 1) vectors 1402 elapsed 2.007
+finished spine (2, 3, 3, 2) vectors 1488 elapsed 2.266
+finished spine (2, 3, 3, 3) vectors 1590 elapsed 2.583
+finished spine (3, 1, 1, 1) vectors 1594 elapsed 2.584
+finished spine (3, 1, 1, 2) vectors 1601 elapsed 2.587
+finished spine (3, 1, 1, 3) vectors 1614 elapsed 2.596
+finished spine (3, 1, 2, 1) vectors 1627 elapsed 2.606
+finished spine (3, 1, 2, 2) vectors 1648 elapsed 2.624
+finished spine (3, 1, 2, 3) vectors 1674 elapsed 2.656
+finished spine (3, 1, 3, 1) vectors 1703 elapsed 2.689
+finished spine (3, 1, 3, 2) vectors 1739 elapsed 2.738
+finished spine (3, 1, 3, 3) vectors 1785 elapsed 2.818
+finished spine (3, 2, 1, 1) vectors 1798 elapsed 2.827
+finished spine (3, 2, 1, 2) vectors 1816 elapsed 2.841
+finished spine (3, 2, 1, 3) vectors 1842 elapsed 2.865
+finished spine (3, 2, 2, 1) vectors 1868 elapsed 2.891
+finished spine (3, 2, 2, 2) vectors 1904 elapsed 2.947
+finished spine (3, 2, 2, 3) vectors 1954 elapsed 3.029
+finished spine (3, 2, 3, 1) vectors 2005 elapsed 3.12
+finished spine (3, 2, 3, 2) vectors 2073 elapsed 3.276
+finished spine (3, 2, 3, 3) vectors 2154 elapsed 3.463
+finished spine (3, 3, 1, 1) vectors 2177 elapsed 3.491
+finished spine (3, 3, 1, 2) vectors 2213 elapsed 3.545
+finished spine (3, 3, 1, 3) vectors 2259 elapsed 3.631
+finished spine (3, 3, 2, 1) vectors 2310 elapsed 3.731
+finished spine (3, 3, 2, 2) vectors 2374 elapsed 3.861
+finished spine (3, 3, 2, 3) vectors 2455 elapsed 4.063
+finished spine (3, 3, 3, 1) vectors 2537 elapsed 4.291
+finished spine (3, 3, 3, 2) vectors 2639 elapsed 4.621
+finished spine (3, 3, 3, 3) vectors 2767 elapsed 5.161
+{
+  "status": "EXACT_ARITHMETIC_PASS_CONE_AUDIT_SEPARATE",
+  "scope_max_spine": 3,
+  "arrows": [
+    "B0<B2",
+    "B0<B4",
+    "B0<B6",
+    "B1<B0",
+    "B2<B4",
+    "B4<B3",
+    "B4<B6",
+    "B6<B3",
+    "B6<B5",
+    "T1<T0",
+    "T2<T0",
+    "T4<T3",
+    "T0<T4",
+    "T2<T4",
+    "T6<T5",
+    "T0<T6",
+    "T3<T6",
+    "T4<T6"
+  ],
+  "bottom_edges": [
+    [
+      0,
+      2
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      4,
+      6
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      6,
+      5
+    ]
+  ],
+  "top_edges_in_original_order": [
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      4,
+      3
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      2,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      0,
+      6
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "old_four_arrow_indices": [
+    3,
+    14,
+    10,
+    7
+  ],
+  "middle_arrow_indices": [
+    4,
+    11
+  ],
+  "dual_arrow_indices": [
+    16,
+    17,
+    15,
+    14,
+    11,
+    13,
+    12,
+    10,
+    9,
+    8,
+    7,
+    4,
+    6,
+    5,
+    3,
+    2,
+    0,
+    1
+  ],
+  "elapsed_seconds": 5.171843,
+  "aggregate_ideal_states": 990547,
+  "endpoint_count_comparisons_against_old_formula": 11068,
+  "extension_formula_checks": 2767,
+  "full_actual_label_dp_vectors": 21,
+  "duality_vectors_checked": 2767,
+  "summaries": [
+    {
+      "spine_box": "each a,b,c,d in {1,...,1}",
+      "spine_count": 1,
+      "cone_vectors": 2,
+      "max_total_order": 12,
+      "old_four_menu_survivors": [],
+      "six_menu_survivors": [],
+      "full_18_menu_survivors": [],
+      "standalone_rejections": {
+        "B1<B0": 2,
+        "B4<B6": 2,
+        "T0<T4": 2,
+        "T6<T5": 2,
+        "B2<B4": 1,
+        "T4<T3": 1
+      },
+      "exclusive_rejections": {},
+      "cumulative_menu": [
+        {
+          "added_arrow": "B1<B0",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T6<T5",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T2<T0",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B6<B3",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B2<B4",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T4<T3",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B0<B2",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B0<B4",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B0<B6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B4<B3",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B4<B6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B6<B5",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T1<T0",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T0<T4",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T2<T4",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T0<T6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T3<T6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T4<T6",
+          "remaining": 0
+        }
+      ],
+      "minimum_arrow_covers": {
+        "universe": "all weights rejected by full 18-arrow menu",
+        "universe_size": 2,
+        "minimum_size": 1,
+        "minimum_subsets": [
+          [
+            "B1<B0"
+          ],
+          [
+            "B4<B6"
+          ],
+          [
+            "T0<T4"
+          ],
+          [
+            "T6<T5"
+          ]
+        ]
+      }
+    },
+    {
+      "spine_box": "each a,b,c,d in {1,...,2}",
+      "spine_count": 16,
+      "cone_vectors": 165,
+      "max_total_order": 32,
+      "old_four_menu_survivors": [
+        [
+          3,
+          1,
+          2,
+          2,
+          3,
+          1,
+          3
+        ]
+      ],
+      "six_menu_survivors": [],
+      "full_18_menu_survivors": [],
+      "standalone_rejections": {
+        "B1<B0": 113,
+        "B4<B6": 51,
+        "T0<T4": 51,
+        "T6<T5": 113,
+        "B6<B3": 50,
+        "B4<B3": 17,
+        "T2<T0": 50,
+        "T3<T6": 22,
+        "B0<B2": 22,
+        "T2<T4": 17,
+        "B2<B4": 78,
+        "T4<T3": 78
+      },
+      "exclusive_rejections": {
+        "B1<B0": [
+          [
+            3,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3
+          ],
+          [
+            4,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3
+          ]
+        ],
+        "T6<T5": [
+          [
+            3,
+            2,
+            2,
+            2,
+            2,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4
+          ]
+        ]
+      },
+      "cumulative_menu": [
+        {
+          "added_arrow": "B1<B0",
+          "remaining": 52
+        },
+        {
+          "added_arrow": "T6<T5",
+          "remaining": 22
+        },
+        {
+          "added_arrow": "T2<T0",
+          "remaining": 1
+        },
+        {
+          "added_arrow": "B6<B3",
+          "remaining": 1
+        },
+        {
+          "added_arrow": "B2<B4",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T4<T3",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B0<B2",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B0<B4",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B0<B6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B4<B3",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B4<B6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B6<B5",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T1<T0",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T0<T4",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T2<T4",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T0<T6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T3<T6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T4<T6",
+          "remaining": 0
+        }
+      ],
+      "minimum_arrow_covers": {
+        "universe": "all weights rejected by full 18-arrow menu",
+        "universe_size": 165,
+        "minimum_size": 4,
+        "minimum_subsets": [
+          [
+            "B0<B2",
+            "B1<B0",
+            "B6<B3",
+            "T6<T5"
+          ],
+          [
+            "B0<B2",
+            "B1<B0",
+            "T2<T0",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "B2<B4",
+            "B6<B3",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "B2<B4",
+            "T2<T0",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "B6<B3",
+            "T4<T3",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "B6<B3",
+            "T6<T5",
+            "T3<T6"
+          ],
+          [
+            "B1<B0",
+            "T2<T0",
+            "T4<T3",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "T2<T0",
+            "T6<T5",
+            "T3<T6"
+          ]
+        ]
+      }
+    },
+    {
+      "spine_box": "each a,b,c,d in {1,...,3}",
+      "spine_count": 81,
+      "cone_vectors": 2767,
+      "max_total_order": 52,
+      "old_four_menu_survivors": [
+        [
+          3,
+          1,
+          2,
+          2,
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          3,
+          1,
+          1,
+          2,
+          3,
+          3
+        ],
+        [
+          3,
+          1,
+          2,
+          2,
+          3,
+          3,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          2,
+          3,
+          1,
+          3
+        ],
+        [
+          3,
+          2,
+          2,
+          2,
+          3,
+          3,
+          4
+        ],
+        [
+          3,
+          2,
+          2,
+          3,
+          3,
+          2,
+          4
+        ],
+        [
+          3,
+          3,
+          1,
+          3,
+          3,
+          2,
+          4
+        ],
+        [
+          4,
+          2,
+          3,
+          1,
+          3,
+          3,
+          3
+        ],
+        [
+          4,
+          2,
+          3,
+          2,
+          3,
+          2,
+          3
+        ],
+        [
+          4,
+          3,
+          2,
+          2,
+          3,
+          2,
+          3
+        ],
+        [
+          4,
+          1,
+          3,
+          2,
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          2,
+          3,
+          3,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          3,
+          4,
+          1,
+          4
+        ],
+        [
+          4,
+          2,
+          3,
+          2,
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          2,
+          3,
+          3,
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          3,
+          4,
+          2,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          3,
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          3,
+          3,
+          2,
+          4,
+          3,
+          4
+        ],
+        [
+          4,
+          3,
+          2,
+          3,
+          4,
+          3,
+          5
+        ],
+        [
+          5,
+          3,
+          3,
+          2,
+          4,
+          3,
+          4
+        ],
+        [
+          5,
+          3,
+          3,
+          3,
+          5,
+          3,
+          5
+        ]
+      ],
+      "six_menu_survivors": [],
+      "full_18_menu_survivors": [],
+      "standalone_rejections": {
+        "B1<B0": 1844,
+        "B4<B6": 516,
+        "T0<T4": 516,
+        "T6<T5": 1844,
+        "B6<B3": 905,
+        "B4<B3": 235,
+        "T2<T0": 905,
+        "T3<T6": 320,
+        "B0<B2": 320,
+        "T2<T4": 235,
+        "B2<B4": 1324,
+        "T4<T3": 1324,
+        "T4<T6": 11,
+        "B0<B4": 11
+      },
+      "exclusive_rejections": {
+        "B1<B0": [
+          [
+            3,
+            1,
+            2,
+            2,
+            2,
+            2,
+            3
+          ],
+          [
+            4,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3
+          ],
+          [
+            4,
+            1,
+            2,
+            3,
+            2,
+            3,
+            4
+          ],
+          [
+            4,
+            1,
+            3,
+            3,
+            3,
+            2,
+            4
+          ],
+          [
+            4,
+            3,
+            2,
+            3,
+            3,
+            2,
+            4
+          ],
+          [
+            5,
+            1,
+            3,
+            2,
+            3,
+            3,
+            4
+          ],
+          [
+            5,
+            1,
+            3,
+            3,
+            3,
+            2,
+            4
+          ],
+          [
+            5,
+            1,
+            2,
+            3,
+            3,
+            3,
+            5
+          ],
+          [
+            5,
+            1,
+            3,
+            3,
+            3,
+            3,
+            4
+          ],
+          [
+            5,
+            2,
+            3,
+            2,
+            3,
+            3,
+            4
+          ],
+          [
+            5,
+            2,
+            3,
+            3,
+            3,
+            2,
+            4
+          ],
+          [
+            5,
+            3,
+            2,
+            3,
+            2,
+            3,
+            4
+          ],
+          [
+            5,
+            2,
+            2,
+            3,
+            3,
+            3,
+            5
+          ],
+          [
+            5,
+            2,
+            3,
+            3,
+            3,
+            3,
+            4
+          ],
+          [
+            5,
+            3,
+            3,
+            3,
+            3,
+            2,
+            4
+          ],
+          [
+            6,
+            3,
+            3,
+            2,
+            3,
+            3,
+            4
+          ],
+          [
+            6,
+            3,
+            3,
+            3,
+            3,
+            2,
+            4
+          ],
+          [
+            6,
+            3,
+            2,
+            3,
+            3,
+            3,
+            5
+          ],
+          [
+            6,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4
+          ]
+        ],
+        "T6<T5": [
+          [
+            3,
+            2,
+            2,
+            2,
+            2,
+            1,
+            3
+          ],
+          [
+            3,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4
+          ],
+          [
+            4,
+            3,
+            3,
+            2,
+            2,
+            1,
+            4
+          ],
+          [
+            4,
+            2,
+            3,
+            3,
+            3,
+            1,
+            4
+          ],
+          [
+            4,
+            2,
+            3,
+            2,
+            3,
+            3,
+            4
+          ],
+          [
+            4,
+            2,
+            3,
+            3,
+            3,
+            1,
+            5
+          ],
+          [
+            4,
+            3,
+            2,
+            3,
+            3,
+            1,
+            5
+          ],
+          [
+            4,
+            2,
+            3,
+            3,
+            3,
+            2,
+            5
+          ],
+          [
+            4,
+            3,
+            2,
+            3,
+            3,
+            2,
+            5
+          ],
+          [
+            4,
+            3,
+            3,
+            2,
+            2,
+            3,
+            5
+          ],
+          [
+            4,
+            3,
+            3,
+            3,
+            3,
+            1,
+            5
+          ],
+          [
+            5,
+            3,
+            3,
+            2,
+            3,
+            1,
+            5
+          ],
+          [
+            4,
+            2,
+            3,
+            3,
+            3,
+            3,
+            5
+          ],
+          [
+            4,
+            3,
+            3,
+            3,
+            3,
+            2,
+            5
+          ],
+          [
+            5,
+            3,
+            3,
+            2,
+            3,
+            2,
+            5
+          ],
+          [
+            4,
+            2,
+            3,
+            3,
+            3,
+            3,
+            6
+          ],
+          [
+            4,
+            3,
+            2,
+            3,
+            3,
+            3,
+            6
+          ],
+          [
+            4,
+            3,
+            3,
+            3,
+            3,
+            3,
+            6
+          ],
+          [
+            5,
+            3,
+            3,
+            2,
+            3,
+            3,
+            6
+          ]
+        ],
+        "T4<T3": [
+          [
+            3,
+            2,
+            2,
+            3,
+            3,
+            2,
+            4
+          ]
+        ],
+        "B2<B4": [
+          [
+            4,
+            2,
+            3,
+            2,
+            3,
+            2,
+            3
+          ]
+        ]
+      },
+      "cumulative_menu": [
+        {
+          "added_arrow": "B1<B0",
+          "remaining": 923
+        },
+        {
+          "added_arrow": "T6<T5",
+          "remaining": 425
+        },
+        {
+          "added_arrow": "T2<T0",
+          "remaining": 27
+        },
+        {
+          "added_arrow": "B6<B3",
+          "remaining": 21
+        },
+        {
+          "added_arrow": "B2<B4",
+          "remaining": 1
+        },
+        {
+          "added_arrow": "T4<T3",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B0<B2",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B0<B4",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B0<B6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B4<B3",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B4<B6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "B6<B5",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T1<T0",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T0<T4",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T2<T4",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T0<T6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T3<T6",
+          "remaining": 0
+        },
+        {
+          "added_arrow": "T4<T6",
+          "remaining": 0
+        }
+      ],
+      "minimum_arrow_covers": {
+        "universe": "all weights rejected by full 18-arrow menu",
+        "universe_size": 2767,
+        "minimum_size": 5,
+        "minimum_subsets": [
+          [
+            "B1<B0",
+            "B2<B4",
+            "B6<B3",
+            "T4<T3",
+            "T6<T5"
+          ],
+          [
+            "B1<B0",
+            "B2<B4",
+            "T2<T0",
+            "T4<T3",
+            "T6<T5"
+          ]
+        ]
+      }
+    }
+  ],
+  "interpretation": "Menu survival never establishes a counterexample. All exact balanced-pair witnesses are reported independently. Cone completeness requires the separately frozen independent audit PASS."
+}

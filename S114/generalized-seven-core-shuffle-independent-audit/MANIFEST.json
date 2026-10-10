@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "author_source_directory": "/workspace/shared/generalized-seven-core-shuffle",
+  "author_sources": {
+    "GENERALIZED_SHUFFLE_BOUND.md": "e522a13a63f73a58c1af862e603c3b90c46084a1f83b3b79da7e6bd3d6b0a8d3",
+    "verify_generalized_shuffle.py": "0a69a8efaac4a95d645c65705f7b25ba2c721d4eadcf7eee941fbe27e041369a",
+    "verification.json": "9f89f96bd7b5ac9ad938860200894b0d2f8789aac7185aaf8ab8813a368cde4d"
+  },
+  "independent_files": {
+    "AUDIT.md": "70e2094bc3adf01ff77f45b4e57dfa5d654ebdb7eb9c506c64f2e4fce6996a58",
+    "audit.py": "8fbf1322fa232735cb81989b910c9d75fa9f95436aff2dafbc13d72101aeba38",
+    "results.json": "e5757a683152006b9c311f090c71abbf54d95ba99a58a424236f4380ad7b31de",
+    "run.log": "b9e8952560655ea72c62746d0e4537c7fde0fc0f834319a5724057987fbe4bc0",
+    "run_optimized.log": "b7c273c3d6d07fc0e2a03bf898d4a198497c3a54fc885de6d0080b52160d80c4",
+    "author_replay.log": "3f6cbcf2a75a620530b3a0a2339b6d5ceb832beba5024350c82efd608db435ca",
+    "author_replay_optimized.log": "3f6cbcf2a75a620530b3a0a2339b6d5ceb832beba5024350c82efd608db435ca"
+  }
+}

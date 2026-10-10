@@ -1,0 +1,529 @@
+{
+  "status": "PASS",
+  "scope": "Exactly 17 input cores, all 256 positive weight vectors in {1,2}^8 for each core; actual inflation order 8 through 16",
+  "method": "Independent labelled-vertex predecessor-mask ideal DP; exact integer pair counts; no uniform quotient/outside law used",
+  "counts": {
+    "inflations": 4352,
+    "general_bottom_insertion_bounds": 58880,
+    "general_top_insertion_bounds": 58880,
+    "actual_good_pair_lifts": 19456,
+    "linear_rejections": 863,
+    "port_rejections": 2016,
+    "balanced_witnesses": 4352,
+    "ideal_states": 258032
+  },
+  "by_class": [
+    {
+      "class_id": "C02",
+      "inflations": 256,
+      "linear_pass": 240,
+      "port_and_linear_pass": 124,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "numerator": 92,
+        "denominator": 194
+      }
+    },
+    {
+      "class_id": "C03",
+      "inflations": 256,
+      "linear_pass": 248,
+      "port_and_linear_pass": 64,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 51,
+        "denominator": 102
+      }
+    },
+    {
+      "class_id": "C04",
+      "inflations": 256,
+      "linear_pass": 240,
+      "port_and_linear_pass": 124,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 98,
+        "denominator": 194
+      }
+    },
+    {
+      "class_id": "C05",
+      "inflations": 256,
+      "linear_pass": 248,
+      "port_and_linear_pass": 64,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            2,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "numerator": 54,
+        "denominator": 102
+      }
+    },
+    {
+      "class_id": "C06",
+      "inflations": 256,
+      "linear_pass": 187,
+      "port_and_linear_pass": 91,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 58,
+        "denominator": 107
+      }
+    },
+    {
+      "class_id": "C07",
+      "inflations": 256,
+      "linear_pass": 241,
+      "port_and_linear_pass": 32,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 42,
+        "denominator": 82
+      }
+    },
+    {
+      "class_id": "C08",
+      "inflations": 256,
+      "linear_pass": 225,
+      "port_and_linear_pass": 225,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 71,
+        "denominator": 107
+      }
+    },
+    {
+      "class_id": "C09",
+      "inflations": 256,
+      "linear_pass": 148,
+      "port_and_linear_pass": 148,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 51,
+        "denominator": 132
+      }
+    },
+    {
+      "class_id": "C10",
+      "inflations": 256,
+      "linear_pass": 187,
+      "port_and_linear_pass": 91,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 44,
+        "denominator": 107
+      }
+    },
+    {
+      "class_id": "C11",
+      "inflations": 256,
+      "linear_pass": 241,
+      "port_and_linear_pass": 241,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            0
+          ]
+        ],
+        "numerator": 212,
+        "denominator": 318
+      }
+    },
+    {
+      "class_id": "C12",
+      "inflations": 256,
+      "linear_pass": 187,
+      "port_and_linear_pass": 56,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 51,
+        "denominator": 96
+      }
+    },
+    {
+      "class_id": "C13",
+      "inflations": 256,
+      "linear_pass": 225,
+      "port_and_linear_pass": 57,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 54,
+        "denominator": 98
+      }
+    },
+    {
+      "class_id": "C14",
+      "inflations": 256,
+      "linear_pass": 148,
+      "port_and_linear_pass": 148,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            2,
+            0
+          ]
+        ],
+        "numerator": 48,
+        "denominator": 121
+      }
+    },
+    {
+      "class_id": "C15",
+      "inflations": 256,
+      "linear_pass": 148,
+      "port_and_linear_pass": 148,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            2,
+            0
+          ],
+          [
+            5,
+            0
+          ]
+        ],
+        "numerator": 79,
+        "denominator": 121
+      }
+    },
+    {
+      "class_id": "C16",
+      "inflations": 256,
+      "linear_pass": 187,
+      "port_and_linear_pass": 56,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "numerator": 33,
+        "denominator": 96
+      }
+    },
+    {
+      "class_id": "C17",
+      "inflations": 256,
+      "linear_pass": 148,
+      "port_and_linear_pass": 98,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            0
+          ]
+        ],
+        "numerator": 37,
+        "denominator": 110
+      }
+    },
+    {
+      "class_id": "C18",
+      "inflations": 256,
+      "linear_pass": 241,
+      "port_and_linear_pass": 64,
+      "smallest_balanced_example": {
+        "weights": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "pair": [
+          [
+            0,
+            0
+          ],
+          [
+            4,
+            0
+          ]
+        ],
+        "numerator": 245,
+        "denominator": 465
+      }
+    }
+  ],
+  "elapsed_seconds": 1.47,
+  "limitations": "Finite implementation checks are not all-weight proofs. Passing linear and port filters does not imply a counterexample."
+}

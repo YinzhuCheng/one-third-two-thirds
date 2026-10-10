@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "counts": {
+    "outside_extension_fibers": 24240,
+    "inside_window": 21162,
+    "after_window": 12915,
+    "exact_mixture_comparisons": 690,
+    "inflations": 408
+  },
+  "examples": {
+    "inside_window": {
+      "class_id": "C02",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target": 0,
+      "witness": 1,
+      "outside_extension": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "left_boundary": -1,
+      "right_boundary": 1,
+      "window_size": 1,
+      "conditional_numerator": 1,
+      "conditional_denominator": 2
+    },
+    "after_window": {
+      "class_id": "C02",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target": 0,
+      "witness": 3,
+      "outside_extension": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "left_boundary": -1,
+      "right_boundary": 1,
+      "window_size": 1,
+      "conditional_numerator": 2,
+      "conditional_denominator": 2
+    },
+    "nonuniform_outside_law": {
+      "class_id": "C02",
+      "weights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "target": 0,
+      "witness": 1,
+      "outside_extension_count": 48,
+      "insertion_multiplicities": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "incorrect_uniform_outside_probability": [
+        205,
+        576
+      ],
+      "actual_reweighted_probability": [
+        63,
+        194
+      ]
+    }
+  }
+}
