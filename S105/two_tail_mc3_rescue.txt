@@ -1,0 +1,84 @@
+SUBSEQUENT STATUS NOTE
+The general fixed MC3 menu is REFUTED by the distinct 54-point example in REPORT.md. The theorem below concerns only its explicit two-tail family, remains valid within that scope, and has passed the attached independent audit. Earlier OPEN language is historical.
+
+S105 — A complete five-pair theorem for the generalized two-tail family
+Date: 2026-10-10. Status: self-contained proof, submitted for independent audit.
+Scope: the explicit family P(m,r,s) below, not arbitrary two-step MC3.
+All probabilities use the original uniform law on complete linear extensions.
+
+THEOREM
+Let m>=1, r>=1, and 1<=s<=r. Define P(m,r,s) by the generating relations
+  a<b<c_1<...<c_m,
+  y<z_1<...<z_r,
+  a<z_1, x<z_s, x<c_1,
+with no other relations except transitive closure. If
+  Pr(a<x)>2/3 and Pr(a<y)>2/3,
+then at least one of (b,x) and (b,y) has probability in [1/3,2/3].
+No assumption on Pr(x<y) is needed for this family. In particular, every member of this family satisfies the requested five-pair MC3 conclusion under its dual-majority premise.
+As before, three chains including singleton x certify width<=3; a,x,y are the three minima; and P\(up(x) union up(y))={a<b}.
+The previously found n=20 HALF and n=73 L counterexamples both belong to s=2. Their rescue by the other b-comparison is therefore a theorem of the entire generalized family, not merely finite-search evidence.
+
+1. EXACT ORIGINAL-LAW COUNTING FORMULAS
+Put M=m+2, R=r+1, N=M+R. Define
+  U_j=binom(N-1-j,M-1),   0<=j<=s+1,
+  V_j=binom(N-2-j,M-2)=U_j-U_(j+1),   0<=j<=s.
+All U_j are strictly positive. In a complete extension let i count a-chain elements before x and let j count y-chain elements before x. Then 0<=i<=2 and 0<=j<=s; i=0 is possible only when j<=1.
+For i>=1 the suffix count is U_j if i=1 and V_j if i=2, because all cross-chain constraints have then been satisfied. For j>=1, the prefix counts for i=1 and i=2 are respectively 2 and 2j+1; the numbers of those prefixes having a<y are 1 and j+1, and those having b<y are 0 and 1. For j=0 each prefix count is 1. The two exceptional cells are
+  (i,j)=(0,0): total U0+U1, a<y count U0, b<y count V0;
+  (i,j)=(0,1): total U1, both y-comparison counts zero.
+In the cell (1,0), b<y has V0 suffixes. These assertions follow by choosing whether a or y is first and interleaving the remaining two chains. The full derivation for s=2 appears in S104/mc3_half_proof.txt §2; the identical argument applies here for every permitted j.
+
+Write
+  C=U0+2U1,
+  I=U0+2 sum_(j=1)^s U_j,
+  u=U_(s+1),
+  T=(2s+1)u.
+The extension count and five pair counts, all with the same denominator E, are
+  E     = C+2I-T,
+  K_ax  = 2I-T,
+  K_bx  = I-T,
+  K_ay  = 2U0+I-(s+1)u,
+  K_by  = 3U0-2U1-u,
+  K_xy  = 3U0.
+For example,
+  K_bx=V0+sum_(j=1)^s(2j+1)V_j
+       =U0+2 sum_(j=1)^s U_j-(2s+1)U_(s+1),
+which is the stated telescoping formula. The a<y formula follows from
+  K_ay=3U0-U1+sum_(j=1)^s[U_j+(j+1)V_j],
+and K_by=3V0+sum_(j=1)^s V_j. Thus every identity is a sum of counts of actual complete extensions, not a change of probability law.
+
+2. TWO EXACT COUPLINGS
+The formulas imply
+  2K_bx-K_ax=-T<0,                                   (1)
+  K_by=2K_ay-E.                                      (2)
+Since K_ax<E, equation (1) gives Pr(b<x)<1/2 for every member of this family. If Pr(b<x)>=1/3, the pair (b,x) is already balanced.
+It remains to consider Pr(b<x)<1/3. The second majority hypothesis and (2) then give, without using this case assumption,
+  Pr(b<y)=2Pr(a<y)-1>1/3.                            (3)
+The only remaining issue is the upper bound Pr(b<y)<2/3. It uses the first majority hypothesis together with the case Pr(b<x)<1/3.
+
+3. THE UPPER RESCUE BOUND
+Let S=sum_(j=2)^s U_j, with S=0 if s=1. Then I=C+2S, and the exact count differences are
+  3K_ax-2E=4S-T,
+  3K_bx-E=2(S-T).
+The first majority premise and the case under consideration imply
+  T/4<S<T.                                          (4)
+In particular s>=2, because T>0 whereas s=1 would give S=0.
+The binomial sequence is decreasing, and its successive inverse ratios are nondecreasing:
+  U_j/U_(j+1)=(N-1-j)/(R-j).
+Indeed this equals 1+(M-1)/(R-j), which increases with j. Therefore
+  S >= (s-1)U_s >= (s-1)(U0/U1)u.
+Combined with S<T=(2s+1)u this gives
+  U0/U1 < (2s+1)/(s-1) <= 5,                         (5)
+where the last inequality uses s>=2.
+Finally direct substitution gives
+  2E-3K_by=-3U0+18U1+8S+(1-4s)u.
+By (5), its first two terms exceed 3U1. By the lower bound in (4),
+  8S>2T=(4s+2)u,
+so its remaining terms exceed 3u. Hence
+  2E-3K_by >3U1+3u>0.
+Together with (3), this proves 1/3<Pr(b<y)<2/3 whenever Pr(b<x)<1/3. The other case was settled by (1). This completes the theorem.
+
+4. SCOPE AND LESSON
+The proof covers all m,r,s in the stated range, including unbounded chain lengths; it is not an extrapolation from the finite parameter grid. Equality at Pr(b<x)=1/3 is handled by the closed balanced interval. The dual-majority premise automatically excludes s=1.
+The exact identity (2), the binomial ratio bound, and the upper rescue estimate are proved for this family only. Nothing here establishes those formulas for an arbitrary width-three poset.
+The two-step MC3 problem in general remains OPEN. What fails globally is the attempted one-sided shortcut L; what succeeds here is a coupled proof that the opposite comparison becomes balanced when the favored comparison falls below 1/3.

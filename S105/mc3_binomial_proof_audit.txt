@@ -1,0 +1,16 @@
+S105 — Independent reading of the self-contained n72 binomial proof
+2026-10-10. Verdict: PASS, after one scope clarification. Not a novelty claim or a counterexample to MAIN33/WIDTH3.
+
+Reviewed mc3_coupled_proof.txt in full. Final source SHA256:
+a2d9d85f097586472b1c58c854f0d5ef60e3e2f5b015ad63320a2cb46a369904
+
+1. The three chains and three cross relations imply exactly the required avoidance set {a,b}, width three and minimal x,y. In particular x<c50<z8, so the example DOES possess an x<z_s relation. The old final scope sentence was corrected: extra leaf u and the extra gate, rather than absence of such a relation, exclude this example from the exact special two-tail family.
+2. Deleting u is used only to partition complete extensions. Because u has only predecessor x and no successor, every core extension in cell (i,j) has exactly N-i-j+1 completions. This completion factor is not discarded or replaced by a uniform deletion law.
+3. The suffix binomial sum classifies the number k of second-chain elements before the designated c_h. The prefix contributes H-1 first-chain and k second-chain elements; after c_h the remainder freely interleaves. The gate requires k<T. All bounds and binomial parameters are nonnegative in the stated cells. The already-passed gate case H=0 is correctly separate.
+4. Since x<c1 and x<c_h<z_t, i<=2 and j<=t. The exception i=0,j>=2 is forbidden by a<z1. For i=1 and i=2, the legal prefix counts are respectively 2 and 2j+1 for j>=1, with a<y counts 1 and j+1 and b<y counts 0 and 1. The exceptional i=0 cells and the b<y refinement of (1,0) are correctly derived. Hence all five marginal sums share the exact original denominator.
+5. The a/y swap is a genuine involution between y<a and a<y<b. In the inverse, a cannot have an intervening successor: all its strict successors are above b or strict y-successors. Thus K_by=2K_ay-E is valid for the stated family but supplies no upper rescue when a<y>5/6.
+6. The c1<y event has j=0 and exactly three possible i. Its suffix count is S(3,0) in all three cases, and leaf insertion weights sum to 3N. Both strict balance margins are positive, so the proof explicitly retains a balanced pair outside the rejected menu.
+
+The independent binomial implementation was rerun, reproducing all six exact counts and both balanced-pair margins. Separately, a separate implementation used general predecessor-mask event-added DP in check_full_mc3_root.py and reproduced the same five counts and K_c1y without the binomial implementation. The dedicated full-pair auditor supplies a third independent method and structural checks. The self-contained proof does not invoke CP, XYZ or the square theorem.
+
+Conclusion: this exact fixed-menu MC3 statement is REFUTED. Auxiliary square and reduction lemmas are not refuted. The special two-tail theorem retains its exact hypotheses. MAIN33/WIDTH3 remain unresolved by this work.

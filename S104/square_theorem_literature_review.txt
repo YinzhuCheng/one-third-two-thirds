@@ -1,0 +1,84 @@
+S104 — Targeted primary-literature positioning of the shared-downset square inequality
+Checked 2026-10-10. Read-only research; no author contact, no external submission.
+
+BOTTOM LINE
+I did not verify an existing theorem that directly states or immediately yields the full S103 shared-downset/neutral-chain square inequality. This is a bounded negative search result, NOT evidence of originality. The known inputs and methods must be credited. In particular, Chan–Pak's hyperbolic first-two-step matrix is an explicit external input; weighted Stanley results for a chain of incomparable elements are a close unresolved comparison; birth–death intertwining is established methodology. The 2025 path-complex paper is relevant and now checked in primary text, but its latest checked theorem has a crucial restriction which its abstract does not advertise.
+
+TARGET AND MATERIALS
+Target: finite Q, u || y, identical strict downset D, and N=Q\(D union upward(u) union upward(y)) a chain. Under uniform COMPLETE linear extensions, p=Pr(u<y), U=Pr(some strict successor of u precedes y). Claim U<=p^2, equivalently H^2>=Ru Ry in the checked release-count decomposition E=2H+Ru+Ry, p=(H+Ru)/E, U=Ru/E. Conditioning transfers this to d U_P<=p_P^2 when y is minimal, u||y, and width(P)<=3. The unrestricted neutral-nonchain case is not closed by this report or S103.
+
+Local inputs read: S103/backend_second_order_bl_proof.txt; S103/backend_second_order_bl_audit.txt; published-S102/S102/shared_prefix_determinant_attempt.txt. The audit records PASS for the finite-dimensional scalar closure, conditional on its cited poset inputs. This review is historical positioning, not a replacement audit.
+
+1. CHAN–PAK, CORRELATION INEQUALITIES FOR LINEAR EXTENSIONS
+Primary version: https://arxiv.org/html/2211.16637v2
+Published: Advances in Mathematics 458 (2024), 109954.
+Exact references: Theorem 1.9, Proposition 6.1, equations (6.1)–(6.4), §6.5.
+For disjoint nonempty A,B contained in min(P), Theorem 1.9 gives
+ Pr(first in A, second in B)^2 >= Pr(first in A, second in upward(A)) Pr(first in B, second in upward(B)).
+Proposition 6.1 supplies the hyperbolicity of the rank-conditioned matrix defined immediately before it; it cites CP's Log-concave poset inequalities, Proposition 14.9. The diagonals are release-event counts, not repeated deletions. Theorem 1.6 concerns avoidance of a subset in the first one or two positions.
+Comparison: these are close local antecedents, and the matrix result is already USED by S103. They do not themselves identify events at arbitrary random entry times after D and neutral prefixes with first/second positions. The required preservation under the S102 weighted aggregation is the additional bridge; it cannot simply be attributed to Theorem 1.9.
+
+2. WEIGHTED STANLEY AND BELTS: AN IMPORTANT FURTHER COMPARISON
+Primary: https://www.math.ucla.edu/~pak/papers/Atlas9.pdf (February 27, 2024 text).
+Chan–Pak, Log-concave poset inequalities, Journal of the Association for Mathematical Research 2 (2024), 53–153; arXiv:2110.10740.
+Theorem 1.35: for positive order-reversing element weights w, weighted rank counts of a designated z are log-concave; an extension has weight product_{L(x)<L(z)}w(x).
+§14.8: a belt at z means inc(z) is empty or a chain. Theorem 14.11 permits positive ideal weights w satisfying
+ w(S+x+y) w(S) <= w(S+x)^2
+whenever x<y are in inc(z), and S,S+x,S+x+y are ideals. Weight an extension by w({x:L(x)<L(z)}); its z-rank counts are log-concave. Theorem 14.10 is a tropical specialization.
+Comparison: the neutral-chain geometry is suggestive, but a neutral chain is not automatically a belt at u or y: their incomparable sets can also contain the other point and its private successors. A contraction/marker construction must preserve the three target counts AND verify the weight condition. No such identification was verified here. Standard rank log-concavity already legitimately proves S102's prefix a_j log-concavity.
+
+3. COMBINATORIAL ATLAS: WHAT THE GENERAL MACHINE REQUIRES
+Primary: https://arxiv.org/pdf/2203.01533
+Chan–Pak, Introduction to the combinatorial atlas, Expositiones Mathematicae 40 (2022), 1014–1048.
+Theorem 3.4: inheritance (Inh), pullback (Pull), and a regular nonsink vertex, together with hyperbolic outgoing vertices, imply hyperbolicity at that vertex. Regularity includes irreducibility on support and positivity of h and Mh there. Lemma 3.5 equates hyperbolicity, a suitable nonpositive orthogonal complement, and at most one positive eigenvalue. Theorem 5.2 treats Hessians of Lorentzian polynomials.
+Comparison: S103's sign-reversed inertia argument is part of this standard linear-algebra circle. A direct atlas proof of the aggregate W would require an explicit atlas and verification of its inheritance/pullback data; merely naming the technology is not such a proof. No matching aggregate atlas was constructed in this review.
+
+4. PATH COMPLEXES: PRIMARY-TEXT CHECK CHANGES THE ABSTRACT-LEVEL STORY
+Primary: https://arxiv.org/html/2503.01005v3 (December 8, 2025).
+Leake, Lindberg, Oveis Gharan, Optimal Trickle-Down Theorems for Path Complexes via C-Lorentzian Polynomials with Applications to Sampling and Log-Concave Sequences.
+Theorem 1.4: connected d-partite top-link path complexes with 1/2 top-link spectral expansion have 1/2 local spectral expansion.
+Definition 1.18: A is P-consistent if a,c in A, b outside A, b covered by c imply a is comparable to b or c. Theorem 1.20 gives log-concavity of Pr(ell_min(A)=k) for P-consistent A (printed range 2<=k<d for |P|=d+1). Lemma 1.17 REFUTES the arbitrary-subset version using b<c<d and isolated a, A={a,d}, k=2.
+Comparison: {u,y} with equal strict downsets is P-consistent: every predecessor of either belongs below the other. Thus this supplies a verified adjacent result about their first appearance rank. That distribution does not specify the orientation/release counts H,Ru,Ry. No direct reduction to the square target is established. The term “path” here is a conditional-independence complex structure, not an automatic identification with S103's one-dimensional Jacobi matrix.
+
+5. SHEPP XYZ AND MULTIPLE RELATIONS
+Original Shepp citation: The XYZ Conjecture and the FKG Inequality, Annals of Probability 10 (1982), 824–827, DOI 10.1214/aop/1176993791. The publisher page did not expose usable text in this run.
+Primary reproof checked: Brightwell–Trotter, A combinatorial approach to correlation inequalities, Discrete Mathematics 257 (2002), 311–327:
+ https://trotter.math.gatech.edu/papers/117.pdf
+Theorem 2.1: for distinct x,y,z, Pr(x>y)Pr(x>z)<=Pr(x>y,x>z). Theorem 5.1: if P is the parallel sum of induced posets on Y and Z, arbitrary Q1,Q2 subsets of Y×Z obey e(P[Q1])e(P[Q2])<=e(P[Q1 union Q2])e(P), where bracketed relations are imposed. Theorem 2.2 is the strict XYZ version for an antichain triple.
+Comparison: substituting u,y and a successor of u into XYZ is degenerate because u<successor is already certain. The square target concerns a UNION over release successors and a different event bound. Shared predecessors/private successors also do not guarantee the parallel-sum hypothesis of Theorem 5.1. No legitimate event encoding giving the target was found.
+
+6. MULTIVARIATE CORRELATIONS FOR P-PARTITIONS
+Primary: https://arxiv.org/pdf/2212.11954 (served v1, December 2022).
+Chan–Pak, Multivariate correlation inequalities for P-partitions, Pacific Journal of Mathematics 323 (2023), 223–252.
+Theorem 3.4: put f(S)=e(P|S)/|S|!. For lower ideals A,B and upper ideals C,D with A∩C=B∩D=empty, set V=(A∩B) union (C union D), W=(A union B) union (C∩D). Then
+ f(X\V)f(X\W)>=f(X\(A union C))f(X\(B union D)).
+Theorem 4.9 is a coefficientwise multivariate order-polynomial extension using the same ideals and V,W.
+Comparison: the objects are induced subposet volumes/order-polynomial counts with factorial normalization. H,Ru,Ry are complete-extension event counts, including sums over release times. No four-ideal encoding preserving those counts and normalizations was verified. The broad word “multivariate” is not a substitute for this missing mapping.
+
+7. DISTRIBUTIVE-LATTICE LOG-CONCAVITY PAPER: AUTHOR CORRECTION
+Primary: https://arxiv.org/html/2408.02782v2
+Jinting Liang and Bruce E. Sagan, Log-concavity and log-convexity via distributive lattices. There is a 2025 FPSAC extended abstract, https://www.mat.univie.ac.at/~slc/wpapers/FPSAC2025/88.pdf . This is NOT a Chan–Pak-authored paper. Publisher version is Order 43, 21 (2026), DOI 10.1007/s11083-026-09735-2.
+Lemma 1.1 (Order Ideal Lemma): in a finite distributive lattice L, ideals I,J oriented the same way satisfy |I||J|<=|I∩J||L|; opposite orientations reverse that inequality.
+Comparison: using this for complete extensions requires a lattice realization with the correct uniform measure and correctly oriented ideals. The lattice of ideals of P has extensions as maximal chains, not as uniformly sampled lattice elements; replacing one measure by the other is invalid. No suitable realization of the square events was found.
+
+8. BIRTH–DEATH INTERTWINING: TECHNIQUE PRECEDENT, NOT A NEW POSITIVE RESULT FOR Q
+Primary author copy: https://perso.math.univ-toulouse.fr/joulin/files/2013/12/cj_final.pdf
+Chafaï–Joulin, Intertwining and commutation relations for birth-death processes; arXiv:1011.2331, Bernoulli (2013).
+Theorem 2.1 establishes weighted-gradient/Feynman–Kac intertwining under irreducibility, nonexplosion and a lower-bounded potential; its proof equation (2.4) is the generator intertwining. For unweighted gradients the potential is nu_{j+1}-nu_j+lambda_j-lambda_{j+1}.
+Comparison: in S103 take births lambda_j=rho_j and deaths nu_0=0, nu_j=1 otherwise. This potential becomes rho_j-rho_{j+1}+1_{j=0}, exactly the diagonal term in S103's edge-form decomposition, with the positive/negative generator sign convention adjusted. The original paper works on N; S103 handles finite endpoints directly. This is a clear methodological precedent. I have NOT verified that a numbered theorem there states S103's exact reciprocal-curvature BL inequality, much less its constrained second-order poset conclusion.
+
+9. RECENT EQUALITY PAPER (ADDITIONAL CHECK)
+Primary: https://arxiv.org/html/2607.06275v1
+Chan–Pak, Equality conditions for correlation inequalities (2026).
+Theorem 4.5 characterizes equality in the generalized Fishburn inequality for disjoint lower ideals A,B and upper ideals C,D by four comparability-graph nonconnection conditions. §14.4 discusses atlas-based linear-extension correlation inequalities and says their equality conditions remain open.
+Comparison: this provides context for potential equality classification, not a verified direct predecessor of the square event theorem. It should not be presented as resolving equality in S103.
+
+10. OWN COMPARISON / WHY THE REMAINING BRIDGE IS REAL
+S102 computes W=sum_j f_j V_j with f_j=sum_{i<=j}a_i, not a single deletion matrix. Even nonnegative-entry matrices with one positive eigenvalue do not preserve that property under positive sums: A=[[4,2],[2,1]] and B=[[1,2],[2,4]] each have rank one and one positive eigenvalue, while A+B=[[5,4],[4,5]] has two. This is only a generic logical obstruction, NOT an example of actual poset backend blocks. It explains why citing local CP inequalities alone would leave a gap.
+
+The substantive S103 bridge retains correlations among V_j,C_j,E_j, the genuine prefix LC, degeneracy compatibility, and the transformed orthogonality. It then proves the aggregate determinant. The search did not identify an existing named theorem whose hypotheses were fully matched to all of these structures. There might still be a simpler weighted-Stanley/belt realization or a conic-Lorentzian interpretation; those remain comparison tasks, not established reductions.
+
+Recommended publication wording:
+“We derive the shared-downset, neutral-chain square inequality from Stanley rank log-concavity and the Chan–Pak hyperbolicity input, using a self-contained finite birth–death/Schur-complement argument. We have not established a priority claim. Its precise relation to weighted Stanley inequalities for posets with belts and recent path-complex methods merits further comparison.”
+
+Do not describe the unrestricted-width square conjecture, the general width-three balance problem, or MAIN33 as solved. Do not infer originality from this targeted search. Do not quote a path-complex abstract as proving the arbitrary-subset extended Stanley conjecture: the checked v3 explicitly refutes it.

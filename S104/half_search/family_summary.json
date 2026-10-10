@@ -1,0 +1,41 @@
+{
+  "evaluations": 11440,
+  "qualified": 1086,
+  "half_counterexamples": 1086,
+  "L_counterexamples": 0,
+  "minimum_size_half_counterexample": {
+    "r": 3,
+    "g": 1,
+    "h": 2,
+    "t": 10,
+    "n": 16,
+    "E": 1603,
+    "K": [
+      1083,
+      1269,
+      539,
+      935,
+      1092
+    ],
+    "half_slack": -5,
+    "L_slack": 14
+  },
+  "best_half_delta": {
+    "r": 11,
+    "g": 1,
+    "h": 2,
+    "t": 37,
+    "n": 51,
+    "E": 130797976673,
+    "K": [
+      88580628617,
+      102431680429,
+      43637982271,
+      74065384185,
+      87407748792
+    ],
+    "half_slack": -1304664075,
+    "L_slack": 115970140
+  },
+  "L_counterexample_certificates": []
+}

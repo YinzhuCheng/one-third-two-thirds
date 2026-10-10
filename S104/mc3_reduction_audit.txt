@@ -1,0 +1,88 @@
+SUBSEQUENT STATUS UPDATE — S105
+The fixed MC3 menu, including its two-step version, is now REFUTED by a verified 54-point width-three poset. See ../S105/REPORT.md. MAIN33, WIDTH3 and TEN40 remain OPEN; U58 remains UNDER_AUDIT. Earlier MC3 OPEN language below is historical. The S104 arguments, auxiliary theorems and scoped counterexamples are preserved.
+
+SUBSEQUENT STATUS UPDATE, 2026-10-10
+The original audit below is preserved with its original review scope and historical status language. After it was written, (L) was REFUTED by the n=73 genuine width-three poset in L_family_counterexample.json. Independent ideal DP, chain-prefix counts, and a self-contained eight-cell proof confirm the example. An infinite family m=4r-6, r>=15 is also independently reviewed in mc3_lower_counterexample_audit.txt. BOTH (L) and HALF are now REFUTED sufficient strengthenings. The actual two-step MC3 statement remains OPEN; (b,y) is balanced in all members of the displayed L-counterexample family. Earlier statements below calling (L) open are historical, not the current verdict. The elementary reduction and the two genuine remaining bad sign patterns remain valid.
+
+S104 — Independent audit of the two-step MC3 reduction
+Date: 2026-10-10.
+
+VERDICT
+PASS for the exact two-deletion fibers, strict joint-survival estimate, and conditional reduction to the early-entry marginal. A single unjustified strict sign in the displayed derivation was weakened locally; it does not change any conclusion. HALF is now REFUTED by a real 20-point poset independently recounted below. L and two-step MC3 remain OPEN. This audit is mathematical review, not formal verification or a proof of two-step MC3.
+
+Reviewed mc3_two_step_proof.txt snapshot SHA-256 after the sign correction, before the subsequent HALF-refutation update:
+8ae84c5a1093c281aa4255dd64fba746a57b4b014cb4b472edde82ece27f5dfc
+
+INPUTS AND DEPENDENCIES
+Read the target in full; the S99 PROOF, MC3_R1 and EARLY_JUMP_FAMILY notes from the supplied S99 increment; the published S102 exact-fiber/prefix interfaces; and S103 backend_matrix_constraints, backend_second_order_bl_proof and its independent audit. EARLY_JUMP_FAMILY was additionally fetched read-only at the target's fixed repository commit:
+https://github.com/YinzhuCheng/one-third-two-thirds/blob/18549739c494d1d34a96510fb2b86d75ec291a7c/S99/notes/EARLY_JUMP_FAMILY.md
+The CP one-positive-direction theorem is an external input already identified in S102/S103, not re-proved in this audit. The elementary fiber and survival proofs below do not use it. The XYZ statement was checked in the primary mathematical paper of Brightwell and Trotter, Discrete Mathematics 257 (2002), Theorem 2.1:
+https://posets.tcs.uj.edu.pl/archive/attachements/Papers/117-DM-Correlation.pdf
+
+1. SETUP AND TWO-DELETION FIBERS: PASS
+The upsets must include their generators. Since every point outside {a,b} lies above x or y, a can have no predecessor: any such predecessor would force x<a or y<a. The same reasoning shows that b has exactly the predecessor a. In Q=P-{a,b}, the only minima are x and y. They are distinct, incomparable, and neither is above a or b.
+
+For a fixed Q extension tau of length m, old slot i means immediately before tau_i, with m+1 the terminal slot. The first a-successor and b-successor ranks A,B satisfy 2<=A<=B<=m+1. The first inequality uses the fact that tau_1 is x or y; A<=B follows from successors(b) being a subset of successors(a).
+
+Reinsertion gives a bijection with 1<=i<=A and i<=j<=B. Necessity follows from the successor restrictions and a<b. Conversely these conditions place a before every a-successor, b before every b-successor, and a before b; all remaining relations are already respected by tau. A common old slot has the unique order a,b. This proves N(A,B)=AB-A(A-1)/2 without deleting any dependence on the projection weight.
+
+a<z is exactly i<=k_z, so its fiber count is F. b<z is exactly j<=k_z, so summing min(A,j) gives G. The order of x,y is unchanged by reinsertion, and x<y in Q iff tau starts with x, proving the last weighted identity. Thus every displayed marginal and E are computed under the same original law; using uniform tau instead would be wrong.
+
+2. STRICT JOINT-SURVIVAL BOUND: PASS
+Before either x or y occurs, only a,b can occur. Hence b<x and b<y is precisely the prefix a,b, with n=e(Q) completions. Every fiber has N>=3. If the first two Q labels are x,y in either order, neither is a successor of a or b, so A,B>=3 and N>=6. There are exactly 2d such fibers, d=e(Q-x-y)>=1, since both orders of the two minima can precede every extension of the remainder. In particular 2d<=n. Therefore
+ E>=3(n-2d)+12d=3n+6d,
+ T2=n/E<=n/(3n+6d)<1/3.
+The proof includes the m=2 endpoint: d=1,n=2,E>=12. There is no width, CP or majority assumption hidden in strictness.
+
+3. XYZ AND THE REMAINING BRANCH: PASS WITH A LOCAL SIGN REPAIR
+Same-endpoint XYZ gives qr<=T2 for q=Pr(b<x),r=Pr(b<y). Here {b,x,y} is a three-element antichain; no minimality of b is needed. Its application is valid under the original complete-extension law.
+
+After orienting an unbalanced entry pair so p=Pr(x<y)>2/3, the cases are exhaustive:
+- q in [1/3,2/3] is already a balanced menu pair;
+- q>2/3 implies r>=q+p-1>1/3 by transitivity and the union bound, while r<=T2/q<1/(3q)<1/2;
+- the sole unresolved q range is q<1/3.
+Thus every menu counterexample must satisfy O and additionally either r<1/3 or r>2/3. Calling this one remaining early-entry marginal is accurate; calling it one remaining complete sign pattern would not be. Boundary equalities are correctly excluded as balanced. L is sufficient, not necessary: a failure of L could still be rescued by a balanced r.
+
+Local correction made in the source:
+ Before: r<T2/q<1/(3q)<1/2.
+ After:  r<=T2/q<1/(3q)<1/2.
+The first strict sign did not follow from the non-strict XYZ inequality actually displayed. Fishburn's stronger strict XYZ theorem for three-element antichains could separately justify strictness, but is unnecessary; the repaired derivation uses weaker assumptions and has the identical conclusion.
+
+4. HALF IS REFUTED; HISTORICAL GUARDRAILS AND FINITE EVIDENCE
+The formal implication HALF=>L would be valid and strict because Pr(a<x)>2/3. However, HALF itself is false. Its fiber rewrite remains exactly 2 sum G_x-sum F_x>=0, subject to the three original-weight linear inequalities stated in the target; the counterexample makes this proposed inequality negative.
+
+At 07:33 UTC this reviewer independently reconstructed the poset in half_search/verified_counterexample.json from its cover relations, computed transitive closure, checked x,y,a minimal, D(b)={a}, exact avoidance set {a,b}, and the displayed three-chain cover. Subset ideal DP with separately adjoined comparison relations gives
+ E=13665;
+ (K_ax,K_ay,K_bx,K_by,K_xy)=(9245,10735,4585,7805,9180).
+The three required strict-majority integer slacks are (405,4875,210)>0. But 2K_bx-K_ax=-75<0, refuting HALF. Meanwhile 3K_bx-E=90>0 and K_bx<2E/3, so (b,x) remains balanced and L holds in this example. Independent full-extension enumeration and fiber checks are also supplied; this audit's additional count did not rely on their counting implementation. No parameter-family proof is needed for this finite refutation.
+
+The main proof's section 4 and final status are being updated separately by the search author. This audit freezes the reviewed analytical sections and records this subsequent exact status change; its snapshot hash is deliberately not represented as a hash of that later edited file.
+
+The obstruction to fiberwise positivity is real. For example take relations a<b, a<s, x<s with y isolated. For tau=(x,s,y), A=2,B=4,k_x=1 and 2G-F=-2. This width-three example only certifies a negative fiber; it is not claimed to satisfy HALF's majority premises or to refute HALF.
+
+The S99 family has exactly Pr(b<x)=Pr(a<x)/2. For every m>=10 it satisfies all three antecedents of HALF, has only (b,x) balanced in the requested menu, and its balance tends to 1/3. Consequently no universal coefficient larger than 1/2 in Pr(b<x)>=c Pr(a<x), nor a positive input-independent menu balance margin, is possible. These guardrails remain valid but do not show that coefficient 1/2 works: the new counterexample proves that it does not.
+
+The stored 20-point equality certificate in mc3_search/stronger_summary.json was independently checked by subset ideal DP after adding each comparison relation, rather than the search's three-chain transition-count method:
+ E=2827825;
+ K=(2477475,1891890,2127125,945945,530530).
+These exactly match the stored values. Its entry orientation must be swapped because the stored Pr(x<y)=106/565<1/3. After swapping, 2*945945=1891890 is equality in the former HALF candidate and the three antecedents hold. This validates that certificate only. The number 177 denotes qualifying evaluations, with repeated posets possible, not 177 certified distinct isomorphism classes; the phrase 'qualifying examples' should be read with this limitation. No search count is used as a proof. This earlier nonfailure sample has been superseded as status evidence by the exact counterexample above.
+
+5. TRUE CP BLOCKS AND CONDITIONING SCOPE: PASS
+At j=0 and j=1 the residual minima are x,y,b_(j+1). The off-diagonal entry between an entry z and the neutral minimum is e(P_(j+1)-z)=C_(j+1,z). Deleting a can newly release exactly b while both entries are absent, giving the neutral diagonal E_2. Deleting b at j=1 releases no new label while x,y remain absent, giving diagonal zero. The remaining two diagonal entries are genuine release sums, not repeated deletions. Row sums yield V_j 1=C_j-C_(j+1) and 1^T C_j=E_j-E_(j+1), including j=2 if C_3=0 is understood.
+
+These blocks count the first entry after neutral prefixes. They do not directly record all positions of a or b relative to x when y has occurred first; a post-y extension can contain additional y-side labels before x. S103's scalar closure therefore cannot simply be substituted for the missing full marginal. Applying its normalized theorem to u=b, comparator x, conditions on a<x, giving p_Q=Pr_P(b<x)/d, U_Q=U_P/d, d=Pr_P(a<x). The correct conclusion d U_P<=Pr_P(b<x)^2 is an upper bound on the successor event, with the original probability d retained.
+
+The statement that width three gives 'chain constrained' y-side material is only a proposed interface, not an established general chain decomposition. Before both x and b appear, any activated y-side labels are incomparable with both absent x,b and hence form a chain. After b appears but before x, width three only forces width at most two for that material. A future proof must state which phase is being constrained.
+
+6. ROOT-SWAP INJECTIONS AND THEIR INSUFFICIENCY: PASS
+In relative type abxy the first three actual labels are a,b,x, so swapping b,x is legal and injective into type axby. In types axby and axyb the first two actual labels are a,x, so swapping them is legal and injective. The other displayed inequalities follow by exchanging x,y. Activated descendants explain why the maps need not be surjective.
+
+For completeness, an explicit abstract relative-order distribution satisfying all six displayed injection inequalities assigns
+ abxy=axby=xaby=1/4, ayxb=yaxb=1/8,
+ and zero to the other seven orders. Its five probabilities are
+ Pr(a<x)=3/4, Pr(a<y)=7/8, Pr(b<x)=1/4,
+ Pr(b<y)=3/4, Pr(x<y)=3/4.
+It also has T2=1/4 and qr=3/16<T2. Thus even these injections plus the weak displayed XYZ and T2<1/3 do not by themselves rule out the bad menu signs. This is only an algebraic law on relative orders, explicitly not a realizable-poset certificate.
+
+FINAL STATUS
+The analytical reduction is sound after the harmless sign repair. HALF is REFUTED by the real 20-point certificate above. L, two-step MC3, general MC3, WIDTH3 and MAIN33 are not closed or refuted here. The artificial relative-order law only diagnoses insufficiency of selected inequalities and is distinct from the real HALF counterexample.

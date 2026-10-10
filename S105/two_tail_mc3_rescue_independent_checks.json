@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "reviewed_document_sha256": "8c1d2770c1530b0297771e73e94494eca3cfef951b49007bcfc3e9191d1ec408",
+  "generic_predecessor_mask_DP_cases": 936,
+  "DP_case_outcomes": {
+    "no_dual_majority": 819,
+    "bx_balanced": 91,
+    "strict_by_rescue": 26
+  },
+  "literal_extension_enumeration_cases": 30,
+  "literal_extensions_counted": 9218,
+  "binomial_grid_bounds": {
+    "m": [
+      1,
+      100
+    ],
+    "r": [
+      1,
+      50
+    ],
+    "s": "1..r"
+  },
+  "binomial_grid_case_count": 127500,
+  "binomial_grid_outcomes": {
+    "dual_majority": 63077,
+    "strict_by_rescue": 2097
+  },
+  "special_cases": [
+    {
+      "m": 13,
+      "r": 3,
+      "s": 2,
+      "n": 20,
+      "outcome": "bx_balanced",
+      "E": 13665,
+      "K_ax": 9245,
+      "K_ay": 10735,
+      "K_bx": 4585,
+      "K_by": 7805,
+      "K_xy": 9180
+    },
+    {
+      "m": 54,
+      "r": 15,
+      "s": 2,
+      "n": 73,
+      "outcome": "strict_by_rescue",
+      "E": 14395164266463908,
+      "K_ax": 9750632308747096,
+      "K_ay": 11262772937084132,
+      "K_bx": 4796894339975628,
+      "K_by": 8130381607704356,
+      "K_xy": 9604711718385252
+    },
+    {
+      "m": 74,
+      "r": 20,
+      "s": 2,
+      "n": 98,
+      "outcome": "strict_by_rescue",
+      "E": 3481700568121688223168,
+      "K_ax": 2357036376365092941090,
+      "K_ay": 2739626994593990708064,
+      "K_bx": 1160311321063452652380,
+      "K_by": 1997553421066293192960,
+      "K_xy": 2347125269752894501728
+    },
+    {
+      "m": 1,
+      "r": 1,
+      "s": 1,
+      "n": 6,
+      "outcome": "no_dual_majority",
+      "E": 33,
+      "K_ax": 21,
+      "K_ay": 22,
+      "K_bx": 9,
+      "K_by": 11,
+      "K_xy": 18
+    },
+    {
+      "m": 1,
+      "r": 12,
+      "s": 12,
+      "n": 17,
+      "outcome": "no_dual_majority",
+      "E": 2288,
+      "K_ax": 2001,
+      "K_ay": 1210,
+      "K_bx": 988,
+      "K_by": 132,
+      "K_xy": 315
+    },
+    {
+      "m": 12,
+      "r": 12,
+      "s": 12,
+      "n": 28,
+      "outcome": "no_dual_majority",
+      "E": 80233171,
+      "K_ax": 59431971,
+      "K_ay": 50517185,
+      "K_bx": 29715973,
+      "K_by": 20801199,
+      "K_xy": 31201800
+    }
+  ],
+  "scope": "Finite diagnostic confirmation only; the audit supplies the all-parameter self-contained proof."
+}

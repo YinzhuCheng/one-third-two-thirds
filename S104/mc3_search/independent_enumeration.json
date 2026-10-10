@@ -1,0 +1,14 @@
+{
+  "method": "Explicit enumeration of every full linear extension; no chain-ideal DP and no deletion projection",
+  "n": 20,
+  "E": 175692,
+  "K": [
+    149042,
+    117538,
+    122392,
+    59384,
+    40590
+  ],
+  "matches": true,
+  "seconds": 0.81241774559021
+}

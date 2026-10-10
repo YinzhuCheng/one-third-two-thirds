@@ -1,0 +1,19 @@
+S104 — Independent reading of the fixed-label refinement
+2026-10-10. Status: PASS for the stated finite counting identities and limitations; not a proof of MAIN33/WIDTH3 or a novelty claim.
+
+The full 156-line note was read independently of its author. Its input is the audited S104 shared-downset conditioning, with S102/S103 counting identities and their stated external hypotheses retained.
+
+Checks made:
+1. The generator sets C=min(U(a)\U(b)) and Dtag=max(D(b)\D(a)) do generate S and T. On S, the first actual a-successor must be private because every common upper element follows b. Thus the first C-label is the first successor, not an arbitrary reselected comparison pair.
+2. No neutral element can precede an element of D*=D(a) union D(b): that would place it below a or b. Hence appending n_i to an extension on D* union N_(i-1) is legal, and a_i-a_(i-1) counts prefixes whose last D* element is completed after exactly i neutral elements. The empty-D convention is correct.
+3. For a private minimal successor c, every predecessor other than a lies in D* or the neutral prefix through tau(c). Thus the release threshold j>=tau(c) is exact. Before c, after completion of D*, only a and neutral labels can occur; b and all nonneutral successors are absent. The j-i+1 insertion choices and arbitrary Q_j-a-c suffix therefore give the claimed bijection. Dividing by e(P), not e(Q), gives r_c directly in the original law.
+4. The capacities are exact partitions before applying the global minimum-majority bound. eta and theta include all non-first/non-last comparisons and cannot be omitted. The claimed same-side overlap identities for two generators are correct.
+5. With a<c and d<b, the event {a<d,c<b} splits precisely into c<d and a<d<c<b. Incomparability of a,b forbids c<d in P but not in an extension. A static d<c relation makes the first event empty and leaves a genuinely possible serial event. This does not license any global no-balanced counterexample.
+6. The two five-point models have E=10, C=(8,2), V=[[6,2],[2,0]], kappa=2/5 but release vectors (6) and (3,3). In the second, actual fixed comparison counts are (5,5), not (3,3). This correctly separates type information, first-release information and actual pair probability.
+7. The numerical eight-cell example is explicitly only a relaxation witness. No realizability or independent positivity property has been silently supplied to it.
+
+The author's exact script check_label_resolved_slack.py was rerun without changes: all 406 natural-label posets and 3656 eligible ordered pairs passed, including the two five-point certificates. This rerun checks reproducibility; the general identities rest on the preceding finite bijections, not enumeration. No new independent enumeration implementation is claimed here.
+
+No mathematical correction was needed. The remaining serial mass and omitted comparison mass are real unresolved interfaces. The input Schur formula is inherited from its separate audit; it is not re-proved in this review.
+
+Reviewed source SHA256: 97a76d4094bca85542a84c270ec869cfd97b6847478b75cb4b9df7e544169104

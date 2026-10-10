@@ -1,0 +1,5 @@
+n=2: distinct naturally labelled posets=2; cumulative checked pairs=1
+n=3: distinct naturally labelled posets=7; cumulative checked pairs=12
+n=4: distinct naturally labelled posets=40; cumulative checked pairs=136
+n=5: distinct naturally labelled posets=357; cumulative checked pairs=1828
+PASS: 406 naturally labelled posets; 1828 eligible incomparable pairs. All complete extension orders enumerated exactly.

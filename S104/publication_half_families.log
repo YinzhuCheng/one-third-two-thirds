@@ -1,0 +1,25 @@
+r= 3 all strict premises for t>= 10
+E (t**3 + 15*t**2 + 64*t + 66)/2
+Ax (t**3 + 15*t**2 + 68*t + 69)/3
+Ay (t**3 + 11*t**2 + 40*t + 38)/2
+Bx (t + 1)*(t**2 + 14*t + 54)/6
+By (t + 1)*(t**2 + 6*t + 10)/2
+Xy (t + 2)*(t + 3)*(t + 4)/2
+3Ax-2E 4*t + 3
+3Ay-2E (t**3 + 3*t**2 - 8*t - 18)/2
+3Xy-2E (t**3 - 3*t**2 - 50*t - 60)/2
+2Bx-Ax -5
+3Bx-E 2*(t - 3)
+r= 4 all strict premises for t>= 13
+E (t + 2)*(t**3 + 20*t**2 + 119*t + 164)/8
+Ax (t + 2)*(t**3 + 20*t**2 + 127*t + 168)/12
+Ay (t + 2)*(3*t**3 + 44*t**2 + 221*t + 276)/24
+Bx (t + 1)*(t + 2)*(t**2 + 19*t + 108)/24
+By (t + 1)*(t + 2)*(3*t**2 + 25*t + 60)/24
+Xy (t + 2)*(t + 3)*(t + 4)*(t + 5)/8
+3Ax-2E (t + 2)*(2*t + 1)
+3Ay-2E (t + 2)*(t**3 + 4*t**2 - 17*t - 52)/8
+3Xy-2E (t + 2)*(t**3 - 4*t**2 - 97*t - 148)/8
+2Bx-Ax (-60*t - 120)/12
+3Bx-E (t - 7)*(t + 2)
+PASS: exact prefix formulas, identities, all-t premise proofs, and independent DP cross-checks t=1..100.

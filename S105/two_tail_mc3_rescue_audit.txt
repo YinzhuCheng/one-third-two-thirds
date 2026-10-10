@@ -1,0 +1,209 @@
+S105 — Independent audit: complete MC3 rescue for the generalized two-tail family
+Date: 2026-10-10.
+
+VERDICT: PASS. The theorem is valid for every integer m>=1, r>=1, 1<=s<=r.
+The counting, inverse-ratio direction, endpoint ranges, and strict inequalities
+all check. No mathematical correction to the reviewed proof is required.
+This is an independent mathematical audit and exact computational cross-check,
+not formal verification. It proves only the displayed family theorem; general
+two-step MC3, arbitrary MC3, WIDTH3, and MAIN33 are not settled by this result.
+
+Reviewed frozen file: two_tail_mc3_rescue.txt
+SHA-256: 8c1d2770c1530b0297771e73e94494eca3cfef951b49007bcfc3e9191d1ec408
+The S105 file is the authoritative reviewed snapshot. All audit outputs are in
+S105; no S104 source or publication was modified by this auditor.
+
+1. EXACT STATEMENT AND STRUCTURE
+
+The ground set consists of the disjoint labels
+  a,b,c_1,...,c_m; y,z_1,...,z_r; x,
+with generators
+  a<b<c_1<...<c_m, y<z_1<...<z_r,
+  a<z_1, x<z_s, x<c_1,
+and no further relations except those forced by transitivity.
+The total number of elements is n=m+r+4. Both tail lengths must be positive,
+and the attachment index satisfies 1<=s<=r; all subsequent ranges use this.
+The three displayed chains, including singleton x, give width at most three;
+a,x,y are three distinct minimal elements, so the width is exactly three.
+The strict predecessor set of b is {a}. Every c_i lies above x and every
+label on the other long chain lies above y. Neither a nor b lies in the
+root-inclusive upsets of x or y. Hence the avoidance set is exactly {a<b}.
+All five proposed comparison pairs are incomparable in this poset.
+
+Under the uniform distribution on complete linear extensions, the assertion is:
+  Pr(a<x)>2/3 and Pr(a<y)>2/3
+  imply that Pr(b<x) or Pr(b<y) belongs to [1/3,2/3].
+The argument never assumes a particular value or orientation for Pr(x<y).
+It therefore establishes the stated five-pair menu conclusion with a strictly
+smaller menu in this special family, under the two stated majority hypotheses.
+It does not establish this implication for every poset with avoidance set {a<b}.
+
+2. INDEPENDENT RECONSTRUCTION OF EVERY PREFIX CELL
+
+Put M=m+2, R=r+1, N=M+R. N does not include the singleton x.
+For a complete extension let i,j be the numbers of first-chain and second-chain
+labels occurring before x. Since x<c_1 and x<z_s, necessarily
+  0<=i<=2, 0<=j<=s.
+If i=0, at most the single label y can precede x: z_1 would require a first.
+Thus the permissible cells are (0,0),(0,1), and (1,j),(2,j) for 0<=j<=s.
+There are exactly 2s+4 cells, specializing to eight cells at s=2.
+
+Define
+  U_j=binom(N-1-j,M-1), 0<=j<=s+1,
+  V_j=binom(N-2-j,M-2), 0<=j<=s.
+Pascal's identity gives V_j=U_j-U_(j+1).
+For i=1 or 2, after the prefix and x have occurred, every cross-chain
+constraint is satisfied. The two remaining chains may therefore interleave
+arbitrarily: their counts are U_j for i=1, V_j for i=2.
+
+Here is the independently reconstructed table. Each count includes the complete
+suffix; the last two columns count complete extensions satisfying the comparison.
+
+  cell          total                 a<y                    b<y
+  (0,0)         U0+U1                 U0                     V0
+  (0,1)         U1                    0                      0
+  (1,0)         U0                    U0                     V0
+  (2,0)         V0                    V0                     V0
+  (1,j),j>=1    2U_j                  U_j                    0
+  (2,j),j>=1    (2j+1)V_j             (j+1)V_j                V_j
+
+For (0,0), x is first. The next label is either a, allowing U0 suffixes,
+or y, after which a is forced, allowing U1 suffixes. The a<y event selects
+the first case. Within that case b<y forces b next and leaves V0 suffixes.
+For (0,1), the beginning is y,x,a, where a is forced after x; there are U1
+remaining interleavings and both a<y and b<y are false.
+For (1,0), the beginning is a,x. Requiring b<y makes b the next label and
+leaves V0 suffixes. The (2,0) cell begins a,b,x, with both comparisons true.
+For (1,j), j>=1, only the two prefixes beginning a,y or y,a are possible.
+This remains true at j=1; for j>=2 it follows from a<z_1. Exactly the first
+prefix has a<y, while y precedes b in either case.
+For (2,j), j>=1, a is first or second in the prefix. If a is first, inserting
+b among the j ordered second-chain labels gives j+1 prefixes. If a is second,
+the first label is y; inserting b among the remaining j-1 ordered labels gives
+j prefixes. These sets are disjoint, totaling 2j+1. Exactly j+1 have a<y,
+and exactly the single prefix beginning a,b has b<y.
+
+This is a bijective count of actual complete extensions. No deletion projection
+is re-uniformized, and no assumption about an arbitrary prefix-weight law enters.
+
+3. ALL SIX COUNT FORMULAS AND COUPLINGS
+
+Let E be the total number of complete extensions and K_uv count those with u<v.
+Set
+  C=U0+2U1, I=U0+2 sum_(j=1)^s U_j,
+  u=U_(s+1), T=(2s+1)u.
+The two i=0 cells contribute C. The i=1 cells contribute I.
+The i=2 cells telescope as
+  V0+sum_(j=1)^s(2j+1)V_j = I-T.
+Consequently
+  E=C+2I-T, K_ax=2I-T, K_bx=I-T.
+The three j=0 cells sum to 3U0, proving K_xy=3U0.
+The b<y column gives
+  K_by=3V0+sum_(j=1)^s V_j=3U0-2U1-u.
+The a<y column gives
+  K_ay=3U0-U1+sum_(j=1)^s[U_j+(j+1)V_j]
+      =2U0+I-(s+1)u.
+These independent sums agree with every formula in the frozen proof.
+In particular,
+  2K_bx-K_ax=-T,
+  K_by=2K_ay-E.
+Both identities are exact family-specific facts.
+Because C>0, K_ax=E-C<E. Because T>0,
+  2K_bx=K_ax-T<E,
+so Pr(b<x)<1/2 for every member, without any majority premise.
+Thus Pr(b<x)>=1/3 immediately settles the desired closed balanced interval.
+If Pr(a<y)>2/3, the second identity gives Pr(b<y)>1/3 strictly, again with
+no need to assume anything about the value of Pr(b<x).
+
+4. INVERSE-RATIO AND STRICT UPPER-BOUND AUDIT
+
+We now examine the only remaining case K_bx<E/3. Let
+  S=sum_(j=2)^s U_j,
+where S=0 when s=1. Then I=C+2S. Direct subtraction gives
+  3K_ax-2E=4S-T,
+  3K_bx-E=2(S-T).
+The strict first-majority premise and current strict case therefore give
+  T/4<S<T.
+As T>0, this rules out s=1. Hence all divisions by s-1 below are legal.
+
+The complete U range is valid even at the far attachment s=r:
+  N-1-j >= M-1 for j<=s+1<=R.
+Thus every U_j is positive, including U_(s+1)=1 when s=r.
+For 0<=j<=s, R-j>=1 and
+  U_j/U_(j+1)=(N-1-j)/(R-j)
+             =1+(M-1)/(R-j)>1.
+These inverse ratios increase with j, since M-1=m+1>0. Equivalently, the
+positive sequence is log-concave in this range; it is the INCREASING inverse
+ratio, rather than the opposite inequality, that is used in the proof.
+The ratio U_s/u is at least U0/U1. Since the U sequence is decreasing,
+  S >= (s-1)U_s >= (s-1)(U0/U1)u.
+Combining with the strict upper bound S<(2s+1)u yields
+  U0/U1 < (2s+1)/(s-1)=2+3/(s-1)<=5.
+Strictness is preserved by S<T, even when the final bound equals five at s=2.
+
+Finally,
+  2E-3K_by=-3U0+18U1+8S+(1-4s)u.
+A useful equivalent positive decomposition is
+  2E-3K_by
+    =3U1+3u + 3(5U1-U0) + 2(4S-T).
+Both parenthesized terms are strictly positive by the inequalities just proved.
+Since U1,u>0, this proves
+  2E-3K_by>3U1+3u>0.
+Together with K_by>E/3, it yields the strict rescue
+  1/3<Pr(b<y)<2/3 whenever Pr(b<x)<1/3
+under the two original strict majority hypotheses. This proves the theorem for
+all permitted parameters. The argument is elementary and self-contained; no
+external log-concavity theorem is required.
+
+5. ENDPOINTS, STRICTNESS, AND LOGICAL SCOPE
+
+- s=1 is a valid poset/counting endpoint. Here S=0 and 3K_ax-2E=-T<0,
+  so the first majority hypothesis is impossible. The theorem is vacuous there,
+  not an undefined expression involving s-1.
+- r=1 forces s=1 and is therefore covered by that endpoint.
+- s=r is valid. In particular U_(s+1)=1; no nonexistent chain label or binomial
+  coefficient with negative admissible range is used.
+- m=1 is valid. All factorials/binomial coefficients and suffix counts remain
+  positive. The proof requires no hidden lower bound such as m>=2.
+- Pr(b<x)=1/3 is settled in the first case. No strict upper-rescue argument is
+  needed at this boundary, and it is never incorrectly excluded as unbalanced.
+- The two a-majority assumptions are strictly greater than 2/3. The proof does
+  not claim the same strict rescued interval from non-strict premises.
+- The identity K_by=2K_ay-E and the two-chain suffix law are used only for this
+  explicitly generated poset. Width three and a neutral chain alone do not
+  establish those identities. No conclusion for arbitrary MC3 follows.
+- HALF and L remain refuted by their existing examples; the present theorem
+  explains why those examples do not refute MC3. It does not reinstate either
+  one-sided shortcut.
+
+6. INDEPENDENT EXACT COMPUTATIONAL DIAGNOSTICS
+
+Script: verify_two_tail_rescue_independent.py
+Results: two_tail_mc3_rescue_independent_checks.json
+The actual-count routine builds predecessor masks directly from the generating
+relations and computes complete extensions by a generic ideal recursion. Each
+comparison numerator is obtained by adding that comparison relation and rerunning
+the count. It does not use the prefix table or closed-form formulas internally.
+Its structural checks compute transitive closure separately and verify the three
+minima, predecessor set of b, and root-inclusive avoidance set.
+
+Results, all with exact integer arithmetic:
+- 936 parameter triples with 1<=m,r<=12 and 1<=s<=r: every one of the six generic
+  counts agrees with the closed formulas. Among these, 117 have both strict
+  majority premises; 91 use the b,x balanced branch and 26 use strict b,y rescue.
+- 30 smaller parameter triples: literal enumeration of 9,218 complete linear
+  extensions agrees with every prefix cell's total, a<y count, and b<y count.
+- Explicit generic recounts include the n=20 HALF example, the n=73 L example,
+  an n=98 infinite-family member, and both s=1 and s=r boundaries.
+- A separate binomial-arithmetic grid of 127,500 triples (1<=m<=100,
+  1<=r<=50, 1<=s<=r) satisfies the theorem throughout; 63,077 meet both strict
+  a-majorities and 2,097 require the strict b,y rescue branch.
+
+For (m,r,s)=(54,15,2), the independent generic DP gives
+  E=14395164266463908,
+  (K_ax,K_ay,K_bx,K_by,K_xy)=
+  (9750632308747096,11262772937084132,4796894339975628,
+   8130381607704356,9604711718385252),
+exactly matching the earlier L-counterexample certificate.
+These finite tests diagnose formula/code errors; they are not the proof of the
+infinite theorem. Sections 1-5 supply that all-parameter proof independently.

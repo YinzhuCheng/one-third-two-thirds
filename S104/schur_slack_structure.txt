@@ -1,0 +1,81 @@
+S104 — What the Schur slack does and does not say about actual labels
+2026-10-10. Status: proved limited structural statements; no classification of all local zero-slack blocks and no new fixed balanced-pair theorem.
+
+MAIN RESULT
+The available Chan–Pak equality theorems do not directly classify kappa_j=0. Small normalized Schur slack is not a rigidity condition for the designated pair u,y: already two disjoint chains give arbitrarily small slack while Pr(u<y) approaches any number in (0,1), or approaches 0 or 1. There is nevertheless a precise reversible typed-transition interpretation of a zero local slack. It exposes exactly where external actual labels were discarded. The terminal slack is always strictly positive, with a proved quantitative bound, so simultaneous vanishing of all local slacks is impossible. This endpoint strictness is not a solution to the fixed-label extraction problem.
+
+1. INPUTS AND EXACT SCOPE
+Read S103/backend_matrix_constraints.txt, backend_second_order_bl_proof.txt, backend_second_order_bl_audit.txt, and S102's shared_prefix_determinant_attempt.txt from its local published/working snapshot. Retain their notation and the audited exact identity
+ E(p^2-U)=K+sum_j f_j kappa_j, K>=0.
+All statements here concern true posets and complete uniform linear extensions. B_j is the actual first-two-step matrix, not a repeated-deletion surrogate. E_j=e(Q_j), and kappa has dimensions of extension count; the scale-free local quantity is kappa_j/E_j, while its global contribution is f_j kappa_j/E.
+
+2. A REVERSIBLE, BUT COARSE, COUNTING INTERPRETATION
+For j<R put n=n_(j+1). Exactly u,y,n are minimal in Q_j. In a uniform linear extension L of Q_j define X=L_1. Define Y as follows: if L_2 was already minimal in Q_j, let Y=L_2; if deleting X newly releases L_2, let Y=X. Thus Y is a TYPE in {u,y,n}, not necessarily the actual second element. For X=n, a released actual second element must be n_(j+2), if it exists: all other nonneutral backend elements have u or y among their predecessors.
+
+Let M=B_j/E_j. Then Pr(X=s,Y=t)=M_st. Off-diagonal symmetry follows by swapping the first two incomparable minimal elements. Diagonal entries are the actual release counts. The joint law is reversible, with marginal m=B_j 1/E_j. The coordinates of m are C_(j,u)/E_j,C_(j,y)/E_j,E_(j+1)/E_j.
+
+The covariance matrix between equal type scores is M-mm^T, which is negative semidefinite by the audited one-positive-direction input and the positive total E_j. Hence G=mm^T-M is positive semidefinite. This is a NEGATIVE cross-covariance, not an ordinary variance and not the probability of a specified event.
+
+For Delta_j>0, kappa_j=0 iff B_j is singular. Its scalar block has rank two, so then B_j has rank exactly two and a one-dimensional kernel. Any kernel score t satisfies m^T t=0, since 1^T B_j t=0. Therefore zero slack is equivalent to the existence of a nonzero type score with
+ E[t(Y) | X=s]=0 for every s in {u,y,n}.
+All marginal probabilities are positive, so this equivalence has no exceptional conditioning events. Conversely these three conditional expectations imply B_j t=0. The score cannot have t_u=t_y: the subspace of scores constant on {u,y} together with the neutral coordinate is precisely the nonsingular scalar block. Thus it can be normalized by t_u-t_y=1.
+
+This gives a genuine reversible counting interpretation of local equality, but it is a statement about cancellation of signed TYPE scores. It does not identify one actual successor v. In particular a diagonal term has summed over every newly released successor of a given first element. To extract a fixed external label, one must retain or reconstruct the disaggregated counts
+ e(Q_j-s-v), v minimal in Q_j-s and s<v,
+and then still prove a statement about that fixed v in the original uniform law. Neither a signed cancellation nor averaging these counts licenses replacing a random released v by one globally fixed v.
+
+In the formal Delta=0 case, the audited compatibility a C'=b C must be enforced. The formula kappa=C_u^2/a-V_uu applies; det B=0 alone then says nothing about kappa. The equivalence above is deliberately stated only for Delta>0. No assertion that interior Delta=0 or kappa=0 is realizable or impossible is made here.
+
+3. THE TERMINAL SLACK IS STRICTLY POSITIVE: A REAL-POSET PROOF
+At j=R, P=Q_R has exactly the two minimal elements u,y. Put N=|P|>=2, A=e(P-u), B=e(P-y), H=e(P-u-y), and F=e(P)=A+B. Row sums give
+ V_R=[[A-H,H],[H,B-H]],
+ kappa_R=H-AB/F.
+For N>2 the lower deletion-correlation bound in Chan–Pak, Theorem 1.1, gives
+ F H >= N/(N-1) A B.
+Consequently
+ kappa_R >= AB/((N-1)F)>0.
+For N=2 one has A=B=H=1,F=2 and kappa_R=1/2, the same bound. This proof does not infer nonsingularity from irreducibility.
+
+In normalized form, with p_R=A/F,
+ kappa_R/F >= p_R(1-p_R)/(N-1)>0.
+Thus the exact global identity and f_R>0 imply strict p^2>U in this finite shared-downset/neutral-chain scope. More importantly for the present task, an exact zero-total-slack classification is empty. A sequence of nearly sharp examples can nevertheless have its normalized terminal contribution tend to zero; no uniform positive gap follows.
+
+4. EXPLICIT FAILURE OF SMALL-SLACK RIGIDITY FOR THE FIXED ENTRY PAIR
+Let Q=C_a disjoint-union C_b, with u,y the respective first elements, a,b>=1 and N=a+b. This is already width two, has D empty and R=0. Exact shuffle counting yields
+ E=binom(N,a), p=a/N,
+ V_uu=binom(N-2,a-2), V_uy=binom(N-2,a-1), V_yy=binom(N-2,a),
+ with out-of-range binomials zero.
+Therefore
+ U=a(a-1)/(N(N-1)),
+ kappa/E=p^2-U=ab/[N^2(N-1)]=p(1-p)/(N-1).
+Here K=0 and f_0=1, so this is precisely the entire Schur contribution, not merely an upper bound.
+
+For any alpha in (0,1), take a/N tending to alpha. Then kappa/E tends to zero and p tends to alpha. Taking a=1,b tending to infinity also makes p tend to zero and kappa/E of order N^(-2). Thus no dimension-free implication of the form 'sufficiently small normalized slack forces u,y to be balanced' is valid. In particular alpha=1/10 disproves any such claim with the fixed target interval [1/3,2/3]. These examples do contain balanced pairs elsewhere, as width-two theory predicts; this is not a counterexample to the balance conjecture.
+
+Raw kappa should not be called 'small' without normalization. Appending an arbitrary ordinal upper tail T multiplies E,C,V and kappa by e(T), while all normalized probabilities and normalized slack remain unchanged. The upper-tail order and its actual labels can otherwise vary arbitrarily. Consequently exact unnormalized slack magnitude is not a meaningful structural distance, and normalized slack alone cannot recover upper-tail label information.
+
+5. WHAT THE PUBLISHED EQUALITY RESULTS ACTUALLY SAY
+Sources verified live, read-only:
+- Chan–Pak, Correlation inequalities for linear extensions, arXiv:2211.16637v2, §§6.1 and 8.9:
+  https://arxiv.org/html/2211.16637v2#S6.SS1
+  https://arxiv.org/html/2211.16637v2#S8.SS9
+- Chan–Pak, Log-concave poset inequalities, arXiv:2110.10740v3, Theorems 1.39–1.40 and §15:
+  https://arxiv.org/html/2110.10740v3
+
+The first source supplies the hyperbolicity input and expressly says that it does not explore equality conditions for its correlation inequalities (§8.9). The second source's cited equality theorems concern equality in a prescribed three-term Stanley rank-count sequence. Our equality is singularity of a specified principal block / vanishing of its Schur residual, with a signed score involving u,y and the neutral coordinate. These are different statements. A reduction equating this kernel direction with the distinguished rank-count direction has not been proved.
+
+There is a particularly clear obstruction to blindly using the isolated marker from the S102 construction: for P plus one isolated marker, every marker rank has exactly e(P) extensions. Its Stanley rank equality therefore holds automatically for EVERY P, including the strict-slack two-chain examples above. That marker's rank equality cannot classify whether our B_j has an extra kernel direction. One would need an additional kernel-propagation theorem identifying this particular signed direction, not simply the existence of Stanley equality.
+
+6. EXACT EXPLORATORY SCREEN, WITH ITS LIMITS
+probe_schur_equality.py generated 40,000 labeled posets of sizes 3 through 13 with exactly three minimal elements, and counted every needed extension by integer ideal dynamic programming. All sampled three-minimum first-two-step determinants were positive. This is not a proof of universal positivity or a zero-case classification. The sampling includes posets beyond the neutral-chain subclass, and is biased by the explicit random generator. It is used solely to challenge a conjecture, never to assert it.
+
+The deterministic seed is 941. The smallest sampled det(B)/e(P)^3 was 11/316368, at predecessor masks
+ [0,0,0,1,1,17,17,17,25,49,9,281,2873]
+and
+ B=[[685080,68508,68508],[68508,0,6228],[68508,6228,0]].
+No inference from graph irreducibility was used.
+
+7. RECOMMENDED NEXT INTERFACE, NOT A CLAIMED THEOREM
+The new matrix closure retains scalar/type information but still forgets individual released labels. The useful next object is a label-indexed refinement of the reversible transition law in §2, tracked across the same original-law prefix weights. A successful bridge must state the candidate actual pair BEFORE averaging and show why its comparison probability in the original Q (or conditioned-to-original P transfer) lies in the target interval. An averaged release witness, small kappa alone, or an unrelated Stanley equality certificate is insufficient.
+
+This note establishes an exact type-level zero criterion, a strict terminal obstruction, and a sharp family disproving small-slack fixed-entry rigidity. It does not establish the interior kappa=0 classification, a stability theorem, or fixed balanced-pair extraction. Those remain open.

@@ -1,0 +1,31 @@
+[
+  {
+    "stage": "small_random",
+    "budget": 3000,
+    "valid": 3000,
+    "premise": 30,
+    "good_histogram": {
+      "[2, 3, 4]": 30
+    },
+    "seconds": 0.94645094871521
+  },
+  {
+    "stage": "medium_random",
+    "budget": 1500,
+    "valid": 1500,
+    "premise": 10,
+    "good_histogram": {
+      "[2, 3, 4]": 9,
+      "[3]": 1
+    },
+    "seconds": 1.9034929275512695
+  },
+  {
+    "stage": "large_random",
+    "budget": 300,
+    "valid": 300,
+    "premise": 0,
+    "good_histogram": {},
+    "seconds": 1.5616497993469238
+  }
+]

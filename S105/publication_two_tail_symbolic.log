@@ -1,0 +1,20 @@
+{
+  "status": "all exact symbolic checks passed",
+  "checks": [
+    "all six base counts at s=1",
+    "all six arbitrary-s induction increments",
+    "HALF difference",
+    "exact opposite-marginal coupling",
+    "entry count",
+    "a-majority margin",
+    "b-low margin",
+    "opposite upper-margin form",
+    "inverse-ratio increment",
+    "inverse-ratio normal form",
+    "s>=2 ratio cap",
+    "strict rescue positivity decomposition"
+  ],
+  "scope": "P(m,r,s): m>=1, r>=1, 1<=s<=r; proof uses original full extension counts",
+  "formal_proof": false,
+  "note": "Symbolic algebra supports the self-contained combinatorial proof; it is not a proof-assistant certificate."
+}

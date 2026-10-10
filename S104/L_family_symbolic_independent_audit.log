@@ -1,0 +1,55 @@
+{
+  "status": "PASS: eight-cell summations and all stated family polynomial identities",
+  "reviewed_document_sha256": "5101d5bc28974a013c8cbce6c86f8f1a7c2ef573da1ee82a3c7bd9b90a070607",
+  "scaled_count_polynomials": {
+    "E": "540*r**3 - 1309*r**2 + 941*r - 180",
+    "K_ax": "365*r**3 - 874*r**2 + 621*r - 120",
+    "K_ay": "432*r**3 - 1187*r**2 + 1051*r - 300",
+    "K_bx": "(4*r - 5)*(45*r**2 - 53*r + 12)",
+    "K_by": "3*(r - 1)*(4*r - 5)*(27*r - 28)",
+    "K_xy": "15*(r - 1)*(5*r - 6)*(5*r - 4)"
+  },
+  "shifted_slacks": {
+    "ax_majority": "15*u**3 + 671*u**2 + 9986*u + 49440",
+    "ay_majority": "216*u**3 + 8777*u**2 + 118781*u + 535350",
+    "xy_majority": "45*u**3 + 1268*u**2 + 9113*u + 2550",
+    "bx_lower_failure": "-2*u**2 - 62*u - 480",
+    "by_lower_rescue": "432*u**3 + 17554*u**2 + 237562*u + 1070700",
+    "by_upper_rescue": "108*u**3 + 5437*u**2 + 88609*u + 471210"
+  },
+  "all_shifted_coefficient_signs_verified": true,
+  "direct_binomial_examples": [
+    {
+      "m": 13,
+      "r": 3,
+      "U": [
+        3060,
+        680,
+        120,
+        15
+      ],
+      "E": 13665,
+      "K_ax": 9245,
+      "K_ay": 10735,
+      "K_bx": 4585,
+      "K_by": 7805,
+      "K_xy": 9180
+    },
+    {
+      "m": 54,
+      "r": 15,
+      "U": [
+        3201570572795084,
+        721480692460864,
+        154603005527328,
+        31368725759168
+      ],
+      "E": 14395164266463908,
+      "K_ax": 9750632308747096,
+      "K_ay": 11262772937084132,
+      "K_bx": 4796894339975628,
+      "K_by": 8130381607704356,
+      "K_xy": 9604711718385252
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+S105 independent audit: complete MC3 five-pair menu counterexample
+=================================================================
+Confirmed MC3 five-pair menu counterexample; not a main theorem or WIDTH3 counterexample.
+
+Input: mc3_coupled_search/MC3_COUNTEREXAMPLE_high.json
+Input SHA256: c406795874a3383906b73efd5026ad029552740cd7e2c3758d06a93fcd700346
+No discoverer or existing verifier code was imported or reused.
+Only raw candidate shape/extra edges/counts and the confirmed label convention were used as computational input.
+
+STRUCTURE
+C0: 0=x < 1=t
+C1: 2=y < 3=y1 < ... < 15=y13
+C2: 16=a < 17=b < 18=c1 < ... < 71=c54
+Additional generating edges: [[16, 3], [0, 18], [67, 10]]
+All chain-adjacent edges and all extra edges are covers: True
+Exact cover list: [[0, 1], [0, 18], [2, 3], [3, 4], [4, 5], [5, 6], [6, 7], [7, 8], [8, 9], [9, 10], [10, 11], [11, 12], [12, 13], [13, 14], [14, 15], [16, 3], [16, 17], [17, 18], [18, 19], [19, 20], [20, 21], [21, 22], [22, 23], [23, 24], [24, 25], [25, 26], [26, 27], [27, 28], [28, 29], [29, 30], [30, 31], [31, 32], [32, 33], [33, 34], [34, 35], [35, 36], [36, 37], [37, 38], [38, 39], [39, 40], [40, 41], [41, 42], [42, 43], [43, 44], [44, 45], [45, 46], [46, 47], [47, 48], [48, 49], [49, 50], [50, 51], [51, 52], [52, 53], [53, 54], [54, 55], [55, 56], [56, 57], [57, 58], [58, 59], [59, 60], [60, 61], [61, 62], [62, 63], [63, 64], [64, 65], [65, 66], [66, 67], [67, 10], [67, 68], [68, 69], [69, 70], [70, 71]]
+The 3 displayed chains cover all 72 vertices, so width <= 3.
+The minima are [0, 2, 16]; this is an antichain of size 3, so width = 3.
+x=0 and y=2 are minimal. Reflexive principal upsets give B=P\(up(x) union up(y))=[16, 17]={a<b}.
+All five menu pairs are incomparable in the original poset.
+
+COUNTING METHOD
+Enumerate each triple of chain prefix lengths; retain it iff every included vertex contains all predecessors.
+This yields 1092 ideals and 2584 legal one-vertex transitions.
+F(I) counts paths from empty to I; G(I) counts paths from I to P.
+For each edge I -> I+v, add F(I)*G(I+v) to N(u<v) for every u in I.
+Every linear extension contributes exactly once to N(u<v), when v is appended.
+This computes all 72*71 oriented pair counts at once using only original-poset transitions.
+All 2556 complementary pair sums equal E. All comparable counts are 0 or E.
+At every one of the 73 ranks, sum_I F(I)G(I)=E.
+Algorithm independently tested on 16 small posets by checking all 720 permutations of each.
+
+ORIGINAL-LAW EXACT COUNTS
+E = 137477769300297
+a<x: K=91743653083395; reverse=45734116216902; p=1054524748085/1580204244831 = 0.667334461057456; balanced=False
+a<y: K=117303434549811; reverse=20174334750486; p=449438446551/526734748277 = 0.853253839852329; balanced=False
+b<x: K=45491483154535; reverse=91986286145762; p=1568671832915/4740612734493 = 0.330900649509133; balanced=False
+b<y: K=97129099799325; reverse=40348669500972; p=372142144825/526734748277 = 0.706507679704657; balanced=False
+x<y: K=106960274991892; reverse=30517494308405; p=3688285344548/4740612734493 = 0.778018697395761; balanced=False
+
+STRICT MC3 PREMISE/FAILURE CERTIFICATE
+3Kax-2E = 275420649591 > 0
+3Kay-2E = 76954765048839 > 0
+3Kxy-2E = 45925286375082 > 0
+E-3Kbx = 1003319836692 > 0
+3Kby-2E = 16431760797381 > 0
+Thus P(a<x), P(a<y), P(x<y) are all strictly >2/3;
+q=P(b<x) is strictly <1/3; r=P(b<y) is strictly >2/3.
+The five prescribed unordered pairs and their reverse orientations are all unbalanced.
+
+WHY THIS IS NOT A MAIN-THEOREM/WIDTH3 COUNTEREXAMPLE
+The full poset has 81 balanced unordered pairs. Examples:
+  [1, 5]: K=50840488058742; reverse=86637281241555; p=5648943117638/15275307700033 = 0.369808793941728
+  [1, 6]: K=64488854832972; reverse=72988914467325; p=21496284944324/45825923100099 = 0.469085694081252
+  [1, 7]: K=78138135276840; reverse=59339634023457; p=8682015030760/15275307700033 = 0.568369240165371
+  [1, 37]: K=47452379231522; reverse=90025390068775; p=1636288939018/4740612734493 = 0.345164017957480
+  [1, 38]: K=49714272267835; reverse=87763497032462; p=1714285250615/4740612734493 = 0.361616809182018
+Simple balanced pair:
+{"indices": [2, 18], "count": 57592100329497, "reverse_count": 79885668970800, "probability_reduced": "6399122258833/15275307700033", "probability_decimal": 0.41891936872860347}
+Closest-to-half balanced pair:
+{"indices": [2, 19], "count": 68674736648097, "reverse_count": 68803032652200, "probability_reduced": "7630526294233/15275307700033", "probability_decimal": 0.4995333936360912}
+
+This refutes only the claimed sufficiency of this fixed five-pair MC3 rescue menu under the listed hypotheses.
+It does not refute existence of a balanced pair in width-three posets or any broader main theorem.
+
+REPRODUCE
+python3 mc3_counterexample_audit.py --input mc3_coupled_search/MC3_COUNTEREXAMPLE_high.json --outdir . --stem mc3_counterexample_audit
+Machine certificate: mc3_counterexample_audit.json
+

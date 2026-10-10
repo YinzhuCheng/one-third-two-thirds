@@ -1,0 +1,155 @@
+SUBSEQUENT STATUS UPDATE — S105
+The fixed MC3 menu, including its two-step version, is now REFUTED by a verified 54-point width-three poset. See ../S105/REPORT.md. MAIN33, WIDTH3 and TEN40 remain OPEN; U58 remains UNDER_AUDIT. Earlier MC3 OPEN language below is historical. The S104 arguments, auxiliary theorems and scoped counterexamples are preserved.
+
+S104 — HALF and the proposed one-sided lower bound are both REFUTED
+Date: 2026-10-10. Original uniform complete-linear-extension law throughout.
+Status: SELF-CONTAINED COMBINATORIAL COUNTEREXAMPLE PROOFS; independent audit pending unless recorded separately.
+The two-element MC3 five-pair statement remains OPEN.
+
+RESULT
+The proposed implication
+  P(a<x)>2/3, P(a<y)>2/3, P(x<y)>2/3 => 2P(b<x)>=P(a<x)
+(HALF) is false for a width-three poset with exactly the prescribed neutral chain {a<b}.
+Moreover the weaker proposed implication
+  same three strict hypotheses => P(b<x)>=1/3
+(L) is also false. An explicit n=73 counterexample and an infinite family follow below.
+These do NOT refute MC3: in the examples (b,y) is balanced. Thus the offending early-entry marginal cannot by itself complete MC3; its failure must be coupled to the other b marginal.
+
+1. ONE ACTUAL POSET FAMILY
+For integers m>=1 and r>=2, define P(m,r) on
+  {a,b,c_1,...,c_m} union {y,z_1,...,z_r} union {x}.
+Its generating relations, and no others beyond transitive closure, are
+  a<b<c_1<...<c_m,
+  y<z_1<...<z_r,
+  a<z_1, x<z_2, x<c_1.
+The three displayed chains, including the singleton x, cover P. Hence width<=3; its three minima a,x,y also show width=3. Both x and y are minimal. Every c_i is above x and every y,z_i is above y. Neither a nor b is above x or y. Therefore, with upward sets including their roots,
+  P \ (up(x) union up(y)) = {a<b},  D(b)={a}.
+The family has n=m+r+4 elements. This checks all structural hypotheses literally; no neutral-backend restriction has been added.
+
+2. EXACT EIGHT-CELL PARTITION OF COMPLETE EXTENSIONS
+Write M=m+2, R=r+1, N=M+R=m+r+3. In a complete extension, let i be the number of elements of the a,b,c-chain appearing before x, and j the number of elements of the y,z-chain appearing before x.
+Since x<c_1 and x<z_2, i,j are each at most 2. Because a<z_1, the cell (i,j)=(0,2) is impossible. These are the only restrictions on the eight cells.
+Define, for j=0,1,2,3,
+  U_j = binom(N-1-j,M-1),
+and for j=0,1,2,
+  V_j = binom(N-2-j,M-2) = U_j-U_(j+1).
+All these are positive under m>=1,r>=2. Let E=e(P), and K_uv be the number of complete extensions with u before v.
+The following table gives, in each cell, the total count and the two y-comparison counts. The counts for a<x, b<x and x<y are then obtained simply by i>=1, i=2 and j=0 respectively.
+
+ (i,j)    total      a<y count     b<y count
+ (0,0)    U0+U1      U0            V0
+ (0,1)    U1         0             0
+ (1,0)    U0         U0            V0
+ (1,1)    2U1        U1            0
+ (1,2)    2U2        U2            0
+ (2,0)    V0         V0            V0
+ (2,1)    3V1        2V1           V1
+ (2,2)    5V2        3V2           V2
+
+Proof of every table entry:
+After x and after a have appeared, all remaining cross-chain constraints are satisfied, so the suffix is an arbitrary interleaving of its two remaining chains. With i=1 this gives U_j suffixes, and with i=2 it gives V_j suffixes.
+For i=1,j>=1, the prefix has a and j y-chain elements, with a before z_1 if z_1 is present. The only two choices are a before y or y before a; exactly one has a<y. For i=2,j>=1 there are 2j+1 legal prefixes of the two a-chain elements and j y-chain elements: a is before the second y-chain element, so the legal words are those whose first or second letter is a. Exactly j+1 have a<y, and exactly one has b<y. This gives the rows with i>=1. In the i=1,j=0 suffix, b<y occurs precisely when the first suffix element is b, leaving V0 interleavings.
+In cell (0,0), x is first. Thereafter the first element is a or y. If a is first, there are U0 unrestricted two-chain interleavings; if y is first, a must be second, and there are U1. The event a<y selects the first case, and b<y selects a,b as the first two suffix elements, giving V0.
+In cell (0,1), the prefix is y,x, after which a is forced before z_1. Deleting that forced first suffix a leaves U1 interleavings, and both a<y and b<y are false.
+This proves the table directly from complete extensions. It neither conditions and re-uniformizes a deletion projection nor substitutes unrelated probability laws.
+
+Summing and using V_j=U_j-U_(j+1) gives the exact formulas
+ E     = 3U0+6U1+4U2-5U3,
+ K_ax  = 2U0+4U1+4U2-5U3,
+ K_ay  = 3U0+2U1+2U2-3U3,
+ K_bx  = U0+2U1+2U2-5U3,
+ K_by  = 3U0-2U1-U3,
+ K_xy  = 3U0.
+Every requested probability is its K divided by this same E.
+
+3. SMALL EXPLICIT HALF COUNTEREXAMPLE
+Take m=13,r=3, so n=20. Then
+  (U0,U1,U2,U3)=(3060,680,120,15).
+The eight cell sizes, in the table order, are
+  3740,680,3060,1360,240,2380,1680,525.
+Thus
+  E=13665,
+  (K_ax,K_ay,K_bx,K_by,K_xy)=(9245,10735,4585,7805,9180).
+The three strict-majority numerators are
+  3K_ax-2E=405>0,
+  3K_ay-2E=4875>0,
+  3K_xy-2E=210>0.
+But
+  2K_bx-K_ax=-75<0.
+This refutes HALF with all of its hypotheses, including the majority entry direction. Here 3K_bx-E=90>0, so this particular example does not refute L.
+Independent exact-search source certificate: half_search/verified_counterexample.json. The eight-cell calculation above is an independent counting derivation rather than a reuse of the search dynamic program.
+
+4. EXPLICIT L COUNTEREXAMPLE
+Take m=54,r=15, so n=73. The exact complete-extension certificate is
+  E=14395164266463908,
+  K_ax=9750632308747096,
+  K_ay=11262772937084132,
+  K_bx=4796894339975628,
+  K_by=8130381607704356,
+  K_xy=9604711718385252.
+Equivalently the five probabilities in this order are
+  338/499,
+  40213/51397,
+  17127/51397,
+  29029/51397,
+  34293/51397.
+The three premise margins, with the original common denominator E, are
+  3K_ax-2E=461568393313472>0,
+  3K_ay-2E=4997990278324580>0,
+  3K_xy-2E=23806622227940>0.
+Nevertheless
+  3K_bx-E=-4481246537024<0.
+Thus L is false under the exact requested structural and probability hypotheses. HALF also fails, with
+  2K_bx-K_ax=-156843628795840.
+The pair (b,y) is balanced: 1/3<29029/51397<2/3. In fact it is the only balanced pair in the requested five-pair menu, because both a comparisons and x<y exceed 2/3 while b<x is below 1/3.
+Local machine-readable certificate: L_family_counterexample.json. Its rows are the eight-cell exact counts, including a<y and b<y counts. general_family_probe.py computes them with integer binomial coefficients, without enumeration or subset-ideal DP.
+
+5. INFINITE L-COUNTEREXAMPLE FAMILY
+For any integer r>=15, set m=4r-6. The resulting n=5r-2 family violates L under all three strict majority hypotheses.
+Put
+  h=binom(5r-7,r-2)/[(r-1)r(r+1)] >0.
+Writing t=m+r=5r-6, the definitions of U_j give exactly
+  U0/h=t(t+1)(t+2),
+  U1/h=(r+1)t(t+1),
+  U2/h=r(r+1)t,
+  U3/h=(r-1)r(r+1).
+These follow from consecutive binomial ratios; h need not be an integer. Substitution in the proved eight-cell formulas gives
+  E/h =540r^3-1309r^2+941r-180,
+  K_ax/h=365r^3-874r^2+621r-120,
+  K_ay/h=432r^3-1187r^2+1051r-300,
+  K_bx/h=(4r-5)(45r^2-53r+12),
+  K_by/h=3(r-1)(4r-5)(27r-28),
+  K_xy/h=15(r-1)(5r-6)(5r-4).
+Consequently
+  (3K_ax-2E)/h=r(r+1)(15r-19)>0,
+  (3K_ay-2E)/h=216r^3-943r^2+1271r-540,
+  (3K_xy-2E)/h=45r^3-757r^2+1448r-720,
+  (3K_bx-E)/h=-2r(r+1)<0.
+For r=u+15 with u>=0, the two remaining premise polynomials become, respectively,
+  216u^3+8777u^2+118781u+535350,
+  45u^3+1268u^2+9113u+2550,
+which are strictly positive. This proves every claimed premise and the L violation for all r>=15.
+Meanwhile
+  3K_by-E=2(3K_ay-2E)>0,
+and
+  (2E-3K_by)/h=108r^3+577r^2-1601r+900
+              =108u^3+5437u^2+88609u+471210>0.
+Therefore (b,y) remains strictly balanced throughout this entire counterexample family. In particular, neither the n=73 member nor the infinite family is a counterexample to MC3.
+
+6. THE EXACT FAILURE MECHANISM AND WHAT REMAINS
+For every m>=1,r>=2 in the general family,
+  2K_bx-K_ax=-5U3<0.
+Thus HALF cannot be rescued just by searching farther along the original short-y-chain family; it is structurally false here.
+For L one instead has
+  3K_bx-E=2(U2-5U3)
+          =2U3*(m-4r+5)/(r-1).
+With r=3, the sign changes at m=7 while entry majority only appears later, explaining why that one-parameter family gave misleading support for L. Allowing r to grow aligns the entry-majority region with m<4r-5; the infinite subfamily above makes this precise.
+The important coupling is not lost: in this family
+  3K_by-E=2(3K_ay-2E).
+Therefore the second a-majority forces the opposite b marginal above 1/3, even when the favored-entry b marginal is below 1/3. The upper bound K_by<2E/3 was proved for the infinite subfamily above.
+This identity is a theorem of the displayed family only. It has not been proved for arbitrary MC3 posets and must not be promoted to a universal replacement conjecture without testing.
+
+Correct residual MC3 target after orienting P(x<y)>2/3:
+  if P(b<x)<1/3, prove 1/3<=P(b<y)<=2/3,
+or otherwise rule out the two simultaneous bad patterns with P(b<y)<1/3 or P(b<y)>2/3. The already proved reduction to those two patterns survives. The attempted stronger one-marginal shortcut L does not.
+No statement here settles MAIN33, WIDTH3, or general/two-step MC3.

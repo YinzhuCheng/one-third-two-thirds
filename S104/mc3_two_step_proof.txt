@@ -1,0 +1,129 @@
+SUBSEQUENT STATUS UPDATE — S105
+The fixed MC3 menu, including its two-step version, is now REFUTED by a verified 54-point width-three poset. See ../S105/REPORT.md. MAIN33, WIDTH3 and TEN40 remain OPEN; U58 remains UNDER_AUDIT. Earlier MC3 OPEN language below is historical. The S104 arguments, auxiliary theorems and scoped counterexamples are preserved.
+
+S104: MC3 with a two-element avoidance chain — rigorous reduction and exact open interface
+Date: 2026-10-10. Status: PARTIAL THEOREMS; two-step MC3 remains OPEN in this document.
+All final probabilities below use the same original uniform complete-linear-extension law.
+
+INPUTS READ
+Fixed repository commit 18549739c494d1d34a96510fb2b86d75ec291a7c:
+S99/notes/PROOF.md, S99/notes/MC3_R1.md, S99/notes/EARLY_JUMP_FAMILY.md, S97/notes/PROOF.md.
+Local S102/research_dependency_map.txt and S103/backend_matrix_constraints.txt, backend_second_order_bl_proof.txt, schur_path_spectral_proof.txt were read in full (the matrix file's full displayed contents included all sections).
+The S103 scalar closure is used only at its actual normalization scope; it is not assumed to preserve any original probability after conditioning.
+
+SETUP
+Let a=b1<b=b2, let x,y be minimal, and let P\(up(x) union up(y))={a,b}. Thus a is minimal and D(b)={a}. Assume
+ P(a<x)>2/3 and P(a<y)>2/3.
+The requested menu consists of (a,x),(a,y),(b,x),(b,y),(x,y). Width at most three is an available hypothesis, but the elementary reductions below do not require it.
+
+1. EXACT TWO-DELETION FIBERS, WITH ORIGINAL WEIGHTS
+Put Q=P-{a,b}, n=e(Q). Its only minimal elements are x,y. For tau in LE(Q), let k_z(tau) be the 1-based rank of z=x,y. Define
+ A(tau)=rank of the first strict successor of a in Q,
+ B(tau)=rank of the first strict successor of b in Q,
+using |Q|+1 when the corresponding successor set is empty.
+Because b>a, its successors are successors of a, so 2<=A<=B. Neither x nor y is a successor of a or b.
+A legal reinsertion is uniquely an ordered pair of old slots (i,j), where a is put in i, b in j, 1<=i<=A, i<=j<=B. When i=j put a before b. This is valid even when other elements have both a and an entry as predecessors: their first occurrence sets exactly the stated threshold.
+Define
+ N(A,B)=sum_(i=1)^A (B-i+1)=AB-A(A-1)/2,
+ F(A,B;k)=sum_(i=1)^min(A,k) (B-i+1),
+ G(A,B;k)=sum_(j=1)^min(B,k) min(A,j).
+Then, exactly,
+ E=e(P)=sum_tau N(A,B),
+ E P(a<z)=sum_tau F(A,B;k_z),
+ E P(b<z)=sum_tau G(A,B;k_z),
+ E P(x<y)=sum_(tau: k_x=1) N(A,B).
+The last identity holds since one of x,y is first in every Q extension. There is no assertion that tau has the uniform Q law when sampled as a projection of a uniform P extension: its actual weight is N(A,B)/E.
+These formulas retain every requested marginal in a single counting model, unlike separately normalized conditional distributions.
+
+2. STRICT JOINT-SURVIVAL BOUND
+The event b<x and b<y means the first two elements are exactly a,b. Hence
+ T2=P(b<x,b<y)=n/E.
+Each tau has N>=3, with equality possible only at A=B=2. More sharply put d=e(Q-{x,y})>0. Exactly 2d Q extensions have x,y in their first two positions. In each such fiber A,B>=3, so N>=6. Therefore
+ E>=3(n-2d)+6(2d)=3n+6d,
+ T2=n/E <= n/(3n+6d) < 1/3.                         (J)
+This is a counting theorem, independent of CP, width, or the majority assumptions.
+Using the same-endpoint XYZ inequality for b,x,y,
+ P(b<x) P(b<y) <= T2 < 1/3.                         (XYZ-b)
+In particular the two b marginals cannot both exceed 2/3.
+
+3. A ONE-SIDED REDUCTION OF THE FIVE-PAIR PROBLEM
+If (x,y) is balanced, the task is finished. Otherwise relabel x,y so
+ p=P(x<y)>2/3.
+Write q=P(b<x), r=P(b<y).
+If 1/3<=q<=2/3, (b,x) is balanced.
+If q>2/3, transitivity of each complete linear order gives
+ r>=q+p-1>1/3.
+On the other hand (XYZ-b) gives
+ r<=T2/q<1/(3q)<1/2.
+So in this case (b,y) is balanced.
+Consequently a counterexample to the requested two-step menu MUST, after orienting x<y as the majority entry direction, satisfy
+ P(a<x)>2/3, P(a<y)>2/3, P(x<y)>2/3, P(b<x)<1/3.     (O)
+It must also have r<1/3 or r>2/3. These are the only two surviving sign patterns. Equality at either boundary is already a balanced pair.
+The following sufficient strengthening was considered:
+ assumptions on the first three probabilities in (O) => P(b<x)>=1/3.  (L)
+(L) is now REFUTED by an independently verified 73-element width-three poset. Take
+ a<b<c1<...<c54, y<z1<...<z15, a<z1, x<z2, x<c1,
+and exactly the transitive closure of these relations. Here the avoidance chain is precisely {a,b}, and
+ (P(a<x),P(a<y),P(b<x),P(b<y),P(x<y))
+ = (338/499,40213/51397,17127/51397,29029/51397,34293/51397).
+The three majority hypotheses are strict, while P(b<x)<1/3. However P(b<y) lies strictly between 1/3 and 2/3, so this is NOT a counterexample to MC3. See mc3_lower_counterexample_audit.txt and verify_L_counterexample_independent.py for the structural proof, two independent exact DP counts, and strict integer margins.
+The actual remaining task is to exclude BOTH genuine bad patterns q<1/3,r<1/3 and q<1/3,r>2/3 under the three majority hypotheses. It is no longer valid to list (L) as an open lemma that could complete the proof.
+
+4. THE SHARPER HALF IMPLICATION IS REFUTED
+The proposed stronger implication
+ P(a<x)>2/3, P(a<y)>2/3, P(x<y)>2/3
+   => 2 P(b<x)>=P(a<x)                              (HALF)
+is FALSE, even for genuine width-three posets satisfying the exact two-element avoidance hypothesis. See half_search/REPORT.md and verified_smaller_counterexample.json for the full structural and counting certificate.
+
+A 16-element counterexample has vertices a,b,x,y,v1,v2,z1,...,z10 and order generated by
+ y<v1<v2, a<v1, x<v2,
+ a<b<z1<...<z10, x<z1.
+The three displayed chains {y,v1,v2}, {x}, {a,b,z1,...,z10} cover P; a,x,y form a three-antichain. Every point except a,b is above x or y. Thus width(P)=3 and the avoidance set is exactly {a<b}; the backend is non-neutral.
+
+There are E=1603 complete linear extensions. The original-law counts for
+ (a<x),(a<y),(b<x),(b<y),(x<y)
+are (1083,1269,539,935,1092). The three strict-premise slacks 3K-2E are (43,601,70)>0, but
+ 2*539-1083=-5<0.
+The certificate was checked by full LE enumeration, independent event-added ideal DP, and the exact two-deletion fiber formulas. This example does not refute (L), since 3*539-1603=14>0, and it does not refute MC3: (b,x) is balanced. No global minimum-size claim is made.
+
+Indeed replacing the ten z-points by t z-points gives a proved counterexample family for every integer t>=10, with |P|=t+6:
+ E=(t^3+15t^2+64t+66)/2,
+ A_x=E P(a<x)=(t^3+15t^2+68t+69)/3,
+ B_x=E P(b<x)=(t+1)(t^2+14t+54)/6,
+ A_y=E P(a<y)=(t^3+11t^2+40t+38)/2,
+ X_y=E P(x<y)=(t+2)(t+3)(t+4)/2.
+A direct eight-prefix partition before x proves these formulas; they are not interpolated fits. It yields
+ 3A_x-2E=4t+3,
+ 3A_y-2E=(t^3+3t^2-8t-18)/2,
+ 3X_y-2E=(t^3-3t^2-50t-60)/2,
+ 2B_x-A_x=-5,
+ 3B_x-E=2(t-3).
+All first three expressions are strictly positive for t>=10. Full derivation and executable symbolic verification are in half_search/REPORT.md and prove_prefix_families.py.
+
+Historical search context: the earlier prescribed search saw 177 qualifying samples satisfying HALF, with equality, as recorded in mc3_search/stronger_summary.json. That was only finite evidence. The explicit family above supersedes the candidate; the S99 EARLY_JUMP_FAMILY equality did not imply a universal lower multiplicative bound.
+
+The exact fiber identity remains correct:
+ E[2P(b<x)-P(a<x)]=sum_tau [2G(A,B;k_x)-F(A,B;k_x)].
+What fails is the asserted nonnegative sign under the three full-weight hypotheses. The verified counterexample respects those same weights and is a real poset, not an artificial mixture.
+
+5. WHAT THE CP COMMON BLOCK ACTUALLY CONTROLS
+Let P_j=P-{b1,...,bj}, j=0,1,2, E_j=e(P_j), E_3=E_4=0, C_j=(e(P_j-x),e(P_j-y))^T. Define V_j=[[r_j^x,D_j],[D_j,r_j^y]], D_j=e(P_j-x-y), with true first-two-step release diagonals r_j^z. Then for j=0,1 the true first-two-step matrix is
+ B_j=[[V_j,C_(j+1)],[C_(j+1)^T,E_(j+2)]],
+and V_2 is the terminal two-entry block. CP gives at most one positive eigenvalue, and V_j 1=C_j-C_(j+1), 1^T C_j=E_j-E_(j+1).
+At j=0 the third diagonal is E_2 because deleting a releases precisely b among points not above x or y. At j=1 the third diagonal is zero because deleting b cannot release a point while both x,y are still absent.
+The S103 retained-curvature decomposition applies to these ACTUAL blocks and correctly handles zero curvature. It proves the normalized two-entry square at its specified weights.
+However C_j records the first encounter of x/y after a B prefix. It does not by itself give the full marginals P(a<x), P(b<x), etc., once y has appeared before x: arbitrary y-side descendants can then intervene. The common block therefore has to be coupled to those post-entry fibers, not substituted for them.
+Likewise, applying the S103 gate theorem to u=b and comparator x conditions on a<x. With d=P(a<x), its probabilities become p_Q=P(b<x)/d and U_Q=U/d; it gives dU<=P(b<x)^2. This is an upper bound on a successor event, not the missing lower bound (L), and reverting p_Q to an original probability without d would be an error.
+In width three, the y-side private material before x is chain constrained, so a second coupled prefix/Schur system may control it. No complete common-weight coupling yielding a valid MC3 conclusion has been proved here; HALF is now explicitly refuted.
+
+6. ELEMENTARY ROOT-SWAP INEQUALITIES DO NOT CLOSE THE GAP
+For the twelve relative orders of {a,b,x,y}, with a<b, denote their original probabilities by N_abxy, ..., N_yxab. Prefix swaps give
+ N_abxy<=N_axby<=N_xaby, N_axyb<=N_xayb,
+ N_abyx<=N_aybx<=N_yabx, N_ayxb<=N_yaxb.
+For example in an extension of relative type abxy, its first three labels are exactly a,b,x; swapping b,x is legal. In relative type axby or axyb, its first two labels are exactly a,x; swapping these is legal. The reverse maps need not cover all target extensions because an activated branch may intervene there.
+These are correct original-law injections, but by themselves admit bad five-pair sign patterns. Thus prefix exchanges alone cannot replace the CP/realization coupling. No artificial relative-order law is being presented as a poset counterexample.
+
+CONCLUSION
+Established here: the exact full-fiber formulas; the strict survival bound (J); and the one-sided reduction to q<1/3 together with r outside [1/3,2/3]. These are analytical statements, not random-search extrapolations.
+REFUTED sufficient strengthenings: (L) and HALF. The 73-element real width-three poset in section 3 refutes (L), and hence HALF, while its (b,y) pair remains balanced. The separate HALF counterexample in section 4 has the same limited logical scope.
+Still open: the requested two-step MC3 conclusion, specifically exclusion of the two sign patterns q<1/3,r<1/3 and q<1/3,r>2/3 under the stated majority hypotheses. No real-poset counterexample to MC3 is established here. MAIN33, WIDTH3, and general MC3 are not closed. The new S103 matrix result is respected at its normalization scope and does not fill the missing cross-entry coupling automatically.

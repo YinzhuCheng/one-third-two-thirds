@@ -1,3 +1,15 @@
+## S104–S105 当前状态 · 2026-10-10
+
+**MC3 固定菜单（含两步版本）：REFUTED。** [S105 的 54 点真实宽三反例](S105/REPORT.md)满足原双多数前提，五个菜单对全部失衡；菜单外仍有真实平衡对。**MAIN33、WIDTH3、TEN40 继续 OPEN；U58 继续 UNDER_AUDIT。** 反驳固定菜单不反驳主猜想。
+[S104](S104/REPORT.md)保留已审查的双侧条件化、严格联合界与固定标签账本；HALF 和 L 两个充分加强也已被精确反驳。S104 中较早的 MC3 OPEN 状态由 S105 更新，原推理和历史证据保留。
+下一步须允许选择菜单外的实际标签，不再以证明已假菜单为目标。完整原律计数、独立审查及证据边界见 S105 报告。
+
+## S104 阶段记录 · MC3 状态已由 S105 更新
+
+[完整报告](S104/REPORT.md)：同一原律的双侧条件化给 rr'≤h²、ll'≤h²，适用于共同不可比集成链（特别是 width≤3），已通过独立研究审查。两步 MC3 的真实纤维给严格联合界 T₂<1/3。
+**HALF 与充分下界 L 均已被真实宽三偏序反驳**：16 点例反驳 HALF；73 点例反驳 L，但 (b,y) 仍平衡。因此 MAIN33/WIDTH3/MC3/TEN40 继续 OPEN，U58 继续 UNDER_AUDIT。旧 177 个 HALF 支持样本只是历史有限观察，不再支持普遍加强。
+下一步须保留两个 b 边缘与实际标签兼容性，不能继续把 L 当作必经下界。S103 平方子命题与本轮有限反例的准确范围均见报告；下方旧状态是历史，不覆盖本段。
+
 ## S103 当前增量 · 2026-10-10
 
 [完整报告](S103/REPORT.md)：共享严格下集且中性集为链的平方界，以及width≤3归一化平方dU≤p²，经路径谱与离散BL完整证明及独立研究审查通过；偏序应用条件于所列S102/Stanley/Chan–Pak输入，非外部或形式化认证。任意宽度一般候选仍OPEN。
@@ -20,4 +32,5 @@ Notion核心索引的可恢复文本见[registry/RESEARCH_CORE.md](registry/RESE
 [路线总图](02_RESEARCH_ATLAS.md) · [依赖](03_DEPENDENCIES.md) · [反例](04_FALSE_ROUTES_AND_GUARDS.md) · [优先级](05_PRIORITIES_AND_CONJECTURES.md) · [文献接口](06_LITERATURE_AND_THEOREM_MAP.md) · [本次学术检索核对](literature/TOOLCHAIN_SEARCH_20261002.md) · [审查状态](10_AUDIT_STATUS.md)
 
 [公开阅读网站](https://one-third-two-thirds.vercel.app/)可停用而不影响数学主档。成功写入或部署不表示证明已获外部审查。研究方式始终遵守[AGENTS.md](AGENTS.md)。
+
 

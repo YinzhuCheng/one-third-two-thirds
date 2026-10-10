@@ -1,0 +1,4 @@
+structured done: valid=30859 residual=5 nearest_residual=-0.231466,-0.0868396
+side=0 restart=0 valid=31452 dual=10223 residual=301 best=-0.0427307 residual_target=-0.225696 seconds=0.493917
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  MC3 counterexample: independent verification required

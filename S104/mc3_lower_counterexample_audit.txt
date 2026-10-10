@@ -1,0 +1,118 @@
+SUBSEQUENT STATUS UPDATE — S105
+The fixed MC3 menu, including its two-step version, is now REFUTED by a verified 54-point width-three poset. See ../S105/REPORT.md. MAIN33, WIDTH3 and TEN40 remain OPEN; U58 remains UNDER_AUDIT. Earlier MC3 OPEN language below is historical. The S104 arguments, auxiliary theorems and scoped counterexamples are preserved.
+
+S104 independent audit: the sufficient lower-bound strengthening (L) is REFUTED
+Date: 2026-10-10
+Status: VERIFIED REAL POSET COUNTEREXAMPLE TO (L); TWO-STEP MC3 REMAINS OPEN.
+
+1. CLAIM AND EXACT SCOPE
+(L) asserts that, under the stated two-element avoidance-chain setup,
+ P(a<x)>2/3, P(a<y)>2/3, P(x<y)>2/3 => P(b<x)>=1/3.
+This assertion is false even at width exactly three. It was a sufficient strengthening of MC3, not an equivalent reformulation. The example below does NOT refute the five-pair MC3 menu: (b,y) is strictly balanced.
+
+2. EXPLICIT POSET AND ALL STRUCTURAL HYPOTHESES
+The 73 elements are a,b,x,y,z1,...,z15,c1,...,c54.
+Take exactly the transitive closure of these generating relations:
+ a<b<c1<...<c54;
+ y<z1<...<z15;
+ a<z1; x<z2; x<c1.
+There are no other stipulated relations. The chain cover
+ {a,b,c1,...,c54}, {y,z1,...,z15}, {x}
+proves width <=3. The three minimal elements a,x,y are pairwise incomparable, proving width >=3, hence width=3. The sole strict predecessor of b is a.
+Using reflexive upper sets, every c_i is above x; z2,...,z15 are above x and y; z1 is above y; x,y are in their own upper sets. Neither a nor b is above x or y. Therefore
+ P \ (up(x) union up(y)) = {a,b}, with a<b.
+In particular x,y are minimal, and all setup hypotheses hold in the original poset.
+
+3. INDEPENDENT EXACT ALGORITHMS
+The audit script verify_L_counterexample_independent.py constructs the generating relations directly. It imports no discovering script or family formula. It checks the supplied JSON only AFTER calculating the counts.
+Method A: general ideal-bitmask recurrence. Let D(v) be the generating predecessors. For each ideal I,
+ F(I)=sum_{v not in I, D(v) subset I} F(I union {v}), F(P)=1.
+Then E=F(empty). To count u<v, rerun the same recurrence with u added to D(v). This gives exactly the linear extensions satisfying that comparison. Each reverse comparison is counted too, and the two counts sum to E.
+Method B: one forward/backward path count on the three-chain prefix lattice. Each state (i,j,k) gives a unique candidate ideal. Allowed transitions insert the next element of one chain only if its generating predecessors are present. At every edge inserting the right endpoint v with u already present, add the product of the forward count to the old state and backward count from the new state. Each extension with u<v crosses exactly one such edge. All five counts agree with Method A.
+The unrestricted ideal and chain-prefix DAGs each have 962 states. The five restricted Method-A DAGs have 960,960,943,942,957 states respectively. All arithmetic uses exact Python integers.
+
+4. SELF-CONTAINED SMALL BINOMIAL EVALUATION
+For a hand-checkable third description, classify a complete extension by the material before the first occurrence of x. No c_i or z2 can occur before x. The prefix therefore contains i in {0,1,2} elements of a,b and j in {0,1,2} elements of y,z1. The state (0,2) is impossible because a<z1.
+For each allowed state put A=56-i, Z=16-j. There are
+ f(i,j)=binom(i+j,i)-1_{j=2}
+legal prefix shuffles, and the number of suffix shuffles after x is
+ H(i,j)=binom(A+Z,A)                           if i>=1,
+ H(0,j)=binom(A+Z,A)-binom(A+Z-(2-j),A)       if i=0.
+The subtraction removes precisely the suffixes in which the initial remaining y-chain reaches z1 before a. There are no remaining cross-chain restrictions once a is already in the prefix. Thus each row has W=fH extensions.
+The columns Ay,By count respectively a<y and b<y within the row:
+ i j  W                 Ay                By
+ 0 0  3923051265255948   3201570572795084  2480089880334220
+ 0 1   721480692460864                  0                 0
+ 1 0  3201570572795084   3201570572795084  2480089880334220
+ 1 1  1442961384921728    721480692460864                 0
+ 1 2   309206011054656    154603005527328                 0
+ 2 0  2480089880334220   2480089880334220  2480089880334220
+ 2 1  1700633060800608   1133755373867072   566877686933536
+ 2 2   616171398840800    369702839304480   123234279768160
+For j>=1 the Ay and By entries are H times the number of legal prefixes with a<y or b<y, so they are obtained by listing at most five orders of a,b,y,z1. For j=0: Ay=W if i>=1, otherwise Ay=binom(A+Z-1,A-1); By=W if i=2, otherwise By=binom(A+Z-(2-i),A-(2-i)). These events force the required first one or two remaining a-chain elements before the first y-chain element, which also automatically satisfies a<z1.
+Summing W gives E; summing W over i>=1 gives K(a<x); over i=2 gives K(b<x); over j=0 gives K(x<y); the Ay and By column sums give K(a<y), K(b<y). Thus the tabulated integers are also specified by eight explicit binomial expressions, without an unbounded search or a probability normalization assumption.
+
+5. VERIFIED EXACT COUNTS AND STRICT INTEGER MARGINS
+E=e(P)=14395164266463908.
+The five K=number of satisfying complete linear extensions are, in order:
+ a<x: 9750632308747096  /E = 338/499          = 0.677354709418838
+ a<y:11262772937084132  /E = 40213/51397      = 0.782399750958227
+ b<x: 4796894339975628  /E = 17127/51397      = 0.333229565927972
+ b<y: 8130381607704356  /E = 29029/51397      = 0.564799501916454
+ x<y: 9604711718385252  /E = 34293/51397      = 0.667217931007646
+
+The three majority premises have positive 3K-2E margins:
+ a<x:  461568393313472 >0;
+ a<y: 4997990278324580 >0;
+ x<y:   23806622227940 >0.
+The proposed conclusion fails strictly:
+ 3K(b<x)-E = -4481246537024 <0.
+The rescue pair (b,y) is strictly inside the balanced interval:
+ 3K(b<y)-E  = 9995980556649160 >0;
+ 2E-3K(b<y) = 4399183709814748 >0.
+All inequalities are at the same original uniform complete-linear-extension law. None comes from a separately normalized deletion or conditioning law.
+
+6. CORRECT RESULT STATUS
+REFUTED: sufficient strengthening (L), and consequently the still-stronger HALF implication under the same three premises.
+NOT REFUTED: the requested two-step five-pair MC3 menu. This example contains its balanced pair (b,y).
+STILL VALID: the exact insertion-fiber identities, strict joint-survival bound, and one-sided reduction in mc3_two_step_proof.txt, subject to their separate audit.
+STILL OPEN: excluding both surviving genuine counterexample sign patterns after orienting p=P(x<y)>2/3:
+ q=P(b<x)<1/3 with r=P(b<y)<1/3;
+ q=P(b<x)<1/3 with r=P(b<y)>2/3.
+The two a-comparisons must also satisfy their strict >2/3 premises. Equality at 1/3 or 2/3 is already a balanced pair. A proof attempt that tries to establish universal q>=1/3 under only those premises cannot succeed.
+
+REPRODUCTION
+ python verify_L_counterexample_independent.py
+Machine-readable result: L_counterexample_independent_audit.json.
+Input claim compared only after independent computation: L_family_counterexample.json.
+
+
+7. SUBSEQUENT INDEPENDENT AUDIT OF THE INFINITE FAMILY: PASS
+Reviewed mc3_half_proof.txt in full, including its eight-cell combinatorial argument and all polynomial calculations. Reviewed snapshot SHA-256:
+5101d5bc28974a013c8cbce6c86f8f1a7c2ef573da1ee82a3c7bd9b90a070607
+This is mathematical and exact-arithmetic review, not proof-assistant formal verification.
+
+The family P(m,r), m>=1,r>=2, has exactly the structure checked in section 2 above, with variable chain lengths. The eight possible prefixes before x are exhaustive because c1 and z2 both require x and a<z1 excludes (0,2). The independent binomial construction in section 4 reproduces the stated U_j,V_j table. Legal prefix multiplicities for i=2,j=1 and i=2,j=2 are respectively 3 and 5, with a<y multiplicities 2 and 3 and b<y multiplicity 1 in each cell. The remaining six rows follow from either a being forced first in the suffix or one unrestricted chain interleaving. Each extension is counted once in exactly one cell.
+
+A separate script, verify_L_family_symbolic_independent.py, sums this table afresh, derives all six E,K formulas, and derives U_j/h by telescoping consecutive binomial ratios. It does not execute the discovering script. For m=4r-6, it verifies every degree-three polynomial in section 5, all majority and rescue slack identities, and all displayed expansions after r=u+15. The positive coefficient expansions prove the sign statements for every integer r>=15; no finite search or interpolation is used as a proof.
+
+In particular, after division by the positive common h, the exact slacks are:
+ 3K_ax-2E: 15u^3+671u^2+9986u+49440;
+ 3K_ay-2E: 216u^3+8777u^2+118781u+535350;
+ 3K_xy-2E: 45u^3+1268u^2+9113u+2550;
+ 3K_bx-E: -2u^2-62u-480;
+ 3K_by-E: 432u^3+17554u^2+237562u+1070700;
+ 2E-3K_by: 108u^3+5437u^2+88609u+471210.
+Thus all three premises hold strictly, L fails strictly, and (b,y) is strictly balanced for every r>=15. The normalization h is positive; it need not be integral, and that causes no gap because all original counts were already given by integer binomial expressions.
+
+The general-family identities
+ 2K_bx-K_ax=-5U3,
+ 3K_bx-E=2(U2-5U3)=2U3*(m-4r+5)/(r-1),
+ 3K_by-E=2(3K_ay-2E)
+were also independently verified. For the middle identity, U2/U3=(m+r)/(r-1), with positive denominator r-1. The last identity is valid for this family only; the reviewed proof correctly does not promote it to all MC3 posets.
+The smaller m=13,r=3 HALF example and the m=54,r=15 L example were both recomputed directly from binomial coefficients and match the stated six counts.
+
+ADDITIONAL REPRODUCTION
+ python verify_L_family_symbolic_independent.py
+Machine-readable result: L_family_symbolic_independent_audit.json.
+The reviewed proof and both independent audits establish an infinite family of counterexamples to sufficient strengthenings, not an MC3 counterexample or an MC3 theorem.

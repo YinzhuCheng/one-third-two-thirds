@@ -1,0 +1,69 @@
+S104 — Independent audit of Schur slack structure
+Date: 2026-10-10.
+
+VERDICT
+PASS for the typed-transition interpretation, the Delta>0 local zero criterion, strict terminal slack, and the two-chain failure of small-slack rigidity. These are limited structural results; the note does not establish interior equality classification or fixed balanced-pair extraction. The external inputs are used at their stated scope. No source correction is required for these results.
+
+Reviewed schur_slack_structure.txt SHA-256:
+d2fa62f001d105685dafa985f60d227a0bdfb4d2f16f598a30d3d60bff627761
+
+INPUTS
+Read the complete target, S103 backend_matrix_constraints.txt, backend_second_order_bl_proof.txt and its audit, and the published S102 shared_prefix_determinant_attempt.txt interfaces. Checked the following primary literature live:
+- Chan–Pak, Correlation inequalities for linear extensions, Theorem 1.1, §6.1 and §8.9:
+  https://arxiv.org/html/2211.16637v2
+- Chan–Pak, Log-concave poset inequalities, Theorems 1.39–1.40:
+  https://arxiv.org/html/2110.10740v3
+The CP inertia theorem and S103 scalar closure are retained inputs, not newly re-proved or formally certified here.
+
+1. TYPED TRANSITION LAW
+At an interior neutral-chain index, Q_j has precisely u,y,n_(j+1) minimal. A first-two-step extension either chooses two originally minimal labels or chooses a first label s and a second label newly released by s. Assigning Y=s in the latter case produces exactly the release-diagonal count. Off-diagonal counts are symmetric by swapping the two originally minimal labels. Hence the actual joint law is M=B_j/E_j, with equal row and column marginals m=B_j 1/E_j. Their three entries are positive because each of the three minima can occur first in some extension.
+
+The neutral release can only be n_(j+2): every nonneutral backend label is above u or y, both still absent, while the next neutral label is the only candidate in its chain. This identifies the third diagonal correctly.
+
+For any score t, the one-positive-direction property of B and 1^T B1=E_j>0 gives
+ (t^T B1)^2 >= (t^T Bt) E_j.
+Therefore t^T(M-mm^T)t<=0. This is a symmetric cross-covariance form between the same score evaluated on X,Y; it is not the covariance matrix of one random vector and not a nonnegative event indicator. The negative sign in the target is correct.
+
+2. ZERO CRITERION WHEN DELTA>0
+The scalar compression T=[[E_j,E_(j+1)],[E_(j+1),E_(j+2)]] has determinant -Delta and rank two. The audited identity kappa=det(B)/Delta implies kappa=0 iff B is singular. Since a rank-two compression exists, a singular three-by-three B then has rank exactly two and a one-dimensional kernel.
+
+For a kernel vector t, m^T t=1^T Bt/E_j=0. As all m_s>0,
+ E[t(Y)|X=s]=(B t)_s/(E_j m_s).
+Thus a nonzero score with the three zero conditional expectations exists exactly when kappa=0. If t_u=t_y, t lies in the two-dimensional scalar subspace spanned by 1 and e_neutral. The restriction of B there is nonsingular, so such a kernel score must be zero. Hence any nonzero kernel score can be scaled to t_u-t_y=1.
+
+This is cancellation of signed type scores. The diagonal has already summed counts over every actual label newly released by the first label. It supplies no fixed actual successor, and the target correctly refuses that inference. For Delta=0, the compatibility E_j C_(j+1)=E_(j+1) C_j is necessary and det(B)=0 is not an equality criterion. The stated separate formula for kappa is the correct one.
+
+3. TERMINAL STRICTNESS, INCLUDING N=2
+At the endpoint, u,y are exactly the two minima. Put A=e(P-u),B=e(P-y),H=e(P-u-y),F=e(P)=A+B. The diagonal release counts are A-H and B-H because after the first minimum is removed the second element is either the other original minimum or a newly released label. Thus
+ V=[[A-H,H],[H,B-H]],
+ det(V)=AB-FH,
+ kappa=-det(V)/F=H-AB/F.
+
+For N=|P|>2, the hypotheses of Chan–Pak Theorem 1.1 are met: u,y are distinct minimal elements of the same finite poset P. Its lower bound is exactly FH/(AB)>=N/(N-1). Therefore
+ kappa >= AB/((N-1)F)>0.
+For N=2, A=B=H=1,F=2 and both sides equal 1/2. No deletion-uniformity claim or irreducibility-to-nonsingularity shortcut is involved.
+
+The normalization divides by F, yielding kappa/F>=p_R(1-p_R)/(N-1), p_R=A/F. In the audited global identity, K>=0, every kappa_j>=0, and f_R>0. Consequently p^2-U>=f_R kappa_R/E>0 for every finite poset in the shared-downset/neutral-chain scope. In particular all local slacks cannot vanish simultaneously. This is not a dimension-free gap: F/E, N and the terminal marginal can all vary. It neither classifies interior kappa_j=0 nor supplies a fixed balanced pair. Under the original-law conditioning transfer the corresponding strict statement retains its factor d; it is not U_P<p_P^2 without that normalization.
+
+4. TWO-CHAIN FAMILY AND SCALE
+For C_a disjoint-union C_b, every extension is a shuffle, so E=binom(a+b,a), Pr(u<y)=a/(a+b), and the three first-two-step entries are the binomial counts in the target. The event U is exactly that the first two choices are from the u-chain, giving U=a(a-1)/(N(N-1)). Direct subtraction gives
+ p^2-U=ab/[N^2(N-1)]=p(1-p)/(N-1).
+Here the neutral chain and common downset are empty, so R=0, f_0=1 and K=0. Thus this is the entire normalized slack, and it attains the terminal lower bound. Letting a/N tend to any prescribed alpha in (0,1), or taking one chain of length one, proves the claimed failure of a dimension-free small-slack balance implication for the designated entry pair.
+
+Appending an ordinal upper tail T gives a bijection LE(Q plus T)=LE(Q) times LE(T). The first-two-step counts in question and E are all multiplied by e(T), including the terminal two-point case. The same homogeneity multiplies kappa, while normalized quantities remain unchanged. This supports the stated scale caution and does not purport to recover labels in T.
+
+5. LITERATURE EQUALITY SCOPE
+Chan–Pak §8.9 expressly leaves the equality cases of that paper's correlation inequalities unexplored. Theorems 1.39–1.40 of the other cited paper classify equality in the three adjacent rank counts of one designated element, with a weighted variant. They do not, as stated, classify an arbitrary signed kernel direction of the three-type first-two-step block.
+
+The marker obstruction is independently exact: for an isolated marker z adjoined to any poset P, placing z at any fixed rank gives a bijection with LE(P). All rank counts equal e(P), so the marker's rank-log-concavity equality is automatic even when the terminal slack of P is strict. A new kernel-identification theorem would be needed to transfer a rank-equality classification to the present Schur direction. The note correctly makes no such transfer or claim that all relevant equality literature has been exhausted.
+
+6. REPRODUCED FINITE DIAGNOSTIC
+Re-ran the exact supplied probe_schur_equality.py (SHA-256 7534fb56390fcda68d0445bb94c494f88dd85d3012617e5b8b09972394639486). It completed all 40000 prescribed seeded trials, reported no zero determinants, and reproduced the same minimum example. Independently recounted that displayed example by subset ideal DP:
+ E=971568,
+ B=[[685080,68508,68508],[68508,0,6228],[68508,6228,0]],
+ det(B)=31887446494464,
+ det(B)/E^3=11/316368.
+The generator indeed gives exactly three minima, sizes 3 through 13, and computes true release counts. This is a reproducible finite, biased screen, not a universal positivity proof or an interior equality classification.
+
+FINAL STATUS
+The precise proved conclusions survive independent review. Terminal strictness and small-slack nonrigidity coexist. Interior zero-slack classification, quantitative stability beyond these bounds, and fixed-label balanced-pair extraction remain unresolved in this note.

@@ -1,0 +1,5 @@
+n=2: 2 posets; cumulative all pairs=1, eligible pairs=1
+n=3: 7 posets; cumulative all pairs=12, eligible pairs=12
+n=4: 40 posets; cumulative all pairs=142, eligible pairs=136
+n=5: 357 posets; cumulative all pairs=2126, eligible pairs=1828
+PASS: 406 posets, 2126 structural pairs, 1828 neutral-chain pairs; six-point and rational-relaxation examples exact.

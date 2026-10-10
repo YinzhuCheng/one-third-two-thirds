@@ -1,0 +1,114 @@
+S105 — The proposed two-step MC3 fixed menu is FALSE
+A self-contained binomial counting proof for the 72-element counterexample
+Date: 2026-10-10.
+Status: SELF-CONTAINED FINITE COUNTEREXAMPLE PROOF; an independent reading reviewed the binomial counts, insertion weights, and swap bijection and found the stated counting argument valid.
+
+RESULT FIRST
+There exists a width-three poset with minimal x,y and
+  P \ (up(x) union up(y)) = {a<b},
+with P(a<x)>2/3 and P(a<y)>2/3, for which none of
+  (a,x), (a,y), (b,x), (b,y), (x,y)
+is balanced. All five probabilities below use the same original uniform complete-linear-extension law.
+Thus the requested coupled rescue is itself false. The surviving high-side pattern q=P(b<x)<1/3, r=P(b<y)>2/3 genuinely occurs. It is not merely an artificial relative-order law, a mixture, or a counterexample to a stronger sufficient lemma.
+This refutes this precise fixed-menu two-step MC3 statement. It does not refute the 1/3–2/3 conjecture, WIDTH3, MAIN33, or any differently quantified claim called MC3. Indeed, an explicit balanced pair outside the menu is exhibited in section 5.
+
+1. THE POSET, INCLUDING EVERY GENERATING RELATION
+Use the three disjoint chains
+  x<u,
+  y<z_1<...<z_13,
+  a<b<c_1<...<c_54,
+and add precisely the three cross-chain relations
+  a<z_1,  x<c_1,  c_50<z_8.
+Take transitive closure and impose no other relations.
+There are 2+14+56=72 elements. These chains cover P, so width(P)<=3. The labels a,x,y are a three-antichain, so width(P)=3. They are all minimal. The only strict predecessor of b is a.
+Every c_i and u is above x; every y,z_i is above y. Neither a nor b is above x or y. Hence the displayed avoidance set is literally {a<b}, with upward sets including their generators. Each of the five menu pairs is incomparable in P.
+
+2. GENERAL FINITE BINOMIAL FORMULA, NOT AN INTERPOLATED FIT
+For integers m>=1, r>=1, 1<=h<=m, 1<=t<=r, use the same construction with c_1,...,c_m, z_1,...,z_r and cross relations
+  a<z_1, x<c_1, c_h<z_t.
+Let M=m+2, R=r+1, N=M+R. Thus the two long chains have lengths M,R, and P has N+2=m+r+5 elements. The concrete example uses (m,r,h,t)=(54,13,50,8), so (M,R,N)=(56,14,70).
+First erase the leaf u from a complete extension. In the resulting extension, let i be the number of a-chain elements before x, and j the number of y-chain elements before x. Since x<c_1, i belongs to {0,1,2}. Since x<c_h<z_t, j belongs to {0,...,t}. The relation a<z_1 forbids i=0,j>=2. All other cells in this index set are possible.
+
+Define S(i,j), for the suffixes used below, as the number of interleavings of the remaining two chains after i a-chain elements and j y-chain elements have been removed, subject only to c_h<z_t. Write
+  alpha=M-i, beta=R-j, H=h+2-i, T=t+1-j.
+For H,T>=1,
+  S(i,j) = sum from k=0 to T-1 of
+     binom(H+k-1,k) binom(alpha+beta-H-k,beta-k).       (1)
+Proof: classify a suffix by the number k of y-chain elements before its H-th a-chain element. That H-th a-chain element is c_h. The gate c_h<z_t is exactly k<T. Before c_h there are H-1 a-chain and k y-chain elements, in binom(H+k-1,k) orders; after c_h the remaining two chains freely interleave, giving the second factor. These classes are disjoint and exhaustive. If H=0, the gate has already been passed, and S(i,j)=binom(alpha+beta,alpha).
+
+For a cell (i,j), define raw counts C_ij, A_ij, B_ij for, respectively, its total size before reinserting u, its a<y count, and its b<y count. They are as follows:
+  i=0,j=0:
+    C_00=S(1,0)+S(1,1), A_00=S(1,0), B_00=S(2,0).
+  i=0,j=1:
+    C_01=S(1,1), A_01=B_01=0.
+  i=1,j=0:
+    C_10=A_10=S(1,0), B_10=S(2,0).
+  i=2,j=0:
+    C_20=A_20=B_20=S(2,0).
+  i=1,1<=j<=t:
+    C_1j=2 S(1,j), A_1j=S(1,j), B_1j=0.
+  i=2,1<=j<=t:
+    C_2j=(2j+1) S(2,j), A_2j=(j+1) S(2,j), B_2j=S(2,j).       (2)
+
+Here is a direct proof of every case in (2). After x has appeared and after a has appeared, all cross constraints except c_h<z_t have been satisfied, so S counts the suffix. With i=1,j>=1, the legal prefixes before x are exactly a,y,z_1,... and y,a,z_1,...; one has a<y and neither has b<y. With i=2,j>=1, a can occur before y or immediately after y. In the first case b has j+1 possible positions in the y-chain prefix, and in the second case it has j possible positions. Thus there are 2j+1 prefixes, j+1 with a<y and one with b<y. The j=0 cases follow by taking the displayed initial a-chain prefix. In (1,0), asking b<y makes the first suffix label b, leaving S(2,0).
+For (0,0), x is first. The next label of the two long chains is either a, leaving S(1,0), or y followed necessarily by a, leaving S(1,1). The event a<y selects the first branch, and b<y forces a,b as the first two suffix labels, leaving S(2,0). In (0,1), the prefix is y,x and a must be the next long-chain label, leaving S(1,1). This proves the table without any probability renormalization.
+
+Finally reinsert u. Its only order requirement is x<u. There are exactly
+  w_ij=N-i-j+1                                                   (3)
+slots after x in each erased extension from cell (i,j). Hence the cell contributes w_ij C_ij complete extensions of P, w_ij A_ij with a<y, and w_ij B_ij with b<y. The factor is constant within the cell, not constant across cells; retaining it is essential.
+Writing K_vw for the original number of complete extensions with v<w, we therefore have exactly
+  E=e(P)=sum w_ij C_ij,
+  K_ax=sum over i>=1 of w_ij C_ij,
+  K_ay=sum w_ij A_ij,
+  K_bx=sum over i=2 of w_ij C_ij,
+  K_by=sum w_ij B_ij,
+  K_xy=sum over j=0 of w_ij C_ij.                              (4)
+Equations (1)–(4) are a bijective counting proof, valid before any numerical evaluation. They neither enumerate order ideals nor use the search implementation.
+
+3. EXACT CERTIFICATE AND STRICT SIGNS
+Substituting (m,r,h,t)=(54,13,50,8) in (1)–(4) gives
+  E=137477769300297,
+  K_ax=91743653083395,
+  K_ay=117303434549811,
+  K_bx=45491483154535,
+  K_by=97129099799325,
+  K_xy=106960274991892.
+The probabilities, for orientation only, are approximately
+  (0.6673344611, 0.8532538399, 0.3309006495, 0.7065076797, 0.7780186974).
+The exact strict-majority margins are
+  3K_ax-2E=275420649591>0,
+  3K_ay-2E=76954765048839>0,
+  3K_by-2E=16431760797381>0,
+  3K_xy-2E=45925286375082>0.
+The exact minority margin is
+  E-3K_bx=1003319836692>0.
+Consequently both required a comparisons exceed 2/3, the entry orientation x<y exceeds 2/3, b<x is below 1/3, and b<y exceeds 2/3. Every menu comparison is strictly outside the closed balanced interval [1/3,2/3]. No numerical precision or boundary convention enters this conclusion.
+
+4. A COUPLING IDENTITY SURVIVES BUT DOES NOT RESCUE THE MENU
+In this poset family,
+  K_by=2K_ay-E.                                               (5)
+There is a direct original-law involution proving (5). Exchanging the actual labels a and y maps the extensions with y<a bijectively onto the extensions with a<y<b.
+For the forward map, between y and a there cannot be a y-successor: every strict y-successor is above a. Moving y later therefore causes no violation; moving a earlier cannot violate a predecessor because a is minimal. The image has a<y<b since b originally followed a. For the inverse map, between a and y there cannot be any a-successor: every strict a-successor is either b or above b, or a strict y-successor; the former are excluded by y<b and the latter by their requirement to follow y. Thus exchanging a and y again is legal.
+The two disjoint parts of {a<y} are {b<y} and {a<y<b}, and the latter has the same size as {y<a}; (5) follows. In the certificate, 2K_ay-E is exactly 97129099799325.
+This identity forces b<y>1/3 from a<y>2/3, but it equally forces b<y>2/3 when a<y>5/6. Here a<y is approximately 0.85325>5/6. Thus a correct lower-side coupling can coexist with a genuine high-side failure. The family identity is not a missing universal upper rescue bound.
+
+5. A BALANCED PAIR OUTSIDE THE MENU
+The pair (c_1,y) is incomparable. To have c_1 before y, a cell must have j=0. In each of i=0,1,2 the remaining initial a-chain labels through c_1 must precede y, after which there are S(3,0) possible suffixes. Reinserting u gives the respective factors N+1,N,N-1. Therefore
+  K_c1y=3N S(3,0)=79885668970800.
+In the same original law,
+  3K_c1y-E=102179237612103>0,
+  2E-3K_c1y=35298531688194>0.
+Hence P(c_1<y) is approximately 0.5810806313, strictly balanced. This concretely demonstrates that the counterexample concerns the five-label selection menu, not the existence of a balanced pair in this poset.
+
+6. SCOPE, KNOWN INPUTS, AND REMAINING BOUNDARIES
+This proof is self-contained finite counting. It needs no CP theorem, XYZ inequality, S103 square theorem, asymptotic estimate, or finite-search extrapolation. Discovery was made by a separate S105 exact search. This author reconstructed the complete counts from the independent binomial partition above.
+The S103 normalized square and the S104 original-law reductions remain valid at their stated interfaces. In particular, the earlier reduction to q<1/3 and either r<1/3 or r>2/3 is compatible with this example; this example realizes its second residual region. No legitimate theorem at those interfaces can imply the now-refuted full menu claim without an additional hypothesis.
+The implication ruling out the low-low region may still merit separate study. It is not proved or refuted by this high-side example. A trial unconditional linear inequality 3P(a<x)+2P(x<y)-P(b<y)<=3 was independently refuted by an independent search; the finite deadline-fiber evidence that motivated it must not be used as a theorem.
+The specialized two-tail rescue theorem proved separately in S105 has independently passed audit. The present counterexample does satisfy x<z_8, by the path x<c_50<z_8. It lies outside that theorem’s precisely defined family because of its extra x-successor u and additional remote gate c_50<z_8. Merely retaining an x<z_s relation is not sufficient to invoke the special-family theorem. MAIN33, WIDTH3 and general existence of a balanced pair remain OPEN here.
+
+7. REPRODUCTION ARTIFACTS
+  verify_gated_family_binomial.py
+    Standalone Python integer-binomial implementation of (1)–(4), asserting the exact E and five K values, all required strict signs, identity (5), and the balanced pair in section 5. It imports no search or DP implementation.
+  gated_family_binomial_certificate.json
+    Exact parameter values, E, K, strict margins, K_c1y, and all 20 weighted prefix-cell counts. The row data are sufficient to check each sum directly.
+A smaller n=54 ungated example was subsequently found by an independent search and is handled separately. No global minimality claim is made for the present n=72 witness.

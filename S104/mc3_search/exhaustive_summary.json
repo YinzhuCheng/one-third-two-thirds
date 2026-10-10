@@ -1,0 +1,38 @@
+{
+  "n_max": 7,
+  "results": [
+    {
+      "n": 4,
+      "naturally_labeled_posets": 40,
+      "eligible_pair_instances": 6,
+      "premise_instances": 0,
+      "good_histogram": {}
+    },
+    {
+      "n": 5,
+      "naturally_labeled_posets": 357,
+      "eligible_pair_instances": 95,
+      "premise_instances": 0,
+      "good_histogram": {}
+    },
+    {
+      "n": 6,
+      "naturally_labeled_posets": 4824,
+      "eligible_pair_instances": 1392,
+      "premise_instances": 15,
+      "good_histogram": {
+        "[2, 3, 4]": 15
+      }
+    },
+    {
+      "n": 7,
+      "naturally_labeled_posets": 96428,
+      "eligible_pair_instances": 21605,
+      "premise_instances": 369,
+      "good_histogram": {
+        "[2, 3, 4]": 369
+      }
+    }
+  ],
+  "seconds": 2.2161264419555664
+}
