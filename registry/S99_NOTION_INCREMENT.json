@@ -1,0 +1,233 @@
+{
+  "round": "S99",
+  "date": "2026-10-10",
+  "repository": "YinzhuCheng/one-third-two-thirds",
+  "parent_sha": "f6b7ba94a6954b5f25ef63fdb2ee52a936d6fc25",
+  "math_commit_sha": "d8508f588cee06a9711f7ee0a1d7fc292c9afc70",
+  "math_commit_url": "https://github.com/YinzhuCheng/one-third-two-thirds/commit/d8508f588cee06a9711f7ee0a1d7fc292c9afc70",
+  "original_law": "Uniform complete linear extensions of the specified original finite poset; conditional models labeled separately.",
+  "claims": [
+    {
+      "key": "S99-RELEASE-SQUARE",
+      "id": "3f505a5b-7caa-81b3-8c8d-c86a4ddd967d",
+      "url": "https://app.notion.com/p/3f505a5b7caa81b38c8dc86a4ddd967d",
+      "readback": {
+        "url": "https://app.notion.com/3f505a5b7caa81b38c8dc86a4ddd967d",
+        "Key": "S99-RELEASE-SQUARE",
+        "State": "PROOF_DRAFT",
+        "Canonical": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/d8508f588cee06a9711f7ee0a1d7fc292c9afc70/S99/notes/PROOF.md",
+        "Uses": "[\"https://app.notion.com/3f205a5b7caa81b8b9b5c009c4e06600\",\"https://app.notion.com/3f205a5b7caa814ba535ff46ff764d24\"]",
+        "Used by": null,
+        "Guards": "[\"https://app.notion.com/3f505a5b7caa81438251e722fe71aa88\",\"https://app.notion.com/3f505a5b7caa816b9bfcd4196dfc439a\"]"
+      }
+    },
+    {
+      "key": "S99-PREDECESSOR-GATE",
+      "id": "3f505a5b-7caa-81b3-adfb-f310ab025c60",
+      "url": "https://app.notion.com/p/3f505a5b7caa81b3adfbf310ab025c60",
+      "readback": {
+        "url": "https://app.notion.com/3f505a5b7caa81b3adfbf310ab025c60",
+        "Key": "S99-PREDECESSOR-GATE",
+        "State": "PROOF_DRAFT",
+        "Canonical": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/d8508f588cee06a9711f7ee0a1d7fc292c9afc70/S99/notes/PROOF.md",
+        "Uses": null,
+        "Used by": "[\"https://app.notion.com/3f505a5b7caa81308d66d5fddb04ce4c\"]",
+        "Guards": "[\"https://app.notion.com/3f505a5b7caa81b7b0b9ef1fc993238e\",\"https://app.notion.com/3f505a5b7caa81438251e722fe71aa88\"]"
+      }
+    },
+    {
+      "key": "S99-MAJORITY-FORK",
+      "id": "3f505a5b-7caa-8130-8d66-d5fddb04ce4c",
+      "url": "https://app.notion.com/p/3f505a5b7caa81308d66d5fddb04ce4c",
+      "readback": {
+        "url": "https://app.notion.com/3f505a5b7caa81308d66d5fddb04ce4c",
+        "Key": "S99-MAJORITY-FORK",
+        "State": "PROOF_DRAFT",
+        "Canonical": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/d8508f588cee06a9711f7ee0a1d7fc292c9afc70/S99/notes/PROOF.md",
+        "Uses": "[\"https://app.notion.com/3f505a5b7caa81b3adfbf310ab025c60\"]",
+        "Used by": null,
+        "Guards": "[\"https://app.notion.com/3f505a5b7caa81b7b0b9ef1fc993238e\"]"
+      }
+    },
+    {
+      "key": "S99-MC3-R1",
+      "id": "3f505a5b-7caa-812a-a250-ed867c82cbd5",
+      "url": "https://app.notion.com/p/3f505a5b7caa812aa250ed867c82cbd5",
+      "readback": {
+        "url": "https://app.notion.com/3f505a5b7caa812aa250ed867c82cbd5",
+        "Key": "S99-MC3-R1",
+        "State": "PROOF_DRAFT",
+        "Canonical": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/d8508f588cee06a9711f7ee0a1d7fc292c9afc70/S99/notes/MC3_R1.md",
+        "Uses": null,
+        "Used by": null,
+        "Guards": "[\"https://app.notion.com/3f505a5b7caa816b9bfcd4196dfc439a\"]"
+      }
+    },
+    {
+      "key": "S99-GOOD-PAIR-INTERFACE",
+      "id": "3f505a5b-7caa-8105-bc54-d39117d13cec",
+      "url": "https://app.notion.com/p/3f505a5b7caa8105bc54d39117d13cec",
+      "readback": {
+        "url": "https://app.notion.com/3f505a5b7caa8105bc54d39117d13cec",
+        "Key": "S99-GOOD-PAIR-INTERFACE",
+        "State": "KNOWN_COROLLARY",
+        "Canonical": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/d8508f588cee06a9711f7ee0a1d7fc292c9afc70/S99/notes/PROOF.md",
+        "Uses": null,
+        "Used by": null,
+        "Guards": null
+      }
+    },
+    {
+      "key": "S99-GATE-SQUARE-OPEN",
+      "id": "3f505a5b-7caa-818a-96c4-c0a219290f06",
+      "url": "https://app.notion.com/p/3f505a5b7caa818a96c4c0a219290f06",
+      "readback": {
+        "url": "https://app.notion.com/3f505a5b7caa818a96c4c0a219290f06",
+        "Key": "S99-GATE-SQUARE-OPEN",
+        "State": "OPEN",
+        "Canonical": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/d8508f588cee06a9711f7ee0a1d7fc292c9afc70/S99/notes/PROOF.md",
+        "Uses": null,
+        "Used by": null,
+        "Guards": "[\"https://app.notion.com/3f505a5b7caa81438251e722fe71aa88\"]"
+      }
+    }
+  ],
+  "guards": [
+    {
+      "key": "S99-FIXED-MINIMUM-GUARD",
+      "id": "3f505a5b-7caa-81b7-b0b9-ef1fc993238e",
+      "url": "https://app.notion.com/p/3f505a5b7caa81b7b0b9ef1fc993238e",
+      "readback": {
+        "url": "https://app.notion.com/3f505a5b7caa81b7b0b9ef1fc993238e",
+        "Key": "S99-FIXED-MINIMUM-GUARD",
+        "Kind": "FINITE_POSET",
+        "Canonical": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/d8508f588cee06a9711f7ee0a1d7fc292c9afc70/S99/notes/PROOF.md",
+        "Claims": "[\"https://app.notion.com/3f505a5b7caa81308d66d5fddb04ce4c\",\"https://app.notion.com/3f505a5b7caa81b3adfbf310ab025c60\"]"
+      }
+    },
+    {
+      "key": "S99-NONMINIMAL-SQUARE-GUARD",
+      "id": "3f505a5b-7caa-8143-8251-e722fe71aa88",
+      "url": "https://app.notion.com/p/3f505a5b7caa81438251e722fe71aa88",
+      "readback": {
+        "url": "https://app.notion.com/3f505a5b7caa81438251e722fe71aa88",
+        "Key": "S99-NONMINIMAL-SQUARE-GUARD",
+        "Kind": "FINITE_POSET",
+        "Canonical": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/d8508f588cee06a9711f7ee0a1d7fc292c9afc70/S99/notes/PROOF.md",
+        "Claims": "[\"https://app.notion.com/3f505a5b7caa81b38c8dc86a4ddd967d\",\"https://app.notion.com/3f505a5b7caa81b3adfbf310ab025c60\",\"https://app.notion.com/3f505a5b7caa818a96c4c0a219290f06\"]"
+      }
+    },
+    {
+      "key": "S99-NO-UNIFORM-MENU-MARGIN",
+      "id": "3f505a5b-7caa-816b-9bfc-d4196dfc439a",
+      "url": "https://app.notion.com/p/3f505a5b7caa816b9bfcd4196dfc439a",
+      "readback": {
+        "url": "https://app.notion.com/3f505a5b7caa816b9bfcd4196dfc439a",
+        "Key": "S99-NO-UNIFORM-MENU-MARGIN",
+        "Kind": "FINITE_POSET",
+        "Canonical": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/d8508f588cee06a9711f7ee0a1d7fc292c9afc70/S99/notes/EARLY_JUMP_FAMILY.md",
+        "Claims": "[\"https://app.notion.com/3ee05a5b7caa8123a258c5cb8ab0e2c2\",\"https://app.notion.com/3f505a5b7caa812aa250ed867c82cbd5\",\"https://app.notion.com/3f505a5b7caa81b38c8dc86a4ddd967d\"]"
+      }
+    }
+  ],
+  "overview": {
+    "id": "3f505a5b-7caa-8156-ac52-fff6f1af1def",
+    "url": "https://app.notion.com/p/3f505a5b7caa8156ac52fff6f1af1def"
+  },
+  "updated_existing": [
+    {
+      "id": "3ed05a5b-7caa-8199-97e4-d1db6d3c7dec",
+      "role": "Research home; S99 latest entry; S96 heading marked historical"
+    },
+    {
+      "id": "3ed05a5b-7caa-81b5-b59c-e796aef97550",
+      "role": "R-LOCAL current route and stop rules"
+    },
+    {
+      "id": "3ee05a5b-7caa-8123-a258-c5cb8ab0e2c2",
+      "role": "MC3 remains OPEN; R1 and no-uniform-margin boundaries"
+    },
+    {
+      "id": "3f205a5b-7caa-8118-96e3-f9136decb54a",
+      "role": "CP first-two and double-insertion attribution"
+    },
+    {
+      "id": "3ed05a5b-7caa-81b3-ad04-e5d39bc6ab6e",
+      "role": "Zaguia good-pair proof-section source checked"
+    },
+    {
+      "id": "3ed05a5b-7caa-8108-bb71-e2919a7a6ebc",
+      "role": "Aires–Kahn Theorem2.1 XYZ statement checked"
+    }
+  ],
+  "verification": {
+    "github_math_ref_updated": true,
+    "github_main_proof_matches_local": true,
+    "notion_structural_pages_read_back": [
+      {
+        "id": "3ed05a5b-7caa-8199-97e4-d1db6d3c7dec",
+        "s99Present": true,
+        "truncated": false,
+        "unknown_block_count": null,
+        "hasContent": true
+      },
+      {
+        "id": "3ed05a5b-7caa-81b5-b59c-e796aef97550",
+        "s99Present": true,
+        "truncated": false,
+        "unknown_block_count": null,
+        "hasContent": true
+      },
+      {
+        "id": "3ee05a5b-7caa-8123-a258-c5cb8ab0e2c2",
+        "s99Present": true,
+        "truncated": false,
+        "unknown_block_count": null,
+        "hasContent": true
+      },
+      {
+        "id": "3f205a5b-7caa-8118-96e3-f9136decb54a",
+        "s99Present": true,
+        "truncated": false,
+        "unknown_block_count": null,
+        "hasContent": true
+      },
+      {
+        "id": "3ed05a5b-7caa-81b3-ad04-e5d39bc6ab6e",
+        "s99Present": true,
+        "truncated": false,
+        "unknown_block_count": null,
+        "hasContent": true
+      },
+      {
+        "id": "3ed05a5b-7caa-8108-bb71-e2919a7a6ebc",
+        "s99Present": true,
+        "truncated": false,
+        "unknown_block_count": null,
+        "hasContent": true
+      },
+      {
+        "id": "3f505a5b-7caa-8156-ac52-fff6f1af1def",
+        "s99Present": true,
+        "truncated": false,
+        "unknown_block_count": null,
+        "hasContent": true
+      },
+      {
+        "id": "3f505a5b-7caa-8130-8d66-d5fddb04ce4c",
+        "s99Present": true,
+        "truncated": false,
+        "unknown_block_count": null,
+        "hasContent": true
+      }
+    ],
+    "notion_existing_home_child_links_preserved": true,
+    "claim_state_counts": {
+      "PROOF_DRAFT": 4,
+      "KNOWN_COROLLARY": 1,
+      "OPEN": 1
+    },
+    "guards_finite_poset_count": 3,
+    "note": "No external peer-review, originality, global conjecture proof, or exhaustive computation claimed."
+  }
+}
