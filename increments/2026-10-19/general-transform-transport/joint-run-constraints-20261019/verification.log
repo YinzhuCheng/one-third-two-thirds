@@ -1,0 +1,15 @@
+C1+1+1 e= 6 nested pairs= 27 PASS
+C2+1 e= 3 nested pairs= 18 PASS
+C2+2 e= 6 nested pairs= 36 PASS
+C2+3 e= 10 nested pairs= 60 PASS
+C2+2+1 e= 30 nested pairs= 108 PASS
+C3+3 e= 20 nested pairs= 100 PASS
+C2+3+1 e= 60 nested pairs= 180 PASS
+C2+2+2 e= 90 nested pairs= 216 PASS
+C3+2+2 e= 210 nested pairs= 360 PASS
+C1+1+1+1 e= 24 nested pairs= 81 PASS
+fork-tail+isolate e= 10 nested pairs= 60 PASS
+asymmetric-twofork e= 16 nested pairs= 84 PASS
+{'actual_original_structures': 12, 'direct_augmented_structures': 3, 'nonactual_contrast': 1, 'nested_pairs_checked': 1330, 'all_actual_checks': 'PASS'}
+direct counts 40
+fake {'joint': [[0, 2, '3/8'], [0, 3, '1/8'], [1, 1, '1/4'], [2, 2, '1/8'], [2, 3, '1/8']], 'qX': ['1', '1/2', '1/4'], 'qY': ['1', '1', '3/4', '1/4'], 'MX': ['1', '3/4', '1/4'], 'MY': ['1', '2', '5/4', '1/4'], 'a': ['3', '7/8', '3/8'], 'b': ['1', '3/2', '5/4', '1/2'], 'a_LC_gap': '-23/64', 'r': '3/4', 's': '2', 'N': '9/4', 'T_slack': '21/16'}

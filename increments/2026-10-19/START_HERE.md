@@ -6,6 +6,7 @@
 
 ## 最快阅读路径
 
+0. [端点分支、联合 run、真实接口与两尺度的新接续](general-transform-transport/JOINT_BOUNDARY.md)：四份最终稿与两份承重独审 PASS。先读三禁矩形／双理想分离，再读合法 marker 联合必要条件、F_m 族内接口实现与固定两组尺度的 δ→1/2。general slot T、任意模块实现和一般多尺度仍开放；chain+2 只定位端点机制分类，不作新全局排除。
 1. [组合变换、run 矩与反向分支的新接续](general-transform-transport/COMPOSED_TRANSPORT.md)：四份新稿与两份最终独审 PASS。先把多模块误差压到两端，再用嵌套统计接口、run 尾／矩通道和关系分支证书组合；固定条件与尚未证明的覆盖 gap 见短导读。
 2. [一般变换四路总览](general-transform-transport/README.md)：固定正权链代换、模块替换、局部对偶、关系编辑。四份最终主稿与两组承重独审均PASS，范围以各稿精确量词为准。
 3. [放大与递降本日总览](amplification-and-descent/README.md)：固定外层等长链代换的δ→1/2、rank-CDF障碍、共同TV/方向锥/同核的条件归并，以及24个冻结actual结构的有限阴性诊断。
@@ -13,6 +14,10 @@
 5. 要追溯上述输入，按下列主题读旧一天增量，不需要重载整个仓库。
 
 ## 已保存的机制与精确边界
+
+### 端点证书与真实联合边界新接续（2026-10-19）
+
+- [四路短导读与量词边界](general-transform-transport/JOINT_BOUNDARY.md)：三禁矩形 iff 仅针对所定义真实端点证书图；联合 marker 给必要条件而非 general slot T；真实接口充要分类只限 Cℓ⊔A_(m−ℓ)；两尺度要求固定 P/S/正系数与共同 k→∞、k=o(m)。四稿／两独审最终 PASS，未重跑实验，原 OPEN 与 35/55 不变，无文献新颖性或新全局排除主张。
 
 ### 组合传递新接续（2026-10-19）
 
