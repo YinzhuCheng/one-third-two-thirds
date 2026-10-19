@@ -1,0 +1,34 @@
+{
+  "scope": "Two fixed new actual-poset controls only; not an enumeration of poset space.",
+  "structure": {
+    "D": "Antichain {a,b,c}",
+    "I": "{y,z} antichain; y is completely isolated",
+    "relations": "a<z; every D element is below every C_m element; every D,C_m,z element is below every element of the 30-point chain U; the C_m and U elements have their chain orders. No other comparabilities except transitive consequences."
+  },
+  "method": "Enumerate only the 5/6-point core D+C_m+z, append the fixed U chain, and insert isolated y in every slot. The sum of the rank of a in core words counts the failures y<a.",
+  "difference_m2_minus_m1": "-1/5994",
+  "results": [
+    {
+      "d": 3,
+      "n_U_chain": 30,
+      "m": 1,
+      "tiny_core_vertices": 5,
+      "tiny_core_LE_count": 18,
+      "actual_total_LE": 648,
+      "event_a_before_y_LE": 616,
+      "probability": "77/81",
+      "failure_rank_sum": 32
+    },
+    {
+      "d": 3,
+      "n_U_chain": 30,
+      "m": 2,
+      "tiny_core_vertices": 6,
+      "tiny_core_LE_count": 24,
+      "actual_total_LE": 888,
+      "event_a_before_y_LE": 844,
+      "probability": "211/222",
+      "failure_rank_sum": 44
+    }
+  ]
+}

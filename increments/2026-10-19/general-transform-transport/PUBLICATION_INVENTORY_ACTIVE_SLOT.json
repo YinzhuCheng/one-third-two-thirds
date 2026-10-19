@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-19",
+  "manuscripts_final_analytic_review": "PASS, both new manuscripts",
+  "literature_status": "Source-grounded comparison; no novelty certification or executed effective threshold.",
+  "historical_dependency_status": "Original text and original time-local claims retained; no blanket new PASS assigned to dependency supplements.",
+  "files": [
+    {
+      "path": "increments/2026-10-19/START_HERE.md",
+      "bytes": 14145
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/ACTIVE_THRESHOLDS_AND_SLOT_INTERLACING.md",
+      "bytes": 6465
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/INHERITED_INPUTS_ACTIVE_SLOT.md",
+      "bytes": 3893
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/PUBLICATION_INVENTORY_ACTIVE_SLOT.json",
+      "bytes": 2658
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/PUBLICATION_SCOPE_ACTIVE_SLOT.md",
+      "bytes": 1746
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/active-threshold-certificates-20261019/RESULT.md",
+      "bytes": 29281
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/chain-blowup-literature-20261019/RESULT.md",
+      "bytes": 9404
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/dependencies/two-neighbor-count-constraints-20261018/RESULT.md",
+      "bytes": 9683
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/dependencies/two-neighbor-endpoint-kernel-20261018/RESULT.md",
+      "bytes": 9826
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-active-slot-extensions-20261019/REVIEW.md",
+      "bytes": 14703
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-active-slot-extensions-20261019/independent_cross_control.json",
+      "bytes": 1187
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/run-covariance-literature-20261019/RESULT.md",
+      "bytes": 15869
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/slot-theorem-consequences-20261019/RESULT.md",
+      "bytes": 19943
+    }
+  ],
+  "experiments_rerun_for_sync": false,
+  "quantifier_elimination_executed": false,
+  "numeric_active_threshold_computed": false,
+  "candidate_box_actually_enumerated": false,
+  "hash_gate_added": false,
+  "controls": "Two preselected new tiny-core audit controls only; not exhaustive poset-space evidence.",
+  "omitted": [
+    "temporary plans",
+    "internal conversation",
+    "raw public-source copies",
+    "caches",
+    "duplicate prior packages",
+    "old large tables"
+  ],
+  "global_status": "Original conjecture OPEN; original 35/55 ledger unchanged."
+}
