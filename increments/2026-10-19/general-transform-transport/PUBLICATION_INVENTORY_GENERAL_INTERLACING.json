@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-19",
+  "manuscripts_final_analytic_review": "PASS, both complete new manuscripts",
+  "strict_mechanism_second_independent_review": "PASS",
+  "literature_status": "Application derivation using classical Shepp anchored-coordinate FKG; no novelty certification. Shepp 1982 original PDF not checked page by page; complete reconstruction checked.",
+  "inherited_inputs_status": "Pinned historical GitHub references; no blanket new PASS assigned to prior dependencies.",
+  "files": [
+    {
+      "path": "increments/2026-10-19/START_HERE.md",
+      "bytes": 15544
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/GENERAL_CHAIN_INTERLACING_AND_TRANSPORT.md",
+      "bytes": 5517
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/INHERITED_INPUTS_GENERAL_INTERLACING.md",
+      "bytes": 1537
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/PUBLICATION_SCOPE_GENERAL_INTERLACING.md",
+      "bytes": 3078
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/chain-interlacing-literature-20261019/RESULT.md",
+      "bytes": 9893
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/general-chain-interlacing-20261019/RESULT.md",
+      "bytes": 11518
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/general-interlacing-tests-20261019/BUDGET.md",
+      "bytes": 1511
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/general-interlacing-tests-20261019/RESULT.md",
+      "bytes": 5907
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/general-interlacing-tests-20261019/minimum_gap_certificate.json",
+      "bytes": 1466
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/general-interlacing-tests-20261019/minimum_gap_independent_check.json",
+      "bytes": 956
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/general-interlacing-tests-20261019/summary.json",
+      "bytes": 676
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/general-interlacing-tests-20261019/test_actual.py",
+      "bytes": 10784
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/general-interlacing-tests-20261019/verify_minimum_independently.py",
+      "bytes": 1663
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/general-interlacing-tests-20261019/write_certificates.py",
+      "bytes": 3436
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/insertion-transport-criteria-20261019/RESULT.md",
+      "bytes": 21535
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-general-insertion-20261019/REVIEW.md",
+      "bytes": 15090
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-general-insertion-20261019/independent_crossed_column.json",
+      "bytes": 4031
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-general-insertion-20261019/independent_transport_check.json",
+      "bytes": 6220
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-general-insertion-20261019/independent_transport_check.py",
+      "bytes": 3728
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-strict-interlacing-20261019/REVIEW.md",
+      "bytes": 5632
+    }
+  ],
+  "experiments_rerun_for_sync": false,
+  "tiny_controls": 84,
+  "clone_controls": 16,
+  "small_controls_total": 100,
+  "separate_minimum_gap_count_checks": 5,
+  "general_theorem_supported_by": "Complete analytic proof, not finite experiments.",
+  "omitted": [
+    "complete large relation table",
+    "all exact-count arrays",
+    "regenerable parameter manifest and per-case results",
+    "execution logs",
+    "temporary plans",
+    "internal conversation",
+    "third-party paper copies",
+    "caches",
+    "duplicate prior packages"
+  ],
+  "omitted_complete_data_local_source": "/workspace/shared/general-interlacing-tests-20261019/",
+  "omitted_complete_data_reproducible_with_included_scripts": true,
+  "hash_gate_added": false,
+  "global_status": "Original conjecture OPEN; original 35/55 ledger unchanged."
+}

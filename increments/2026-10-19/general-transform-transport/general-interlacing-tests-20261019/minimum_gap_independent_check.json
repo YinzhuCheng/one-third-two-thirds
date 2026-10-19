@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "method": "Full labeled bitmask ideal DP, no compressed transfer recurrence",
+  "checks": [
+    {
+      "m": 767,
+      "added_pair": null,
+      "count": "201076840840212480",
+      "ideal_states": 5585,
+      "seconds": 0.6317648887634277
+    },
+    {
+      "m": 768,
+      "added_pair": null,
+      "count": "202600518647151936",
+      "ideal_states": 5592,
+      "seconds": 0.523223876953125
+    },
+    {
+      "m": 767,
+      "added_pair": [
+        "c767",
+        "x0"
+      ],
+      "count": "576",
+      "ideal_states": 868,
+      "seconds": 0.08582258224487305
+    },
+    {
+      "m": 768,
+      "added_pair": [
+        "c767",
+        "x0"
+      ],
+      "count": "4032",
+      "ideal_states": 875,
+      "seconds": 0.0783848762512207
+    },
+    {
+      "m": 768,
+      "added_pair": [
+        "c768",
+        "x0"
+      ],
+      "count": "576",
+      "ideal_states": 869,
+      "seconds": 0.08500170707702637
+    }
+  ]
+}

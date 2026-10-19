@@ -1,0 +1,36 @@
+{
+  "status": "NO_FAILURE_IN_FROZEN_BUDGET",
+  "outer_families": 28,
+  "adjacent_length_comparisons": 2016,
+  "strict_inequalities": 3084480,
+  "tiny_independent_controls": 84,
+  "elapsed_seconds": 13.244788646697998,
+  "m_values": [
+    1,
+    3,
+    11,
+    47,
+    191,
+    767
+  ],
+  "ratios": [
+    [
+      3,
+      3
+    ],
+    [
+      23,
+      1
+    ],
+    [
+      1,
+      23
+    ]
+  ],
+  "clone_multiplicity_independent_controls": 16,
+  "literal_labeled_relation_distinct_instances": 336,
+  "outside_parameter_instances": 336,
+  "certificate_write_seconds": 24.140910148620605,
+  "minimum_gap_large_chain_independent_checks": 5,
+  "independent_controls_total": 105
+}
