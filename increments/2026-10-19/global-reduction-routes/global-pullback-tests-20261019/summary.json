@@ -1,0 +1,336 @@
+{
+  "frozen_cases_sha256": "7cd20e9aa70325afc830152f0ca3c5e57d801462da371d252b1c03da35ebff3d",
+  "families": 28,
+  "lengths": [
+    2,
+    24
+  ],
+  "planned_controls": 644,
+  "completed_controls": 644,
+  "same_side_premise_controls": 13,
+  "premise_m_ge_2t_controls": 0,
+  "split_side_premise_controls": 13,
+  "eligible_cross_pair_instances": 16,
+  "cross_parent_balanced_instances": 0,
+  "cross_short_balanced_instances": 0,
+  "cross_new_balanced_instances": 0,
+  "all_external_new_balanced_under_premise": 12,
+  "same_side_new_balanced_under_premise": 12,
+  "cases": [
+    {
+      "id": "F1-s2",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F1-s3",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F1-s4",
+      "stats": {
+        "controls": 23,
+        "premise": 1,
+        "split": 1,
+        "cross": 1
+      },
+      "minimum_cross_parent": {
+        "m": 2,
+        "pair": [
+          "a",
+          "b"
+        ],
+        "num": 46,
+        "total": 52,
+        "short_num": 35,
+        "short_total": 38
+      }
+    },
+    {
+      "id": "F1-s6",
+      "stats": {
+        "controls": 23,
+        "premise": 2,
+        "split": 2,
+        "cross": 2
+      },
+      "minimum_cross_parent": {
+        "m": 3,
+        "pair": [
+          "a",
+          "b"
+        ],
+        "num": 94,
+        "total": 104,
+        "short_num": 78,
+        "short_total": 84
+      }
+    },
+    {
+      "id": "F2-s2",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F2-s3",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F2-s4",
+      "stats": {
+        "controls": 23,
+        "premise": 1,
+        "split": 1,
+        "cross": 1
+      },
+      "minimum_cross_parent": {
+        "m": 2,
+        "pair": [
+          "a",
+          "b"
+        ],
+        "num": 26496,
+        "total": 29952,
+        "short_num": 20160,
+        "short_total": 21888
+      }
+    },
+    {
+      "id": "F2-s6",
+      "stats": {
+        "controls": 23,
+        "premise": 2,
+        "split": 2,
+        "cross": 2
+      },
+      "minimum_cross_parent": {
+        "m": 3,
+        "pair": [
+          "a",
+          "b"
+        ],
+        "num": 48729600,
+        "total": 53913600,
+        "short_num": 40435200,
+        "short_total": 43545600
+      }
+    },
+    {
+      "id": "F3-s2",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F3-s3",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F3-s4",
+      "stats": {
+        "controls": 23,
+        "premise": 1,
+        "split": 1,
+        "cross": 1
+      },
+      "minimum_cross_parent": {
+        "m": 2,
+        "pair": [
+          "a",
+          "b"
+        ],
+        "num": 1656,
+        "total": 1872,
+        "short_num": 1260,
+        "short_total": 1368
+      }
+    },
+    {
+      "id": "F3-s6",
+      "stats": {
+        "controls": 23,
+        "premise": 2,
+        "split": 2,
+        "cross": 2
+      },
+      "minimum_cross_parent": {
+        "m": 3,
+        "pair": [
+          "a",
+          "b"
+        ],
+        "num": 1353600,
+        "total": 1497600,
+        "short_num": 1123200,
+        "short_total": 1209600
+      }
+    },
+    {
+      "id": "F4-s2",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F4-s3",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F4-s4",
+      "stats": {
+        "controls": 23,
+        "premise": 1,
+        "split": 1,
+        "cross": 1
+      },
+      "minimum_cross_parent": {
+        "m": 2,
+        "pair": [
+          "a",
+          "b"
+        ],
+        "num": 1656,
+        "total": 1872,
+        "short_num": 1260,
+        "short_total": 1368
+      }
+    },
+    {
+      "id": "F4-s6",
+      "stats": {
+        "controls": 23,
+        "premise": 2,
+        "split": 2,
+        "cross": 2
+      },
+      "minimum_cross_parent": {
+        "m": 3,
+        "pair": [
+          "a",
+          "b"
+        ],
+        "num": 37600,
+        "total": 41600,
+        "short_num": 31200,
+        "short_total": 33600
+      }
+    },
+    {
+      "id": "F5-s2",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F5-s3",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F5-s4",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F5-s6",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F6-s2",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F6-s3",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F6-s4",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F6-s6",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F7-s2",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F7-s3",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F7-s4",
+      "stats": {
+        "controls": 23
+      },
+      "minimum_cross_parent": null
+    },
+    {
+      "id": "F7-s6",
+      "stats": {
+        "controls": 23,
+        "premise": 1,
+        "split": 1,
+        "cross": 4
+      },
+      "minimum_cross_parent": {
+        "m": 2,
+        "pair": [
+          "a2",
+          "b2"
+        ],
+        "num": 2209375,
+        "total": 2511775,
+        "short_num": 1356875,
+        "short_total": 1481675
+      }
+    }
+  ],
+  "counterexample": null,
+  "elapsed_seconds": 1.3238604068756104
+}

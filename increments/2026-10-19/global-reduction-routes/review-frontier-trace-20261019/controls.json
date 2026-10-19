@@ -1,0 +1,48 @@
+{
+  "nonautonomous_fiber_factorization": {
+    "n": 12,
+    "extensions": 233,
+    "external_extensions": 64,
+    "fiber_sizes": [
+      2,
+      3,
+      5
+    ],
+    "all_external_fibers_equal_H": true,
+    "remote_U_V_permute_with_boundary_ports": true
+  },
+  "different_sizes_joint_marked_positive": {
+    "sizes": [
+      12,
+      11
+    ],
+    "extensions": [
+      128,
+      64
+    ],
+    "common_ratio": "2",
+    "retained_full_law_support": 64,
+    "each_fiber": 2
+  },
+  "single_marker_marginals_counterexample": {
+    "sizes": [
+      11,
+      10
+    ],
+    "extensions": [
+      3,
+      2
+    ],
+    "common_single_marker_ratio": "3/2",
+    "joint_projective_equal": false,
+    "P_a_before_b": "2/3",
+    "Pprime_a_before_b": "1/2",
+    "core_relations": [
+      "a<c"
+    ],
+    "retained": [
+      "a",
+      "b"
+    ]
+  }
+}

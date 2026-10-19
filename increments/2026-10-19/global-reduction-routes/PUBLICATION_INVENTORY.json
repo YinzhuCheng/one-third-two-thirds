@@ -1,0 +1,138 @@
+{
+  "date": "2026-10-19",
+  "scope": "Return to original conjecture: necessary minimal-counterexample map; conditional global chain compression; bounded-degree frontier and pair-only interfaces.",
+  "final_analytic_review": "PASS within explicit scope; complete boundary interface additionally independently reviewed.",
+  "files": [
+    {
+      "path": "increments/2026-10-19/START_HERE.md",
+      "bytes": 16871
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/GLOBAL_REDUCTION_ROUTES.md",
+      "bytes": 4495
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/INHERITED_INPUTS.md",
+      "bytes": 2195
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/PUBLICATION_INVENTORY.json",
+      "bytes": 4894
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/PUBLICATION_SCOPE.md",
+      "bytes": 2861
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/bounded-core-methods-literature-20261019/RESULT.md",
+      "bytes": 8861
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/global-chain-compression-20261019/RESULT.md",
+      "bytes": 19212
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/global-counterexample-map-20261019/RESULT.md",
+      "bytes": 13221
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/global-pullback-tests-20261019/RESULT.md",
+      "bytes": 12546
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/global-pullback-tests-20261019/audit_fixed.py",
+      "bytes": 6571
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/global-pullback-tests-20261019/check_frozen.py",
+      "bytes": 9685
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/global-pullback-tests-20261019/cutselect_extraction.json",
+      "bytes": 3806
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/global-pullback-tests-20261019/extract_cutselect.py",
+      "bytes": 1579
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/global-pullback-tests-20261019/independent_audit.json",
+      "bytes": 35197
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/global-pullback-tests-20261019/summary.json",
+      "bytes": 6143
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/review-frontier-trace-20261019/REVIEW.md",
+      "bytes": 8156
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/review-frontier-trace-20261019/check_controls.py",
+      "bytes": 5448
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/review-frontier-trace-20261019/controls.json",
+      "bytes": 843
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/review-global-reduction-routes-20261019/REVIEW.md",
+      "bytes": 13212
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/review-global-reduction-routes-20261019/independent-fixed-witness.json",
+      "bytes": 987
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/rigid-bounded-degree-cores-20261019/RESULT.md",
+      "bytes": 22979
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/rigid-bounded-degree-cores-20261019/check_controls.py",
+      "bytes": 6370
+    },
+    {
+      "path": "increments/2026-10-19/global-reduction-routes/rigid-bounded-degree-cores-20261019/controls.json",
+      "bytes": 16694
+    }
+  ],
+  "experiments_rerun_for_sync": false,
+  "hash_gate_added": false,
+  "frozen_actual_models": 672,
+  "adjacent_controls": 644,
+  "same_side_premise_controls": 13,
+  "cross_pair_instances_under_same_side_premise": 16,
+  "XP_full_input_hits": 0,
+  "XP_interpretation": "Vacuous; no nonempty experimental support or verification.",
+  "long_domain_m_ge_2t_premise_hits": 0,
+  "CUT_SELECT_f_gt_two_thirds_threshold_hits": 0,
+  "CUT_SELECT_extraction_new_LE_counts": 0,
+  "CUT_SELECT_extraction_new_pair_numerators": 0,
+  "independent_fixed_models": 22,
+  "independent_fixed_pair_numerator_checks": 2217,
+  "direct_LE_enumeration_models": 4,
+  "global_status": "Original conjecture OPEN; historical 35/55 ledger unchanged; no new general global exclusion theorem.",
+  "still_open": [
+    "G/G+",
+    "OPEN-GCC",
+    "general XP",
+    "general CUT-SELECT",
+    "short real core realizations in general",
+    "usable D>=7 message cones and full-word coverage"
+  ],
+  "omitted": [
+    "full exact pair arrays for all 672 models",
+    "all 644 per-control records",
+    "regenerable frozen relations",
+    "third-party original PDFs",
+    "local source mirrors of prior manuscripts",
+    "plans and execution logs",
+    "raw chat",
+    "credentials and secrets",
+    "caches and packages",
+    "duplicate prior archives"
+  ],
+  "complete_control_data_local_source": "/workspace/shared/global-pullback-tests-20261019/",
+  "reproduction_instructions": "PUBLICATION_SCOPE.md",
+  "novelty_certified": false
+}

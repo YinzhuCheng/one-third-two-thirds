@@ -1,0 +1,138 @@
+{
+  "models_newly_counted": 0,
+  "new_pair_numerators": 0,
+  "fixed_S_controls": 13,
+  "cut_select_threshold_covered": 0,
+  "controls": [
+    {
+      "case": "F1-s4",
+      "m": 2,
+      "parent_total": 52,
+      "cut_count_or_upper_bound": 25,
+      "kind": "exact",
+      "f_or_upper_bound": "25/52",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F1-s6",
+      "m": 2,
+      "parent_total": 84,
+      "cut_count_or_upper_bound": 49,
+      "kind": "exact",
+      "f_or_upper_bound": "7/12",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F1-s6",
+      "m": 3,
+      "parent_total": 104,
+      "cut_count_or_upper_bound": 49,
+      "kind": "exact",
+      "f_or_upper_bound": "49/104",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F2-s4",
+      "m": 2,
+      "parent_total": 29952,
+      "cut_count_or_upper_bound": 14400,
+      "kind": "exact",
+      "f_or_upper_bound": "25/52",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F2-s6",
+      "m": 2,
+      "parent_total": 43545600,
+      "cut_count_or_upper_bound": 25401600,
+      "kind": "exact",
+      "f_or_upper_bound": "7/12",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F2-s6",
+      "m": 3,
+      "parent_total": 53913600,
+      "cut_count_or_upper_bound": 25401600,
+      "kind": "exact",
+      "f_or_upper_bound": "49/104",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F3-s4",
+      "m": 2,
+      "parent_total": 1872,
+      "cut_count_or_upper_bound": 900,
+      "kind": "exact",
+      "f_or_upper_bound": "25/52",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F3-s6",
+      "m": 2,
+      "parent_total": 1209600,
+      "cut_count_or_upper_bound": 705600,
+      "kind": "exact",
+      "f_or_upper_bound": "7/12",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F3-s6",
+      "m": 3,
+      "parent_total": 1497600,
+      "cut_count_or_upper_bound": 705600,
+      "kind": "exact",
+      "f_or_upper_bound": "49/104",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F4-s4",
+      "m": 2,
+      "parent_total": 1872,
+      "cut_count_or_upper_bound": 900,
+      "kind": "exact",
+      "f_or_upper_bound": "25/52",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F4-s6",
+      "m": 2,
+      "parent_total": 33600,
+      "cut_count_or_upper_bound": 19600,
+      "kind": "exact",
+      "f_or_upper_bound": "7/12",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F4-s6",
+      "m": 3,
+      "parent_total": 41600,
+      "cut_count_or_upper_bound": 19600,
+      "kind": "exact",
+      "f_or_upper_bound": "49/104",
+      "reason": "L=D disjoint {a}; Rside={b} disjoint U",
+      "could_reach_f_gt_2_over_3": false
+    },
+    {
+      "case": "F7-s6",
+      "m": 2,
+      "parent_total": 2511775,
+      "cut_count_or_upper_bound": 1254400,
+      "kind": "upper_bound",
+      "f_or_upper_bound": "7168/14353",
+      "reason": "Drop d1<a2 and b2<u_s inside sides; each side becomes size-s D/U plus two isolated markers",
+      "could_reach_f_gt_2_over_3": false
+    }
+  ]
+}
