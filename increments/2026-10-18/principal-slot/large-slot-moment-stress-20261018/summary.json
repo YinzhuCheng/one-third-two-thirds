@@ -1,0 +1,2454 @@
+{
+  "status": "finite sampled exact stress test only; both candidates remain unproved",
+  "stop": {
+    "type": "stop",
+    "reason": "budget",
+    "state_pair_passes": 29964136,
+    "pairs": 5073
+  },
+  "planned_objects": 33,
+  "objects_started": 31,
+  "objects_completed": 30,
+  "pairs": 5073,
+  "n_range": [
+    20,
+    200
+  ],
+  "filter_pairs_by_class": {
+    "nested": 2743,
+    "disjoint": 516,
+    "overlap_nonnested": 1240,
+    "same": 445,
+    "empty_filter": 64,
+    "zero_mean": 65
+  },
+  "pairs_by_n": {
+    "20": 480,
+    "50": 480,
+    "100": 240,
+    "200": 3249,
+    "40": 240,
+    "30": 160,
+    "60": 160,
+    "90": 64
+  },
+  "positive_mean_statistics": {
+    "positive_means": 4977,
+    "mean_ratio_at_least_10": 2886,
+    "mean_ratio_at_least_100": 2177,
+    "nonempty_mean_ratio_at_least_10": 2880,
+    "nonempty_mean_ratio_at_least_100": 2175,
+    "zero_mean": 96,
+    "mean_ratio_at_least_1000": 1120,
+    "nonempty_mean_ratio_at_least_1000": 1119
+  },
+  "max_ideal_count": 309808,
+  "largest_complete_LE_count": 1089222154193913161738182479046709204535317285884505864783568665044192272837055753599358380000,
+  "counterexamples": [],
+  "case_progress": [
+    {
+      "name": "disjoint2_1_19",
+      "n": 20,
+      "states": 40,
+      "le": "20",
+      "filters": 40,
+      "planned_pairs": 240,
+      "tested_pairs": 240
+    },
+    {
+      "name": "disjoint2_1_49",
+      "n": 50,
+      "states": 100,
+      "le": "50",
+      "filters": 100,
+      "planned_pairs": 240,
+      "tested_pairs": 240
+    },
+    {
+      "name": "disjoint2_1_99",
+      "n": 100,
+      "states": 200,
+      "le": "100",
+      "filters": 112,
+      "planned_pairs": 240,
+      "tested_pairs": 240
+    },
+    {
+      "name": "disjoint2_1_199",
+      "n": 200,
+      "states": 400,
+      "le": "200",
+      "filters": 112,
+      "planned_pairs": 240,
+      "tested_pairs": 240
+    },
+    {
+      "name": "disjoint2_2_198",
+      "n": 200,
+      "states": 597,
+      "le": "19900",
+      "filters": 112,
+      "planned_pairs": 240,
+      "tested_pairs": 240
+    },
+    {
+      "name": "disjoint2_5_195",
+      "n": 200,
+      "states": 1176,
+      "le": "2535650040",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "disjoint2_20_180",
+      "n": 200,
+      "states": 3801,
+      "le": "1613587787967350073386147640",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "disjoint2_50_150",
+      "n": 200,
+      "states": 7701,
+      "le": "453858377923246061067441390280868162761998660528",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "disjoint2_100_100",
+      "n": 200,
+      "states": 10201,
+      "le": "90548514656103281165404177077484163874504589675413336841320",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "disjoint2_10_40",
+      "n": 50,
+      "states": 451,
+      "le": "10272278170",
+      "filters": 112,
+      "planned_pairs": 240,
+      "tested_pairs": 240
+    },
+    {
+      "name": "disjoint2_20_20",
+      "n": 40,
+      "states": 441,
+      "le": "137846528820",
+      "filters": 112,
+      "planned_pairs": 240,
+      "tested_pairs": 240
+    },
+    {
+      "name": "disjoint3_1_1_18",
+      "n": 20,
+      "states": 76,
+      "le": "380",
+      "filters": 76,
+      "planned_pairs": 240,
+      "tested_pairs": 240
+    },
+    {
+      "name": "disjoint3_1_1_198",
+      "n": 200,
+      "states": 796,
+      "le": "39800",
+      "filters": 112,
+      "planned_pairs": 240,
+      "tested_pairs": 240
+    },
+    {
+      "name": "disjoint3_1_9_190",
+      "n": 200,
+      "states": 3820,
+      "le": "224510043090132800",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "disjoint3_2_18_180",
+      "n": 200,
+      "states": 10317,
+      "le": "306581679713796513943368051600",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "disjoint3_10_10_180",
+      "n": 200,
+      "states": 21901,
+      "le": "298120025353695730158531093375840",
+      "filters": 112,
+      "planned_pairs": 64,
+      "tested_pairs": 64
+    },
+    {
+      "name": "disjoint3_20_60_120",
+      "n": 200,
+      "states": 155001,
+      "le": "5823650810734234702607301940845734966521677270314945425373743534503202128000",
+      "filters": 112,
+      "planned_pairs": 16,
+      "tested_pairs": 16
+    },
+    {
+      "name": "disjoint3_66_67_67",
+      "n": 200,
+      "states": 309808,
+      "le": "1089222154193913161738182479046709204535317285884505864783568665044192272837055753599358380000",
+      "filters": 112,
+      "planned_pairs": 16,
+      "tested_pairs": 16
+    },
+    {
+      "name": "disjoint3_10_10_10",
+      "n": 30,
+      "states": 1331,
+      "le": "5550996791340",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "disjoint3_20_20_20",
+      "n": 60,
+      "states": 9261,
+      "le": "577831214478475823831865900",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "disjoint3_30_30_30",
+      "n": 90,
+      "states": 29791,
+      "le": "79607789567531236214574346454361782651136",
+      "filters": 112,
+      "planned_pairs": 64,
+      "tested_pairs": 64
+    },
+    {
+      "name": "joined2_20_180_one_gate",
+      "n": 200,
+      "states": 2901,
+      "le": "956617300722533080821810620",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "joined2_20_180_opposing_gates",
+      "n": 200,
+      "states": 2676,
+      "le": "945106337303052516416772080",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "joined2_20_180_random14",
+      "n": 200,
+      "states": 867,
+      "le": "2781622881122370",
+      "filters": 112,
+      "planned_pairs": 240,
+      "tested_pairs": 240
+    },
+    {
+      "name": "joined2_100_100_one_gate",
+      "n": 200,
+      "states": 7701,
+      "le": "50363789030157513435347307899428568429086353405106172185428",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "joined2_100_100_middle_barrier",
+      "n": 200,
+      "states": 5201,
+      "le": "10179063404211745705290438721372972983668117134799007529536",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "joined2_100_100_random20",
+      "n": 200,
+      "states": 5126,
+      "le": "11506339106779997464179873898412891349621338500668213128166",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "joined3_10_10_180_middle_barrier",
+      "n": 200,
+      "states": 6551,
+      "le": "19028771243088882468702603494400",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "joined3_10_10_180_random20",
+      "n": 200,
+      "states": 3065,
+      "le": "8184353698235835351",
+      "filters": 112,
+      "planned_pairs": 160,
+      "tested_pairs": 160
+    },
+    {
+      "name": "joined3_20_60_120_middle_barrier",
+      "n": 200,
+      "states": 41601,
+      "le": "135772368771200688418467049023800889647454613253770672026019173122195865600",
+      "filters": 112,
+      "planned_pairs": 64,
+      "tested_pairs": 64
+    },
+    {
+      "name": "joined3_20_60_120_random20",
+      "n": 200,
+      "states": 54520,
+      "le": "18545561696850495898080194138698358275272319534638447822685774739914711",
+      "filters": 112,
+      "planned_pairs": 64,
+      "tested_pairs": 49
+    }
+  ],
+  "unstarted_objects": [
+    "joined3_66_67_67_middle_barrier",
+    "joined3_66_67_67_random20"
+  ],
+  "extrema": {
+    "target_relative_gap": {
+      "score": "2/401",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 12,
+        "class": "same",
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "covariance_pressure": "199/201",
+        "target_relative_gap": "2/401",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "target_relative_gap_nested": {
+      "score": "399/79799",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_1_198",
+        "i": 12,
+        "j": 15,
+        "class": "nested",
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "n": 200,
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "legal_ideal_count": 796,
+        "le": "39800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "covariance_pressure": "13200/13333",
+        "target_relative_gap": "399/79799",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "target_relative_gap_distinct_nonempty": {
+      "score": "399/79799",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_1_198",
+        "i": 12,
+        "j": 15,
+        "class": "nested",
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "n": 200,
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "legal_ideal_count": 796,
+        "le": "39800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "covariance_pressure": "13200/13333",
+        "target_relative_gap": "399/79799",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "target_relative_gap_asymmetric10_nonempty": {
+      "score": "6179501/1210471031",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_9_190",
+        "i": 12,
+        "j": 57,
+        "class": "nested",
+        "sum_Ry": "1122550215450664",
+        "sum_Rz": "11754440777494480",
+        "sum_product": "1175445193371280",
+        "sum_min": "1122550215450664",
+        "sum_Ry2": "1122550215450664",
+        "sum_Rz2": "12856325586003120",
+        "target_gap_num": "2579615241277709936839292570816",
+        "covariance_gap_num": "2579615241277709936839292570816",
+        "n": 200,
+        "lengths": [
+          1,
+          9,
+          190
+        ],
+        "cross": [],
+        "legal_ideal_count": 3820,
+        "le": "224510043090132800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          4,
+          0
+        ],
+        "r": "1/200",
+        "s": "3160867/60372620",
+        "N": "6179501/603726200",
+        "covariance": "60056533/12074524000",
+        "target_gap": "6179501/120745240000",
+        "covariance_gap": "6179501/120745240000",
+        "mean_ratio": "31608670/3018631",
+        "target_pressure": "1204291530/1210471031",
+        "covariance_pressure": "600565330/606744831",
+        "target_relative_gap": "6179501/1210471031",
+        "covariance_relative_gap": "6179501/606744831"
+      }
+    },
+    "covariance_relative_gap": {
+      "score": "2/201",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 12,
+        "class": "same",
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "covariance_pressure": "199/201",
+        "target_relative_gap": "2/401",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "covariance_relative_gap_nested": {
+      "score": "133/13333",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_1_198",
+        "i": 12,
+        "j": 15,
+        "class": "nested",
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "n": 200,
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "legal_ideal_count": 796,
+        "le": "39800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "covariance_pressure": "13200/13333",
+        "target_relative_gap": "399/79799",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "covariance_relative_gap_distinct_nonempty": {
+      "score": "133/13333",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_1_198",
+        "i": 12,
+        "j": 15,
+        "class": "nested",
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "n": 200,
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "legal_ideal_count": 796,
+        "le": "39800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "covariance_pressure": "13200/13333",
+        "target_relative_gap": "399/79799",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "covariance_relative_gap_asymmetric10_nonempty": {
+      "score": "6179501/606744831",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_9_190",
+        "i": 12,
+        "j": 57,
+        "class": "nested",
+        "sum_Ry": "1122550215450664",
+        "sum_Rz": "11754440777494480",
+        "sum_product": "1175445193371280",
+        "sum_min": "1122550215450664",
+        "sum_Ry2": "1122550215450664",
+        "sum_Rz2": "12856325586003120",
+        "target_gap_num": "2579615241277709936839292570816",
+        "covariance_gap_num": "2579615241277709936839292570816",
+        "n": 200,
+        "lengths": [
+          1,
+          9,
+          190
+        ],
+        "cross": [],
+        "legal_ideal_count": 3820,
+        "le": "224510043090132800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          4,
+          0
+        ],
+        "r": "1/200",
+        "s": "3160867/60372620",
+        "N": "6179501/603726200",
+        "covariance": "60056533/12074524000",
+        "target_gap": "6179501/120745240000",
+        "covariance_gap": "6179501/120745240000",
+        "mean_ratio": "31608670/3018631",
+        "target_pressure": "1204291530/1210471031",
+        "covariance_pressure": "600565330/606744831",
+        "target_relative_gap": "6179501/1210471031",
+        "covariance_relative_gap": "6179501/606744831"
+      }
+    },
+    "target_absolute_gap": {
+      "score": "1/20000",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 12,
+        "class": "same",
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "covariance_pressure": "199/201",
+        "target_relative_gap": "2/401",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "target_absolute_gap_nested": {
+      "score": "399/7960000",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_1_198",
+        "i": 12,
+        "j": 15,
+        "class": "nested",
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "n": 200,
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "legal_ideal_count": 796,
+        "le": "39800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "covariance_pressure": "13200/13333",
+        "target_relative_gap": "399/79799",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "target_absolute_gap_distinct_nonempty": {
+      "score": "399/7960000",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_1_198",
+        "i": 12,
+        "j": 15,
+        "class": "nested",
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "n": 200,
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "legal_ideal_count": 796,
+        "le": "39800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "covariance_pressure": "13200/13333",
+        "target_relative_gap": "399/79799",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "target_absolute_gap_asymmetric10_nonempty": {
+      "score": "6179501/120745240000",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_9_190",
+        "i": 12,
+        "j": 57,
+        "class": "nested",
+        "sum_Ry": "1122550215450664",
+        "sum_Rz": "11754440777494480",
+        "sum_product": "1175445193371280",
+        "sum_min": "1122550215450664",
+        "sum_Ry2": "1122550215450664",
+        "sum_Rz2": "12856325586003120",
+        "target_gap_num": "2579615241277709936839292570816",
+        "covariance_gap_num": "2579615241277709936839292570816",
+        "n": 200,
+        "lengths": [
+          1,
+          9,
+          190
+        ],
+        "cross": [],
+        "legal_ideal_count": 3820,
+        "le": "224510043090132800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          4,
+          0
+        ],
+        "r": "1/200",
+        "s": "3160867/60372620",
+        "N": "6179501/603726200",
+        "covariance": "60056533/12074524000",
+        "target_gap": "6179501/120745240000",
+        "covariance_gap": "6179501/120745240000",
+        "mean_ratio": "31608670/3018631",
+        "target_pressure": "1204291530/1210471031",
+        "covariance_pressure": "600565330/606744831",
+        "target_relative_gap": "6179501/1210471031",
+        "covariance_relative_gap": "6179501/606744831"
+      }
+    },
+    "covariance_absolute_gap": {
+      "score": "1/20000",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 12,
+        "class": "same",
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "covariance_pressure": "199/201",
+        "target_relative_gap": "2/401",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "covariance_absolute_gap_nested": {
+      "score": "399/7960000",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_1_198",
+        "i": 12,
+        "j": 15,
+        "class": "nested",
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "n": 200,
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "legal_ideal_count": 796,
+        "le": "39800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "covariance_pressure": "13200/13333",
+        "target_relative_gap": "399/79799",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "covariance_absolute_gap_distinct_nonempty": {
+      "score": "399/7960000",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_1_198",
+        "i": 12,
+        "j": 15,
+        "class": "nested",
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "n": 200,
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "legal_ideal_count": 796,
+        "le": "39800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "covariance_pressure": "13200/13333",
+        "target_relative_gap": "399/79799",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "covariance_absolute_gap_asymmetric10_nonempty": {
+      "score": "6179501/120745240000",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_9_190",
+        "i": 12,
+        "j": 57,
+        "class": "nested",
+        "sum_Ry": "1122550215450664",
+        "sum_Rz": "11754440777494480",
+        "sum_product": "1175445193371280",
+        "sum_min": "1122550215450664",
+        "sum_Ry2": "1122550215450664",
+        "sum_Rz2": "12856325586003120",
+        "target_gap_num": "2579615241277709936839292570816",
+        "covariance_gap_num": "2579615241277709936839292570816",
+        "n": 200,
+        "lengths": [
+          1,
+          9,
+          190
+        ],
+        "cross": [],
+        "legal_ideal_count": 3820,
+        "le": "224510043090132800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          4,
+          0
+        ],
+        "r": "1/200",
+        "s": "3160867/60372620",
+        "N": "6179501/603726200",
+        "covariance": "60056533/12074524000",
+        "target_gap": "6179501/120745240000",
+        "covariance_gap": "6179501/120745240000",
+        "mean_ratio": "31608670/3018631",
+        "target_pressure": "1204291530/1210471031",
+        "covariance_pressure": "600565330/606744831",
+        "target_relative_gap": "6179501/1210471031",
+        "covariance_relative_gap": "6179501/606744831"
+      }
+    },
+    "negative_mean_ratio": {
+      "score": "-39799",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 20,
+        "class": "nested",
+        "sum_Ry": "1",
+        "sum_Rz": "39799",
+        "sum_product": "199",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "7919803",
+        "target_gap_num": "200",
+        "covariance_gap_num": "200",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          198
+        ],
+        "r": "1/200",
+        "s": "39799/200",
+        "N": "1",
+        "covariance": "1/40000",
+        "target_gap": "1/200",
+        "covariance_gap": "1/200",
+        "mean_ratio": "39799",
+        "target_pressure": "201/401",
+        "covariance_pressure": "1/201",
+        "target_relative_gap": "200/401",
+        "covariance_relative_gap": "200/201"
+      }
+    },
+    "negative_mean_ratio_nested": {
+      "score": "-39799",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 20,
+        "class": "nested",
+        "sum_Ry": "1",
+        "sum_Rz": "39799",
+        "sum_product": "199",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "7919803",
+        "target_gap_num": "200",
+        "covariance_gap_num": "200",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          198
+        ],
+        "r": "1/200",
+        "s": "39799/200",
+        "N": "1",
+        "covariance": "1/40000",
+        "target_gap": "1/200",
+        "covariance_gap": "1/200",
+        "mean_ratio": "39799",
+        "target_pressure": "201/401",
+        "covariance_pressure": "1/201",
+        "target_relative_gap": "200/401",
+        "covariance_relative_gap": "200/201"
+      }
+    },
+    "negative_mean_ratio_distinct_nonempty": {
+      "score": "-39799",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 20,
+        "class": "nested",
+        "sum_Ry": "1",
+        "sum_Rz": "39799",
+        "sum_product": "199",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "7919803",
+        "target_gap_num": "200",
+        "covariance_gap_num": "200",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          198
+        ],
+        "r": "1/200",
+        "s": "39799/200",
+        "N": "1",
+        "covariance": "1/40000",
+        "target_gap": "1/200",
+        "covariance_gap": "1/200",
+        "mean_ratio": "39799",
+        "target_pressure": "201/401",
+        "covariance_pressure": "1/201",
+        "target_relative_gap": "200/401",
+        "covariance_relative_gap": "200/201"
+      }
+    },
+    "negative_mean_ratio_asymmetric10_nonempty": {
+      "score": "-39799",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 20,
+        "class": "nested",
+        "sum_Ry": "1",
+        "sum_Rz": "39799",
+        "sum_product": "199",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "7919803",
+        "target_gap_num": "200",
+        "covariance_gap_num": "200",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          198
+        ],
+        "r": "1/200",
+        "s": "39799/200",
+        "N": "1",
+        "covariance": "1/40000",
+        "target_gap": "1/200",
+        "covariance_gap": "1/200",
+        "mean_ratio": "39799",
+        "target_pressure": "201/401",
+        "covariance_pressure": "1/201",
+        "target_relative_gap": "200/401",
+        "covariance_relative_gap": "200/201"
+      }
+    },
+    "target_relative_gap_disjoint": {
+      "score": "180967/299200",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_50_150",
+        "i": 24,
+        "j": 26,
+        "class": "disjoint",
+        "sum_Ry": "88982939624598771855163656106243152146220090325872",
+        "sum_Rz": "150284231100412603002464036516843762503973066400",
+        "sum_product": "29452703611058861936422901876571040575528641553073",
+        "sum_min": "150284231100412603002464036516843762503973066399",
+        "sum_Ry2": "17450949099408469280254927349077448369219151899737728",
+        "sum_Rz2": "247178011678310202306684270586914083065745175000",
+        "target_gap_num": "96169483640074510778897681732022398670727310728524843322936763724518839710892958605989082377984",
+        "covariance_gap_num": "96169483640074510778897681732022398670727310728070984945013517663451398320612090443227083717456",
+        "n": 200,
+        "lengths": [
+          50,
+          150
+        ],
+        "cross": [],
+        "legal_ideal_count": 7701,
+        "le": "453858377923246061067441390280868162761998660528",
+        "Sy_threshold": [
+          49,
+          150
+        ],
+        "Sz_threshold": [
+          50,
+          0
+        ],
+        "r": "3333/17",
+        "s": "50/151",
+        "N": "9849/151",
+        "covariance": "-11845933510267816942547165231327684809136700527/453858377923246061067441390280868162761998660528",
+        "target_gap": "180967/387617",
+        "covariance_gap": "31995866411233373561819893289816076669478228125977/68532615066410155221183649932411092577061797739728",
+        "mean_ratio": "503283/850",
+        "target_pressure": "118233/299200",
+        "covariance_pressure": "-1788735960050440358324621949930480406179641779577/30207130451182933203495271339885596263298586346400",
+        "target_relative_gap": "180967/299200",
+        "covariance_relative_gap": "31995866411233373561819893289816076669478228125977/30207130451182933203495271339885596263298586346400"
+      }
+    },
+    "covariance_relative_gap_disjoint": {
+      "score": "34296592263219974047661397004109/34296462939965971864990836485520",
+      "record": {
+        "type": "pair",
+        "case": "joined2_100_100_middle_barrier",
+        "i": 14,
+        "j": 26,
+        "class": "disjoint",
+        "sum_Ry": "1027885814346872360436191361079819820899819671455193897590400",
+        "sum_Rz": "2015654143512439605445649816610699101216947351849709353740864",
+        "sum_product": "203541150599053608990382041521910620024124196269112806961777320",
+        "sum_min": "1027885814346872360436191361079718929555274107261859085093144",
+        "sum_Ry2": "103815315771273450966758348912645357004435670514131280601480000",
+        "sum_Rz2": "399158046191778057224586427116378261819256846952091401990468736",
+        "target_gap_num": "1067016185644012871010267284325409124747023922884679041891570308904285833304203397584131437729797725556116550031400349696",
+        "covariance_gap_num": "1067016185644012871010267284325408097767630857413879226219812440654356798015158789859921793686700279745321507736061396480",
+        "n": 200,
+        "lengths": [
+          100,
+          100
+        ],
+        "cross": [
+          [
+            0,
+            49,
+            1,
+            50
+          ],
+          [
+            1,
+            49,
+            0,
+            50
+          ]
+        ],
+        "legal_ideal_count": 5201,
+        "le": "10179063404211745705290438721372972983668117134799007529536",
+        "Sy_threshold": [
+          50,
+          100
+        ],
+        "Sz_threshold": [
+          100,
+          99
+        ],
+        "r": "5150/51",
+        "s": "10099/51",
+        "N": "1024949/51",
+        "covariance": "-66601475811124075338667073335/1715152857274591286691812453352",
+        "target_gap": "175067/17",
+        "covariance_gap": "1038985000915193331443859968065655/100891344545564193334812497256",
+        "mean_ratio": "10099/5150",
+        "target_pressure": "262549/27047800",
+        "covariance_pressure": "-129323254002182670560518589/34296462939965971864990836485520",
+        "target_relative_gap": "26785251/27047800",
+        "covariance_relative_gap": "34296592263219974047661397004109/34296462939965971864990836485520"
+      }
+    },
+    "target_absolute_gap_disjoint": {
+      "score": "60501/401291",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_10_10_180",
+        "i": 22,
+        "j": 24,
+        "class": "disjoint",
+        "sum_Ry": "54176539152912524053354877787118560",
+        "sum_Rz": "15608378290769409955944036302400",
+        "sum_product": "2807947254509416864353026537982963",
+        "sum_min": "15608378290769396677249629121197",
+        "sum_Ry2": "9923765200332850066293517848823439040",
+        "sum_Rz2": "17071663755529042139313789705750",
+        "target_gap_num": "13399402481793142827128816451013756697507996053838538759938841600",
+        "covariance_gap_num": "13399402481793138868484103118175824907474215716560872120076506080",
+        "n": 200,
+        "lengths": [
+          10,
+          10,
+          180
+        ],
+        "cross": [],
+        "legal_ideal_count": 21901,
+        "le": "298120025353695730158531093375840",
+        "Sy_threshold": [
+          9,
+          10,
+          180
+        ],
+        "Sz_threshold": [
+          10,
+          0,
+          0
+        ],
+        "r": "1999/11",
+        "s": "10/191",
+        "N": "1809/191",
+        "covariance": "-2147859050981279/22451004309013280",
+        "target_gap": "60501/401291",
+        "covariance_gap": "646505574345365089/4288141823021536480",
+        "mean_ratio": "381809/110",
+        "target_pressure": "-2483/6160",
+        "covariance_pressure": "-410241078737424289/236264495607940800",
+        "target_relative_gap": "8643/6160",
+        "covariance_relative_gap": "646505574345365089/236264495607940800"
+      }
+    },
+    "covariance_absolute_gap_disjoint": {
+      "score": "646505574345365089/4288141823021536480",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_10_10_180",
+        "i": 22,
+        "j": 24,
+        "class": "disjoint",
+        "sum_Ry": "54176539152912524053354877787118560",
+        "sum_Rz": "15608378290769409955944036302400",
+        "sum_product": "2807947254509416864353026537982963",
+        "sum_min": "15608378290769396677249629121197",
+        "sum_Ry2": "9923765200332850066293517848823439040",
+        "sum_Rz2": "17071663755529042139313789705750",
+        "target_gap_num": "13399402481793142827128816451013756697507996053838538759938841600",
+        "covariance_gap_num": "13399402481793138868484103118175824907474215716560872120076506080",
+        "n": 200,
+        "lengths": [
+          10,
+          10,
+          180
+        ],
+        "cross": [],
+        "legal_ideal_count": 21901,
+        "le": "298120025353695730158531093375840",
+        "Sy_threshold": [
+          9,
+          10,
+          180
+        ],
+        "Sz_threshold": [
+          10,
+          0,
+          0
+        ],
+        "r": "1999/11",
+        "s": "10/191",
+        "N": "1809/191",
+        "covariance": "-2147859050981279/22451004309013280",
+        "target_gap": "60501/401291",
+        "covariance_gap": "646505574345365089/4288141823021536480",
+        "mean_ratio": "381809/110",
+        "target_pressure": "-2483/6160",
+        "covariance_pressure": "-410241078737424289/236264495607940800",
+        "target_relative_gap": "8643/6160",
+        "covariance_relative_gap": "646505574345365089/236264495607940800"
+      }
+    },
+    "negative_mean_ratio_disjoint": {
+      "score": "-19900",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 11,
+        "j": 12,
+        "class": "disjoint",
+        "sum_Ry": "19900",
+        "sum_Rz": "1",
+        "sum_product": "0",
+        "sum_min": "0",
+        "sum_Ry2": "2646700",
+        "sum_Rz2": "1",
+        "target_gap_num": "20301",
+        "covariance_gap_num": "20101",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          0,
+          199
+        ],
+        "Sz_threshold": [
+          1,
+          0
+        ],
+        "r": "199/2",
+        "s": "1/200",
+        "N": "0",
+        "covariance": "-199/400",
+        "target_gap": "20301/40000",
+        "covariance_gap": "20101/40000",
+        "mean_ratio": "19900",
+        "target_pressure": "-19900/401",
+        "covariance_pressure": "-19900/201",
+        "target_relative_gap": "20301/401",
+        "covariance_relative_gap": "20101/201"
+      }
+    },
+    "target_relative_gap_overlap_nonnested": {
+      "score": "15665859417865691178243598966797101/620187918842911843864045060272394082",
+      "record": {
+        "type": "pair",
+        "case": "joined3_10_10_180_random20",
+        "i": 15,
+        "j": 59,
+        "class": "overlap_nonnested",
+        "sum_Ry": "1525018778238363452",
+        "sum_Rz": "5732615139488664378",
+        "sum_product": "2793164532446874768",
+        "sum_min": "1524991506979148252",
+        "sum_Ry2": "2024715604504280732",
+        "sum_Rz2": "12904471427359016904",
+        "target_gap_num": "689297814386090411842718354539072444",
+        "covariance_gap_num": "689074616754876941617919525862537244",
+        "n": 200,
+        "lengths": [
+          10,
+          10,
+          180
+        ],
+        "cross": [
+          [
+            0,
+            0,
+            2,
+            153
+          ],
+          [
+            0,
+            5,
+            2,
+            95
+          ],
+          [
+            0,
+            7,
+            2,
+            106
+          ],
+          [
+            0,
+            8,
+            2,
+            35
+          ],
+          [
+            0,
+            8,
+            2,
+            150
+          ],
+          [
+            0,
+            8,
+            2,
+            153
+          ],
+          [
+            0,
+            9,
+            2,
+            22
+          ],
+          [
+            1,
+            1,
+            2,
+            20
+          ],
+          [
+            1,
+            1,
+            2,
+            118
+          ],
+          [
+            1,
+            1,
+            2,
+            145
+          ],
+          [
+            1,
+            1,
+            2,
+            169
+          ],
+          [
+            1,
+            2,
+            2,
+            163
+          ],
+          [
+            1,
+            3,
+            2,
+            83
+          ],
+          [
+            1,
+            3,
+            2,
+            115
+          ],
+          [
+            1,
+            5,
+            2,
+            57
+          ],
+          [
+            1,
+            7,
+            2,
+            43
+          ],
+          [
+            1,
+            7,
+            2,
+            113
+          ],
+          [
+            1,
+            7,
+            2,
+            118
+          ],
+          [
+            1,
+            9,
+            2,
+            43
+          ],
+          [
+            1,
+            9,
+            2,
+            63
+          ]
+        ],
+        "legal_ideal_count": 3065,
+        "le": "8184353698235835351",
+        "Sy_threshold": [
+          0,
+          7,
+          0
+        ],
+        "Sz_threshold": [
+          4,
+          5,
+          0
+        ],
+        "r": "138638070748942132/744032154385075941",
+        "s": "272981673308984018/389731128487420731",
+        "N": "254009178789766060/481432570484460903",
+        "covariance": "61116453397311684007395593176427752/289972491159422489429470018652732871",
+        "target_gap": "62663437671462764712974395867188404/6089422314347872278018870391707390291",
+        "covariance_gap": "62643146977716085601629047805685204/6089422314347872278018870391707390291",
+        "mean_ratio": "2866307569744332189/762509389119181726",
+        "target_pressure": "604522059425046152685801461305596981/620187918842911843864045060272394082",
+        "covariance_pressure": "320861380335886341038826864176245698/336522167080315362439234126127666999",
+        "target_relative_gap": "15665859417865691178243598966797101/620187918842911843864045060272394082",
+        "covariance_relative_gap": "15660786744429021400407261951421301/336522167080315362439234126127666999"
+      }
+    },
+    "covariance_relative_gap_overlap_nonnested": {
+      "score": "15660786744429021400407261951421301/336522167080315362439234126127666999",
+      "record": {
+        "type": "pair",
+        "case": "joined3_10_10_180_random20",
+        "i": 15,
+        "j": 59,
+        "class": "overlap_nonnested",
+        "sum_Ry": "1525018778238363452",
+        "sum_Rz": "5732615139488664378",
+        "sum_product": "2793164532446874768",
+        "sum_min": "1524991506979148252",
+        "sum_Ry2": "2024715604504280732",
+        "sum_Rz2": "12904471427359016904",
+        "target_gap_num": "689297814386090411842718354539072444",
+        "covariance_gap_num": "689074616754876941617919525862537244",
+        "n": 200,
+        "lengths": [
+          10,
+          10,
+          180
+        ],
+        "cross": [
+          [
+            0,
+            0,
+            2,
+            153
+          ],
+          [
+            0,
+            5,
+            2,
+            95
+          ],
+          [
+            0,
+            7,
+            2,
+            106
+          ],
+          [
+            0,
+            8,
+            2,
+            35
+          ],
+          [
+            0,
+            8,
+            2,
+            150
+          ],
+          [
+            0,
+            8,
+            2,
+            153
+          ],
+          [
+            0,
+            9,
+            2,
+            22
+          ],
+          [
+            1,
+            1,
+            2,
+            20
+          ],
+          [
+            1,
+            1,
+            2,
+            118
+          ],
+          [
+            1,
+            1,
+            2,
+            145
+          ],
+          [
+            1,
+            1,
+            2,
+            169
+          ],
+          [
+            1,
+            2,
+            2,
+            163
+          ],
+          [
+            1,
+            3,
+            2,
+            83
+          ],
+          [
+            1,
+            3,
+            2,
+            115
+          ],
+          [
+            1,
+            5,
+            2,
+            57
+          ],
+          [
+            1,
+            7,
+            2,
+            43
+          ],
+          [
+            1,
+            7,
+            2,
+            113
+          ],
+          [
+            1,
+            7,
+            2,
+            118
+          ],
+          [
+            1,
+            9,
+            2,
+            43
+          ],
+          [
+            1,
+            9,
+            2,
+            63
+          ]
+        ],
+        "legal_ideal_count": 3065,
+        "le": "8184353698235835351",
+        "Sy_threshold": [
+          0,
+          7,
+          0
+        ],
+        "Sz_threshold": [
+          4,
+          5,
+          0
+        ],
+        "r": "138638070748942132/744032154385075941",
+        "s": "272981673308984018/389731128487420731",
+        "N": "254009178789766060/481432570484460903",
+        "covariance": "61116453397311684007395593176427752/289972491159422489429470018652732871",
+        "target_gap": "62663437671462764712974395867188404/6089422314347872278018870391707390291",
+        "covariance_gap": "62643146977716085601629047805685204/6089422314347872278018870391707390291",
+        "mean_ratio": "2866307569744332189/762509389119181726",
+        "target_pressure": "604522059425046152685801461305596981/620187918842911843864045060272394082",
+        "covariance_pressure": "320861380335886341038826864176245698/336522167080315362439234126127666999",
+        "target_relative_gap": "15665859417865691178243598966797101/620187918842911843864045060272394082",
+        "covariance_relative_gap": "15660786744429021400407261951421301/336522167080315362439234126127666999"
+      }
+    },
+    "target_absolute_gap_overlap_nonnested": {
+      "score": "16507456138333755306967970261505216009/2409727986406261673445982963699840247966",
+      "record": {
+        "type": "pair",
+        "case": "joined2_20_180_opposing_gates",
+        "i": 16,
+        "j": 40,
+        "class": "overlap_nonnested",
+        "sum_Ry": "95773881462755731103459500",
+        "sum_Rz": "7381873519060682430866076580",
+        "sum_product": "847059105295362498902610380",
+        "sum_min": "95773868581188491917892200",
+        "sum_Ry2": "113758665648418103433155000",
+        "sum_Rz2": "58448947714024590383319456980",
+        "target_gap_num": "6118901766127165042827496920839720751771673178313600",
+        "covariance_gap_num": "6118889591676332893161755523822087664218483577329600",
+        "n": 200,
+        "lengths": [
+          20,
+          180
+        ],
+        "cross": [
+          [
+            0,
+            4,
+            1,
+            90
+          ],
+          [
+            1,
+            134,
+            0,
+            15
+          ]
+        ],
+        "legal_ideal_count": 2676,
+        "le": "945106337303052516416772080",
+        "Sy_threshold": [
+          10,
+          0
+        ],
+        "Sz_threshold": [
+          6,
+          7
+        ],
+        "r": "5317976300386337575/52478327351461538348",
+        "s": "409888665127143314173/52478327351461538348",
+        "N": "366464670075385765911/367348291460230768436",
+        "covariance": "2019456225138549925082650438531163493183/19277823891250093387567863709598721983728",
+        "target_gap": "16507456138333755306967970261505216009/2409727986406261673445982963699840247966",
+        "covariance_gap": "33014846588666362260515451084946363473/4819455972812523346891965927399680495932",
+        "mean_ratio": "409888665127143314173/5317976300386337575",
+        "target_pressure": "3973005470359465398845543311596858001703/4105065119466135441301287073688899729775",
+        "covariance_pressure": "673152075046183308360883479510387831061/717171870497738458041570747623649649025",
+        "target_relative_gap": "132059649106670042455743762092041728072/4105065119466135441301287073688899729775",
+        "covariance_relative_gap": "44019795451555149680687268113261817964/717171870497738458041570747623649649025"
+      }
+    },
+    "covariance_absolute_gap_overlap_nonnested": {
+      "score": "101/20000",
+      "record": {
+        "type": "pair",
+        "case": "disjoint3_1_1_198",
+        "i": 12,
+        "j": 14,
+        "class": "overlap_nonnested",
+        "sum_Ry": "199",
+        "sum_Rz": "199",
+        "sum_product": "0",
+        "sum_min": "0",
+        "sum_Ry2": "199",
+        "sum_Rz2": "199",
+        "target_gap_num": "15919602",
+        "covariance_gap_num": "7999402",
+        "n": 200,
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "legal_ideal_count": 796,
+        "le": "39800",
+        "Sy_threshold": [
+          1,
+          0,
+          0
+        ],
+        "Sz_threshold": [
+          0,
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "1/200",
+        "N": "0",
+        "covariance": "-1/40000",
+        "target_gap": "201/20000",
+        "covariance_gap": "101/20000",
+        "mean_ratio": "1",
+        "target_pressure": "-1/401",
+        "covariance_pressure": "-1/201",
+        "target_relative_gap": "402/401",
+        "covariance_relative_gap": "202/201"
+      }
+    },
+    "negative_mean_ratio_overlap_nonnested": {
+      "score": "-19899",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 21,
+        "class": "overlap_nonnested",
+        "sum_Ry": "1",
+        "sum_Rz": "19899",
+        "sum_product": "0",
+        "sum_min": "0",
+        "sum_Ry2": "1",
+        "sum_Rz2": "2646303",
+        "target_gap_num": "20300",
+        "covariance_gap_num": "20100",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          0,
+          198
+        ],
+        "r": "1/200",
+        "s": "19899/200",
+        "N": "0",
+        "covariance": "-19899/40000",
+        "target_gap": "203/400",
+        "covariance_gap": "201/400",
+        "mean_ratio": "19899",
+        "target_pressure": "-19899/401",
+        "covariance_pressure": "-99",
+        "target_relative_gap": "20300/401",
+        "covariance_relative_gap": "100"
+      }
+    },
+    "target_relative_gap_same": {
+      "score": "2/401",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 12,
+        "class": "same",
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "covariance_pressure": "199/201",
+        "target_relative_gap": "2/401",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "covariance_relative_gap_same": {
+      "score": "2/201",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 12,
+        "class": "same",
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "covariance_pressure": "199/201",
+        "target_relative_gap": "2/401",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "target_absolute_gap_same": {
+      "score": "1/20000",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 12,
+        "class": "same",
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "covariance_pressure": "199/201",
+        "target_relative_gap": "2/401",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "covariance_absolute_gap_same": {
+      "score": "1/20000",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_199",
+        "i": 12,
+        "j": 12,
+        "class": "same",
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "n": 200,
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "legal_ideal_count": 400,
+        "le": "200",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          0
+        ],
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "covariance_pressure": "199/201",
+        "target_relative_gap": "2/401",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "negative_mean_ratio_same": {
+      "score": "-1",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_19",
+        "i": 9,
+        "j": 9,
+        "class": "same",
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "n": 20,
+        "lengths": [
+          1,
+          19
+        ],
+        "cross": [],
+        "legal_ideal_count": 40,
+        "le": "20",
+        "Sy_threshold": [
+          1,
+          0
+        ],
+        "Sz_threshold": [
+          1,
+          0
+        ],
+        "r": "1/20",
+        "s": "1/20",
+        "N": "1/10",
+        "covariance": "19/400",
+        "target_gap": "1/200",
+        "covariance_gap": "1/200",
+        "mean_ratio": "1",
+        "target_pressure": "39/41",
+        "covariance_pressure": "19/21",
+        "target_relative_gap": "2/41",
+        "covariance_relative_gap": "2/21"
+      }
+    },
+    "target_relative_gap_empty_filter": {
+      "score": "201/382",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_20_180",
+        "i": 1,
+        "j": 26,
+        "class": "empty_filter",
+        "sum_Ry": "322717557593470014677229528000",
+        "sum_Rz": "178296993145563544020568800",
+        "sum_product": "35659398629112708804113760000",
+        "sum_min": "178296993145563544020568800",
+        "sum_Ry2": "64543511518694002935445905600000",
+        "sum_Rz2": "215523837868263624640248000",
+        "target_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "covariance_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "n": 200,
+        "lengths": [
+          20,
+          180
+        ],
+        "cross": [],
+        "legal_ideal_count": 3801,
+        "le": "1613587787967350073386147640",
+        "Sy_threshold": [
+          20,
+          180
+        ],
+        "Sz_threshold": [
+          20,
+          0
+        ],
+        "r": "200",
+        "s": "20/181",
+        "N": "4020/181",
+        "covariance": "0",
+        "target_gap": "4020/32761",
+        "covariance_gap": "4020/32761",
+        "mean_ratio": "1810",
+        "target_pressure": "181/382",
+        "covariance_pressure": "0",
+        "target_relative_gap": "201/382",
+        "covariance_relative_gap": "1"
+      }
+    },
+    "covariance_relative_gap_empty_filter": {
+      "score": "1",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_1_19",
+        "i": 1,
+        "j": 6,
+        "class": "empty_filter",
+        "sum_Ry": "400",
+        "sum_Rz": "187",
+        "sum_product": "3740",
+        "sum_min": "187",
+        "sum_Ry2": "8000",
+        "sum_Rz2": "2363",
+        "target_gap_num": "38709",
+        "covariance_gap_num": "38709",
+        "n": 20,
+        "lengths": [
+          1,
+          19
+        ],
+        "cross": [],
+        "legal_ideal_count": 40,
+        "le": "20",
+        "Sy_threshold": [
+          1,
+          19
+        ],
+        "Sz_threshold": [
+          0,
+          17
+        ],
+        "r": "20",
+        "s": "187/20",
+        "N": "3927/20",
+        "covariance": "0",
+        "target_gap": "38709/400",
+        "covariance_gap": "38709/400",
+        "mean_ratio": "400/187",
+        "target_pressure": "20/227",
+        "covariance_pressure": "0",
+        "target_relative_gap": "207/227",
+        "covariance_relative_gap": "1"
+      }
+    },
+    "target_absolute_gap_empty_filter": {
+      "score": "4020/32761",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_20_180",
+        "i": 1,
+        "j": 26,
+        "class": "empty_filter",
+        "sum_Ry": "322717557593470014677229528000",
+        "sum_Rz": "178296993145563544020568800",
+        "sum_product": "35659398629112708804113760000",
+        "sum_min": "178296993145563544020568800",
+        "sum_Ry2": "64543511518694002935445905600000",
+        "sum_Rz2": "215523837868263624640248000",
+        "target_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "covariance_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "n": 200,
+        "lengths": [
+          20,
+          180
+        ],
+        "cross": [],
+        "legal_ideal_count": 3801,
+        "le": "1613587787967350073386147640",
+        "Sy_threshold": [
+          20,
+          180
+        ],
+        "Sz_threshold": [
+          20,
+          0
+        ],
+        "r": "200",
+        "s": "20/181",
+        "N": "4020/181",
+        "covariance": "0",
+        "target_gap": "4020/32761",
+        "covariance_gap": "4020/32761",
+        "mean_ratio": "1810",
+        "target_pressure": "181/382",
+        "covariance_pressure": "0",
+        "target_relative_gap": "201/382",
+        "covariance_relative_gap": "1"
+      }
+    },
+    "covariance_absolute_gap_empty_filter": {
+      "score": "4020/32761",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_20_180",
+        "i": 1,
+        "j": 26,
+        "class": "empty_filter",
+        "sum_Ry": "322717557593470014677229528000",
+        "sum_Rz": "178296993145563544020568800",
+        "sum_product": "35659398629112708804113760000",
+        "sum_min": "178296993145563544020568800",
+        "sum_Ry2": "64543511518694002935445905600000",
+        "sum_Rz2": "215523837868263624640248000",
+        "target_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "covariance_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "n": 200,
+        "lengths": [
+          20,
+          180
+        ],
+        "cross": [],
+        "legal_ideal_count": 3801,
+        "le": "1613587787967350073386147640",
+        "Sy_threshold": [
+          20,
+          180
+        ],
+        "Sz_threshold": [
+          20,
+          0
+        ],
+        "r": "200",
+        "s": "20/181",
+        "N": "4020/181",
+        "covariance": "0",
+        "target_gap": "4020/32761",
+        "covariance_gap": "4020/32761",
+        "mean_ratio": "1810",
+        "target_pressure": "181/382",
+        "covariance_pressure": "0",
+        "target_relative_gap": "201/382",
+        "covariance_relative_gap": "1"
+      }
+    },
+    "negative_mean_ratio_empty_filter": {
+      "score": "-1810",
+      "record": {
+        "type": "pair",
+        "case": "disjoint2_20_180",
+        "i": 1,
+        "j": 26,
+        "class": "empty_filter",
+        "sum_Ry": "322717557593470014677229528000",
+        "sum_Rz": "178296993145563544020568800",
+        "sum_product": "35659398629112708804113760000",
+        "sum_min": "178296993145563544020568800",
+        "sum_Ry2": "64543511518694002935445905600000",
+        "sum_Rz2": "215523837868263624640248000",
+        "target_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "covariance_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "n": 200,
+        "lengths": [
+          20,
+          180
+        ],
+        "cross": [],
+        "legal_ideal_count": 3801,
+        "le": "1613587787967350073386147640",
+        "Sy_threshold": [
+          20,
+          180
+        ],
+        "Sz_threshold": [
+          20,
+          0
+        ],
+        "r": "200",
+        "s": "20/181",
+        "N": "4020/181",
+        "covariance": "0",
+        "target_gap": "4020/32761",
+        "covariance_gap": "4020/32761",
+        "mean_ratio": "1810",
+        "target_pressure": "181/382",
+        "covariance_pressure": "0",
+        "target_relative_gap": "201/382",
+        "covariance_relative_gap": "1"
+      }
+    }
+  }
+}

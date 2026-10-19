@@ -1,0 +1,20 @@
+{
+  "scope": "Abstract random-cap control only; not claimed realizable by the specified poset filters.",
+  "J_pmf": {
+    "0": "1/2",
+    "1": "1/4",
+    "2": "1/8",
+    "3": "1/8"
+  },
+  "K_pmf": {
+    "0": "9/10",
+    "3": "1/10"
+  },
+  "J_tail_is_NBU": true,
+  "EJ": "7/8",
+  "VarJ": "71/64",
+  "ER": "7/80",
+  "Cov_R_T": "71/640",
+  "r_r_plus_1": "609/6400",
+  "excess": "101/6400"
+}

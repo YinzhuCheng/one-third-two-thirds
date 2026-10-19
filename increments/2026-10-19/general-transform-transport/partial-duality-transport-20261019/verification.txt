@@ -1,0 +1,7 @@
+Six-point P extensions 18 delta 4/9 incomparable {'zy': (Fraction(5, 6), Fraction(1, 6)), 'ay': (Fraction(2, 3), Fraction(1, 3)), 'bd': (Fraction(2, 3), Fraction(1, 3)), 'by': (Fraction(4, 9), Fraction(4, 9)), 'cd': (Fraction(1, 3), Fraction(1, 3)), 'cy': (Fraction(2, 9), Fraction(2, 9)), 'dy': (Fraction(1, 3), Fraction(1, 3))}
+Six-point local dual extensions 18 delta 1/2 incomparable {'zy': (Fraction(5, 6), Fraction(1, 6)), 'ay': (Fraction(1, 6), Fraction(1, 6)), 'bd': (Fraction(1, 3), Fraction(1, 3)), 'by': (Fraction(7, 18), Fraction(7, 18)), 'cd': (Fraction(2, 3), Fraction(1, 3)), 'cy': (Fraction(11, 18), Fraction(7, 18)), 'dy': (Fraction(1, 2), Fraction(1, 2))}
+Six-point core words for P: z a b c d; z a b d c; z a d b c
+Six-point core words for Q: z c b d a; z c d b a; z d c b a
+Insert y into each of six gaps of each core word; this gives all 18 extensions.
+Four-point fixed-label control extensions 4 delta 1/2 incomparable {'zy': (Fraction(3, 4), Fraction(1, 4)), 'ay': (Fraction(1, 2), Fraction(1, 2)), 'by': (Fraction(1, 4), Fraction(1, 4))}
+Four-point local dual extensions 4 delta 1/2 incomparable {'zy': (Fraction(3, 4), Fraction(1, 4)), 'ay': (Fraction(1, 4), Fraction(1, 4)), 'by': (Fraction(1, 2), Fraction(1, 2))}

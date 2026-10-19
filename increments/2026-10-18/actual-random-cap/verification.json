@@ -1,0 +1,195 @@
+{
+  "method": "Fixed cases only; exact rational arithmetic; no random or parameter search",
+  "actual_cases": [
+    {
+      "name": "Nonprincipal random cap: two C2 blocks",
+      "a": 4,
+      "b": 2,
+      "extensions": 90,
+      "K_law": {
+        "1": "1/3",
+        "2": "2/3"
+      },
+      "r": "14/15",
+      "s": "4/3",
+      "ER2": "22/15",
+      "VarR": "134/225",
+      "CP_gap": "272/225",
+      "CovRT": "4/5",
+      "weighted_tail_sum": "6/5",
+      "strong_upper": "812/675",
+      "T_and_C_gap": "226/225",
+      "N": "134/45",
+      "tails": [
+        {
+          "i": 1,
+          "t_i": "2/3",
+          "q_i": "1"
+        },
+        {
+          "i": 2,
+          "t_i": "2/5",
+          "q_i": "2/3"
+        },
+        {
+          "i": 3,
+          "t_i": "1/5",
+          "q_i": "0"
+        },
+        {
+          "i": 4,
+          "t_i": "1/15",
+          "q_i": "0"
+        }
+      ],
+      "all_checks": true
+    },
+    {
+      "name": "Actual random cap can include zero",
+      "a": 2,
+      "b": 1,
+      "extensions": 6,
+      "K_law": {
+        "0": "1/2",
+        "1": "1/2"
+      },
+      "r": "1/3",
+      "s": "1",
+      "ER2": "1/3",
+      "VarR": "2/9",
+      "CP_gap": "2/9",
+      "CovRT": "1/6",
+      "weighted_tail_sum": "1/3",
+      "strong_upper": "2/9",
+      "T_and_C_gap": "5/18",
+      "N": "5/6",
+      "tails": [
+        {
+          "i": 1,
+          "t_i": "2/3",
+          "q_i": "1/2"
+        },
+        {
+          "i": 2,
+          "t_i": "1/3",
+          "q_i": "0"
+        }
+      ],
+      "all_checks": true
+    },
+    {
+      "name": "Empty S: K=a and R=J",
+      "a": 3,
+      "b": 2,
+      "extensions": 10,
+      "K_law": {
+        "3": "1"
+      },
+      "r": "1",
+      "s": "1",
+      "ER2": "2",
+      "VarR": "1",
+      "CP_gap": "1",
+      "CovRT": "1",
+      "weighted_tail_sum": "3/2",
+      "strong_upper": "4/3",
+      "T_and_C_gap": "1",
+      "N": "3",
+      "tails": [
+        {
+          "i": 1,
+          "t_i": "3/5",
+          "q_i": "1"
+        },
+        {
+          "i": 2,
+          "t_i": "3/10",
+          "q_i": "1"
+        },
+        {
+          "i": 3,
+          "t_i": "1/10",
+          "q_i": "1"
+        }
+      ],
+      "all_checks": true
+    },
+    {
+      "name": "All W in S: R=0",
+      "a": 2,
+      "b": 1,
+      "extensions": 3,
+      "K_law": {
+        "0": "1"
+      },
+      "r": "0",
+      "s": "1",
+      "ER2": "0",
+      "VarR": "0",
+      "CP_gap": "0",
+      "CovRT": "0",
+      "weighted_tail_sum": "0",
+      "strong_upper": "0",
+      "T_and_C_gap": "0",
+      "N": "0",
+      "tails": [
+        {
+          "i": 1,
+          "t_i": "2/3",
+          "q_i": "0"
+        },
+        {
+          "i": 2,
+          "t_i": "1/3",
+          "q_i": "0"
+        }
+      ],
+      "all_checks": true
+    },
+    {
+      "name": "Empty W: a=0",
+      "a": 0,
+      "b": 2,
+      "extensions": 1,
+      "K_law": {
+        "0": "1"
+      },
+      "r": "0",
+      "s": "0",
+      "ER2": "0",
+      "VarR": "0",
+      "CP_gap": "0",
+      "CovRT": "0",
+      "weighted_tail_sum": "0",
+      "strong_upper": "0",
+      "T_and_C_gap": "0",
+      "N": "0",
+      "tails": [],
+      "all_checks": true
+    }
+  ],
+  "abstract_nonactual_controls": [
+    {
+      "name": "Existing abstract control: truncated geometric J",
+      "r": "7/80",
+      "s": "7/8",
+      "ER2": "3/16",
+      "VarR": "1151/6400",
+      "r(r+1)": "609/6400",
+      "CP_gap": "-271/3200",
+      "CovRT": "71/640",
+      "C_gap": "-101/6400"
+    },
+    {
+      "name": "Genuine shuffle J (a=6,b=1), impossible Bernoulli cap",
+      "r": "3/10",
+      "s": "3",
+      "ER2": "13/10",
+      "VarR": "121/100",
+      "r(r+1)": "39/100",
+      "CP_gap": "-41/50",
+      "CovRT": "2/5",
+      "C_gap": "-1/100"
+    }
+  ]
+}

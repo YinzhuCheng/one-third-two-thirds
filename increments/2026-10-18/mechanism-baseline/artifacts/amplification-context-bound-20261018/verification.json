@@ -1,0 +1,258 @@
+{
+  "status": "PASS",
+  "arithmetic": "integers and fractions.Fraction only",
+  "dp_parameter_ranges": {
+    "a": [
+      1,
+      7
+    ],
+    "b": [
+      1,
+      9
+    ],
+    "c": [
+      1,
+      4
+    ],
+    "d": [
+      1,
+      4
+    ]
+  },
+  "dp_cases": 1008,
+  "actual_pair_probability_checks": 5040,
+  "sentinel_boundary_checks": 2016,
+  "expanded_element_enumeration_ranges": {
+    "a": [
+      1,
+      3
+    ],
+    "b": [
+      1,
+      3
+    ],
+    "c": [
+      1,
+      2
+    ],
+    "d": [
+      1,
+      2
+    ]
+  },
+  "expanded_element_enumeration_cases": 36,
+  "enumerated_extensions": 1318,
+  "checks": [
+    "total E",
+    "all A1/Bj probabilities",
+    "common mixture",
+    "decreasing grid jumps",
+    "sharp jump identity",
+    "claimed lower bounds",
+    "deterministic witness",
+    "c=1 closed form",
+    "D-length stochastic tilt"
+  ],
+  "examples": [
+    {
+      "lengths": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "extensions": 9,
+      "selected_pair": [
+        "A1",
+        "B1"
+      ],
+      "j": 1,
+      "p_A1_before_Bj": "4/9",
+      "pair_balance": "4/9",
+      "exact_max_jump": "4/9",
+      "exact_lower_bound": "5/18",
+      "coarse_lower_bound": "1/4",
+      "t": 0
+    },
+    {
+      "lengths": [
+        2,
+        6,
+        1,
+        1
+      ],
+      "extensions": 112,
+      "selected_pair": [
+        "A1",
+        "B2"
+      ],
+      "j": 2,
+      "p_A1_before_Bj": "31/56",
+      "pair_balance": "25/56",
+      "exact_max_jump": "5/16",
+      "exact_lower_bound": "11/32",
+      "coarse_lower_bound": "1/3",
+      "t": 1
+    },
+    {
+      "lengths": [
+        4,
+        18,
+        1,
+        1
+      ],
+      "extensions": 40964,
+      "selected_pair": [
+        "A1",
+        "B3"
+      ],
+      "j": 3,
+      "p_A1_before_Bj": "284/539",
+      "pair_balance": "255/539",
+      "exact_max_jump": "65/308",
+      "exact_lower_bound": "243/616",
+      "coarse_lower_bound": "9/23",
+      "t": 2
+    },
+    {
+      "lengths": [
+        8,
+        54,
+        1,
+        1
+      ],
+      "extensions": 27048788360,
+      "selected_pair": [
+        "A1",
+        "B4"
+      ],
+      "j": 4,
+      "p_A1_before_Bj": "518327/1115690",
+      "pair_balance": "518327/1115690",
+      "exact_max_jump": "35/248",
+      "exact_lower_bound": "213/496",
+      "coarse_lower_bound": "3/7",
+      "t": 3
+    },
+    {
+      "lengths": [
+        16,
+        162,
+        1,
+        1
+      ],
+      "extensions": 279406376800316291505980,
+      "selected_pair": [
+        "A1",
+        "B7"
+      ],
+      "j": 7,
+      "p_A1_before_Bj": "442403084603/872258680370",
+      "pair_balance": "429855595767/872258680370",
+      "exact_max_jump": "1649/17444",
+      "exact_lower_bound": "15795/34888",
+      "coarse_lower_bound": "81/179",
+      "t": 4
+    },
+    {
+      "lengths": [
+        1,
+        2,
+        3,
+        2
+      ],
+      "extensions": 65,
+      "selected_pair": [
+        "A1",
+        "B1"
+      ],
+      "j": 1,
+      "p_A1_before_Bj": "7/13",
+      "pair_balance": "6/13",
+      "exact_max_jump": "7/13",
+      "exact_lower_bound": "3/13",
+      "coarse_lower_bound": "1/6",
+      "t": 0
+    },
+    {
+      "lengths": [
+        2,
+        6,
+        3,
+        2
+      ],
+      "extensions": 1246,
+      "selected_pair": [
+        "A1",
+        "B1"
+      ],
+      "j": 1,
+      "p_A1_before_Bj": "35/89",
+      "pair_balance": "35/89",
+      "exact_max_jump": "35/89",
+      "exact_lower_bound": "27/89",
+      "coarse_lower_bound": "3/11",
+      "t": 1
+    },
+    {
+      "lengths": [
+        4,
+        18,
+        3,
+        2
+      ],
+      "extensions": 880099,
+      "selected_pair": [
+        "A1",
+        "B2"
+      ],
+      "j": 2,
+      "p_A1_before_Bj": "21331/46321",
+      "pair_balance": "21331/46321",
+      "exact_max_jump": "12061/46321",
+      "exact_lower_bound": "17130/46321",
+      "coarse_lower_bound": "9/25",
+      "t": 2
+    },
+    {
+      "lengths": [
+        8,
+        54,
+        3,
+        2
+      ],
+      "extensions": 1282542889897,
+      "selected_pair": [
+        "A1",
+        "B4"
+      ],
+      "j": 4,
+      "p_A1_before_Bj": "1212879272/2327664047",
+      "pair_balance": "1114784775/2327664047",
+      "exact_max_jump": "106249/646753",
+      "exact_lower_bound": "270252/646753",
+      "coarse_lower_bound": "27/65",
+      "t": 3
+    },
+    {
+      "lengths": [
+        16,
+        162,
+        3,
+        2
+      ],
+      "extensions": 30274401200540178626240725,
+      "selected_pair": [
+        "A1",
+        "B6"
+      ],
+      "j": 6,
+      "p_A1_before_Bj": "56945007297769/116930478014185",
+      "pair_balance": "56945007297769/116930478014185",
+      "exact_max_jump": "745769/7182389",
+      "exact_lower_bound": "3218310/7182389",
+      "coarse_lower_bound": "81/181",
+      "t": 4
+    }
+  ]
+}

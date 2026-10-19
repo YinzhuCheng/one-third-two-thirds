@@ -1,0 +1,394 @@
+{
+  "schema_version": 2,
+  "namespace": "transform-mechanism-pilot-20261018",
+  "objects": [
+    {
+      "id": "BG-001",
+      "kind": "background",
+      "title": "δ与自主链",
+      "status": "established-background",
+      "summary": "均匀有标签线性扩张、全部不可比个体对",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "RESEARCH_STATE.md",
+      "open_obligations": [],
+      "artifacts": [
+        "RESEARCH_STATE.md"
+      ]
+    },
+    {
+      "id": "FAIL-001",
+      "kind": "failed-route",
+      "title": "固定非对称膨胀H",
+      "status": "refuted",
+      "summary": "(1,2)→(2,6)使δ由1/3升至13/28",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/amplification-mechanism-pilot-20261018/RESULT.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/amplification-mechanism-pilot-20261018/RESULT.md"
+      ]
+    },
+    {
+      "id": "THM-001",
+      "kind": "theorem",
+      "title": "二独立链显式界与固定U极限",
+      "status": "proved-in-session",
+      "summary": "误差≤min(a,b)/(2(a+b))；固定U迭代δ→1/2",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/audit-amplification-pilot-20261018/REVIEW.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/audit-amplification-pilot-20261018/REVIEW.md"
+      ]
+    },
+    {
+      "id": "FAIL-002",
+      "kind": "failed-route",
+      "title": "无条件单步缩短H0",
+      "status": "refuted",
+      "summary": "(3,2)的两个后继δ均从2/5升至1/2",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/audit-descent-pilot-20261018/REVIEW.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/audit-descent-pilot-20261018/REVIEW.md"
+      ]
+    },
+    {
+      "id": "FAIL-003",
+      "kind": "failed-route",
+      "title": "偶偶修订H1",
+      "status": "refuted",
+      "summary": "(8,4)的两个后继δ均严格增加",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/audit-descent-pilot-20261018/REVIEW.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/audit-descent-pilot-20261018/REVIEW.md"
+      ]
+    },
+    {
+      "id": "THM-002",
+      "kind": "theorem",
+      "title": "相邻长度δ与偶子族局部极小",
+      "status": "proved-in-session",
+      "summary": "δ(n+1,n)=n/(2n+1)；n偶时两个缩法均到1/2",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/audit-descent-pilot-20261018/REVIEW.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/audit-descent-pilot-20261018/REVIEW.md"
+      ]
+    },
+    {
+      "id": "THM-003",
+      "kind": "theorem",
+      "title": "Pell无限局部极小族",
+      "status": "proved-in-session",
+      "summary": "(a+1)(a+2)=2u²时(a,2)的两个缩法严格增大δ",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/audit-descent-pilot-20261018/REVIEW.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/audit-descent-pilot-20261018/REVIEW.md"
+      ]
+    },
+    {
+      "id": "PROP-001",
+      "kind": "proposition",
+      "title": "b=2必要充分判据",
+      "status": "proof-sketch",
+      "summary": "主稿给出完整证明和精确核对，未专门独审",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/descent-mechanism-pilot-20261018/RESULT.md",
+      "open_obligations": [
+        "专门独立审核"
+      ],
+      "artifacts": [
+        "artifacts/descent-mechanism-pilot-20261018/RESULT.md"
+      ],
+      "producer_status": "complete-proof-supplied",
+      "independent_review_status": "not-independently-audited"
+    },
+    {
+      "id": "PROP-002",
+      "kind": "proposition",
+      "title": "强化Pell后继精确δ",
+      "status": "proof-sketch",
+      "summary": "主稿给出精确全对后继公式，未专门独审",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/descent-mechanism-pilot-20261018/RESULT.md",
+      "open_obligations": [
+        "专门独立审核"
+      ],
+      "artifacts": [
+        "artifacts/descent-mechanism-pilot-20261018/RESULT.md"
+      ],
+      "producer_status": "complete-proof-supplied",
+      "independent_review_status": "not-independently-audited"
+    },
+    {
+      "id": "EXP-001",
+      "kind": "experiment",
+      "title": "固定U14输入全对精确测试",
+      "status": "replicated",
+      "summary": "14输入28态813跨块表项由独立枚举复核",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/audit-amplification-pilot-20261018/independent_results.json",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/audit-amplification-pilot-20261018/independent_results.json"
+      ]
+    },
+    {
+      "id": "EXP-002",
+      "kind": "experiment",
+      "title": "双链435输入局部极小扫描",
+      "status": "empirical-observation",
+      "summary": "131严格局部极小，含28偶偶；整表未独审",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/descent-mechanism-pilot-20261018/verification_summary.json",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/descent-mechanism-pilot-20261018/verification_summary.json"
+      ]
+    },
+    {
+      "id": "THM-004",
+      "kind": "theorem",
+      "title": "固定外部单点链膨胀显式界",
+      "status": "proved-in-session",
+      "summary": "δ(P_k)≥1/2−Am/(2(k+m))，η≤1/2；阈值与锐性",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/audit-single-chain-obstruction-20261018/proof-audit.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/audit-single-chain-obstruction-20261018/proof-audit.md"
+      ]
+    },
+    {
+      "id": "Q-001",
+      "kind": "question",
+      "title": "真实反例的变换保持性",
+      "status": "open",
+      "summary": "无δ<1/3样本；本包没有证明或否定条件保持性",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "RESEARCH_STATE.md",
+      "open_obligations": [],
+      "artifacts": [
+        "RESEARCH_STATE.md"
+      ]
+    },
+    {
+      "id": "NEXT-001",
+      "kind": "next-action",
+      "title": "恢复证据分层",
+      "status": "planned",
+      "summary": "先阅读，不重跑；已独审与增强式分开",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "NEXT_RESEARCH_DIRECTIONS.md",
+      "open_obligations": [],
+      "artifacts": [
+        "NEXT_RESEARCH_DIRECTIONS.md"
+      ]
+    },
+    {
+      "id": "NEXT-002",
+      "kind": "next-action",
+      "title": "后续新增机制单独定向审稿",
+      "status": "planned",
+      "summary": "不将未加载和未接受的后续结果混入本包",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "NEXT_RESEARCH_DIRECTIONS.md",
+      "open_obligations": [],
+      "artifacts": [
+        "NEXT_RESEARCH_DIRECTIONS.md"
+      ]
+    },
+    {
+      "id": "NEXT-003",
+      "kind": "next-action",
+      "title": "专门审核未独审增强式",
+      "status": "planned",
+      "summary": "如继续提高状态，独立覆盖精确陈述",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "NEXT_RESEARCH_DIRECTIONS.md",
+      "open_obligations": [],
+      "artifacts": [
+        "NEXT_RESEARCH_DIRECTIONS.md"
+      ]
+    },
+    {
+      "id": "THM-005",
+      "kind": "theorem",
+      "title": "插入密度与锐关系权重界",
+      "status": "proved-in-session",
+      "summary": "密度、协方差、极值和恒重充要条件",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/audit-deletion-weight-20261018/REVIEW.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/audit-deletion-weight-20261018/REVIEW.md"
+      ]
+    },
+    {
+      "id": "THM-006",
+      "kind": "theorem",
+      "title": "自治链固定/平均rank及阈值界",
+      "status": "proved-in-session",
+      "summary": "固定权重比t+1；平均rank含链事件为相邻插值",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/audit-deletion-weight-20261018/REVIEW.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/audit-deletion-weight-20261018/REVIEW.md"
+      ]
+    },
+    {
+      "id": "FAIL-004",
+      "kind": "failed-route",
+      "title": "稀有外部事件协方差符号假设",
+      "status": "refuted",
+      "summary": "解析例pP=1/4，pQ=1/3，Cov=−1/9；另有正号例",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/descent-insertion-identity-20261018/RESULT.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/descent-insertion-identity-20261018/RESULT.md"
+      ]
+    },
+    {
+      "id": "THM-007",
+      "kind": "theorem",
+      "title": "Pell统一有限总删除半径屏障",
+      "status": "proved-in-session",
+      "summary": "u≥5r²时全部1≤j+ℓ≤r的正链后继δ严格增加",
+      "depends_on": [
+        "THM-003"
+      ],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/audit-bounded-shortening-20261018/REVIEW.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/audit-bounded-shortening-20261018/REVIEW.md"
+      ]
+    },
+    {
+      "id": "THM-008",
+      "kind": "theorem",
+      "title": "固定N基底共同混合网格界",
+      "status": "proved-in-session",
+      "summary": "全正参数共同权重、混合后确定标签、固定c,d的原规则δ→1/2",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "statement_location": "artifacts/audit-context-amplification-20261018/REVIEW.md",
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/audit-context-amplification-20261018/REVIEW.md"
+      ]
+    }
+  ]
+}

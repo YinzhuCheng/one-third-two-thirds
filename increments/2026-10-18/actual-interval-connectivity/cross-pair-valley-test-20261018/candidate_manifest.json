@@ -1,0 +1,3842 @@
+[
+  {
+    "case_index": 1,
+    "label": "A3<y",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 1,
+    "label": "A3<z",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 1,
+    "label": "B5<y",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 1,
+    "label": "B5<z",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 2,
+    "label": "A3<y",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 2,
+    "label": "A3<z",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 2,
+    "label": "B5<y",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 2,
+    "label": "B5<z",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 3,
+    "label": "A3<y",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 3,
+    "label": "A3<z",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 3,
+    "label": "B5<y",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 3,
+    "label": "B5<z",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 4,
+    "label": "A3<y",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 4,
+    "label": "A3<z",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 4,
+    "label": "B5<y",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 4,
+    "label": "B5<z",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 5,
+    "label": "A3<y",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 5,
+    "label": "A3<z",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 5,
+    "label": "B5<y",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 5,
+    "label": "B5<z",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 6,
+    "label": "A3<y",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 6,
+    "label": "A3<z",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 6,
+    "label": "B5<y",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 6,
+    "label": "B5<z",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 7,
+    "label": "A3<y",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 7,
+    "label": "A3<z",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 7,
+    "label": "B5<y",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 7,
+    "label": "B5<z",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 8,
+    "label": "A3<y",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 8,
+    "label": "A3<z",
+    "D_chain": "A",
+    "D_label": "A3",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 8,
+    "label": "B5<y",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 8,
+    "label": "B5<z",
+    "D_chain": "B",
+    "D_label": "B5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 9,
+    "label": "A4<y",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 9,
+    "label": "A4<z",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 9,
+    "label": "B7<y",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 9,
+    "label": "B7<z",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 10,
+    "label": "A4<y",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 10,
+    "label": "A4<z",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 10,
+    "label": "B7<y",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 10,
+    "label": "B7<z",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 11,
+    "label": "A4<y",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 11,
+    "label": "A4<z",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 11,
+    "label": "B7<y",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 11,
+    "label": "B7<z",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 12,
+    "label": "A4<y",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 12,
+    "label": "A4<z",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 12,
+    "label": "B7<y",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 12,
+    "label": "B7<z",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 13,
+    "label": "A4<y",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 13,
+    "label": "A4<z",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 13,
+    "label": "B7<y",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 13,
+    "label": "B7<z",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 14,
+    "label": "A4<y",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 14,
+    "label": "A4<z",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 14,
+    "label": "B7<y",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 14,
+    "label": "B7<z",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 15,
+    "label": "A4<y",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 15,
+    "label": "A4<z",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 15,
+    "label": "B7<y",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 15,
+    "label": "B7<z",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 16,
+    "label": "A4<y",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 16,
+    "label": "A4<z",
+    "D_chain": "A",
+    "D_label": "A4",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 16,
+    "label": "B7<y",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 16,
+    "label": "B7<z",
+    "D_chain": "B",
+    "D_label": "B7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 17,
+    "label": "A5<y",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 17,
+    "label": "A5<z",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 17,
+    "label": "B9<y",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 17,
+    "label": "B9<z",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 18,
+    "label": "A5<y",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 18,
+    "label": "A5<z",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 18,
+    "label": "B9<y",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 18,
+    "label": "B9<z",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 19,
+    "label": "A5<y",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 19,
+    "label": "A5<z",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 19,
+    "label": "B9<y",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 19,
+    "label": "B9<z",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 20,
+    "label": "A5<y",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 20,
+    "label": "A5<z",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 20,
+    "label": "B9<y",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 20,
+    "label": "B9<z",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 21,
+    "label": "A5<y",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 21,
+    "label": "A5<z",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 21,
+    "label": "B9<y",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 21,
+    "label": "B9<z",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 22,
+    "label": "A5<y",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 22,
+    "label": "A5<z",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 22,
+    "label": "B9<y",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 22,
+    "label": "B9<z",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 23,
+    "label": "A5<y",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 23,
+    "label": "A5<z",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 23,
+    "label": "B9<y",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 23,
+    "label": "B9<z",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 24,
+    "label": "A5<y",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 24,
+    "label": "A5<z",
+    "D_chain": "A",
+    "D_label": "A5",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 24,
+    "label": "B9<y",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 24,
+    "label": "B9<z",
+    "D_chain": "B",
+    "D_label": "B9",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 25,
+    "label": "A7<y",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 25,
+    "label": "A7<z",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 25,
+    "label": "B10<y",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 25,
+    "label": "B10<z",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 26,
+    "label": "A7<y",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 26,
+    "label": "A7<z",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 26,
+    "label": "B10<y",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 26,
+    "label": "B10<z",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 27,
+    "label": "A7<y",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 27,
+    "label": "A7<z",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 27,
+    "label": "B10<y",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 27,
+    "label": "B10<z",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 28,
+    "label": "A7<y",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 28,
+    "label": "A7<z",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 28,
+    "label": "B10<y",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 28,
+    "label": "B10<z",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 29,
+    "label": "A7<y",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 29,
+    "label": "A7<z",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 29,
+    "label": "B10<y",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 29,
+    "label": "B10<z",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 30,
+    "label": "A7<y",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 30,
+    "label": "A7<z",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 30,
+    "label": "B10<y",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 30,
+    "label": "B10<z",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 31,
+    "label": "A7<y",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 31,
+    "label": "A7<z",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 31,
+    "label": "B10<y",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 31,
+    "label": "B10<z",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 32,
+    "label": "A7<y",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 32,
+    "label": "A7<z",
+    "D_chain": "A",
+    "D_label": "A7",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 32,
+    "label": "B10<y",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 32,
+    "label": "B10<z",
+    "D_chain": "B",
+    "D_label": "B10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 33,
+    "label": "A8<y",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 33,
+    "label": "A8<z",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 33,
+    "label": "B13<y",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 33,
+    "label": "B13<z",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 34,
+    "label": "A8<y",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 34,
+    "label": "A8<z",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 34,
+    "label": "B13<y",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 34,
+    "label": "B13<z",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 35,
+    "label": "A8<y",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 35,
+    "label": "A8<z",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 35,
+    "label": "B13<y",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 35,
+    "label": "B13<z",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 36,
+    "label": "A8<y",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 36,
+    "label": "A8<z",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 36,
+    "label": "B13<y",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 36,
+    "label": "B13<z",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 37,
+    "label": "A8<y",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 37,
+    "label": "A8<z",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 37,
+    "label": "B13<y",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 37,
+    "label": "B13<z",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 38,
+    "label": "A8<y",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 38,
+    "label": "A8<z",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 38,
+    "label": "B13<y",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 38,
+    "label": "B13<z",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 39,
+    "label": "A8<y",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 39,
+    "label": "A8<z",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 39,
+    "label": "B13<y",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 39,
+    "label": "B13<z",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 40,
+    "label": "A8<y",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 40,
+    "label": "A8<z",
+    "D_chain": "A",
+    "D_label": "A8",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 40,
+    "label": "B13<y",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 40,
+    "label": "B13<z",
+    "D_chain": "B",
+    "D_label": "B13",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 41,
+    "label": "A10<y",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 41,
+    "label": "A10<z",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 41,
+    "label": "B15<y",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 41,
+    "label": "B15<z",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 42,
+    "label": "A10<y",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 42,
+    "label": "A10<z",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 42,
+    "label": "B15<y",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 42,
+    "label": "B15<z",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 43,
+    "label": "A10<y",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 43,
+    "label": "A10<z",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 43,
+    "label": "B15<y",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 43,
+    "label": "B15<z",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 44,
+    "label": "A10<y",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 44,
+    "label": "A10<z",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 44,
+    "label": "B15<y",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 44,
+    "label": "B15<z",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 45,
+    "label": "A10<y",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 45,
+    "label": "A10<z",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 45,
+    "label": "B15<y",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 45,
+    "label": "B15<z",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 46,
+    "label": "A10<y",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 46,
+    "label": "A10<z",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 46,
+    "label": "B15<y",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 46,
+    "label": "B15<z",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 47,
+    "label": "A10<y",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 47,
+    "label": "A10<z",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 47,
+    "label": "B15<y",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 47,
+    "label": "B15<z",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 48,
+    "label": "A10<y",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 48,
+    "label": "A10<z",
+    "D_chain": "A",
+    "D_label": "A10",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 48,
+    "label": "B15<y",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 48,
+    "label": "B15<z",
+    "D_chain": "B",
+    "D_label": "B15",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 49,
+    "label": "A12<y",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 49,
+    "label": "A12<z",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 49,
+    "label": "B17<y",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 49,
+    "label": "B17<z",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 50,
+    "label": "A12<y",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 50,
+    "label": "A12<z",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 50,
+    "label": "B17<y",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 50,
+    "label": "B17<z",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 51,
+    "label": "A12<y",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 51,
+    "label": "A12<z",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 51,
+    "label": "B17<y",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 51,
+    "label": "B17<z",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 52,
+    "label": "A12<y",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 52,
+    "label": "A12<z",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 52,
+    "label": "B17<y",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 52,
+    "label": "B17<z",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 53,
+    "label": "A12<y",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 53,
+    "label": "A12<z",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 53,
+    "label": "B17<y",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 53,
+    "label": "B17<z",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 54,
+    "label": "A12<y",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 54,
+    "label": "A12<z",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 54,
+    "label": "B17<y",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 54,
+    "label": "B17<z",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 55,
+    "label": "A12<y",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 55,
+    "label": "A12<z",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 55,
+    "label": "B17<y",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 55,
+    "label": "B17<z",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 56,
+    "label": "A12<y",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 56,
+    "label": "A12<z",
+    "D_chain": "A",
+    "D_label": "A12",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 56,
+    "label": "B17<y",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 56,
+    "label": "B17<z",
+    "D_chain": "B",
+    "D_label": "B17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 57,
+    "label": "A14<y",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 57,
+    "label": "A14<z",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 57,
+    "label": "B20<y",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 57,
+    "label": "B20<z",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 58,
+    "label": "A14<y",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 58,
+    "label": "A14<z",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 58,
+    "label": "B20<y",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 58,
+    "label": "B20<z",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 59,
+    "label": "A14<y",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 59,
+    "label": "A14<z",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 59,
+    "label": "B20<y",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 59,
+    "label": "B20<z",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 60,
+    "label": "A14<y",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 60,
+    "label": "A14<z",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 60,
+    "label": "B20<y",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 60,
+    "label": "B20<z",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 61,
+    "label": "A14<y",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 61,
+    "label": "A14<z",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 61,
+    "label": "B20<y",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 61,
+    "label": "B20<z",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 62,
+    "label": "A14<y",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 62,
+    "label": "A14<z",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 62,
+    "label": "B20<y",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 62,
+    "label": "B20<z",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 63,
+    "label": "A14<y",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 63,
+    "label": "A14<z",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 63,
+    "label": "B20<y",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 63,
+    "label": "B20<z",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 64,
+    "label": "A14<y",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 64,
+    "label": "A14<z",
+    "D_chain": "A",
+    "D_label": "A14",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 64,
+    "label": "B20<y",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 64,
+    "label": "B20<z",
+    "D_chain": "B",
+    "D_label": "B20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 65,
+    "label": "A17<y",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 65,
+    "label": "A17<z",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 65,
+    "label": "B23<y",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 65,
+    "label": "B23<z",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 66,
+    "label": "A17<y",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 66,
+    "label": "A17<z",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 66,
+    "label": "B23<y",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 66,
+    "label": "B23<z",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 67,
+    "label": "A17<y",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 67,
+    "label": "A17<z",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 67,
+    "label": "B23<y",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 67,
+    "label": "B23<z",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 68,
+    "label": "A17<y",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 68,
+    "label": "A17<z",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 68,
+    "label": "B23<y",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 68,
+    "label": "B23<z",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 69,
+    "label": "A17<y",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 69,
+    "label": "A17<z",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 69,
+    "label": "B23<y",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 69,
+    "label": "B23<z",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 70,
+    "label": "A17<y",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 70,
+    "label": "A17<z",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 70,
+    "label": "B23<y",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 70,
+    "label": "B23<z",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 71,
+    "label": "A17<y",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 71,
+    "label": "A17<z",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 71,
+    "label": "B23<y",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 71,
+    "label": "B23<z",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 72,
+    "label": "A17<y",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 72,
+    "label": "A17<z",
+    "D_chain": "A",
+    "D_label": "A17",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 72,
+    "label": "B23<y",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 72,
+    "label": "B23<z",
+    "D_chain": "B",
+    "D_label": "B23",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 73,
+    "label": "A20<y",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 73,
+    "label": "A20<z",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 73,
+    "label": "B27<y",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 73,
+    "label": "B27<z",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 74,
+    "label": "A20<y",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 74,
+    "label": "A20<z",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 74,
+    "label": "B27<y",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 74,
+    "label": "B27<z",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 75,
+    "label": "A20<y",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 75,
+    "label": "A20<z",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 75,
+    "label": "B27<y",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 75,
+    "label": "B27<z",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 76,
+    "label": "A20<y",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 76,
+    "label": "A20<z",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 76,
+    "label": "B27<y",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 76,
+    "label": "B27<z",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 77,
+    "label": "A20<y",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 77,
+    "label": "A20<z",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 77,
+    "label": "B27<y",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 77,
+    "label": "B27<z",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 78,
+    "label": "A20<y",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 78,
+    "label": "A20<z",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 78,
+    "label": "B27<y",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 78,
+    "label": "B27<z",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 79,
+    "label": "A20<y",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 79,
+    "label": "A20<z",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 79,
+    "label": "B27<y",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 79,
+    "label": "B27<z",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 80,
+    "label": "A20<y",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 80,
+    "label": "A20<z",
+    "D_chain": "A",
+    "D_label": "A20",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 80,
+    "label": "B27<y",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 80,
+    "label": "B27<z",
+    "D_chain": "B",
+    "D_label": "B27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 81,
+    "label": "A24<y",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 81,
+    "label": "A24<z",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 81,
+    "label": "B30<y",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 81,
+    "label": "B30<z",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 82,
+    "label": "A24<y",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 82,
+    "label": "A24<z",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 82,
+    "label": "B30<y",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 82,
+    "label": "B30<z",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 83,
+    "label": "A24<y",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 83,
+    "label": "A24<z",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 83,
+    "label": "B30<y",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 83,
+    "label": "B30<z",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 84,
+    "label": "A24<y",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 84,
+    "label": "A24<z",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 84,
+    "label": "B30<y",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 84,
+    "label": "B30<z",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 85,
+    "label": "A24<y",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 85,
+    "label": "A24<z",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 85,
+    "label": "B30<y",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 85,
+    "label": "B30<z",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 86,
+    "label": "A24<y",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 86,
+    "label": "A24<z",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 86,
+    "label": "B30<y",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 86,
+    "label": "B30<z",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 87,
+    "label": "A24<y",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 87,
+    "label": "A24<z",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 87,
+    "label": "B30<y",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 87,
+    "label": "B30<z",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 88,
+    "label": "A24<y",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 88,
+    "label": "A24<z",
+    "D_chain": "A",
+    "D_label": "A24",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 88,
+    "label": "B30<y",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 88,
+    "label": "B30<z",
+    "D_chain": "B",
+    "D_label": "B30",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 89,
+    "label": "A27<y",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 89,
+    "label": "A27<z",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 89,
+    "label": "B31<y",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 89,
+    "label": "B31<z",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 90,
+    "label": "A27<y",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 90,
+    "label": "A27<z",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 90,
+    "label": "B31<y",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 90,
+    "label": "B31<z",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 91,
+    "label": "A27<y",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 91,
+    "label": "A27<z",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 91,
+    "label": "B31<y",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 91,
+    "label": "B31<z",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 92,
+    "label": "A27<y",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 92,
+    "label": "A27<z",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 92,
+    "label": "B31<y",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 92,
+    "label": "B31<z",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 93,
+    "label": "A27<y",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 93,
+    "label": "A27<z",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 93,
+    "label": "B31<y",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 93,
+    "label": "B31<z",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 94,
+    "label": "A27<y",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 94,
+    "label": "A27<z",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "z",
+    "skip_comparable": true,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 94,
+    "label": "B31<y",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "y",
+    "skip_comparable": true,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 94,
+    "label": "B31<z",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 95,
+    "label": "A27<y",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 95,
+    "label": "A27<z",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 95,
+    "label": "B31<y",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 95,
+    "label": "B31<z",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 96,
+    "label": "A27<y",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 96,
+    "label": "A27<z",
+    "D_chain": "A",
+    "D_label": "A27",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 96,
+    "label": "B31<y",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "y",
+    "skip_comparable": false,
+    "other_I": "z",
+    "other_I_ordinal_cut": false
+  },
+  {
+    "case_index": 96,
+    "label": "B31<z",
+    "D_chain": "B",
+    "D_label": "B31",
+    "I": "z",
+    "skip_comparable": false,
+    "other_I": "y",
+    "other_I_ordinal_cut": false
+  }
+]

@@ -1,0 +1,772 @@
+{
+  "budget_objects": 9,
+  "max_n": 6,
+  "results": [
+    {
+      "id": "antichain3",
+      "n": 3,
+      "N": 6,
+      "Nplus": 3,
+      "Nminus": 3,
+      "p": "1/2",
+      "global_other_pairs_preserved": false,
+      "between": {
+        "z": {
+          "r": "1/6",
+          "s": "1/6",
+          "difference": "1/3"
+        }
+      },
+      "pairs": {
+        "x<y": {
+          "original": "1/2",
+          "plus": "1",
+          "minus": "0",
+          "drift": "1/2",
+          "cov_edit": "1/4"
+        },
+        "x<z": {
+          "original": "1/2",
+          "plus": "2/3",
+          "minus": "1/3",
+          "drift": "1/6",
+          "cov_edit": "1/12"
+        },
+        "y<z": {
+          "original": "1/2",
+          "plus": "1/3",
+          "minus": "2/3",
+          "drift": "-1/6",
+          "cov_edit": "-1/12"
+        }
+      },
+      "target": null
+    },
+    {
+      "id": "antichain4",
+      "n": 4,
+      "N": 24,
+      "Nplus": 12,
+      "Nminus": 12,
+      "p": "1/2",
+      "global_other_pairs_preserved": false,
+      "between": {
+        "z": {
+          "r": "1/6",
+          "s": "1/6",
+          "difference": "1/3"
+        },
+        "w": {
+          "r": "1/6",
+          "s": "1/6",
+          "difference": "1/3"
+        }
+      },
+      "pairs": {
+        "x<y": {
+          "original": "1/2",
+          "plus": "1",
+          "minus": "0",
+          "drift": "1/2",
+          "cov_edit": "1/4"
+        },
+        "x<z": {
+          "original": "1/2",
+          "plus": "2/3",
+          "minus": "1/3",
+          "drift": "1/6",
+          "cov_edit": "1/12"
+        },
+        "x<w": {
+          "original": "1/2",
+          "plus": "2/3",
+          "minus": "1/3",
+          "drift": "1/6",
+          "cov_edit": "1/12"
+        },
+        "y<z": {
+          "original": "1/2",
+          "plus": "1/3",
+          "minus": "2/3",
+          "drift": "-1/6",
+          "cov_edit": "-1/12"
+        },
+        "y<w": {
+          "original": "1/2",
+          "plus": "1/3",
+          "minus": "2/3",
+          "drift": "-1/6",
+          "cov_edit": "-1/12"
+        },
+        "z<w": {
+          "original": "1/2",
+          "plus": "1/2",
+          "minus": "1/2",
+          "drift": "0",
+          "cov_edit": "0"
+        }
+      },
+      "target": {
+        "pair": [
+          "z",
+          "w"
+        ],
+        "original": "1/2",
+        "plus": "1/2",
+        "drift": "0",
+        "cov_edit": "0"
+      }
+    },
+    {
+      "id": "external_witness_loss",
+      "n": 4,
+      "N": 12,
+      "Nplus": 4,
+      "Nminus": 8,
+      "p": "1/3",
+      "global_other_pairs_preserved": false,
+      "between": {
+        "z": {
+          "r": "0",
+          "s": "1/3",
+          "difference": "1/3"
+        },
+        "w": {
+          "r": "1/12",
+          "s": "1/4",
+          "difference": "5/12"
+        }
+      },
+      "pairs": {
+        "x<y": {
+          "original": "1/3",
+          "plus": "1",
+          "minus": "0",
+          "drift": "2/3",
+          "cov_edit": "2/9"
+        },
+        "x<z": {
+          "original": "2/3",
+          "plus": "1",
+          "minus": "1/2",
+          "drift": "1/3",
+          "cov_edit": "1/9"
+        },
+        "x<w": {
+          "original": "1/2",
+          "plus": "3/4",
+          "minus": "3/8",
+          "drift": "1/4",
+          "cov_edit": "1/12"
+        },
+        "y<z": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "y<w": {
+          "original": "2/3",
+          "plus": "1/2",
+          "minus": "3/4",
+          "drift": "-1/6",
+          "cov_edit": "-1/18"
+        },
+        "z<w": {
+          "original": "1/3",
+          "plus": "1/4",
+          "minus": "3/8",
+          "drift": "-1/12",
+          "cov_edit": "-1/36"
+        }
+      },
+      "target": {
+        "pair": [
+          "z",
+          "w"
+        ],
+        "original": "1/3",
+        "plus": "1/4",
+        "drift": "-1/12",
+        "cov_edit": "-1/36"
+      }
+    },
+    {
+      "id": "external_positive",
+      "n": 4,
+      "N": 12,
+      "Nplus": 8,
+      "Nminus": 4,
+      "p": "2/3",
+      "global_other_pairs_preserved": false,
+      "between": {
+        "z": {
+          "r": "1/3",
+          "s": "0",
+          "difference": "1/6"
+        },
+        "w": {
+          "r": "1/4",
+          "s": "1/12",
+          "difference": "5/24"
+        }
+      },
+      "pairs": {
+        "x<y": {
+          "original": "2/3",
+          "plus": "1",
+          "minus": "0",
+          "drift": "1/3",
+          "cov_edit": "2/9"
+        },
+        "x<z": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "x<w": {
+          "original": "2/3",
+          "plus": "3/4",
+          "minus": "1/2",
+          "drift": "1/12",
+          "cov_edit": "1/18"
+        },
+        "y<z": {
+          "original": "2/3",
+          "plus": "1/2",
+          "minus": "1",
+          "drift": "-1/6",
+          "cov_edit": "-1/9"
+        },
+        "y<w": {
+          "original": "1/2",
+          "plus": "3/8",
+          "minus": "3/4",
+          "drift": "-1/8",
+          "cov_edit": "-1/12"
+        },
+        "z<w": {
+          "original": "1/3",
+          "plus": "3/8",
+          "minus": "1/4",
+          "drift": "1/24",
+          "cov_edit": "1/36"
+        }
+      },
+      "target": {
+        "pair": [
+          "z",
+          "w"
+        ],
+        "original": "1/3",
+        "plus": "3/8",
+        "drift": "1/24",
+        "cov_edit": "1/36"
+      }
+    },
+    {
+      "id": "external_negative",
+      "n": 4,
+      "N": 12,
+      "Nplus": 8,
+      "Nminus": 4,
+      "p": "2/3",
+      "global_other_pairs_preserved": false,
+      "between": {
+        "z": {
+          "r": "1/4",
+          "s": "1/12",
+          "difference": "5/24"
+        },
+        "w": {
+          "r": "1/3",
+          "s": "0",
+          "difference": "1/6"
+        }
+      },
+      "pairs": {
+        "x<y": {
+          "original": "2/3",
+          "plus": "1",
+          "minus": "0",
+          "drift": "1/3",
+          "cov_edit": "2/9"
+        },
+        "x<z": {
+          "original": "2/3",
+          "plus": "3/4",
+          "minus": "1/2",
+          "drift": "1/12",
+          "cov_edit": "1/18"
+        },
+        "x<w": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "y<z": {
+          "original": "1/2",
+          "plus": "3/8",
+          "minus": "3/4",
+          "drift": "-1/8",
+          "cov_edit": "-1/12"
+        },
+        "y<w": {
+          "original": "2/3",
+          "plus": "1/2",
+          "minus": "1",
+          "drift": "-1/6",
+          "cov_edit": "-1/9"
+        },
+        "z<w": {
+          "original": "2/3",
+          "plus": "5/8",
+          "minus": "3/4",
+          "drift": "-1/24",
+          "cov_edit": "-1/36"
+        }
+      },
+      "target": {
+        "pair": [
+          "z",
+          "w"
+        ],
+        "original": "2/3",
+        "plus": "5/8",
+        "drift": "-1/24",
+        "cov_edit": "-1/36"
+      }
+    },
+    {
+      "id": "ordinal_A2_block",
+      "n": 6,
+      "N": 8,
+      "Nplus": 4,
+      "Nminus": 4,
+      "p": "1/2",
+      "global_other_pairs_preserved": true,
+      "between": {
+        "d1": {
+          "r": "0",
+          "s": "0",
+          "difference": "0"
+        },
+        "d2": {
+          "r": "0",
+          "s": "0",
+          "difference": "0"
+        },
+        "u1": {
+          "r": "0",
+          "s": "0",
+          "difference": "0"
+        },
+        "u2": {
+          "r": "0",
+          "s": "0",
+          "difference": "0"
+        }
+      },
+      "pairs": {
+        "d1<d2": {
+          "original": "1/2",
+          "plus": "1/2",
+          "minus": "1/2",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "d1<x": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "d1<y": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "d1<u1": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "d1<u2": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "d2<x": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "d2<y": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "d2<u1": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "d2<u2": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "x<y": {
+          "original": "1/2",
+          "plus": "1",
+          "minus": "0",
+          "drift": "1/2",
+          "cov_edit": "1/4"
+        },
+        "x<u1": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "x<u2": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "y<u1": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "y<u2": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "u1<u2": {
+          "original": "1/2",
+          "plus": "1/2",
+          "minus": "1/2",
+          "drift": "0",
+          "cov_edit": "0"
+        }
+      },
+      "target": null
+    },
+    {
+      "id": "two_disjoint_chains",
+      "n": 5,
+      "N": 10,
+      "Nplus": 7,
+      "Nminus": 3,
+      "p": "7/10",
+      "global_other_pairs_preserved": false,
+      "between": {
+        "a2": {
+          "r": "3/10",
+          "s": "0",
+          "difference": "9/70"
+        },
+        "b1": {
+          "r": "2/5",
+          "s": "0",
+          "difference": "6/35"
+        },
+        "b3": {
+          "r": "0",
+          "s": "1/10",
+          "difference": "1/10"
+        }
+      },
+      "pairs": {
+        "a1<a2": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "a1<b1": {
+          "original": "2/5",
+          "plus": "4/7",
+          "minus": "0",
+          "drift": "6/35",
+          "cov_edit": "3/25"
+        },
+        "a1<b2": {
+          "original": "7/10",
+          "plus": "1",
+          "minus": "0",
+          "drift": "3/10",
+          "cov_edit": "21/100"
+        },
+        "a1<b3": {
+          "original": "9/10",
+          "plus": "1",
+          "minus": "2/3",
+          "drift": "1/10",
+          "cov_edit": "7/100"
+        },
+        "a2<b1": {
+          "original": "1/10",
+          "plus": "1/7",
+          "minus": "0",
+          "drift": "3/70",
+          "cov_edit": "3/100"
+        },
+        "a2<b2": {
+          "original": "3/10",
+          "plus": "3/7",
+          "minus": "0",
+          "drift": "9/70",
+          "cov_edit": "9/100"
+        },
+        "a2<b3": {
+          "original": "3/5",
+          "plus": "5/7",
+          "minus": "1/3",
+          "drift": "4/35",
+          "cov_edit": "2/25"
+        },
+        "b1<b2": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "b1<b3": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "b2<b3": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        }
+      },
+      "target": null
+    },
+    {
+      "id": "two_chains_cross_constraints",
+      "n": 6,
+      "N": 15,
+      "Nplus": 9,
+      "Nminus": 6,
+      "p": "3/5",
+      "global_other_pairs_preserved": false,
+      "between": {
+        "a1": {
+          "r": "0",
+          "s": "0",
+          "difference": "0"
+        },
+        "a3": {
+          "r": "1/5",
+          "s": "0",
+          "difference": "2/15"
+        },
+        "b1": {
+          "r": "1/5",
+          "s": "0",
+          "difference": "2/15"
+        },
+        "b3": {
+          "r": "0",
+          "s": "2/15",
+          "difference": "2/15"
+        }
+      },
+      "pairs": {
+        "a1<a2": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "a1<a3": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "a1<b1": {
+          "original": "3/5",
+          "plus": "2/3",
+          "minus": "1/2",
+          "drift": "1/15",
+          "cov_edit": "1/25"
+        },
+        "a1<b2": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "a1<b3": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "a2<a3": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "a2<b1": {
+          "original": "1/5",
+          "plus": "1/3",
+          "minus": "0",
+          "drift": "2/15",
+          "cov_edit": "2/25"
+        },
+        "a2<b2": {
+          "original": "3/5",
+          "plus": "1",
+          "minus": "0",
+          "drift": "2/5",
+          "cov_edit": "6/25"
+        },
+        "a2<b3": {
+          "original": "13/15",
+          "plus": "1",
+          "minus": "2/3",
+          "drift": "2/15",
+          "cov_edit": "2/25"
+        },
+        "a3<b1": {
+          "original": "0",
+          "plus": "0",
+          "minus": "0",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "a3<b2": {
+          "original": "1/5",
+          "plus": "1/3",
+          "minus": "0",
+          "drift": "2/15",
+          "cov_edit": "2/25"
+        },
+        "a3<b3": {
+          "original": "8/15",
+          "plus": "2/3",
+          "minus": "1/3",
+          "drift": "2/15",
+          "cov_edit": "2/25"
+        },
+        "b1<b2": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "b1<b3": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "b2<b3": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        }
+      },
+      "target": null
+    },
+    {
+      "id": "balanced_improvement",
+      "n": 3,
+      "N": 3,
+      "Nplus": 2,
+      "Nminus": 1,
+      "p": "2/3",
+      "global_other_pairs_preserved": false,
+      "between": {
+        "a2": {
+          "r": "1/3",
+          "s": "0",
+          "difference": "1/6"
+        }
+      },
+      "pairs": {
+        "a1<a2": {
+          "original": "1",
+          "plus": "1",
+          "minus": "1",
+          "drift": "0",
+          "cov_edit": "0"
+        },
+        "a1<b": {
+          "original": "2/3",
+          "plus": "1",
+          "minus": "0",
+          "drift": "1/3",
+          "cov_edit": "2/9"
+        },
+        "a2<b": {
+          "original": "1/3",
+          "plus": "1/2",
+          "minus": "0",
+          "drift": "1/6",
+          "cov_edit": "1/9"
+        }
+      },
+      "target": {
+        "pair": [
+          "a2",
+          "b"
+        ],
+        "original": "1/3",
+        "plus": "1/2",
+        "drift": "1/6",
+        "cov_edit": "1/9"
+      }
+    }
+  ]
+}

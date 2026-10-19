@@ -1,0 +1,93 @@
+{
+  "uniform_subset_model": {
+    "parameter_cases": 25,
+    "rank_laws": 75,
+    "atoms": 375
+  },
+  "coefficient_grid": {
+    "atoms": 20400,
+    "interior_atoms_m_ge_K": 9180,
+    "all_assertions_passed": true
+  },
+  "actual_poset_controls": {
+    "cases": [
+      {
+        "m": 2,
+        "model": 0,
+        "eP": 30,
+        "eQ": 20,
+        "external_fibers": 12
+      },
+      {
+        "m": 2,
+        "model": 1,
+        "eP": 19,
+        "eQ": 11,
+        "external_fibers": 5
+      },
+      {
+        "m": 2,
+        "model": 2,
+        "eP": 15,
+        "eQ": 8,
+        "external_fibers": 3
+      },
+      {
+        "m": 3,
+        "model": 0,
+        "eP": 42,
+        "eQ": 30,
+        "external_fibers": 12
+      },
+      {
+        "m": 3,
+        "model": 1,
+        "eP": 29,
+        "eQ": 19,
+        "external_fibers": 5
+      },
+      {
+        "m": 3,
+        "model": 2,
+        "eP": 24,
+        "eQ": 15,
+        "external_fibers": 3
+      },
+      {
+        "m": 4,
+        "model": 0,
+        "eP": 56,
+        "eQ": 42,
+        "external_fibers": 12
+      },
+      {
+        "m": 4,
+        "model": 1,
+        "eP": 41,
+        "eQ": 29,
+        "external_fibers": 5
+      },
+      {
+        "m": 4,
+        "model": 2,
+        "eP": 35,
+        "eQ": 24,
+        "external_fibers": 3
+      }
+    ],
+    "external_fibers": 60,
+    "outside_window_point_fibers": 63,
+    "internal_jump_checks": 240,
+    "mixed_density_extensions": 198,
+    "covariance_identities": 36
+  },
+  "boundary_control": {
+    "m": 2,
+    "K": 3,
+    "r": 2,
+    "j": 1,
+    "mass": "2/5",
+    "interpretation": "C2 disjoint C3; middle external label; not an original-conjecture counterexample"
+  },
+  "status": "PASS"
+}

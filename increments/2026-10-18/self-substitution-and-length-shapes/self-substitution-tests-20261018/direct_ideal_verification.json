@@ -1,0 +1,34 @@
+[
+  {
+    "name": "C1_disjoint_C2",
+    "labeled_elements": 9,
+    "labeled_ideal_states": 66,
+    "E": 2268,
+    "all_incomparable_pair_counts_checked": 24,
+    "agrees": true
+  },
+  {
+    "name": "C2_disjoint_C3",
+    "labeled_elements": 25,
+    "labeled_ideal_states": 782,
+    "E": 326876000000,
+    "all_incomparable_pair_counts_checked": 180,
+    "agrees": true
+  },
+  {
+    "name": "N",
+    "labeled_elements": 16,
+    "labeled_ideal_states": 176,
+    "E": 5553125,
+    "all_incomparable_pair_counts_checked": 60,
+    "agrees": true
+  },
+  {
+    "name": "Asymmetric4",
+    "labeled_elements": 16,
+    "labeled_ideal_states": 97,
+    "E": 40095,
+    "all_incomparable_pair_counts_checked": 40,
+    "agrees": true
+  }
+]

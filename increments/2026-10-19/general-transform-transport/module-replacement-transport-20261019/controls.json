@@ -1,0 +1,126 @@
+{
+  "named_poset_count": 14,
+  "extension_counts": {
+    "matching_Q": 6,
+    "cross_matching_Qp": 6,
+    "mean_swap_Q": 4,
+    "mean_swap_Qp": 4,
+    "mean_swap_singleton_Q": 20,
+    "mean_swap_singleton_Qp": 20,
+    "mean_swap_chain2_Q": 60,
+    "mean_swap_chain2_Qp": 60,
+    "context_Q": 126,
+    "context_Qp": 126,
+    "boundary_joint_Q": 30,
+    "boundary_joint_Qp": 30
+  },
+  "rank_rows_Q": {
+    "a": [
+      "1/2",
+      "1/3",
+      "1/6",
+      "0"
+    ],
+    "b": [
+      "1/2",
+      "1/3",
+      "1/6",
+      "0"
+    ],
+    "c": [
+      "0",
+      "1/6",
+      "1/3",
+      "1/2"
+    ],
+    "d": [
+      "0",
+      "1/6",
+      "1/3",
+      "1/2"
+    ]
+  },
+  "internal_pair_a_c": {
+    "Q": "1",
+    "Qp": "5/6"
+  },
+  "mean_swap_chain2_last_before_x": {
+    "mean_swap_chain2_Q": "3/10",
+    "mean_swap_chain2_Qp": "1/3"
+  },
+  "boundary_joint_a_z_c": {
+    "boundary_joint_Q": "1/3",
+    "boundary_joint_Qp": "11/30"
+  },
+  "unequal_context_external_and_cross_pairs": {
+    "a<r1": "71/126",
+    "a<r2": "37/42",
+    "a<t": "1",
+    "b<r1": "71/126",
+    "b<r2": "37/42",
+    "b<t": "1",
+    "c<r1": "31/126",
+    "c<r2": "9/14",
+    "c<t": "1",
+    "d<r1": "31/126",
+    "d<r2": "9/14",
+    "d<t": "1",
+    "r1<a": "55/126",
+    "r1<b": "55/126",
+    "r1<c": "95/126",
+    "r1<d": "95/126",
+    "r1<r2": "1",
+    "r1<t": "20/21",
+    "r2<a": "5/42",
+    "r2<b": "5/42",
+    "r2<c": "5/14",
+    "r2<d": "5/14",
+    "r2<r1": "0",
+    "r2<t": "5/7",
+    "t<a": "0",
+    "t<b": "0",
+    "t<c": "0",
+    "t<d": "0",
+    "t<r1": "1/21",
+    "t<r2": "2/7"
+  },
+  "cycle_control": {
+    "e_Q": 39680,
+    "e_Qp": 39680,
+    "all_rank_rows_equal": true,
+    "incomparable_pair_a1_b0_Q": "113/124",
+    "incomparable_pair_a1_b0_Qp": "281/310"
+  },
+  "chain_probe_checks": [
+    {
+      "m": 1,
+      "k": 0,
+      "all_conditional_moments_verified": true
+    },
+    {
+      "m": 2,
+      "k": 1,
+      "all_conditional_moments_verified": true
+    },
+    {
+      "m": 3,
+      "k": 2,
+      "all_conditional_moments_verified": true
+    },
+    {
+      "m": 4,
+      "k": 3,
+      "all_conditional_moments_verified": true
+    },
+    {
+      "m": 4,
+      "k": 1,
+      "all_conditional_moments_verified": true
+    },
+    {
+      "m": 4,
+      "k": 2,
+      "all_conditional_moments_verified": true
+    }
+  ]
+}

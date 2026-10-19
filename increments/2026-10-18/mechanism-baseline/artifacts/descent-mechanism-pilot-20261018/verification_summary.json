@@ -1,0 +1,14 @@
+{
+  "word_enumeration_verified_cases": 49,
+  "hypergeometric_verified_cases": 465,
+  "b2_formula_verified_a_range": [
+    2,
+    2000
+  ],
+  "finite_scan_quotient": "two-point antichain",
+  "finite_scan_domain": "2 <= b <= a <= 30",
+  "finite_scan_objects": 435,
+  "strict_local_minima": 131,
+  "even_even_strict_local_minima": 28,
+  "note": "These are finite exact local-mechanism data, not evidence about a delta<1/3 condition."
+}

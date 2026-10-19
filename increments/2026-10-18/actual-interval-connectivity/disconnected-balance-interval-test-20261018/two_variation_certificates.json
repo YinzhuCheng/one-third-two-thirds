@@ -1,0 +1,176 @@
+[
+  {
+    "case_index": 20,
+    "label": "A5-B9-gate4",
+    "pair": [
+      5,
+      9
+    ],
+    "side": "H",
+    "polynomial": [
+      -286,
+      -852,
+      -4560
+    ],
+    "discriminant": -4490736,
+    "balanced": [
+      [
+        1,
+        null
+      ]
+    ]
+  },
+  {
+    "case_index": 28,
+    "label": "A7-B10-gate4",
+    "pair": [
+      7,
+      9
+    ],
+    "side": "L",
+    "polynomial": [
+      286,
+      -6248,
+      64144
+    ],
+    "discriminant": -34343232,
+    "balanced": []
+  },
+  {
+    "case_index": 28,
+    "label": "A7-B10-gate4",
+    "pair": [
+      3,
+      5
+    ],
+    "side": "H",
+    "polynomial": [
+      -2396,
+      -5372,
+      -5948
+    ],
+    "discriminant": -28147248,
+    "balanced": [
+      [
+        1,
+        null
+      ]
+    ]
+  },
+  {
+    "case_index": 28,
+    "label": "A7-B10-gate4",
+    "pair": [
+      6,
+      9
+    ],
+    "side": "H",
+    "polynomial": [
+      -3146,
+      -5474,
+      -4652
+    ],
+    "discriminant": -28576092,
+    "balanced": [
+      [
+        1,
+        null
+      ]
+    ]
+  },
+  {
+    "case_index": 52,
+    "label": "A12-B17-gate4",
+    "pair": [
+      11,
+      16
+    ],
+    "side": "H",
+    "polynomial": [
+      -10566660,
+      -29182842,
+      -37232360
+    ],
+    "discriminant": -722048489273436,
+    "balanced": [
+      [
+        1,
+        null
+      ]
+    ]
+  },
+  {
+    "case_index": 68,
+    "label": "A17-B23-gate4",
+    "pair": [
+      17,
+      22
+    ],
+    "side": "L",
+    "polynomial": [
+      4777897320,
+      -19490787430,
+      296836351052
+    ],
+    "discriminant": -5293123630038273917660,
+    "balanced": []
+  },
+  {
+    "case_index": 68,
+    "label": "A17-B23-gate4",
+    "pair": [
+      15,
+      21
+    ],
+    "side": "H",
+    "polynomial": [
+      -11029651200,
+      -17761902574,
+      -13464502744
+    ],
+    "discriminant": -278549892342783745724,
+    "balanced": [
+      [
+        1,
+        null
+      ]
+    ]
+  },
+  {
+    "case_index": 76,
+    "label": "A20-B27-gate4",
+    "pair": [
+      20,
+      26
+    ],
+    "side": "L",
+    "polynomial": [
+      505734377456,
+      -2693809643124,
+      31639361920344
+    ],
+    "discriminant": -56747841622173129764980080,
+    "balanced": []
+  },
+  {
+    "case_index": 84,
+    "label": "A24-B30-gate4",
+    "pair": [
+      14,
+      19
+    ],
+    "side": "H",
+    "polynomial": [
+      -83854074535920,
+      -167617686837704,
+      -167527224603564
+    ],
+    "discriminant": -28095672573989657349476083904,
+    "balanced": [
+      [
+        1,
+        null
+      ]
+    ]
+  }
+]

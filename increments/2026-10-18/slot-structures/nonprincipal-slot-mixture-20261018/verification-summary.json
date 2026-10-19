@@ -1,0 +1,262 @@
+[
+  {
+    "name": "C2 plus C1 plus isolated x",
+    "n": 4,
+    "edges": [
+      [
+        "a",
+        "b"
+      ]
+    ],
+    "A": [
+      "b",
+      "x"
+    ],
+    "B": [
+      "x",
+      "c"
+    ],
+    "min_A": [
+      "b",
+      "x"
+    ],
+    "extension_count": 12,
+    "groups": [
+      {
+        "winner": "b",
+        "count": 4,
+        "p": "1/3",
+        "r": "3/2",
+        "s": "5/4",
+        "d": "-1/4",
+        "var_R": "1/4",
+        "N": "9/4",
+        "epsilon": "11/8",
+        "eta": "7/2"
+      },
+      {
+        "winner": "x",
+        "count": 8,
+        "p": "2/3",
+        "r": "7/8",
+        "s": "3/8",
+        "d": "-1/2",
+        "var_R": "39/64",
+        "N": "7/8",
+        "epsilon": "15/16",
+        "eta": "33/32"
+      }
+    ],
+    "r": "13/12",
+    "s": "2/3",
+    "var_R": "83/144",
+    "N": "4/3",
+    "delta": "5/144",
+    "epsilon_bar": "13/12",
+    "marginal_slack": "121/72",
+    "one_sided_target_slack": "131/48",
+    "target_slack": "7/6",
+    "continuous_h": "151/4320"
+  },
+  {
+    "name": "C2 plus C2 plus isolated x",
+    "n": 5,
+    "edges": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "d"
+      ]
+    ],
+    "A": [
+      "b",
+      "x"
+    ],
+    "B": [
+      "x",
+      "d"
+    ],
+    "min_A": [
+      "b",
+      "x"
+    ],
+    "extension_count": 30,
+    "groups": [
+      {
+        "winner": "b",
+        "count": 10,
+        "p": "1/3",
+        "r": "2",
+        "s": "5/2",
+        "d": "1/2",
+        "var_R": "3/5",
+        "N": "63/10",
+        "epsilon": "13/10",
+        "eta": "27/5"
+      },
+      {
+        "winner": "x",
+        "count": 20,
+        "p": "2/3",
+        "r": "5/4",
+        "s": "1",
+        "d": "-1/4",
+        "var_R": "87/80",
+        "N": "59/20",
+        "epsilon": "51/80",
+        "eta": "69/40"
+      }
+    ],
+    "r": "3/2",
+    "s": "3/2",
+    "var_R": "21/20",
+    "N": "61/15",
+    "delta": "1/8",
+    "epsilon_bar": "103/120",
+    "marginal_slack": "27/10",
+    "one_sided_target_slack": "103/30",
+    "target_slack": "103/30",
+    "continuous_h": "11/630"
+  },
+  {
+    "name": "C2 plus C3 plus isolated x",
+    "n": 6,
+    "edges": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "d"
+      ],
+      [
+        "d",
+        "e"
+      ]
+    ],
+    "A": [
+      "b",
+      "x"
+    ],
+    "B": [
+      "x",
+      "e"
+    ],
+    "min_A": [
+      "b",
+      "x"
+    ],
+    "extension_count": 60,
+    "groups": [
+      {
+        "winner": "b",
+        "count": 20,
+        "p": "1/3",
+        "r": "5/2",
+        "s": "7/2",
+        "d": "1",
+        "var_R": "21/20",
+        "N": "109/10",
+        "epsilon": "7/5",
+        "eta": "77/10"
+      },
+      {
+        "winner": "x",
+        "count": 40,
+        "p": "2/3",
+        "r": "13/8",
+        "s": "59/40",
+        "d": "-3/20",
+        "var_R": "539/320",
+        "N": "209/40",
+        "epsilon": "77/160",
+        "eta": "413/160"
+      }
+    ],
+    "r": "23/12",
+    "s": "43/20",
+    "var_R": "1183/720",
+    "N": "427/60",
+    "delta": "161/720",
+    "epsilon_bar": "63/80",
+    "marginal_slack": "1421/360",
+    "one_sided_target_slack": "203/45",
+    "target_slack": "203/45",
+    "continuous_h": "29/2880"
+  },
+  {
+    "name": "C2 plus C2 plus C3; B is not A-symmetry invariant",
+    "n": 7,
+    "edges": [
+      [
+        "a",
+        "b"
+      ],
+      [
+        "c",
+        "d"
+      ],
+      [
+        "e",
+        "f"
+      ],
+      [
+        "f",
+        "g"
+      ]
+    ],
+    "A": [
+      "b",
+      "d"
+    ],
+    "B": [
+      "b",
+      "g"
+    ],
+    "min_A": [
+      "b",
+      "d"
+    ],
+    "extension_count": 210,
+    "groups": [
+      {
+        "winner": "b",
+        "count": 105,
+        "p": "1/2",
+        "r": "49/15",
+        "s": "44/15",
+        "d": "-1/3",
+        "var_R": "344/225",
+        "N": "473/35",
+        "epsilon": "272/315",
+        "eta": "2792/225"
+      },
+      {
+        "winner": "d",
+        "count": 105,
+        "p": "1/2",
+        "r": "49/15",
+        "s": "22/5",
+        "d": "17/15",
+        "var_R": "344/225",
+        "N": "17",
+        "epsilon": "488/225",
+        "eta": "2792/225"
+      }
+    ],
+    "r": "49/15",
+    "s": "11/3",
+    "var_R": "344/225",
+    "N": "534/35",
+    "delta": "0",
+    "epsilon_bar": "796/525",
+    "marginal_slack": "2792/225",
+    "one_sided_target_slack": "21932/1575",
+    "target_slack": "21932/1575",
+    "continuous_h": "199/9450"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "independent_explicit_checks": [
+    {
+      "case": "two_independent_chains",
+      "lengths": [
+        1,
+        2
+      ],
+      "explicit_extensions": 3,
+      "cross_pairs_checked": 2
+    },
+    {
+      "case": "two_independent_chains",
+      "lengths": [
+        2,
+        6
+      ],
+      "explicit_extensions": 28,
+      "cross_pairs_checked": 12
+    },
+    {
+      "case": "two_independent_chains",
+      "lengths": [
+        2,
+        3
+      ],
+      "explicit_extensions": 10,
+      "cross_pairs_checked": 6
+    },
+    {
+      "case": "two_independent_chains",
+      "lengths": [
+        4,
+        9
+      ],
+      "explicit_extensions": 715,
+      "cross_pairs_checked": 36
+    },
+    {
+      "case": "four_block_N",
+      "lengths": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "explicit_extensions": 9,
+      "cross_pairs_checked": 9
+    },
+    {
+      "case": "four_block_N",
+      "lengths": [
+        2,
+        6,
+        1,
+        1
+      ],
+      "explicit_extensions": 112,
+      "cross_pairs_checked": 29
+    }
+  ],
+  "all_two_chain_pairs_cross_checked_by_hypergeometric_formula": true
+}

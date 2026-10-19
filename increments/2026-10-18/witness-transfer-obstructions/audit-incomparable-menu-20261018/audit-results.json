@@ -1,0 +1,2074 @@
+{
+  "P": {
+    "names": [
+      "a",
+      "b",
+      "z",
+      "u",
+      "v",
+      "w",
+      "t",
+      "c1",
+      "c2",
+      "y"
+    ],
+    "total": 540,
+    "dfs_calls": 2512,
+    "rows": [
+      {
+        "pair": [
+          "a",
+          "b"
+        ],
+        "relation": "||",
+        "count": 292,
+        "total": 540,
+        "fraction": "73/135",
+        "balanced": true,
+        "lower_gap": 336,
+        "upper_gap": 204
+      },
+      {
+        "pair": [
+          "a",
+          "z"
+        ],
+        "relation": "||",
+        "count": 425,
+        "total": 540,
+        "fraction": "85/108",
+        "balanced": false,
+        "lower_gap": 735,
+        "upper_gap": -195
+      },
+      {
+        "pair": [
+          "a",
+          "u"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "a",
+          "v"
+        ],
+        "relation": "||",
+        "count": 478,
+        "total": 540,
+        "fraction": "239/270",
+        "balanced": false,
+        "lower_gap": 894,
+        "upper_gap": -354
+      },
+      {
+        "pair": [
+          "a",
+          "w"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "a",
+          "t"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "a",
+          "c1"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "a",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "a",
+          "y"
+        ],
+        "relation": "||",
+        "count": 500,
+        "total": 540,
+        "fraction": "25/27",
+        "balanced": false,
+        "lower_gap": 960,
+        "upper_gap": -420
+      },
+      {
+        "pair": [
+          "b",
+          "z"
+        ],
+        "relation": "||",
+        "count": 410,
+        "total": 540,
+        "fraction": "41/54",
+        "balanced": false,
+        "lower_gap": 690,
+        "upper_gap": -150
+      },
+      {
+        "pair": [
+          "b",
+          "u"
+        ],
+        "relation": "||",
+        "count": 410,
+        "total": 540,
+        "fraction": "41/54",
+        "balanced": false,
+        "lower_gap": 690,
+        "upper_gap": -150
+      },
+      {
+        "pair": [
+          "b",
+          "v"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "b",
+          "w"
+        ],
+        "relation": "||",
+        "count": 502,
+        "total": 540,
+        "fraction": "251/270",
+        "balanced": false,
+        "lower_gap": 966,
+        "upper_gap": -426
+      },
+      {
+        "pair": [
+          "b",
+          "t"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "b",
+          "c1"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "b",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "b",
+          "y"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "z",
+          "u"
+        ],
+        "relation": "||",
+        "count": 230,
+        "total": 540,
+        "fraction": "23/54",
+        "balanced": true,
+        "lower_gap": 150,
+        "upper_gap": 390
+      },
+      {
+        "pair": [
+          "z",
+          "v"
+        ],
+        "relation": "||",
+        "count": 295,
+        "total": 540,
+        "fraction": "59/108",
+        "balanced": true,
+        "lower_gap": 345,
+        "upper_gap": 195
+      },
+      {
+        "pair": [
+          "z",
+          "w"
+        ],
+        "relation": "||",
+        "count": 345,
+        "total": 540,
+        "fraction": "23/36",
+        "balanced": true,
+        "lower_gap": 495,
+        "upper_gap": 45
+      },
+      {
+        "pair": [
+          "z",
+          "t"
+        ],
+        "relation": "||",
+        "count": 460,
+        "total": 540,
+        "fraction": "23/27",
+        "balanced": false,
+        "lower_gap": 840,
+        "upper_gap": -300
+      },
+      {
+        "pair": [
+          "z",
+          "c1"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "z",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "z",
+          "y"
+        ],
+        "relation": "||",
+        "count": 385,
+        "total": 540,
+        "fraction": "77/108",
+        "balanced": false,
+        "lower_gap": 615,
+        "upper_gap": -75
+      },
+      {
+        "pair": [
+          "u",
+          "v"
+        ],
+        "relation": "||",
+        "count": 362,
+        "total": 540,
+        "fraction": "181/270",
+        "balanced": false,
+        "lower_gap": 546,
+        "upper_gap": -6
+      },
+      {
+        "pair": [
+          "u",
+          "w"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "u",
+          "t"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "u",
+          "c1"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "u",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "u",
+          "y"
+        ],
+        "relation": "||",
+        "count": 428,
+        "total": 540,
+        "fraction": "107/135",
+        "balanced": false,
+        "lower_gap": 744,
+        "upper_gap": -204
+      },
+      {
+        "pair": [
+          "v",
+          "w"
+        ],
+        "relation": "||",
+        "count": 340,
+        "total": 540,
+        "fraction": "17/27",
+        "balanced": true,
+        "lower_gap": 480,
+        "upper_gap": 60
+      },
+      {
+        "pair": [
+          "v",
+          "t"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "v",
+          "c1"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "v",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "v",
+          "y"
+        ],
+        "relation": "||",
+        "count": 380,
+        "total": 540,
+        "fraction": "19/27",
+        "balanced": false,
+        "lower_gap": 600,
+        "upper_gap": -60
+      },
+      {
+        "pair": [
+          "w",
+          "t"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "w",
+          "c1"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "w",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "w",
+          "y"
+        ],
+        "relation": "||",
+        "count": 332,
+        "total": 540,
+        "fraction": "83/135",
+        "balanced": true,
+        "lower_gap": 456,
+        "upper_gap": 84
+      },
+      {
+        "pair": [
+          "t",
+          "c1"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "t",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "t",
+          "y"
+        ],
+        "relation": "||",
+        "count": 220,
+        "total": 540,
+        "fraction": "11/27",
+        "balanced": true,
+        "lower_gap": 120,
+        "upper_gap": 420
+      },
+      {
+        "pair": [
+          "c1",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 540,
+        "total": 540,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 1080,
+        "upper_gap": -540
+      },
+      {
+        "pair": [
+          "c1",
+          "y"
+        ],
+        "relation": "||",
+        "count": 140,
+        "total": 540,
+        "fraction": "7/27",
+        "balanced": false,
+        "lower_gap": -120,
+        "upper_gap": 660
+      },
+      {
+        "pair": [
+          "c2",
+          "y"
+        ],
+        "relation": "||",
+        "count": 70,
+        "total": 540,
+        "fraction": "7/54",
+        "balanced": false,
+        "lower_gap": -330,
+        "upper_gap": 870
+      }
+    ],
+    "covers": [
+      [
+        "a",
+        "u"
+      ],
+      [
+        "b",
+        "v"
+      ],
+      [
+        "b",
+        "y"
+      ],
+      [
+        "z",
+        "c1"
+      ],
+      [
+        "u",
+        "w"
+      ],
+      [
+        "v",
+        "t"
+      ],
+      [
+        "w",
+        "t"
+      ],
+      [
+        "t",
+        "c1"
+      ],
+      [
+        "c1",
+        "c2"
+      ]
+    ],
+    "relation": [
+      [
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "counts": [
+      [
+        0,
+        292,
+        425,
+        540,
+        478,
+        540,
+        540,
+        540,
+        540,
+        500
+      ],
+      [
+        248,
+        0,
+        410,
+        410,
+        540,
+        502,
+        540,
+        540,
+        540,
+        540
+      ],
+      [
+        115,
+        130,
+        0,
+        230,
+        295,
+        345,
+        460,
+        540,
+        540,
+        385
+      ],
+      [
+        0,
+        130,
+        310,
+        0,
+        362,
+        540,
+        540,
+        540,
+        540,
+        428
+      ],
+      [
+        62,
+        0,
+        245,
+        178,
+        0,
+        340,
+        540,
+        540,
+        540,
+        380
+      ],
+      [
+        0,
+        38,
+        195,
+        0,
+        200,
+        0,
+        540,
+        540,
+        540,
+        332
+      ],
+      [
+        0,
+        0,
+        80,
+        0,
+        0,
+        0,
+        0,
+        540,
+        540,
+        220
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        540,
+        140
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        70
+      ],
+      [
+        40,
+        0,
+        155,
+        112,
+        160,
+        208,
+        320,
+        400,
+        470,
+        0
+      ]
+    ]
+  },
+  "Q": {
+    "names": [
+      "a",
+      "b",
+      "z",
+      "u",
+      "v",
+      "w",
+      "t",
+      "c2",
+      "y"
+    ],
+    "total": 470,
+    "dfs_calls": 1902,
+    "rows": [
+      {
+        "pair": [
+          "a",
+          "b"
+        ],
+        "relation": "||",
+        "count": 250,
+        "total": 470,
+        "fraction": "25/47",
+        "balanced": true,
+        "lower_gap": 280,
+        "upper_gap": 190
+      },
+      {
+        "pair": [
+          "a",
+          "z"
+        ],
+        "relation": "||",
+        "count": 370,
+        "total": 470,
+        "fraction": "37/47",
+        "balanced": false,
+        "lower_gap": 640,
+        "upper_gap": -170
+      },
+      {
+        "pair": [
+          "a",
+          "u"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "a",
+          "v"
+        ],
+        "relation": "||",
+        "count": 415,
+        "total": 470,
+        "fraction": "83/94",
+        "balanced": false,
+        "lower_gap": 775,
+        "upper_gap": -305
+      },
+      {
+        "pair": [
+          "a",
+          "w"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "a",
+          "t"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "a",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "a",
+          "y"
+        ],
+        "relation": "||",
+        "count": 430,
+        "total": 470,
+        "fraction": "43/47",
+        "balanced": false,
+        "lower_gap": 820,
+        "upper_gap": -350
+      },
+      {
+        "pair": [
+          "b",
+          "z"
+        ],
+        "relation": "||",
+        "count": 360,
+        "total": 470,
+        "fraction": "36/47",
+        "balanced": false,
+        "lower_gap": 610,
+        "upper_gap": -140
+      },
+      {
+        "pair": [
+          "b",
+          "u"
+        ],
+        "relation": "||",
+        "count": 361,
+        "total": 470,
+        "fraction": "361/470",
+        "balanced": false,
+        "lower_gap": 613,
+        "upper_gap": -143
+      },
+      {
+        "pair": [
+          "b",
+          "v"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "b",
+          "w"
+        ],
+        "relation": "||",
+        "count": 439,
+        "total": 470,
+        "fraction": "439/470",
+        "balanced": false,
+        "lower_gap": 847,
+        "upper_gap": -377
+      },
+      {
+        "pair": [
+          "b",
+          "t"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "b",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "b",
+          "y"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "z",
+          "u"
+        ],
+        "relation": "||",
+        "count": 200,
+        "total": 470,
+        "fraction": "20/47",
+        "balanced": true,
+        "lower_gap": 130,
+        "upper_gap": 340
+      },
+      {
+        "pair": [
+          "z",
+          "v"
+        ],
+        "relation": "||",
+        "count": 255,
+        "total": 470,
+        "fraction": "51/94",
+        "balanced": true,
+        "lower_gap": 295,
+        "upper_gap": 175
+      },
+      {
+        "pair": [
+          "z",
+          "w"
+        ],
+        "relation": "||",
+        "count": 300,
+        "total": 470,
+        "fraction": "30/47",
+        "balanced": true,
+        "lower_gap": 430,
+        "upper_gap": 40
+      },
+      {
+        "pair": [
+          "z",
+          "t"
+        ],
+        "relation": "||",
+        "count": 400,
+        "total": 470,
+        "fraction": "40/47",
+        "balanced": false,
+        "lower_gap": 730,
+        "upper_gap": -260
+      },
+      {
+        "pair": [
+          "z",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "z",
+          "y"
+        ],
+        "relation": "||",
+        "count": 315,
+        "total": 470,
+        "fraction": "63/94",
+        "balanced": false,
+        "lower_gap": 475,
+        "upper_gap": -5
+      },
+      {
+        "pair": [
+          "u",
+          "v"
+        ],
+        "relation": "||",
+        "count": 313,
+        "total": 470,
+        "fraction": "313/470",
+        "balanced": true,
+        "lower_gap": 469,
+        "upper_gap": 1
+      },
+      {
+        "pair": [
+          "u",
+          "w"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "u",
+          "t"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "u",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "u",
+          "y"
+        ],
+        "relation": "||",
+        "count": 358,
+        "total": 470,
+        "fraction": "179/235",
+        "balanced": false,
+        "lower_gap": 604,
+        "upper_gap": -134
+      },
+      {
+        "pair": [
+          "v",
+          "w"
+        ],
+        "relation": "||",
+        "count": 298,
+        "total": 470,
+        "fraction": "149/235",
+        "balanced": true,
+        "lower_gap": 424,
+        "upper_gap": 46
+      },
+      {
+        "pair": [
+          "v",
+          "t"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "v",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "v",
+          "y"
+        ],
+        "relation": "||",
+        "count": 310,
+        "total": 470,
+        "fraction": "31/47",
+        "balanced": true,
+        "lower_gap": 460,
+        "upper_gap": 10
+      },
+      {
+        "pair": [
+          "w",
+          "t"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "w",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "w",
+          "y"
+        ],
+        "relation": "||",
+        "count": 262,
+        "total": 470,
+        "fraction": "131/235",
+        "balanced": true,
+        "lower_gap": 316,
+        "upper_gap": 154
+      },
+      {
+        "pair": [
+          "t",
+          "c2"
+        ],
+        "relation": "<",
+        "count": 470,
+        "total": 470,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 940,
+        "upper_gap": -470
+      },
+      {
+        "pair": [
+          "t",
+          "y"
+        ],
+        "relation": "||",
+        "count": 150,
+        "total": 470,
+        "fraction": "15/47",
+        "balanced": false,
+        "lower_gap": -20,
+        "upper_gap": 490
+      },
+      {
+        "pair": [
+          "c2",
+          "y"
+        ],
+        "relation": "||",
+        "count": 70,
+        "total": 470,
+        "fraction": "7/47",
+        "balanced": false,
+        "lower_gap": -260,
+        "upper_gap": 730
+      }
+    ],
+    "covers": [
+      [
+        "a",
+        "u"
+      ],
+      [
+        "b",
+        "v"
+      ],
+      [
+        "b",
+        "y"
+      ],
+      [
+        "z",
+        "c2"
+      ],
+      [
+        "u",
+        "w"
+      ],
+      [
+        "v",
+        "t"
+      ],
+      [
+        "w",
+        "t"
+      ],
+      [
+        "t",
+        "c2"
+      ]
+    ],
+    "relation": [
+      [
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "counts": [
+      [
+        0,
+        250,
+        370,
+        470,
+        415,
+        470,
+        470,
+        470,
+        430
+      ],
+      [
+        220,
+        0,
+        360,
+        361,
+        470,
+        439,
+        470,
+        470,
+        470
+      ],
+      [
+        100,
+        110,
+        0,
+        200,
+        255,
+        300,
+        400,
+        470,
+        315
+      ],
+      [
+        0,
+        109,
+        270,
+        0,
+        313,
+        470,
+        470,
+        470,
+        358
+      ],
+      [
+        55,
+        0,
+        215,
+        157,
+        0,
+        298,
+        470,
+        470,
+        310
+      ],
+      [
+        0,
+        31,
+        170,
+        0,
+        172,
+        0,
+        470,
+        470,
+        262
+      ],
+      [
+        0,
+        0,
+        70,
+        0,
+        0,
+        0,
+        0,
+        470,
+        150
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        70
+      ],
+      [
+        40,
+        0,
+        155,
+        112,
+        160,
+        208,
+        320,
+        400,
+        0
+      ]
+    ]
+  },
+  "D": {
+    "names": [
+      "a",
+      "b",
+      "z",
+      "u",
+      "v",
+      "w",
+      "t"
+    ],
+    "total": 70,
+    "dfs_calls": 269,
+    "rows": [
+      {
+        "pair": [
+          "a",
+          "b"
+        ],
+        "relation": "||",
+        "count": 42,
+        "total": 70,
+        "fraction": "3/5",
+        "balanced": true,
+        "lower_gap": 56,
+        "upper_gap": 14
+      },
+      {
+        "pair": [
+          "a",
+          "z"
+        ],
+        "relation": "||",
+        "count": 55,
+        "total": 70,
+        "fraction": "11/14",
+        "balanced": false,
+        "lower_gap": 95,
+        "upper_gap": -25
+      },
+      {
+        "pair": [
+          "a",
+          "u"
+        ],
+        "relation": "<",
+        "count": 70,
+        "total": 70,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 140,
+        "upper_gap": -70
+      },
+      {
+        "pair": [
+          "a",
+          "v"
+        ],
+        "relation": "||",
+        "count": 63,
+        "total": 70,
+        "fraction": "9/10",
+        "balanced": false,
+        "lower_gap": 119,
+        "upper_gap": -49
+      },
+      {
+        "pair": [
+          "a",
+          "w"
+        ],
+        "relation": "<",
+        "count": 70,
+        "total": 70,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 140,
+        "upper_gap": -70
+      },
+      {
+        "pair": [
+          "a",
+          "t"
+        ],
+        "relation": "<",
+        "count": 70,
+        "total": 70,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 140,
+        "upper_gap": -70
+      },
+      {
+        "pair": [
+          "b",
+          "z"
+        ],
+        "relation": "||",
+        "count": 50,
+        "total": 70,
+        "fraction": "5/7",
+        "balanced": false,
+        "lower_gap": 80,
+        "upper_gap": -10
+      },
+      {
+        "pair": [
+          "b",
+          "u"
+        ],
+        "relation": "||",
+        "count": 49,
+        "total": 70,
+        "fraction": "7/10",
+        "balanced": false,
+        "lower_gap": 77,
+        "upper_gap": -7
+      },
+      {
+        "pair": [
+          "b",
+          "v"
+        ],
+        "relation": "<",
+        "count": 70,
+        "total": 70,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 140,
+        "upper_gap": -70
+      },
+      {
+        "pair": [
+          "b",
+          "w"
+        ],
+        "relation": "||",
+        "count": 63,
+        "total": 70,
+        "fraction": "9/10",
+        "balanced": false,
+        "lower_gap": 119,
+        "upper_gap": -49
+      },
+      {
+        "pair": [
+          "b",
+          "t"
+        ],
+        "relation": "<",
+        "count": 70,
+        "total": 70,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 140,
+        "upper_gap": -70
+      },
+      {
+        "pair": [
+          "z",
+          "u"
+        ],
+        "relation": "||",
+        "count": 30,
+        "total": 70,
+        "fraction": "3/7",
+        "balanced": true,
+        "lower_gap": 20,
+        "upper_gap": 50
+      },
+      {
+        "pair": [
+          "z",
+          "v"
+        ],
+        "relation": "||",
+        "count": 40,
+        "total": 70,
+        "fraction": "4/7",
+        "balanced": true,
+        "lower_gap": 50,
+        "upper_gap": 20
+      },
+      {
+        "pair": [
+          "z",
+          "w"
+        ],
+        "relation": "||",
+        "count": 45,
+        "total": 70,
+        "fraction": "9/14",
+        "balanced": true,
+        "lower_gap": 65,
+        "upper_gap": 5
+      },
+      {
+        "pair": [
+          "z",
+          "t"
+        ],
+        "relation": "||",
+        "count": 60,
+        "total": 70,
+        "fraction": "6/7",
+        "balanced": false,
+        "lower_gap": 110,
+        "upper_gap": -40
+      },
+      {
+        "pair": [
+          "u",
+          "v"
+        ],
+        "relation": "||",
+        "count": 49,
+        "total": 70,
+        "fraction": "7/10",
+        "balanced": false,
+        "lower_gap": 77,
+        "upper_gap": -7
+      },
+      {
+        "pair": [
+          "u",
+          "w"
+        ],
+        "relation": "<",
+        "count": 70,
+        "total": 70,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 140,
+        "upper_gap": -70
+      },
+      {
+        "pair": [
+          "u",
+          "t"
+        ],
+        "relation": "<",
+        "count": 70,
+        "total": 70,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 140,
+        "upper_gap": -70
+      },
+      {
+        "pair": [
+          "v",
+          "w"
+        ],
+        "relation": "||",
+        "count": 42,
+        "total": 70,
+        "fraction": "3/5",
+        "balanced": true,
+        "lower_gap": 56,
+        "upper_gap": 14
+      },
+      {
+        "pair": [
+          "v",
+          "t"
+        ],
+        "relation": "<",
+        "count": 70,
+        "total": 70,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 140,
+        "upper_gap": -70
+      },
+      {
+        "pair": [
+          "w",
+          "t"
+        ],
+        "relation": "<",
+        "count": 70,
+        "total": 70,
+        "fraction": "1",
+        "balanced": false,
+        "lower_gap": 140,
+        "upper_gap": -70
+      }
+    ],
+    "covers": [
+      [
+        "a",
+        "u"
+      ],
+      [
+        "b",
+        "v"
+      ],
+      [
+        "u",
+        "w"
+      ],
+      [
+        "v",
+        "t"
+      ],
+      [
+        "w",
+        "t"
+      ]
+    ],
+    "relation": [
+      [
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    ],
+    "counts": [
+      [
+        0,
+        42,
+        55,
+        70,
+        63,
+        70,
+        70
+      ],
+      [
+        28,
+        0,
+        50,
+        49,
+        70,
+        63,
+        70
+      ],
+      [
+        15,
+        20,
+        0,
+        30,
+        40,
+        45,
+        60
+      ],
+      [
+        0,
+        21,
+        40,
+        0,
+        49,
+        70,
+        70
+      ],
+      [
+        7,
+        0,
+        30,
+        21,
+        0,
+        42,
+        70
+      ],
+      [
+        0,
+        7,
+        25,
+        0,
+        28,
+        0,
+        70
+      ],
+      [
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "C_autonomous": true,
+  "C_maximal": true,
+  "strict_autonomous_chain_supersets": [],
+  "window": {
+    "count": 70,
+    "h_sum": 400,
+    "event_count": 49,
+    "h_event_sum": 264,
+    "covariance": "-8/35",
+    "y_before_u": 112,
+    "y_before_v": 160
+  },
+  "deletion_window": {
+    "Q_count": 470,
+    "window_special_count": 70,
+    "window_special_and_event_count": 49,
+    "sum_W": 540,
+    "sum_X": 313,
+    "sum_WX": 362,
+    "window_size_distribution": {
+      "1": 400,
+      "2": 70
+    },
+    "cov_W_X": "56/11045",
+    "probability_shift": "28/6345"
+  }
+}

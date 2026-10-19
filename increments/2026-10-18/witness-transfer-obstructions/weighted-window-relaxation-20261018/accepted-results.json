@@ -1,0 +1,78 @@
+{
+  "source": "RESULT.md; transcribed from accepted report, not rerun during archiving",
+  "review_status": "父核验，未另派独审",
+  "external_orders": [
+    "yuv",
+    "yvu",
+    "uyv",
+    "vyu",
+    "uvy",
+    "vuy"
+  ],
+  "base_weights_epsilon_0": [
+    "38",
+    "32",
+    "0",
+    "0",
+    "10",
+    "0"
+  ],
+  "base_weights_epsilon_one_tenth": [
+    "38",
+    "32",
+    "1/10",
+    "1/10",
+    "10",
+    "1/10"
+  ],
+  "old_complete_fiber_sizes": [
+    1,
+    1,
+    1,
+    1,
+    3,
+    3
+  ],
+  "shortened_complete_fiber_sizes": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    2
+  ],
+  "zero_epsilon": {
+    "Z_old": "100",
+    "Z_shortened": "90",
+    "old_delta_w": "8/25",
+    "shortened_Pr_v_before_u": "16/45",
+    "old_minority_probabilities": {
+      "v<u": "8/25",
+      "u<y": "3/10",
+      "v<y": "3/10",
+      "c1<y": "1/5",
+      "c2<y": "1/10"
+    }
+  },
+  "epsilon_one_tenth": {
+    "Z_old": "201/2",
+    "Z_shortened": "452/5",
+    "old_delta_w": "108/335",
+    "shortened_Pr_v_before_u": "323/904",
+    "old_minority_probabilities": {
+      "v<u": "108/335",
+      "u<y": "304/1005",
+      "v<y": "304/1005",
+      "c1<y": "202/1005",
+      "c2<y": "101/1005"
+    }
+  },
+  "uniform_actual_poset_Pr_u_before_v": "1/2 at both lengths",
+  "slack_comparison": {
+    "R_av": "3/2",
+    "beta": "8/25",
+    "sufficient_condition_threshold": "17/16",
+    "odds_bound": "12/29"
+  },
+  "interpretation": "Refutes only free common external-weight relaxation, not actual uniform-poset preservation; no projection impossibility proved."
+}

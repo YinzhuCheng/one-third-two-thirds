@@ -1,0 +1,4635 @@
+{
+  "status": "Structural postprocessing only; pending T proof not independently reviewed; no proof claim for stronger covariance candidate.",
+  "source": "/workspace/shared/large-slot-moment-stress-20261018",
+  "pair_count": 5073,
+  "objects_started": 31,
+  "n_range": [
+    20,
+    200
+  ],
+  "classification_precedence": [
+    "empty_filters",
+    "both_principal",
+    "only_smaller_mean_side_principal",
+    "only_larger_mean_side_principal",
+    "both_nonprincipal"
+  ],
+  "by_structure": {
+    "empty_filters": {
+      "pairs": 64,
+      "zero_mean": 31,
+      "matches_pending_T_proof_hypothesis": 11,
+      "same_filter_pairs": 0,
+      "distinct_nonempty_pairs": 0,
+      "positive_distinct_nonempty_pairs": 0,
+      "one_zero_mean_infinite_ratio": 31,
+      "positive_means": 33
+    },
+    "both_principal": {
+      "pairs": 855,
+      "positive_means": 855,
+      "matches_pending_T_proof_hypothesis": 855,
+      "same_filter_pairs": 90,
+      "distinct_nonempty_pairs": 765,
+      "positive_distinct_nonempty_pairs": 765,
+      "equal_means": 95
+    },
+    "only_smaller_mean_side_principal": {
+      "pairs": 517,
+      "positive_means": 517,
+      "matches_pending_T_proof_hypothesis": 517,
+      "same_filter_pairs": 0,
+      "distinct_nonempty_pairs": 517,
+      "positive_distinct_nonempty_pairs": 517,
+      "equal_means": 1,
+      "equal_means_exactly_one_principal": 1
+    },
+    "only_larger_mean_side_principal": {
+      "pairs": 1319,
+      "positive_means": 1308,
+      "matches_pending_T_proof_hypothesis": 0,
+      "same_filter_pairs": 0,
+      "distinct_nonempty_pairs": 1319,
+      "positive_distinct_nonempty_pairs": 1308,
+      "zero_mean": 11,
+      "one_zero_mean_infinite_ratio": 11
+    },
+    "both_nonprincipal": {
+      "pairs": 2318,
+      "positive_means": 2264,
+      "matches_pending_T_proof_hypothesis": 0,
+      "same_filter_pairs": 386,
+      "distinct_nonempty_pairs": 1932,
+      "positive_distinct_nonempty_pairs": 1909,
+      "equal_means": 403,
+      "zero_mean": 54,
+      "both_zero_mean_undefined_ratio": 31,
+      "one_zero_mean_infinite_ratio": 23
+    }
+  },
+  "by_object": {
+    "disjoint2_1_19": {
+      "both_principal": 76,
+      "only_smaller_mean_side_principal": 50,
+      "only_larger_mean_side_principal": 60,
+      "both_nonprincipal": 49,
+      "empty_filters": 5
+    },
+    "disjoint2_1_49": {
+      "both_principal": 107,
+      "only_smaller_mean_side_principal": 75,
+      "only_larger_mean_side_principal": 21,
+      "both_nonprincipal": 35,
+      "empty_filters": 2
+    },
+    "disjoint2_1_99": {
+      "both_principal": 87,
+      "only_smaller_mean_side_principal": 76,
+      "only_larger_mean_side_principal": 27,
+      "both_nonprincipal": 47,
+      "empty_filters": 3
+    },
+    "disjoint2_1_199": {
+      "both_principal": 99,
+      "only_smaller_mean_side_principal": 84,
+      "only_larger_mean_side_principal": 26,
+      "both_nonprincipal": 28,
+      "empty_filters": 3
+    },
+    "disjoint2_2_198": {
+      "only_larger_mean_side_principal": 47,
+      "both_principal": 54,
+      "both_nonprincipal": 101,
+      "only_smaller_mean_side_principal": 35,
+      "empty_filters": 3
+    },
+    "disjoint2_5_195": {
+      "only_larger_mean_side_principal": 44,
+      "both_principal": 27,
+      "both_nonprincipal": 78,
+      "only_smaller_mean_side_principal": 10,
+      "empty_filters": 1
+    },
+    "disjoint2_20_180": {
+      "only_larger_mean_side_principal": 43,
+      "both_nonprincipal": 83,
+      "both_principal": 24,
+      "only_smaller_mean_side_principal": 8,
+      "empty_filters": 2
+    },
+    "disjoint2_50_150": {
+      "only_larger_mean_side_principal": 36,
+      "both_nonprincipal": 89,
+      "both_principal": 23,
+      "only_smaller_mean_side_principal": 9,
+      "empty_filters": 3
+    },
+    "disjoint2_100_100": {
+      "only_larger_mean_side_principal": 39,
+      "both_nonprincipal": 90,
+      "only_smaller_mean_side_principal": 11,
+      "both_principal": 18,
+      "empty_filters": 2
+    },
+    "disjoint2_10_40": {
+      "only_larger_mean_side_principal": 56,
+      "both_nonprincipal": 133,
+      "both_principal": 33,
+      "only_smaller_mean_side_principal": 17,
+      "empty_filters": 1
+    },
+    "disjoint2_20_20": {
+      "only_larger_mean_side_principal": 43,
+      "both_nonprincipal": 158,
+      "only_smaller_mean_side_principal": 10,
+      "both_principal": 26,
+      "empty_filters": 3
+    },
+    "disjoint3_1_1_18": {
+      "only_larger_mean_side_principal": 65,
+      "both_nonprincipal": 138,
+      "both_principal": 28,
+      "only_smaller_mean_side_principal": 6,
+      "empty_filters": 3
+    },
+    "disjoint3_1_1_198": {
+      "only_larger_mean_side_principal": 65,
+      "both_nonprincipal": 113,
+      "both_principal": 40,
+      "only_smaller_mean_side_principal": 19,
+      "empty_filters": 3
+    },
+    "disjoint3_1_9_190": {
+      "only_larger_mean_side_principal": 34,
+      "both_nonprincipal": 112,
+      "both_principal": 12,
+      "empty_filters": 1,
+      "only_smaller_mean_side_principal": 1
+    },
+    "disjoint3_2_18_180": {
+      "only_larger_mean_side_principal": 41,
+      "both_nonprincipal": 106,
+      "both_principal": 8,
+      "empty_filters": 1,
+      "only_smaller_mean_side_principal": 4
+    },
+    "disjoint3_10_10_180": {
+      "only_larger_mean_side_principal": 36,
+      "both_nonprincipal": 24,
+      "empty_filters": 1,
+      "only_smaller_mean_side_principal": 1,
+      "both_principal": 2
+    },
+    "disjoint3_20_60_120": {
+      "only_larger_mean_side_principal": 7,
+      "both_nonprincipal": 8,
+      "empty_filters": 1
+    },
+    "disjoint3_66_67_67": {
+      "only_larger_mean_side_principal": 7,
+      "both_nonprincipal": 8,
+      "empty_filters": 1
+    },
+    "disjoint3_10_10_10": {
+      "only_larger_mean_side_principal": 86,
+      "both_nonprincipal": 69,
+      "empty_filters": 2,
+      "both_principal": 3
+    },
+    "disjoint3_20_20_20": {
+      "only_larger_mean_side_principal": 73,
+      "both_nonprincipal": 79,
+      "empty_filters": 1,
+      "both_principal": 3,
+      "only_smaller_mean_side_principal": 4
+    },
+    "disjoint3_30_30_30": {
+      "only_larger_mean_side_principal": 28,
+      "both_nonprincipal": 34,
+      "empty_filters": 1,
+      "only_smaller_mean_side_principal": 1
+    },
+    "joined2_20_180_one_gate": {
+      "only_larger_mean_side_principal": 47,
+      "both_nonprincipal": 78,
+      "both_principal": 25,
+      "only_smaller_mean_side_principal": 9,
+      "empty_filters": 1
+    },
+    "joined2_20_180_opposing_gates": {
+      "only_larger_mean_side_principal": 29,
+      "both_nonprincipal": 87,
+      "both_principal": 27,
+      "only_smaller_mean_side_principal": 15,
+      "empty_filters": 2
+    },
+    "joined2_20_180_random14": {
+      "only_larger_mean_side_principal": 87,
+      "both_principal": 38,
+      "both_nonprincipal": 91,
+      "only_smaller_mean_side_principal": 20,
+      "empty_filters": 4
+    },
+    "joined2_100_100_one_gate": {
+      "only_larger_mean_side_principal": 28,
+      "both_nonprincipal": 102,
+      "only_smaller_mean_side_principal": 10,
+      "both_principal": 18,
+      "empty_filters": 2
+    },
+    "joined2_100_100_middle_barrier": {
+      "only_larger_mean_side_principal": 29,
+      "both_nonprincipal": 86,
+      "only_smaller_mean_side_principal": 23,
+      "both_principal": 21,
+      "empty_filters": 1
+    },
+    "joined2_100_100_random20": {
+      "only_larger_mean_side_principal": 30,
+      "both_nonprincipal": 95,
+      "only_smaller_mean_side_principal": 12,
+      "both_principal": 22,
+      "empty_filters": 1
+    },
+    "joined3_10_10_180_middle_barrier": {
+      "only_larger_mean_side_principal": 46,
+      "both_nonprincipal": 88,
+      "both_principal": 16,
+      "only_smaller_mean_side_principal": 6,
+      "empty_filters": 4
+    },
+    "joined3_10_10_180_random20": {
+      "only_larger_mean_side_principal": 90,
+      "both_nonprincipal": 62,
+      "empty_filters": 2,
+      "only_smaller_mean_side_principal": 1,
+      "both_principal": 5
+    },
+    "joined3_20_60_120_middle_barrier": {
+      "only_larger_mean_side_principal": 27,
+      "both_nonprincipal": 29,
+      "both_principal": 6,
+      "empty_filters": 2
+    },
+    "joined3_20_60_120_random20": {
+      "only_larger_mean_side_principal": 22,
+      "both_nonprincipal": 18,
+      "both_principal": 7,
+      "empty_filters": 2
+    }
+  },
+  "equal_mean_exactly_one_principal": [
+    {
+      "case": "disjoint2_1_19",
+      "n": 20,
+      "pair_indices": [
+        13,
+        35
+      ],
+      "source_pair_class": "overlap_nonnested",
+      "structure_label": "only_smaller_mean_side_principal",
+      "lengths": [
+        1,
+        19
+      ],
+      "cross": [],
+      "le": "20",
+      "Sy": {
+        "threshold": [
+          1,
+          4
+        ],
+        "empty": false,
+        "principal": true,
+        "minima": [
+          [
+            1,
+            4
+          ]
+        ],
+        "minimum_count": 1
+      },
+      "Sz": {
+        "threshold": [
+          0,
+          5
+        ],
+        "empty": false,
+        "principal": false,
+        "minima": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            5
+          ]
+        ],
+        "minimum_count": 2
+      },
+      "sum_Ry": "85",
+      "sum_Rz": "85",
+      "sum_product": "350",
+      "sum_min": "70",
+      "sum_Ry2": "365",
+      "sum_Rz2": "405",
+      "target_gap_num": "9450",
+      "covariance_gap_num": "9150",
+      "r": "17/4",
+      "s": "17/4",
+      "N": "21",
+      "covariance": "-9/16",
+      "target_gap": "189/8",
+      "covariance_gap": "183/8",
+      "mean_ratio": "1",
+      "target_pressure": "47/425",
+      "target_relative_gap": "378/425",
+      "covariance_pressure": "-3/119",
+      "covariance_relative_gap": "122/119"
+    }
+  ],
+  "pending_T_hypothesis_matches": 1383,
+  "small_batch_missing": "results.json stores case totals and selected extrema, but no complete tested filter pools, pairwise exact means, or moment matrices; its 280123 pairs cannot be structurally reclassified without forbidden recounting.",
+  "small_batch_pairs": 280123,
+  "small_batch_saved_selected_extrema": {
+    "target": {
+      "source_key": "target",
+      "name": "two_chains_1_9",
+      "structure_label": "both_principal",
+      "minima": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "Sy": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "Sz": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "covers": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "r": "1/10",
+      "s": "1/10",
+      "target_relative_gap": "2/21",
+      "covariance_relative_gap": "2/11"
+    },
+    "target_same": {
+      "source_key": "target_same",
+      "name": "two_chains_1_9",
+      "structure_label": "both_principal",
+      "minima": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "Sy": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "Sz": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "covers": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "r": "1/10",
+      "s": "1/10",
+      "target_relative_gap": "2/21",
+      "covariance_relative_gap": "2/11"
+    },
+    "covariance": {
+      "source_key": "covariance",
+      "name": "two_chains_1_9",
+      "structure_label": "both_principal",
+      "minima": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "Sy": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "Sz": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "covers": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "r": "1/10",
+      "s": "1/10",
+      "target_relative_gap": "2/21",
+      "covariance_relative_gap": "2/11"
+    },
+    "covariance_same": {
+      "source_key": "covariance_same",
+      "name": "two_chains_1_9",
+      "structure_label": "both_principal",
+      "minima": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "Sy": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "Sz": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "covers": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "r": "1/10",
+      "s": "1/10",
+      "target_relative_gap": "2/21",
+      "covariance_relative_gap": "2/11"
+    },
+    "target_nested": {
+      "source_key": "target_nested",
+      "name": "random_n10_p0.12_r0",
+      "structure_label": "both_nonprincipal",
+      "minima": [
+        [
+          0,
+          1,
+          2,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          6,
+          9
+        ]
+      ],
+      "Sy": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "Sz": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "covers": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "r": "2/9",
+      "s": "1/10",
+      "target_relative_gap": "19/189",
+      "covariance_relative_gap": "19/99"
+    },
+    "covariance_nested": {
+      "source_key": "covariance_nested",
+      "name": "random_n10_p0.12_r0",
+      "structure_label": "both_nonprincipal",
+      "minima": [
+        [
+          0,
+          1,
+          2,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          6,
+          9
+        ]
+      ],
+      "Sy": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8
+      ],
+      "Sz": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "covers": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "r": "2/9",
+      "s": "1/10",
+      "target_relative_gap": "19/189",
+      "covariance_relative_gap": "19/99"
+    },
+    "target_nonnested": {
+      "source_key": "target_nonnested",
+      "name": "random_n10_p0.12_r2",
+      "structure_label": "both_nonprincipal",
+      "minima": [
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        [
+          0,
+          1,
+          3,
+          5,
+          7,
+          8,
+          9
+        ]
+      ],
+      "Sy": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "Sz": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "covers": [
+        [
+          0,
+          2
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "r": "2/9",
+      "s": "31/90",
+      "target_relative_gap": "51/200",
+      "covariance_relative_gap": "21/55"
+    },
+    "covariance_nonnested": {
+      "source_key": "covariance_nonnested",
+      "name": "random_n10_p0.12_r2",
+      "structure_label": "both_nonprincipal",
+      "minima": [
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          9
+        ],
+        [
+          0,
+          1,
+          3,
+          5,
+          7,
+          8,
+          9
+        ]
+      ],
+      "Sy": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        9
+      ],
+      "Sz": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        8,
+        9
+      ],
+      "covers": [
+        [
+          0,
+          2
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "r": "2/9",
+      "s": "31/90",
+      "target_relative_gap": "51/200",
+      "covariance_relative_gap": "21/55"
+    }
+  },
+  "extrema": {
+    "both_principal/target_relative_gap": {
+      "value": "2/401",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          12
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "both_principal/covariance_relative_gap": {
+      "value": "2/201",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          12
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "both_principal/target_absolute_gap": {
+      "value": "1/20000",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          12
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "both_principal/covariance_absolute_gap": {
+      "value": "1/20000",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          12
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "both_principal/mean_ratio": {
+      "value": "39799",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          20
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "both_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            198
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              198
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "39799",
+        "sum_product": "199",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "7919803",
+        "target_gap_num": "200",
+        "covariance_gap_num": "200",
+        "r": "1/200",
+        "s": "39799/200",
+        "N": "1",
+        "covariance": "1/40000",
+        "target_gap": "1/200",
+        "covariance_gap": "1/200",
+        "mean_ratio": "39799",
+        "target_pressure": "201/401",
+        "target_relative_gap": "200/401",
+        "covariance_pressure": "1/201",
+        "covariance_relative_gap": "200/201"
+      }
+    },
+    "all/target_relative_gap": {
+      "value": "2/401",
+      "ties": 4,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          12
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "all/covariance_relative_gap": {
+      "value": "2/201",
+      "ties": 4,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          12
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "all/target_absolute_gap": {
+      "value": "1/20000",
+      "ties": 4,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          12
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "all/covariance_absolute_gap": {
+      "value": "1/20000",
+      "ties": 4,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          12
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "1",
+        "sum_product": "1",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "1",
+        "target_gap_num": "2",
+        "covariance_gap_num": "2",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "all/mean_ratio": {
+      "value": "39799",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          20
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "both_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            198
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              198
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "39799",
+        "sum_product": "199",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "7919803",
+        "target_gap_num": "200",
+        "covariance_gap_num": "200",
+        "r": "1/200",
+        "s": "39799/200",
+        "N": "1",
+        "covariance": "1/40000",
+        "target_gap": "1/200",
+        "covariance_gap": "1/200",
+        "mean_ratio": "39799",
+        "target_pressure": "201/401",
+        "target_relative_gap": "200/401",
+        "covariance_pressure": "1/201",
+        "covariance_relative_gap": "200/201"
+      }
+    },
+    "distinct_nonempty/target_relative_gap": {
+      "value": "399/79799",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "distinct_nonempty/covariance_relative_gap": {
+      "value": "133/13333",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "distinct_nonempty/target_absolute_gap": {
+      "value": "399/7960000",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "distinct_nonempty/covariance_absolute_gap": {
+      "value": "399/7960000",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "distinct_nonempty/mean_ratio": {
+      "value": "39799",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          20
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "both_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            198
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              198
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "39799",
+        "sum_product": "199",
+        "sum_min": "1",
+        "sum_Ry2": "1",
+        "sum_Rz2": "7919803",
+        "target_gap_num": "200",
+        "covariance_gap_num": "200",
+        "r": "1/200",
+        "s": "39799/200",
+        "N": "1",
+        "covariance": "1/40000",
+        "target_gap": "1/200",
+        "covariance_gap": "1/200",
+        "mean_ratio": "39799",
+        "target_pressure": "201/401",
+        "target_relative_gap": "200/401",
+        "covariance_pressure": "1/201",
+        "covariance_relative_gap": "200/201"
+      }
+    },
+    "only_smaller_mean_side_principal/target_relative_gap": {
+      "value": "3489850937250783435121936871932099415486359145659227/29712926553640998600192411088438673526672825852573800",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_100_100",
+        "n": 200,
+        "pair_indices": [
+          26,
+          42
+        ],
+        "source_pair_class": "overlap_nonnested",
+        "structure_label": "only_smaller_mean_side_principal",
+        "lengths": [
+          100,
+          100
+        ],
+        "cross": [],
+        "le": "90548514656103281165404177077484163874504589675413336841320",
+        "Sy": {
+          "threshold": [
+            100,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            90,
+            16
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              90
+            ],
+            [
+              1,
+              16
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "89651994709013149668717007007410063242083752153874590932000",
+        "sum_Rz": "2972860144550876043014655952360104314634738835914357359149944",
+        "sum_product": "3090356994087159159168715653283792575575871912904771545385650",
+        "sum_min": "89651994709013149668717007007410063242083752149231260573190",
+        "sum_Ry2": "263682337379450440202108844139441362476716918099631149800000",
+        "sum_Rz2": "100101831212295722394102661342998900211144465028926390295336064",
+        "target_gap_num": "2850941490381686961760656011439147874426389854291169789241805559722569874420686099135717816189830025455813069621019200",
+        "covariance_gap_num": "2850941490381686961760656011439147874426389853870723122193968967432395381912818779320221580001301194665347281986990000",
+        "r": "100/101",
+        "s": "959564320723349740536015145783761197866070131565497/29226778164372232748533633813131145560907240077035",
+        "N": "3489850937250783435121936869138469122630201103358253/99371045758865591345014354964645894907084616261919",
+        "covariance": "65143884162014624122276154880167938481912020324949375/40145902486581698903385799405716941542462184969815276",
+        "target_gap": "3489850937250783435121936871932099415486359145659227/10036475621645424725846449851429235385615546242453819",
+        "covariance_gap": "13959403749003133740487747487728397661945436580578225/40145902486581698903385799405716941542462184969815276",
+        "mean_ratio": "959564320723349740536015145783761197866070131565497/28937404123140824503498647339733807486046772353500",
+        "target_pressure": "26223075616390215165070474216506574111186466706914573/29712926553640998600192411088438673526672825852573800",
+        "target_relative_gap": "3489850937250783435121936871932099415486359145659227/29712926553640998600192411088438673526672825852573800",
+        "covariance_pressure": "2605755366480584964891046195206717539276480812997975/3164131516440710314510556094715853445754298276221104",
+        "covariance_relative_gap": "558376149960125349619509899509135906477817463223129/3164131516440710314510556094715853445754298276221104"
+      }
+    },
+    "only_smaller_mean_side_principal/covariance_relative_gap": {
+      "value": "558376149960125349619509899509135906477817463223129/3164131516440710314510556094715853445754298276221104",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_100_100",
+        "n": 200,
+        "pair_indices": [
+          26,
+          42
+        ],
+        "source_pair_class": "overlap_nonnested",
+        "structure_label": "only_smaller_mean_side_principal",
+        "lengths": [
+          100,
+          100
+        ],
+        "cross": [],
+        "le": "90548514656103281165404177077484163874504589675413336841320",
+        "Sy": {
+          "threshold": [
+            100,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            90,
+            16
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              90
+            ],
+            [
+              1,
+              16
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "89651994709013149668717007007410063242083752153874590932000",
+        "sum_Rz": "2972860144550876043014655952360104314634738835914357359149944",
+        "sum_product": "3090356994087159159168715653283792575575871912904771545385650",
+        "sum_min": "89651994709013149668717007007410063242083752149231260573190",
+        "sum_Ry2": "263682337379450440202108844139441362476716918099631149800000",
+        "sum_Rz2": "100101831212295722394102661342998900211144465028926390295336064",
+        "target_gap_num": "2850941490381686961760656011439147874426389854291169789241805559722569874420686099135717816189830025455813069621019200",
+        "covariance_gap_num": "2850941490381686961760656011439147874426389853870723122193968967432395381912818779320221580001301194665347281986990000",
+        "r": "100/101",
+        "s": "959564320723349740536015145783761197866070131565497/29226778164372232748533633813131145560907240077035",
+        "N": "3489850937250783435121936869138469122630201103358253/99371045758865591345014354964645894907084616261919",
+        "covariance": "65143884162014624122276154880167938481912020324949375/40145902486581698903385799405716941542462184969815276",
+        "target_gap": "3489850937250783435121936871932099415486359145659227/10036475621645424725846449851429235385615546242453819",
+        "covariance_gap": "13959403749003133740487747487728397661945436580578225/40145902486581698903385799405716941542462184969815276",
+        "mean_ratio": "959564320723349740536015145783761197866070131565497/28937404123140824503498647339733807486046772353500",
+        "target_pressure": "26223075616390215165070474216506574111186466706914573/29712926553640998600192411088438673526672825852573800",
+        "target_relative_gap": "3489850937250783435121936871932099415486359145659227/29712926553640998600192411088438673526672825852573800",
+        "covariance_pressure": "2605755366480584964891046195206717539276480812997975/3164131516440710314510556094715853445754298276221104",
+        "covariance_relative_gap": "558376149960125349619509899509135906477817463223129/3164131516440710314510556094715853445754298276221104"
+      }
+    },
+    "only_smaller_mean_side_principal/target_absolute_gap": {
+      "value": "3/200",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          2,
+          12
+        ],
+        "source_pair_class": "overlap_nonnested",
+        "structure_label": "only_smaller_mean_side_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            0,
+            1
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "1",
+        "sum_product": "0",
+        "sum_min": "0",
+        "sum_Ry2": "199",
+        "sum_Rz2": "1",
+        "target_gap_num": "600",
+        "covariance_gap_num": "400",
+        "r": "199/200",
+        "s": "1/200",
+        "N": "0",
+        "covariance": "-199/40000",
+        "target_gap": "3/200",
+        "covariance_gap": "1/100",
+        "mean_ratio": "199",
+        "target_pressure": "-199/401",
+        "target_relative_gap": "600/401",
+        "covariance_pressure": "-199/201",
+        "covariance_relative_gap": "400/201"
+      }
+    },
+    "only_smaller_mean_side_principal/covariance_absolute_gap": {
+      "value": "1/100",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          2,
+          12
+        ],
+        "source_pair_class": "overlap_nonnested",
+        "structure_label": "only_smaller_mean_side_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            0,
+            1
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "1",
+        "sum_product": "0",
+        "sum_min": "0",
+        "sum_Ry2": "199",
+        "sum_Rz2": "1",
+        "target_gap_num": "600",
+        "covariance_gap_num": "400",
+        "r": "199/200",
+        "s": "1/200",
+        "N": "0",
+        "covariance": "-199/40000",
+        "target_gap": "3/200",
+        "covariance_gap": "1/100",
+        "mean_ratio": "199",
+        "target_pressure": "-199/401",
+        "target_relative_gap": "600/401",
+        "covariance_pressure": "-199/201",
+        "covariance_relative_gap": "400/201"
+      }
+    },
+    "only_smaller_mean_side_principal/mean_ratio": {
+      "value": "19899",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_1_199",
+        "n": 200,
+        "pair_indices": [
+          12,
+          21
+        ],
+        "source_pair_class": "overlap_nonnested",
+        "structure_label": "only_smaller_mean_side_principal",
+        "lengths": [
+          1,
+          199
+        ],
+        "cross": [],
+        "le": "200",
+        "Sy": {
+          "threshold": [
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "Sz": {
+          "threshold": [
+            0,
+            198
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              198
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "1",
+        "sum_Rz": "19899",
+        "sum_product": "0",
+        "sum_min": "0",
+        "sum_Ry2": "1",
+        "sum_Rz2": "2646303",
+        "target_gap_num": "20300",
+        "covariance_gap_num": "20100",
+        "r": "1/200",
+        "s": "19899/200",
+        "N": "0",
+        "covariance": "-19899/40000",
+        "target_gap": "203/400",
+        "covariance_gap": "201/400",
+        "mean_ratio": "19899",
+        "target_pressure": "-19899/401",
+        "target_relative_gap": "20300/401",
+        "covariance_pressure": "-99",
+        "covariance_relative_gap": "100"
+      }
+    },
+    "only_larger_mean_side_principal/target_relative_gap": {
+      "value": "399/79799",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "only_larger_mean_side_principal/covariance_relative_gap": {
+      "value": "133/13333",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "only_larger_mean_side_principal/target_absolute_gap": {
+      "value": "399/7960000",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "only_larger_mean_side_principal/covariance_absolute_gap": {
+      "value": "399/7960000",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "only_larger_mean_side_principal/mean_ratio": {
+      "value": "7919800/199",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          23
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            197
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              197
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "7919800",
+        "sum_product": "39600",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "1575961004",
+        "target_gap_num": "7920001",
+        "covariance_gap_num": "7920001",
+        "r": "1/200",
+        "s": "39599/199",
+        "N": "39799/39800",
+        "covariance": "1/39800",
+        "target_gap": "39799/7960000",
+        "covariance_gap": "39799/7960000",
+        "mean_ratio": "7919800/199",
+        "target_pressure": "40000/79799",
+        "target_relative_gap": "39799/79799",
+        "covariance_pressure": "200/39999",
+        "covariance_relative_gap": "39799/39999"
+      }
+    },
+    "outside_pending_T_proof_nonempty/target_relative_gap": {
+      "value": "2/401",
+      "ties": 3,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          14,
+          14
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "199",
+        "sum_product": "199",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "199",
+        "target_gap_num": "79202",
+        "covariance_gap_num": "79202",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "outside_pending_T_proof_nonempty/covariance_relative_gap": {
+      "value": "2/201",
+      "ties": 3,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          14,
+          14
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "199",
+        "sum_product": "199",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "199",
+        "target_gap_num": "79202",
+        "covariance_gap_num": "79202",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "outside_pending_T_proof_nonempty/target_absolute_gap": {
+      "value": "1/20000",
+      "ties": 3,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          14,
+          14
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "199",
+        "sum_product": "199",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "199",
+        "target_gap_num": "79202",
+        "covariance_gap_num": "79202",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "outside_pending_T_proof_nonempty/covariance_absolute_gap": {
+      "value": "1/20000",
+      "ties": 3,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          14,
+          14
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "199",
+        "sum_product": "199",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "199",
+        "target_gap_num": "79202",
+        "covariance_gap_num": "79202",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "outside_pending_T_proof_nonempty/mean_ratio": {
+      "value": "7919800/199",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          23
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            197
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              197
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "7919800",
+        "sum_product": "39600",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "1575961004",
+        "target_gap_num": "7920001",
+        "covariance_gap_num": "7920001",
+        "r": "1/200",
+        "s": "39599/199",
+        "N": "39799/39800",
+        "covariance": "1/39800",
+        "target_gap": "39799/7960000",
+        "covariance_gap": "39799/7960000",
+        "mean_ratio": "7919800/199",
+        "target_pressure": "40000/79799",
+        "target_relative_gap": "39799/79799",
+        "covariance_pressure": "200/39999",
+        "covariance_relative_gap": "39799/39999"
+      }
+    },
+    "outside_pending_T_proof_distinct_nonempty/target_relative_gap": {
+      "value": "399/79799",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "outside_pending_T_proof_distinct_nonempty/covariance_relative_gap": {
+      "value": "133/13333",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "outside_pending_T_proof_distinct_nonempty/target_absolute_gap": {
+      "value": "399/7960000",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "outside_pending_T_proof_distinct_nonempty/covariance_absolute_gap": {
+      "value": "399/7960000",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          15
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "400",
+        "sum_product": "200",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "404",
+        "target_gap_num": "79401",
+        "covariance_gap_num": "79401",
+        "r": "1/200",
+        "s": "2/199",
+        "N": "399/39800",
+        "covariance": "99/19900",
+        "target_gap": "399/7960000",
+        "covariance_gap": "399/7960000",
+        "mean_ratio": "400/199",
+        "target_pressure": "79400/79799",
+        "target_relative_gap": "399/79799",
+        "covariance_pressure": "13200/13333",
+        "covariance_relative_gap": "133/13333"
+      }
+    },
+    "outside_pending_T_proof_distinct_nonempty/mean_ratio": {
+      "value": "7919800/199",
+      "ties": 2,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          12,
+          23
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "only_larger_mean_side_principal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            1,
+            197
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              2,
+              197
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "7919800",
+        "sum_product": "39600",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "1575961004",
+        "target_gap_num": "7920001",
+        "covariance_gap_num": "7920001",
+        "r": "1/200",
+        "s": "39599/199",
+        "N": "39799/39800",
+        "covariance": "1/39800",
+        "target_gap": "39799/7960000",
+        "covariance_gap": "39799/7960000",
+        "mean_ratio": "7919800/199",
+        "target_pressure": "40000/79799",
+        "target_relative_gap": "39799/79799",
+        "covariance_pressure": "200/39999",
+        "covariance_relative_gap": "39799/39999"
+      }
+    },
+    "both_nonprincipal/target_relative_gap": {
+      "value": "2/401",
+      "ties": 3,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          14,
+          14
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "199",
+        "sum_product": "199",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "199",
+        "target_gap_num": "79202",
+        "covariance_gap_num": "79202",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "both_nonprincipal/covariance_relative_gap": {
+      "value": "2/201",
+      "ties": 3,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          14,
+          14
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "199",
+        "sum_product": "199",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "199",
+        "target_gap_num": "79202",
+        "covariance_gap_num": "79202",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "both_nonprincipal/target_absolute_gap": {
+      "value": "1/20000",
+      "ties": 3,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          14,
+          14
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "199",
+        "sum_product": "199",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "199",
+        "target_gap_num": "79202",
+        "covariance_gap_num": "79202",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "both_nonprincipal/covariance_absolute_gap": {
+      "value": "1/20000",
+      "ties": 3,
+      "record": {
+        "case": "disjoint3_1_1_198",
+        "n": 200,
+        "pair_indices": [
+          14,
+          14
+        ],
+        "source_pair_class": "same",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          1,
+          198
+        ],
+        "cross": [],
+        "le": "39800",
+        "Sy": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            0,
+            1,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "199",
+        "sum_Rz": "199",
+        "sum_product": "199",
+        "sum_min": "199",
+        "sum_Ry2": "199",
+        "sum_Rz2": "199",
+        "target_gap_num": "79202",
+        "covariance_gap_num": "79202",
+        "r": "1/200",
+        "s": "1/200",
+        "N": "1/100",
+        "covariance": "199/40000",
+        "target_gap": "1/20000",
+        "covariance_gap": "1/20000",
+        "mean_ratio": "1",
+        "target_pressure": "399/401",
+        "target_relative_gap": "2/401",
+        "covariance_pressure": "199/201",
+        "covariance_relative_gap": "2/201"
+      }
+    },
+    "both_nonprincipal/mean_ratio": {
+      "value": "19867410689186167/560714393332",
+      "ties": 1,
+      "record": {
+        "case": "disjoint3_1_9_190",
+        "n": 200,
+        "pair_indices": [
+          12,
+          108
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          9,
+          190
+        ],
+        "cross": [],
+        "le": "224510043090132800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            8,
+            179
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              179
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "1122550215450664",
+        "sum_Rz": "39774556199750706334",
+        "sum_product": "199000329566372334",
+        "sum_min": "1122550215450664",
+        "sum_Ry2": "1122550215450664",
+        "sum_Rz2": "7100793478487624258798",
+        "target_gap_num": "224647981815692736990840049570672",
+        "covariance_gap_num": "224647981815692736990840049570672",
+        "r": "1/200",
+        "s": "19867410689186167/112142878666400",
+        "N": "99961478412499/112142878666400",
+        "covariance": "12742114647233/22428575733280000",
+        "target_gap": "99961478412499/22428575733280000",
+        "covariance_gap": "99961478412499/22428575733280000",
+        "mean_ratio": "19867410689186167/560714393332",
+        "target_pressure": "124884993313633/224846471726132",
+        "target_relative_gap": "99961478412499/224846471726132",
+        "covariance_pressure": "12742114647233/112703593059732",
+        "covariance_relative_gap": "99961478412499/112703593059732"
+      }
+    },
+    "both_nonprincipal_distinct/target_relative_gap": {
+      "value": "6179501/1210471031",
+      "ties": 1,
+      "record": {
+        "case": "disjoint3_1_9_190",
+        "n": 200,
+        "pair_indices": [
+          12,
+          57
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          9,
+          190
+        ],
+        "cross": [],
+        "le": "224510043090132800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            4,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "1122550215450664",
+        "sum_Rz": "11754440777494480",
+        "sum_product": "1175445193371280",
+        "sum_min": "1122550215450664",
+        "sum_Ry2": "1122550215450664",
+        "sum_Rz2": "12856325586003120",
+        "target_gap_num": "2579615241277709936839292570816",
+        "covariance_gap_num": "2579615241277709936839292570816",
+        "r": "1/200",
+        "s": "3160867/60372620",
+        "N": "6179501/603726200",
+        "covariance": "60056533/12074524000",
+        "target_gap": "6179501/120745240000",
+        "covariance_gap": "6179501/120745240000",
+        "mean_ratio": "31608670/3018631",
+        "target_pressure": "1204291530/1210471031",
+        "target_relative_gap": "6179501/1210471031",
+        "covariance_pressure": "600565330/606744831",
+        "covariance_relative_gap": "6179501/606744831"
+      }
+    },
+    "both_nonprincipal_distinct/covariance_relative_gap": {
+      "value": "6179501/606744831",
+      "ties": 1,
+      "record": {
+        "case": "disjoint3_1_9_190",
+        "n": 200,
+        "pair_indices": [
+          12,
+          57
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          9,
+          190
+        ],
+        "cross": [],
+        "le": "224510043090132800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            4,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "1122550215450664",
+        "sum_Rz": "11754440777494480",
+        "sum_product": "1175445193371280",
+        "sum_min": "1122550215450664",
+        "sum_Ry2": "1122550215450664",
+        "sum_Rz2": "12856325586003120",
+        "target_gap_num": "2579615241277709936839292570816",
+        "covariance_gap_num": "2579615241277709936839292570816",
+        "r": "1/200",
+        "s": "3160867/60372620",
+        "N": "6179501/603726200",
+        "covariance": "60056533/12074524000",
+        "target_gap": "6179501/120745240000",
+        "covariance_gap": "6179501/120745240000",
+        "mean_ratio": "31608670/3018631",
+        "target_pressure": "1204291530/1210471031",
+        "target_relative_gap": "6179501/1210471031",
+        "covariance_pressure": "600565330/606744831",
+        "covariance_relative_gap": "6179501/606744831"
+      }
+    },
+    "both_nonprincipal_distinct/target_absolute_gap": {
+      "value": "6179501/120745240000",
+      "ties": 1,
+      "record": {
+        "case": "disjoint3_1_9_190",
+        "n": 200,
+        "pair_indices": [
+          12,
+          57
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          9,
+          190
+        ],
+        "cross": [],
+        "le": "224510043090132800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            4,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "1122550215450664",
+        "sum_Rz": "11754440777494480",
+        "sum_product": "1175445193371280",
+        "sum_min": "1122550215450664",
+        "sum_Ry2": "1122550215450664",
+        "sum_Rz2": "12856325586003120",
+        "target_gap_num": "2579615241277709936839292570816",
+        "covariance_gap_num": "2579615241277709936839292570816",
+        "r": "1/200",
+        "s": "3160867/60372620",
+        "N": "6179501/603726200",
+        "covariance": "60056533/12074524000",
+        "target_gap": "6179501/120745240000",
+        "covariance_gap": "6179501/120745240000",
+        "mean_ratio": "31608670/3018631",
+        "target_pressure": "1204291530/1210471031",
+        "target_relative_gap": "6179501/1210471031",
+        "covariance_pressure": "600565330/606744831",
+        "covariance_relative_gap": "6179501/606744831"
+      }
+    },
+    "both_nonprincipal_distinct/covariance_absolute_gap": {
+      "value": "6179501/120745240000",
+      "ties": 1,
+      "record": {
+        "case": "disjoint3_1_9_190",
+        "n": 200,
+        "pair_indices": [
+          12,
+          57
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          9,
+          190
+        ],
+        "cross": [],
+        "le": "224510043090132800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            4,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              4
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "1122550215450664",
+        "sum_Rz": "11754440777494480",
+        "sum_product": "1175445193371280",
+        "sum_min": "1122550215450664",
+        "sum_Ry2": "1122550215450664",
+        "sum_Rz2": "12856325586003120",
+        "target_gap_num": "2579615241277709936839292570816",
+        "covariance_gap_num": "2579615241277709936839292570816",
+        "r": "1/200",
+        "s": "3160867/60372620",
+        "N": "6179501/603726200",
+        "covariance": "60056533/12074524000",
+        "target_gap": "6179501/120745240000",
+        "covariance_gap": "6179501/120745240000",
+        "mean_ratio": "31608670/3018631",
+        "target_pressure": "1204291530/1210471031",
+        "target_relative_gap": "6179501/1210471031",
+        "covariance_pressure": "600565330/606744831",
+        "covariance_relative_gap": "6179501/606744831"
+      }
+    },
+    "both_nonprincipal_distinct/mean_ratio": {
+      "value": "19867410689186167/560714393332",
+      "ties": 1,
+      "record": {
+        "case": "disjoint3_1_9_190",
+        "n": 200,
+        "pair_indices": [
+          12,
+          108
+        ],
+        "source_pair_class": "nested",
+        "structure_label": "both_nonprincipal",
+        "lengths": [
+          1,
+          9,
+          190
+        ],
+        "cross": [],
+        "le": "224510043090132800",
+        "Sy": {
+          "threshold": [
+            1,
+            0,
+            0
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              0
+            ],
+            [
+              2,
+              0
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "Sz": {
+          "threshold": [
+            1,
+            8,
+            179
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              1,
+              8
+            ],
+            [
+              2,
+              179
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "1122550215450664",
+        "sum_Rz": "39774556199750706334",
+        "sum_product": "199000329566372334",
+        "sum_min": "1122550215450664",
+        "sum_Ry2": "1122550215450664",
+        "sum_Rz2": "7100793478487624258798",
+        "target_gap_num": "224647981815692736990840049570672",
+        "covariance_gap_num": "224647981815692736990840049570672",
+        "r": "1/200",
+        "s": "19867410689186167/112142878666400",
+        "N": "99961478412499/112142878666400",
+        "covariance": "12742114647233/22428575733280000",
+        "target_gap": "99961478412499/22428575733280000",
+        "covariance_gap": "99961478412499/22428575733280000",
+        "mean_ratio": "19867410689186167/560714393332",
+        "target_pressure": "124884993313633/224846471726132",
+        "target_relative_gap": "99961478412499/224846471726132",
+        "covariance_pressure": "12742114647233/112703593059732",
+        "covariance_relative_gap": "99961478412499/112703593059732"
+      }
+    },
+    "empty_filters/target_relative_gap": {
+      "value": "201/382",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_20_180",
+        "n": 200,
+        "pair_indices": [
+          1,
+          26
+        ],
+        "source_pair_class": "empty_filter",
+        "structure_label": "empty_filters",
+        "lengths": [
+          20,
+          180
+        ],
+        "cross": [],
+        "le": "1613587787967350073386147640",
+        "Sy": {
+          "threshold": [
+            20,
+            180
+          ],
+          "empty": true,
+          "principal": false,
+          "minima": [],
+          "minimum_count": 0
+        },
+        "Sz": {
+          "threshold": [
+            20,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "322717557593470014677229528000",
+        "sum_Rz": "178296993145563544020568800",
+        "sum_product": "35659398629112708804113760000",
+        "sum_min": "178296993145563544020568800",
+        "sum_Ry2": "64543511518694002935445905600000",
+        "sum_Rz2": "215523837868263624640248000",
+        "target_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "covariance_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "r": "200",
+        "s": "20/181",
+        "N": "4020/181",
+        "covariance": "0",
+        "target_gap": "4020/32761",
+        "covariance_gap": "4020/32761",
+        "mean_ratio": "1810",
+        "target_pressure": "181/382",
+        "target_relative_gap": "201/382",
+        "covariance_pressure": "0",
+        "covariance_relative_gap": "1"
+      }
+    },
+    "empty_filters/covariance_relative_gap": {
+      "value": "1",
+      "ties": 33,
+      "record": {
+        "case": "disjoint2_1_19",
+        "n": 20,
+        "pair_indices": [
+          1,
+          6
+        ],
+        "source_pair_class": "empty_filter",
+        "structure_label": "empty_filters",
+        "lengths": [
+          1,
+          19
+        ],
+        "cross": [],
+        "le": "20",
+        "Sy": {
+          "threshold": [
+            1,
+            19
+          ],
+          "empty": true,
+          "principal": false,
+          "minima": [],
+          "minimum_count": 0
+        },
+        "Sz": {
+          "threshold": [
+            0,
+            17
+          ],
+          "empty": false,
+          "principal": false,
+          "minima": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              17
+            ]
+          ],
+          "minimum_count": 2
+        },
+        "sum_Ry": "400",
+        "sum_Rz": "187",
+        "sum_product": "3740",
+        "sum_min": "187",
+        "sum_Ry2": "8000",
+        "sum_Rz2": "2363",
+        "target_gap_num": "38709",
+        "covariance_gap_num": "38709",
+        "r": "20",
+        "s": "187/20",
+        "N": "3927/20",
+        "covariance": "0",
+        "target_gap": "38709/400",
+        "covariance_gap": "38709/400",
+        "mean_ratio": "400/187",
+        "target_pressure": "20/227",
+        "target_relative_gap": "207/227",
+        "covariance_pressure": "0",
+        "covariance_relative_gap": "1"
+      }
+    },
+    "empty_filters/target_absolute_gap": {
+      "value": "4020/32761",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_20_180",
+        "n": 200,
+        "pair_indices": [
+          1,
+          26
+        ],
+        "source_pair_class": "empty_filter",
+        "structure_label": "empty_filters",
+        "lengths": [
+          20,
+          180
+        ],
+        "cross": [],
+        "le": "1613587787967350073386147640",
+        "Sy": {
+          "threshold": [
+            20,
+            180
+          ],
+          "empty": true,
+          "principal": false,
+          "minima": [],
+          "minimum_count": 0
+        },
+        "Sz": {
+          "threshold": [
+            20,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "322717557593470014677229528000",
+        "sum_Rz": "178296993145563544020568800",
+        "sum_product": "35659398629112708804113760000",
+        "sum_min": "178296993145563544020568800",
+        "sum_Ry2": "64543511518694002935445905600000",
+        "sum_Rz2": "215523837868263624640248000",
+        "target_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "covariance_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "r": "200",
+        "s": "20/181",
+        "N": "4020/181",
+        "covariance": "0",
+        "target_gap": "4020/32761",
+        "covariance_gap": "4020/32761",
+        "mean_ratio": "1810",
+        "target_pressure": "181/382",
+        "target_relative_gap": "201/382",
+        "covariance_pressure": "0",
+        "covariance_relative_gap": "1"
+      }
+    },
+    "empty_filters/covariance_absolute_gap": {
+      "value": "4020/32761",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_20_180",
+        "n": 200,
+        "pair_indices": [
+          1,
+          26
+        ],
+        "source_pair_class": "empty_filter",
+        "structure_label": "empty_filters",
+        "lengths": [
+          20,
+          180
+        ],
+        "cross": [],
+        "le": "1613587787967350073386147640",
+        "Sy": {
+          "threshold": [
+            20,
+            180
+          ],
+          "empty": true,
+          "principal": false,
+          "minima": [],
+          "minimum_count": 0
+        },
+        "Sz": {
+          "threshold": [
+            20,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "322717557593470014677229528000",
+        "sum_Rz": "178296993145563544020568800",
+        "sum_product": "35659398629112708804113760000",
+        "sum_min": "178296993145563544020568800",
+        "sum_Ry2": "64543511518694002935445905600000",
+        "sum_Rz2": "215523837868263624640248000",
+        "target_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "covariance_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "r": "200",
+        "s": "20/181",
+        "N": "4020/181",
+        "covariance": "0",
+        "target_gap": "4020/32761",
+        "covariance_gap": "4020/32761",
+        "mean_ratio": "1810",
+        "target_pressure": "181/382",
+        "target_relative_gap": "201/382",
+        "covariance_pressure": "0",
+        "covariance_relative_gap": "1"
+      }
+    },
+    "empty_filters/mean_ratio": {
+      "value": "1810",
+      "ties": 1,
+      "record": {
+        "case": "disjoint2_20_180",
+        "n": 200,
+        "pair_indices": [
+          1,
+          26
+        ],
+        "source_pair_class": "empty_filter",
+        "structure_label": "empty_filters",
+        "lengths": [
+          20,
+          180
+        ],
+        "cross": [],
+        "le": "1613587787967350073386147640",
+        "Sy": {
+          "threshold": [
+            20,
+            180
+          ],
+          "empty": true,
+          "principal": false,
+          "minima": [],
+          "minimum_count": 0
+        },
+        "Sz": {
+          "threshold": [
+            20,
+            0
+          ],
+          "empty": false,
+          "principal": true,
+          "minima": [
+            [
+              1,
+              0
+            ]
+          ],
+          "minimum_count": 1
+        },
+        "sum_Ry": "322717557593470014677229528000",
+        "sum_Rz": "178296993145563544020568800",
+        "sum_product": "35659398629112708804113760000",
+        "sum_min": "178296993145563544020568800",
+        "sum_Ry2": "64543511518694002935445905600000",
+        "sum_Rz2": "215523837868263624640248000",
+        "target_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "covariance_gap_num": "319487668535728790667686889257001952023178629111072000",
+        "r": "200",
+        "s": "20/181",
+        "N": "4020/181",
+        "covariance": "0",
+        "target_gap": "4020/32761",
+        "covariance_gap": "4020/32761",
+        "mean_ratio": "1810",
+        "target_pressure": "181/382",
+        "target_relative_gap": "201/382",
+        "covariance_pressure": "0",
+        "covariance_relative_gap": "1"
+      }
+    }
+  }
+}

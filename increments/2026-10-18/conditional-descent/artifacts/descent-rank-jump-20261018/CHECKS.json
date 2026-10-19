@@ -1,0 +1,46 @@
+{
+  "scope": "Local shuffle law and threshold arithmetic only; no poset/delta classification.",
+  "exact_arithmetic": "fractions.Fraction and integer binomial coefficients",
+  "formula_grid": {
+    "m": [
+      2,
+      20
+    ],
+    "K": [
+      1,
+      20
+    ]
+  },
+  "pmf_values_checked": 47880,
+  "internal_pmf_values_checked": 39900,
+  "normalizations_checked": 3990,
+  "sharp_bound_parameter_pairs_checked": 209,
+  "direct_subset_grid": {
+    "m": [
+      2,
+      7
+    ],
+    "K": [
+      1,
+      7
+    ]
+  },
+  "direct_subsets_enumerated": 12819,
+  "direct_histogram_entries_checked": 924,
+  "example": {
+    "m": 2,
+    "K": 3,
+    "r": 2,
+    "J_distribution": [
+      "3/10",
+      "2/5",
+      "3/10"
+    ],
+    "q": [
+      "7/10",
+      "3/10"
+    ],
+    "shortened_probability": "1/2"
+  },
+  "status": "all checks passed"
+}

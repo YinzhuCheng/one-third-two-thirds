@@ -1,0 +1,195 @@
+{
+  "description": "One fixed W antichain 2, V antichain 2, U antichain 2 example; both z slots nonconstant.",
+  "moments": {
+    "p": "5/2",
+    "r": "1/2",
+    "q": "1/2",
+    "s": "1/2",
+    "beta": "1/2",
+    "M": "7/4",
+    "N": "0",
+    "F": "1/2",
+    "A": "13/4",
+    "B": "4"
+  },
+  "fibers": [
+    {
+      "delta": [
+        "a",
+        "d",
+        "b",
+        "c"
+      ],
+      "nu": [
+        "u",
+        "v"
+      ],
+      "Ly": 3,
+      "Lz": 1,
+      "Lyp": 2,
+      "X": 1,
+      "Cy": 1,
+      "Cz": 0
+    },
+    {
+      "delta": [
+        "a",
+        "d",
+        "b",
+        "c"
+      ],
+      "nu": [
+        "v",
+        "u"
+      ],
+      "Ly": 3,
+      "Lz": 1,
+      "Lyp": 2,
+      "X": 1,
+      "Cy": 0,
+      "Cz": 1
+    },
+    {
+      "delta": [
+        "a",
+        "d",
+        "c",
+        "b"
+      ],
+      "nu": [
+        "u",
+        "v"
+      ],
+      "Ly": 3,
+      "Lz": 0,
+      "Lyp": 2,
+      "X": 1,
+      "Cy": 1,
+      "Cz": 0
+    },
+    {
+      "delta": [
+        "a",
+        "d",
+        "c",
+        "b"
+      ],
+      "nu": [
+        "v",
+        "u"
+      ],
+      "Ly": 3,
+      "Lz": 0,
+      "Lyp": 2,
+      "X": 1,
+      "Cy": 0,
+      "Cz": 1
+    },
+    {
+      "delta": [
+        "d",
+        "a",
+        "b",
+        "c"
+      ],
+      "nu": [
+        "u",
+        "v"
+      ],
+      "Ly": 2,
+      "Lz": 1,
+      "Lyp": 2,
+      "X": 0,
+      "Cy": 1,
+      "Cz": 0
+    },
+    {
+      "delta": [
+        "d",
+        "a",
+        "b",
+        "c"
+      ],
+      "nu": [
+        "v",
+        "u"
+      ],
+      "Ly": 2,
+      "Lz": 1,
+      "Lyp": 2,
+      "X": 0,
+      "Cy": 0,
+      "Cz": 1
+    },
+    {
+      "delta": [
+        "d",
+        "a",
+        "c",
+        "b"
+      ],
+      "nu": [
+        "u",
+        "v"
+      ],
+      "Ly": 2,
+      "Lz": 0,
+      "Lyp": 2,
+      "X": 0,
+      "Cy": 1,
+      "Cz": 0
+    },
+    {
+      "delta": [
+        "d",
+        "a",
+        "c",
+        "b"
+      ],
+      "nu": [
+        "v",
+        "u"
+      ],
+      "Ly": 2,
+      "Lz": 0,
+      "Lyp": 2,
+      "X": 0,
+      "Cy": 0,
+      "Cz": 1
+    }
+  ],
+  "checks": [
+    {
+      "m": 0,
+      "t": 1,
+      "total": 74,
+      "event": 66,
+      "failure": 8,
+      "probability": "33/37"
+    },
+    {
+      "m": 1,
+      "t": 2,
+      "total": 138,
+      "event": 126,
+      "failure": 12,
+      "probability": "21/23"
+    },
+    {
+      "m": 2,
+      "t": 3,
+      "total": 218,
+      "event": 202,
+      "failure": 16,
+      "probability": "101/109"
+    },
+    {
+      "m": 3,
+      "t": 4,
+      "total": 314,
+      "event": 294,
+      "failure": 20,
+      "probability": "147/157"
+    }
+  ]
+}

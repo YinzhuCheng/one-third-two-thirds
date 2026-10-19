@@ -1,0 +1,479 @@
+{
+  "status": "PASS",
+  "method": "full permutations of distinct element labels, independently filtered by direct position inequalities",
+  "cases": 11,
+  "all_permutations_tested": 98184,
+  "legal_extensions_checked": 214,
+  "reports": [
+    {
+      "lengths": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "all_labeled_permutations": 24,
+      "legal_extensions": 5,
+      "k_counts": [
+        2,
+        3
+      ],
+      "A1_before_Bj_counts_by_k": [
+        [
+          1
+        ],
+        [
+          2
+        ]
+      ],
+      "p_grid_with_sentinels": [
+        "0",
+        "3/5",
+        "1"
+      ],
+      "grid_jumps": [
+        "3/5",
+        "2/5"
+      ],
+      "h": "3/5",
+      "H": "2/3",
+      "actual_witness_j": 1,
+      "pair_balance": "2/5",
+      "lower_bound": "1/5",
+      "prefix_uniformity": "every distinct labeled prefix has exactly T_k completions"
+    },
+    {
+      "lengths": [
+        1,
+        2,
+        1,
+        1
+      ],
+      "all_labeled_permutations": 120,
+      "legal_extensions": 9,
+      "k_counts": [
+        3,
+        6
+      ],
+      "A1_before_Bj_counts_by_k": [
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "p_grid_with_sentinels": [
+        "0",
+        "4/9",
+        "7/9",
+        "1"
+      ],
+      "grid_jumps": [
+        "4/9",
+        "1/3",
+        "2/9"
+      ],
+      "h": "4/9",
+      "H": "1/2",
+      "actual_witness_j": 1,
+      "pair_balance": "4/9",
+      "lower_bound": "5/18",
+      "prefix_uniformity": "every distinct labeled prefix has exactly T_k completions"
+    },
+    {
+      "lengths": [
+        2,
+        1,
+        1,
+        1
+      ],
+      "all_labeled_permutations": 120,
+      "legal_extensions": 7,
+      "k_counts": [
+        3,
+        4
+      ],
+      "A1_before_Bj_counts_by_k": [
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "p_grid_with_sentinels": [
+        "0",
+        "5/7",
+        "1"
+      ],
+      "grid_jumps": [
+        "5/7",
+        "2/7"
+      ],
+      "h": "5/7",
+      "H": "3/4",
+      "actual_witness_j": 1,
+      "pair_balance": "2/7",
+      "lower_bound": "1/7",
+      "prefix_uniformity": "every distinct labeled prefix has exactly T_k completions"
+    },
+    {
+      "lengths": [
+        2,
+        2,
+        1,
+        1
+      ],
+      "all_labeled_permutations": 720,
+      "legal_extensions": 16,
+      "k_counts": [
+        6,
+        10
+      ],
+      "A1_before_Bj_counts_by_k": [
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          9
+        ]
+      ],
+      "p_grid_with_sentinels": [
+        "0",
+        "9/16",
+        "7/8",
+        "1"
+      ],
+      "grid_jumps": [
+        "9/16",
+        "5/16",
+        "1/8"
+      ],
+      "h": "9/16",
+      "H": "3/5",
+      "actual_witness_j": 1,
+      "pair_balance": "7/16",
+      "lower_bound": "7/32",
+      "prefix_uniformity": "every distinct labeled prefix has exactly T_k completions"
+    },
+    {
+      "lengths": [
+        2,
+        1,
+        2,
+        1
+      ],
+      "all_labeled_permutations": 720,
+      "legal_extensions": 12,
+      "k_counts": [
+        3,
+        4,
+        5
+      ],
+      "A1_before_Bj_counts_by_k": [
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ]
+      ],
+      "p_grid_with_sentinels": [
+        "0",
+        "3/4",
+        "1"
+      ],
+      "grid_jumps": [
+        "3/4",
+        "1/4"
+      ],
+      "h": "3/4",
+      "H": "4/5",
+      "actual_witness_j": 1,
+      "pair_balance": "1/4",
+      "lower_bound": "1/8",
+      "prefix_uniformity": "every distinct labeled prefix has exactly T_k completions"
+    },
+    {
+      "lengths": [
+        1,
+        2,
+        1,
+        2
+      ],
+      "all_labeled_permutations": 720,
+      "legal_extensions": 12,
+      "k_counts": [
+        6,
+        6
+      ],
+      "A1_before_Bj_counts_by_k": [
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ]
+      ],
+      "p_grid_with_sentinels": [
+        "0",
+        "5/12",
+        "3/4",
+        "1"
+      ],
+      "grid_jumps": [
+        "5/12",
+        "1/3",
+        "1/4"
+      ],
+      "h": "5/12",
+      "H": "1/2",
+      "actual_witness_j": 1,
+      "pair_balance": "5/12",
+      "lower_bound": "7/24",
+      "prefix_uniformity": "every distinct labeled prefix has exactly T_k completions"
+    },
+    {
+      "lengths": [
+        2,
+        2,
+        2,
+        1
+      ],
+      "all_labeled_permutations": 5040,
+      "legal_extensions": 31,
+      "k_counts": [
+        6,
+        10,
+        15
+      ],
+      "A1_before_Bj_counts_by_k": [
+        [
+          3,
+          5
+        ],
+        [
+          6,
+          9
+        ],
+        [
+          10,
+          14
+        ]
+      ],
+      "p_grid_with_sentinels": [
+        "0",
+        "19/31",
+        "28/31",
+        "1"
+      ],
+      "grid_jumps": [
+        "19/31",
+        "9/31",
+        "3/31"
+      ],
+      "h": "19/31",
+      "H": "2/3",
+      "actual_witness_j": 1,
+      "pair_balance": "12/31",
+      "lower_bound": "6/31",
+      "prefix_uniformity": "every distinct labeled prefix has exactly T_k completions"
+    },
+    {
+      "lengths": [
+        1,
+        3,
+        2,
+        2
+      ],
+      "all_labeled_permutations": 40320,
+      "legal_extensions": 52,
+      "k_counts": [
+        12,
+        20,
+        20
+      ],
+      "A1_before_Bj_counts_by_k": [
+        [
+          3,
+          6,
+          9
+        ],
+        [
+          8,
+          14,
+          18
+        ],
+        [
+          10,
+          16,
+          19
+        ]
+      ],
+      "p_grid_with_sentinels": [
+        "0",
+        "21/52",
+        "9/13",
+        "23/26",
+        "1"
+      ],
+      "grid_jumps": [
+        "21/52",
+        "15/52",
+        "5/26",
+        "3/26"
+      ],
+      "h": "21/52",
+      "H": "1/2",
+      "actual_witness_j": 1,
+      "pair_balance": "21/52",
+      "lower_bound": "31/104",
+      "prefix_uniformity": "every distinct labeled prefix has exactly T_k completions"
+    },
+    {
+      "lengths": [
+        2,
+        1,
+        1,
+        3
+      ],
+      "all_labeled_permutations": 5040,
+      "legal_extensions": 13,
+      "k_counts": [
+        9,
+        4
+      ],
+      "A1_before_Bj_counts_by_k": [
+        [
+          6
+        ],
+        [
+          3
+        ]
+      ],
+      "p_grid_with_sentinels": [
+        "0",
+        "9/13",
+        "1"
+      ],
+      "grid_jumps": [
+        "9/13",
+        "4/13"
+      ],
+      "h": "9/13",
+      "H": "3/4",
+      "actual_witness_j": 1,
+      "pair_balance": "4/13",
+      "lower_bound": "2/13",
+      "prefix_uniformity": "every distinct labeled prefix has exactly T_k completions"
+    },
+    {
+      "lengths": [
+        1,
+        1,
+        3,
+        2
+      ],
+      "all_labeled_permutations": 5040,
+      "legal_extensions": 30,
+      "k_counts": [
+        8,
+        9,
+        8,
+        5
+      ],
+      "A1_before_Bj_counts_by_k": [
+        [
+          4
+        ],
+        [
+          6
+        ],
+        [
+          6
+        ],
+        [
+          4
+        ]
+      ],
+      "p_grid_with_sentinels": [
+        "0",
+        "2/3",
+        "1"
+      ],
+      "grid_jumps": [
+        "2/3",
+        "1/3"
+      ],
+      "h": "2/3",
+      "H": "4/5",
+      "actual_witness_j": 1,
+      "pair_balance": "1/3",
+      "lower_bound": "1/6",
+      "prefix_uniformity": "every distinct labeled prefix has exactly T_k completions"
+    },
+    {
+      "lengths": [
+        1,
+        5,
+        1,
+        1
+      ],
+      "all_labeled_permutations": 40320,
+      "legal_extensions": 27,
+      "k_counts": [
+        6,
+        21
+      ],
+      "A1_before_Bj_counts_by_k": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        [
+          6,
+          11,
+          15,
+          18,
+          20
+        ]
+      ],
+      "p_grid_with_sentinels": [
+        "0",
+        "7/27",
+        "13/27",
+        "2/3",
+        "22/27",
+        "25/27",
+        "1"
+      ],
+      "grid_jumps": [
+        "7/27",
+        "2/9",
+        "5/27",
+        "4/27",
+        "1/9",
+        "2/27"
+      ],
+      "h": "7/27",
+      "H": "2/7",
+      "actual_witness_j": 2,
+      "pair_balance": "13/27",
+      "lower_bound": "10/27",
+      "prefix_uniformity": "every distinct labeled prefix has exactly T_k completions"
+    }
+  ]
+}

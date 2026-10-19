@@ -1,0 +1,48 @@
+{
+  "relation_edit": {
+    "eP": 3,
+    "eQ": 2,
+    "p_a2_before_b_before": "1/3",
+    "p_a2_before_b_after": "1/2",
+    "delta_before": "1/3",
+    "delta_after": "1/2"
+  },
+  "module_replacement": {
+    "eP": 30,
+    "eQ": 30,
+    "boundary_before": [
+      "2/3",
+      "2/3",
+      "1/3",
+      "1/3"
+    ],
+    "boundary_after": [
+      "2/3",
+      "2/3",
+      "1/3",
+      "1/3"
+    ],
+    "internal_a_c_before": "1",
+    "internal_a_c_after": "5/6"
+  },
+  "partial_duality": {
+    "eP": 18,
+    "eQ": 18,
+    "delta_before": "4/9",
+    "delta_after": "1/2",
+    "p_d_before_y_before": "1/3",
+    "p_d_before_y_after": "1/2",
+    "cross_before": [
+      "2/3",
+      "4/9",
+      "2/9",
+      "1/3"
+    ],
+    "cross_after": [
+      "1/6",
+      "7/18",
+      "11/18",
+      "1/2"
+    ]
+  }
+}

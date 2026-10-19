@@ -1,0 +1,4 @@
+{'n': 2, 'autonomous_chain_modules': 1, 'fixed_deletion_ranks': 2, 'external_pair_checks': 0, 'rank_interpolation_checks': 0}
+{'n': 3, 'autonomous_chain_modules': 6, 'fixed_deletion_ranks': 13, 'external_pair_checks': 0, 'rank_interpolation_checks': 3}
+{'n': 4, 'autonomous_chain_modules': 38, 'fixed_deletion_ranks': 84, 'external_pair_checks': 31, 'rank_interpolation_checks': 46}
+{'n': 5, 'autonomous_chain_modules': 321, 'fixed_deletion_ranks': 702, 'external_pair_checks': 853, 'rank_interpolation_checks': 635}

@@ -1,0 +1,7 @@
+{'n': 1, 'naturally_labeled_posets': 1, 'deletion_instances': 1}
+{'n': 2, 'naturally_labeled_posets': 2, 'deletion_instances': 4}
+{'n': 3, 'naturally_labeled_posets': 7, 'deletion_instances': 21}
+{'n': 4, 'naturally_labeled_posets': 40, 'deletion_instances': 160}
+{'n': 5, 'naturally_labeled_posets': 357, 'deletion_instances': 1785}
+{'n': 6, 'naturally_labeled_posets': 4824, 'deletion_instances': 28944}
+PASSED 30915

@@ -1,0 +1,11 @@
+{
+  "checks": "PASS",
+  "zero_residuals": {
+    "positive_A_formula": "0",
+    "positive_B_formula": "0",
+    "theta_equals_B_over_A": "0",
+    "direction_identity": "0",
+    "theta_derivative": "0"
+  },
+  "status": "Pure identities only; cone sufficiency also reviewed in natural-language proof."
+}

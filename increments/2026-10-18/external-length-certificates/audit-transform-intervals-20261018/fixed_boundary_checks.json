@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "fixed_quadratic_linear_constant_cases": 17,
+  "extra_boundary_union_intersection_controls": 8,
+  "actual_two_neighbor_coefficient_controls": 2,
+  "fixed_empty_boundary_highest_fiber_dp_controls": 6,
+  "closed_balanced_cover_controls": 5,
+  "scope": "Fixed endpoint controls only; no enumeration over chain lengths or posets."
+}

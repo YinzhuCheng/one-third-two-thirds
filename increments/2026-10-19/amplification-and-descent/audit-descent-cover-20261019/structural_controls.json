@@ -1,0 +1,10 @@
+{
+  "checks": "PASS",
+  "effective_nonprincipal_gates": 96,
+  "finite_ordered_ratio_counts": {
+    "II": 12,
+    "DI": 48,
+    "IU": 48
+  },
+  "status": "Only the frozen finite data; no unbounded theorem claimed."
+}

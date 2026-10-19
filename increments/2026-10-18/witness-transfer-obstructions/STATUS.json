@@ -1,0 +1,55 @@
+{
+  "archive_date": "2026-10-18",
+  "scope": "Accepted witness-transfer obstruction supplement only",
+  "ledger_35_55": "unchanged",
+  "novelty_claim": false,
+  "mathematical_rerun_during_archiving": false,
+  "hash_rerun_during_archiving": false,
+  "github_write": false,
+  "results": [
+    {
+      "id": "LW-9",
+      "status": "accepted; independently audited",
+      "model": "actual uniform labelled linear extensions",
+      "negated_quantifier": "for every specified Q balanced pair, a member of the three-pair P menu balances",
+      "three_points_pairwise_incomparable": false,
+      "caveat": "v<y; C is maximal autonomous, not an ordinary maximal chain"
+    },
+    {
+      "id": "LW-10-FAMILY",
+      "status": "accepted; independently audited",
+      "model": "actual uniform labelled linear extensions",
+      "three_points_pairwise_incomparable": true,
+      "unbounded_family": true,
+      "negated_quantifier": "for every specified eligible Q balanced pair, a member of the three-pair P menu balances",
+      "existential_transfer_version_disproved": false,
+      "eligible_transferable_pair_throughout_family": [
+        "v",
+        "w"
+      ]
+    },
+    {
+      "id": "WEIGHTED-RELAXATION",
+      "status": "accepted by parent term-by-term/count review; no separately assigned independent audit",
+      "model": "artificial common external weights with uniform complete-fiber shuffle",
+      "full_support_epsilon": "1/10",
+      "actual_five_point_uniform_poset_counterexample": false,
+      "larger_poset_projection_impossibility_proved": false
+    }
+  ],
+  "open_gaps": [
+    "actual uniform delta<1/3 shortening preservation",
+    "existential eligible-pair transfer version",
+    "larger-poset projection realizability and all added-label pair control"
+  ],
+  "excluded": [
+    "unfinished actual t=2 constraints research",
+    "already delivered main package",
+    "already delivered rank/t=1 delta",
+    "full LE lists",
+    "caches",
+    "search scripts",
+    "redundant run logs",
+    "old 57-file history"
+  ]
+}

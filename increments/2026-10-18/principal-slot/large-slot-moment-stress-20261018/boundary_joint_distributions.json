@@ -1,0 +1,70 @@
+{
+  "status": "Directly checkable distributions for two already tested pairs; no new stress pairs",
+  "records": [
+    {
+      "case": "disjoint2_1_199",
+      "Sy_threshold": [
+        1,
+        0
+      ],
+      "Sz_threshold": [
+        1,
+        0
+      ],
+      "le": 200,
+      "joint": [
+        {
+          "ry": 0,
+          "rz": 0,
+          "count": 199
+        },
+        {
+          "ry": 1,
+          "rz": 1,
+          "count": 1
+        }
+      ]
+    },
+    {
+      "case": "disjoint3_1_1_198",
+      "Sy_threshold": [
+        1,
+        0,
+        0
+      ],
+      "Sz_threshold": [
+        1,
+        1,
+        0
+      ],
+      "le": 39800,
+      "joint": [
+        {
+          "ry": 0,
+          "rz": 0,
+          "count": 39402
+        },
+        {
+          "ry": 0,
+          "rz": 1,
+          "count": 198
+        },
+        {
+          "ry": 0,
+          "rz": 2,
+          "count": 1
+        },
+        {
+          "ry": 1,
+          "rz": 1,
+          "count": 198
+        },
+        {
+          "ry": 1,
+          "rz": 2,
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

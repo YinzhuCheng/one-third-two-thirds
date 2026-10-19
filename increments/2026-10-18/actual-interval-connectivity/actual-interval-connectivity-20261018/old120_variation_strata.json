@@ -1,0 +1,626 @@
+{
+  "source": "/workspace/shared/actual-external-pair-shapes-20261018/all_counts.json",
+  "pairs": 2255,
+  "alltypes": {
+    "DD": 615,
+    "DI": 848,
+    "II": 120,
+    "DU": 360,
+    "IU": 240,
+    "UU": 72
+  },
+  "stratification": [
+    {
+      "type": "DD",
+      "v_low": 0,
+      "v_high": 0,
+      "count": 536
+    },
+    {
+      "type": "DD",
+      "v_low": 0,
+      "v_high": 1,
+      "count": 47
+    },
+    {
+      "type": "DD",
+      "v_low": 0,
+      "v_high": 2,
+      "count": 3
+    },
+    {
+      "type": "DD",
+      "v_low": 1,
+      "v_high": 0,
+      "count": 27
+    },
+    {
+      "type": "DD",
+      "v_low": 1,
+      "v_high": 1,
+      "count": 2
+    },
+    {
+      "type": "DI",
+      "v_low": 0,
+      "v_high": 0,
+      "count": 612
+    },
+    {
+      "type": "DI",
+      "v_low": 0,
+      "v_high": 1,
+      "count": 135
+    },
+    {
+      "type": "DI",
+      "v_low": 0,
+      "v_high": 2,
+      "count": 4
+    },
+    {
+      "type": "DI",
+      "v_low": 1,
+      "v_high": 1,
+      "count": 95
+    },
+    {
+      "type": "DI",
+      "v_low": 2,
+      "v_high": 1,
+      "count": 2
+    },
+    {
+      "type": "DU",
+      "v_low": 0,
+      "v_high": 0,
+      "count": 360
+    },
+    {
+      "type": "II",
+      "v_low": 0,
+      "v_high": 0,
+      "count": 87
+    },
+    {
+      "type": "II",
+      "v_low": 0,
+      "v_high": 1,
+      "count": 13
+    },
+    {
+      "type": "II",
+      "v_low": 0,
+      "v_high": 2,
+      "count": 1
+    },
+    {
+      "type": "II",
+      "v_low": 1,
+      "v_high": 0,
+      "count": 19
+    },
+    {
+      "type": "IU",
+      "v_low": 0,
+      "v_high": 0,
+      "count": 166
+    },
+    {
+      "type": "IU",
+      "v_low": 0,
+      "v_high": 1,
+      "count": 52
+    },
+    {
+      "type": "IU",
+      "v_low": 1,
+      "v_high": 1,
+      "count": 21
+    },
+    {
+      "type": "IU",
+      "v_low": 2,
+      "v_high": 1,
+      "count": 1
+    },
+    {
+      "type": "UU",
+      "v_low": 0,
+      "v_high": 0,
+      "count": 63
+    },
+    {
+      "type": "UU",
+      "v_low": 0,
+      "v_high": 1,
+      "count": 6
+    },
+    {
+      "type": "UU",
+      "v_low": 1,
+      "v_high": 0,
+      "count": 3
+    }
+  ],
+  "uncovered_count": 11,
+  "uncovered": [
+    {
+      "case": 8,
+      "pair": [
+        "d0",
+        "d1"
+      ],
+      "type": "DD",
+      "total": [
+        5,
+        8,
+        12
+      ],
+      "event": [
+        3,
+        6,
+        6
+      ],
+      "v_low": 0,
+      "v_high": 2,
+      "low_basis": [
+        -4,
+        -10,
+        -6
+      ],
+      "high_basis": [
+        -1,
+        2,
+        -6
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ]
+    },
+    {
+      "case": 8,
+      "pair": [
+        "d1",
+        "y"
+      ],
+      "type": "DI",
+      "total": [
+        5,
+        8,
+        12
+      ],
+      "event": [
+        4,
+        4,
+        12
+      ],
+      "v_low": 0,
+      "v_high": 2,
+      "low_basis": [
+        -7,
+        -4,
+        -24
+      ],
+      "high_basis": [
+        2,
+        -4,
+        12
+      ],
+      "balanced": []
+    },
+    {
+      "case": 8,
+      "pair": [
+        "y",
+        "z"
+      ],
+      "type": "II",
+      "total": [
+        5,
+        8,
+        12
+      ],
+      "event": [
+        3,
+        6,
+        6
+      ],
+      "v_low": 0,
+      "v_high": 2,
+      "low_basis": [
+        -4,
+        -10,
+        -6
+      ],
+      "high_basis": [
+        -1,
+        2,
+        -6
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ]
+    },
+    {
+      "case": 25,
+      "pair": [
+        "d1",
+        "y"
+      ],
+      "type": "DI",
+      "total": [
+        4,
+        10,
+        6
+      ],
+      "event": [
+        3,
+        6,
+        6
+      ],
+      "v_low": 0,
+      "v_high": 2,
+      "low_basis": [
+        -5,
+        -8,
+        -12
+      ],
+      "high_basis": [
+        1,
+        -2,
+        6
+      ],
+      "balanced": []
+    },
+    {
+      "case": 25,
+      "pair": [
+        "d2",
+        "y"
+      ],
+      "type": "DI",
+      "total": [
+        4,
+        10,
+        6
+      ],
+      "event": [
+        2,
+        2,
+        6
+      ],
+      "v_low": 2,
+      "v_high": 1,
+      "low_basis": [
+        -2,
+        4,
+        -12
+      ],
+      "high_basis": [
+        -2,
+        -14,
+        6
+      ],
+      "balanced": [
+        [
+          1,
+          2
+        ]
+      ]
+    },
+    {
+      "case": 33,
+      "pair": [
+        "d3",
+        "z"
+      ],
+      "type": "DI",
+      "total": [
+        5,
+        17,
+        8
+      ],
+      "event": [
+        2,
+        2,
+        8
+      ],
+      "v_low": 2,
+      "v_high": 1,
+      "low_basis": [
+        -1,
+        11,
+        -16
+      ],
+      "high_basis": [
+        -4,
+        -28,
+        8
+      ],
+      "balanced": [
+        [
+          1,
+          5
+        ]
+      ]
+    },
+    {
+      "case": 89,
+      "pair": [
+        "d3",
+        "y"
+      ],
+      "type": "DI",
+      "total": [
+        70,
+        76,
+        48
+      ],
+      "event": [
+        49,
+        46,
+        48
+      ],
+      "v_low": 0,
+      "v_high": 2,
+      "low_basis": [
+        -77,
+        -62,
+        -96
+      ],
+      "high_basis": [
+        7,
+        -14,
+        48
+      ],
+      "balanced": []
+    },
+    {
+      "case": 98,
+      "pair": [
+        "d0",
+        "d2"
+      ],
+      "type": "DD",
+      "total": [
+        8,
+        12,
+        18
+      ],
+      "event": [
+        5,
+        9,
+        9
+      ],
+      "v_low": 0,
+      "v_high": 2,
+      "low_basis": [
+        -7,
+        -15,
+        -9
+      ],
+      "high_basis": [
+        -1,
+        3,
+        -9
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ]
+    },
+    {
+      "case": 98,
+      "pair": [
+        "d1",
+        "d2"
+      ],
+      "type": "DD",
+      "total": [
+        8,
+        12,
+        18
+      ],
+      "event": [
+        5,
+        9,
+        9
+      ],
+      "v_low": 0,
+      "v_high": 2,
+      "low_basis": [
+        -7,
+        -15,
+        -9
+      ],
+      "high_basis": [
+        -1,
+        3,
+        -9
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ]
+    },
+    {
+      "case": 98,
+      "pair": [
+        "d2",
+        "y"
+      ],
+      "type": "DI",
+      "total": [
+        8,
+        12,
+        18
+      ],
+      "event": [
+        6,
+        6,
+        18
+      ],
+      "v_low": 0,
+      "v_high": 2,
+      "low_basis": [
+        -10,
+        -6,
+        -36
+      ],
+      "high_basis": [
+        2,
+        -6,
+        18
+      ],
+      "balanced": []
+    },
+    {
+      "case": 119,
+      "pair": [
+        "y",
+        "u0"
+      ],
+      "type": "IU",
+      "total": [
+        5,
+        8,
+        4
+      ],
+      "event": [
+        2,
+        2,
+        4
+      ],
+      "v_low": 2,
+      "v_high": 1,
+      "low_basis": [
+        -1,
+        2,
+        -8
+      ],
+      "high_basis": [
+        -4,
+        -10,
+        4
+      ],
+      "balanced": [
+        [
+          1,
+          3
+        ]
+      ]
+    }
+  ],
+  "nonmonotone": [
+    {
+      "case": 66,
+      "pair": [
+        "d1",
+        "d2"
+      ],
+      "type": "DD",
+      "total": [
+        8,
+        11,
+        4
+      ],
+      "event": [
+        3,
+        6,
+        2
+      ],
+      "v_low": 0,
+      "v_high": 0,
+      "low_basis": [
+        -1,
+        -7,
+        -2
+      ],
+      "high_basis": [
+        -7,
+        -4,
+        -2
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ]
+    },
+    {
+      "case": 66,
+      "pair": [
+        "d2",
+        "d3"
+      ],
+      "type": "DD",
+      "total": [
+        8,
+        11,
+        4
+      ],
+      "event": [
+        8,
+        8,
+        3
+      ],
+      "v_low": 0,
+      "v_high": 0,
+      "low_basis": [
+        -16,
+        -13,
+        -5
+      ],
+      "high_basis": [
+        8,
+        2,
+        1
+      ],
+      "balanced": []
+    }
+  ],
+  "cross_diagnostics": [
+    {
+      "type": "DI",
+      "condition": "dneg",
+      "count": 28
+    },
+    {
+      "type": "DI",
+      "condition": "dnonneg",
+      "count": 820
+    },
+    {
+      "type": "DI",
+      "condition": "hnonneg",
+      "count": 848
+    },
+    {
+      "type": "IU",
+      "condition": "dneg",
+      "count": 5
+    },
+    {
+      "type": "IU",
+      "condition": "dnonneg",
+      "count": 235
+    },
+    {
+      "type": "IU",
+      "condition": "hnonneg",
+      "count": 240
+    }
+  ]
+}

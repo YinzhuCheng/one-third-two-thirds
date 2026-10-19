@@ -1,0 +1,2333 @@
+{
+  "scope": "accepted project research increment only; no original chat, credentials, private notes, packages or caches",
+  "source_files": [
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/README.zh-CN.md",
+      "bytes": 6738,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "README.zh-CN.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/actual-interval-connectivity-20261018/RESULT.md",
+      "bytes": 19161,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "actual-interval-connectivity-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/actual-interval-connectivity-20261018/classify_old_excursions.py",
+      "bytes": 1751,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "actual-interval-connectivity-20261018/classify_old_excursions.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/actual-interval-connectivity-20261018/old120_uncovered_excursion_checks.json",
+      "bytes": 7502,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "actual-interval-connectivity-20261018/old120_uncovered_excursion_checks.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/actual-interval-connectivity-20261018/old120_variation_strata.json",
+      "bytes": 8502,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "actual-interval-connectivity-20261018/old120_variation_strata.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/actual-interval-connectivity-20261018/stratify_old.py",
+      "bytes": 1796,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "actual-interval-connectivity-20261018/stratify_old.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/audit-interval-connectivity-20261018/REVIEW.md",
+      "bytes": 21131,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "audit-interval-connectivity-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/audit-interval-connectivity-20261018/check_cross_supplement.py",
+      "bytes": 5395,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "audit-interval-connectivity-20261018/check_cross_supplement.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/audit-interval-connectivity-20261018/check_selected_certificates.py",
+      "bytes": 8470,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "audit-interval-connectivity-20261018/check_selected_certificates.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/audit-interval-connectivity-20261018/cross_supplement_checks.json",
+      "bytes": 11556,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "audit-interval-connectivity-20261018/cross_supplement_checks.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/audit-interval-connectivity-20261018/selected_certificate_checks.json",
+      "bytes": 7652,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "audit-interval-connectivity-20261018/selected_certificate_checks.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/cross-pair-valley-test-20261018/PLAN.md",
+      "bytes": 2998,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "cross-pair-valley-test-20261018/PLAN.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/cross-pair-valley-test-20261018/RESULT.md",
+      "bytes": 11232,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "cross-pair-valley-test-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/cross-pair-valley-test-20261018/candidate_manifest.json",
+      "bytes": 73363,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "cross-pair-valley-test-20261018/candidate_manifest.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/cross-pair-valley-test-20261018/controls.json",
+      "bytes": 467,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "cross-pair-valley-test-20261018/controls.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/cross-pair-valley-test-20261018/run_test.py",
+      "bytes": 13404,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "cross-pair-valley-test-20261018/run_test.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/cross-pair-valley-test-20261018/summary.json",
+      "bytes": 75066,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "cross-pair-valley-test-20261018/summary.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/disconnected-balance-interval-test-20261018/PLAN.md",
+      "bytes": 3125,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "disconnected-balance-interval-test-20261018/PLAN.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/disconnected-balance-interval-test-20261018/RESULT.md",
+      "bytes": 8412,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "disconnected-balance-interval-test-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/disconnected-balance-interval-test-20261018/controls.json",
+      "bytes": 2445,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "disconnected-balance-interval-test-20261018/controls.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/disconnected-balance-interval-test-20261018/frozen_cases.json",
+      "bytes": 139088,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "disconnected-balance-interval-test-20261018/frozen_cases.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/disconnected-balance-interval-test-20261018/run_test.py",
+      "bytes": 6422,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "disconnected-balance-interval-test-20261018/run_test.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/disconnected-balance-interval-test-20261018/summary.json",
+      "bytes": 103904,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "disconnected-balance-interval-test-20261018/summary.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/disconnected-balance-interval-test-20261018/two_variation_certificates.json",
+      "bytes": 2534,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "disconnected-balance-interval-test-20261018/two_variation_certificates.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/disconnected-balance-interval-test-20261018/verify_controls.py",
+      "bytes": 2803,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "disconnected-balance-interval-test-20261018/verify_controls.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-interval-connectivity/external-pair-length-intervals-20261018/interval_solver.py",
+      "bytes": 9190,
+      "origin": "accepted research package",
+      "source_package": "interval-connectivity-increment-20261018",
+      "source_relative_path": "external-pair-length-intervals-20261018/interval_solver.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-random-cap/NOTION_URL.txt",
+      "bytes": 66,
+      "origin": "accepted research package",
+      "source_package": "actual-random-cap-supplement-20261018",
+      "source_relative_path": "NOTION_URL.txt",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-random-cap/PROOF.md",
+      "bytes": 11575,
+      "origin": "accepted research package",
+      "source_package": "actual-random-cap-supplement-20261018",
+      "source_relative_path": "PROOF.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-random-cap/README.md",
+      "bytes": 2267,
+      "origin": "accepted research package",
+      "source_package": "actual-random-cap-supplement-20261018",
+      "source_relative_path": "README.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-random-cap/SUPPORTING_LEMMA.md",
+      "bytes": 4758,
+      "origin": "accepted research package",
+      "source_package": "actual-random-cap-supplement-20261018",
+      "source_relative_path": "SUPPORTING_LEMMA.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-random-cap/audit/REVIEW.md",
+      "bytes": 9524,
+      "origin": "accepted research package",
+      "source_package": "actual-random-cap-supplement-20261018",
+      "source_relative_path": "audit/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-random-cap/audit/verification.json",
+      "bytes": 3401,
+      "origin": "accepted research package",
+      "source_package": "actual-random-cap-supplement-20261018",
+      "source_relative_path": "audit/verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-random-cap/audit/verify.py",
+      "bytes": 4066,
+      "origin": "accepted research package",
+      "source_package": "actual-random-cap-supplement-20261018",
+      "source_relative_path": "audit/verify.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-random-cap/verification.json",
+      "bytes": 3779,
+      "origin": "accepted research package",
+      "source_package": "actual-random-cap-supplement-20261018",
+      "source_relative_path": "verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/actual-random-cap/verify_fixed_cases.py",
+      "bytes": 4667,
+      "origin": "accepted research package",
+      "source_package": "actual-random-cap-supplement-20261018",
+      "source_relative_path": "verify_fixed_cases.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/ARTIFACT_INDEX.md",
+      "bytes": 1128,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "ARTIFACT_INDEX.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/COVERAGE.md",
+      "bytes": 924,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "COVERAGE.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/README.md",
+      "bytes": 1007,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "README.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/RESUME_HERE.md",
+      "bytes": 831,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "RESUME_HERE.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/STATE_DELTA.md",
+      "bytes": 3458,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "STATE_DELTA.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/artifacts/audit-one-neighbor-shortening-20261018/REVIEW.md",
+      "bytes": 9893,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "artifacts/audit-one-neighbor-shortening-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/artifacts/audit-one-neighbor-shortening-20261018/verify.py",
+      "bytes": 4754,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "artifacts/audit-one-neighbor-shortening-20261018/verify.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/artifacts/audit-rank-jump-20261018/REVIEW.md",
+      "bytes": 10035,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "artifacts/audit-rank-jump-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/artifacts/audit-rank-jump-20261018/verification.json",
+      "bytes": 1727,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "artifacts/audit-rank-jump-20261018/verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/artifacts/audit-rank-jump-20261018/verify_finite.py",
+      "bytes": 6950,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "artifacts/audit-rank-jump-20261018/verify_finite.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/artifacts/descent-rank-jump-20261018/CHECKS.json",
+      "bytes": 843,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "artifacts/descent-rank-jump-20261018/CHECKS.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/artifacts/descent-rank-jump-20261018/RESULT.md",
+      "bytes": 15198,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "artifacts/descent-rank-jump-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/artifacts/descent-rank-jump-20261018/check_jump.py",
+      "bytes": 4086,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "artifacts/descent-rank-jump-20261018/check_jump.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/artifacts/one-neighbor-shortening-20261018/RESULT.md",
+      "bytes": 5523,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "artifacts/one-neighbor-shortening-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/artifacts/one-neighbor-shortening-20261018/verification.json",
+      "bytes": 2090,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "artifacts/one-neighbor-shortening-20261018/verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/artifacts/one-neighbor-shortening-20261018/verify.py",
+      "bytes": 4311,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "artifacts/one-neighbor-shortening-20261018/verify.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/conditional-descent/dependencies/INSERTION_WEIGHT_EXCERPT.md",
+      "bytes": 9709,
+      "origin": "accepted research package",
+      "source_package": "conditional-descent-delta-20261018",
+      "source_relative_path": "dependencies/INSERTION_WEIGHT_EXCERPT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/cross-slot-monotonicity/README_zh.md",
+      "bytes": 4357,
+      "origin": "accepted research package",
+      "source_package": "cross-slot-monotonicity-supplement-20261018",
+      "source_relative_path": "README_zh.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/cross-slot-monotonicity/dependencies/PRINCIPAL_ONE_SIDED_EXCERPT_zh.md",
+      "bytes": 2454,
+      "origin": "accepted research package",
+      "source_package": "cross-slot-monotonicity-supplement-20261018",
+      "source_relative_path": "dependencies/PRINCIPAL_ONE_SIDED_EXCERPT_zh.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/cross-slot-monotonicity/proof/RESULT.md",
+      "bytes": 13868,
+      "origin": "accepted research package",
+      "source_package": "cross-slot-monotonicity-supplement-20261018",
+      "source_relative_path": "proof/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/cross-slot-monotonicity/proof/check_fixed.py",
+      "bytes": 3547,
+      "origin": "accepted research package",
+      "source_package": "cross-slot-monotonicity-supplement-20261018",
+      "source_relative_path": "proof/check_fixed.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/cross-slot-monotonicity/proof/fixed_checks.json",
+      "bytes": 2668,
+      "origin": "accepted research package",
+      "source_package": "cross-slot-monotonicity-supplement-20261018",
+      "source_relative_path": "proof/fixed_checks.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/cross-slot-monotonicity/review/REVIEW.md",
+      "bytes": 12537,
+      "origin": "accepted research package",
+      "source_package": "cross-slot-monotonicity-supplement-20261018",
+      "source_relative_path": "review/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/cross-slot-monotonicity/review/check_audit.py",
+      "bytes": 2313,
+      "origin": "accepted research package",
+      "source_package": "cross-slot-monotonicity-supplement-20261018",
+      "source_relative_path": "review/check_audit.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/cross-slot-monotonicity/review/exact_checks.json",
+      "bytes": 1016,
+      "origin": "accepted research package",
+      "source_package": "cross-slot-monotonicity-supplement-20261018",
+      "source_relative_path": "review/exact_checks.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/external-length-certificates/audit-transform-intervals-20261018/REVIEW.md",
+      "bytes": 13546,
+      "origin": "accepted research package",
+      "source_package": "transform-preservation-length-certificates-20261018",
+      "source_relative_path": "audit-transform-intervals-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/external-length-certificates/audit-transform-intervals-20261018/check_fixed_boundaries.py",
+      "bytes": 4219,
+      "origin": "accepted research package",
+      "source_package": "transform-preservation-length-certificates-20261018",
+      "source_relative_path": "audit-transform-intervals-20261018/check_fixed_boundaries.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/external-length-certificates/audit-transform-intervals-20261018/fixed_boundary_checks.json",
+      "bytes": 353,
+      "origin": "accepted research package",
+      "source_package": "transform-preservation-length-certificates-20261018",
+      "source_relative_path": "audit-transform-intervals-20261018/fixed_boundary_checks.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/external-length-certificates/external-pair-length-intervals-20261018/RESULT.md",
+      "bytes": 21172,
+      "origin": "accepted research package",
+      "source_package": "transform-preservation-length-certificates-20261018",
+      "source_relative_path": "external-pair-length-intervals-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/external-length-certificates/external-pair-length-intervals-20261018/interval_solver.py",
+      "bytes": 9190,
+      "origin": "accepted research package",
+      "source_package": "transform-preservation-length-certificates-20261018",
+      "source_relative_path": "external-pair-length-intervals-20261018/interval_solver.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/external-length-certificates/external-pair-length-intervals-20261018/verify.py",
+      "bytes": 4046,
+      "origin": "accepted research package",
+      "source_package": "transform-preservation-length-certificates-20261018",
+      "source_relative_path": "external-pair-length-intervals-20261018/verify.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/external-length-certificates/serial-amplification-boundary-20261018/RESULT.md",
+      "bytes": 11101,
+      "origin": "accepted research package",
+      "source_package": "transform-preservation-length-certificates-20261018",
+      "source_relative_path": "serial-amplification-boundary-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/external-length-certificates/概览.md",
+      "bytes": 3674,
+      "origin": "accepted research package",
+      "source_package": "transform-preservation-length-certificates-20261018",
+      "source_relative_path": "概览.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/ARTIFACT_INDEX.md",
+      "bytes": 4831,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "ARTIFACT_INDEX.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/COVERAGE.md",
+      "bytes": 874,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "COVERAGE.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/NEXT_RESEARCH_DIRECTIONS.md",
+      "bytes": 814,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "NEXT_RESEARCH_DIRECTIONS.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/README.md",
+      "bytes": 1041,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "README.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/RESEARCH_LEDGER.md",
+      "bytes": 3518,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "RESEARCH_LEDGER.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/RESEARCH_STATE.md",
+      "bytes": 7493,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "RESEARCH_STATE.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/RESUME_HERE.md",
+      "bytes": 1226,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "RESUME_HERE.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/SOURCE_MAP.md",
+      "bytes": 1394,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "SOURCE_MAP.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/STATE_DELTA.md",
+      "bytes": 853,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "STATE_DELTA.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/SYNC_LOCATIONS.md",
+      "bytes": 1011,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "SYNC_LOCATIONS.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-context-bound-20261018/RESULT.md",
+      "bytes": 12115,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-context-bound-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-context-bound-20261018/exact_verify.py",
+      "bytes": 6119,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-context-bound-20261018/exact_verify.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-context-bound-20261018/verification.json",
+      "bytes": 4830,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-context-bound-20261018/verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-mechanism-pilot-20261018/N_after_all_pairs.csv",
+      "bytes": 926,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-mechanism-pilot-20261018/N_after_all_pairs.csv",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-mechanism-pilot-20261018/N_before_all_pairs.csv",
+      "bytes": 295,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-mechanism-pilot-20261018/N_before_all_pairs.csv",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-mechanism-pilot-20261018/RESULT.md",
+      "bytes": 11450,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-mechanism-pilot-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-mechanism-pilot-20261018/counterexample_all_pairs.csv",
+      "bytes": 316,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-mechanism-pilot-20261018/counterexample_all_pairs.csv",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-mechanism-pilot-20261018/exact_pilot.py",
+      "bytes": 6060,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-mechanism-pilot-20261018/exact_pilot.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-mechanism-pilot-20261018/exact_results.json",
+      "bytes": 253642,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-mechanism-pilot-20261018/exact_results.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-mechanism-pilot-20261018/run_summary.txt",
+      "bytes": 1293,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-mechanism-pilot-20261018/run_summary.txt",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-mechanism-pilot-20261018/verification.json",
+      "bytes": 1156,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-mechanism-pilot-20261018/verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/amplification-mechanism-pilot-20261018/verify_results.py",
+      "bytes": 2828,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/amplification-mechanism-pilot-20261018/verify_results.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-amplification-pilot-20261018/REVIEW.md",
+      "bytes": 7424,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-amplification-pilot-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-amplification-pilot-20261018/audit_counts.py",
+      "bytes": 6591,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-amplification-pilot-20261018/audit_counts.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-amplification-pilot-20261018/four_block_N_1_2_1_1_all_pairs.csv",
+      "bytes": 278,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-amplification-pilot-20261018/four_block_N_1_2_1_1_all_pairs.csv",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-amplification-pilot-20261018/four_block_N_2_6_1_1_all_pairs.csv",
+      "bytes": 1105,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-amplification-pilot-20261018/four_block_N_2_6_1_1_all_pairs.csv",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-amplification-pilot-20261018/independent_results.json",
+      "bytes": 20032,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-amplification-pilot-20261018/independent_results.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-amplification-pilot-20261018/two_independent_chains_1_2_all_pairs.csv",
+      "bytes": 154,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-amplification-pilot-20261018/two_independent_chains_1_2_all_pairs.csv",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-amplification-pilot-20261018/two_independent_chains_2_3_all_pairs.csv",
+      "bytes": 304,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-amplification-pilot-20261018/two_independent_chains_2_3_all_pairs.csv",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-amplification-pilot-20261018/two_independent_chains_2_6_all_pairs.csv",
+      "bytes": 673,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-amplification-pilot-20261018/two_independent_chains_2_6_all_pairs.csv",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-amplification-pilot-20261018/two_independent_chains_4_9_all_pairs.csv",
+      "bytes": 1980,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-amplification-pilot-20261018/two_independent_chains_4_9_all_pairs.csv",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-bounded-shortening-20261018/REVIEW.md",
+      "bytes": 8252,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-bounded-shortening-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-bounded-shortening-20261018/verify_independently.py",
+      "bytes": 5405,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-bounded-shortening-20261018/verify_independently.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-context-amplification-20261018/REVIEW.md",
+      "bytes": 8341,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-context-amplification-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-context-amplification-20261018/independent_label_check.py",
+      "bytes": 3913,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-context-amplification-20261018/independent_label_check.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-context-amplification-20261018/independent_label_results.json",
+      "bytes": 8453,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-context-amplification-20261018/independent_label_results.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-deletion-weight-20261018/REVIEW.md",
+      "bytes": 9194,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-deletion-weight-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-deletion-weight-20261018/autonomous_endpoint_results.json",
+      "bytes": 740,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-deletion-weight-20261018/autonomous_endpoint_results.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-deletion-weight-20261018/autonomous_endpoint_summary.txt",
+      "bytes": 517,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-deletion-weight-20261018/autonomous_endpoint_summary.txt",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-deletion-weight-20261018/independent_results.json",
+      "bytes": 14178,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-deletion-weight-20261018/independent_results.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-deletion-weight-20261018/run_summary.txt",
+      "bytes": 419,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-deletion-weight-20261018/run_summary.txt",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-deletion-weight-20261018/verify_autonomous_endpoints.py",
+      "bytes": 3941,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-deletion-weight-20261018/verify_autonomous_endpoints.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-deletion-weight-20261018/verify_independent.py",
+      "bytes": 6139,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-deletion-weight-20261018/verify_independent.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-descent-pilot-20261018/REVIEW.md",
+      "bytes": 11033,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-descent-pilot-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-descent-pilot-20261018/check_pell_cases.py",
+      "bytes": 1262,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-descent-pilot-20261018/check_pell_cases.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-descent-pilot-20261018/check_requested_cases.py",
+      "bytes": 849,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-descent-pilot-20261018/check_requested_cases.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-descent-pilot-20261018/independent_labeled_extensions.py",
+      "bytes": 2584,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-descent-pilot-20261018/independent_labeled_extensions.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-descent-pilot-20261018/labeled_counts.json",
+      "bytes": 11841,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-descent-pilot-20261018/labeled_counts.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-descent-pilot-20261018/pell_full_labeled_counts.json",
+      "bytes": 71266,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-descent-pilot-20261018/pell_full_labeled_counts.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-descent-pilot-20261018/requested_cases_full_labeled_counts.json",
+      "bytes": 121907,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-descent-pilot-20261018/requested_cases_full_labeled_counts.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-single-chain-obstruction-20261018/exact_results.json",
+      "bytes": 61444,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-single-chain-obstruction-20261018/exact_results.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-single-chain-obstruction-20261018/exact_summary.txt",
+      "bytes": 4132,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-single-chain-obstruction-20261018/exact_summary.txt",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-single-chain-obstruction-20261018/proof-audit.md",
+      "bytes": 8762,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-single-chain-obstruction-20261018/proof-audit.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/audit-single-chain-obstruction-20261018/verify.py",
+      "bytes": 10390,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/audit-single-chain-obstruction-20261018/verify.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/bounded-shortening-escape-20261018/RESULT.md",
+      "bytes": 8086,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/bounded-shortening-escape-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/bounded-shortening-escape-20261018/check_bounded_shortening.py",
+      "bytes": 6275,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/bounded-shortening-escape-20261018/check_bounded_shortening.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/bounded-shortening-escape-20261018/exact_certificates.json",
+      "bytes": 17649,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/bounded-shortening-escape-20261018/exact_certificates.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/descent-insertion-identity-20261018/CHECKS.json",
+      "bytes": 978,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/descent-insertion-identity-20261018/CHECKS.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/descent-insertion-identity-20261018/RESULT.md",
+      "bytes": 15587,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/descent-insertion-identity-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/descent-insertion-identity-20261018/check_identity.py",
+      "bytes": 3308,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/descent-insertion-identity-20261018/check_identity.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/descent-mechanism-pilot-20261018/RESULT.md",
+      "bytes": 13148,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/descent-mechanism-pilot-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/descent-mechanism-pilot-20261018/exact_pair_certificates.json",
+      "bytes": 263835,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/descent-mechanism-pilot-20261018/exact_pair_certificates.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/descent-mechanism-pilot-20261018/exact_shortening.py",
+      "bytes": 5570,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/descent-mechanism-pilot-20261018/exact_shortening.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/descent-mechanism-pilot-20261018/local_minima_A2_lengths_2_to_30.csv",
+      "bytes": 4438,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/descent-mechanism-pilot-20261018/local_minima_A2_lengths_2_to_30.csv",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/descent-mechanism-pilot-20261018/local_minima_A2_lengths_2_to_30.json",
+      "bytes": 124297,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/descent-mechanism-pilot-20261018/local_minima_A2_lengths_2_to_30.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/descent-mechanism-pilot-20261018/pell_family_certificates.json",
+      "bytes": 1811,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/descent-mechanism-pilot-20261018/pell_family_certificates.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/artifacts/descent-mechanism-pilot-20261018/verification_summary.json",
+      "bytes": 432,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "artifacts/descent-mechanism-pilot-20261018/verification_summary.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/object_registry.json",
+      "bytes": 12146,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "object_registry.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/mechanism-baseline/portable_amplification_audit.py",
+      "bytes": 412,
+      "origin": "accepted research package",
+      "source_package": "research-session-transform-mechanisms-20261018",
+      "source_relative_path": "portable_amplification_audit.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/README.zh-CN.md",
+      "bytes": 5853,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "README.zh-CN.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/audit-principal-slot-20261018/REVIEW.md",
+      "bytes": 11446,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-principal-slot-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/audit-principal-slot-20261018/verification.json",
+      "bytes": 2927,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-principal-slot-20261018/verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/audit-principal-slot-20261018/verify.py",
+      "bytes": 3301,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-principal-slot-20261018/verify.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/clone-subset-slot-route-20261018/RESULT.md",
+      "bytes": 14797,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "clone-subset-slot-route-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/clone-subset-slot-route-20261018/verify_translations.py",
+      "bytes": 4154,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "clone-subset-slot-route-20261018/verify_translations.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/PLAN.md",
+      "bytes": 3746,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/PLAN.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/RESULT.md",
+      "bytes": 11674,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/boundary_joint_distributions.json",
+      "bytes": 1105,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/boundary_joint_distributions.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/input.txt",
+      "bytes": 25867,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/input.txt",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/large_verification.json",
+      "bytes": 2794,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/large_verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/objects.json",
+      "bytes": 208002,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/objects.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/run_stress.py",
+      "bytes": 8445,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/run_stress.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/stress.cpp",
+      "bytes": 7399,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/stress.cpp",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/summarize.py",
+      "bytes": 4572,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/summarize.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/summary.json",
+      "bytes": 64057,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/summary.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/verification.json",
+      "bytes": 769,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/verification_input.txt",
+      "bytes": 435,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/verification_input.txt",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/large-slot-moment-stress-20261018/verify_large.py",
+      "bytes": 3311,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "large-slot-moment-stress-20261018/verify_large.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/principal-filter-slot-bound-20261018/RESULT.md",
+      "bytes": 11672,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "principal-filter-slot-bound-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/principal-filter-slot-bound-20261018/actual_checks.json",
+      "bytes": 3399,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "principal-filter-slot-bound-20261018/actual_checks.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/principal-filter-slot-bound-20261018/check_actual.py",
+      "bytes": 4838,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "principal-filter-slot-bound-20261018/check_actual.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/slot-filter-scope-20261018/RESULT.md",
+      "bytes": 10885,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "slot-filter-scope-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/slot-filter-scope-20261018/postprocess.py",
+      "bytes": 9055,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "slot-filter-scope-20261018/postprocess.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/principal-slot/slot-filter-scope-20261018/summary.json",
+      "bytes": 108109,
+      "origin": "accepted research package",
+      "source_package": "principal-slot-mechanism-increment-20261018",
+      "source_relative_path": "slot-filter-scope-20261018/summary.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/README.zh-CN.md",
+      "bytes": 4352,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "README.zh-CN.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/actual-external-pair-shapes-20261018/PLAN.md",
+      "bytes": 1517,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "actual-external-pair-shapes-20261018/PLAN.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/actual-external-pair-shapes-20261018/RESULT.md",
+      "bytes": 7453,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "actual-external-pair-shapes-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/actual-external-pair-shapes-20261018/control_witness.py",
+      "bytes": 2498,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "actual-external-pair-shapes-20261018/control_witness.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/actual-external-pair-shapes-20261018/direct_LE_controls.json",
+      "bytes": 9451,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "actual-external-pair-shapes-20261018/direct_LE_controls.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/actual-external-pair-shapes-20261018/frozen_cases.json",
+      "bytes": 99823,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "actual-external-pair-shapes-20261018/frozen_cases.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/actual-external-pair-shapes-20261018/run_experiment.py",
+      "bytes": 6865,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "actual-external-pair-shapes-20261018/run_experiment.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/actual-external-pair-shapes-20261018/summary.json",
+      "bytes": 4225,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "actual-external-pair-shapes-20261018/summary.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/audit-second-transform-wave-20261018/REVIEW.md",
+      "bytes": 16806,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "audit-second-transform-wave-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/audit-second-transform-wave-20261018/check_key_actual_case.py",
+      "bytes": 1954,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "audit-second-transform-wave-20261018/check_key_actual_case.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/audit-second-transform-wave-20261018/key_actual_case_verified.json",
+      "bytes": 2658,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "audit-second-transform-wave-20261018/key_actual_case_verified.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/external-pair-length-intervals-20261018/interval_solver.py",
+      "bytes": 9190,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "external-pair-length-intervals-20261018/interval_solver.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/external-pair-shape-20261018/RESULT.md",
+      "bytes": 13671,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "external-pair-shape-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/self-substitution-fibers-20261018/RESULT.md",
+      "bytes": 12194,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "self-substitution-fibers-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/self-substitution-tests-20261018/RESULT.md",
+      "bytes": 9407,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "self-substitution-tests-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/self-substitution-tests-20261018/counts.json",
+      "bytes": 64759,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "self-substitution-tests-20261018/counts.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/self-substitution-tests-20261018/direct_ideal_verification.json",
+      "bytes": 725,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "self-substitution-tests-20261018/direct_ideal_verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/self-substitution-tests-20261018/test_self_substitution.py",
+      "bytes": 4950,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "self-substitution-tests-20261018/test_self_substitution.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/self-substitution-tests-20261018/verify_direct_ideal_dp.py",
+      "bytes": 1923,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "self-substitution-tests-20261018/verify_direct_ideal_dp.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/self-substitution-and-length-shapes/window-polynomial-variation-20261018/RESULT.md",
+      "bytes": 17205,
+      "origin": "accepted research package",
+      "source_package": "second-transform-wave-increment-20261018",
+      "source_relative_path": "window-polynomial-variation-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/OVERVIEW.md",
+      "bytes": 4443,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "OVERVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/README.md",
+      "bytes": 1413,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "README.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/audit-nbu-prefix-20261018/REVIEW.md",
+      "bytes": 11900,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-nbu-prefix-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/audit-nbu-prefix-20261018/check_exact.py",
+      "bytes": 3712,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-nbu-prefix-20261018/check_exact.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/audit-nbu-prefix-20261018/check_final_addenda.py",
+      "bytes": 1550,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-nbu-prefix-20261018/check_final_addenda.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/audit-nbu-prefix-20261018/exact_controls.json",
+      "bytes": 5445,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-nbu-prefix-20261018/exact_controls.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/audit-nbu-prefix-20261018/final_addenda_checks.json",
+      "bytes": 464,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-nbu-prefix-20261018/final_addenda_checks.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/audit-slot-shortening-extensions-20261018/CHECKS.txt",
+      "bytes": 2084,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-slot-shortening-extensions-20261018/CHECKS.txt",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/audit-slot-shortening-extensions-20261018/REVIEW.md",
+      "bytes": 11208,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-slot-shortening-extensions-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/audit-slot-shortening-extensions-20261018/verification.json",
+      "bytes": 2340,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-slot-shortening-extensions-20261018/verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/audit-slot-shortening-extensions-20261018/verify_algebra.py",
+      "bytes": 906,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-slot-shortening-extensions-20261018/verify_algebra.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/audit-slot-shortening-extensions-20261018/verify_small.py",
+      "bytes": 3145,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "audit-slot-shortening-extensions-20261018/verify_small.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/nested-chain-slot-formula-20261018/RESULT.md",
+      "bytes": 10781,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "nested-chain-slot-formula-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/nested-prefix-slot-bound-20261018/RESULT.md",
+      "bytes": 10120,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "nested-prefix-slot-bound-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/nested-prefix-slot-bound-20261018/existing_case.json",
+      "bytes": 548,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "nested-prefix-slot-bound-20261018/existing_case.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/nested-prefix-slot-bound-20261018/random_cap_control.json",
+      "bytes": 388,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "nested-prefix-slot-bound-20261018/random_cap_control.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/nested-prefix-slot-bound-20261018/verify_existing_case.py",
+      "bytes": 2669,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "nested-prefix-slot-bound-20261018/verify_existing_case.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/nonprincipal-slot-mixture-20261018/RESULT.md",
+      "bytes": 13507,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "nonprincipal-slot-mixture-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/nonprincipal-slot-mixture-20261018/check_mixture.py",
+      "bytes": 4804,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "nonprincipal-slot-mixture-20261018/check_mixture.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/nonprincipal-slot-mixture-20261018/verification-summary.json",
+      "bytes": 4440,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "nonprincipal-slot-mixture-20261018/verification-summary.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/principal-filter-shortening-20261018/CHECKS.txt",
+      "bytes": 86,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "principal-filter-shortening-20261018/CHECKS.txt",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/principal-filter-shortening-20261018/RESULT.md",
+      "bytes": 15535,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "principal-filter-shortening-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/principal-filter-shortening-20261018/verify.py",
+      "bytes": 1471,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "principal-filter-shortening-20261018/verify.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/slot-coverage-union-20261018/RESULT.md",
+      "bytes": 10721,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "slot-coverage-union-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/slot-coverage-union-20261018/postprocess.py",
+      "bytes": 14399,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "slot-coverage-union-20261018/postprocess.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/slot-coverage-union-20261018/summary_compact.json",
+      "bytes": 97599,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "slot-coverage-union-20261018/summary_compact.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/slot-structures/slot-coverage-union-20261018/write_result.py",
+      "bytes": 11056,
+      "origin": "accepted research package",
+      "source_package": "slot-mechanism-increment-20261018",
+      "source_relative_path": "slot-coverage-union-20261018/write_result.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/README.md",
+      "bytes": 4443,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "README.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/STATUS.json",
+      "bytes": 2041,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "STATUS.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/audit-incomparable-menu-20261018/REVIEW.md",
+      "bytes": 14071,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "audit-incomparable-menu-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/audit-incomparable-menu-20261018/audit-results.json",
+      "bytes": 34776,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "audit-incomparable-menu-20261018/audit-results.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/audit-incomparable-menu-20261018/audit.py",
+      "bytes": 6120,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "audit-incomparable-menu-20261018/audit.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/audit-incomparable-menu-20261018/audit_family.py",
+      "bytes": 1451,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "audit-incomparable-menu-20261018/audit_family.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/audit-incomparable-menu-20261018/family-core-records.json",
+      "bytes": 2970,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "audit-incomparable-menu-20261018/family-core-records.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/audit-local-witness-shortening-20261018/REVIEW.md",
+      "bytes": 10104,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "audit-local-witness-shortening-20261018/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/audit-local-witness-shortening-20261018/audit.json",
+      "bytes": 9828,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "audit-local-witness-shortening-20261018/audit.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/audit-local-witness-shortening-20261018/audit.py",
+      "bytes": 4293,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "audit-local-witness-shortening-20261018/audit.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/incomparable-menu-counts-20261018/RESULT.md",
+      "bytes": 8487,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "incomparable-menu-counts-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/incomparable-menu-shortening-20261018/RESULT.md",
+      "bytes": 9836,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "incomparable-menu-shortening-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/local-witness-shortening-20261018/RESULT.md",
+      "bytes": 7223,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "local-witness-shortening-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/local-witness-shortening-20261018/counterexample.json",
+      "bytes": 311,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "local-witness-shortening-20261018/counterexample.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/weighted-window-relaxation-20261018/RESULT.md",
+      "bytes": 10113,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "weighted-window-relaxation-20261018/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/weighted-window-relaxation-20261018/accepted-results.json",
+      "bytes": 1552,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "weighted-window-relaxation-20261018/accepted-results.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-18/witness-transfer-obstructions/weighted-window-relaxation-20261018/verify.py",
+      "bytes": 3906,
+      "origin": "accepted research package",
+      "source_package": "witness-transfer-obstructions-supplement-20261018",
+      "source_relative_path": "weighted-window-relaxation-20261018/verify.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/README.md",
+      "bytes": 2931,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "README.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/actual-excursion-targets-20261019/PLAN.md",
+      "bytes": 3982,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "actual-excursion-targets-20261019/PLAN.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/actual-excursion-targets-20261019/RESULT.md",
+      "bytes": 7930,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "actual-excursion-targets-20261019/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/actual-excursion-targets-20261019/controls.json",
+      "bytes": 2234,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "actual-excursion-targets-20261019/controls.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/actual-excursion-targets-20261019/diagnostics.json",
+      "bytes": 5896,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "actual-excursion-targets-20261019/diagnostics.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/actual-excursion-targets-20261019/frozen_cases.json",
+      "bytes": 92666,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "actual-excursion-targets-20261019/frozen_cases.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/actual-excursion-targets-20261019/interval_solver.py",
+      "bytes": 9190,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "actual-excursion-targets-20261019/interval_solver.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/actual-excursion-targets-20261019/run_test.py",
+      "bytes": 9315,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "actual-excursion-targets-20261019/run_test.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/actual-excursion-targets-20261019/summary.json",
+      "bytes": 32004,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "actual-excursion-targets-20261019/summary.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/actual-excursion-targets-20261019/verify_controls.py",
+      "bytes": 3303,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "actual-excursion-targets-20261019/verify_controls.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/amplification-rank-obstruction-20261019/RESULT.md",
+      "bytes": 11929,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "amplification-rank-obstruction-20261019/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-amplification-mechanisms-20261019/REVIEW.md",
+      "bytes": 12911,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-amplification-mechanisms-20261019/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-descent-cover-20261019/REVIEW.md",
+      "bytes": 12619,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-descent-cover-20261019/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-descent-cover-20261019/actual_controls.json",
+      "bytes": 1221,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-descent-cover-20261019/actual_controls.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-descent-cover-20261019/check_actual_controls.py",
+      "bytes": 5103,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-descent-cover-20261019/check_actual_controls.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-descent-cover-20261019/check_direction_identities.py",
+      "bytes": 1201,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-descent-cover-20261019/check_direction_identities.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-descent-cover-20261019/check_minimal_controls.py",
+      "bytes": 4423,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-descent-cover-20261019/check_minimal_controls.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-descent-cover-20261019/check_simplified_weight_control.py",
+      "bytes": 1462,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-descent-cover-20261019/check_simplified_weight_control.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-descent-cover-20261019/check_structural_controls.py",
+      "bytes": 2161,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-descent-cover-20261019/check_structural_controls.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-descent-cover-20261019/direction_identities.json",
+      "bytes": 300,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-descent-cover-20261019/direction_identities.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-descent-cover-20261019/minimal_controls.json",
+      "bytes": 2650,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-descent-cover-20261019/minimal_controls.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-descent-cover-20261019/simplified_weight_control.json",
+      "bytes": 1280,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-descent-cover-20261019/simplified_weight_control.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/audit-descent-cover-20261019/structural_controls.json",
+      "bytes": 216,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "audit-descent-cover-20261019/structural_controls.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/descent-interval-cover-20261019/RESULT.md",
+      "bytes": 20026,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "descent-interval-cover-20261019/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/descent-interval-cover-20261019/check_mechanisms.py",
+      "bytes": 2467,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "descent-interval-cover-20261019/check_mechanisms.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/descent-interval-cover-20261019/mechanism_checks.json",
+      "bytes": 3589,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "descent-interval-cover-20261019/mechanism_checks.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/amplification-and-descent/substitution-asymptotic-kernel-20261019/RESULT.md",
+      "bytes": 16333,
+      "origin": "accepted research package",
+      "source_package": "transform-mechanism-delta-20261019",
+      "source_relative_path": "substitution-asymptotic-kernel-20261019/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/README.md",
+      "bytes": 3795,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "README.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/audit-new-transform-routes-20261019/CONTROL.json",
+      "bytes": 800,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "audit-new-transform-routes-20261019/CONTROL.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/audit-new-transform-routes-20261019/REVIEW.md",
+      "bytes": 17328,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "audit-new-transform-routes-20261019/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/audit-new-transform-routes-20261019/control.py",
+      "bytes": 2053,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "audit-new-transform-routes-20261019/control.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/audit-weighted-interpolation-20261019/REVIEW.md",
+      "bytes": 11396,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "audit-weighted-interpolation-20261019/REVIEW.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/module-replacement-transport-20261019/RESULT.md",
+      "bytes": 16243,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "module-replacement-transport-20261019/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/module-replacement-transport-20261019/check_controls.py",
+      "bytes": 6413,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "module-replacement-transport-20261019/check_controls.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/module-replacement-transport-20261019/controls.json",
+      "bytes": 2315,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "module-replacement-transport-20261019/controls.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/partial-duality-transport-20261019/RESULT.md",
+      "bytes": 14325,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "partial-duality-transport-20261019/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/partial-duality-transport-20261019/verification.txt",
+      "bytes": 1241,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "partial-duality-transport-20261019/verification.txt",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/partial-duality-transport-20261019/verify.py",
+      "bytes": 1416,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "partial-duality-transport-20261019/verify.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/relation-edit-transport-20261019/CHECKS.txt",
+      "bytes": 1698,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "relation-edit-transport-20261019/CHECKS.txt",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/relation-edit-transport-20261019/PLAN.md",
+      "bytes": 1200,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "relation-edit-transport-20261019/PLAN.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/relation-edit-transport-20261019/RESULT.md",
+      "bytes": 16959,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "relation-edit-transport-20261019/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/relation-edit-transport-20261019/verification.json",
+      "bytes": 16323,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "relation-edit-transport-20261019/verification.json",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/relation-edit-transport-20261019/verify_fixed_cases.py",
+      "bytes": 4096,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "relation-edit-transport-20261019/verify_fixed_cases.py",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/weighted-chain-interpolation-20261019/AUDIT.md",
+      "bytes": 1378,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "weighted-chain-interpolation-20261019/AUDIT.md",
+      "transformation": "byte-for-byte copy"
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/weighted-chain-interpolation-20261019/RESULT.md",
+      "bytes": 17217,
+      "origin": "accepted research package",
+      "source_package": "research-session-general-transform-transport-20261019",
+      "source_relative_path": "weighted-chain-interpolation-20261019/RESULT.md",
+      "transformation": "byte-for-byte copy"
+    }
+  ],
+  "deliberately_omitted": [
+    {
+      "package": "increments/2026-10-18/actual-interval-connectivity",
+      "source_relative_path": "FILES.json",
+      "bytes": 4127,
+      "reason": "original package inventory; replaced by this sync inventory"
+    },
+    {
+      "package": "increments/2026-10-18/actual-interval-connectivity",
+      "source_relative_path": "audit-interval-connectivity-20261018/checks.log",
+      "bytes": 4368,
+      "reason": "redundant execution log"
+    },
+    {
+      "package": "increments/2026-10-18/actual-interval-connectivity",
+      "source_relative_path": "audit-interval-connectivity-20261018/cross_checks.log",
+      "bytes": 715,
+      "reason": "redundant execution log"
+    },
+    {
+      "package": "increments/2026-10-18/actual-interval-connectivity",
+      "source_relative_path": "cross-pair-valley-test-20261018/all_counts.json",
+      "bytes": 454982,
+      "reason": "full finite diagnostic coefficient table; summary and selected controls retained"
+    },
+    {
+      "package": "increments/2026-10-18/actual-interval-connectivity",
+      "source_relative_path": "cross-pair-valley-test-20261018/run.log",
+      "bytes": 507,
+      "reason": "redundant execution log"
+    },
+    {
+      "package": "increments/2026-10-18/actual-interval-connectivity",
+      "source_relative_path": "disconnected-balance-interval-test-20261018/all_counts.json",
+      "bytes": 1444022,
+      "reason": "full finite diagnostic coefficient table; summary and selected controls retained"
+    },
+    {
+      "package": "increments/2026-10-18/actual-interval-connectivity",
+      "source_relative_path": "disconnected-balance-interval-test-20261018/controls.log",
+      "bytes": 2507,
+      "reason": "redundant execution log"
+    },
+    {
+      "package": "increments/2026-10-18/actual-interval-connectivity",
+      "source_relative_path": "disconnected-balance-interval-test-20261018/run.log",
+      "bytes": 597,
+      "reason": "redundant execution log"
+    },
+    {
+      "package": "increments/2026-10-18/conditional-descent",
+      "source_relative_path": "manifest.json",
+      "bytes": 2547,
+      "reason": "original package inventory; replaced by this sync inventory"
+    },
+    {
+      "package": "increments/2026-10-18/external-length-certificates",
+      "source_relative_path": "文件清单.md",
+      "bytes": 1243,
+      "reason": "original package inventory; replaced by this sync inventory"
+    },
+    {
+      "package": "increments/2026-10-18/mechanism-baseline",
+      "source_relative_path": "manifest.json",
+      "bytes": 22415,
+      "reason": "original package inventory; replaced by this sync inventory"
+    },
+    {
+      "package": "increments/2026-10-18/principal-slot",
+      "source_relative_path": "MANIFEST.json",
+      "bytes": 3201,
+      "reason": "original package inventory; replaced by this sync inventory"
+    },
+    {
+      "package": "increments/2026-10-18/principal-slot",
+      "source_relative_path": "large-slot-moment-stress-20261018/raw_results.jsonl",
+      "bytes": 2376154,
+      "reason": "large scan/per-pair table; proof, fixed controls and compact summaries retained"
+    },
+    {
+      "package": "increments/2026-10-18/principal-slot",
+      "source_relative_path": "large-slot-moment-stress-20261018/run.log",
+      "bytes": 2695,
+      "reason": "redundant execution log"
+    },
+    {
+      "package": "increments/2026-10-18/principal-slot",
+      "source_relative_path": "large-slot-moment-stress-20261018/summary_console.txt",
+      "bytes": 2178,
+      "reason": "redundant execution log"
+    },
+    {
+      "package": "increments/2026-10-18/principal-slot",
+      "source_relative_path": "large-slot-moment-stress-20261018/verification_cpp.jsonl",
+      "bytes": 86168,
+      "reason": "large scan/per-pair table; proof, fixed controls and compact summaries retained"
+    },
+    {
+      "package": "increments/2026-10-18/principal-slot",
+      "source_relative_path": "slot-filter-scope-20261018/pair_labels.json",
+      "bytes": 304981,
+      "reason": "large scan/per-pair table; proof, fixed controls and compact summaries retained"
+    },
+    {
+      "package": "increments/2026-10-18/principal-slot",
+      "source_relative_path": "slot-filter-scope-20261018/postprocess_console.txt",
+      "bytes": 4638,
+      "reason": "redundant execution log"
+    },
+    {
+      "package": "increments/2026-10-18/self-substitution-and-length-shapes",
+      "source_relative_path": "MANIFEST.json",
+      "bytes": 4174,
+      "reason": "original package inventory; replaced by this sync inventory"
+    },
+    {
+      "package": "increments/2026-10-18/self-substitution-and-length-shapes",
+      "source_relative_path": "actual-external-pair-shapes-20261018/all_counts.json",
+      "bytes": 1703512,
+      "reason": "full finite diagnostic coefficient table; summary and selected controls retained"
+    },
+    {
+      "package": "increments/2026-10-18/slot-structures",
+      "source_relative_path": "MANIFEST.json",
+      "bytes": 4985,
+      "reason": "original package inventory; replaced by this sync inventory"
+    },
+    {
+      "package": "increments/2026-10-18/witness-transfer-obstructions",
+      "source_relative_path": "MANIFEST.json",
+      "bytes": 1738,
+      "reason": "original package inventory; replaced by this sync inventory"
+    },
+    {
+      "package": "increments/2026-10-19/amplification-and-descent",
+      "source_relative_path": "actual-excursion-targets-20261019/all_counts.json",
+      "bytes": 707422,
+      "reason": "full finite diagnostic coefficient table; summary and selected controls retained"
+    },
+    {
+      "package": "increments/2026-10-19/amplification-and-descent",
+      "source_relative_path": "actual-excursion-targets-20261019/controls.log",
+      "bytes": 181,
+      "reason": "redundant execution log"
+    },
+    {
+      "package": "increments/2026-10-19/amplification-and-descent",
+      "source_relative_path": "actual-excursion-targets-20261019/run.log",
+      "bytes": 1946,
+      "reason": "redundant execution log"
+    },
+    {
+      "package": "increments/2026-10-19/amplification-and-descent",
+      "source_relative_path": "audit-descent-cover-20261019/minimal_controls.log",
+      "bytes": 2650,
+      "reason": "redundant execution log"
+    }
+  ],
+  "mathematical_experiments_rerun_for_sync": false,
+  "original_35_55_ledger_changed": false
+}

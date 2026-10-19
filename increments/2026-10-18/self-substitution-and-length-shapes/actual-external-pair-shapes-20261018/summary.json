@@ -1,0 +1,280 @@
+{
+  "budget_R": 120,
+  "distinct_typed_R": 117,
+  "pairs": 2255,
+  "incomparable_pairs": 802,
+  "continuous_nonmonotone_pairs": 2,
+  "integer_nonmonotone_pairs": 2,
+  "two_balanced_integer_piece_pairs": 0,
+  "continuous_witnesses": [
+    {
+      "case_index": 66,
+      "label": "seed20261018-d4-u1-r1",
+      "n": 7,
+      "total": [
+        8,
+        11,
+        4
+      ],
+      "pair": [
+        "d1",
+        "d2"
+      ],
+      "indices": [
+        1,
+        2
+      ],
+      "event": [
+        3,
+        6,
+        2
+      ],
+      "incomparable": true,
+      "derivative": [
+        -4,
+        8,
+        80
+      ],
+      "simple_derivative_roots_above_1": [
+        {
+          "expression": "(8+sqrt(1344))/8",
+          "floor": 5,
+          "ceil": 6
+        }
+      ],
+      "discrete_difference": [
+        -4,
+        4,
+        84
+      ],
+      "difference_positive": [
+        [
+          1,
+          5
+        ]
+      ],
+      "difference_negative": [
+        [
+          6,
+          null
+        ]
+      ],
+      "low": [
+        -2,
+        -20,
+        -20
+      ],
+      "high": [
+        -2,
+        -14,
+        -26
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ]
+    },
+    {
+      "case_index": 66,
+      "label": "seed20261018-d4-u1-r1",
+      "n": 7,
+      "total": [
+        8,
+        11,
+        4
+      ],
+      "pair": [
+        "d2",
+        "d3"
+      ],
+      "indices": [
+        2,
+        3
+      ],
+      "event": [
+        8,
+        8,
+        3
+      ],
+      "incomparable": true,
+      "derivative": [
+        2,
+        -28,
+        -142
+      ],
+      "simple_derivative_roots_above_1": [
+        {
+          "expression": "(28+sqrt(1920))/4",
+          "floor": 17,
+          "ceil": 18
+        }
+      ],
+      "discrete_difference": [
+        2,
+        -26,
+        -156
+      ],
+      "difference_positive": [
+        [
+          18,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          17
+        ]
+      ],
+      "low": [
+        -5,
+        -41,
+        -68
+      ],
+      "high": [
+        1,
+        7,
+        22
+      ],
+      "balanced": []
+    }
+  ],
+  "integer_witnesses": [
+    {
+      "case_index": 66,
+      "label": "seed20261018-d4-u1-r1",
+      "n": 7,
+      "total": [
+        8,
+        11,
+        4
+      ],
+      "pair": [
+        "d1",
+        "d2"
+      ],
+      "indices": [
+        1,
+        2
+      ],
+      "event": [
+        3,
+        6,
+        2
+      ],
+      "incomparable": true,
+      "derivative": [
+        -4,
+        8,
+        80
+      ],
+      "simple_derivative_roots_above_1": [
+        {
+          "expression": "(8+sqrt(1344))/8",
+          "floor": 5,
+          "ceil": 6
+        }
+      ],
+      "discrete_difference": [
+        -4,
+        4,
+        84
+      ],
+      "difference_positive": [
+        [
+          1,
+          5
+        ]
+      ],
+      "difference_negative": [
+        [
+          6,
+          null
+        ]
+      ],
+      "low": [
+        -2,
+        -20,
+        -20
+      ],
+      "high": [
+        -2,
+        -14,
+        -26
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ]
+    },
+    {
+      "case_index": 66,
+      "label": "seed20261018-d4-u1-r1",
+      "n": 7,
+      "total": [
+        8,
+        11,
+        4
+      ],
+      "pair": [
+        "d2",
+        "d3"
+      ],
+      "indices": [
+        2,
+        3
+      ],
+      "event": [
+        8,
+        8,
+        3
+      ],
+      "incomparable": true,
+      "derivative": [
+        2,
+        -28,
+        -142
+      ],
+      "simple_derivative_roots_above_1": [
+        {
+          "expression": "(28+sqrt(1920))/4",
+          "floor": 17,
+          "ceil": 18
+        }
+      ],
+      "discrete_difference": [
+        2,
+        -26,
+        -156
+      ],
+      "difference_positive": [
+        [
+          18,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          17
+        ]
+      ],
+      "low": [
+        -5,
+        -41,
+        -68
+      ],
+      "high": [
+        1,
+        7,
+        22
+      ],
+      "balanced": []
+    }
+  ],
+  "two_piece_witnesses": []
+}

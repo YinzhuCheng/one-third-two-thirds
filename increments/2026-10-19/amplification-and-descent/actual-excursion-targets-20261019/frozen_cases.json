@@ -1,0 +1,6770 @@
+[
+  {
+    "case_index": 1,
+    "label": "scale1-bridge1-Iantichain",
+    "scale": 1,
+    "bridge_type": 1,
+    "I_chain": false,
+    "D_sizes": [
+      3,
+      7,
+      23
+    ],
+    "U_reverse_sizes": [
+      2,
+      5,
+      17
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          12
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          12
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          9
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        6
+      ],
+      [
+        1,
+        7,
+        18
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        5,
+        13
+      ],
+      [
+        2,
+        1,
+        5
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          6
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          1,
+          7,
+          18
+        ],
+        "maximal_generators": [
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            18
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          1,
+          5,
+          13
+        ],
+        "maximal_generators": [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            13
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          5
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 59,
+    "side_DP_state_cap": 4368,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          12
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          7
+        ],
+        "target": [
+          2,
+          18
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          5
+        ],
+        "target": [
+          2,
+          13
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 2,
+    "label": "scale1-bridge1-Ichain",
+    "scale": 1,
+    "bridge_type": 1,
+    "I_chain": true,
+    "D_sizes": [
+      3,
+      7,
+      23
+    ],
+    "U_reverse_sizes": [
+      2,
+      5,
+      17
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          12
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          12
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          9
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          9
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        6
+      ],
+      [
+        1,
+        7,
+        18
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        5,
+        13
+      ],
+      [
+        2,
+        1,
+        5
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          6
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          7,
+          18
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            18
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          2,
+          5,
+          13
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            13
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          5
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 59,
+    "side_DP_state_cap": 4368,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          12
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          7
+        ],
+        "target": [
+          2,
+          18
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          5
+        ],
+        "target": [
+          2,
+          13
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  },
+  {
+    "case_index": 3,
+    "label": "scale1-bridge2-Iantichain",
+    "scale": 1,
+    "bridge_type": 2,
+    "I_chain": false,
+    "D_sizes": [
+      3,
+      7,
+      23
+    ],
+    "U_reverse_sizes": [
+      2,
+      5,
+      17
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          12
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          9
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        6
+      ],
+      [
+        1,
+        7,
+        18
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        5,
+        13
+      ],
+      [
+        2,
+        1,
+        5
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          6
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          1,
+          7,
+          18
+        ],
+        "maximal_generators": [
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            18
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          1,
+          5,
+          13
+        ],
+        "maximal_generators": [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            13
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          5
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 59,
+    "side_DP_state_cap": 4368,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          12
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          7
+        ],
+        "target": [
+          2,
+          18
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          5
+        ],
+        "target": [
+          2,
+          13
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 4,
+    "label": "scale1-bridge2-Ichain",
+    "scale": 1,
+    "bridge_type": 2,
+    "I_chain": true,
+    "D_sizes": [
+      3,
+      7,
+      23
+    ],
+    "U_reverse_sizes": [
+      2,
+      5,
+      17
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          4
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          12
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          9
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        6
+      ],
+      [
+        1,
+        7,
+        18
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        5,
+        13
+      ],
+      [
+        2,
+        1,
+        5
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          6
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          7,
+          18
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            18
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          2,
+          5,
+          13
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            13
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          5
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 59,
+    "side_DP_state_cap": 4368,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          12
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          7
+        ],
+        "target": [
+          2,
+          18
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          5
+        ],
+        "target": [
+          2,
+          13
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  },
+  {
+    "case_index": 5,
+    "label": "scale1-bridge3-Iantichain",
+    "scale": 1,
+    "bridge_type": 3,
+    "I_chain": false,
+    "D_sizes": [
+      3,
+      7,
+      23
+    ],
+    "U_reverse_sizes": [
+      2,
+      5,
+      17
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          16
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          12
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        6
+      ],
+      [
+        1,
+        7,
+        18
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        5,
+        13
+      ],
+      [
+        2,
+        1,
+        5
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          6
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          7,
+          18
+        ],
+        "maximal_generators": [
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            18
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          1,
+          5,
+          13
+        ],
+        "maximal_generators": [
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            13
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          5
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 59,
+    "side_DP_state_cap": 4368,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          12
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          7
+        ],
+        "target": [
+          2,
+          18
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          5
+        ],
+        "target": [
+          2,
+          13
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 6,
+    "label": "scale1-bridge3-Ichain",
+    "scale": 1,
+    "bridge_type": 3,
+    "I_chain": true,
+    "D_sizes": [
+      3,
+      7,
+      23
+    ],
+    "U_reverse_sizes": [
+      2,
+      5,
+      17
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      [
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          16
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      [
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          12
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        6
+      ],
+      [
+        1,
+        7,
+        18
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        5,
+        13
+      ],
+      [
+        2,
+        1,
+        5
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          6
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            6
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          7,
+          18
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            18
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          2,
+          5,
+          13
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            13
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          5
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            5
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 59,
+    "side_DP_state_cap": 4368,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          7
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          12
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          7
+        ],
+        "target": [
+          2,
+          18
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          5
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          9
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          5
+        ],
+        "target": [
+          2,
+          13
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          23
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          17
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  },
+  {
+    "case_index": 7,
+    "label": "scale2-bridge1-Iantichain",
+    "scale": 2,
+    "bridge_type": 1,
+    "I_chain": false,
+    "D_sizes": [
+      3,
+      11,
+      61
+    ],
+    "U_reverse_sizes": [
+      2,
+      3,
+      5
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        16
+      ],
+      [
+        1,
+        11,
+        46
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        2,
+        1,
+        2
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          1,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          1,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 8,
+    "label": "scale2-bridge1-Ichain",
+    "scale": 2,
+    "bridge_type": 1,
+    "I_chain": true,
+    "D_sizes": [
+      3,
+      11,
+      61
+    ],
+    "U_reverse_sizes": [
+      2,
+      3,
+      5
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        16
+      ],
+      [
+        1,
+        11,
+        46
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        2,
+        1,
+        2
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          2,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  },
+  {
+    "case_index": 9,
+    "label": "scale2-bridge2-Iantichain",
+    "scale": 2,
+    "bridge_type": 2,
+    "I_chain": false,
+    "D_sizes": [
+      3,
+      11,
+      61
+    ],
+    "U_reverse_sizes": [
+      2,
+      3,
+      5
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        16
+      ],
+      [
+        1,
+        11,
+        46
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        2,
+        1,
+        2
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          1,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          1,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 10,
+    "label": "scale2-bridge2-Ichain",
+    "scale": 2,
+    "bridge_type": 2,
+    "I_chain": true,
+    "D_sizes": [
+      3,
+      11,
+      61
+    ],
+    "U_reverse_sizes": [
+      2,
+      3,
+      5
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        16
+      ],
+      [
+        1,
+        11,
+        46
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        2,
+        1,
+        2
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          2,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  },
+  {
+    "case_index": 11,
+    "label": "scale2-bridge3-Iantichain",
+    "scale": 2,
+    "bridge_type": 3,
+    "I_chain": false,
+    "D_sizes": [
+      3,
+      11,
+      61
+    ],
+    "U_reverse_sizes": [
+      2,
+      3,
+      5
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          21
+        ]
+      ],
+      [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          41
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        16
+      ],
+      [
+        1,
+        11,
+        46
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        2,
+        1,
+        2
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          1,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 12,
+    "label": "scale2-bridge3-Ichain",
+    "scale": 2,
+    "bridge_type": 3,
+    "I_chain": true,
+    "D_sizes": [
+      3,
+      11,
+      61
+    ],
+    "U_reverse_sizes": [
+      2,
+      3,
+      5
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          21
+        ]
+      ],
+      [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          41
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        3,
+        1,
+        16
+      ],
+      [
+        1,
+        11,
+        46
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        3,
+        4
+      ],
+      [
+        2,
+        1,
+        2
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          2,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          61
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          5
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  },
+  {
+    "case_index": 13,
+    "label": "scale3-bridge1-Iantichain",
+    "scale": 3,
+    "bridge_type": 1,
+    "I_chain": false,
+    "D_sizes": [
+      2,
+      3,
+      5
+    ],
+    "U_reverse_sizes": [
+      3,
+      11,
+      61
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        11,
+        46
+      ],
+      [
+        3,
+        1,
+        16
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          1,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          1,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 14,
+    "label": "scale3-bridge1-Ichain",
+    "scale": 3,
+    "bridge_type": 1,
+    "I_chain": true,
+    "D_sizes": [
+      2,
+      3,
+      5
+    ],
+    "U_reverse_sizes": [
+      3,
+      11,
+      61
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        11,
+        46
+      ],
+      [
+        3,
+        1,
+        16
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          3,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  },
+  {
+    "case_index": 15,
+    "label": "scale3-bridge2-Iantichain",
+    "scale": 3,
+    "bridge_type": 2,
+    "I_chain": false,
+    "D_sizes": [
+      2,
+      3,
+      5
+    ],
+    "U_reverse_sizes": [
+      3,
+      11,
+      61
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        11,
+        46
+      ],
+      [
+        3,
+        1,
+        16
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          1,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          1,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 16,
+    "label": "scale3-bridge2-Ichain",
+    "scale": 3,
+    "bridge_type": 2,
+    "I_chain": true,
+    "D_sizes": [
+      2,
+      3,
+      5
+    ],
+    "U_reverse_sizes": [
+      3,
+      11,
+      61
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          31
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        11,
+        46
+      ],
+      [
+        3,
+        1,
+        16
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          3,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  },
+  {
+    "case_index": 17,
+    "label": "scale3-bridge3-Iantichain",
+    "scale": 3,
+    "bridge_type": 3,
+    "I_chain": false,
+    "D_sizes": [
+      2,
+      3,
+      5
+    ],
+    "U_reverse_sizes": [
+      3,
+      11,
+      61
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          21
+        ]
+      ],
+      [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          41
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        11,
+        46
+      ],
+      [
+        3,
+        1,
+        16
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          1,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          2,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 18,
+    "label": "scale3-bridge3-Ichain",
+    "scale": 3,
+    "bridge_type": 3,
+    "I_chain": true,
+    "D_sizes": [
+      2,
+      3,
+      5
+    ],
+    "U_reverse_sizes": [
+      3,
+      11,
+      61
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          2
+        ]
+      ],
+      [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          4
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          21
+        ]
+      ],
+      [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          41
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        4
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        11,
+        46
+      ],
+      [
+        3,
+        1,
+        16
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          2,
+          1,
+          2
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          2,
+          3,
+          4
+        ],
+        "maximal_generators": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            4
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          3,
+          11,
+          46
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            11
+          ],
+          [
+            2,
+            46
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          1,
+          16
+        ],
+        "maximal_generators": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            16
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 87,
+    "side_DP_state_cap": 12192,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          1,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          2
+        ],
+        "target": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          3
+        ],
+        "target": [
+          2,
+          4
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          1,
+          11
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          3
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          11
+        ],
+        "target": [
+          2,
+          46
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          5
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          61
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  },
+  {
+    "case_index": 19,
+    "label": "scale4-bridge1-Iantichain",
+    "scale": 4,
+    "bridge_type": 1,
+    "I_chain": false,
+    "D_sizes": [
+      5,
+      13,
+      47
+    ],
+    "U_reverse_sizes": [
+      4,
+      17,
+      41
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          24
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          24
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          21
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          21
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        5,
+        1,
+        12
+      ],
+      [
+        1,
+        13,
+        36
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        17,
+        31
+      ],
+      [
+        4,
+        1,
+        11
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          5,
+          1,
+          12
+        ],
+        "maximal_generators": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            12
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          1,
+          13,
+          36
+        ],
+        "maximal_generators": [
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            36
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          1,
+          17,
+          31
+        ],
+        "maximal_generators": [
+          [
+            1,
+            17
+          ],
+          [
+            2,
+            31
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          4,
+          1,
+          11
+        ],
+        "maximal_generators": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            11
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 129,
+    "side_DP_state_cap": 31248,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          1,
+          13
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          2,
+          24
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          13
+        ],
+        "target": [
+          2,
+          36
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          1,
+          17
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          2,
+          21
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          17
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 20,
+    "label": "scale4-bridge1-Ichain",
+    "scale": 4,
+    "bridge_type": 1,
+    "I_chain": true,
+    "D_sizes": [
+      5,
+      13,
+      47
+    ],
+    "U_reverse_sizes": [
+      4,
+      17,
+      41
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          24
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          24
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          21
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          21
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        5,
+        1,
+        12
+      ],
+      [
+        1,
+        13,
+        36
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        17,
+        31
+      ],
+      [
+        4,
+        1,
+        11
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          5,
+          1,
+          12
+        ],
+        "maximal_generators": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            12
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          5,
+          13,
+          36
+        ],
+        "maximal_generators": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            36
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          4,
+          17,
+          31
+        ],
+        "maximal_generators": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            2,
+            31
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          4,
+          1,
+          11
+        ],
+        "maximal_generators": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            11
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 129,
+    "side_DP_state_cap": 31248,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          1,
+          13
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          2,
+          24
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          13
+        ],
+        "target": [
+          2,
+          36
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          1,
+          17
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          2,
+          21
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          17
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  },
+  {
+    "case_index": 21,
+    "label": "scale4-bridge2-Iantichain",
+    "scale": 4,
+    "bridge_type": 2,
+    "I_chain": false,
+    "D_sizes": [
+      5,
+      13,
+      47
+    ],
+    "U_reverse_sizes": [
+      4,
+      17,
+      41
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          24
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          21
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        5,
+        1,
+        12
+      ],
+      [
+        1,
+        13,
+        36
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        17,
+        31
+      ],
+      [
+        4,
+        1,
+        11
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          5,
+          1,
+          12
+        ],
+        "maximal_generators": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            12
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          1,
+          13,
+          36
+        ],
+        "maximal_generators": [
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            36
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          1,
+          17,
+          31
+        ],
+        "maximal_generators": [
+          [
+            1,
+            17
+          ],
+          [
+            2,
+            31
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          4,
+          1,
+          11
+        ],
+        "maximal_generators": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            11
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 129,
+    "side_DP_state_cap": 31248,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          1,
+          13
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          2,
+          24
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          13
+        ],
+        "target": [
+          2,
+          36
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          1,
+          17
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          2,
+          21
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          17
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 22,
+    "label": "scale4-bridge2-Ichain",
+    "scale": 4,
+    "bridge_type": 2,
+    "I_chain": true,
+    "D_sizes": [
+      5,
+      13,
+      47
+    ],
+    "U_reverse_sizes": [
+      4,
+      17,
+      41
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          24
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          9
+        ]
+      ],
+      [
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          21
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        5,
+        1,
+        12
+      ],
+      [
+        1,
+        13,
+        36
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        17,
+        31
+      ],
+      [
+        4,
+        1,
+        11
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          5,
+          1,
+          12
+        ],
+        "maximal_generators": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            12
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          5,
+          13,
+          36
+        ],
+        "maximal_generators": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            36
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          4,
+          17,
+          31
+        ],
+        "maximal_generators": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            2,
+            31
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          4,
+          1,
+          11
+        ],
+        "maximal_generators": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            11
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 129,
+    "side_DP_state_cap": 31248,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          1,
+          13
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          2,
+          24
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          13
+        ],
+        "target": [
+          2,
+          36
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          1,
+          17
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          2,
+          21
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          17
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  },
+  {
+    "case_index": 23,
+    "label": "scale4-bridge3-Iantichain",
+    "scale": 4,
+    "bridge_type": 3,
+    "I_chain": false,
+    "D_sizes": [
+      5,
+      13,
+      47
+    ],
+    "U_reverse_sizes": [
+      4,
+      17,
+      41
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          16
+        ]
+      ],
+      [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          32
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          14
+        ]
+      ],
+      [
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          28
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        5,
+        1,
+        12
+      ],
+      [
+        1,
+        13,
+        36
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        17,
+        31
+      ],
+      [
+        4,
+        1,
+        11
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          5,
+          1,
+          12
+        ],
+        "maximal_generators": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            12
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          3,
+          13,
+          36
+        ],
+        "maximal_generators": [
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            36
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          2,
+          17,
+          31
+        ],
+        "maximal_generators": [
+          [
+            1,
+            17
+          ],
+          [
+            2,
+            31
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          4,
+          1,
+          11
+        ],
+        "maximal_generators": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            11
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 129,
+    "side_DP_state_cap": 31248,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          1,
+          13
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          2,
+          24
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          13
+        ],
+        "target": [
+          2,
+          36
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          1,
+          17
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          2,
+          21
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          17
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": false,
+        "skip_reason": null
+      }
+    ]
+  },
+  {
+    "case_index": 24,
+    "label": "scale4-bridge3-Ichain",
+    "scale": 4,
+    "bridge_type": 3,
+    "I_chain": true,
+    "D_sizes": [
+      5,
+      13,
+      47
+    ],
+    "U_reverse_sizes": [
+      4,
+      17,
+      41
+    ],
+    "D_bridges": [
+      [
+        [
+          0,
+          3
+        ],
+        [
+          2,
+          16
+        ]
+      ],
+      [
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          32
+        ]
+      ]
+    ],
+    "U_reverse_bridges": [
+      [
+        [
+          0,
+          2
+        ],
+        [
+          2,
+          14
+        ]
+      ],
+      [
+        [
+          1,
+          9
+        ],
+        [
+          2,
+          28
+        ]
+      ]
+    ],
+    "D_gate_raw": [
+      [
+        5,
+        1,
+        12
+      ],
+      [
+        1,
+        13,
+        36
+      ]
+    ],
+    "U_reverse_gate_raw": [
+      [
+        1,
+        17,
+        31
+      ],
+      [
+        4,
+        1,
+        11
+      ]
+    ],
+    "D_gates": [
+      {
+        "prefix": [
+          5,
+          1,
+          12
+        ],
+        "maximal_generators": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            12
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          5,
+          13,
+          36
+        ],
+        "maximal_generators": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            36
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "U_reverse_gates": [
+      {
+        "prefix": [
+          4,
+          17,
+          31
+        ],
+        "maximal_generators": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            17
+          ],
+          [
+            2,
+            31
+          ]
+        ],
+        "nonprincipal": true
+      },
+      {
+        "prefix": [
+          4,
+          1,
+          11
+        ],
+        "maximal_generators": [
+          [
+            0,
+            4
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            11
+          ]
+        ],
+        "nonprincipal": true
+      }
+    ],
+    "n": 129,
+    "side_DP_state_cap": 31248,
+    "pairs": [
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          1,
+          13
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          0,
+          5
+        ],
+        "target": [
+          2,
+          24
+        ]
+      },
+      {
+        "kind": "D",
+        "source": [
+          1,
+          13
+        ],
+        "target": [
+          2,
+          36
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          1,
+          17
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          0,
+          4
+        ],
+        "target": [
+          2,
+          21
+        ]
+      },
+      {
+        "kind": "Ureverse",
+        "source": [
+          1,
+          17
+        ],
+        "target": [
+          2,
+          31
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 0
+      },
+      {
+        "kind": "IU",
+        "source": 0,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "DI",
+        "source": [
+          2,
+          47
+        ],
+        "target": 1
+      },
+      {
+        "kind": "IU",
+        "source": 1,
+        "target": [
+          2,
+          41
+        ]
+      },
+      {
+        "kind": "II",
+        "source": 0,
+        "target": 1,
+        "skip": true,
+        "skip_reason": "comparable in I"
+      }
+    ]
+  }
+]

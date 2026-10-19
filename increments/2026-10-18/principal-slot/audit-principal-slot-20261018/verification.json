@@ -1,0 +1,146 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "name": "singleton",
+      "n": 1,
+      "extensions": 1,
+      "principal_pairs": 1,
+      "mixed_subset_pairs": 1,
+      "smaller_principal_pairs": 1,
+      "upset_pairs": 1
+    },
+    {
+      "name": "antichain3",
+      "n": 3,
+      "extensions": 6,
+      "principal_pairs": 9,
+      "mixed_subset_pairs": 21,
+      "smaller_principal_pairs": 9,
+      "upset_pairs": 21
+    },
+    {
+      "name": "chain4",
+      "n": 4,
+      "extensions": 1,
+      "principal_pairs": 16,
+      "mixed_subset_pairs": 60,
+      "smaller_principal_pairs": 26,
+      "upset_pairs": 16
+    },
+    {
+      "name": "diamond4",
+      "n": 4,
+      "extensions": 2,
+      "principal_pairs": 16,
+      "mixed_subset_pairs": 60,
+      "smaller_principal_pairs": 26,
+      "upset_pairs": 20
+    },
+    {
+      "name": "fork5",
+      "n": 5,
+      "extensions": 4,
+      "principal_pairs": 25,
+      "mixed_subset_pairs": 155,
+      "smaller_principal_pairs": 57,
+      "upset_pairs": 35
+    },
+    {
+      "name": "crown6",
+      "n": 6,
+      "extensions": 48,
+      "principal_pairs": 36,
+      "mixed_subset_pairs": 378,
+      "smaller_principal_pairs": 66,
+      "upset_pairs": 102
+    }
+  ],
+  "grid_checks": [
+    {
+      "name": "singleton",
+      "mesh_denominator": 2,
+      "centers": [
+        {
+          "center": 0,
+          "points": 3,
+          "lattice_pairs": 9
+        }
+      ]
+    },
+    {
+      "name": "antichain3",
+      "mesh_denominator": 2,
+      "centers": [
+        {
+          "center": 0,
+          "points": 27,
+          "lattice_pairs": 729
+        },
+        {
+          "center": 1,
+          "points": 27,
+          "lattice_pairs": 729
+        },
+        {
+          "center": 2,
+          "points": 27,
+          "lattice_pairs": 729
+        }
+      ]
+    },
+    {
+      "name": "chain4",
+      "mesh_denominator": 2,
+      "centers": [
+        {
+          "center": 0,
+          "points": 15,
+          "lattice_pairs": 225
+        },
+        {
+          "center": 1,
+          "points": 15,
+          "lattice_pairs": 225
+        },
+        {
+          "center": 2,
+          "points": 15,
+          "lattice_pairs": 225
+        },
+        {
+          "center": 3,
+          "points": 15,
+          "lattice_pairs": 225
+        }
+      ]
+    },
+    {
+      "name": "diamond4",
+      "mesh_denominator": 2,
+      "centers": [
+        {
+          "center": 0,
+          "points": 20,
+          "lattice_pairs": 400
+        },
+        {
+          "center": 1,
+          "points": 20,
+          "lattice_pairs": 400
+        },
+        {
+          "center": 2,
+          "points": 20,
+          "lattice_pairs": 400
+        },
+        {
+          "center": 3,
+          "points": 20,
+          "lattice_pairs": 400
+        }
+      ]
+    }
+  ],
+  "scope": "Six fixed actual posets; finite checks diagnose signs and boundary handling and do not replace the proof."
+}

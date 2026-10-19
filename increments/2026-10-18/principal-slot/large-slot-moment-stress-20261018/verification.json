@@ -1,0 +1,38 @@
+{
+  "fixtures": [
+    {
+      "name": "check_1_2",
+      "n": 3,
+      "complete_LE_count": 3,
+      "legal_filters": 6,
+      "verified_pairs": 21,
+      "three_way_agreement": true
+    },
+    {
+      "name": "check_2_2_gate",
+      "n": 4,
+      "complete_LE_count": 5,
+      "legal_filters": 8,
+      "verified_pairs": 36,
+      "three_way_agreement": true
+    },
+    {
+      "name": "check_2_2_1",
+      "n": 5,
+      "complete_LE_count": 16,
+      "legal_filters": 13,
+      "verified_pairs": 91,
+      "three_way_agreement": true
+    },
+    {
+      "name": "check_3_2_2",
+      "n": 7,
+      "complete_LE_count": 136,
+      "legal_filters": 26,
+      "verified_pairs": 240,
+      "three_way_agreement": true
+    }
+  ],
+  "verified_pairs": 388,
+  "passed": true
+}

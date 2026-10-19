@@ -1,0 +1,50 @@
+{
+  "purpose": "Exact small controls for algebraic identities and sharp relation-only bounds; no global descent or conjecture search.",
+  "counts": [
+    {
+      "n": 1,
+      "distinct_naturally_labelled_posets": 1
+    },
+    {
+      "n": 2,
+      "distinct_naturally_labelled_posets": 2
+    },
+    {
+      "n": 3,
+      "distinct_naturally_labelled_posets": 7
+    },
+    {
+      "n": 4,
+      "distinct_naturally_labelled_posets": 40
+    },
+    {
+      "n": 5,
+      "distinct_naturally_labelled_posets": 357
+    }
+  ],
+  "deletion_cases": 1971,
+  "all_checks_passed": true,
+  "negative_covariance_example": {
+    "Q_extensions": [
+      {
+        "L": "d c2 b",
+        "w": 1,
+        "b_before_d": false
+      },
+      {
+        "L": "d b c2",
+        "w": 2,
+        "b_before_d": false
+      },
+      {
+        "L": "b d c2",
+        "w": 1,
+        "b_before_d": true
+      }
+    ],
+    "p_Q": "1/3",
+    "E_Q_w": "4/3",
+    "covariance": "-1/9",
+    "p_P": "1/4"
+  }
+}

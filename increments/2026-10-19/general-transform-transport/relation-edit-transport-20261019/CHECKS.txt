@@ -1,0 +1,10 @@
+{"id": "antichain3", "n": 3, "N": 6, "Nplus": 3, "Nminus": 3, "p": "1/2", "global_other_pairs_preserved": false, "target": null}
+{"id": "antichain4", "n": 4, "N": 24, "Nplus": 12, "Nminus": 12, "p": "1/2", "global_other_pairs_preserved": false, "target": {"pair": ["z", "w"], "original": "1/2", "plus": "1/2", "drift": "0", "cov_edit": "0"}}
+{"id": "external_witness_loss", "n": 4, "N": 12, "Nplus": 4, "Nminus": 8, "p": "1/3", "global_other_pairs_preserved": false, "target": {"pair": ["z", "w"], "original": "1/3", "plus": "1/4", "drift": "-1/12", "cov_edit": "-1/36"}}
+{"id": "external_positive", "n": 4, "N": 12, "Nplus": 8, "Nminus": 4, "p": "2/3", "global_other_pairs_preserved": false, "target": {"pair": ["z", "w"], "original": "1/3", "plus": "3/8", "drift": "1/24", "cov_edit": "1/36"}}
+{"id": "external_negative", "n": 4, "N": 12, "Nplus": 8, "Nminus": 4, "p": "2/3", "global_other_pairs_preserved": false, "target": {"pair": ["z", "w"], "original": "2/3", "plus": "5/8", "drift": "-1/24", "cov_edit": "-1/36"}}
+{"id": "ordinal_A2_block", "n": 6, "N": 8, "Nplus": 4, "Nminus": 4, "p": "1/2", "global_other_pairs_preserved": true, "target": null}
+{"id": "two_disjoint_chains", "n": 5, "N": 10, "Nplus": 7, "Nminus": 3, "p": "7/10", "global_other_pairs_preserved": false, "target": null}
+{"id": "two_chains_cross_constraints", "n": 6, "N": 15, "Nplus": 9, "Nminus": 6, "p": "3/5", "global_other_pairs_preserved": false, "target": null}
+{"id": "balanced_improvement", "n": 3, "N": 3, "Nplus": 2, "Nminus": 1, "p": "2/3", "global_other_pairs_preserved": false, "target": {"pair": ["a2", "b"], "original": "1/3", "plus": "1/2", "drift": "1/6", "cov_edit": "1/9"}}
+All exact assertions passed.

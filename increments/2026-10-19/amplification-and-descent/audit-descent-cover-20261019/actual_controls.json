@@ -1,0 +1,58 @@
+{
+  "checks": "PASS",
+  "structures": 24,
+  "counted_pairs": 252,
+  "concave_failures": {
+    "middle_budget": 290,
+    "initial_bad": 18
+  },
+  "strict_middle_count": 18,
+  "strict_middle_vertices": [
+    6,
+    17
+  ],
+  "balanced_component_histogram_from_saved_intervals": {
+    "0": 143,
+    "1": 109
+  },
+  "actual_uniform_full_poset_controls": [
+    {
+      "case_index": 1,
+      "pair_index": 11,
+      "m": 1,
+      "total": 7881818030193091905,
+      "event": 6459248751483699819,
+      "total_states": 1118,
+      "event_states": 1090,
+      "window_total": [
+        5528029235296552497,
+        1031751924226471080,
+        96761648814532416
+      ],
+      "window_event": [
+        4739877810812760219,
+        787114233724570488,
+        48380824407266208
+      ]
+    },
+    {
+      "case_index": 2,
+      "pair_index": 7,
+      "m": 1,
+      "total": 6459248751483699819,
+      "event": 1830052240535090208,
+      "total_states": 1090,
+      "event_states": 966,
+      "window_total": [
+        4739877810812760219,
+        787114233724570488,
+        48380824407266208
+      ],
+      "window_event": [
+        862608545174007840,
+        411150611069641872,
+        48380824407266208
+      ]
+    }
+  ]
+}

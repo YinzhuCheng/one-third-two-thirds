@@ -1,0 +1,6124 @@
+{
+  "structures": 96,
+  "distinct_structures": 96,
+  "pairs": 1152,
+  "frozen_sha256": "3567d00ac0d5460d456ff060445a32827ef069c5becbdc0c437784f9303c7571",
+  "balance_component_histogram": {
+    "1": 726,
+    "0": 426
+  },
+  "threshold_variation_histogram": {
+    "(0, 0)": 836,
+    "(0, 1)": 185,
+    "(1, 0)": 122,
+    "(0, 2)": 6,
+    "(2, 0)": 3
+  },
+  "two_component_pairs": 0,
+  "nonmonotone_pairs": 69,
+  "two_variation_threshold_pairs": 9,
+  "elapsed_seconds": 0.2561898050007585,
+  "witnesses": [],
+  "nonmonotone_examples": [
+    {
+      "case_index": 1,
+      "label": "A3-B5-gate1",
+      "p": 3,
+      "q": 5,
+      "n": 10,
+      "y": [
+        1,
+        4
+      ],
+      "z": [
+        3,
+        1
+      ],
+      "total": [
+        124,
+        176,
+        112
+      ],
+      "r": 2,
+      "s": 4,
+      "c_E": 80,
+      "limit": "5/7",
+      "event": [
+        104,
+        124,
+        80
+      ],
+      "low": [
+        -128,
+        -776,
+        -1024
+      ],
+      "high": [
+        16,
+        88,
+        200
+      ],
+      "balanced": [],
+      "derivative": [
+        384,
+        -6144,
+        -21696
+      ],
+      "discrete_difference": [
+        384,
+        -5760,
+        -24768
+      ],
+      "difference_positive": [
+        [
+          19,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          18
+        ]
+      ],
+      "low_window_coefficients": [
+        -188,
+        -196,
+        -128
+      ],
+      "high_window_coefficients": [
+        64,
+        20,
+        16
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 2,
+      "label": "A3-B5-gate2",
+      "p": 3,
+      "q": 5,
+      "n": 10,
+      "y": [
+        0,
+        4
+      ],
+      "z": [
+        3,
+        0
+      ],
+      "total": [
+        126,
+        182,
+        112
+      ],
+      "r": 2,
+      "s": 4,
+      "c_E": 80,
+      "limit": "5/7",
+      "event": [
+        105,
+        125,
+        80
+      ],
+      "low": [
+        -128,
+        -770,
+        -1020
+      ],
+      "high": [
+        16,
+        70,
+        180
+      ],
+      "balanced": [],
+      "derivative": [
+        1120,
+        -4480,
+        -22400
+      ],
+      "discrete_difference": [
+        1120,
+        -3360,
+        -24640
+      ],
+      "difference_positive": [
+        [
+          7,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          6
+        ]
+      ],
+      "low_window_coefficients": [
+        -189,
+        -193,
+        -128
+      ],
+      "high_window_coefficients": [
+        63,
+        11,
+        16
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 2,
+      "label": "A3-B5-gate2",
+      "p": 3,
+      "q": 5,
+      "n": 10,
+      "y": [
+        0,
+        4
+      ],
+      "z": [
+        3,
+        0
+      ],
+      "total": [
+        126,
+        182,
+        112
+      ],
+      "r": 1,
+      "s": 3,
+      "c_E": 92,
+      "limit": "23/28",
+      "event": [
+        111,
+        147,
+        92
+      ],
+      "low": [
+        -164,
+        -1010,
+        -1260
+      ],
+      "high": [
+        52,
+        310,
+        420
+      ],
+      "balanced": [],
+      "derivative": [
+        560,
+        -2240,
+        -11200
+      ],
+      "discrete_difference": [
+        560,
+        -1680,
+        -12320
+      ],
+      "difference_positive": [
+        [
+          7,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          6
+        ]
+      ],
+      "low_window_coefficients": [
+        -207,
+        -259,
+        -164
+      ],
+      "high_window_coefficients": [
+        81,
+        77,
+        52
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 2,
+      "label": "A3-B5-gate2",
+      "p": 3,
+      "q": 5,
+      "n": 10,
+      "y": [
+        0,
+        4
+      ],
+      "z": [
+        3,
+        0
+      ],
+      "total": [
+        126,
+        182,
+        112
+      ],
+      "r": 1,
+      "s": 4,
+      "c_E": 104,
+      "limit": "13/14",
+      "event": [
+        121,
+        165,
+        104
+      ],
+      "low": [
+        -200,
+        -1226,
+        -1500
+      ],
+      "high": [
+        88,
+        526,
+        660
+      ],
+      "balanced": [],
+      "derivative": [
+        896,
+        0,
+        -6720
+      ],
+      "discrete_difference": [
+        896,
+        896,
+        -6720
+      ],
+      "difference_positive": [
+        [
+          3,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          2
+        ]
+      ],
+      "low_window_coefficients": [
+        -237,
+        -313,
+        -200
+      ],
+      "high_window_coefficients": [
+        111,
+        131,
+        88
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 2,
+      "label": "A3-B5-gate2",
+      "p": 3,
+      "q": 5,
+      "n": 10,
+      "y": [
+        0,
+        4
+      ],
+      "z": [
+        3,
+        0
+      ],
+      "total": [
+        126,
+        182,
+        112
+      ],
+      "r": 2,
+      "s": 5,
+      "c_E": 100,
+      "limit": "25/28",
+      "event": [
+        126,
+        162,
+        100
+      ],
+      "low": [
+        -188,
+        -1172,
+        -1488
+      ],
+      "high": [
+        76,
+        472,
+        648
+      ],
+      "balanced": [],
+      "derivative": [
+        112,
+        -5824,
+        -19040
+      ],
+      "discrete_difference": [
+        112,
+        -5712,
+        -21952
+      ],
+      "difference_positive": [
+        [
+          55,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          54
+        ]
+      ],
+      "low_window_coefficients": [
+        -252,
+        -304,
+        -188
+      ],
+      "high_window_coefficients": [
+        126,
+        122,
+        76
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 2,
+      "label": "A3-B5-gate2",
+      "p": 3,
+      "q": 5,
+      "n": 10,
+      "y": [
+        0,
+        4
+      ],
+      "z": [
+        3,
+        0
+      ],
+      "total": [
+        126,
+        182,
+        112
+      ],
+      "r": 1,
+      "s": 5,
+      "c_E": 110,
+      "limit": "55/56",
+      "event": [
+        126,
+        178,
+        110
+      ],
+      "low": [
+        -218,
+        -1358,
+        -1644
+      ],
+      "high": [
+        106,
+        658,
+        804
+      ],
+      "balanced": [],
+      "derivative": [
+        168,
+        -672,
+        -3360
+      ],
+      "discrete_difference": [
+        168,
+        -504,
+        -3696
+      ],
+      "difference_positive": [
+        [
+          7,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          6
+        ]
+      ],
+      "low_window_coefficients": [
+        -252,
+        -352,
+        -218
+      ],
+      "high_window_coefficients": [
+        126,
+        170,
+        106
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 4,
+      "label": "A3-B5-gate4",
+      "p": 3,
+      "q": 5,
+      "n": 10,
+      "y": [
+        1,
+        4
+      ],
+      "z": [
+        2,
+        1
+      ],
+      "total": [
+        404,
+        296,
+        112
+      ],
+      "r": 3,
+      "s": 2,
+      "c_E": 8,
+      "limit": "1/14",
+      "event": [
+        23,
+        23,
+        8
+      ],
+      "low": [
+        88,
+        718,
+        1300
+      ],
+      "high": [
+        -200,
+        -1646,
+        -2924
+      ],
+      "balanced": [],
+      "derivative": [
+        -416,
+        1792,
+        13456
+      ],
+      "discrete_difference": [
+        -416,
+        1376,
+        14352
+      ],
+      "difference_positive": [
+        [
+          1,
+          7
+        ]
+      ],
+      "difference_negative": [
+        [
+          8,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        335,
+        227,
+        88
+      ],
+      "high_window_coefficients": [
+        -739,
+        -523,
+        -200
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 4,
+      "label": "A3-B5-gate4",
+      "p": 3,
+      "q": 5,
+      "n": 10,
+      "y": [
+        1,
+        4
+      ],
+      "z": [
+        2,
+        1
+      ],
+      "total": [
+        404,
+        296,
+        112
+      ],
+      "r": 3,
+      "s": 5,
+      "c_E": 70,
+      "limit": "5/8",
+      "event": [
+        243,
+        189,
+        70
+      ],
+      "low": [
+        -98,
+        -836,
+        -1388
+      ],
+      "high": [
+        -14,
+        -92,
+        -236
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -896,
+        2464,
+        23200
+      ],
+      "discrete_difference": [
+        -896,
+        1568,
+        24432
+      ],
+      "difference_positive": [
+        [
+          1,
+          6
+        ]
+      ],
+      "difference_negative": [
+        [
+          7,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -325,
+        -271,
+        -98
+      ],
+      "high_window_coefficients": [
+        -79,
+        -25,
+        -14
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 7,
+      "label": "A3-B5-gate7",
+      "p": 3,
+      "q": 5,
+      "n": 10,
+      "y": [
+        1,
+        4
+      ],
+      "z": [
+        3,
+        2
+      ],
+      "total": [
+        120,
+        172,
+        112
+      ],
+      "r": 2,
+      "s": 4,
+      "c_E": 80,
+      "limit": "5/7",
+      "event": [
+        100,
+        120,
+        80
+      ],
+      "low": [
+        -128,
+        -760,
+        -992
+      ],
+      "high": [
+        16,
+        80,
+        184
+      ],
+      "balanced": [],
+      "derivative": [
+        640,
+        -5120,
+        -20160
+      ],
+      "discrete_difference": [
+        640,
+        -4480,
+        -22720
+      ],
+      "difference_positive": [
+        [
+          11,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          10
+        ]
+      ],
+      "low_window_coefficients": [
+        -180,
+        -188,
+        -128
+      ],
+      "high_window_coefficients": [
+        60,
+        16,
+        16
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 8,
+      "label": "A3-B5-gate8",
+      "p": 3,
+      "q": 5,
+      "n": 10,
+      "y": [
+        1,
+        4
+      ],
+      "z": [
+        2,
+        2
+      ],
+      "total": [
+        379,
+        277,
+        112
+      ],
+      "r": 2,
+      "s": 1,
+      "c_E": 12,
+      "limit": "3/28",
+      "event": [
+        38,
+        30,
+        12
+      ],
+      "low": [
+        76,
+        602,
+        1056
+      ],
+      "high": [
+        -188,
+        -1492,
+        -2592
+      ],
+      "balanced": [],
+      "derivative": [
+        -72,
+        1024,
+        5056
+      ],
+      "discrete_difference": [
+        -72,
+        952,
+        5568
+      ],
+      "difference_positive": [
+        [
+          1,
+          17
+        ]
+      ],
+      "difference_negative": [
+        [
+          18,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        265,
+        187,
+        76
+      ],
+      "high_window_coefficients": [
+        -644,
+        -464,
+        -188
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 9,
+      "label": "A4-B7-gate1",
+      "p": 4,
+      "q": 7,
+      "n": 13,
+      "y": [
+        1,
+        6
+      ],
+      "z": [
+        4,
+        2
+      ],
+      "total": [
+        785,
+        1110,
+        660
+      ],
+      "r": 2,
+      "s": 5,
+      "c_E": 530,
+      "limit": "53/66",
+      "event": [
+        690,
+        880,
+        530
+      ],
+      "low": [
+        -930,
+        -5850,
+        -7490
+      ],
+      "high": [
+        270,
+        1650,
+        2380
+      ],
+      "balanced": [],
+      "derivative": [
+        15000,
+        -127400,
+        -521500
+      ],
+      "discrete_difference": [
+        15000,
+        -112400,
+        -585200
+      ],
+      "difference_positive": [
+        [
+          12,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          11
+        ]
+      ],
+      "low_window_coefficients": [
+        -1285,
+        -1530,
+        -930
+      ],
+      "high_window_coefficients": [
+        500,
+        420,
+        270
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 9,
+      "label": "A4-B7-gate1",
+      "p": 4,
+      "q": 7,
+      "n": 13,
+      "y": [
+        1,
+        6
+      ],
+      "z": [
+        4,
+        2
+      ],
+      "total": [
+        785,
+        1110,
+        660
+      ],
+      "r": 3,
+      "s": 6,
+      "c_E": 476,
+      "limit": "119/165",
+      "event": [
+        666,
+        778,
+        476
+      ],
+      "low": [
+        -768,
+        -4752,
+        -6410
+      ],
+      "high": [
+        108,
+        552,
+        1300
+      ],
+      "balanced": [],
+      "derivative": [
+        29760,
+        -204080,
+        -879760
+      ],
+      "discrete_difference": [
+        29760,
+        -174320,
+        -981800
+      ],
+      "difference_positive": [
+        [
+          10,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          9
+        ]
+      ],
+      "low_window_coefficients": [
+        -1213,
+        -1224,
+        -768
+      ],
+      "high_window_coefficients": [
+        428,
+        114,
+        108
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 10,
+      "label": "A4-B7-gate2",
+      "p": 4,
+      "q": 7,
+      "n": 13,
+      "y": [
+        0,
+        6
+      ],
+      "z": [
+        3,
+        0
+      ],
+      "total": [
+        2574,
+        1914,
+        660
+      ],
+      "r": 4,
+      "s": 6,
+      "c_E": 252,
+      "limit": "21/55",
+      "event": [
+        756,
+        756,
+        252
+      ],
+      "low": [
+        -96,
+        -996,
+        -288
+      ],
+      "high": [
+        -564,
+        -4812,
+        -10008
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -33264,
+        532224,
+        2860704
+      ],
+      "discrete_difference": [
+        -33264,
+        498960,
+        3126816
+      ],
+      "difference_positive": [
+        [
+          1,
+          19
+        ]
+      ],
+      "difference_negative": [
+        [
+          20,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        306,
+        -354,
+        -96
+      ],
+      "high_window_coefficients": [
+        -2880,
+        -1560,
+        -564
+      ],
+      "threshold_variations": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_index": 10,
+      "label": "A4-B7-gate2",
+      "p": 4,
+      "q": 7,
+      "n": 13,
+      "y": [
+        0,
+        6
+      ],
+      "z": [
+        3,
+        0
+      ],
+      "total": [
+        2574,
+        1914,
+        660
+      ],
+      "r": 4,
+      "s": 5,
+      "c_E": 140,
+      "limit": "7/33",
+      "event": [
+        462,
+        462,
+        140
+      ],
+      "low": [
+        240,
+        1776,
+        3912
+      ],
+      "high": [
+        -900,
+        -7584,
+        -14208
+      ],
+      "balanced": [],
+      "derivative": [
+        -73920,
+        73920,
+        1478400
+      ],
+      "discrete_difference": [
+        -73920,
+        0,
+        1515360
+      ],
+      "difference_positive": [
+        [
+          1,
+          4
+        ]
+      ],
+      "difference_negative": [
+        [
+          5,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        1188,
+        528,
+        240
+      ],
+      "high_window_coefficients": [
+        -3762,
+        -2442,
+        -900
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 10,
+      "label": "A4-B7-gate2",
+      "p": 4,
+      "q": 7,
+      "n": 13,
+      "y": [
+        0,
+        6
+      ],
+      "z": [
+        3,
+        0
+      ],
+      "total": [
+        2574,
+        1914,
+        660
+      ],
+      "r": 4,
+      "s": 7,
+      "c_E": 420,
+      "limit": "7/11",
+      "event": [
+        1584,
+        1254,
+        420
+      ],
+      "low": [
+        -600,
+        -5496,
+        -9252
+      ],
+      "high": [
+        -60,
+        -312,
+        -1044
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -47520,
+        47520,
+        950400
+      ],
+      "discrete_difference": [
+        -47520,
+        0,
+        974160
+      ],
+      "difference_positive": [
+        [
+          1,
+          4
+        ]
+      ],
+      "difference_negative": [
+        [
+          5,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -2178,
+        -1848,
+        -600
+      ],
+      "high_window_coefficients": [
+        -396,
+        -66,
+        -60
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 12,
+      "label": "A4-B7-gate4",
+      "p": 4,
+      "q": 7,
+      "n": 13,
+      "y": [
+        1,
+        6
+      ],
+      "z": [
+        3,
+        1
+      ],
+      "total": [
+        2555,
+        1899,
+        660
+      ],
+      "r": 4,
+      "s": 6,
+      "c_E": 252,
+      "limit": "21/55",
+      "event": [
+        749,
+        749,
+        252
+      ],
+      "low": [
+        -96,
+        -984,
+        -272
+      ],
+      "high": [
+        -564,
+        -4794,
+        -9956
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -31584,
+        534912,
+        2830912
+      ],
+      "discrete_difference": [
+        -31584,
+        503328,
+        3098368
+      ],
+      "difference_positive": [
+        [
+          1,
+          20
+        ]
+      ],
+      "difference_negative": [
+        [
+          21,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        308,
+        -348,
+        -96
+      ],
+      "high_window_coefficients": [
+        -2863,
+        -1551,
+        -564
+      ],
+      "threshold_variations": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_index": 12,
+      "label": "A4-B7-gate4",
+      "p": 4,
+      "q": 7,
+      "n": 13,
+      "y": [
+        1,
+        6
+      ],
+      "z": [
+        3,
+        1
+      ],
+      "total": [
+        2555,
+        1899,
+        660
+      ],
+      "r": 4,
+      "s": 5,
+      "c_E": 140,
+      "limit": "7/33",
+      "event": [
+        456,
+        456,
+        140
+      ],
+      "low": [
+        240,
+        1782,
+        3916
+      ],
+      "high": [
+        -900,
+        -7560,
+        -14144
+      ],
+      "balanced": [],
+      "derivative": [
+        -70200,
+        86560,
+        1466784
+      ],
+      "discrete_difference": [
+        -70200,
+        16360,
+        1510064
+      ],
+      "difference_positive": [
+        [
+          1,
+          4
+        ]
+      ],
+      "difference_negative": [
+        [
+          5,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        1187,
+        531,
+        240
+      ],
+      "high_window_coefficients": [
+        -3742,
+        -2430,
+        -900
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 12,
+      "label": "A4-B7-gate4",
+      "p": 4,
+      "q": 7,
+      "n": 13,
+      "y": [
+        1,
+        6
+      ],
+      "z": [
+        3,
+        1
+      ],
+      "total": [
+        2555,
+        1899,
+        660
+      ],
+      "r": 4,
+      "s": 7,
+      "c_E": 420,
+      "limit": "7/11",
+      "event": [
+        1573,
+        1245,
+        420
+      ],
+      "low": [
+        -600,
+        -5472,
+        -9200
+      ],
+      "high": [
+        -60,
+        -306,
+        -1028
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -48240,
+        43200,
+        936672
+      ],
+      "discrete_difference": [
+        -48240,
+        -5040,
+        958272
+      ],
+      "difference_positive": [
+        [
+          1,
+          4
+        ]
+      ],
+      "difference_negative": [
+        [
+          5,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -2164,
+        -1836,
+        -600
+      ],
+      "high_window_coefficients": [
+        -391,
+        -63,
+        -60
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 15,
+      "label": "A4-B7-gate7",
+      "p": 4,
+      "q": 7,
+      "n": 13,
+      "y": [
+        1,
+        6
+      ],
+      "z": [
+        3,
+        2
+      ],
+      "total": [
+        2514,
+        1866,
+        660
+      ],
+      "r": 4,
+      "s": 6,
+      "c_E": 252,
+      "limit": "21/55",
+      "event": [
+        724,
+        724,
+        252
+      ],
+      "low": [
+        -96,
+        -900,
+        -120
+      ],
+      "high": [
+        -564,
+        -4812,
+        -9960
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -15216,
+        592320,
+        2795520
+      ],
+      "discrete_difference": [
+        -15216,
+        577104,
+        3091680
+      ],
+      "difference_positive": [
+        [
+          1,
+          42
+        ]
+      ],
+      "difference_negative": [
+        [
+          43,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        342,
+        -306,
+        -96
+      ],
+      "high_window_coefficients": [
+        -2856,
+        -1560,
+        -564
+      ],
+      "threshold_variations": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_index": 15,
+      "label": "A4-B7-gate7",
+      "p": 4,
+      "q": 7,
+      "n": 13,
+      "y": [
+        1,
+        6
+      ],
+      "z": [
+        3,
+        2
+      ],
+      "total": [
+        2514,
+        1866,
+        660
+      ],
+      "r": 4,
+      "s": 5,
+      "c_E": 140,
+      "limit": "7/33",
+      "event": [
+        435,
+        435,
+        140
+      ],
+      "low": [
+        240,
+        1842,
+        4020
+      ],
+      "high": [
+        -900,
+        -7554,
+        -14100
+      ],
+      "balanced": [],
+      "derivative": [
+        -51720,
+        156000,
+        1464960
+      ],
+      "discrete_difference": [
+        -51720,
+        104280,
+        1542960
+      ],
+      "difference_positive": [
+        [
+          1,
+          6
+        ]
+      ],
+      "difference_negative": [
+        [
+          7,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        1209,
+        561,
+        240
+      ],
+      "high_window_coefficients": [
+        -3723,
+        -2427,
+        -900
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 15,
+      "label": "A4-B7-gate7",
+      "p": 4,
+      "q": 7,
+      "n": 13,
+      "y": [
+        1,
+        6
+      ],
+      "z": [
+        3,
+        2
+      ],
+      "total": [
+        2514,
+        1866,
+        660
+      ],
+      "r": 4,
+      "s": 7,
+      "c_E": 420,
+      "limit": "7/11",
+      "event": [
+        1540,
+        1216,
+        420
+      ],
+      "low": [
+        -600,
+        -5364,
+        -8976
+      ],
+      "high": [
+        -60,
+        -348,
+        -1104
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -37680,
+        82560,
+        932736
+      ],
+      "discrete_difference": [
+        -37680,
+        44880,
+        974016
+      ],
+      "difference_positive": [
+        [
+          1,
+          5
+        ]
+      ],
+      "difference_negative": [
+        [
+          6,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -2106,
+        -1782,
+        -600
+      ],
+      "high_window_coefficients": [
+        -408,
+        -84,
+        -60
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 17,
+      "label": "A5-B9-gate1",
+      "p": 5,
+      "q": 9,
+      "n": 16,
+      "y": [
+        1,
+        8
+      ],
+      "z": [
+        4,
+        2
+      ],
+      "total": [
+        15933,
+        11943,
+        4004
+      ],
+      "r": 5,
+      "s": 8,
+      "c_E": 1584,
+      "limit": "36/91",
+      "event": [
+        4966,
+        4966,
+        1584
+      ],
+      "low": [
+        -748,
+        -8154,
+        -5336
+      ],
+      "high": [
+        -3256,
+        -27744,
+        -58424
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -1932304,
+        17551424,
+        109449104
+      ],
+      "discrete_difference": [
+        -1932304,
+        15619120,
+        118224816
+      ],
+      "difference_positive": [
+        [
+          1,
+          12
+        ]
+      ],
+      "difference_negative": [
+        [
+          13,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        1035,
+        -2955,
+        -748
+      ],
+      "high_window_coefficients": [
+        -16968,
+        -8988,
+        -3256
+      ],
+      "threshold_variations": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_index": 17,
+      "label": "A5-B9-gate1",
+      "p": 5,
+      "q": 9,
+      "n": 16,
+      "y": [
+        1,
+        8
+      ],
+      "z": [
+        4,
+        2
+      ],
+      "total": [
+        15933,
+        11943,
+        4004
+      ],
+      "r": 5,
+      "s": 9,
+      "c_E": 2574,
+      "limit": "9/14",
+      "event": [
+        9946,
+        7951,
+        2574
+      ],
+      "low": [
+        -3718,
+        -34974,
+        -59066
+      ],
+      "high": [
+        -286,
+        -924,
+        -4694
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -2189044,
+        372944,
+        36530324
+      ],
+      "discrete_difference": [
+        -2189044,
+        -1816100,
+        36716796
+      ],
+      "difference_positive": [
+        [
+          1,
+          3
+        ]
+      ],
+      "difference_negative": [
+        [
+          4,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -13905,
+        -11910,
+        -3718
+      ],
+      "high_window_coefficients": [
+        -2028,
+        -33,
+        -286
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 20,
+      "label": "A5-B9-gate4",
+      "p": 5,
+      "q": 9,
+      "n": 16,
+      "y": [
+        1,
+        8
+      ],
+      "z": [
+        4,
+        1
+      ],
+      "total": [
+        15994,
+        11994,
+        4004
+      ],
+      "r": 5,
+      "s": 8,
+      "c_E": 1584,
+      "limit": "36/91",
+      "event": [
+        5007,
+        5007,
+        1584
+      ],
+      "low": [
+        -748,
+        -8298,
+        -5604
+      ],
+      "high": [
+        -3256,
+        -27702,
+        -58380
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -2099064,
+        16947744,
+        109731744
+      ],
+      "discrete_difference": [
+        -2099064,
+        14848680,
+        118205616
+      ],
+      "difference_positive": [
+        [
+          1,
+          11
+        ]
+      ],
+      "difference_negative": [
+        [
+          12,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        973,
+        -3027,
+        -748
+      ],
+      "high_window_coefficients": [
+        -16967,
+        -8967,
+        -3256
+      ],
+      "threshold_variations": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_index": 20,
+      "label": "A5-B9-gate4",
+      "p": 5,
+      "q": 9,
+      "n": 16,
+      "y": [
+        1,
+        8
+      ],
+      "z": [
+        4,
+        1
+      ],
+      "total": [
+        15994,
+        11994,
+        4004
+      ],
+      "r": 5,
+      "s": 9,
+      "c_E": 2574,
+      "limit": "9/14",
+      "event": [
+        9997,
+        7997,
+        2574
+      ],
+      "low": [
+        -3718,
+        -35148,
+        -59424
+      ],
+      "high": [
+        -286,
+        -852,
+        -4560
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -2294864,
+        -27456,
+        36548544
+      ],
+      "discrete_difference": [
+        -2294864,
+        -2322320,
+        36534816
+      ],
+      "difference_positive": [
+        [
+          1,
+          3
+        ]
+      ],
+      "difference_negative": [
+        [
+          4,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -13997,
+        -11997,
+        -3718
+      ],
+      "high_window_coefficients": [
+        -1997,
+        3,
+        -286
+      ],
+      "threshold_variations": [
+        0,
+        2
+      ]
+    },
+    {
+      "case_index": 25,
+      "label": "A7-B10-gate1",
+      "p": 7,
+      "q": 10,
+      "n": 19,
+      "y": [
+        2,
+        8
+      ],
+      "z": [
+        6,
+        2
+      ],
+      "total": [
+        269738,
+        143624,
+        38896
+      ],
+      "r": 5,
+      "s": 8,
+      "c_E": 26664,
+      "limit": "303/442",
+      "event": [
+        194232,
+        97788,
+        26664
+      ],
+      "low": [
+        -41096,
+        -422768,
+        -1007588
+      ],
+      "high": [
+        2200,
+        18832,
+        103072
+      ],
+      "balanced": [],
+      "derivative": [
+        52056576,
+        -1346102208,
+        -8200215360
+      ],
+      "discrete_difference": [
+        52056576,
+        -1294045632,
+        -8873266464
+      ],
+      "difference_positive": [
+        [
+          31,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          30
+        ]
+      ],
+      "low_window_coefficients": [
+        -312958,
+        -149740,
+        -41096
+      ],
+      "high_window_coefficients": [
+        43220,
+        6116,
+        2200
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 26,
+      "label": "A7-B10-gate2",
+      "p": 7,
+      "q": 10,
+      "n": 19,
+      "y": [
+        0,
+        8
+      ],
+      "z": [
+        6,
+        0
+      ],
+      "total": [
+        270504,
+        144092,
+        38896
+      ],
+      "r": 5,
+      "s": 8,
+      "c_E": 26664,
+      "limit": "303/442",
+      "event": [
+        194436,
+        97878,
+        26664
+      ],
+      "low": [
+        -41096,
+        -422372,
+        -1006884
+      ],
+      "high": [
+        2200,
+        17500,
+        99900
+      ],
+      "balanced": [],
+      "derivative": [
+        70012800,
+        -1260230400,
+        -8191497600
+      ],
+      "discrete_difference": [
+        70012800,
+        -1190217600,
+        -8821612800
+      ],
+      "difference_positive": [
+        [
+          23,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          22
+        ]
+      ],
+      "low_window_coefficients": [
+        -312804,
+        -149542,
+        -41096
+      ],
+      "high_window_coefficients": [
+        42300,
+        5450,
+        2200
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 28,
+      "label": "A7-B10-gate4",
+      "p": 7,
+      "q": 10,
+      "n": 19,
+      "y": [
+        1,
+        9
+      ],
+      "z": [
+        6,
+        1
+      ],
+      "total": [
+        151139,
+        112247,
+        38896
+      ],
+      "r": 7,
+      "s": 9,
+      "c_E": 12870,
+      "limit": "45/136",
+      "event": [
+        38600,
+        38600,
+        12870
+      ],
+      "low": [
+        286,
+        -6248,
+        64144
+      ],
+      "high": [
+        -39182,
+        -334934,
+        -668708
+      ],
+      "balanced": [],
+      "derivative": [
+        -113533420,
+        1548026480,
+        8554031360
+      ],
+      "discrete_difference": [
+        -113533420,
+        1434493060,
+        9328044600
+      ],
+      "difference_positive": [
+        [
+          1,
+          17
+        ]
+      ],
+      "difference_negative": [
+        [
+          18,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        35339,
+        -3553,
+        286
+      ],
+      "high_window_coefficients": [
+        -186478,
+        -108694,
+        -39182
+      ],
+      "threshold_variations": [
+        2,
+        0
+      ]
+    },
+    {
+      "case_index": 31,
+      "label": "A7-B10-gate7",
+      "p": 7,
+      "q": 10,
+      "n": 19,
+      "y": [
+        2,
+        8
+      ],
+      "z": [
+        6,
+        3
+      ],
+      "total": [
+        269078,
+        143336,
+        38896
+      ],
+      "r": 5,
+      "s": 8,
+      "c_E": 26664,
+      "limit": "303/442",
+      "event": [
+        193572,
+        97500,
+        26664
+      ],
+      "low": [
+        -41096,
+        -421616,
+        -1003796
+      ],
+      "high": [
+        2200,
+        18256,
+        101176
+      ],
+      "balanced": [],
+      "derivative": [
+        59102208,
+        -1299718464,
+        -8110706880
+      ],
+      "discrete_difference": [
+        59102208,
+        -1240616256,
+        -8760566112
+      ],
+      "difference_positive": [
+        [
+          27,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          26
+        ]
+      ],
+      "low_window_coefficients": [
+        -311638,
+        -149164,
+        -41096
+      ],
+      "high_window_coefficients": [
+        42560,
+        5828,
+        2200
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 32,
+      "label": "A7-B10-gate8",
+      "p": 7,
+      "q": 10,
+      "n": 19,
+      "y": [
+        3,
+        7
+      ],
+      "z": [
+        5,
+        4
+      ],
+      "total": [
+        616722,
+        210620,
+        38896
+      ],
+      "r": 6,
+      "s": 7,
+      "c_E": 10824,
+      "limit": "123/442",
+      "event": [
+        163422,
+        58914,
+        10824
+      ],
+      "low": [
+        6424,
+        87028,
+        333516
+      ],
+      "high": [
+        -45320,
+        -624956,
+        -2065992
+      ],
+      "balanced": [],
+      "derivative": [
+        -23536128,
+        1228675008,
+        9544557840
+      ],
+      "discrete_difference": [
+        -23536128,
+        1205138880,
+        10158895344
+      ],
+      "difference_positive": [
+        [
+          1,
+          58
+        ]
+      ],
+      "difference_negative": [
+        [
+          59,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        126456,
+        33878,
+        6424
+      ],
+      "high_window_coefficients": [
+        -743178,
+        -244498,
+        -45320
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 34,
+      "label": "A8-B13-gate2",
+      "p": 8,
+      "q": 13,
+      "n": 23,
+      "y": [
+        0,
+        10
+      ],
+      "z": [
+        6,
+        0
+      ],
+      "total": [
+        7034940,
+        2364360,
+        406980
+      ],
+      "r": 7,
+      "s": 10,
+      "c_E": 140140,
+      "limit": "1001/2907",
+      "event": [
+        2422420,
+        852280,
+        140140
+      ],
+      "low": [
+        -13440,
+        -425280,
+        -876480
+      ],
+      "high": [
+        -393540,
+        -5524380,
+        -18736080
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -31039008000,
+        -62078016000,
+        1042023840000
+      ],
+      "discrete_difference": [
+        -31039008000,
+        -93117024000,
+        1010984832000
+      ],
+      "difference_positive": [
+        [
+          1,
+          4
+        ]
+      ],
+      "difference_negative": [
+        [
+          5,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -232320,
+        -192480,
+        -13440
+      ],
+      "high_window_coefficients": [
+        -6802620,
+        -2171880,
+        -393540
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 36,
+      "label": "A8-B13-gate4",
+      "p": 8,
+      "q": 13,
+      "n": 23,
+      "y": [
+        1,
+        12
+      ],
+      "z": [
+        7,
+        1
+      ],
+      "total": [
+        1634351,
+        1227375,
+        406980
+      ],
+      "r": 8,
+      "s": 12,
+      "c_E": 151164,
+      "limit": "13/35",
+      "event": [
+        487071,
+        487071,
+        151164
+      ],
+      "low": [
+        -46512,
+        -607212,
+        -214424
+      ],
+      "high": [
+        -360468,
+        -3068478,
+        -6322988
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -25386482160,
+        144534551616,
+        1060479620928
+      ],
+      "discrete_difference": [
+        -25386482160,
+        119148069456,
+        1132746896736
+      ],
+      "difference_positive": [
+        [
+          1,
+          9
+        ]
+      ],
+      "difference_negative": [
+        [
+          10,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        173138,
+        -233838,
+        -46512
+      ],
+      "high_window_coefficients": [
+        -1807489,
+        -993537,
+        -360468
+      ],
+      "threshold_variations": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_index": 36,
+      "label": "A8-B13-gate4",
+      "p": 8,
+      "q": 13,
+      "n": 23,
+      "y": [
+        1,
+        12
+      ],
+      "z": [
+        7,
+        1
+      ],
+      "total": [
+        1634351,
+        1227375,
+        406980
+      ],
+      "r": 8,
+      "s": 13,
+      "c_E": 251940,
+      "limit": "13/21",
+      "event": [
+        994823,
+        791335,
+        251940
+      ],
+      "low": [
+        -348840,
+        -3339780,
+        -5691176
+      ],
+      "high": [
+        -58140,
+        -335910,
+        -846236
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -25665321600,
+        -23789337600,
+        304839712640
+      ],
+      "discrete_difference": [
+        -25665321600,
+        -49454659200,
+        292945043840
+      ],
+      "difference_positive": [
+        [
+          1,
+          2
+        ]
+      ],
+      "difference_negative": [
+        [
+          3,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -1350118,
+        -1146630,
+        -348840
+      ],
+      "high_window_coefficients": [
+        -284233,
+        -80745,
+        -58140
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 39,
+      "label": "A8-B13-gate7",
+      "p": 8,
+      "q": 13,
+      "n": 23,
+      "y": [
+        2,
+        10
+      ],
+      "z": [
+        6,
+        4
+      ],
+      "total": [
+        6990434,
+        2351710,
+        406980
+      ],
+      "r": 7,
+      "s": 10,
+      "c_E": 140140,
+      "limit": "1001/2907",
+      "event": [
+        2390140,
+        842920,
+        140140
+      ],
+      "low": [
+        -13440,
+        -394420,
+        -740952
+      ],
+      "high": [
+        -393540,
+        -5529940,
+        -18757296
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -26965884400,
+        -26330794560,
+        1100277528480
+      ],
+      "discrete_difference": [
+        -26965884400,
+        -53296678960,
+        1087112131200
+      ],
+      "difference_positive": [
+        [
+          1,
+          5
+        ]
+      ],
+      "difference_negative": [
+        [
+          6,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -179986,
+        -177050,
+        -13440
+      ],
+      "high_window_coefficients": [
+        -6810448,
+        -2174660,
+        -393540
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 41,
+      "label": "A10-B15-gate1",
+      "p": 10,
+      "q": 15,
+      "n": 27,
+      "y": [
+        2,
+        12
+      ],
+      "z": [
+        8,
+        3
+      ],
+      "total": [
+        111993173,
+        37876785,
+        6537520
+      ],
+      "r": 9,
+      "s": 12,
+      "c_E": 2049112,
+      "limit": "793/2530",
+      "event": [
+        35283469,
+        12422635,
+        2049112
+      ],
+      "low": [
+        390184,
+        2388312,
+        14283660
+      ],
+      "high": [
+        -6927704,
+        -97754442,
+        -327098616
+      ],
+      "balanced": [],
+      "derivative": [
+        -7198900200560,
+        -19117118579136,
+        205025887747176
+      ],
+      "discrete_difference": [
+        -7198900200560,
+        -26316018779696,
+        195467328457608
+      ],
+      "difference_positive": [
+        [
+          1,
+          3
+        ]
+      ],
+      "difference_negative": [
+        [
+          4,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        6142766,
+        608880,
+        390184
+      ],
+      "high_window_coefficients": [
+        -118135939,
+        -38485665,
+        -6927704
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 42,
+      "label": "A10-B15-gate2",
+      "p": 10,
+      "q": 15,
+      "n": 27,
+      "y": [
+        0,
+        12
+      ],
+      "z": [
+        8,
+        0
+      ],
+      "total": [
+        112029320,
+        37887900,
+        6537520
+      ],
+      "r": 9,
+      "s": 12,
+      "c_E": 2049112,
+      "limit": "793/2530",
+      "event": [
+        35305192,
+        12429040,
+        2049112
+      ],
+      "low": [
+        390184,
+        2372112,
+        14209416
+      ],
+      "high": [
+        -6927704,
+        -97760472,
+        -327118896
+      ],
+      "balanced": [],
+      "derivative": [
+        -7237094072000,
+        -19465287504000,
+        204385518792000
+      ],
+      "discrete_difference": [
+        -7237094072000,
+        -26702381576000,
+        194652875040000
+      ],
+      "difference_positive": [
+        [
+          1,
+          3
+        ]
+      ],
+      "difference_negative": [
+        [
+          4,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        6113744,
+        600780,
+        390184
+      ],
+      "high_window_coefficients": [
+        -118143064,
+        -38488680,
+        -6927704
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 44,
+      "label": "A10-B15-gate4",
+      "p": 10,
+      "q": 15,
+      "n": 27,
+      "y": [
+        1,
+        14
+      ],
+      "z": [
+        9,
+        1
+      ],
+      "total": [
+        26075757,
+        19538241,
+        6537520
+      ],
+      "r": 10,
+      "s": 14,
+      "c_E": 2288132,
+      "limit": "7/20",
+      "event": [
+        7280405,
+        7280405,
+        2288132
+      ],
+      "low": [
+        -326876,
+        -5586576,
+        3209384
+      ],
+      "high": [
+        -6210644,
+        -53102466,
+        -107512420
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -5779437679576,
+        36717047522144,
+        257017503338288
+      ],
+      "discrete_difference": [
+        -5779437679576,
+        30937609842568,
+        275376027099360
+      ],
+      "difference_positive": [
+        [
+          1,
+          10
+        ]
+      ],
+      "difference_negative": [
+        [
+          11,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        4234542,
+        -2302974,
+        -326876
+      ],
+      "high_window_coefficients": [
+        -30310299,
+        -17235267,
+        -6210644
+      ],
+      "threshold_variations": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_index": 47,
+      "label": "A10-B15-gate7",
+      "p": 10,
+      "q": 15,
+      "n": 27,
+      "y": [
+        3,
+        12
+      ],
+      "z": [
+        8,
+        4
+      ],
+      "total": [
+        111868133,
+        37837668,
+        6537520
+      ],
+      "r": 9,
+      "s": 12,
+      "c_E": 2049112,
+      "limit": "793/2530",
+      "event": [
+        35227116,
+        12406124,
+        2049112
+      ],
+      "low": [
+        390184,
+        2409144,
+        14392530
+      ],
+      "high": [
+        -6927704,
+        -97697040,
+        -326879172
+      ],
+      "balanced": [],
+      "derivative": [
+        -7143328443328,
+        -18557223464352,
+        206202861054144
+      ],
+      "discrete_difference": [
+        -7143328443328,
+        -25700551907680,
+        196924249321968
+      ],
+      "difference_positive": [
+        [
+          1,
+          3
+        ]
+      ],
+      "difference_negative": [
+        [
+          4,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        6186785,
+        619296,
+        390184
+      ],
+      "high_window_coefficients": [
+        -118054918,
+        -38456964,
+        -6927704
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 52,
+      "label": "A12-B17-gate4",
+      "p": 12,
+      "q": 17,
+      "n": 31,
+      "y": [
+        1,
+        16
+      ],
+      "z": [
+        11,
+        1
+      ],
+      "total": [
+        412506113,
+        308714247,
+        103791870
+      ],
+      "r": 12,
+      "s": 16,
+      "c_E": 34767720,
+      "limit": "68/203",
+      "event": [
+        109652023,
+        109652023,
+        34767720
+      ],
+      "low": [
+        -511290,
+        -42017514,
+        125593864
+      ],
+      "high": [
+        -103280580,
+        -886786590,
+        -1775618324
+      ],
+      "balanced": [
+        [
+          3,
+          null
+        ]
+      ],
+      "derivative": [
+        -1295396033492340,
+        9252842007492720,
+        61994007389603432
+      ],
+      "discrete_difference": [
+        -1295396033492340,
+        7957445974000380,
+        66620428393349792
+      ],
+      "difference_positive": [
+        [
+          1,
+          10
+        ]
+      ],
+      "difference_negative": [
+        [
+          11,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        83550044,
+        -20241822,
+        -511290
+      ],
+      "high_window_coefficients": [
+        -496056157,
+        -288472425,
+        -103280580
+      ],
+      "threshold_variations": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_index": 55,
+      "label": "A12-B17-gate7",
+      "p": 12,
+      "q": 17,
+      "n": 31,
+      "y": [
+        3,
+        13
+      ],
+      "z": [
+        9,
+        5
+      ],
+      "total": [
+        3208906465,
+        806750595,
+        103791870
+      ],
+      "r": 12,
+      "s": 16,
+      "c_E": 34767720,
+      "limit": "68/203",
+      "event": [
+        1087620264,
+        275255800,
+        34767720
+      ],
+      "low": [
+        -511290,
+        -39567480,
+        -146964844
+      ],
+      "high": [
+        -103280580,
+        -1885309320,
+        -8091933016
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -1040870827105200,
+        -7360859930785920,
+        14367735888791200
+      ],
+      "discrete_difference": [
+        -1040870827105200,
+        -8401730757891120,
+        10687305923398240
+      ],
+      "difference_positive": [
+        [
+          1,
+          1
+        ]
+      ],
+      "difference_negative": [
+        [
+          2,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -53954327,
+        -19016805,
+        -511290
+      ],
+      "high_window_coefficients": [
+        -3154952138,
+        -787733790,
+        -103280580
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 56,
+      "label": "A12-B17-gate8",
+      "p": 12,
+      "q": 17,
+      "n": 31,
+      "y": [
+        4,
+        12
+      ],
+      "z": [
+        8,
+        6
+      ],
+      "total": [
+        5015994180,
+        1005654300,
+        103791870
+      ],
+      "r": 12,
+      "s": 16,
+      "c_E": 34767720,
+      "limit": "68/203",
+      "event": [
+        1676261946,
+        339722202,
+        34767720
+      ],
+      "low": [
+        -511290,
+        -28558482,
+        -53630508
+      ],
+      "high": [
+        -103280580,
+        -2294125728,
+        -12197250192
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -592191013803480,
+        464894719155360,
+        75099940616406240
+      ],
+      "discrete_difference": [
+        -592191013803480,
+        -127296294648120,
+        75332387975983920
+      ],
+      "difference_positive": [
+        [
+          1,
+          11
+        ]
+      ],
+      "difference_negative": [
+        [
+          12,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -12791658,
+        -13512306,
+        -511290
+      ],
+      "high_window_coefficients": [
+        -5003202522,
+        -992141994,
+        -103280580
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 56,
+      "label": "A12-B17-gate8",
+      "p": 12,
+      "q": 17,
+      "n": 31,
+      "y": [
+        4,
+        12
+      ],
+      "z": [
+        8,
+        6
+      ],
+      "total": [
+        5015994180,
+        1005654300,
+        103791870
+      ],
+      "r": 9,
+      "s": 11,
+      "c_E": 32097156,
+      "limit": "3094/10005",
+      "event": [
+        1569271470,
+        322200294,
+        32097156
+      ],
+      "low": [
+        7500402,
+        100608042,
+        709467180
+      ],
+      "high": [
+        -111292272,
+        -2423292252,
+        -12960347880
+      ],
+      "balanced": [],
+      "derivative": [
+        -2326256159277960,
+        -12166403192143200,
+        138443698832212800
+      ],
+      "discrete_difference": [
+        -2326256159277960,
+        -14492659351421160,
+        132360497236141200
+      ],
+      "difference_positive": [
+        [
+          1,
+          5
+        ]
+      ],
+      "difference_negative": [
+        [
+          6,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        308179770,
+        39053418,
+        7500402
+      ],
+      "high_window_coefficients": [
+        -5324173950,
+        -1044707718,
+        -111292272
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 57,
+      "label": "A14-B20-gate1",
+      "p": 14,
+      "q": 20,
+      "n": 36,
+      "y": [
+        3,
+        16
+      ],
+      "z": [
+        12,
+        4
+      ],
+      "total": [
+        62173178775,
+        18559130724,
+        2783951280
+      ],
+      "r": 9,
+      "s": 14,
+      "c_E": 1836417792,
+      "limit": "204592/310155",
+      "event": [
+        42633678672,
+        12225790176,
+        1836417792
+      ],
+      "low": [
+        -2725302096,
+        -44412385896,
+        -173142798282
+      ],
+      "high": [
+        -58649184,
+        -1057729392,
+        6110276724
+      ],
+      "balanced": [
+        [
+          5,
+          null
+        ]
+      ],
+      "derivative": [
+        92627312241632256,
+        -17871355865182076928,
+        -151503398184544396416
+      ],
+      "discrete_difference": [
+        92627312241632256,
+        -17778728552940444672,
+        -160439076117135434880
+      ],
+      "difference_positive": [
+        [
+          201,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          200
+        ]
+      ],
+      "low_window_coefficients": [
+        -65727857241,
+        -18118239804,
+        -2725302096
+      ],
+      "high_window_coefficients": [
+        3554678466,
+        -440890920,
+        -58649184
+      ],
+      "threshold_variations": [
+        0,
+        1
+      ]
+    },
+    {
+      "case_index": 60,
+      "label": "A14-B20-gate4",
+      "p": 14,
+      "q": 20,
+      "n": 36,
+      "y": [
+        1,
+        19
+      ],
+      "z": [
+        13,
+        1
+      ],
+      "total": [
+        11135805078,
+        8351853802,
+        2783951280
+      ],
+      "r": 14,
+      "s": 19,
+      "c_E": 942871200,
+      "limit": "190/561",
+      "event": [
+        3017187820,
+        3017187820,
+        942871200
+      ],
+      "low": [
+        -44662320,
+        -1533406276,
+        2679739280
+      ],
+      "high": [
+        -2739288960,
+        -23522155168,
+        -47222959600
+      ],
+      "balanced": [
+        [
+          2,
+          null
+        ]
+      ],
+      "derivative": [
+        -1049962953946214400,
+        6299778105589747200,
+        45148408591959682880
+      ],
+      "discrete_difference": [
+        -1049962953946214400,
+        5249815151643532800,
+        48298297644754556480
+      ],
+      "difference_positive": [
+        [
+          1,
+          9
+        ]
+      ],
+      "difference_negative": [
+        [
+          10,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        2084241618,
+        -699709658,
+        -44662320
+      ],
+      "high_window_coefficients": [
+        -13220046696,
+        -7652144144,
+        -2739288960
+      ],
+      "threshold_variations": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_index": 66,
+      "label": "A17-B23-gate2",
+      "p": 17,
+      "q": 23,
+      "n": 42,
+      "y": [
+        0,
+        18
+      ],
+      "z": [
+        13,
+        0
+      ],
+      "total": [
+        8690843545800,
+        1742605328100,
+        177464757600
+      ],
+      "r": 17,
+      "s": 22,
+      "c_E": 57562286760,
+      "limit": "253/780",
+      "event": [
+        2841047713950,
+        573442477950,
+        57562286760
+      ],
+      "low": [
+        4777897320,
+        58889480460,
+        389512391040
+      ],
+      "high": [
+        -182242654920,
+        -4076494409460,
+        -21611339654040
+      ],
+      "balanced": [],
+      "derivative": [
+        -2914965482688017928000,
+        -21513993031520415504000,
+        105054840072981885060000
+      ],
+      "discrete_difference": [
+        -2914965482688017928000,
+        -24428958514208433432000,
+        94297843557221677308000
+      ],
+      "difference_positive": [
+        [
+          1,
+          2
+        ]
+      ],
+      "difference_negative": [
+        [
+          3,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        167700403950,
+        22277894250,
+        4777897320
+      ],
+      "high_window_coefficients": [
+        -8858543949750,
+        -1764883222350,
+        -182242654920
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 68,
+      "label": "A17-B23-gate4",
+      "p": 17,
+      "q": 23,
+      "n": 42,
+      "y": [
+        1,
+        22
+      ],
+      "z": [
+        16,
+        1
+      ],
+      "total": [
+        707394242052,
+        529929484456,
+        177464757600
+      ],
+      "r": 17,
+      "s": 22,
+      "c_E": 57562286760,
+      "limit": "253/780",
+      "event": [
+        182280574717,
+        182280574717,
+        57562286760
+      ],
+      "low": [
+        4777897320,
+        -19490787430,
+        296836351052
+      ],
+      "high": [
+        -182242654920,
+        -1572762454282,
+        -3126413319268
+      ],
+      "balanced": [],
+      "derivative": [
+        -3688850121011717993280,
+        26105708582092488942720,
+        175929775141610054601968
+      ],
+      "discrete_difference": [
+        -3688850121011717993280,
+        22416858461080770949440,
+        188982629432656299073328
+      ],
+      "difference_positive": [
+        [
+          1,
+          10
+        ]
+      ],
+      "difference_negative": [
+        [
+          11,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        160552517901,
+        -16912239695,
+        4777897320
+      ],
+      "high_window_coefficients": [
+        -867946759953,
+        -513017244761,
+        -182242654920
+      ],
+      "threshold_variations": [
+        2,
+        0
+      ]
+    },
+    {
+      "case_index": 71,
+      "label": "A17-B23-gate7",
+      "p": 17,
+      "q": 23,
+      "n": 42,
+      "y": [
+        5,
+        18
+      ],
+      "z": [
+        13,
+        6
+      ],
+      "total": [
+        8689461370996,
+        1742370436040,
+        177464757600
+      ],
+      "r": 17,
+      "s": 22,
+      "c_E": 57562286760,
+      "limit": "253/780",
+      "event": [
+        2840531028134,
+        573355433174,
+        57562286760
+      ],
+      "low": [
+        4777897320,
+        58941964996,
+        389900640864
+      ],
+      "high": [
+        -182242654920,
+        -4076077109876,
+        -21608493770136
+      ],
+      "balanced": [],
+      "derivative": [
+        -2911112570772379584000,
+        -21457757685003125189760,
+        105205997978697720471136
+      ],
+      "discrete_difference": [
+        -2911112570772379584000,
+        -24368870255775504773760,
+        94477119136196157876256
+      ],
+      "difference_positive": [
+        [
+          1,
+          2
+        ]
+      ],
+      "difference_negative": [
+        [
+          3,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        167868286594,
+        22304136518,
+        4777897320
+      ],
+      "high_window_coefficients": [
+        -8857329657590,
+        -1764674572558,
+        -182242654920
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 73,
+      "label": "A20-B27-gate1",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        4,
+        22
+      ],
+      "z": [
+        16,
+        6
+      ],
+      "total": [
+        959508767229520,
+        192459713690376,
+        19524959358212
+      ],
+      "r": 20,
+      "s": 26,
+      "c_E": 6339741660252,
+      "limit": "351/1081",
+      "event": [
+        314523372752118,
+        63489934810764,
+        6339741660252
+      ],
+      "low": [
+        505734377456,
+        5497021648536,
+        36868585217412
+      ],
+      "high": [
+        -20030693735668,
+        -448991327103924,
+        -2379855465773628
+      ],
+      "balanced": [],
+      "derivative": [
+        -38987064065294941990518432,
+        -310047588973952197175652768,
+        1157185996488523174234905360
+      ],
+      "discrete_difference": [
+        -38987064065294941990518432,
+        -349034653039247139166171200,
+        1002162202001547075647078976
+      ],
+      "difference_positive": [
+        [
+          1,
+          2
+        ]
+      ],
+      "difference_negative": [
+        [
+          3,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        15938648973166,
+        1989909258084,
+        505734377456
+      ],
+      "high_window_coefficients": [
+        -975447416202686,
+        -194449622948460,
+        -20030693735668
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 74,
+      "label": "A20-B27-gate2",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        0,
+        21
+      ],
+      "z": [
+        15,
+        0
+      ],
+      "total": [
+        1389061394341368,
+        231510232390228,
+        19524959358212
+      ],
+      "r": 20,
+      "s": 26,
+      "c_E": 6339741660252,
+      "limit": "351/1081",
+      "event": [
+        452594853800298,
+        76042066177638,
+        6339741660252
+      ],
+      "low": [
+        505734377456,
+        8285270846996,
+        70333202350488
+      ],
+      "high": [
+        -20030693735668,
+        -529880613702088,
+        -3350526374530104
+      ],
+      "balanced": [],
+      "derivative": [
+        -34006373147797738810491600,
+        -190435689627667337338752960,
+        3169393977374749257137817120
+      ],
+      "discrete_difference": [
+        -34006373147797738810491600,
+        -224442062775465076149244560,
+        3074176132560915588468440640
+      ],
+      "difference_positive": [
+        [
+          1,
+          6
+        ]
+      ],
+      "difference_negative": [
+        [
+          7,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        31276832940474,
+        3384033857314,
+        505734377456
+      ],
+      "high_window_coefficients": [
+        -1420338227281842,
+        -234894266247542,
+        -20030693735668
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 74,
+      "label": "A20-B27-gate2",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        0,
+        21
+      ],
+      "z": [
+        15,
+        0
+      ],
+      "total": [
+        1389061394341368,
+        231510232390228,
+        19524959358212
+      ],
+      "r": 16,
+      "s": 20,
+      "c_E": 6718752537420,
+      "limit": "1054995/3065857",
+      "event": [
+        492633095711130,
+        83110348366980,
+        6718752537420
+      ],
+      "low": [
+        -631298254048,
+        -37535520183568,
+        -214580007513564
+      ],
+      "high": [
+        -18893661104164,
+        -484059822671524,
+        -3065613164666052
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -134532425603174632880616000,
+        -1412590468833333645246468000,
+        3733274810488096062437094000
+      ],
+      "discrete_difference": [
+        -134532425603174632880616000,
+        -1547122894436508278127084000,
+        3026979576071429239813860000
+      ],
+      "difference_positive": [
+        [
+          1,
+          1
+        ]
+      ],
+      "difference_negative": [
+        [
+          2,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -88837892792022,
+        -17820812710712,
+        -631298254048
+      ],
+      "high_window_coefficients": [
+        -1300223501549346,
+        -213689419679516,
+        -18893661104164
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 76,
+      "label": "A20-B27-gate4",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        1,
+        26
+      ],
+      "z": [
+        19,
+        1
+      ],
+      "total": [
+        78099837432793,
+        58574878074585,
+        19524959358212
+      ],
+      "r": 20,
+      "s": 26,
+      "c_E": 6339741660252,
+      "limit": "351/1081",
+      "event": [
+        20226794820777,
+        20226794820777,
+        6339741660252
+      ],
+      "low": [
+        505734377456,
+        -2693809643124,
+        31639361920344
+      ],
+      "high": [
+        -20030693735668,
+        -173030824580682,
+        -344038711651524
+      ],
+      "balanced": [],
+      "derivative": [
+        -47155504097871836994550608,
+        306510776640346293235991232,
+        2133786560446195083058638528
+      ],
+      "discrete_difference": [
+        -47155504097871836994550608,
+        259355272542474456241440624,
+        2287041948766368229676634144
+      ],
+      "difference_positive": [
+        [
+          1,
+          10
+        ]
+      ],
+      "difference_negative": [
+        [
+          11,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        17419452970462,
+        -2105506387746,
+        505734377456
+      ],
+      "high_window_coefficients": [
+        -95519290403255,
+        -56469371686839,
+        -20030693735668
+      ],
+      "threshold_variations": [
+        2,
+        0
+      ]
+    },
+    {
+      "case_index": 79,
+      "label": "A20-B27-gate7",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        5,
+        21
+      ],
+      "z": [
+        15,
+        7
+      ],
+      "total": [
+        1388997239517044,
+        231501525225212,
+        19524959358212
+      ],
+      "r": 20,
+      "s": 26,
+      "c_E": 6339741660252,
+      "limit": "351/1081",
+      "event": [
+        452560596249094,
+        76037286789552,
+        6339741660252
+      ],
+      "low": [
+        505734377456,
+        8296532845480,
+        70421700007548
+      ],
+      "high": [
+        -20030693735668,
+        -529874461370540,
+        -3350469148208484
+      ],
+      "balanced": [],
+      "derivative": [
+        -33930140785114441476655200,
+        -189234615772312921013809760,
+        3172461008139387849209261200
+      ],
+      "discrete_difference": [
+        -33930140785114441476655200,
+        -223164756557427362490464960,
+        3077843700253231388702356320
+      ],
+      "difference_positive": [
+        [
+          1,
+          6
+        ]
+      ],
+      "difference_negative": [
+        [
+          7,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        31315450769762,
+        3389664856556,
+        505734377456
+      ],
+      "high_window_coefficients": [
+        -1420312690286806,
+        -234891190081768,
+        -20030693735668
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 79,
+      "label": "A20-B27-gate7",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        5,
+        21
+      ],
+      "z": [
+        15,
+        7
+      ],
+      "total": [
+        1388997239517044,
+        231501525225212,
+        19524959358212
+      ],
+      "r": 16,
+      "s": 20,
+      "c_E": 6718752537420,
+      "limit": "1054995/3065857",
+      "event": [
+        492581323849659,
+        83103393246984,
+        6718752537420
+      ],
+      "low": [
+        -631298254048,
+        -37511203793624,
+        -214373369603442
+      ],
+      "high": [
+        -18893661104164,
+        -484066724731436,
+        -3065674078597494
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -134377831306757826974399136,
+        -1409962067830877443857851184,
+        3742036744507109881622791848
+      ],
+      "discrete_difference": [
+        -134377831306757826974399136,
+        -1544339899137635270832250320,
+        3037055710591671159693866256
+      ],
+      "difference_positive": [
+        [
+          1,
+          1
+        ]
+      ],
+      "difference_negative": [
+        [
+          2,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -88746732031933,
+        -17808654515740,
+        -631298254048
+      ],
+      "high_window_coefficients": [
+        -1300250507485111,
+        -213692870709472,
+        -18893661104164
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 81,
+      "label": "A24-B30-gate1",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        5,
+        24
+      ],
+      "z": [
+        20,
+        6
+      ],
+      "total": [
+        162255983974523505,
+        30044053297669905,
+        2805319123162920
+      ],
+      "r": 14,
+      "s": 19,
+      "c_E": 1842261390596640,
+      "limit": "2240866772/3412298841",
+      "event": [
+        108286210916562900,
+        19697481907256010,
+        1842261390596640
+      ],
+      "low": [
+        -2721465048627000,
+        -66261179994077250,
+        -388745012495780640
+      ],
+      "high": [
+        -83854074535920,
+        -2242883970751320,
+        -1465700294932020
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        182553469488031687960685940000,
+        -19072667419245709013404522699200,
+        -258263642058815101439626443966600
+      ],
+      "discrete_difference": [
+        182553469488031687960685940000,
+        -18890113949757677325443836759200,
+        -267799975768437955946328705316200
+      ],
+      "difference_positive": [
+        [
+          117,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          116
+        ]
+      ],
+      "low_window_coefficients": [
+        -162602648775165195,
+        -29048392424098125,
+        -2721465048627000
+      ],
+      "high_window_coefficients": [
+        346664800641690,
+        -995660873571780,
+        -83854074535920
+      ],
+      "threshold_variations": [
+        0,
+        1
+      ]
+    },
+    {
+      "case_index": 81,
+      "label": "A24-B30-gate1",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        5,
+        24
+      ],
+      "z": [
+        20,
+        6
+      ],
+      "total": [
+        162255983974523505,
+        30044053297669905,
+        2805319123162920
+      ],
+      "r": 13,
+      "s": 18,
+      "c_E": 1899365255660340,
+      "limit": "47746738453/70520842714",
+      "event": [
+        111398762684898000,
+        20306068304784210,
+        1899365255660340
+      ],
+      "low": [
+        -2892776643818100,
+        -70426633164819750,
+        -411414464681342640
+      ],
+      "high": [
+        87457520655180,
+        1922569199991180,
+        21203751890629980
+      ],
+      "balanced": [],
+      "derivative": [
+        199258482276157642141693149000,
+        -16904286125213293057804437175200,
+        -234112025964014109066934029396600
+      ],
+      "discrete_difference": [
+        199258482276157642141693149000,
+        -16705027642937135415662744026200,
+        -242564169026620755595836247984200
+      ],
+      "difference_positive": [
+        [
+          97,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          96
+        ]
+      ],
+      "low_window_coefficients": [
+        -171940304080170495,
+        -30874151616682725,
+        -2892776643818100
+      ],
+      "high_window_coefficients": [
+        9684320105646990,
+        830098319012820,
+        87457520655180
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 81,
+      "label": "A24-B30-gate1",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        5,
+        24
+      ],
+      "z": [
+        20,
+        6
+      ],
+      "total": [
+        162255983974523505,
+        30044053297669905,
+        2805319123162920
+      ],
+      "r": 18,
+      "s": 24,
+      "c_E": 1905933902116140,
+      "limit": "17319873/25492894",
+      "event": [
+        112089462431661000,
+        20250829404998010,
+        1905933902116140
+      ],
+      "low": [
+        -2912482583185500,
+        -70154317584204750,
+        -415266641641938240
+      ],
+      "high": [
+        107163460022580,
+        1650253619376180,
+        25055928851225580
+      ],
+      "balanced": [],
+      "derivative": [
+        903881494524783076006373955000,
+        -18982364156281780721993413087200,
+        -357495437206772713463177423460600
+      ],
+      "discrete_difference": [
+        903881494524783076006373955000,
+        -18078482661756997645987039132200,
+        -366986619284913603824174130004200
+      ],
+      "difference_positive": [
+        [
+          33,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          32
+        ]
+      ],
+      "low_window_coefficients": [
+        -174012403320459495,
+        -30708434917324125,
+        -2912482583185500
+      ],
+      "high_window_coefficients": [
+        11756419345935990,
+        664381619654220,
+        107163460022580
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 82,
+      "label": "A24-B30-gate2",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        0,
+        23
+      ],
+      "z": [
+        18,
+        0
+      ],
+      "total": [
+        270658998886063788,
+        38704354483121964,
+        2805319123162920
+      ],
+      "r": 19,
+      "s": 22,
+      "c_E": 920442525703740,
+      "limit": "342939413/1045208654",
+      "event": [
+        90891907689874434,
+        13113557117965122,
+        920442525703740
+      ],
+      "low": [
+        43991546051700,
+        -1140659103391704,
+        -5218099016562432
+      ],
+      "high": [
+        -2849310669214620,
+        -84684007232340984,
+        -619119245968134912
+      ],
+      "balanced": [
+        [
+          1,
+          29
+        ]
+      ],
+      "derivative": [
+        -2325157519078262936431065461760,
+        -28069332014273760096752109404160,
+        88104823046972084295011501752320
+      ],
+      "discrete_difference": [
+        -2325157519078262936431065461760,
+        -30394489533352023033183174865920,
+        74070157039835204246635447050240
+      ],
+      "difference_positive": [
+        [
+          1,
+          2
+        ]
+      ],
+      "difference_negative": [
+        [
+          3,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -2016724183559514,
+        -636316870773402,
+        43991546051700
+      ],
+      "high_window_coefficients": [
+        -268642274702504274,
+        -38068037612348562,
+        -2849310669214620
+      ],
+      "threshold_variations": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_index": 82,
+      "label": "A24-B30-gate2",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        0,
+        23
+      ],
+      "z": [
+        18,
+        0
+      ],
+      "total": [
+        270658998886063788,
+        38704354483121964,
+        2805319123162920
+      ],
+      "r": 22,
+      "s": 26,
+      "c_E": 881004532622292,
+      "limit": "19807/63070",
+      "event": [
+        84706616227223808,
+        12298640704358652,
+        881004532622292
+      ],
+      "low": [
+        162305525296044,
+        4103781315980148,
+        37019776199468832
+      ],
+      "high": [
+        -2967624648458964,
+        -89928447651712836,
+        -661357121184166176
+      ],
+      "balanced": [],
+      "derivative": [
+        -805800449993664993809052724704,
+        1679256911935129631877638401536,
+        205022002975352645055606215751168
+      ],
+      "discrete_difference": [
+        -805800449993664993809052724704,
+        873456461941464638068585676832,
+        205861631431320209871545034951936
+      ],
+      "difference_positive": [
+        [
+          1,
+          16
+        ]
+      ],
+      "difference_negative": [
+        [
+          17,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        16539150204392364,
+        1808432370046008,
+        162305525296044
+      ],
+      "high_window_coefficients": [
+        -287198149090456152,
+        -40512786853167972,
+        -2967624648458964
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 87,
+      "label": "A24-B30-gate7",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        6,
+        23
+      ],
+      "z": [
+        18,
+        8
+      ],
+      "total": [
+        270653911479036459,
+        38703772190050461,
+        2805319123162920
+      ],
+      "r": 19,
+      "s": 22,
+      "c_E": 920442525703740,
+      "limit": "342939413/1045208654",
+      "event": [
+        90887841536360440,
+        13113097233226380,
+        920442525703740
+      ],
+      "low": [
+        43991546051700,
+        -1139064381102258,
+        -5202282187243680
+      ],
+      "high": [
+        -2849310669214620,
+        -84684437368487424,
+        -619123723397256000
+      ],
+      "balanced": [
+        [
+          1,
+          29
+        ]
+      ],
+      "derivative": [
+        -2323649206785043524043690810920,
+        -28039418619939298018174862534400,
+        88223146919461930579674433522560
+      ],
+      "discrete_difference": [
+        -2323649206785043524043690810920,
+        -30363067826724341542218553345320,
+        74203437609492281570587002255360
+      ],
+      "difference_positive": [
+        [
+          1,
+          2
+        ]
+      ],
+      "difference_negative": [
+        [
+          3,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -2009613130044861,
+        -635519509628679,
+        43991546051700
+      ],
+      "high_window_coefficients": [
+        -268644298348991598,
+        -38068252680421782,
+        -2849310669214620
+      ],
+      "threshold_variations": [
+        1,
+        0
+      ]
+    },
+    {
+      "case_index": 87,
+      "label": "A24-B30-gate7",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        6,
+        23
+      ],
+      "z": [
+        18,
+        8
+      ],
+      "total": [
+        270653911479036459,
+        38703772190050461,
+        2805319123162920
+      ],
+      "r": 22,
+      "s": 26,
+      "c_E": 881004532622292,
+      "limit": "19807/63070",
+      "event": [
+        84703069768355319,
+        12298229879601909,
+        881004532622292
+      ],
+      "low": [
+        162305525296044,
+        4105081678377600,
+        37032180501022560
+      ],
+      "high": [
+        -2967624648458964,
+        -89928583427967282,
+        -661358186085522240
+      ],
+      "balanced": [],
+      "derivative": [
+        -804521466571562607220833075336,
+        1703682559710980698434568139520,
+        205107387053676589279030435352640
+      ],
+      "discrete_difference": [
+        -804521466571562607220833075336,
+        899161093139418091213735064184,
+        205959228333532079628247719422400
+      ],
+      "difference_positive": [
+        [
+          1,
+          16
+        ]
+      ],
+      "difference_negative": [
+        [
+          17,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        16544702173970502,
+        1809082551244734,
+        162305525296044
+      ],
+      "high_window_coefficients": [
+        -287198613653006961,
+        -40512854741295195,
+        -2967624648458964
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 88,
+      "label": "A24-B30-gate8",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        8,
+        20
+      ],
+      "z": [
+        16,
+        10
+      ],
+      "total": [
+        496096885298359026,
+        52294101832043136,
+        2805319123162920
+      ],
+      "r": 19,
+      "s": 22,
+      "c_E": 920442525703740,
+      "limit": "342939413/1045208654",
+      "event": [
+        164232379291308900,
+        17345047789624230,
+        920442525703740
+      ],
+      "low": [
+        43991546051700,
+        649891564495992,
+        7405394867308944
+      ],
+      "high": [
+        -2849310669214620,
+        -113654052598071024,
+        -1109798007374439108
+      ],
+      "balanced": [],
+      "derivative": [
+        -1049358173426454713990866045920,
+        -18480973029551316613529392214880,
+        40134924823835738020781516127840
+      ],
+      "discrete_difference": [
+        -1049358173426454713990866045920,
+        -19530331202977771327520258260800,
+        30894438309060079714016820020400
+      ],
+      "difference_positive": [
+        [
+          1,
+          1
+        ]
+      ],
+      "difference_negative": [
+        [
+          2,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        3399747424432326,
+        258958463170446,
+        43991546051700
+      ],
+      "high_window_coefficients": [
+        -499496632722791352,
+        -52553060295213582,
+        -2849310669214620
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 89,
+      "label": "A27-B31-gate1",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        6,
+        25
+      ],
+      "z": [
+        22,
+        7
+      ],
+      "total": [
+        3685514181382170631,
+        618217577381171427,
+        52504559994897472
+      ],
+      "r": 23,
+      "s": 25,
+      "c_E": 17889956239780856,
+      "limit": "326647/958664",
+      "event": [
+        1260259932480033183,
+        213140310441119391,
+        17889956239780856
+      ],
+      "low": [
+        -1165308724445096,
+        -45902634057708780,
+        -235268557449121520
+      ],
+      "high": [
+        -51339251270452376,
+        -1348046200689326490,
+        -8477204080067357540
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -261905621748666347555441814556080,
+        -1466634475675502619185396443405120,
+        23991037236300302163159863497378800
+      ],
+      "discrete_difference": [
+        -261905621748666347555441814556080,
+        -1728540097424168966740838257961200,
+        23257719998462550853567165275676240
+      ],
+      "difference_positive": [
+        [
+          1,
+          6
+        ]
+      ],
+      "difference_negative": [
+        [
+          7,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -95265616057928918,
+        -21203353942186746,
+        -1165308724445096
+      ],
+      "high_window_coefficients": [
+        -3590248565324241713,
+        -597014223438984681,
+        -51339251270452376
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 89,
+      "label": "A27-B31-gate1",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        6,
+        25
+      ],
+      "z": [
+        22,
+        7
+      ],
+      "total": [
+        3685514181382170631,
+        618217577381171427,
+        52504559994897472
+      ],
+      "r": 16,
+      "s": 20,
+      "c_E": 34935229402658816,
+      "limit": "108117088/162490421",
+      "event": [
+        2469109829167215933,
+        410954545862031501,
+        34935229402658816
+      ],
+      "low": [
+        -52301128213078976,
+        -1386195505049083080,
+        -8777524989074958440
+      ],
+      "high": [
+        -203431781818496,
+        -7753329697952190,
+        65052351558479380
+      ],
+      "balanced": [
+        [
+          8,
+          null
+        ]
+      ],
+      "derivative": [
+        41170556356648480072780719169920,
+        -3458625951937474284414339487214080,
+        -52743440831849726106053315147958000
+      ],
+      "discrete_difference": [
+        41170556356648480072780719169920,
+        -3417455395580825804341558768044160,
+        -54472753807818463248260484891565040
+      ],
+      "difference_positive": [
+        [
+          97,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          96
+        ]
+      ],
+      "low_window_coefficients": [
+        -3721815306119477168,
+        -614646060204923076,
+        -52301128213078976
+      ],
+      "high_window_coefficients": [
+        36301124737306537,
+        -3571517176248351,
+        -203431781818496
+      ],
+      "threshold_variations": [
+        0,
+        1
+      ]
+    },
+    {
+      "case_index": 89,
+      "label": "A27-B31-gate1",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        6,
+        25
+      ],
+      "z": [
+        22,
+        7
+      ],
+      "total": [
+        3685514181382170631,
+        618217577381171427,
+        52504559994897472
+      ],
+      "r": 18,
+      "s": 22,
+      "c_E": 33802692966393296,
+      "limit": "554161549/860760068",
+      "event": [
+        2392657201783609173,
+        397548624277764861,
+        33802692966393296
+      ],
+      "low": [
+        -48903518904282416,
+        -1295567147617093560,
+        -8231578476650124920
+      ],
+      "high": [
+        -3601041090615056,
+        -98381687129941710,
+        -480894160866354140
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        48606720724735546158805320444000,
+        -4083223765435205475802391467995520,
+        -62268633992005536827260867781691600
+      ],
+      "discrete_difference": [
+        48606720724735546158805320444000,
+        -4034617044710469929643586147551520,
+        -64310245874723139565162063515689360
+      ],
+      "difference_positive": [
+        [
+          97,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          96
+        ]
+      ],
+      "low_window_coefficients": [
+        -3492457423968656888,
+        -574428295452123156,
+        -48903518904282416
+      ],
+      "high_window_coefficients": [
+        -193056757413513743,
+        -43789281929048271,
+        -3601041090615056
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 89,
+      "label": "A27-B31-gate1",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        6,
+        25
+      ],
+      "z": [
+        22,
+        7
+      ],
+      "total": [
+        3685514181382170631,
+        618217577381171427,
+        52504559994897472
+      ],
+      "r": 19,
+      "s": 23,
+      "c_E": 33251438133521696,
+      "limit": "6647857/10497074",
+      "event": [
+        2355750690722855553,
+        391016254508236401,
+        33251438133521696
+      ],
+      "low": [
+        -47249754405667616,
+        -1251411635504078400,
+        -7967637662671202840
+      ],
+      "high": [
+        -5254805589229856,
+        -142537199242956870,
+        -744834974845276220
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        52974267075772555604231733003840,
+        -4450078192381349773081714487399680,
+        -67863200989362069903429885535287600
+      ],
+      "discrete_difference": [
+        52974267075772555604231733003840,
+        -4397103925305577217477482754395840,
+        -70088240085552744789970742778987440
+      ],
+      "difference_positive": [
+        [
+          97,
+          null
+        ]
+      ],
+      "difference_negative": [
+        [
+          1,
+          96
+        ]
+      ],
+      "low_window_coefficients": [
+        -3381737890786396028,
+        -554831186143537776,
+        -47249754405667616
+      ],
+      "high_window_coefficients": [
+        -303776290595774603,
+        -63386391237633651,
+        -5254805589229856
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 90,
+      "label": "A27-B31-gate2",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        0,
+        24
+      ],
+      "z": [
+        21,
+        0
+      ],
+      "total": [
+        5033874689510795128,
+        721937699929840240,
+        52504559994897472
+      ],
+      "r": 23,
+      "s": 25,
+      "c_E": 17889956239780856,
+      "limit": "326647/958664",
+      "event": [
+        1716316933956608984,
+        248221657232225600,
+        17889956239780856
+      ],
+      "low": [
+        -1165308724445096,
+        -48950469707008408,
+        -277937385700626960
+      ],
+      "high": [
+        -51339251270452376,
+        -1552438610137364488,
+        -11338696513170438720
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -234670069178760688048987366475520,
+        -704010207536282064146962099426560,
+        41184597140872500752597282816453760
+      ],
+      "discrete_difference": [
+        -234670069178760688048987366475520,
+        -938680276715042752195949465902080,
+        40832592037104359720523801766740480
+      ],
+      "difference_positive": [
+        [
+          1,
+          11
+        ]
+      ],
+      "difference_negative": [
+        [
+          12,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -115076112359031824,
+        -22727271766836560,
+        -1165308724445096
+      ],
+      "high_window_coefficients": [
+        -4918798577151763304,
+        -699210428163003680,
+        -51339251270452376
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 95,
+      "label": "A27-B31-gate7",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        7,
+        24
+      ],
+      "z": [
+        21,
+        8
+      ],
+      "total": [
+        5033852379636068716,
+        721935055449044052,
+        52504559994897472
+      ],
+      "r": 23,
+      "s": 25,
+      "c_E": 17889956239780856,
+      "limit": "326647/958664",
+      "event": [
+        1716305490394842228,
+        248220350330460816,
+        17889956239780856
+      ],
+      "low": [
+        -1165308724445096,
+        -48947917258012080,
+        -277910791630482920
+      ],
+      "high": [
+        -51339251270452376,
+        -1552435873624768440,
+        -11338673198529537560
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -234627451865969098538030526377280,
+        -703118106939629078181042167741440,
+        41188584980881081953396805639560000
+      ],
+      "discrete_difference": [
+        -234627451865969098538030526377280,
+        -937745558805598176719072694118720,
+        40837025927411267414306284555689280
+      ],
+      "difference_positive": [
+        [
+          1,
+          11
+        ]
+      ],
+      "difference_negative": [
+        [
+          12,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -115064091548457968,
+        -22725995542338396,
+        -1165308724445096
+      ],
+      "high_window_coefficients": [
+        -4918788288087610748,
+        -699209059906705656,
+        -51339251270452376
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 96,
+      "label": "A27-B31-gate8",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        9,
+        21
+      ],
+      "z": [
+        18,
+        11
+      ],
+      "total": [
+        10311823066492006862,
+        1032251060237913956,
+        52504559994897472
+      ],
+      "r": 19,
+      "s": 20,
+      "c_E": 17205682075166816,
+      "limit": "20147861/61482862",
+      "event": [
+        3407426045675820498,
+        343214900614405776,
+        17205682075166816
+      ],
+      "low": [
+        887513769397024,
+        7875258097584328,
+        186077603257278040
+      ],
+      "high": [
+        -53392073764294496,
+        -2229891058558104656,
+        -22979234976706914620
+      ],
+      "balanced": [],
+      "derivative": [
+        -519527552488847817860301540228352,
+        -6972878888694249265842193957615360,
+        77988459124907535132820694621492960
+      ],
+      "discrete_difference": [
+        -519527552488847817860301540228352,
+        -7492406441183097083702495497843712,
+        74502019680560410499899597642685280
+      ],
+      "difference_positive": [
+        [
+          1,
+          6
+        ]
+      ],
+      "difference_negative": [
+        [
+          7,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        89544929464545368,
+        2606358394696628,
+        887513769397024
+      ],
+      "high_window_coefficients": [
+        -10401367995956552230,
+        -1034857418632610584,
+        -53392073764294496
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    },
+    {
+      "case_index": 96,
+      "label": "A27-B31-gate8",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        9,
+        21
+      ],
+      "z": [
+        18,
+        11
+      ],
+      "total": [
+        10311823066492006862,
+        1032251060237913956,
+        52504559994897472
+      ],
+      "r": 23,
+      "s": 25,
+      "c_E": 17889956239780856,
+      "limit": "326647/958664",
+      "event": [
+        3498127830605789568,
+        352932900489772416,
+        17889956239780856
+      ],
+      "low": [
+        -1165308724445096,
+        -56591208636141872,
+        -420546750562420460
+      ],
+      "high": [
+        -51339251270452376,
+        -2165424591824378456,
+        -22372610622887216120
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -127320703629524319932349019412032,
+        2986962032911428958901753005423040,
+        118476933271758795229478499002588960
+      ],
+      "discrete_difference": [
+        -127320703629524319932349019412032,
+        2859641329281904638969403986011008,
+        119970414288214509708929375505300480
+      ],
+      "difference_positive": [
+        [
+          1,
+          43
+        ]
+      ],
+      "difference_negative": [
+        [
+          44,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -182560425325361842,
+        -26547641231403292,
+        -1165308724445096
+      ],
+      "high_window_coefficients": [
+        -10129262641166645020,
+        -1005703419006510664,
+        -51339251270452376
+      ],
+      "threshold_variations": [
+        0,
+        0
+      ]
+    }
+  ],
+  "multi_threshold_examples": [
+    {
+      "case_index": 20,
+      "label": "A5-B9-gate4",
+      "p": 5,
+      "q": 9,
+      "n": 16,
+      "y": [
+        1,
+        8
+      ],
+      "z": [
+        4,
+        1
+      ],
+      "total": [
+        15994,
+        11994,
+        4004
+      ],
+      "r": 5,
+      "s": 9,
+      "c_E": 2574,
+      "limit": "9/14",
+      "event": [
+        9997,
+        7997,
+        2574
+      ],
+      "low": [
+        -3718,
+        -35148,
+        -59424
+      ],
+      "high": [
+        -286,
+        -852,
+        -4560
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -2294864,
+        -27456,
+        36548544
+      ],
+      "discrete_difference": [
+        -2294864,
+        -2322320,
+        36534816
+      ],
+      "difference_positive": [
+        [
+          1,
+          3
+        ]
+      ],
+      "difference_negative": [
+        [
+          4,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -13997,
+        -11997,
+        -3718
+      ],
+      "high_window_coefficients": [
+        -1997,
+        3,
+        -286
+      ],
+      "threshold_variations": [
+        0,
+        2
+      ]
+    },
+    {
+      "case_index": 28,
+      "label": "A7-B10-gate4",
+      "p": 7,
+      "q": 10,
+      "n": 19,
+      "y": [
+        1,
+        9
+      ],
+      "z": [
+        6,
+        1
+      ],
+      "total": [
+        151139,
+        112247,
+        38896
+      ],
+      "r": 7,
+      "s": 9,
+      "c_E": 12870,
+      "limit": "45/136",
+      "event": [
+        38600,
+        38600,
+        12870
+      ],
+      "low": [
+        286,
+        -6248,
+        64144
+      ],
+      "high": [
+        -39182,
+        -334934,
+        -668708
+      ],
+      "balanced": [],
+      "derivative": [
+        -113533420,
+        1548026480,
+        8554031360
+      ],
+      "discrete_difference": [
+        -113533420,
+        1434493060,
+        9328044600
+      ],
+      "difference_positive": [
+        [
+          1,
+          17
+        ]
+      ],
+      "difference_negative": [
+        [
+          18,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        35339,
+        -3553,
+        286
+      ],
+      "high_window_coefficients": [
+        -186478,
+        -108694,
+        -39182
+      ],
+      "threshold_variations": [
+        2,
+        0
+      ]
+    },
+    {
+      "case_index": 28,
+      "label": "A7-B10-gate4",
+      "p": 7,
+      "q": 10,
+      "n": 19,
+      "y": [
+        1,
+        9
+      ],
+      "z": [
+        6,
+        1
+      ],
+      "total": [
+        151139,
+        112247,
+        38896
+      ],
+      "r": 3,
+      "s": 5,
+      "c_E": 25132,
+      "limit": "6283/9724",
+      "event": [
+        100264,
+        75134,
+        25132
+      ],
+      "low": [
+        -36500,
+        -335810,
+        -598616
+      ],
+      "high": [
+        -2396,
+        -5372,
+        -5948
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -202840920,
+        -811454624,
+        -406122424
+      ],
+      "discrete_difference": [
+        -202840920,
+        -1014295544,
+        -811849736
+      ],
+      "difference_positive": [],
+      "difference_negative": [
+        [
+          1,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -149653,
+        -113155,
+        -36500
+      ],
+      "high_window_coefficients": [
+        -1486,
+        908,
+        -2396
+      ],
+      "threshold_variations": [
+        0,
+        2
+      ]
+    },
+    {
+      "case_index": 28,
+      "label": "A7-B10-gate4",
+      "p": 7,
+      "q": 10,
+      "n": 19,
+      "y": [
+        1,
+        9
+      ],
+      "z": [
+        6,
+        1
+      ],
+      "total": [
+        151139,
+        112247,
+        38896
+      ],
+      "r": 6,
+      "s": 9,
+      "c_E": 24882,
+      "limit": "87/136",
+      "event": [
+        100372,
+        75492,
+        24882
+      ],
+      "low": [
+        -35750,
+        -335708,
+        -599912
+      ],
+      "high": [
+        -3146,
+        -5474,
+        -4652
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -286813956,
+        -1147342768,
+        -574068224
+      ],
+      "discrete_difference": [
+        -286813956,
+        -1434156724,
+        -1147739608
+      ],
+      "difference_positive": [],
+      "difference_negative": [
+        [
+          1,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -149977,
+        -114229,
+        -35750
+      ],
+      "high_window_coefficients": [
+        -1162,
+        1982,
+        -3146
+      ],
+      "threshold_variations": [
+        0,
+        2
+      ]
+    },
+    {
+      "case_index": 52,
+      "label": "A12-B17-gate4",
+      "p": 12,
+      "q": 17,
+      "n": 31,
+      "y": [
+        1,
+        16
+      ],
+      "z": [
+        11,
+        1
+      ],
+      "total": [
+        412506113,
+        308714247,
+        103791870
+      ],
+      "r": 11,
+      "s": 16,
+      "c_E": 65672360,
+      "limit": "1156/1827",
+      "event": [
+        271901379,
+        206229021,
+        65672360
+      ],
+      "low": [
+        -93225210,
+        -899621262,
+        -1612792100
+      ],
+      "high": [
+        -10566660,
+        -29182842,
+        -37232360
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -2261805143492700,
+        -9047220794393600,
+        -4523611447569960
+      ],
+      "discrete_difference": [
+        -2261805143492700,
+        -11309025937886300,
+        -9047221844766760
+      ],
+      "difference_positive": [],
+      "difference_negative": [
+        [
+          1,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -403198024,
+        -309972816,
+        -93225210
+      ],
+      "high_window_coefficients": [
+        -9308089,
+        1258569,
+        -10566660
+      ],
+      "threshold_variations": [
+        0,
+        2
+      ]
+    },
+    {
+      "case_index": 68,
+      "label": "A17-B23-gate4",
+      "p": 17,
+      "q": 23,
+      "n": 42,
+      "y": [
+        1,
+        22
+      ],
+      "z": [
+        16,
+        1
+      ],
+      "total": [
+        707394242052,
+        529929484456,
+        177464757600
+      ],
+      "r": 17,
+      "s": 22,
+      "c_E": 57562286760,
+      "limit": "253/780",
+      "event": [
+        182280574717,
+        182280574717,
+        57562286760
+      ],
+      "low": [
+        4777897320,
+        -19490787430,
+        296836351052
+      ],
+      "high": [
+        -182242654920,
+        -1572762454282,
+        -3126413319268
+      ],
+      "balanced": [],
+      "derivative": [
+        -3688850121011717993280,
+        26105708582092488942720,
+        175929775141610054601968
+      ],
+      "discrete_difference": [
+        -3688850121011717993280,
+        22416858461080770949440,
+        188982629432656299073328
+      ],
+      "difference_positive": [
+        [
+          1,
+          10
+        ]
+      ],
+      "difference_negative": [
+        [
+          11,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        160552517901,
+        -16912239695,
+        4777897320
+      ],
+      "high_window_coefficients": [
+        -867946759953,
+        -513017244761,
+        -182242654920
+      ],
+      "threshold_variations": [
+        2,
+        0
+      ]
+    },
+    {
+      "case_index": 68,
+      "label": "A17-B23-gate4",
+      "p": 17,
+      "q": 23,
+      "n": 42,
+      "y": [
+        1,
+        22
+      ],
+      "z": [
+        16,
+        1
+      ],
+      "total": [
+        707394242052,
+        529929484456,
+        177464757600
+      ],
+      "r": 15,
+      "s": 21,
+      "c_E": 114633288000,
+      "limit": "17710/27417",
+      "event": [
+        470474119473,
+        355840831475,
+        114633288000
+      ],
+      "low": [
+        -166435106400,
+        -1574491339138,
+        -2816112465472
+      ],
+      "high": [
+        -11029651200,
+        -17761902574,
+        -13464502744
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -4803295381114308264000,
+        -19213181524871647603200,
+        -9606590764304255776752
+      ],
+      "discrete_difference": [
+        -4803295381114308264000,
+        -24016476905985955867200,
+        -19213181526740079578352
+      ],
+      "difference_positive": [],
+      "difference_negative": [
+        [
+          1,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -704028116367,
+        -537593009969,
+        -166435106400
+      ],
+      "high_window_coefficients": [
+        -3366125685,
+        7663525513,
+        -11029651200
+      ],
+      "threshold_variations": [
+        0,
+        2
+      ]
+    },
+    {
+      "case_index": 76,
+      "label": "A20-B27-gate4",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        1,
+        26
+      ],
+      "z": [
+        19,
+        1
+      ],
+      "total": [
+        78099837432793,
+        58574878074585,
+        19524959358212
+      ],
+      "r": 20,
+      "s": 26,
+      "c_E": 6339741660252,
+      "limit": "351/1081",
+      "event": [
+        20226794820777,
+        20226794820777,
+        6339741660252
+      ],
+      "low": [
+        505734377456,
+        -2693809643124,
+        31639361920344
+      ],
+      "high": [
+        -20030693735668,
+        -173030824580682,
+        -344038711651524
+      ],
+      "balanced": [],
+      "derivative": [
+        -47155504097871836994550608,
+        306510776640346293235991232,
+        2133786560446195083058638528
+      ],
+      "discrete_difference": [
+        -47155504097871836994550608,
+        259355272542474456241440624,
+        2287041948766368229676634144
+      ],
+      "difference_positive": [
+        [
+          1,
+          10
+        ]
+      ],
+      "difference_negative": [
+        [
+          11,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        17419452970462,
+        -2105506387746,
+        505734377456
+      ],
+      "high_window_coefficients": [
+        -95519290403255,
+        -56469371686839,
+        -20030693735668
+      ],
+      "threshold_variations": [
+        2,
+        0
+      ]
+    },
+    {
+      "case_index": 84,
+      "label": "A24-B30-gate4",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        1,
+        29
+      ],
+      "z": [
+        23,
+        1
+      ],
+      "total": [
+        11148881160440962,
+        8343562037278046,
+        2805319123162920
+      ],
+      "r": 14,
+      "s": 19,
+      "c_E": 1842261390596640,
+      "limit": "2240866772/3412298841",
+      "event": [
+        7418626838243678,
+        5576365447647040,
+        1842261390596640
+      ],
+      "low": [
+        -2721465048627000,
+        -24935463757207148,
+        -44427997417160292
+      ],
+      "high": [
+        -83854074535920,
+        -167617686837704,
+        -167527224603564
+      ],
+      "balanced": [
+        [
+          1,
+          null
+        ]
+      ],
+      "derivative": [
+        -544924853408020861422124782720,
+        -2179699413632090479317763373760,
+        -1089849706816074746639010058032
+      ],
+      "discrete_difference": [
+        -544924853408020861422124782720,
+        -2724624267040111340739888156480,
+        -2179699413632119986297891744912
+      ],
+      "difference_positive": [],
+      "difference_negative": [
+        [
+          1,
+          null
+        ]
+      ],
+      "low_window_coefficients": [
+        -11106999354290072,
+        -8385534305663074,
+        -2721465048627000
+      ],
+      "high_window_coefficients": [
+        -41881806150890,
+        41972268385028,
+        -83854074535920
+      ],
+      "threshold_variations": [
+        0,
+        2
+      ]
+    }
+  ]
+}

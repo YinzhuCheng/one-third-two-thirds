@@ -1,0 +1,3174 @@
+{
+  "source_structures": 96,
+  "candidate_slots": 384,
+  "tested": 308,
+  "skipped_comparable": 76,
+  "covered_beta_le_6c": 278,
+  "beta_gt_6c": 30,
+  "discrete_nonmonotone": 0,
+  "balance_component_histogram": {
+    "0": 93,
+    "1": 215
+  },
+  "two_component_pairs": 0,
+  "B_fail_over_c_min": "3/16",
+  "B_fail_over_c_max": "1206163158146871/125608995203104",
+  "elapsed_seconds": 0.09456386799865868,
+  "witnesses": [],
+  "uncovered": [
+    {
+      "case_index": 74,
+      "label": "A20-B27-gate2",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        0,
+        21
+      ],
+      "z": [
+        15,
+        0
+      ],
+      "total": [
+        1389061394341368,
+        231510232390228,
+        19524959358212
+      ],
+      "entry": {
+        "case_index": 74,
+        "label": "B27<z",
+        "D_chain": "B",
+        "D_label": "B27",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          91443450343560,
+          114307616011876,
+          19524959358212
+        ],
+        "failure": [
+          1297617943997808,
+          117202616378352,
+          0
+        ],
+        "B_fail_over_c": "21484836/3579191",
+        "mean_failure_slots_beta": "42969672/3579191",
+        "covered_beta_le_6c": false,
+        "low": [
+          -39049918716424,
+          -339974987440072,
+          1928537017897728
+        ],
+        "high": [
+          19524959358212,
+          -181620355415020,
+          -5208730190077344
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            21
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            3
+          ]
+        ],
+        "balanced": [
+          [
+            4,
+            21
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          4576752642926869811380453248,
+          115074008404955874415000556928,
+          762281814404973506909676719616
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-31161023/7158382",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 1549512111741232
+          },
+          "high_convex": {
+            "real_vertex": "33293485/7158382",
+            "integer_extreme_m": [
+              5
+            ],
+            "twice_extreme": -5628707983197144
+          },
+          "failure_low_first_F2": 774756055870616,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 774756055870616,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 79,
+      "label": "A20-B27-gate7",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        5,
+        21
+      ],
+      "z": [
+        15,
+        7
+      ],
+      "total": [
+        1388997239517044,
+        231501525225212,
+        19524959358212
+      ],
+      "entry": {
+        "case_index": 79,
+        "label": "B27<z",
+        "D_chain": "B",
+        "D_label": "B27",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          91439807562180,
+          114305923060352,
+          19524959358212
+        ],
+        "failure": [
+          1297557431954864,
+          117195602164860,
+          0
+        ],
+        "B_fail_over_c": "29298900541215/4881239839553",
+        "mean_failure_slots_beta": "58597801082430/4881239839553",
+        "covered_beta_le_6c": false,
+        "low": [
+          -39049918716424,
+          -339982244060960,
+          1928423308316472
+        ],
+        "high": [
+          19524959358212,
+          -181595684464100,
+          -5208470756517408
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            21
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            3
+          ]
+        ],
+        "balanced": [
+          [
+            4,
+            21
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          4576478738460147566837660640,
+          115068460710839051764479954592,
+          762239633165165536404613095936
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-21248890253810/4881239839553",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 1549391145539088
+          },
+          "high_convex": {
+            "real_vertex": "45398921116025/9762479679106",
+            "integer_extreme_m": [
+              5
+            ],
+            "twice_extreme": -5628325194882608
+          },
+          "failure_low_first_F2": 774695572769544,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 774695572769544,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 80,
+      "label": "A20-B27-gate8",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        7,
+        18
+      ],
+      "z": [
+        14,
+        9
+      ],
+      "total": [
+        2405030718659784,
+        303557331668404,
+        19524959358212
+      ],
+      "entry": {
+        "case_index": 80,
+        "label": "A20<y",
+        "D_chain": "A",
+        "D_label": "A20",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          217978423426755,
+          158810143693520,
+          19524959358212
+        ],
+        "failure": [
+          2187052295233029,
+          144747187974884,
+          0
+        ],
+        "B_fail_over_c": "143030818157/19293438101",
+        "mean_failure_slots_beta": "286061636314/19293438101",
+        "covered_beta_le_6c": false,
+        "low": [
+          -39049918716424,
+          -462895954973584,
+          3078344860501878
+        ],
+        "high": [
+          19524959358212,
+          -202793586437860,
+          -8534570879874678
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            26
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            26
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          5652365924850165657230294816,
+          187765526489387150774990021040,
+          1616018891043288428805073465456
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-2659343431/448684607",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 2576398986811870
+          },
+          "high_convex": {
+            "real_vertex": "200388919405/38586876202",
+            "integer_extreme_m": [
+              5
+            ],
+            "twice_extreme": -9060414828108678
+          },
+          "failure_low_first_F2": 1288199493405935,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 1288199493405935,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 80,
+      "label": "A20-B27-gate8",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        7,
+        18
+      ],
+      "z": [
+        14,
+        9
+      ],
+      "total": [
+        2405030718659784,
+        303557331668404,
+        19524959358212
+      ],
+      "entry": {
+        "case_index": 80,
+        "label": "A20<z",
+        "D_chain": "A",
+        "D_label": "A20",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          200655570644775,
+          169821921714203,
+          19524959358212
+        ],
+        "failure": [
+          2204375148015009,
+          133735409954201,
+          0
+        ],
+        "B_fail_over_c": "528598458317/77173752404",
+        "mean_failure_slots_beta": "528598458317/38586876202",
+        "covered_beta_le_6c": false,
+        "low": [
+          -39049918716424,
+          -528966623097682,
+          3116211309069660
+        ],
+        "high": [
+          19524959358212,
+          -136722918313762,
+          -8572437328442460
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            24
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            24
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          5222356888219190146546497224,
+          187828411365640020961173107304,
+          1744833270439068819525210317920
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-3642468931/537796184",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 2548194767255554
+          },
+          "high_convex": {
+            "real_vertex": "270203395877/77173752404",
+            "integer_extreme_m": [
+              4
+            ],
+            "twice_extreme": -8806929651966116
+          },
+          "failure_low_first_F2": 1274097383627777,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 1274097383627777,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 80,
+      "label": "A20-B27-gate8",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        7,
+        18
+      ],
+      "z": [
+        14,
+        9
+      ],
+      "total": [
+        2405030718659784,
+        303557331668404,
+        19524959358212
+      ],
+      "entry": {
+        "case_index": 80,
+        "label": "B27<y",
+        "D_chain": "B",
+        "D_label": "B27",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          100373653288656,
+          153260363675364,
+          19524959358212
+        ],
+        "failure": [
+          2304657065371128,
+          150296967993040,
+          0
+        ],
+        "B_fail_over_c": "3415840181660/443749076323",
+        "mean_failure_slots_beta": "6831680363320/443749076323",
+        "covered_beta_le_6c": false,
+        "low": [
+          -39049918716424,
+          -429597274864648,
+          3817272161439408
+        ],
+        "high": [
+          19524959358212,
+          -236092266546796,
+          -9273498180812208
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            28
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            5
+          ]
+        ],
+        "balanced": [
+          [
+            6,
+            28
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          5869084383453191568165688960,
+          197600595294309217442395079424,
+          1724231749975232053926733548416
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-131940194983/23986436558",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 3348624967858336
+          },
+          "high_convex": {
+            "real_vertex": "130871544649/21646296406",
+            "integer_extreme_m": [
+              6
+            ],
+            "twice_extreme": -9987153243197352
+          },
+          "failure_low_first_F2": 1674312483929168,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 1674312483929168,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 80,
+      "label": "A20-B27-gate8",
+      "p": 20,
+      "q": 27,
+      "n": 49,
+      "y": [
+        7,
+        18
+      ],
+      "z": [
+        14,
+        9
+      ],
+      "total": [
+        2405030718659784,
+        303557331668404,
+        19524959358212
+      ],
+      "entry": {
+        "case_index": 80,
+        "label": "B27<z",
+        "D_chain": "B",
+        "D_label": "B27",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          126071221373688,
+          164225746113356,
+          19524959358212
+        ],
+        "failure": [
+          2278959497286096,
+          139331585555048,
+          0
+        ],
+        "B_fail_over_c": "34832896388762/4881239839553",
+        "mean_failure_slots_beta": "69665792777524/4881239839553",
+        "covered_beta_le_6c": false,
+        "low": [
+          -39049918716424,
+          -495389569492600,
+          3597294458301264
+        ],
+        "high": [
+          19524959358212,
+          -170299971918844,
+          -9053520477674064
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            26
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            5
+          ]
+        ],
+        "balanced": [
+          [
+            6,
+            26
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          5440887090555100735753708352,
+          194309027525754402654905206464,
+          1793646989237570075108699264128
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-61923696186575/9762479679106",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 3062854970092240
+          },
+          "high_convex": {
+            "real_vertex": "42574992979711/9762479679106",
+            "integer_extreme_m": [
+              4
+            ],
+            "twice_extreme": -9422321015618048
+          },
+          "failure_low_first_F2": 1531427485046120,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 1531427485046120,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 82,
+      "label": "A24-B30-gate2",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        0,
+        23
+      ],
+      "z": [
+        18,
+        0
+      ],
+      "total": [
+        270658998886063788,
+        38704354483121964,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 82,
+        "label": "A24<y",
+        "D_chain": "A",
+        "D_label": "A24",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          28161856246926114,
+          21866655262976550,
+          2805319123162920
+        ],
+        "failure": [
+          242497142639137674,
+          16837699220145414,
+          0
+        ],
+        "B_fail_over_c": "23470103/3910340",
+        "mean_failure_slots_beta": "23470103/1955170",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -70623137350592892,
+          307334361186303840
+        ],
+        "high": [
+          2805319123162920,
+          -15201528985139796,
+          -931671706171001184
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            21
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            3
+          ]
+        ],
+        "balanced": [
+          [
+            4,
+            21
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          94470239224678629383796025697760,
+          3004538203905792846474220924485600,
+          24944877672433510718209533304594176
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-49220867/7820680",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 231100585589385108
+          },
+          "high_convex": {
+            "real_vertex": "10594721/3910340",
+            "integer_extreme_m": [
+              3
+            ],
+            "twice_extreme": -952028421017954292
+          },
+          "failure_low_first_F2": 115550292794692554,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 115550292794692554,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 82,
+      "label": "A24-B30-gate2",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        0,
+        23
+      ],
+      "z": [
+        18,
+        0
+      ],
+      "total": [
+        270658998886063788,
+        38704354483121964,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 82,
+        "label": "A24<z",
+        "D_chain": "A",
+        "D_label": "A24",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          21600957248354484,
+          20189248270246692,
+          2805319123162920
+        ],
+        "failure": [
+          249058041637709304,
+          18515106212875272,
+          0
+        ],
+        "B_fail_over_c": "33/5",
+        "mean_failure_slots_beta": "66/5",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -60558695394213744,
+          356764197134112768
+        ],
+        "high": [
+          2805319123162920,
+          -25265970941518944,
+          -981101542118810112
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            23
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            23
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          103881563052743180919256190628480,
+          3106393837093320281037112539116160,
+          24310663896264027488051030434529280
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-1673/310",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 290594863493573184
+          },
+          "high_convex": {
+            "real_vertex": "698/155",
+            "integer_extreme_m": [
+              5
+            ],
+            "twice_extreme": -1037298418747331832
+          },
+          "failure_low_first_F2": 145297431746786592,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 145297431746786592,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 82,
+      "label": "A24-B30-gate2",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        0,
+        23
+      ],
+      "z": [
+        18,
+        0
+      ],
+      "total": [
+        270658998886063788,
+        38704354483121964,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 82,
+        "label": "B30<y",
+        "D_chain": "B",
+        "D_label": "B30",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          14931537268447800,
+          21284227669932864,
+          2805319123162920
+        ],
+        "failure": [
+          255727461617615988,
+          17420126813189100,
+          0
+        ],
+        "B_fail_over_c": "385/62",
+        "mean_failure_slots_beta": "385/31",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -67128571792330776,
+          390210840615435840
+        ],
+        "high": [
+          2805319123162920,
+          -18696094543401912,
+          -1014548185600133184
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            22
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            22
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          97738029753925035811128136344000,
+          3162802642837014158848106492091840,
+          26666062133822875370421711695006208
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-3709/620",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 317471630576779224
+          },
+          "high_convex": {
+            "real_vertex": "1033/310",
+            "integer_extreme_m": [
+              3
+            ],
+            "twice_extreme": -1045388597121872640
+          },
+          "failure_low_first_F2": 158735815288389612,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 158735815288389612,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 82,
+      "label": "A24-B30-gate2",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        0,
+        23
+      ],
+      "z": [
+        18,
+        0
+      ],
+      "total": [
+        270658998886063788,
+        38704354483121964,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 82,
+        "label": "B30<z",
+        "D_chain": "B",
+        "D_label": "B30",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          16714019464513272,
+          19587742358024268,
+          2805319123162920
+        ],
+        "failure": [
+          253944979421550516,
+          19116612125097696,
+          0
+        ],
+        "B_fail_over_c": "2793604/409955",
+        "mean_failure_slots_beta": "5587208/409955",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -56949659920879200,
+          389694859310494584
+        ],
+        "high": [
+          2805319123162920,
+          -28875006414853488,
+          -1014032204295191928
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            24
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            24
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          107256395129249426558923049264640,
+          3171356013397707707247475060060800,
+          24532460057753108914124581232266944
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-12899615/2541721",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 327134561143289544
+          },
+          "high_convex": {
+            "real_vertex": "65404511/12708605",
+            "integer_extreme_m": [
+              5
+            ],
+            "twice_extreme": -1088274258290386368
+          },
+          "failure_low_first_F2": 163567280571644772,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 163567280571644772,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 87,
+      "label": "A24-B30-gate7",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        6,
+        23
+      ],
+      "z": [
+        18,
+        8
+      ],
+      "total": [
+        270653911479036459,
+        38703772190050461,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 87,
+        "label": "A24<y",
+        "D_chain": "A",
+        "D_label": "A24",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          28160428813136280,
+          21866193402864408,
+          2805319123162920
+        ],
+        "failure": [
+          242493482665900179,
+          16837578787186053,
+          0
+        ],
+        "B_fail_over_c": "143910929805009/23977086522760",
+        "mean_failure_slots_beta": "143910929805009/11988543261380",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -70621530776063046,
+          307334357549518032
+        ],
+        "high": [
+          2805319123162920,
+          -15201970973526636,
+          -931660363134017712
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            21
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            3
+          ]
+        ],
+        "balanced": [
+          [
+            4,
+            21
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          94469563518910720351599741509520,
+          3004495107216835482469805121179280,
+          24944135768696407377431697658825248
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-301801413572919/47954173045520",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 231102188527129146
+          },
+          "high_convex": {
+            "real_vertex": "32482843960527/11988543261380",
+            "integer_extreme_m": [
+              3
+            ],
+            "twice_extreme": -952018403946131340
+          },
+          "failure_low_first_F2": 115551094263564573,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 115551094263564573,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 87,
+      "label": "A24-B30-gate7",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        6,
+        23
+      ],
+      "z": [
+        18,
+        8
+      ],
+      "total": [
+        270653911479036459,
+        38703772190050461,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 87,
+        "label": "A24<z",
+        "D_chain": "A",
+        "D_label": "A24",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          21600918040105125,
+          20189127833921475,
+          2805319123162920
+        ],
+        "failure": [
+          249052993438931334,
+          18514644356128986,
+          0
+        ],
+        "B_fail_over_c": "79122411778329/11988543261380",
+        "mean_failure_slots_beta": "79122411778329/5994271630690",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -60559137362405448,
+          356753815601362560
+        ],
+        "high": [
+          2805319123162920,
+          -25264364387184234,
+          -981079821185862240
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            23
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            23
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          103878971741618145077799624798240,
+          3106329415925667705814081974135840,
+          24310060571608678583005417342456320
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-64699933079493/11988543261380",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 290584039992631272
+          },
+          "high_convex": {
+            "real_vertex": "107967369176001/23977086522760",
+            "integer_extreme_m": [
+              5
+            ],
+            "twice_extreme": -1037268665042710410
+          },
+          "failure_low_first_F2": 145292019996315636,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 145292019996315636,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 87,
+      "label": "A24-B30-gate7",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        6,
+        23
+      ],
+      "z": [
+        18,
+        8
+      ],
+      "total": [
+        270653911479036459,
+        38703772190050461,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 87,
+        "label": "B30<y",
+        "D_chain": "B",
+        "D_label": "B30",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          14931430079227398,
+          21283765809443730,
+          2805319123162920
+        ],
+        "failure": [
+          255722481399809061,
+          17420006380606731,
+          0
+        ],
+        "B_fail_over_c": "1935556264511859/311702124795880",
+        "mean_failure_slots_beta": "1935556264511859/155851062397940",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -67126965215538978,
+          390202915513495392
+        ],
+        "high": [
+          2805319123162920,
+          -18696536534050704,
+          -1014528921097995072
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            22
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            22
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          97737354050272292512690723229040,
+          3162744731325050773704593750559600,
+          26665067242735579370068559269089408
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-3729275845307721/623404249591760",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 317465312051630574
+          },
+          "high_convex": {
+            "real_vertex": "18548151323463/5566109371355",
+            "integer_extreme_m": [
+              3
+            ],
+            "twice_extreme": -1045370658591680904
+          },
+          "failure_low_first_F2": 158732656025815287,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 158732656025815287,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 87,
+      "label": "A24-B30-gate7",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        6,
+        23
+      ],
+      "z": [
+        18,
+        8
+      ],
+      "total": [
+        270653911479036459,
+        38703772190050461,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 87,
+        "label": "B30<z",
+        "D_chain": "B",
+        "D_label": "B30",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          16713740575528206,
+          19587621925064907,
+          2805319123162920
+        ],
+        "failure": [
+          253940170903508253,
+          19116150264985554,
+          0
+        ],
+        "B_fail_over_c": "1062008348054753/155851062397940",
+        "mean_failure_slots_beta": "1062008348054753/77925531198970",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -56950101909266040,
+          389685915841963482
+        ],
+        "high": [
+          2805319123162920,
+          -28873399840323642,
+          -1014011921426463162
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            24
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            24
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          107253803799239790312241176915360,
+          3171294281697206661228010265061120,
+          24531900079847472119641297925026188
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-158194727525739/31170212479588",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 327125175686371602
+          },
+          "high_convex": {
+            "real_vertex": "1604077768906869/311702124795880",
+            "integer_extreme_m": [
+              5
+            ],
+            "twice_extreme": -1088245942549008372
+          },
+          "failure_low_first_F2": 163562587843185801,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 163562587843185801,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 88,
+      "label": "A24-B30-gate8",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        8,
+        20
+      ],
+      "z": [
+        16,
+        10
+      ],
+      "total": [
+        496096885298359026,
+        52294101832043136,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 88,
+        "label": "A24<y",
+        "D_chain": "A",
+        "D_label": "A24",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          35501009343829150,
+          28025821306558140,
+          2805319123162920
+        ],
+        "failure": [
+          460595875954529876,
+          24268280525484996,
+          0
+        ],
+        "B_fail_over_c": "22223700114913/2568973556010",
+        "mean_failure_slots_beta": "22223700114913/1284486778005",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -80398638914240088,
+          704399713865828904
+        ],
+        "high": [
+          2805319123162920,
+          -32605522119334944,
+          -1806792326372959068
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            31
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            6
+          ]
+        ],
+        "balanced": [
+          [
+            7,
+            31
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          136160542888850672783181047096640,
+          5576955304127427297262066162881600,
+          58797385478080906426669711531605600
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-85895981745983/11988543261380",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 618390436705262976
+          },
+          "high_convex": {
+            "real_vertex": "17417479764602/2997135815345",
+            "integer_extreme_m": [
+              6
+            ],
+            "twice_extreme": -1901433970655103612
+          },
+          "failure_low_first_F2": 309195218352631488,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 309195218352631488,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 88,
+      "label": "A24-B30-gate8",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        8,
+        20
+      ],
+      "z": [
+        16,
+        10
+      ],
+      "total": [
+        496096885298359026,
+        52294101832043136,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 88,
+        "label": "A24<z",
+        "D_chain": "A",
+        "D_label": "A24",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          30847608275179740,
+          27633254589349188,
+          2805319123162920
+        ],
+        "failure": [
+          465249277023179286,
+          24660847242693948,
+          0
+        ],
+        "B_fail_over_c": "9298962007049/1057812640710",
+        "mean_failure_slots_beta": "9298962007049/528906320355",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -78043238610986376,
+          734675520580979076
+        ],
+        "high": [
+          2805319123162920,
+          -34960922422588656,
+          -1837068133088109240
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            32
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            6
+          ]
+        ],
+        "balanced": [
+          [
+            7,
+            32
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          138363092726657799187094604016320,
+          5635780053663364507504894001149440,
+          59100601992482063516156577075458592
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-18936981247/2722812460",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 651021643723666860
+          },
+          "high_convex": {
+            "real_vertex": "1098570966019/176302106785",
+            "integer_extreme_m": [
+              6
+            ],
+            "twice_extreme": -1945842179189776056
+          },
+          "failure_low_first_F2": 325510821861833430,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 325510821861833430,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 88,
+      "label": "A24-B30-gate8",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        8,
+        20
+      ],
+      "z": [
+        16,
+        10
+      ],
+      "total": [
+        496096885298359026,
+        52294101832043136,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 88,
+        "label": "B30<y",
+        "D_chain": "B",
+        "D_label": "B30",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          19900192184347002,
+          27429968634680028,
+          2805319123162920
+        ],
+        "failure": [
+          476196693114012024,
+          24864133197363108,
+          0
+        ],
+        "B_fail_over_c": "121883005869427/13751564329230",
+        "mean_failure_slots_beta": "121883005869427/6875782164615",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -76823522882971416,
+          801579732853990464
+        ],
+        "high": [
+          2805319123162920,
+          -36180638150603616,
+          -1903972345361120628
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            33
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            6
+          ]
+        ],
+        "balanced": [
+          [
+            7,
+            33
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          139503656678865449255257363110720,
+          5762045728355325609450851253132480,
+          61235114137719079557338638331639904
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-62764316080859/9167709552820",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 719145571724693208
+          },
+          "high_convex": {
+            "real_vertex": "14779672447142/2291927388205",
+            "integer_extreme_m": [
+              6
+            ],
+            "twice_extreme": -2020064685830877204
+          },
+          "failure_low_first_F2": 359572785862346604,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 359572785862346604,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 88,
+      "label": "A24-B30-gate8",
+      "p": 24,
+      "q": 30,
+      "n": 56,
+      "y": [
+        8,
+        20
+      ],
+      "z": [
+        16,
+        10
+      ],
+      "total": [
+        496096885298359026,
+        52294101832043136,
+        2805319123162920
+      ],
+      "entry": {
+        "case_index": 88,
+        "label": "B30<z",
+        "D_chain": "B",
+        "D_label": "B30",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          22346966335620564,
+          27035481412301988,
+          2805319123162920
+        ],
+        "failure": [
+          473749918962738462,
+          25258620419741148,
+          0
+        ],
+        "B_fail_over_c": "123816766763437/13751564329230",
+        "mean_failure_slots_beta": "123816766763437/6875782164615",
+        "covered_beta_le_6c": false,
+        "low": [
+          -5610638246325840,
+          -74456599548703176,
+          789266011280617332
+        ],
+        "high": [
+          2805319123162920,
+          -38547561484871856,
+          -1891658623787747496
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            33
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            6
+          ]
+        ],
+        "balanced": [
+          [
+            7,
+            33
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          141716981776426527266314863664320,
+          5741229774381495056573417295909120,
+          59890005973627344829096691060740896
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-8690079312407/1309672793260",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 709198773485588316
+          },
+          "high_convex": {
+            "real_vertex": "335033040301/48764412515",
+            "integer_extreme_m": [
+              7
+            ],
+            "twice_extreme": -2024030917146867408
+          },
+          "failure_low_first_F2": 354599386742794158,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 354599386742794158,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 90,
+      "label": "A27-B31-gate2",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        0,
+        24
+      ],
+      "z": [
+        21,
+        0
+      ],
+      "total": [
+        5033874689510795128,
+        721937699929840240,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 90,
+        "label": "A27<y",
+        "D_chain": "A",
+        "D_label": "A27",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          468857812139373496,
+          389837081179179592,
+          52504559994897472
+        ],
+        "failure": [
+          4565016877371421632,
+          332100618750660648,
+          0
+        ],
+        "B_fail_over_c": "3923583/620312",
+        "mean_failure_slots_beta": "3923583/310156",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1210174447184781904,
+          6149437178990362320
+        ],
+        "high": [
+          52504559994897472,
+          -391214632659590992,
+          -17766071077861428000
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            22
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            3
+          ]
+        ],
+        "balanced": [
+          [
+            4,
+            22
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          34873593723073268653124618050163712,
+          1063357591231889097660900553042148352,
+          8482840349533888617368649232525036800
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-7148767/1240624",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 4834253611815785472
+          },
+          "high_convex": {
+            "real_vertex": "2310991/620312",
+            "integer_extreme_m": [
+              4
+            ],
+            "twice_extreme": -18490856648581432416
+          },
+          "failure_low_first_F2": 2417126805907892736,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 2417126805907892736,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 90,
+      "label": "A27-B31-gate2",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        0,
+        24
+      ],
+      "z": [
+        21,
+        0
+      ],
+      "total": [
+        5033874689510795128,
+        721937699929840240,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 90,
+        "label": "A27<z",
+        "D_chain": "A",
+        "D_label": "A27",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          387221129962368856,
+          390033874247809792,
+          52504559994897472
+        ],
+        "failure": [
+          4646653559548426272,
+          331903825682030448,
+          0
+        ],
+        "B_fail_over_c": "177/28",
+        "mean_failure_slots_beta": "177/14",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1211355205596563104,
+          6638076513640608960
+        ],
+        "high": [
+          52504559994897472,
+          -390033874247809792,
+          -18254710412511674640
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            22
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            22
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          34852928656116320029986401084454912,
+          1080440788339605920929578433618102272,
+          8756798324849225407534083272469296640
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-323/56",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 5321712188054250912
+          },
+          "high_convex": {
+            "real_vertex": "26/7",
+            "integer_extreme_m": [
+              4
+            ],
+            "twice_extreme": -18974772949584554256
+          },
+          "failure_low_first_F2": 2660856094027125456,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 2660856094027125456,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 90,
+      "label": "A27-B31-gate2",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        0,
+        24
+      ],
+      "z": [
+        21,
+        0
+      ],
+      "total": [
+        5033874689510795128,
+        721937699929840240,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 90,
+        "label": "B31<y",
+        "D_chain": "B",
+        "D_label": "B31",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          290415847471776642,
+          383119211212767491,
+          52504559994897472
+        ],
+        "failure": [
+          4743458842039018486,
+          338818488717072749,
+          0
+        ],
+        "B_fail_over_c": "413/64",
+        "mean_failure_slots_beta": "413/32",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1169867227386309298,
+          7260396186794416050
+        ],
+        "high": [
+          52504559994897472,
+          -431521852458063598,
+          -18877030085665481730
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            23
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            23
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          35579031336452076697277784440381056,
+          1102949971430014377615611317651812736,
+          8939231623283584270191043340645740320
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-713/128",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 5985519839418311808
+          },
+          "high_convex": {
+            "real_vertex": "263/64",
+            "integer_extreme_m": [
+              4
+            ],
+            "twice_extreme": -19763044535579376570
+          },
+          "failure_low_first_F2": 2992759919709155904,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 2992759919709155904,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 90,
+      "label": "A27-B31-gate2",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        0,
+        24
+      ],
+      "z": [
+        21,
+        0
+      ],
+      "total": [
+        5033874689510795128,
+        721937699929840240,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 90,
+        "label": "B31<z",
+        "D_chain": "B",
+        "D_label": "B31",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          353842286326618572,
+          382993216584873356,
+          52504559994897472
+        ],
+        "failure": [
+          4680032403184176556,
+          338944483344966884,
+          0
+        ],
+        "B_fail_over_c": "3016331/467248",
+        "mean_failure_slots_beta": "3016331/233624",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1169111259618944488,
+          6880593521432729280
+        ],
+        "high": [
+          52504559994897472,
+          -432277820225428408,
+          -18497227420303794960
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            23
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            23
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          35592261921450681484555625630634496,
+          1089668954128543215081430116756169216,
+          8726919952140744125692841064449289600
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-5202071/934496",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 5606473141823989848
+          },
+          "high_convex": {
+            "real_vertex": "1923461/467248",
+            "integer_extreme_m": [
+              4
+            ],
+            "twice_extreme": -19386265741287149040
+          },
+          "failure_low_first_F2": 2803236570911994924,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 2803236570911994924,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 95,
+      "label": "A27-B31-gate7",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        7,
+        24
+      ],
+      "z": [
+        21,
+        8
+      ],
+      "total": [
+        5033852379636068716,
+        721935055449044052,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 95,
+        "label": "A27<y",
+        "D_chain": "A",
+        "D_label": "A27",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          468853629102638510,
+          389835758938781498,
+          52504559994897472
+        ],
+        "failure": [
+          4564998750533430206,
+          332099296510262554,
+          0
+        ],
+        "B_fail_over_c": "116854080404737/18474510906016",
+        "mean_failure_slots_beta": "116854080404737/9237255453008",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1210171802703985716,
+          6149420301942115600
+        ],
+        "high": [
+          52504559994897472,
+          -391211988178794804,
+          -17766004292102136080
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            22
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            3
+          ]
+        ],
+        "balanced": [
+          [
+            4,
+            22
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          34873454875772649846044646061726976,
+          1063353367723375886786844007936537856,
+          8482788084253738065943261598089264000
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-1490359362935943/258643152684224",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 4834239379248334940
+          },
+          "high_convex": {
+            "real_vertex": "481788162781767/129321576342112",
+            "integer_extreme_m": [
+              4
+            ],
+            "twice_extreme": -18490779284898955744
+          },
+          "failure_low_first_F2": 2417119689624167470,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 2417119689624167470,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 95,
+      "label": "A27-B31-gate7",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        7,
+        24
+      ],
+      "z": [
+        21,
+        8
+      ],
+      "total": [
+        5033852379636068716,
+        721935055449044052,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 95,
+        "label": "A27<z",
+        "D_chain": "A",
+        "D_label": "A27",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          387220737502911070,
+          390032552000687178,
+          52504559994897472
+        ],
+        "failure": [
+          4646631642133157646,
+          331902503448356874,
+          0
+        ],
+        "B_fail_over_c": "520223359636923/82295548581344",
+        "mean_failure_slots_beta": "520223359636923/41147774290672",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1211352561075419796,
+          6638036893169046160
+        ],
+        "high": [
+          52504559994897472,
+          -390031229807360724,
+          -18254620883329066640
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            22
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            22
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          34852789809521837150460204992845056,
+          1080435768742842853668161988510018816,
+          8756732639943614479502812708087328640
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-49965045416409/8662689324352",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 5321675212103831420
+          },
+          "high_convex": {
+            "real_vertex": "305667107999499/82295548581344",
+            "integer_extreme_m": [
+              4
+            ],
+            "twice_extreme": -18974672842640149984
+          },
+          "failure_low_first_F2": 2660837606051915710,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 2660837606051915710,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 95,
+      "label": "A27-B31-gate7",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        7,
+        24
+      ],
+      "z": [
+        21,
+        8
+      ],
+      "total": [
+        5033852379636068716,
+        721935055449044052,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 95,
+        "label": "B31<y",
+        "D_chain": "B",
+        "D_label": "B31",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          290415550722356535,
+          383117888969608716,
+          52504559994897472
+        ],
+        "failure": [
+          4743436828913712181,
+          338817166479435336,
+          0
+        ],
+        "B_fail_over_c": "550027867661421/85234675316392",
+        "mean_failure_slots_beta": "550027867661421/42617337658196",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1169864582888949024,
+          7260355992038844142
+        ],
+        "high": [
+          52504559994897472,
+          -431519207993831496,
+          -18876939982198864622
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            23
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            23
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          35578892489441354572580359547741184,
+          1102944931731148930894868814693249280,
+          8939165214931743911356424241369329168
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-474782704094541/85234675316392",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 5985482289160100174
+          },
+          "high_convex": {
+            "real_vertex": "100074027827883/24352764376112",
+            "integer_extreme_m": [
+              4
+            ],
+            "twice_extreme": -19762943854255831054
+          },
+          "failure_low_first_F2": 2992741144580050087,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 2992741144580050087,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 95,
+      "label": "A27-B31-gate7",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        7,
+        24
+      ],
+      "z": [
+        21,
+        8
+      ],
+      "total": [
+        5033852379636068716,
+        721935055449044052,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 95,
+        "label": "B31<z",
+        "D_chain": "B",
+        "D_label": "B31",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          353839003157237731,
+          382991894344475262,
+          52504559994897472
+        ],
+        "failure": [
+          4680013376478830985,
+          338943161104568790,
+          0
+        ],
+        "B_fail_over_c": "2200929617562135/340938701265568",
+        "mean_failure_slots_beta": "2200929617562135/170469350632784",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1169108615138148300,
+          6880571245180357690
+        ],
+        "high": [
+          52504559994897472,
+          -432275175744632220,
+          -18497155235340378170
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            23
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            4
+          ]
+        ],
+        "balanced": [
+          [
+            5,
+            23
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          35592123074150062677475653642197760,
+          1089664541631472071584162254893672960,
+          8726864104417974736012499138172865200
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-3795807192006975/681877402531136",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 5606453510052414446
+          },
+          "high_convex": {
+            "real_vertex": "1403490830339715/340938701265568",
+            "integer_extreme_m": [
+              4
+            ],
+            "twice_extreme": -19386182978400547498
+          },
+          "failure_low_first_F2": 2803226755026207223,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 2803226755026207223,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 96,
+      "label": "A27-B31-gate8",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        9,
+        21
+      ],
+      "z": [
+        18,
+        11
+      ],
+      "total": [
+        10311823066492006862,
+        1032251060237913956,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 96,
+        "label": "A27<y",
+        "D_chain": "A",
+        "D_label": "A27",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          648581180538064301,
+          555368350686281066,
+          52504559994897472
+        ],
+        "failure": [
+          9663241885953942561,
+          476882709551632890,
+          0
+        ],
+        "B_fail_over_c": "747465061993155/82295548581344",
+        "mean_failure_slots_beta": "747465061993155/41147774290672",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1582735343611243316,
+          15254432826134179546
+        ],
+        "high": [
+          52504559994897472,
+          -639280456849277012,
+          -38047590199583816126
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            33
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            6
+          ]
+        ],
+        "balanced": [
+          [
+            7,
+            33
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          50077033668365949585550651466108160,
+          2179688154390197737303553399886747648,
+          24388514405089492900699987807106623200
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-1240388200322291/164591097162688",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 13566688362533141286
+          },
+          "high_convex": {
+            "real_vertex": "71571927546941/11756506940192",
+            "integer_extreme_m": [
+              6
+            ],
+            "twice_extreme": -39993108780863169206
+          },
+          "failure_low_first_F2": 6783344181266570643,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 6783344181266570643,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 96,
+      "label": "A27-B31-gate8",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        9,
+        21
+      ],
+      "z": [
+        18,
+        11
+      ],
+      "total": [
+        10311823066492006862,
+        1032251060237913956,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 96,
+        "label": "A27<z",
+        "D_chain": "A",
+        "D_label": "A27",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          553061483536329350,
+          534996021965228582,
+          52504559994897472
+        ],
+        "failure": [
+          9758761582955677512,
+          497255038272685374,
+          0
+        ],
+        "B_fail_over_c": "41020874300667/4331344662176",
+        "mean_failure_slots_beta": "41020874300667/2165672331088",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1460501371284928412,
+          15949784980470904156
+        ],
+        "high": [
+          52504559994897472,
+          -761514429175591916,
+          -38742942353920540736
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            35
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            7
+          ]
+        ],
+        "balanced": [
+          [
+            8,
+            35
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          52216313979506495648755982487949056,
+          2206166873971307459134664158408045824,
+          23987012560126104496769102844324779760
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-60241765850723/8662689324352",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 14384274489196180800
+          },
+          "high_convex": {
+            "real_vertex": "31410428525639/4331344662176",
+            "integer_extreme_m": [
+              7
+            ],
+            "twice_extreme": -41500819918399708020
+          },
+          "failure_low_first_F2": 7192137244598090400,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 7192137244598090400,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 96,
+      "label": "A27-B31-gate8",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        9,
+        21
+      ],
+      "z": [
+        18,
+        11
+      ],
+      "total": [
+        10311823066492006862,
+        1032251060237913956,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 96,
+        "label": "B31<y",
+        "D_chain": "B",
+        "D_label": "B31",
+        "I": "y",
+        "skip_comparable": false,
+        "event": [
+          435402469398576042,
+          548470423253783976,
+          52504559994897472
+        ],
+        "failure": [
+          9876420597093430820,
+          483780636984129980,
+          0
+        ],
+        "B_fail_over_c": "578684972469055/62804497601552",
+        "mean_failure_slots_beta": "578684972469055/31402248800776",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1541347779016260776,
+          16574892657566091640
+        ],
+        "high": [
+          52504559994897472,
+          -680668021444259552,
+          -39368050031015728220
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            34
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            7
+          ]
+        ],
+        "balanced": [
+          [
+            8,
+            34
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          50801378957805934673278882442821120,
+          2226632607973150409852209649828011520,
+          25075200904635547407215335020839143200
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-921858719507333/125608995203104",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 14928535758560035920
+          },
+          "high_convex": {
+            "real_vertex": "101774524737479/15701124400388",
+            "integer_extreme_m": [
+              6
+            ],
+            "twice_extreme": -41561893999864976540
+          },
+          "failure_low_first_F2": 7464267879280017960,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 7464267879280017960,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "z",
+        "other_I_ordinal_cut": false
+      }
+    },
+    {
+      "case_index": 96,
+      "label": "A27-B31-gate8",
+      "p": 27,
+      "q": 31,
+      "n": 60,
+      "y": [
+        9,
+        21
+      ],
+      "z": [
+        18,
+        11
+      ],
+      "total": [
+        10311823066492006862,
+        1032251060237913956,
+        52504559994897472
+      ],
+      "entry": {
+        "case_index": 96,
+        "label": "B31<z",
+        "D_chain": "B",
+        "D_label": "B31",
+        "I": "z",
+        "skip_comparable": false,
+        "event": [
+          474582251051597430,
+          528074860132521878,
+          52504559994897472
+        ],
+        "failure": [
+          9837240815440409432,
+          504176200105392078,
+          0
+        ],
+        "B_fail_over_c": "1206163158146871/125608995203104",
+        "mean_failure_slots_beta": "1206163158146871/62804497601552",
+        "covered_beta_le_6c": false,
+        "low": [
+          -105009119989794944,
+          -1418974400288688188,
+          16462187346375535900
+        ],
+        "high": [
+          52504559994897472,
+          -803041400171832140,
+          -39255344719825172480
+        ],
+        "H_high_nonpositive": [
+          [
+            1,
+            36
+          ]
+        ],
+        "L_low_positive": [
+          [
+            1,
+            7
+          ]
+        ],
+        "balanced": [
+          [
+            8,
+            36
+          ]
+        ],
+        "two_components_exact_H_minus_L": false,
+        "discrete_difference": [
+          52943099092865983009808627942053632,
+          2224829299592778376003355477993184512,
+          24059992169737981102123806190819729520
+        ],
+        "difference_positive": [
+          [
+            1,
+            null
+          ]
+        ],
+        "difference_negative": [],
+        "discrete_nonmonotone": false,
+        "vertex_check": {
+          "low_concave": {
+            "real_vertex": "-1697337799388383/251217990406208",
+            "integer_extreme_m": [
+              1
+            ],
+            "twice_extreme": 14938203826097052768
+          },
+          "high_convex": {
+            "real_vertex": "960575837526115/125608995203104",
+            "integer_extreme_m": [
+              8
+            ],
+            "twice_extreme": -42319384081526391392
+          },
+          "failure_low_first_F2": 7469101913048526384,
+          "maximizer_z": 2,
+          "failure_low_integer_max": 7469101913048526384,
+          "simplified_two_component_criterion": false
+        },
+        "other_I": "y",
+        "other_I_ordinal_cut": false
+      }
+    }
+  ],
+  "nonmonotone": [],
+  "ordinal_cut_structure_covered": 0,
+  "beta_gt_6c_ordinal_cut_covered": 0,
+  "beta_gt_6c_outside_ordinal_cut_structure_class": 30
+}

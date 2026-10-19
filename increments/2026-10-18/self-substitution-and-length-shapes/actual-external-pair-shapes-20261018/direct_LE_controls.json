@@ -1,0 +1,551 @@
+[
+  {
+    "m": 0,
+    "total": 23,
+    "external": [
+      {
+        "pair": [
+          "d1",
+          "d2"
+        ],
+        "count": 11,
+        "probability": "11/23"
+      },
+      {
+        "pair": [
+          "d2",
+          "d3"
+        ],
+        "count": 19,
+        "probability": "19/23"
+      }
+    ],
+    "chain_columns": [],
+    "chain_columns_have_balanced_pair": false
+  },
+  {
+    "m": 1,
+    "total": 42,
+    "external": [
+      {
+        "pair": [
+          "d1",
+          "d2"
+        ],
+        "count": 21,
+        "probability": "1/2"
+      },
+      {
+        "pair": [
+          "d2",
+          "d3"
+        ],
+        "count": 33,
+        "probability": "11/14"
+      }
+    ],
+    "chain_columns": [
+      {
+        "pair": [
+          "c1",
+          "y"
+        ],
+        "count": 4,
+        "probability": "2/21",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c1",
+          "z"
+        ],
+        "count": 19,
+        "probability": "19/42",
+        "balanced": true
+      }
+    ],
+    "chain_columns_have_balanced_pair": true
+  },
+  {
+    "m": 6,
+    "total": 197,
+    "external": [
+      {
+        "pair": [
+          "d1",
+          "d2"
+        ],
+        "count": 101,
+        "probability": "101/197"
+      },
+      {
+        "pair": [
+          "d2",
+          "d3"
+        ],
+        "count": 148,
+        "probability": "148/197"
+      }
+    ],
+    "chain_columns": [
+      {
+        "pair": [
+          "c1",
+          "y"
+        ],
+        "count": 84,
+        "probability": "84/197",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c1",
+          "z"
+        ],
+        "count": 174,
+        "probability": "174/197",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c2",
+          "y"
+        ],
+        "count": 60,
+        "probability": "60/197",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c2",
+          "z"
+        ],
+        "count": 155,
+        "probability": "155/197",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c3",
+          "y"
+        ],
+        "count": 40,
+        "probability": "40/197",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c3",
+          "z"
+        ],
+        "count": 132,
+        "probability": "132/197",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c4",
+          "y"
+        ],
+        "count": 24,
+        "probability": "24/197",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c4",
+          "z"
+        ],
+        "count": 105,
+        "probability": "105/197",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c5",
+          "y"
+        ],
+        "count": 12,
+        "probability": "12/197",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c5",
+          "z"
+        ],
+        "count": 74,
+        "probability": "74/197",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c6",
+          "y"
+        ],
+        "count": 4,
+        "probability": "4/197",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c6",
+          "z"
+        ],
+        "count": 39,
+        "probability": "39/197",
+        "balanced": false
+      }
+    ],
+    "chain_columns_have_balanced_pair": true
+  },
+  {
+    "m": 18,
+    "total": 977,
+    "external": [
+      {
+        "pair": [
+          "d1",
+          "d2"
+        ],
+        "count": 497,
+        "probability": "497/977"
+      },
+      {
+        "pair": [
+          "d2",
+          "d3"
+        ],
+        "count": 730,
+        "probability": "730/977"
+      }
+    ],
+    "chain_columns": [
+      {
+        "pair": [
+          "c1",
+          "y"
+        ],
+        "count": 684,
+        "probability": "684/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c1",
+          "z"
+        ],
+        "count": 954,
+        "probability": "954/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c2",
+          "y"
+        ],
+        "count": 612,
+        "probability": "612/977",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c2",
+          "z"
+        ],
+        "count": 935,
+        "probability": "935/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c3",
+          "y"
+        ],
+        "count": 544,
+        "probability": "544/977",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c3",
+          "z"
+        ],
+        "count": 912,
+        "probability": "912/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c4",
+          "y"
+        ],
+        "count": 480,
+        "probability": "480/977",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c4",
+          "z"
+        ],
+        "count": 885,
+        "probability": "885/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c5",
+          "y"
+        ],
+        "count": 420,
+        "probability": "420/977",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c5",
+          "z"
+        ],
+        "count": 854,
+        "probability": "854/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c6",
+          "y"
+        ],
+        "count": 364,
+        "probability": "364/977",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c6",
+          "z"
+        ],
+        "count": 819,
+        "probability": "819/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c7",
+          "y"
+        ],
+        "count": 312,
+        "probability": "312/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c7",
+          "z"
+        ],
+        "count": 780,
+        "probability": "780/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c8",
+          "y"
+        ],
+        "count": 264,
+        "probability": "264/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c8",
+          "z"
+        ],
+        "count": 737,
+        "probability": "737/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c9",
+          "y"
+        ],
+        "count": 220,
+        "probability": "220/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c9",
+          "z"
+        ],
+        "count": 690,
+        "probability": "690/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c10",
+          "y"
+        ],
+        "count": 180,
+        "probability": "180/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c10",
+          "z"
+        ],
+        "count": 639,
+        "probability": "639/977",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c11",
+          "y"
+        ],
+        "count": 144,
+        "probability": "144/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c11",
+          "z"
+        ],
+        "count": 584,
+        "probability": "584/977",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c12",
+          "y"
+        ],
+        "count": 112,
+        "probability": "112/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c12",
+          "z"
+        ],
+        "count": 525,
+        "probability": "525/977",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c13",
+          "y"
+        ],
+        "count": 84,
+        "probability": "84/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c13",
+          "z"
+        ],
+        "count": 462,
+        "probability": "462/977",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c14",
+          "y"
+        ],
+        "count": 60,
+        "probability": "60/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c14",
+          "z"
+        ],
+        "count": 395,
+        "probability": "395/977",
+        "balanced": true
+      },
+      {
+        "pair": [
+          "c15",
+          "y"
+        ],
+        "count": 40,
+        "probability": "40/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c15",
+          "z"
+        ],
+        "count": 324,
+        "probability": "324/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c16",
+          "y"
+        ],
+        "count": 24,
+        "probability": "24/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c16",
+          "z"
+        ],
+        "count": 249,
+        "probability": "249/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c17",
+          "y"
+        ],
+        "count": 12,
+        "probability": "12/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c17",
+          "z"
+        ],
+        "count": 170,
+        "probability": "170/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c18",
+          "y"
+        ],
+        "count": 4,
+        "probability": "4/977",
+        "balanced": false
+      },
+      {
+        "pair": [
+          "c18",
+          "z"
+        ],
+        "count": 87,
+        "probability": "87/977",
+        "balanced": false
+      }
+    ],
+    "chain_columns_have_balanced_pair": true
+  }
+]

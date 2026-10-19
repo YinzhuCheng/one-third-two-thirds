@@ -1,0 +1,41 @@
+{
+  "method": "Direct topological-word recursion, distinct from producer ideal DP; one fixed object only.",
+  "checks": [
+    {
+      "m": 0,
+      "t": 1,
+      "direct_total": 74,
+      "direct_event": 66,
+      "direct_failure": 8,
+      "probability": "33/37"
+    },
+    {
+      "m": 1,
+      "t": 2,
+      "direct_total": 138,
+      "direct_event": 126,
+      "direct_failure": 12,
+      "probability": "21/23"
+    },
+    {
+      "m": 2,
+      "t": 3,
+      "direct_total": 218,
+      "direct_event": 202,
+      "direct_failure": 16,
+      "probability": "101/109"
+    }
+  ],
+  "symbolic_identities": "PASS",
+  "fixed_derivative": "2*(4*t**2 + 8*t + 7)/(4*t**2 + 20*t + 13)**2",
+  "w_event_short_corollary": {
+    "fiber_mean_identity": "PASS",
+    "kernel_derivative_identity": "PASS",
+    "direction_check_only": {
+      "m0": "41/74",
+      "m1": "75/138",
+      "m2": "117/218"
+    },
+    "note": "Only symbolic identities and substitution into previously verified totals; no additional enumeration."
+  }
+}
