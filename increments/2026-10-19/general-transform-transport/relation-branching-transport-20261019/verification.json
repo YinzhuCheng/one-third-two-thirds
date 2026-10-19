@@ -1,0 +1,174 @@
+{
+  "budget_objects": 8,
+  "max_n": 111,
+  "results": [
+    {
+      "id": "common_witness",
+      "n": 3,
+      "N": 6,
+      "Nplus": 3,
+      "Nminus": 3,
+      "p": "1/2",
+      "original_ideal_states": 8,
+      "targets": {
+        "x<z": {
+          "P": "1/2",
+          "plus": "2/3",
+          "minus": "1/3"
+        },
+        "y<z": {
+          "P": "1/2",
+          "plus": "1/3",
+          "minus": "2/3"
+        }
+      }
+    },
+    {
+      "id": "both_selected_witnesses_lost_low",
+      "n": 5,
+      "N": 20,
+      "Nplus": 10,
+      "Nminus": 10,
+      "p": "1/2",
+      "original_ideal_states": 16,
+      "targets": {
+        "x<z": {
+          "P": "1/4",
+          "plus": "2/5",
+          "minus": "1/10"
+        },
+        "y<z": {
+          "P": "1/4",
+          "plus": "1/10",
+          "minus": "2/5"
+        }
+      }
+    },
+    {
+      "id": "both_selected_witnesses_lost_high",
+      "n": 5,
+      "N": 20,
+      "Nplus": 10,
+      "Nminus": 10,
+      "p": "1/2",
+      "original_ideal_states": 16,
+      "targets": {
+        "x<z": {
+          "P": "3/4",
+          "plus": "9/10",
+          "minus": "3/5"
+        },
+        "y<z": {
+          "P": "3/4",
+          "plus": "3/5",
+          "minus": "9/10"
+        }
+      }
+    },
+    {
+      "id": "rare_branch_double_loss",
+      "n": 7,
+      "N": 140,
+      "Nplus": 133,
+      "Nminus": 7,
+      "p": "19/20",
+      "original_ideal_states": 32,
+      "targets": {
+        "x<z": {
+          "P": "3/4",
+          "plus": "102/133",
+          "minus": "3/7"
+        },
+        "y<z": {
+          "P": "1/4",
+          "plus": "31/133",
+          "minus": "4/7"
+        }
+      }
+    },
+    {
+      "id": "ordered_distinct_target_overlap",
+      "n": 31,
+      "N": 9313954650,
+      "Nplus": 2439369075,
+      "Nminus": 6874585575,
+      "p": "11/42",
+      "original_ideal_states": 660,
+      "targets": {
+        "A10<C5": {
+          "P": "8003/20010",
+          "plus": "51374/103385",
+          "minus": "1171537/3204935"
+        },
+        "A10<C6": {
+          "P": "12007/20010",
+          "plus": "71758/103385",
+          "minus": "1816181/3204935"
+        }
+      }
+    },
+    {
+      "id": "dominant_branch_double_endpoint",
+      "n": 39,
+      "N": 1378465288200,
+      "Nplus": 354826131660,
+      "Nminus": 1023639156540,
+      "p": "1969287/7650490",
+      "original_ideal_states": 800,
+      "targets": {
+        "A10<z": {
+          "P": "1/2",
+          "plus": "7049989/11815722",
+          "minus": "15901481/34087218"
+        },
+        "B8<z": {
+          "P": "3/5",
+          "plus": "14868263/29539305",
+          "minus": "53986147/85218045"
+        }
+      }
+    },
+    {
+      "id": "reversed_target_order_boundary",
+      "n": 4,
+      "N": 12,
+      "Nplus": 6,
+      "Nminus": 6,
+      "p": "1/2",
+      "original_ideal_states": 12,
+      "targets": {
+        "x<w": {
+          "P": "1/3",
+          "plus": "1/2",
+          "minus": "1/6"
+        },
+        "x<z": {
+          "P": "2/3",
+          "plus": "5/6",
+          "minus": "1/2"
+        }
+      }
+    },
+    {
+      "id": "ordered_overlap_concentrated",
+      "n": 111,
+      "N": 260281883263094550,
+      "Nplus": 65714732903058525,
+      "Nminus": 194567150360036025,
+      "p": "51/202",
+      "original_ideal_states": 3300,
+      "targets": {
+        "H50<C5": {
+          "P": "92867599/242660378",
+          "plus": "18047473/44447693",
+          "minus": "2515680040/6711601643"
+        },
+        "H50<C6": {
+          "P": "149792779/242660378",
+          "plus": "28465153/44447693",
+          "minus": "4090610020/6711601643"
+        }
+      }
+    }
+  ]
+}

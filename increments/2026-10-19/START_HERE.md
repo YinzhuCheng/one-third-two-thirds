@@ -6,12 +6,17 @@
 
 ## 最快阅读路径
 
-1. [一般变换四路总览](general-transform-transport/README.md)：固定正权链代换、模块替换、局部对偶、关系编辑。四份最终主稿与两组承重独审均PASS，范围以各稿精确量词为准。
-2. [放大与递降本日总览](amplification-and-descent/README.md)：固定外层等长链代换的δ→1/2、rank-CDF障碍、共同TV/方向锥/同核的条件归并，以及24个冻结actual结构的有限阴性诊断。
-3. [昨日cross随机槽推广](../2026-10-18/cross-slot-monotonicity/README_zh.md)：不再要求两个相关槽确定；以两个左矩条件和一侧右槽界控制指定cross，并覆盖同一W内部事件。
-4. 要追溯上述输入，按下列主题读旧一天增量，不需要重载整个仓库。
+1. [组合变换、run 矩与反向分支的新接续](general-transform-transport/COMPOSED_TRANSPORT.md)：四份新稿与两份最终独审 PASS。先把多模块误差压到两端，再用嵌套统计接口、run 尾／矩通道和关系分支证书组合；固定条件与尚未证明的覆盖 gap 见短导读。
+2. [一般变换四路总览](general-transform-transport/README.md)：固定正权链代换、模块替换、局部对偶、关系编辑。四份最终主稿与两组承重独审均PASS，范围以各稿精确量词为准。
+3. [放大与递降本日总览](amplification-and-descent/README.md)：固定外层等长链代换的δ→1/2、rank-CDF障碍、共同TV/方向锥/同核的条件归并，以及24个冻结actual结构的有限阴性诊断。
+4. [昨日cross随机槽推广](../2026-10-18/cross-slot-monotonicity/README_zh.md)：不再要求两个相关槽确定；以两个左矩条件和一侧右槽界控制指定cross，并覆盖同一W内部事件。
+5. 要追溯上述输入，按下列主题读旧一天增量，不需要重载整个仓库。
 
 ## 已保存的机制与精确边界
+
+### 组合传递新接续（2026-10-19）
+
+- [四路短导读与精确未证 gap](general-transform-transport/COMPOSED_TRANSPORT.md)：固定等尺寸自主分块的两端局部性／CDF 包络和对偶抵消，固定／预算环境下可组合统计接口，run 全阶矩 LC 与自主尾通道，关系双分支回传充分证书。全部结论限主稿量词；带权接口不自动保内部 pair 或全 δ，两个后继各有 witness 尚不保证证书覆盖。只同步本轮正文、独审及必要小脚本／证书，不重跑实验，原 OPEN 与 35/55 不变，无文献新颖性主张。
 
 ### 一般传递接口（2026-10-19）
 
@@ -53,3 +58,4 @@
 [PUBLICATION_INVENTORY.json](PUBLICATION_INVENTORY.json)逐项列出保留文件及省略项。正文、独审、源码和精确记录逐字节保留；为避免重复和大表膨胀，省略原包文件清单、冗余日志、all_counts全表、部分per-pair扫描大表。各主题PUBLICATION_SCOPE.md明确其差异。原包README中“没有GitHub写入”是当时归档事实，非本次同步状态。
 
 本次同步只做材料筛选、入口与来源说明，没有重跑数学实验，没有新增哈希门槛，没有更改证明或扩大独审量词。部分旧源码保留生产布局绝对路径、对未附大表或前包输入的依赖，不能宣称全部一键可复现；必要数据和控制的保留范围以清单为准。有限检查不替代通式证明。主导航：[Notion机制页](https://app.notion.com/p/3fd05a5b7caa81f6b349c8f947fee0ce)，其访问权限与GitHub不同。
+
