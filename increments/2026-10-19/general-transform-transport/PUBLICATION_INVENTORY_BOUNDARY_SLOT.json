@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-19",
+  "files": [
+    {
+      "path": "increments/2026-10-19/START_HERE.md",
+      "bytes": 12581
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/BOUNDARY_SLOT_AND_EFFECTIVITY.md",
+      "bytes": 6028
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/INHERITED_INPUTS_BOUNDARY_SLOT.md",
+      "bytes": 2581
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/PUBLICATION_SCOPE_BOUNDARY_SLOT.md",
+      "bytes": 2090
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/bounded-block-limits-20261019/RESULT.md",
+      "bytes": 20636
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/effective-blowup-thresholds-20261019/RESULT.md",
+      "bytes": 19191
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/ideal-deletion-coupling-20261019/RESULT.md",
+      "bytes": 13498
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/ideal-deletion-coupling-20261019/verification.json",
+      "bytes": 9805
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/ideal-deletion-coupling-20261019/verify.py",
+      "bytes": 4147
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-boundary-effectivity-20261019/REVIEW.md",
+      "bytes": 11483
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-deletion-compatibility-20261019/REVIEW.md",
+      "bytes": 17426
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/safe-interface-composition-20261019/RESULT.md",
+      "bytes": 21071
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/safe-interface-composition-20261019/check_controls.py",
+      "bytes": 4231
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/safe-interface-composition-20261019/controls.json",
+      "bytes": 3584
+    }
+  ],
+  "omitted": [
+    "redundant verification.log",
+    "temporary plans",
+    "exploratory records",
+    "duplicate prior proof packages and large tables"
+  ],
+  "experiments_rerun_for_sync": false,
+  "hash_gate_added": false,
+  "status": "All four manuscripts and both final reviews are locked PASS within their stated scope.",
+  "scope_note": "M_A is not effective. M_E is a theoretical full-coordinate-tail algorithm; QE was not implemented or run and no concrete M_E was computed. Original conjecture OPEN; 35/55 unchanged."
+}

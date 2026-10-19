@@ -1,0 +1,456 @@
+{
+  "status": "PASS",
+  "actual_structures": 6,
+  "selected_pairs": 12,
+  "controls": [
+    {
+      "name": "A3-sharp",
+      "n": 3,
+      "edges": [],
+      "extensions": 6,
+      "pairs": [
+        {
+          "K": [
+            0
+          ],
+          "L": [
+            0,
+            1
+          ],
+          "nested": true,
+          "r": "1/3",
+          "s": "1",
+          "M2": "0",
+          "VarX": "2/9",
+          "cov": "1/6",
+          "finite_moment_bound": "1/3",
+          "finite_var_bound": "2/9",
+          "finite_cov_bound": "1/6",
+          "C1_bound": "1/6",
+          "C1_slack": "0",
+          "cov_X_YminusX": "-1/18",
+          "C2_bound": "-1/18",
+          "gX": "2/9",
+          "cov_minus_r": "-1/6",
+          "prefix_words_checked": 1,
+          "prefix_ideal_occurrences_checked": 1
+        },
+        {
+          "K": [
+            0,
+            1
+          ],
+          "L": [
+            1,
+            2
+          ],
+          "nested": false,
+          "r": "1",
+          "s": "1",
+          "M2": "1/3",
+          "VarX": "2/3",
+          "cov": "-1/3",
+          "finite_moment_bound": "4/3",
+          "finite_var_bound": "2/3",
+          "finite_cov_bound": "2/3",
+          "C1_bound": "2/3",
+          "C1_slack": "1",
+          "cov_X_YminusX": "-1",
+          "C2_bound": "0",
+          "gX": "4/3",
+          "cov_minus_r": "-4/3",
+          "prefix_words_checked": 4,
+          "prefix_ideal_occurrences_checked": 1
+        }
+      ]
+    },
+    {
+      "name": "C2-plus-C1-positive-gap",
+      "n": 3,
+      "edges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "extensions": 3,
+      "pairs": [
+        {
+          "K": [
+            0
+          ],
+          "L": [
+            0,
+            1
+          ],
+          "nested": true,
+          "r": "2/3",
+          "s": "1",
+          "M2": "0",
+          "VarX": "2/9",
+          "cov": "1/3",
+          "finite_moment_bound": "40/51",
+          "finite_var_bound": "70/153",
+          "finite_cov_bound": "20/51",
+          "C1_bound": "1/3",
+          "C1_slack": "0",
+          "cov_X_YminusX": "1/9",
+          "C2_bound": "1/9",
+          "gX": "8/9",
+          "cov_minus_r": "-1/3",
+          "prefix_words_checked": 1,
+          "prefix_ideal_occurrences_checked": 1
+        },
+        {
+          "K": [
+            0,
+            1
+          ],
+          "L": [
+            0,
+            2
+          ],
+          "nested": false,
+          "r": "1",
+          "s": "5/3",
+          "M2": "1/3",
+          "VarX": "2/3",
+          "cov": "-1/3",
+          "finite_moment_bound": "4/3",
+          "finite_var_bound": "2/3",
+          "finite_cov_bound": "4/9",
+          "C1_bound": "4/9",
+          "C1_slack": "7/9",
+          "cov_X_YminusX": "-1",
+          "C2_bound": "-2/9",
+          "gX": "4/3",
+          "cov_minus_r": "-4/3",
+          "prefix_words_checked": 2,
+          "prefix_ideal_occurrences_checked": 1
+        }
+      ]
+    },
+    {
+      "name": "A8-cov-greater-than-r",
+      "n": 8,
+      "edges": [],
+      "extensions": 40320,
+      "pairs": [
+        {
+          "K": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "L": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "nested": true,
+          "r": "2",
+          "s": "7/2",
+          "M2": "5/2",
+          "VarX": "3",
+          "cov": "9/4",
+          "finite_moment_bound": "9/2",
+          "finite_var_bound": "3",
+          "finite_cov_bound": "9/4",
+          "C1_bound": "9/4",
+          "C1_slack": "0",
+          "cov_X_YminusX": "-3/4",
+          "C2_bound": "-3/4",
+          "gX": "3",
+          "cov_minus_r": "1/4",
+          "prefix_words_checked": 1956,
+          "prefix_ideal_occurrences_checked": 1956
+        },
+        {
+          "K": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "L": [
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "nested": false,
+          "r": "2",
+          "s": "2",
+          "M2": "5/2",
+          "VarX": "3",
+          "cov": "-4/5",
+          "finite_moment_bound": "9/2",
+          "finite_var_bound": "3",
+          "finite_cov_bound": "3",
+          "C1_bound": "3",
+          "C1_slack": "19/5",
+          "cov_X_YminusX": "-19/5",
+          "C2_bound": "0",
+          "gX": "3",
+          "cov_minus_r": "-14/5",
+          "prefix_words_checked": 1956,
+          "prefix_ideal_occurrences_checked": 64
+        }
+      ]
+    },
+    {
+      "name": "C2-plus-C2",
+      "n": 4,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "extensions": 6,
+      "pairs": [
+        {
+          "K": [
+            0,
+            2
+          ],
+          "L": [
+            0,
+            1,
+            2
+          ],
+          "nested": true,
+          "r": "5/3",
+          "s": "7/3",
+          "M2": "2/3",
+          "VarX": "2/9",
+          "cov": "1/9",
+          "finite_moment_bound": "200/69",
+          "finite_var_bound": "280/207",
+          "finite_cov_bound": "200/207",
+          "C1_bound": "7/9",
+          "C1_slack": "2/3",
+          "cov_X_YminusX": "-1/9",
+          "C2_bound": "5/9",
+          "gX": "38/9",
+          "cov_minus_r": "-14/9",
+          "prefix_words_checked": 4,
+          "prefix_ideal_occurrences_checked": 4
+        },
+        {
+          "K": [
+            0,
+            1
+          ],
+          "L": [
+            2,
+            3
+          ],
+          "nested": false,
+          "r": "2/3",
+          "s": "2/3",
+          "M2": "1/6",
+          "VarX": "5/9",
+          "cov": "-4/9",
+          "finite_moment_bound": "5/6",
+          "finite_var_bound": "5/9",
+          "finite_cov_bound": "5/9",
+          "C1_bound": "5/9",
+          "C1_slack": "1",
+          "cov_X_YminusX": "-1",
+          "C2_bound": "0",
+          "gX": "5/9",
+          "cov_minus_r": "-10/9",
+          "prefix_words_checked": 2,
+          "prefix_ideal_occurrences_checked": 0
+        }
+      ]
+    },
+    {
+      "name": "fork-tail-isolate",
+      "n": 5,
+      "edges": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "extensions": 10,
+      "pairs": [
+        {
+          "K": [
+            0,
+            1
+          ],
+          "L": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "nested": true,
+          "r": "7/5",
+          "s": "19/5",
+          "M2": "3/5",
+          "VarX": "16/25",
+          "cov": "-3/25",
+          "finite_moment_bound": "12/5",
+          "finite_var_bound": "36/25",
+          "finite_cov_bound": "12/25",
+          "C1_bound": "2/5",
+          "C1_slack": "13/25",
+          "cov_X_YminusX": "-19/25",
+          "C2_bound": "-6/25",
+          "gX": "68/25",
+          "cov_minus_r": "-38/25",
+          "prefix_words_checked": 4,
+          "prefix_ideal_occurrences_checked": 4
+        },
+        {
+          "K": [
+            0,
+            1,
+            2
+          ],
+          "L": [
+            0,
+            4
+          ],
+          "nested": false,
+          "r": "9/5",
+          "s": "4/5",
+          "M2": "7/5",
+          "VarX": "34/25",
+          "cov": "-11/25",
+          "finite_moment_bound": "189/55",
+          "finite_var_bound": "504/275",
+          "finite_cov_bound": "1323/550",
+          "C1_bound": "56/25",
+          "C1_slack": "67/25",
+          "cov_X_YminusX": "-9/5",
+          "C2_bound": "22/25",
+          "gX": "92/25",
+          "cov_minus_r": "-56/25",
+          "prefix_words_checked": 6,
+          "prefix_ideal_occurrences_checked": 1
+        }
+      ]
+    },
+    {
+      "name": "asymmetric-twofork",
+      "n": 6,
+      "edges": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          4,
+          5
+        ]
+      ],
+      "extensions": 16,
+      "pairs": [
+        {
+          "K": [
+            0,
+            1,
+            2
+          ],
+          "L": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "nested": true,
+          "r": "11/4",
+          "s": "5",
+          "M2": "5/2",
+          "VarX": "3/16",
+          "cov": "0",
+          "finite_moment_bound": "1155/172",
+          "finite_var_bound": "2145/688",
+          "finite_cov_bound": "165/172",
+          "C1_bound": "3/4",
+          "C1_slack": "3/4",
+          "cov_X_YminusX": "-3/16",
+          "C2_bound": "9/16",
+          "gX": "81/8",
+          "cov_minus_r": "-11/4",
+          "prefix_words_checked": 15,
+          "prefix_ideal_occurrences_checked": 15
+        },
+        {
+          "K": [
+            0,
+            1,
+            3
+          ],
+          "L": [
+            1,
+            2,
+            4
+          ],
+          "nested": false,
+          "r": "19/16",
+          "s": "19/16",
+          "M2": "5/8",
+          "VarX": "263/256",
+          "cov": "-137/256",
+          "finite_moment_bound": "95/48",
+          "finite_var_bound": "1045/768",
+          "finite_cov_bound": "1045/768",
+          "C1_bound": "319/256",
+          "C1_slack": "57/32",
+          "cov_X_YminusX": "-25/16",
+          "C2_bound": "7/32",
+          "gX": "201/128",
+          "cov_minus_r": "-441/256",
+          "prefix_words_checked": 6,
+          "prefix_ideal_occurrences_checked": 1
+        }
+      ]
+    }
+  ]
+}
