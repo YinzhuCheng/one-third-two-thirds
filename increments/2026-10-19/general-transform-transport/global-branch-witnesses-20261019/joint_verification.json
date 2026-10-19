@@ -1,0 +1,56 @@
+[
+  {
+    "control": 3,
+    "events": [
+      "A4<z",
+      "z<B3"
+    ],
+    "p": "1/924",
+    "J": "271/6006",
+    "J_plus": "5/13",
+    "J_minus": "537/11999",
+    "kind": "intersection-budget"
+  },
+  {
+    "control": 3,
+    "events": [
+      "B2<z",
+      "A2<B2"
+    ],
+    "p": "1/924",
+    "J": "625/2002",
+    "J_plus": "5/13",
+    "J_minus": "3745/11999",
+    "kind": "opposite-branch-intersection-budget"
+  },
+  {
+    "control": 6,
+    "events": [
+      "B3<C2",
+      "A1<C1"
+    ],
+    "p": "17/70",
+    "J": "199/450",
+    "Z": "79/450",
+    "J_plus": "293/765",
+    "Z_plus": "133/765",
+    "J_minus": "220/477",
+    "Z_minus": "28/159",
+    "mixed_D": "4/15",
+    "H_plus": "23/51",
+    "K_minus": "304/477",
+    "kind": "exact-D-budget",
+    "acyclic_order": [
+      "A1",
+      "A2",
+      "B1",
+      "B2",
+      "A3",
+      "A4",
+      "B3",
+      "B4",
+      "C1",
+      "C2"
+    ]
+  }
+]

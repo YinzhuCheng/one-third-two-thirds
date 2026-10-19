@@ -1,0 +1,50 @@
+{
+  "scope": "One fixed abstract law; exact symbolic identities, no search or actual-poset enumeration.",
+  "means": {
+    "r": "1/10",
+    "s": "15/16",
+    "c": "47/200",
+    "covariance": "113/800",
+    "T_violation": "1/32"
+  },
+  "joint_tail_positive": true,
+  "Y_tail": [
+    "1",
+    "1/2",
+    "1/4",
+    "1/8",
+    "1/16"
+  ],
+  "Y_binomial_moments": [
+    "1",
+    "15/16",
+    "11/16",
+    "5/16",
+    "1/16"
+  ],
+  "b": [
+    "1",
+    "3/5",
+    "7/20",
+    "31/200",
+    "27/400"
+  ],
+  "b_LC_gaps": [
+    "1/100",
+    "59/2000",
+    "1/2500"
+  ],
+  "JC_m1_gap": "137/3200",
+  "A_m": "(m**4 + 14*m**3 + 83*m**2 + 262*m + 384)/384",
+  "B_m": "(m + 1)*(m**2 + 20*m + 120)/1200",
+  "C_m": "(m + 5)*(m**2 + 7*m + 18)/96",
+  "D_m": "(m + 6)*(m + 9)/400",
+  "JC_all_m_gap": "(m**6 + 45*m**5 + 739*m**4 + 5223*m**3 + 16612*m**2 + 16116*m - 19008)/460800",
+  "last_marker_LC_gaps": [
+    "(25*m**2 - 25*m + 2)/200",
+    "m*(125*m**3 + 370*m**2 + 349*m - 136)/24000",
+    "m**2*(m + 1)*(625*m**3 + 2750*m**2 + 1691*m - 3914)/5760000"
+  ],
+  "all_m_positivity_method": "Substitute m=t+1; expanded polynomial coefficients are nonnegative and constant is positive.",
+  "status": "PASS"
+}

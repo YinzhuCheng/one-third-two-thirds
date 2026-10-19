@@ -1,0 +1,79 @@
+{
+  "control_1": {
+    "old_rare": "55/171",
+    "new_rare": "5/17",
+    "coupling_all_16_retained_coordinates": "PASS"
+  },
+  "control_2": {
+    "old_LE": 84,
+    "new_LE": 60,
+    "all_8_polarized_boundaries": "nonincreasing",
+    "internal_antichains": "1/2, unchanged; not globally bad"
+  },
+  "control_3": {
+    "old_rare": "23/78",
+    "new_rare": "2/7",
+    "strict_gain": "5/546",
+    "FOSD": "incomparable",
+    "uncontrolled_balanced_pair": "7/13"
+  },
+  "control_4": {
+    "m": 35,
+    "k": 23,
+    "removed": [
+      2,
+      5,
+      8,
+      11,
+      14,
+      17,
+      20,
+      23,
+      26,
+      29,
+      32,
+      35
+    ],
+    "marks": [
+      {
+        "old_j": 3,
+        "new_j": 2,
+        "old_rare": "35/222",
+        "new_rare": "47/300"
+      },
+      {
+        "old_j": 33,
+        "new_j": 22,
+        "old_rare": "35/222",
+        "new_rare": "47/300"
+      },
+      {
+        "old_j": 6,
+        "new_j": 4,
+        "old_rare": "67/222",
+        "new_rare": "3/10"
+      },
+      {
+        "old_j": 30,
+        "new_j": 20,
+        "old_rare": "67/222",
+        "new_rare": "3/10"
+      }
+    ]
+  },
+  "control_5": {
+    "raw_rank_old_new": [
+      1,
+      1
+    ],
+    "old_P_y_before_x": "1/3",
+    "new_P_y_before_x": "1/2",
+    "conclusion": "raw-rank equality does not preserve boundary pair"
+  },
+  "control_6": {
+    "environment": "(C_m<t) disjoint r, m=2 -> 1",
+    "old_external_P_r_before_t": "3/4",
+    "new_external_P_r_before_t": "2/3",
+    "conclusion": "outside separated-window class, pure external law need not remain safe"
+  }
+}

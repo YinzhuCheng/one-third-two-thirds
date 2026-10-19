@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-19",
+  "files": [
+    {
+      "path": "increments/2026-10-19/START_HERE.md",
+      "bytes": 11110
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/ARBITRARY_SCALE_AND_INTERFACES.md",
+      "bytes": 4747
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/INHERITED_INPUTS.md",
+      "bytes": 2582
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/PUBLICATION_SCOPE_ARBITRARY_SCALE.md",
+      "bytes": 1811
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/arbitrary-scale-blowup-20261019/AUDIT.md",
+      "bytes": 2724
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/arbitrary-scale-blowup-20261019/RESULT.md",
+      "bytes": 20298
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/global-branch-witnesses-20261019/RESULT.md",
+      "bytes": 19360
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/global-branch-witnesses-20261019/check_frozen.py",
+      "bytes": 3098
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/global-branch-witnesses-20261019/check_joint.py",
+      "bytes": 3198
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/global-branch-witnesses-20261019/joint_verification.json",
+      "bytes": 908
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/global-branch-witnesses-20261019/verification.json",
+      "bytes": 19596
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/interface-safe-descent-20261019/RESULT.md",
+      "bytes": 21857
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/interface-safe-descent-20261019/check_controls.py",
+      "bytes": 5168
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/interface-safe-descent-20261019/controls.json",
+      "bytes": 1583
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/marker-covariance-limits-20261019/AUDIT.md",
+      "bytes": 1799
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/marker-covariance-limits-20261019/RESULT.md",
+      "bytes": 14485
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/marker-covariance-limits-20261019/verification.json",
+      "bytes": 1516
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/marker-covariance-limits-20261019/verify.py",
+      "bytes": 4024
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-scale-covariance-20261019/REVIEW.md",
+      "bytes": 11734
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-scale-covariance-20261019/selected_algebra_verification.json",
+      "bytes": 1189
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-scale-covariance-20261019/verify_selected_algebra.py",
+      "bytes": 4105
+    },
+    {
+      "path": "increments/2026-10-19/general-transform-transport/review-witness-descent-20261019/REVIEW.md",
+      "bytes": 12198
+    }
+  ],
+  "omitted": [
+    "exploratory scripts",
+    "PLAN.md",
+    "redundant logs",
+    "earlier packages and large tables"
+  ],
+  "experiments_rerun_for_sync": false,
+  "hash_gate_added": false,
+  "status": "All four manuscripts and both review reports are locked PASS within their stated scope."
+}
