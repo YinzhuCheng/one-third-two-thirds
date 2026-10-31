@@ -1,0 +1,175 @@
+{
+  "checked_file": "EXAMPLE.json",
+  "C2": true,
+  "A": [
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "s"
+  ],
+  "F": [
+    "f0",
+    "f1",
+    "f2",
+    "f3"
+  ],
+  "T": [
+    "b",
+    "d",
+    "e"
+  ],
+  "S": [
+    "s"
+  ],
+  "b_incomparable_s": true,
+  "e_below_F": true,
+  "inc_counts": {
+    "v": 2,
+    "c1": 4,
+    "c2": 9,
+    "b": 7,
+    "d": 4,
+    "e": 5,
+    "s": 8,
+    "a1": 7,
+    "a2": 8,
+    "a3": 7,
+    "a4": 7,
+    "f0": 7,
+    "f1": 4,
+    "f2": 2,
+    "f3": 1
+  },
+  "very_good_pairs": [],
+  "mixed_graph_topological_order": [
+    "v",
+    "c1",
+    "d",
+    "b",
+    "e",
+    "c2",
+    "s",
+    "a3",
+    "a1",
+    "f0",
+    "a4",
+    "a2",
+    "f1",
+    "f2",
+    "f3"
+  ],
+  "proper_nontrivial_modules": [],
+  "N": 201453,
+  "R0": 66867,
+  "K": 137524,
+  "E": 15215,
+  "G": 8487,
+  "signed_net": 6728,
+  "root_menu_failure": true,
+  "q0": "22289/67151",
+  "pd": "137524/201453",
+  "balanced_pairs": [
+    {
+      "pair": [
+        "c2",
+        "b"
+      ],
+      "numerator": 70411,
+      "probability": "70411/201453"
+    },
+    {
+      "pair": [
+        "c2",
+        "e"
+      ],
+      "numerator": 89094,
+      "probability": "29698/67151"
+    },
+    {
+      "pair": [
+        "c2",
+        "s"
+      ],
+      "numerator": 111970,
+      "probability": "111970/201453"
+    },
+    {
+      "pair": [
+        "b",
+        "e"
+      ],
+      "numerator": 127776,
+      "probability": "42592/67151"
+    },
+    {
+      "pair": [
+        "e",
+        "s"
+      ],
+      "numerator": 123788,
+      "probability": "17684/28779"
+    },
+    {
+      "pair": [
+        "a1",
+        "a3"
+      ],
+      "numerator": 104963,
+      "probability": "104963/201453"
+    },
+    {
+      "pair": [
+        "a2",
+        "a4"
+      ],
+      "numerator": 98133,
+      "probability": "4673/9593"
+    },
+    {
+      "pair": [
+        "a2",
+        "f1"
+      ],
+      "numerator": 88349,
+      "probability": "88349/201453"
+    },
+    {
+      "pair": [
+        "a4",
+        "f1"
+      ],
+      "numerator": 86947,
+      "probability": "12421/28779"
+    }
+  ],
+  "Hasse_relations": [
+    "a1<a4",
+    "a1<f2",
+    "a3<f1",
+    "a4<f3",
+    "b<a1",
+    "b<a2",
+    "b<f1",
+    "c1<a1",
+    "c1<a3",
+    "c1<c2",
+    "c1<s",
+    "c2<f0",
+    "c2<f1",
+    "d<a1",
+    "d<e",
+    "e<a2",
+    "e<a3",
+    "e<a4",
+    "e<f0",
+    "f0<f2",
+    "f1<f2",
+    "f2<f3",
+    "s<a2",
+    "s<f1",
+    "v<b",
+    "v<d",
+    "v<s"
+  ]
+}

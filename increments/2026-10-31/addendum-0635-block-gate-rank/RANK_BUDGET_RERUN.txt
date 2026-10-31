@@ -1,0 +1,2 @@
+b-first independent ideal-DP cases: 196
+b-not-first independent ideal-DP cases: 1134

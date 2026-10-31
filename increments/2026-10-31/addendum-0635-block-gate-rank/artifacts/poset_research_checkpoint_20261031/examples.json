@@ -1,0 +1,859 @@
+{
+  "schema": "poset-research-examples-v1",
+  "relation_semantics": "Take transitive closure. Relations need not be cover relations. Inherited examples append relations to referenced base.",
+  "evidence": "Transferred exact results from upstream research context; not all recomputed during packaging.",
+  "examples": [
+    {
+      "id": "E01",
+      "purpose": "三点局部度数5阈值的尖锐性；不是全局猜想反例",
+      "vertices": [
+        "x1",
+        "x2",
+        "x3",
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "relations": [
+        "x1<a",
+        "x1<d",
+        "a<b",
+        "a<c",
+        "x2<b",
+        "x2<c"
+      ],
+      "linear_extensions": 196,
+      "probabilities": {
+        "x1<x2": "5/7",
+        "x2<x3": "33/49",
+        "x1<x3": "40/49"
+      },
+      "inc_M": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "E02",
+      "purpose": "单个singleton不保证同下集三点内部平衡；不是C2 q=4",
+      "vertices": [
+        "x",
+        "y",
+        "z",
+        "w",
+        "b",
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6"
+      ],
+      "relations": [
+        "x<w",
+        "w<b",
+        "z<b",
+        "w<a1",
+        "y<a1",
+        "w<a2",
+        "y<a2",
+        "w<a3",
+        "y<a3",
+        "w<a4",
+        "y<a4",
+        "w<a5",
+        "y<a5",
+        "w<a6",
+        "y<a6"
+      ],
+      "linear_extensions": 108000,
+      "probabilities": {
+        "x<y": "101/150",
+        "x<z": "121/150",
+        "y<z": "7/10"
+      },
+      "maximum_incomparability_degree": 9
+    },
+    {
+      "id": "E03",
+      "purpose": "C2 q=4基例，T05旧交叉相等条件覆盖(y,z)，T06也覆盖",
+      "vertices": [
+        "v",
+        "b",
+        "d",
+        "e",
+        "c1",
+        "c2",
+        "x",
+        "y",
+        "z",
+        "r",
+        "s",
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "c",
+        "g1",
+        "g2",
+        "w"
+      ],
+      "relations": [
+        "v<b",
+        "v<d",
+        "d<e",
+        "c1<c2",
+        "c1<x",
+        "c1<y",
+        "c1<z",
+        "c1<r",
+        "c1<s",
+        "b<r",
+        "b<s",
+        "d<r",
+        "e<x",
+        "e<y",
+        "e<z",
+        "c2<a1",
+        "c2<a2",
+        "c2<b1",
+        "c2<b2",
+        "c2<c",
+        "c2<g1",
+        "c2<g2",
+        "c2<w",
+        "x<a1",
+        "x<a2",
+        "x<b1",
+        "x<b2",
+        "x<w",
+        "y<b1",
+        "y<b2",
+        "y<c",
+        "z<a1",
+        "z<a2",
+        "z<c",
+        "r<a1",
+        "r<b2",
+        "r<c",
+        "s<a1",
+        "s<a2",
+        "s<b1",
+        "s<c",
+        "a1<g1",
+        "b1<g1",
+        "c<g1",
+        "w<g1",
+        "a2<g2",
+        "b2<g2",
+        "c<g2",
+        "w<g2",
+        "w<a1"
+      ],
+      "linear_extensions": 54317334,
+      "probabilities": {
+        "y<z": "14160958/27158667"
+      },
+      "bad_fiber_mass": "27266216/54317334",
+      "G": "20657736/54317334",
+      "maximum_incomparability_degree": 9
+    },
+    {
+      "id": "E04",
+      "purpose": "T06加权条件失败但T05仍覆盖；一条临界加边可造对称",
+      "extends": "E03",
+      "add_relations": [
+        "w<a2",
+        "w<b1",
+        "w<b2"
+      ],
+      "linear_extensions": 29467976,
+      "probabilities": {
+        "y<z": "3712513/7366994"
+      },
+      "bad_fiber_mass": "27266216/29467976",
+      "G": "1869600/29467976",
+      "critical_edge": "s<b2",
+      "automorphism_after_critical_edge": "(y z)(a1 b2)(a2 b1)(g1 g2)"
+    },
+    {
+      "id": "E05",
+      "purpose": "并集覆盖严格超出任意交叉下集相等条件",
+      "extends": "E03",
+      "add_relations": [
+        "r<a2"
+      ],
+      "linear_extensions": 50826162,
+      "probabilities": {
+        "y<z": "13489993/25413081"
+      },
+      "maximum_incomparability_degree": 9,
+      "upper_matching": "a1~b1:{g1}; a2~b2:{g2}",
+      "lower_sets": {
+        "K": [
+          "v",
+          "b",
+          "d",
+          "e",
+          "c1",
+          "c2",
+          "x"
+        ],
+        "D(a1)-{z}": "K+{r,s,w}",
+        "D(a2)-{z}": "K+{r,s}",
+        "D(b1)-{y}": "K+{s}",
+        "D(b2)-{y}": "K+{r}"
+      },
+      "audit": "上游独立审查确认结构、计数及无任意Ai=Bj；建档者未重跑"
+    },
+    {
+      "id": "E06",
+      "purpose": "四私有后继定理不能删除补偿性下集条件",
+      "vertices": [
+        "p",
+        "q",
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t5"
+      ],
+      "relations": [
+        "p<b1",
+        "p<b2",
+        "q<a1",
+        "q<a2",
+        "t1<t2",
+        "t2<t3",
+        "t3<t4",
+        "t4<t5",
+        "t5<a1",
+        "t5<a2"
+      ],
+      "linear_extensions": 3960,
+      "probabilities": {
+        "p<q": "133/198"
+      },
+      "maximum_incomparability_degree": 9
+    },
+    {
+      "id": "E07",
+      "purpose": "反驳两翼D并集覆盖加同向U嵌套及U并集相等的放宽",
+      "vertices": [
+        "p",
+        "q",
+        "a1",
+        "a2",
+        "b1",
+        "b2",
+        "c",
+        "x1",
+        "x2",
+        "x3",
+        "x4",
+        "z1",
+        "z2",
+        "z3",
+        "z4",
+        "z5",
+        "z6",
+        "z7",
+        "z8",
+        "z9",
+        "z10",
+        "z11",
+        "z12",
+        "z13"
+      ],
+      "relations": [
+        "q<a1",
+        "q<a2",
+        "p<b1",
+        "p<b2",
+        "x1<a1",
+        "x2<a1",
+        "x3<a1",
+        "x4<a1",
+        "a1<c",
+        "b1<c",
+        "b2<c",
+        "c<z1",
+        "z1<z2",
+        "z2<z3",
+        "z3<z4",
+        "z4<z5",
+        "z5<z6",
+        "z6<z7",
+        "z7<z8",
+        "z8<z9",
+        "z9<z10",
+        "z10<z11",
+        "z11<z12",
+        "z12<z13"
+      ],
+      "probabilities": {
+        "p<q": "307/460"
+      },
+      "linear_extensions": 397440,
+      "audit": "父任务报告内部独审；建档追加精确重算见VALIDATION.txt"
+    },
+    {
+      "id": "E08",
+      "purpose": "S73/C2首跳系数2失败；四私有后继结构给旁路而非普遍控制",
+      "vertices": [
+        "v",
+        "b",
+        "d",
+        "e",
+        "c1",
+        "c2",
+        "a",
+        "s",
+        "t",
+        "h",
+        "k"
+      ],
+      "relations": [
+        "v<b",
+        "v<d",
+        "d<e",
+        "d<a",
+        "b<s",
+        "b<t",
+        "v<a",
+        "v<s",
+        "v<t",
+        "v<h",
+        "v<k",
+        "c1<a",
+        "c1<s",
+        "c1<t",
+        "c1<h",
+        "c1<k",
+        "c1<c2"
+      ],
+      "probabilities": {
+        "c1<d": "616/787",
+        "c1<v": "280/787"
+      },
+      "maximum_incomparability_degree": 9,
+      "linear_extensions": 125920,
+      "deletion_counts": {
+        "R0": 44800,
+        "R1": 40320,
+        "B": 13440,
+        "Z": 4480
+      }
+    },
+    {
+      "id": "E09",
+      "purpose": "C2首跳q0≥1/4等号；有孪生，不能声称无very-good残余界锐",
+      "vertices": [
+        "v",
+        "b",
+        "d",
+        "e",
+        "c1",
+        "c2",
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5"
+      ],
+      "relations": [
+        "v<b",
+        "v<d",
+        "d<e",
+        "c1<c2",
+        "b<a1",
+        "e<a1",
+        "c1<a1",
+        "b<a2",
+        "e<a2",
+        "c1<a2",
+        "b<a3",
+        "e<a3",
+        "c1<a3",
+        "b<a4",
+        "e<a4",
+        "c1<a4",
+        "b<a5",
+        "e<a5",
+        "c1<a5"
+      ],
+      "probabilities": {
+        "c1<v": "1/4"
+      },
+      "maximum_incomparability_degree": 9,
+      "linear_extensions": 14400,
+      "q_distribution": [
+        "1/4",
+        "9/40",
+        "1/5",
+        "7/40",
+        "3/20"
+      ]
+    },
+    {
+      "id": "E10",
+      "purpose": "负担匹配的非空L子域见证；有限检查不替代一般注入证明",
+      "vertices": [
+        "v",
+        "c1",
+        "c2",
+        "b",
+        "d",
+        "e",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "f11",
+        "f12",
+        "f13",
+        "f14"
+      ],
+      "numeric_labels": {
+        "0": "v",
+        "1": "c1",
+        "2": "c2",
+        "3": "b",
+        "4": "d",
+        "5": "e",
+        "6": "a6",
+        "7": "a7",
+        "8": "a8",
+        "9": "a9",
+        "10": "a10",
+        "11": "f11",
+        "12": "f12",
+        "13": "f13",
+        "14": "f14"
+      },
+      "relations": [
+        "v<b",
+        "v<d",
+        "v<f11",
+        "c1<c2",
+        "c1<a6",
+        "c1<a7",
+        "c1<a8",
+        "c1<a9",
+        "c2<f11",
+        "b<a10",
+        "b<f12",
+        "b<f13",
+        "d<e",
+        "d<a6",
+        "e<a7",
+        "e<a8",
+        "e<a9",
+        "a6<f13",
+        "a6<f14",
+        "a7<f13",
+        "a8<a10",
+        "a8<f12",
+        "a8<f13",
+        "a9<f12",
+        "a9<f14",
+        "a10<f14",
+        "f11<f12",
+        "f11<f13",
+        "f11<f14"
+      ],
+      "linear_extensions": 800536,
+      "probabilities": {
+        "c1<d": "506455/800536",
+        "c1<v": "262398/800536"
+      },
+      "deletion_counts": {
+        "R0": 262398,
+        "R1": 216160,
+        "B": 27897,
+        "Z": 46238
+      },
+      "maximum_incomparability_degree": 9,
+      "matching": {
+        "L": [
+          "a10"
+        ],
+        "M": [
+          "f11"
+        ],
+        "C": [
+          "f12",
+          "f13",
+          "f14"
+        ],
+        "phi": {
+          "a10": "f11"
+        }
+      },
+      "upstream_structural_audit": "C2; Δ9; no very-good pair, no mixed cycle, no proper nontrivial module; packaging stage separately verifies counts and matching below."
+    },
+    {
+      "id": "E11",
+      "purpose": "部分匹配r=2系数3可取等；含孪生，仅为整C2类锐性例",
+      "vertices": [
+        "v",
+        "b",
+        "d",
+        "e",
+        "c1",
+        "c2",
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5"
+      ],
+      "relations": [
+        "v<b",
+        "v<d",
+        "d<e",
+        "c1<c2",
+        "b<a1",
+        "b<a2",
+        "v<a1",
+        "c1<a1",
+        "v<a2",
+        "c1<a2",
+        "v<a3",
+        "c1<a3",
+        "v<a4",
+        "c1<a4",
+        "v<a5",
+        "c1<a5"
+      ],
+      "probabilities": {},
+      "linear_extensions": 175200,
+      "deletion_counts": {
+        "R0": 67200,
+        "R1": 60480,
+        "B": 20160,
+        "Z": 6720
+      }
+    },
+    {
+      "id": "E12",
+      "extends": "E10",
+      "add_relations": [
+        "e<f11",
+        "a8<a9",
+        "b<a7"
+      ],
+      "purpose": "T11覆盖先前r=1部分匹配未覆盖窗口；不等于全C2解决",
+      "linear_extensions": 351038,
+      "probabilities": {
+        "c1<v": "52988/175519",
+        "c1<d": "212675/351038"
+      },
+      "deletion_counts": {
+        "R0": 105976,
+        "R1": 90801,
+        "B": 15898,
+        "Z": 15175
+      },
+      "matching": {
+        "L": [
+          "a7",
+          "a10"
+        ],
+        "M": [
+          "f11"
+        ],
+        "phi": {
+          "a10": "f11"
+        },
+        "unmatched_r": 1
+      },
+      "maximum_incomparability_degree": 9,
+      "upstream_structural_audit": "d<A; e<F; no very-good, mixed cycle, proper nontrivial module. Package separately checks counts and stated positive order hypotheses."
+    },
+    {
+      "id": "E13",
+      "purpose": "T11漏一个e<F关系不能无误差保原上界；不反驳固定菜单",
+      "vertices": [
+        "v",
+        "c1",
+        "c2",
+        "b",
+        "d",
+        "e",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "f11",
+        "f12",
+        "f13",
+        "f14"
+      ],
+      "relations": [
+        "v<b",
+        "v<d",
+        "v<f11",
+        "c1<c2",
+        "c1<a6",
+        "c1<a7",
+        "c1<a8",
+        "c1<a9",
+        "c2<f11",
+        "b<a10",
+        "b<f12",
+        "b<f13",
+        "d<e",
+        "d<a6",
+        "a6<f13",
+        "a6<f14",
+        "a7<f13",
+        "a8<a10",
+        "a8<f12",
+        "a8<f13",
+        "a9<f12",
+        "a9<f14",
+        "a10<f14",
+        "f11<f12",
+        "f11<f13",
+        "d<a7",
+        "d<a8",
+        "d<a9",
+        "e<f12",
+        "e<f13",
+        "e<f14",
+        "d<f11",
+        "a8<a9",
+        "b<a7",
+        "c2<f14"
+      ],
+      "linear_extensions": 1426296,
+      "probabilities": {
+        "c1<v": "487509/1426296",
+        "c1<d": "983334/1426296"
+      },
+      "deletion_counts": {
+        "R0": 487509,
+        "R1": 412073,
+        "B": 83752,
+        "Z": 75436
+      },
+      "maximum_incomparability_degree": 9,
+      "upstream_structural_audit": "C2; d<A; F\\U(e)={11}; no very-good/mixed cycle/proper nontrivial module; packaging count verification is distinct."
+    },
+    {
+      "id": "E14",
+      "extends": "E10",
+      "add_relations": [
+        "d<f11",
+        "b<a6"
+      ],
+      "purpose": "反向补偿匹配覆盖旧r1窗口且B>Z、e漏一个F点；有限实例非冗余见证",
+      "linear_extensions": 542236,
+      "probabilities": {
+        "c1<v": "165475/542236",
+        "c1<d": "331571/542236"
+      },
+      "deletion_counts": {
+        "R0": 165475,
+        "R1": 139120,
+        "B": 26976,
+        "Z": 26355
+      },
+      "signed_event_counts": {
+        "E": 7149,
+        "G": 51718
+      },
+      "maximum_incomparability_degree": 9,
+      "compensation_matching": {
+        "H": [
+          "f11"
+        ],
+        "R_image": [
+          "a8"
+        ],
+        "phi": {
+          "f11": "a8"
+        }
+      },
+      "upstream_structural_audit": "C2; Δ9; d<A union F; no very-good/mixed cycle/proper nontrivial module; package separately checks positive hypotheses and counts."
+    },
+    {
+      "id": "E15",
+      "purpose": "T12双上锚相对于已查筛子的非冗余见证；含唯一自治链模块{d,e}，历史/文献未完全排重",
+      "vertices": [
+        "v",
+        "b",
+        "d",
+        "e",
+        "c1",
+        "c2",
+        "s",
+        "r",
+        "t",
+        "u",
+        "w",
+        "f0",
+        "f1",
+        "f2"
+      ],
+      "relations": [
+        "v<b",
+        "v<d",
+        "v<s",
+        "c1<c2",
+        "c1<s",
+        "c1<r",
+        "c1<w",
+        "c2<f0",
+        "c2<f1",
+        "b<t",
+        "d<e",
+        "e<r",
+        "e<w",
+        "s<f1",
+        "s<f2",
+        "r<t",
+        "r<u",
+        "t<f0",
+        "t<f1",
+        "u<f2",
+        "w<f1",
+        "f0<f2"
+      ],
+      "linear_extensions": 63815,
+      "probabilities": {
+        "c1<v": "19209/63815",
+        "c1<d": "39098/63815"
+      },
+      "deletion_counts": {
+        "R0": 19209,
+        "R1": 17141,
+        "B": 2748,
+        "Z": 2068
+      },
+      "signed_event_counts": {
+        "E": 2852,
+        "G": 7680
+      },
+      "maximum_incomparability_degree": 9,
+      "anchors": [
+        "r",
+        "t"
+      ],
+      "upstream_structural_audit": "Two independent audits: C2 Δ9; no very-good or mixed cycle; unique proper nontrivial autonomous module {d,e}. Current screening nonredundancy only; historical literature not exhaustively deduplicated."
+    },
+    {
+      "id": "E16",
+      "purpose": "T13下门双锚无模块见证；仅相对已查静态/匹配门槛非冗余，不声称超出全部有符号工具",
+      "vertices": [
+        "v",
+        "b",
+        "d",
+        "e",
+        "c1",
+        "c2",
+        "s",
+        "r",
+        "t",
+        "u",
+        "w",
+        "f0",
+        "f1",
+        "f2",
+        "f3"
+      ],
+      "relations": [
+        "v<b",
+        "v<d",
+        "v<s",
+        "c1<c2",
+        "c1<s",
+        "c1<r",
+        "c1<w",
+        "c2<f0",
+        "c2<f1",
+        "b<t",
+        "d<e",
+        "e<r",
+        "s<f1",
+        "s<f2",
+        "r<t",
+        "r<u",
+        "t<f0",
+        "t<f1",
+        "u<f2",
+        "w<f1",
+        "f0<f2",
+        "d<w",
+        "b<s",
+        "c2<f3",
+        "t<f3",
+        "w<f3",
+        "f3<f1"
+      ],
+      "linear_extensions": 136953,
+      "probabilities": {
+        "c1<v": "38912/136953",
+        "c1<d": "81688/136953"
+      },
+      "deletion_counts": {
+        "R0": 38912,
+        "R1": 34629,
+        "B": 8147,
+        "Z": 4283
+      },
+      "signed_event_counts": {
+        "E": 2110,
+        "G": 14599
+      },
+      "maximum_incomparability_degree": 9,
+      "upstream_structural_audit": "Two audits passed: C2; no primal/dual very-good; no mixed cycle; no proper nontrivial autonomous module. h=w, anchors r,t; b not below h."
+    },
+    {
+      "id": "E17",
+      "purpose": "T13不可删除b<s的固定菜单反例；A4且含VG/模块，非猜想反例",
+      "vertices": [
+        "v",
+        "b",
+        "d",
+        "e",
+        "c1",
+        "c2",
+        "s",
+        "h",
+        "r",
+        "t"
+      ],
+      "relations": [
+        "v<b",
+        "v<d",
+        "v<s",
+        "c1<c2",
+        "c1<s",
+        "c1<h",
+        "d<e",
+        "d<h",
+        "b<h",
+        "h<r",
+        "e<r",
+        "r<t"
+      ],
+      "linear_extensions": 1015,
+      "probabilities": {
+        "c1<v": "9/29",
+        "c1<d": "97/145"
+      },
+      "maximum_incomparability_degree": 8,
+      "upstream_structural_audit": "m=2,k=1 double anchors r,t; b incomparable s; A has 4 elements; known very-good/module structure exists. Does not belong to original A5 screened residual."
+    }
+  ]
+}

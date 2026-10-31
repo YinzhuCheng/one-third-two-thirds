@@ -1,0 +1,203 @@
+{
+  "schema_version": 2,
+  "namespace": "本增量本地索引，不改旧T/E编号",
+  "objects": [
+    {
+      "id": "LEM-001",
+      "kind": "lemma",
+      "status": "proved-in-session",
+      "title": "同构块交换",
+      "summary": "同构块交换",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "open_obligations": [
+        "外部优先权未定"
+      ],
+      "artifacts": [
+        "artifacts/block/hall_block_swap.md"
+      ]
+    },
+    {
+      "id": "RES-001",
+      "kind": "result",
+      "status": "replicated",
+      "title": "16点结构分离见证",
+      "summary": "16点结构分离见证",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/block/block_witness_validation.json"
+      ]
+    },
+    {
+      "id": "RES-002",
+      "kind": "result",
+      "status": "replicated",
+      "title": "15点固定菜单反例",
+      "summary": "15点固定菜单反例",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/free_gate/VALIDATION.json"
+      ]
+    },
+    {
+      "id": "FAIL-001",
+      "kind": "failed-route",
+      "status": "refuted",
+      "title": "自由门固定菜单普遍闭合",
+      "summary": "自由门固定菜单普遍闭合",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "open_obligations": [],
+      "artifacts": [
+        "artifacts/independent_audit/audit_free_residual_independent_report.md"
+      ]
+    },
+    {
+      "id": "LEM-002",
+      "kind": "lemma",
+      "status": "proved-in-session",
+      "title": "严格四门motif解析正性",
+      "summary": "严格四门motif解析正性",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "open_obligations": [
+        "外部优先权未定"
+      ],
+      "artifacts": [
+        "artifacts/free_gate/GATED_MOTIF_ANALYTIC_DRAFT.md"
+      ]
+    },
+    {
+      "id": "PROP-001",
+      "kind": "proposition",
+      "status": "proved-in-session",
+      "title": "T13分别前驱秩预算",
+      "summary": "T13分别前驱秩预算",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "open_obligations": [
+        "外部优先权未定"
+      ],
+      "artifacts": [
+        "artifacts/rank_budget/RANK_BUDGET_PROOF.md"
+      ]
+    },
+    {
+      "id": "PROP-002",
+      "kind": "proposition",
+      "status": "proved-in-session",
+      "title": "首目标碰撞修正",
+      "summary": "原结构1–3，替换端点条件",
+      "depends_on": [],
+      "supersedes": [],
+      "contradicts": [],
+      "evidence": [
+        "generated-current-chat-artifact"
+      ],
+      "open_obligations": [
+        "旧筛外覆盖和优先权未定"
+      ],
+      "artifacts": [
+        "artifacts/rank_budget/RANK_COLLISION_ADDENDUM.md"
+      ]
+    },
+    {
+      "id": "NEXT-001",
+      "kind": "next-action",
+      "status": "planned",
+      "title": "见下一步表第1项",
+      "depends_on": [],
+      "supersedes": [],
+      "evidence": [
+        "current-conversation"
+      ],
+      "artifacts": [
+        "NEXT_RESEARCH_DIRECTIONS.md"
+      ]
+    },
+    {
+      "id": "NEXT-002",
+      "kind": "next-action",
+      "status": "planned",
+      "title": "见下一步表第2项",
+      "depends_on": [],
+      "supersedes": [],
+      "evidence": [
+        "current-conversation"
+      ],
+      "artifacts": [
+        "NEXT_RESEARCH_DIRECTIONS.md"
+      ]
+    },
+    {
+      "id": "NEXT-003",
+      "kind": "next-action",
+      "status": "planned",
+      "title": "见下一步表第3项",
+      "depends_on": [],
+      "supersedes": [],
+      "evidence": [
+        "current-conversation"
+      ],
+      "artifacts": [
+        "NEXT_RESEARCH_DIRECTIONS.md"
+      ]
+    },
+    {
+      "id": "NEXT-004",
+      "kind": "next-action",
+      "status": "planned",
+      "title": "见下一步表第4项",
+      "depends_on": [],
+      "supersedes": [],
+      "evidence": [
+        "current-conversation"
+      ],
+      "artifacts": [
+        "NEXT_RESEARCH_DIRECTIONS.md"
+      ]
+    },
+    {
+      "id": "NEXT-005",
+      "kind": "next-action",
+      "status": "planned",
+      "title": "见下一步表第5项",
+      "depends_on": [],
+      "supersedes": [],
+      "evidence": [
+        "current-conversation"
+      ],
+      "artifacts": [
+        "NEXT_RESEARCH_DIRECTIONS.md"
+      ]
+    }
+  ]
+}

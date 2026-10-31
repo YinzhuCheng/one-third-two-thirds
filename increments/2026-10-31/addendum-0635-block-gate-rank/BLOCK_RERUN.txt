@@ -1,0 +1,1 @@
+PASS: C2, A5, global Δ9, block hypotheses, old Hall failure, no VG/S112/module, all counts. {'N': 876641, 'R0': 323413, 'R1': 250477, 'B': 34049, 'Z': 72936}
