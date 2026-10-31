@@ -1,0 +1,44 @@
+{
+  "schema_version": 2,
+  "namespace": "R4 local increment",
+  "objects": [
+    {
+      "id": "R4-THM-001",
+      "status": "proved-in-session",
+      "title": "参考根森林弹性与精确均值",
+      "artifacts": [
+        "artifacts/exact_mean/ROOTED_FOREST_EXACT_MEAN_INDEPENDENT_AUDIT.md"
+      ],
+      "supersedes": [
+        "R3-CONJ-001"
+      ]
+    },
+    {
+      "id": "R4-PROP-001",
+      "status": "proved-in-session",
+      "title": "精确阈值森林非简单相加",
+      "artifacts": [
+        "artifacts/exact_mean/rooted_forest_elasticity_independent_audit.md"
+      ],
+      "supersedes": []
+    },
+    {
+      "id": "R4-RES-001",
+      "status": "replicated",
+      "title": "13点条件分离（有模块）",
+      "artifacts": [
+        "artifacts/exact_mean/MEAN_SEPARATION_INDEPENDENT_RESULT.json"
+      ],
+      "supersedes": []
+    },
+    {
+      "id": "R4-BOUND-001",
+      "status": "proof-sketch",
+      "title": "15点共同窗口阻碍（完整预筛待审）",
+      "artifacts": [
+        "artifacts/obstruction/15POINT_SCOPE_OBSTRUCTION.md"
+      ],
+      "supersedes": []
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "AUDIT_STATUS.md": {
+    "bytes": 623,
+    "sha256": "403898c78251259f2869739dd3d3bda9c9c5d38aafca03e7d223b2028b5c695b"
+  },
+  "DEPENDENCY_GRAPH.md": {
+    "bytes": 628,
+    "sha256": "cb3671d7940f44cb23ccf7e156b998575bb6678a8d673296b95f32ca505d0ca0"
+  },
+  "ELASTICITY_RERUN.txt": {
+    "bytes": 120,
+    "sha256": "fdb2f94bc1588e566efa26eac2d6cb03df1b05bb4eac18f9d7158eabbd9a2f81"
+  },
+  "MEAN_SEPARATION_RERUN.json": {
+    "bytes": 583,
+    "sha256": "d42048ca095cb42c8b5b5bafbe840b24d8e5a4aaced237017cb329ebf5adc437"
+  },
+  "MODULE_THRESHOLD_RERUN.json": {
+    "bytes": 135,
+    "sha256": "bb62190ff7a5805c184e589256c3165c7af02d8ef63ad978113068b148694eb8"
+  },
+  "NEXT_RESEARCH_DIRECTIONS.md": {
+    "bytes": 526,
+    "sha256": "43ef8afd1f66eec0024af3780a8e8303a81e3e91a8556769fa3ea2e4bbca955b"
+  },
+  "README.md": {
+    "bytes": 1727,
+    "sha256": "626c56ca8e8f013b1835df02c0feef8626762030cdee84d10a93bb4e810cd3ee"
+  },
+  "RESEARCH_LEDGER.md": {
+    "bytes": 612,
+    "sha256": "3ebd085e05d5a2fb275f860b35b50bae06e306df49879b8062692f428889a132"
+  },
+  "RESEARCH_STATE.md": {
+    "bytes": 3132,
+    "sha256": "6ccaf8cc44abf48fa86378137ec0dc06076f138cd85fef477512daeb54c98581"
+  },
+  "RUN_CHECKS.sh": {
+    "bytes": 434,
+    "sha256": "780db22092e716cd0019cefd7240cf07b9c84857dcf78c0a73f4bd001c67b88a"
+  },
+  "SCOPE_RERUN.json": {
+    "bytes": 231,
+    "sha256": "c873d56648e0fe1c67fb014c35672a244b6d7599b6bbee2f5bb2cb93003a5da4"
+  },
+  "VERIFICATION.md": {
+    "bytes": 454,
+    "sha256": "5b15278206f20428e3a15189cfb45382054a70fb2040f499cba140628fbde713"
+  },
+  "artifacts/baseline/BARRIER_AND_FOREST_COMPENSATION.md": {
+    "bytes": 4561,
+    "sha256": "324c33e446eac2605e36bdb1f651ea197379afd501d381b4f584e9cff4493c1d"
+  },
+  "artifacts/baseline/BARRIER_AND_FOREST_INDEPENDENT_AUDIT.md": {
+    "bytes": 8883,
+    "sha256": "312c3433b2b3f792b25da2268134d5f57ed7ba482f5ac0340f73290978755ca3"
+  },
+  "artifacts/baseline/ROOTED_FOREST_CAPACITY_DRAFT.md": {
+    "bytes": 5236,
+    "sha256": "6e965c0256d1b24c9cf3085ddf918b92be8ea0d27753d1ade6f97784b84e412c"
+  },
+  "artifacts/baseline/ROOTED_FOREST_CAPACITY_INDEPENDENT_AUDIT.md": {
+    "bytes": 9368,
+    "sha256": "30944b4f1494b2bf0e957a92f990c71e65eaa8ad1dafac0bf3110817a56d8b00"
+  },
+  "artifacts/exact_mean/MEAN_SEPARATION_INDEPENDENT_RESULT.json": {
+    "bytes": 583,
+    "sha256": "d42048ca095cb42c8b5b5bafbe840b24d8e5a4aaced237017cb329ebf5adc437"
+  },
+  "artifacts/exact_mean/ROOTED_FOREST_EXACT_MEAN_DRAFT.md": {
+    "bytes": 5899,
+    "sha256": "7fa72581b6c3aa1283205f5b157b6479296913fce316ae4650097b2b0611a3d0"
+  },
+  "artifacts/exact_mean/ROOTED_FOREST_EXACT_MEAN_INDEPENDENT_AUDIT.md": {
+    "bytes": 8719,
+    "sha256": "8d626cd75e7e1293c598c17a56d0023621690211d1a145edf3c1a67de5039970"
+  },
+  "artifacts/exact_mean/STATUS_0717.md": {
+    "bytes": 1198,
+    "sha256": "8d5ae407d6120853f3e9c1a49dfe39e1c5f2c6ae8be9a3c34e4652be906afa46"
+  },
+  "artifacts/exact_mean/independent_elasticity_search.py": {
+    "bytes": 2324,
+    "sha256": "dec3f590fbfa81d752a1b50f795ecd21ef6f12ff9c33e660069870320b7a47d5"
+  },
+  "artifacts/exact_mean/independent_mean_separation_check.py": {
+    "bytes": 1780,
+    "sha256": "d26b9f47677222f9a3d9876b3c0104799db0f1f123c50563a94992dfe570cb20"
+  },
+  "artifacts/exact_mean/rooted_forest_elasticity_independent_audit.md": {
+    "bytes": 4501,
+    "sha256": "ab9c8da960729b80bd3bad7d9920e88246c6bf2e62ad0a297559227a23ecda03"
+  },
+  "artifacts/exact_mean/verify_module_and_threshold.py": {
+    "bytes": 568,
+    "sha256": "b871fa92bf26cc6e088fd13cb38ab65656683aa3947eea083a2bd43f1bb758f1"
+  },
+  "artifacts/obstruction/15POINT_SCOPE_OBSTRUCTION.md": {
+    "bytes": 2141,
+    "sha256": "0d9c0620907892befb6ead132bd6032fccb18dee0a6bcd299acd1d6170c099b9"
+  },
+  "artifacts/obstruction/EXAMPLE.json": {
+    "bytes": 890,
+    "sha256": "cbffdd63c1242159eef5b251c1d41a3edeab4399aef4c1e08c3b0a02bccc04ea"
+  },
+  "artifacts/obstruction/verify_scope.py": {
+    "bytes": 924,
+    "sha256": "1935f882d3433b35fd91de8d3511c2828b89d347d31f87edf98d710423c7086b"
+  },
+  "object_registry.json": {
+    "bytes": 1128,
+    "sha256": "cc1f0e6e382d4f67529d052fefef9e084aa6a231874e527309d8508297a07ea7"
+  }
+}

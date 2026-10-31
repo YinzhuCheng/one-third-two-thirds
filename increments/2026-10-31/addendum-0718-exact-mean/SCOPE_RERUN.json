@@ -1,0 +1,20 @@
+{
+  "L": [
+    "a1",
+    "a2",
+    "a4"
+  ],
+  "M": [
+    "f0"
+  ],
+  "e_precedes_f0": true,
+  "e_incomparable_a1": true,
+  "lower_obstructions": [
+    "e"
+  ],
+  "upper_outside_L": [
+    "f2",
+    "f3"
+  ],
+  "upper_test": true
+}

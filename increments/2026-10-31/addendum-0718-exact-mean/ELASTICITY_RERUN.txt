@@ -1,0 +1,2 @@
+ROOT_FOREST 873 18815 instances; 169335 exact elasticity-derivative tests passed
+ARBITRARY_5_NO_COUNTEREXAMPLE 357 4467
