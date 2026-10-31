@@ -1,0 +1,46 @@
+{
+  "schema_version": 2,
+  "namespace": "R3 local increment",
+  "objects": [
+    {
+      "id": "R3-THM-001",
+      "status": "proved-in-session",
+      "title": "屏障及独立多分支补偿",
+      "artifacts": [
+        "artifacts/stage3/BARRIER_AND_FOREST_INDEPENDENT_AUDIT.md"
+      ]
+    },
+    {
+      "id": "R3-THM-002",
+      "status": "proved-in-session",
+      "title": "根森林容量",
+      "artifacts": [
+        "artifacts/stage3/ROOTED_FOREST_CAPACITY_INDEPENDENT_AUDIT.md"
+      ]
+    },
+    {
+      "id": "R3-FAIL-001",
+      "status": "refuted",
+      "title": "去掉跨分支不可比的宽接口",
+      "artifacts": [
+        "artifacts/stage3/BARRIER_AND_FOREST_INDEPENDENT_AUDIT.md"
+      ]
+    },
+    {
+      "id": "R3-RES-001",
+      "status": "replicated",
+      "title": "fork结构见证，q0已平衡",
+      "artifacts": [
+        "artifacts/stage3/fork_independent_audit.md"
+      ]
+    },
+    {
+      "id": "R3-CONJ-001",
+      "status": "proof-sketch",
+      "title": "强弹性/精确均值候选",
+      "artifacts": [
+        "artifacts/stage3/ROOTED_FOREST_EXACT_MEAN_DRAFT.md"
+      ]
+    }
+  ]
+}

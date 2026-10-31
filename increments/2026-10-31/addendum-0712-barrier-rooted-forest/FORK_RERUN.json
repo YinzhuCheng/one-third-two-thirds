@@ -1,0 +1,262 @@
+{
+  "source": "artifacts/stage3/fork_candidate.json",
+  "source_sha256": "5cc1485178c82e8e803313f1569c7186d32ba7893cb7d8084bfc83ec4f3f56f2",
+  "vertices": [
+    "v",
+    "c1",
+    "c2",
+    "b",
+    "d",
+    "e",
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10",
+    "f11",
+    "f12",
+    "f13",
+    "f14",
+    "f15"
+  ],
+  "I_v": [
+    "c1",
+    "c2"
+  ],
+  "T": [
+    "b",
+    "d",
+    "e"
+  ],
+  "A": [
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10"
+  ],
+  "F": [
+    "f11",
+    "f12",
+    "f13",
+    "f14",
+    "f15"
+  ],
+  "L": [
+    "a8",
+    "a10"
+  ],
+  "M": [
+    "f11"
+  ],
+  "C": [
+    "f12",
+    "f13",
+    "f14",
+    "f15"
+  ],
+  "Q": [
+    "d",
+    "e",
+    "a6",
+    "a7",
+    "a8",
+    "a9",
+    "a10",
+    "f11",
+    "f12",
+    "f13",
+    "f14",
+    "f15"
+  ],
+  "K": [
+    "e",
+    "a8",
+    "a10"
+  ],
+  "R": [
+    "d",
+    "a6",
+    "a7",
+    "a9",
+    "f12",
+    "f13",
+    "f14",
+    "f15"
+  ],
+  "L_antichain": true,
+  "K_nonchain": true,
+  "barrier_H_below_L": true,
+  "K_cross_M": true,
+  "profiles": {
+    "e": {
+      "D_R": [
+        "d"
+      ],
+      "U_R": [
+        "f13",
+        "f14",
+        "f15"
+      ]
+    },
+    "a8": {
+      "D_R": [
+        "d"
+      ],
+      "U_R": [
+        "f13",
+        "f14",
+        "f15"
+      ]
+    },
+    "a10": {
+      "D_R": [
+        "d",
+        "a9"
+      ],
+      "U_R": [
+        "f14"
+      ]
+    },
+    "f11": {
+      "D_R": [
+        "d"
+      ],
+      "U_R": [
+        "f12",
+        "f13",
+        "f14",
+        "f15"
+      ]
+    }
+  },
+  "D_R_union_M": [
+    "d"
+  ],
+  "D_R_common_K": [
+    "d"
+  ],
+  "U_R_union_K": [
+    "f13",
+    "f14",
+    "f15"
+  ],
+  "U_R_common_M": [
+    "f12",
+    "f13",
+    "f14",
+    "f15"
+  ],
+  "external_lower_inclusion": true,
+  "external_upper_inclusion": true,
+  "budget": {
+    "q": 1,
+    "l": 2,
+    "m": 1,
+    "holds": true
+  },
+  "nonautonomous_K_witnesses": [
+    {
+      "external": "a9",
+      "below": [
+        "a10"
+      ],
+      "above": [],
+      "incomparable": [
+        "e",
+        "a8"
+      ]
+    },
+    {
+      "external": "f13",
+      "below": [],
+      "above": [
+        "e",
+        "a8"
+      ],
+      "incomparable": [
+        "a10"
+      ]
+    },
+    {
+      "external": "f15",
+      "below": [],
+      "above": [
+        "e",
+        "a8"
+      ],
+      "incomparable": [
+        "a10"
+      ]
+    }
+  ],
+  "degrees": {
+    "v": 2,
+    "c1": 4,
+    "c2": 9,
+    "b": 8,
+    "d": 3,
+    "e": 8,
+    "a6": 8,
+    "a7": 9,
+    "a8": 7,
+    "a9": 8,
+    "a10": 8,
+    "f11": 7,
+    "f12": 7,
+    "f13": 2,
+    "f14": 4,
+    "f15": 4
+  },
+  "max_inc": 9,
+  "very_good": [],
+  "dual_very_good": [],
+  "mixed_arc_count": 114,
+  "mixed_acyclic": true,
+  "mixed_topological_order": [
+    "v",
+    "c1",
+    "d",
+    "c2",
+    "b",
+    "e",
+    "a9",
+    "a6",
+    "f11",
+    "a7",
+    "a8",
+    "a10",
+    "f12",
+    "f15",
+    "f14",
+    "f13"
+  ],
+  "modules": [],
+  "old_point_matching_edges": [
+    [
+      "a8",
+      "f11"
+    ],
+    [
+      "a10",
+      "f11"
+    ]
+  ],
+  "counts": {
+    "N": 1067361,
+    "R0": 368273,
+    "R1": 307139,
+    "B": 49301,
+    "Z": 61134,
+    "K_c1d": 724713,
+    "eQ": 11146,
+    "sum_first_M_C": 49301,
+    "sum_first_L_C": 61134
+  },
+  "q0": "368273/1067361",
+  "pd": "241571/355787",
+  "q0_closed_balanced": true,
+  "q0_lower_slack": 37458,
+  "pd_closed_balanced": false,
+  "B_minus_Z": -11833
+}

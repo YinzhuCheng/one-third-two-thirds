@@ -1,0 +1,3 @@
+single fork q1,l2,m1: {'distinct_closures': 1876, 'valid_orders': 217, 'C_instances': 868}
+two disjoint q1,l1 branches,m1: {'distinct_closures': 108, 'valid_orders': 19, 'C_instances': 38}
+cross-branch counterexample: {'N': 5, 'B': 15, 'Z': 12}

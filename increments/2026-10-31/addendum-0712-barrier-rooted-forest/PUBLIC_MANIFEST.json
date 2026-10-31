@@ -1,0 +1,114 @@
+{
+  "AUDIT_STATUS.md": {
+    "bytes": 689,
+    "sha256": "59edd2eaacb013ec8f86d90493e2b9c1bd76f7ddd41a4301224c8e1b0827df9d"
+  },
+  "BARRIER_RERUN.txt": {
+    "bytes": 245,
+    "sha256": "7d9db71171ed4f7d1b808cba54d45591f1e2cc71bc247ebe465dc8e9b00948f3"
+  },
+  "DEPENDENCY_GRAPH.md": {
+    "bytes": 715,
+    "sha256": "13482a7a58f3650ba93a24fe730310e8438fbece64853ebf56f4c3d58adc57ba"
+  },
+  "FOREST_RERUN.txt": {
+    "bytes": 127,
+    "sha256": "4a488639d6f237c414c3f9a6c45b21e82951dd633ccb9c55374d2d1954dbb295"
+  },
+  "FORK_RERUN.json": {
+    "bytes": 3384,
+    "sha256": "c24ff83a217784d0dd87a8f05f1be2b7f75ac0f85ac38de047dae449baf72605"
+  },
+  "NEXT_RESEARCH_DIRECTIONS.md": {
+    "bytes": 501,
+    "sha256": "3fc52f3bd1a1ae878d0876ae53ce76f462ad9aca66e86e36ae5c620afa5bf14e"
+  },
+  "README.md": {
+    "bytes": 1902,
+    "sha256": "fdc85b70e5aca7ddf3b70b9825ab9d5d7e2a10e0ae55101e90b39d5054c11687"
+  },
+  "RESEARCH_LEDGER.md": {
+    "bytes": 655,
+    "sha256": "e78a58121be87b0b47229a0c6a4e8d3a60f9f9d393bc20b9c0af67a4354549ec"
+  },
+  "RESEARCH_STATE.md": {
+    "bytes": 4022,
+    "sha256": "dce1719d54eb1dfdded0021e0c0b1a6b3c594c7d7497b705cf7c39729a54b87b"
+  },
+  "RUN_CHECKS.sh": {
+    "bytes": 333,
+    "sha256": "c0ffe74abe064c9190bced87e61be97f0bb04c921fdcc3ec720dbaeaaa2ed486"
+  },
+  "VERIFICATION.md": {
+    "bytes": 499,
+    "sha256": "5f2806a563858a12666e10904fbdf660b20cd6bc2e0b0f051912a8fc8fddba01"
+  },
+  "artifacts/baseline/beta_truncated_mean_independent_audit.md": {
+    "bytes": 3102,
+    "sha256": "6efaf8a38fb2f7e188730141a002919f45ec37f5dc63f0998b8dbad735637af8"
+  },
+  "artifacts/baseline/predecessor_chain_compensation.md": {
+    "bytes": 6440,
+    "sha256": "c7d01ddf39ecbbc12ce5e720f7eca96ff47f505f6b617321a58dd9d451acc6f0"
+  },
+  "artifacts/baseline/predecessor_chain_compensation_independent_audit.md": {
+    "bytes": 8350,
+    "sha256": "7f4e66d30ba9d22ffe38bb7011e90e24a9fa0e169a3c66dd5b3280e2375d94ee"
+  },
+  "artifacts/stage3/BARRIER_AND_FOREST_COMPENSATION.md": {
+    "bytes": 4561,
+    "sha256": "324c33e446eac2605e36bdb1f651ea197379afd501d381b4f584e9cff4493c1d"
+  },
+  "artifacts/stage3/BARRIER_AND_FOREST_INDEPENDENT_AUDIT.md": {
+    "bytes": 8883,
+    "sha256": "312c3433b2b3f792b25da2268134d5f57ed7ba482f5ac0340f73290978755ca3"
+  },
+  "artifacts/stage3/ROOTED_FOREST_CAPACITY_DRAFT.md": {
+    "bytes": 5236,
+    "sha256": "6e965c0256d1b24c9cf3085ddf918b92be8ea0d27753d1ade6f97784b84e412c"
+  },
+  "artifacts/stage3/ROOTED_FOREST_CAPACITY_INDEPENDENT_AUDIT.md": {
+    "bytes": 9368,
+    "sha256": "30944b4f1494b2bf0e957a92f990c71e65eaa8ad1dafac0bf3110817a56d8b00"
+  },
+  "artifacts/stage3/ROOTED_FOREST_EXACT_MEAN_DRAFT.md": {
+    "bytes": 4868,
+    "sha256": "52b18dcd7d29ae3318481df26ca59029f20090feaea2d8688e398b69215a2d77"
+  },
+  "artifacts/stage3/STATUS_0712.md": {
+    "bytes": 1308,
+    "sha256": "3abde55ce95f3ac9c15b05f01d2407ac459312677dfcdc3d28ace68d1ea1573a"
+  },
+  "artifacts/stage3/fork_candidate.json": {
+    "bytes": 423,
+    "sha256": "5cc1485178c82e8e803313f1569c7186d32ba7893cb7d8084bfc83ec4f3f56f2"
+  },
+  "artifacts/stage3/fork_independent_audit.md": {
+    "bytes": 3279,
+    "sha256": "ac882d953086eb78f641c4db227f487735b84b757914dbb6ac710a800e97c479"
+  },
+  "artifacts/stage3/fork_independent_validation.json": {
+    "bytes": 6141,
+    "sha256": "dbf85cc23201115f551943ddcb219ab67d8094df039b6547be4c433fff39b9d9"
+  },
+  "artifacts/stage3/independent_barrier_small_check.py": {
+    "bytes": 2112,
+    "sha256": "57ddf829f66a70ff6e9df08d345c98eead4e2ee1765677b15dd6628447c46271"
+  },
+  "artifacts/stage3/independent_forest_capacity_check.py": {
+    "bytes": 1786,
+    "sha256": "21649d3717dc09f7772d931ae9c6549193842d449595b0c68138a22fe7d853f6"
+  },
+  "artifacts/stage3/rerun_fork.py": {
+    "bytes": 6081,
+    "sha256": "601727679d92ee4b5d4201b170997aba9a53bc1bb0fb4d8a7cb2ccce183f8264"
+  },
+  "artifacts/stage3/rooted_forest_capacity_independent_audit.md": {
+    "bytes": 5214,
+    "sha256": "9f90b1485c3d1eca283018ead39b8dddfa24af725f419b3d347f2767ede93df3"
+  },
+  "object_registry.json": {
+    "bytes": 1140,
+    "sha256": "545ad809c3b3dd460d2957948ce40d04799384769fc518fb64b78cac3f8b1740"
+  }
+}

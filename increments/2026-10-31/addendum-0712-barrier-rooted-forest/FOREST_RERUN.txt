@@ -1,0 +1,1 @@
+{'indexed_root_forests': 873, 'nonempty_upper_ideal_instances': 18815, 'exact_rational_truncation_checks': 188150, 'max_n': 6}
