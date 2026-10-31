@@ -1,0 +1,106 @@
+{
+  "base_source": "artifacts/nonuniform/BASE_EXAMPLE.json",
+  "base_sha256": "73503a3dc73b84ece876e74d1231ae4b2865f1a45ff35e458894d80630642243",
+  "gap_source": "artifacts/nonuniform/LOWER_GAP_WITNESS.json",
+  "gap_source_sha256": "bf0d9a7d640334d494c3cbecd075ee21e76a650e588d51755f0147eced97c323",
+  "Q_vertices": [
+    "d",
+    "e",
+    "s",
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "f0",
+    "f1",
+    "f2",
+    "f3"
+  ],
+  "R_vertices": [
+    "d",
+    "e",
+    "s",
+    "a2",
+    "a3",
+    "a4",
+    "f1",
+    "f2",
+    "f3"
+  ],
+  "L": [
+    "a1",
+    "a2",
+    "a4"
+  ],
+  "M": [
+    "f0"
+  ],
+  "C": [
+    "f1",
+    "f2",
+    "f3"
+  ],
+  "critical_profiles": {
+    "a1": {
+      "D_Q": [
+        "d"
+      ],
+      "U_Q": [
+        "a4",
+        "f2",
+        "f3"
+      ]
+    },
+    "f0": {
+      "D_Q": [
+        "d",
+        "e"
+      ],
+      "U_Q": [
+        "f2",
+        "f3"
+      ]
+    }
+  },
+  "gap_matches_full_inherited_R_plus_exact_five_edges": true,
+  "counts": {
+    "N": 201453,
+    "R0": 66867,
+    "R1": 57766,
+    "B": 12891,
+    "Z": 9101,
+    "K_c1d": 137524,
+    "eQ": 2301,
+    "sum_first_M_C": 12891,
+    "sum_first_L_C": 9101,
+    "B_minus_Z": 3790,
+    "gap": 699,
+    "gap_s_before_e": 420,
+    "gap_e_before_s": 279,
+    "suffix_six": 15
+  },
+  "suffix_f1_rank_histogram": {
+    "3": 6,
+    "4": 6,
+    "2": 3
+  },
+  "insert_s_a2_counts_by_rank": {
+    "3": 18,
+    "4": 22,
+    "2": 13
+  },
+  "allowance": "568",
+  "lower_certificate_surplus": "131",
+  "q0": "22289/67151",
+  "pd": "137524/201453",
+  "N_minus_3R0": 852,
+  "3K_minus_2N": 9666,
+  "quantitative_K_lower_bound": 134433,
+  "quantitative_K_excess_above_2N_over_3": "131",
+  "integer_factor_identity": {
+    "n": 11,
+    "gap_n": 12,
+    "factor": 479001600,
+    "gap_factorial": 479001600
+  }
+}

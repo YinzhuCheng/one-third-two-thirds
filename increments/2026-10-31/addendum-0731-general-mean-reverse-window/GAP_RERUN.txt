@@ -1,0 +1,1 @@
+{'e_Q_gap': 699, 'paper_count': 699, 'old_menu_budget': 568, 'strictly_above_budget': True}

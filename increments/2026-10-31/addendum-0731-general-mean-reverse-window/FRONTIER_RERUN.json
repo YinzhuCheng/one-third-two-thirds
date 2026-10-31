@@ -1,0 +1,101 @@
+{
+  "Q": [
+    "d",
+    "e",
+    "s",
+    "a1",
+    "a2",
+    "a3",
+    "a4",
+    "f0",
+    "f1",
+    "f2",
+    "f3"
+  ],
+  "B_minimal_frontier": [
+    "f0",
+    "f1"
+  ],
+  "Z_minimal_frontier": [
+    "a1",
+    "a2",
+    "f1"
+  ],
+  "common_minimal_frontier": [
+    "f1"
+  ],
+  "frontier_disjoint_decomposition": {
+    "M_front": [
+      "f0"
+    ],
+    "C_front": [
+      "f1"
+    ],
+    "L_front": [
+      "a1",
+      "a2"
+    ]
+  },
+  "all_Q_extensions_frontier_identity": true,
+  "first_target_sums": {
+    "B": 12891,
+    "Z": 9101,
+    "B_front": 12891,
+    "Z_front": 9101,
+    "Z_after_move_f1_to_M": 9361
+  },
+  "moving_f1_strict_increase": 260,
+  "moving_f1_counterexample_word": [
+    "d",
+    "e",
+    "s",
+    "a3",
+    "f0",
+    "f1",
+    "a1",
+    "a2",
+    "a4",
+    "f2",
+    "f3"
+  ],
+  "P_profiles": {
+    "a1": {
+      "D": [
+        "b",
+        "c1",
+        "d",
+        "v"
+      ],
+      "U": [
+        "a4",
+        "f2",
+        "f3"
+      ]
+    },
+    "f0": {
+      "D": [
+        "c1",
+        "c2",
+        "d",
+        "e",
+        "v"
+      ],
+      "U": [
+        "f2",
+        "f3"
+      ]
+    }
+  },
+  "counts": {
+    "N": 201453,
+    "a1_before_f0": 144124,
+    "a2_before_f1": 88349,
+    "eQ": 2301,
+    "Q_a1_before_f0": 1655
+  },
+  "pP_a1_f0": "144124/201453",
+  "pQ_a1_f0": "1655/2301",
+  "pP_a2_f1": "88349/201453",
+  "3A_minus_2N": 29466,
+  "pP_a1_f0_balanced": false
+}

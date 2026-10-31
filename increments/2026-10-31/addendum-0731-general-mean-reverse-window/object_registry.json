@@ -1,0 +1,46 @@
+{
+  "schema_version": 2,
+  "namespace": "R5 local increment",
+  "objects": [
+    {
+      "id": "R5-THM-001",
+      "status": "proved-in-session",
+      "title": "任意参考偏序均值（经典Prékopa应用）",
+      "artifacts": [
+        "artifacts/general/GENERAL_PREKOPA_MEAN_INDEPENDENT_AUDIT.md"
+      ]
+    },
+    {
+      "id": "R5-THM-002",
+      "status": "proved-in-session",
+      "title": "反向临界窗口与699证书",
+      "artifacts": [
+        "artifacts/nonuniform/REVERSE_CRITICAL_WINDOW_INDEPENDENT_AUDIT.md"
+      ]
+    },
+    {
+      "id": "R5-PROP-001",
+      "status": "proved-in-session",
+      "title": "严格量词最小前沿与非均匀边界",
+      "artifacts": [
+        "artifacts/nonuniform/NONUNIFORM_FRONTIER_INDEPENDENT_AUDIT.md"
+      ]
+    },
+    {
+      "id": "R5-BOUND-001",
+      "status": "proved-in-session",
+      "title": "15点共同窗口下侧阻碍",
+      "artifacts": [
+        "artifacts/baseline/15POINT_SCOPE_OBSTRUCTION_INDEPENDENT_AUDIT.md"
+      ]
+    },
+    {
+      "id": "R5-Q-001",
+      "status": "open",
+      "title": "A5后加局部证书复杂度段待审",
+      "artifacts": [
+        "artifacts/general/GENERAL_PREKOPA_MEAN_DRAFT.md"
+      ]
+    }
+  ]
+}
