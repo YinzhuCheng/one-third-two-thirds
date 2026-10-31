@@ -1,0 +1,31 @@
+{
+  "example": "E15",
+  "C2": true,
+  "max_incomparability_degree": 9,
+  "T12_hypotheses": true,
+  "very_good_or_dual_pairs": [],
+  "mixed_graph_topological_order": [
+    "v",
+    "c1",
+    "d",
+    "e",
+    "b",
+    "r",
+    "c2",
+    "s",
+    "w",
+    "t",
+    "u",
+    "f0",
+    "f1",
+    "f2"
+  ],
+  "all_proper_nontrivial_autonomous_modules": [
+    [
+      "d",
+      "e"
+    ]
+  ],
+  "old_r1_window": true,
+  "old_unsigned_error_budget_fails": true
+}

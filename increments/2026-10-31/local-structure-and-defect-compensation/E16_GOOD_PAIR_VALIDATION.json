@@ -1,0 +1,241 @@
+{
+  "N": 136953,
+  "union_primal_dual_good_pair_candidate_count": 39,
+  "all_probabilities_strictly_above_half": true,
+  "arcs": [
+    {
+      "a": "v",
+      "b": "c1",
+      "numerator": 98041,
+      "probability": "98041/136953"
+    },
+    {
+      "a": "v",
+      "b": "c2",
+      "numerator": 132670,
+      "probability": "132670/136953"
+    },
+    {
+      "a": "b",
+      "b": "e",
+      "numerator": 75922,
+      "probability": "75922/136953"
+    },
+    {
+      "a": "b",
+      "b": "c2",
+      "numerator": 99624,
+      "probability": "33208/45651"
+    },
+    {
+      "a": "b",
+      "b": "r",
+      "numerator": 108571,
+      "probability": "108571/136953"
+    },
+    {
+      "a": "b",
+      "b": "u",
+      "numerator": 131967,
+      "probability": "14663/15217"
+    },
+    {
+      "a": "b",
+      "b": "w",
+      "numerator": 112299,
+      "probability": "37433/45651"
+    },
+    {
+      "a": "d",
+      "b": "b",
+      "numerator": 99388,
+      "probability": "99388/136953"
+    },
+    {
+      "a": "d",
+      "b": "c2",
+      "numerator": 120273,
+      "probability": "40091/45651"
+    },
+    {
+      "a": "d",
+      "b": "s",
+      "numerator": 133587,
+      "probability": "14843/15217"
+    },
+    {
+      "a": "e",
+      "b": "c2",
+      "numerator": 97503,
+      "probability": "32501/45651"
+    },
+    {
+      "a": "e",
+      "b": "s",
+      "numerator": 122831,
+      "probability": "122831/136953"
+    },
+    {
+      "a": "e",
+      "b": "w",
+      "numerator": 113171,
+      "probability": "113171/136953"
+    },
+    {
+      "a": "c1",
+      "b": "b",
+      "numerator": 105871,
+      "probability": "105871/136953"
+    },
+    {
+      "a": "c1",
+      "b": "d",
+      "numerator": 81688,
+      "probability": "81688/136953"
+    },
+    {
+      "a": "c1",
+      "b": "e",
+      "numerator": 116187,
+      "probability": "38729/45651"
+    },
+    {
+      "a": "c2",
+      "b": "s",
+      "numerator": 100199,
+      "probability": "100199/136953"
+    },
+    {
+      "a": "c2",
+      "b": "t",
+      "numerator": 105171,
+      "probability": "35057/45651"
+    },
+    {
+      "a": "c2",
+      "b": "u",
+      "numerator": 115744,
+      "probability": "115744/136953"
+    },
+    {
+      "a": "c2",
+      "b": "w",
+      "numerator": 83123,
+      "probability": "83123/136953"
+    },
+    {
+      "a": "s",
+      "b": "u",
+      "numerator": 87091,
+      "probability": "87091/136953"
+    },
+    {
+      "a": "s",
+      "b": "f0",
+      "numerator": 107925,
+      "probability": "35975/45651"
+    },
+    {
+      "a": "s",
+      "b": "f3",
+      "numerator": 111223,
+      "probability": "111223/136953"
+    },
+    {
+      "a": "r",
+      "b": "c2",
+      "numerator": 68566,
+      "probability": "68566/136953"
+    },
+    {
+      "a": "r",
+      "b": "s",
+      "numerator": 104207,
+      "probability": "104207/136953"
+    },
+    {
+      "a": "r",
+      "b": "w",
+      "numerator": 83983,
+      "probability": "83983/136953"
+    },
+    {
+      "a": "t",
+      "b": "s",
+      "numerator": 71907,
+      "probability": "23969/45651"
+    },
+    {
+      "a": "t",
+      "b": "u",
+      "numerator": 95505,
+      "probability": "31835/45651"
+    },
+    {
+      "a": "u",
+      "b": "f0",
+      "numerator": 92313,
+      "probability": "10257/15217"
+    },
+    {
+      "a": "u",
+      "b": "f1",
+      "numerator": 123409,
+      "probability": "123409/136953"
+    },
+    {
+      "a": "u",
+      "b": "f3",
+      "numerator": 94449,
+      "probability": "31483/45651"
+    },
+    {
+      "a": "w",
+      "b": "t",
+      "numerator": 90114,
+      "probability": "30038/45651"
+    },
+    {
+      "a": "w",
+      "b": "u",
+      "numerator": 105258,
+      "probability": "35086/45651"
+    },
+    {
+      "a": "w",
+      "b": "f0",
+      "numerator": 122294,
+      "probability": "122294/136953"
+    },
+    {
+      "a": "w",
+      "b": "f2",
+      "numerator": 134858,
+      "probability": "134858/136953"
+    },
+    {
+      "a": "f0",
+      "b": "f1",
+      "numerator": 116893,
+      "probability": "116893/136953"
+    },
+    {
+      "a": "f0",
+      "b": "f3",
+      "numerator": 72849,
+      "probability": "24283/45651"
+    },
+    {
+      "a": "f1",
+      "b": "f2",
+      "numerator": 72633,
+      "probability": "24211/45651"
+    },
+    {
+      "a": "f3",
+      "b": "f2",
+      "numerator": 117576,
+      "probability": "13064/15217"
+    }
+  ]
+}

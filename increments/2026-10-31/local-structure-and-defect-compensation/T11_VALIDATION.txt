@@ -1,0 +1,2 @@
+E12 independently checked: maximum incomparable degree 9; d below all A, e below all F; q0 in (8/27,1/3). All stored exact total counts, deletion counts and pair probabilities recomputed by verify_examples.py.
+No new exhaustive very-good, mixed-cycle or module check was performed in this packaging step.

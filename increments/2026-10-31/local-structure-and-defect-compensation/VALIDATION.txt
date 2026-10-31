@@ -1,0 +1,19 @@
+2026-10-31 independent packaging-stage exact recomputation
+E01: e(P)=196; all stored pair probabilities match exact ideal-DP recomputation
+E02: e(P)=108000; all stored pair probabilities match exact ideal-DP recomputation
+E03: e(P)=54317334; all stored pair probabilities match exact ideal-DP recomputation
+E04: e(P)=29467976; all stored pair probabilities match exact ideal-DP recomputation
+E05: e(P)=50826162; all stored pair probabilities match exact ideal-DP recomputation
+E06: e(P)=3960; all stored pair probabilities match exact ideal-DP recomputation
+E07: e(P)=397440; all stored pair probabilities match exact ideal-DP recomputation
+E08: e(P)=125920; all stored pair probabilities match exact ideal-DP recomputation
+E09: e(P)=14400; all stored pair probabilities match exact ideal-DP recomputation
+E10: e(P)=800536; all stored pair probabilities match exact ideal-DP recomputation
+E11: e(P)=175200; all stored pair probabilities match exact ideal-DP recomputation
+E12: e(P)=351038; all stored pair probabilities match exact ideal-DP recomputation
+E13: e(P)=1426296; all stored pair probabilities match exact ideal-DP recomputation
+E14: e(P)=542236; all stored pair probabilities match exact ideal-DP recomputation
+E15: e(P)=63815; all stored pair probabilities match exact ideal-DP recomputation
+E16: e(P)=136953; all stored pair probabilities match exact ideal-DP recomputation
+E17: e(P)=1015; all stored pair probabilities match exact ideal-DP recomputation
+Only the stored extension totals and pair probabilities were recomputed. No general theorem, bad-fiber mass, graph audit, or priority verification is implied.

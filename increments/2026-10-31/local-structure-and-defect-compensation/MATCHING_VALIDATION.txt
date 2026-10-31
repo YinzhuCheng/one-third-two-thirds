@@ -1,0 +1,2 @@
+E10 independently verified: C2; maximum incomparable degree 9; L={10}, M={11}, C={12,13,14}; both Q-relative matching inclusions.
+Counts and probabilities are separately recomputed by verify_examples.py. No new exhaustive module or mixed-graph audit is claimed here.

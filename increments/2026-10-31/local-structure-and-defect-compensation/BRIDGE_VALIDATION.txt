@@ -1,0 +1,9 @@
+E08 independent exact deletion-poset count
+{
+  "e(P)": 125920,
+  "R0": 44800,
+  "R1": 40320,
+  "B": 13440,
+  "Z": 4480
+}
+All stated bridge identities and the two reduced probabilities checked exactly.

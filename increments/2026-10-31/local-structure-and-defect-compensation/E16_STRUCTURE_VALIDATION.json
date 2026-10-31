@@ -1,0 +1,27 @@
+{
+  "example": "E16",
+  "C2": true,
+  "max_incomparability_degree": 9,
+  "T13_hypotheses": true,
+  "very_good_or_dual_pairs": [],
+  "mixed_graph_topological_order": [
+    "v",
+    "c1",
+    "d",
+    "b",
+    "e",
+    "r",
+    "c2",
+    "w",
+    "t",
+    "s",
+    "u",
+    "f0",
+    "f3",
+    "f1",
+    "f2"
+  ],
+  "all_proper_nontrivial_autonomous_modules": [],
+  "old_r2_window": true,
+  "old_unsigned_error_budget_covers_this_example": true
+}

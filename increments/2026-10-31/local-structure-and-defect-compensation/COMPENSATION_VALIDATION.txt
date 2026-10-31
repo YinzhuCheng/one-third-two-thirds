@@ -1,0 +1,1 @@
+E14 independently checked: Δ9; d<A union F; H={11}; Q*-relative matching 11->8; q0 in old r=1 window. Exact E/G event counts independently verified by verify_signed_events.py. Other no-structure claims remain upstream audits.

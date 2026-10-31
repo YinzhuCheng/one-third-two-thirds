@@ -1,0 +1,2 @@
+E13 independently checked exact counts/probabilities via verify_examples.py; Δ9; d<A; F\U(e)={11}; original six-letter prefix is legal; root probability lies strictly within balance interval; signed upper-bound discrepancy is 52863.
+No new exhaustive very-good/mixed-cycle/module audit in this packaging step.

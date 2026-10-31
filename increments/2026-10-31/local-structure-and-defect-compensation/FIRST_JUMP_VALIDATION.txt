@@ -1,0 +1,19 @@
+{
+  "example": "E09",
+  "e(P)": 14400,
+  "q_numerators": [
+    3600,
+    3240,
+    2880,
+    2520,
+    2160
+  ],
+  "q_distribution": [
+    "1/4",
+    "9/40",
+    "1/5",
+    "7/40",
+    "3/20"
+  ]
+}
+Independent integer prefix counting and completion DP; no general proof or novelty claim.
