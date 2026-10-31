@@ -1,0 +1,141 @@
+[
+  {
+    "tag": "base",
+    "N": 201453,
+    "A": 88349,
+    "fraction": "88349/201453",
+    "twice_A_minus_N": -24755,
+    "max_inc": 9,
+    "D_a2": [
+      "v",
+      "c1",
+      "b",
+      "d",
+      "e",
+      "s"
+    ],
+    "D_f1": [
+      "v",
+      "c1",
+      "c2",
+      "b",
+      "d",
+      "e",
+      "s",
+      "a3"
+    ],
+    "D_a2_subset_D_f1": true,
+    "U_a2": [],
+    "U_f1": [
+      "f2",
+      "f3"
+    ],
+    "upper_difference": [
+      "f2",
+      "f3"
+    ],
+    "difference_chain": true,
+    "very_good": [],
+    "dual_very_good": [],
+    "maximal": [
+      "a2",
+      "f3"
+    ],
+    "delete_a2": 28216,
+    "a2_last": 28216
+  },
+  {
+    "tag": "common_upper",
+    "N": 633955,
+    "A": 338777,
+    "fraction": "338777/633955",
+    "twice_A_minus_N": 43599,
+    "max_inc": 9,
+    "D_a2": [
+      "v",
+      "c1",
+      "b",
+      "d",
+      "e",
+      "s"
+    ],
+    "D_f1": [
+      "v",
+      "c1",
+      "c2",
+      "b",
+      "d",
+      "e",
+      "s",
+      "a3"
+    ],
+    "D_a2_subset_D_f1": true,
+    "U_a2": [
+      "u"
+    ],
+    "U_f1": [
+      "f2",
+      "f3",
+      "u"
+    ],
+    "upper_difference": [
+      "f2",
+      "f3"
+    ],
+    "difference_chain": true,
+    "very_good": [],
+    "dual_very_good": [],
+    "maximal": [
+      "f3",
+      "u"
+    ]
+  },
+  {
+    "tag": "add_a2_f3",
+    "N": 173237,
+    "A": 88349,
+    "fraction": "88349/173237",
+    "twice_A_minus_N": 3461,
+    "max_inc": 9,
+    "D_a2": [
+      "v",
+      "c1",
+      "b",
+      "d",
+      "e",
+      "s"
+    ],
+    "D_f1": [
+      "v",
+      "c1",
+      "c2",
+      "b",
+      "d",
+      "e",
+      "s",
+      "a3"
+    ],
+    "D_a2_subset_D_f1": true,
+    "U_a2": [
+      "f3"
+    ],
+    "U_f1": [
+      "f2",
+      "f3"
+    ],
+    "upper_difference": [
+      "f2"
+    ],
+    "difference_chain": true,
+    "very_good": [],
+    "dual_very_good": [
+      [
+        "a2",
+        "a4"
+      ]
+    ],
+    "maximal": [
+      "f3"
+    ]
+  }
+]

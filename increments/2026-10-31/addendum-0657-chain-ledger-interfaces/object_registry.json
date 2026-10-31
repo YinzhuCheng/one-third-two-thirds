@@ -1,0 +1,55 @@
+{
+  "schema_version": 2,
+  "namespace": "R2 incremental local IDs",
+  "objects": [
+    {
+      "id": "R2-LEM-001",
+      "status": "proved-in-session",
+      "title": "前驱链补偿",
+      "artifacts": [
+        "artifacts/chain/predecessor_chain_compensation.md"
+      ]
+    },
+    {
+      "id": "R2-LEDGER-001",
+      "status": "proved-in-session",
+      "title": "精确块缺陷账本（一般独审通过）",
+      "artifacts": [
+        "artifacts/ledger/hall_block_defect_ledger.md",
+        "artifacts/ledger/hall_defect_and_sign_independent_audit.md"
+      ]
+    },
+    {
+      "id": "R2-LEM-002",
+      "status": "proved-in-session",
+      "title": "两点嵌套坐标",
+      "artifacts": [
+        "artifacts/motif/nested_two_point_coordinate_audit.md"
+      ]
+    },
+    {
+      "id": "R2-IFACE-001",
+      "status": "proved-in-session",
+      "title": "门控接口受限扩展及边界",
+      "artifacts": [
+        "artifacts/motif/interface_rules_second_round_independent_audit.md"
+      ]
+    },
+    {
+      "id": "R2-RES-001",
+      "status": "replicated",
+      "title": "rank尖锐结构见证",
+      "artifacts": [
+        "artifacts/rank/SHARP_WITNESS_INDEPENDENT_AUDIT.md"
+      ]
+    },
+    {
+      "id": "R2-RES-002",
+      "status": "replicated",
+      "title": "16点链补偿见证（q0已平衡）",
+      "artifacts": [
+        "artifacts/chain/chain_compensation_witness_delayed_validation.json"
+      ]
+    }
+  ]
+}

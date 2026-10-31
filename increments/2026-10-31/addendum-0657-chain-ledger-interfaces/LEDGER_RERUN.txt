@@ -1,0 +1,29 @@
+{
+  "Q_extensions": 2301,
+  "choices": {
+    "a2": {
+      "B": 12891,
+      "Z": 9101,
+      "Z1": 14952,
+      "Hplus": 5851,
+      "Hminus": 0,
+      "G": 2061,
+      "G_lower": 1374,
+      "G_upper": 1287,
+      "G_both": 600,
+      "G_upper_only": 687
+    },
+    "a4": {
+      "B": 12891,
+      "Z": 9101,
+      "Z1": 14959,
+      "Hplus": 5858,
+      "Hminus": 0,
+      "G": 2068,
+      "G_lower": 1706,
+      "G_upper": 930,
+      "G_both": 568,
+      "G_upper_only": 362
+    }
+  }
+}

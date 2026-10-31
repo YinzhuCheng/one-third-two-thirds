@@ -1,0 +1,274 @@
+{
+  "AUDIT_STATUS.md": {
+    "bytes": 850,
+    "sha256": "8ace23e3c6c9e3c5dc96d1a9aacaa8703e9fc7e21685d679e90a53b2f0f4a9a9"
+  },
+  "CARDINALITY_RERUN.json": {
+    "bytes": 809,
+    "sha256": "786c4ee04b477956bb7445afede116f05fb3be4e376df38fa8a007a53dac3f6d"
+  },
+  "CHAIN_CROSSCHECK.txt": {
+    "bytes": 103,
+    "sha256": "e38f3e693b5de778d9444dbc48ab791fc77cf47f3de46198c54a8f7034a05571"
+  },
+  "CHAIN_INDEPENDENT_RERUN.txt": {
+    "bytes": 1144,
+    "sha256": "392685d0c3bc528b656da588218eaee4651972c8c759522828e5b600aadd6a79"
+  },
+  "CHAIN_WITNESS_RERUN.txt": {
+    "bytes": 192,
+    "sha256": "886564bb9738147c8711cb3abb2a172b7d27d43b9b02548c0fc3a3c3d38e1e35"
+  },
+  "DEPENDENCY_GRAPH.md": {
+    "bytes": 753,
+    "sha256": "da66887d92c7d04cf2bc032cb6ec89e81b62ea1af4ef5419b6015715308f6d38"
+  },
+  "LEDGER_RERUN.txt": {
+    "bytes": 491,
+    "sha256": "2361d9dcc165713ed62277b834c1936c8114df474e5802a0cb80883357f1dd5f"
+  },
+  "LITERATURE_SUPPLEMENT.md": {
+    "bytes": 708,
+    "sha256": "7b54ece71497bfc0ebe9fa38d36985d9c00a9d0037c954842d8db6e02c9d4757"
+  },
+  "MOTIF_RERUN.txt": {
+    "bytes": 483,
+    "sha256": "a56a6b7b39a9b3bb72bfc620ae9a7b822d77185f5f278abd29a6d9763cd357e8"
+  },
+  "NEXT_RESEARCH_DIRECTIONS.md": {
+    "bytes": 613,
+    "sha256": "78635d9590903d3a818609ec6f7e7ec550d0c097617ea33ed2971b5ef91d2acc"
+  },
+  "README.md": {
+    "bytes": 1662,
+    "sha256": "b8ce3d8d165198f1927373f6b20d93bf92a87804a93576ad4c1515ec2bc2083b"
+  },
+  "RESEARCH_LEDGER.md": {
+    "bytes": 811,
+    "sha256": "31358e3a05d409ddcba212dbefac1b81c12df3b52b735bd69cd5fd45911e780b"
+  },
+  "RESEARCH_STATE.md": {
+    "bytes": 4524,
+    "sha256": "833663e7fed6c50862e3017cd6e11fad2709775919234166b11c0cae15ea685a"
+  },
+  "ROOF_RERUN.txt": {
+    "bytes": 2879,
+    "sha256": "87f3d6f3c987d7130d8fafbb55f1bfd2c1308d53e8030b99030c23062d2b9481"
+  },
+  "RUN_CHECKS.sh": {
+    "bytes": 969,
+    "sha256": "39c9d0ad4fa9aa8114518cf22eca6dd95e8753cafeb4ff66497ddeb8d3084e00"
+  },
+  "SHARP_RERUN.txt": {
+    "bytes": 936,
+    "sha256": "b56bec8e490495209dcbd59012a3c719057185545fe0646df165647e1ebaf063"
+  },
+  "VERIFICATION.md": {
+    "bytes": 711,
+    "sha256": "24b59cd8d8c09bef8b567ae5c87f26e14ba5ab3299256f88a1b77783008dde04"
+  },
+  "artifacts/baseline/GATED_MOTIF_ANALYTIC_DRAFT.md": {
+    "bytes": 7597,
+    "sha256": "676384e5a778cf054a2bb82dbff7da6292b80250f1151b046ad192e217960237"
+  },
+  "artifacts/baseline/c2_block_application_independent_audit.md": {
+    "bytes": 4080,
+    "sha256": "e4dac61b4fb67d883c559ced77bbab4e977e75a6093c29fafd475f21a7f7dbb3"
+  },
+  "artifacts/baseline/gated_motif_independent_audit.md": {
+    "bytes": 7665,
+    "sha256": "7bb491fca9edc917fa3cafc18847404ee0d923ad992520b12e7fd306ef700920"
+  },
+  "artifacts/baseline/hall_block_swap.md": {
+    "bytes": 5955,
+    "sha256": "86ec2ba8eef7436d2631f11dd10f1bdce56f1996cb1d6f5ba6f5d7e5fc2b1c5b"
+  },
+  "artifacts/baseline/hall_block_swap_independent_audit.md": {
+    "bytes": 3301,
+    "sha256": "d5e8653283df24cdea01862a31dc81122f5cbe390a99685095095df61cd46146"
+  },
+  "artifacts/chain/audit_chain_compensation_small.py": {
+    "bytes": 1435,
+    "sha256": "e90a6e660f5c54c4bc0f03aeed928bcef93c91f62ddbbf1821c1b42d9375a8d5"
+  },
+  "artifacts/chain/beta_truncated_mean_independent_audit.md": {
+    "bytes": 3102,
+    "sha256": "6efaf8a38fb2f7e188730141a002919f45ec37f5dc63f0998b8dbad735637af8"
+  },
+  "artifacts/chain/chain_compensation_delayed_independent_audit.md": {
+    "bytes": 2807,
+    "sha256": "eedd307f41292ac8bdba75c5a4875e125d31cdbc56151deb7c0e2457405817ff"
+  },
+  "artifacts/chain/chain_compensation_delayed_independent_check.py": {
+    "bytes": 4931,
+    "sha256": "ba92b787920a76045f225600cd336a38a93149e3a52976479fde89caae409a39"
+  },
+  "artifacts/chain/chain_compensation_delayed_independent_validation.json": {
+    "bytes": 1836,
+    "sha256": "01c4711666c5dabcf6aca9d3b33fe8fb9c0351f685ffa5136042075dec7fc07d"
+  },
+  "artifacts/chain/chain_compensation_witness_delayed_validation.json": {
+    "bytes": 1626,
+    "sha256": "3913770aeac4254545566eed64d7070d4bf6e84b9e3e5e8ccfac57ce17b18c04"
+  },
+  "artifacts/chain/predecessor_chain_compensation.md": {
+    "bytes": 6440,
+    "sha256": "c7d01ddf39ecbbc12ce5e720f7eca96ff47f505f6b617321a58dd9d451acc6f0"
+  },
+  "artifacts/chain/predecessor_chain_compensation_independent_audit.md": {
+    "bytes": 8350,
+    "sha256": "7f4e66d30ba9d22ffe38bb7011e90e24a9fa0e169a3c66dd5b3280e2375d94ee"
+  },
+  "artifacts/chain/verify_chain_compensation_standalone.py": {
+    "bytes": 2779,
+    "sha256": "f439f37897057127cd35c350b66067edc7a480a4ac605cdec6471605be630dea"
+  },
+  "artifacts/common_successor/BASE_EXAMPLE.json": {
+    "bytes": 1058,
+    "sha256": "73503a3dc73b84ece876e74d1231ae4b2865f1a45ff35e458894d80630642243"
+  },
+  "artifacts/common_successor/COMMON_PAIR_ROOF_VALIDATION.json": {
+    "bytes": 2878,
+    "sha256": "5abda6533569889c925944bda449d02d614a2a49488ff841d98f542c5976c856"
+  },
+  "artifacts/common_successor/common_successor_independent_audit.md": {
+    "bytes": 3166,
+    "sha256": "ce629a71cdf3698358807f11fb71d4cedcbc73fcf7c8b5f0a80e57efd0bc096b"
+  },
+  "artifacts/common_successor/common_successor_independent_validation.json": {
+    "bytes": 1953,
+    "sha256": "5c6c2e5e419f8812fa411dd86d3b8eb5b24ee85f3762aababbf15f26fde375ac"
+  },
+  "artifacts/common_successor/pair_roof_counterexample.json": {
+    "bytes": 920,
+    "sha256": "2450ec2663f3ae90f84aa659c669a36a48dc1a13bee92976069dddfbd7d16c5e"
+  },
+  "artifacts/common_successor/rerun_common_pair_roof.py": {
+    "bytes": 1297,
+    "sha256": "2a2f3b006554adb7dddd41c2d0b97314f1e124dde294d68f26e91a07ba1b85be"
+  },
+  "artifacts/ledger/EXAMPLE.json": {
+    "bytes": 890,
+    "sha256": "cbffdd63c1242159eef5b251c1d41a3edeab4399aef4c1e08c3b0a02bccc04ea"
+  },
+  "artifacts/ledger/block_defect_15_independent_validation.json": {
+    "bytes": 490,
+    "sha256": "952bc4715b09f10967e972e99e60d544027695b6f36eed5551e5b71ed976f883"
+  },
+  "artifacts/ledger/cardinality_sign_examples.md": {
+    "bytes": 1401,
+    "sha256": "20aeb40e36d613a1c198443c5fdf9c18860102a69f100f691e137260d8459634"
+  },
+  "artifacts/ledger/hall_block_defect_ledger.md": {
+    "bytes": 5710,
+    "sha256": "4f9ba113f8ba616f1111bd58f7bbb795069db8b470c3b0a315236b3b5d1d2502"
+  },
+  "artifacts/ledger/hall_defect_and_sign_independent_audit.md": {
+    "bytes": 5252,
+    "sha256": "e51b6de3e6e2841c8c084c50d5162d75ae47f0629432cc6584ee5e29873416d7"
+  },
+  "artifacts/ledger/rerun_ledger.py": {
+    "bytes": 1863,
+    "sha256": "b581ddfe4e0abcddea1d2bd67cf9c11412648d20887f8e41c93cd7f60f19fc8f"
+  },
+  "artifacts/ledger/verify_cardinality_examples.py": {
+    "bytes": 1354,
+    "sha256": "0897eb3a4b7ca10866dd250e20f2d153ea7f48a7fced140de4f5a6b68f5e7a62"
+  },
+  "artifacts/motif/BASE_EXAMPLE.json": {
+    "bytes": 890,
+    "sha256": "cbffdd63c1242159eef5b251c1d41a3edeab4399aef4c1e08c3b0a02bccc04ea"
+  },
+  "artifacts/motif/COMMON_PAIR_UPPER_INDEPENDENT_VALIDATION.json": {
+    "bytes": 1953,
+    "sha256": "5c6c2e5e419f8812fa411dd86d3b8eb5b24ee85f3762aababbf15f26fde375ac"
+  },
+  "artifacts/motif/INDEPENDENT_AUDIT.md": {
+    "bytes": 5644,
+    "sha256": "84ad0381f76e28ea995fa7240528ce14e31a20818fdb599545b69eb3a7159270"
+  },
+  "artifacts/motif/INTERFACE_RULES_SECOND_ROUND.md": {
+    "bytes": 7693,
+    "sha256": "2715bc6d0c084bac8479f77f9004d92ef0d113a979b87812586cce58017dcf8d"
+  },
+  "artifacts/motif/PRIVATE_F_EXTENSION.json": {
+    "bytes": 1109,
+    "sha256": "49504f58c140da6dfd2df3cecb136bacbda09273c92d669dd770870cac77acf9"
+  },
+  "artifacts/motif/PRIVATE_F_INDEPENDENT_VALIDATION.json": {
+    "bytes": 1233,
+    "sha256": "16e2792969e0e5b3fbc2b54753b87e6e40fecfc72675d4c198c1e0ae75d2b6a9"
+  },
+  "artifacts/motif/README.md": {
+    "bytes": 3079,
+    "sha256": "2bebd1e63e36c482ff69040639c78f25a8f288b258e59ce19ee57311f6502aca"
+  },
+  "artifacts/motif/REPRODUCED_VALIDATION.json": {
+    "bytes": 482,
+    "sha256": "237dee09d1e68ff98556f55d8ac89db7dc81854634da1b210c3964462bd464ea"
+  },
+  "artifacts/motif/THEOREMS_AND_BOUNDARIES.md": {
+    "bytes": 7693,
+    "sha256": "2715bc6d0c084bac8479f77f9004d92ef0d113a979b87812586cce58017dcf8d"
+  },
+  "artifacts/motif/interface_rules_second_round_independent_audit.md": {
+    "bytes": 5644,
+    "sha256": "84ad0381f76e28ea995fa7240528ce14e31a20818fdb599545b69eb3a7159270"
+  },
+  "artifacts/motif/motif_private_F_independent_validation.json": {
+    "bytes": 1233,
+    "sha256": "16e2792969e0e5b3fbc2b54753b87e6e40fecfc72675d4c198c1e0ae75d2b6a9"
+  },
+  "artifacts/motif/nested_two_point_coordinate_audit.md": {
+    "bytes": 3970,
+    "sha256": "2271c9fea0b1870a1597cbd3b86e3baaeeccca962835356d72a2a832871e1b8c"
+  },
+  "artifacts/motif/verify_examples.py": {
+    "bytes": 3244,
+    "sha256": "9256031540f387010d5fb05fdea73e999101ef8238a5b3044b9e8858a4c1f9c9"
+  },
+  "artifacts/rank/A_LATE_PARTIAL_INJECTION.md": {
+    "bytes": 3587,
+    "sha256": "c10c71e7a2a8a4b113b410ee9d45db7d4e1ff7f945b05e3575f9d976d0e6181e"
+  },
+  "artifacts/rank/CURRENT_RESULTS.md": {
+    "bytes": 3624,
+    "sha256": "9b41d2d53e9ab84b87fe9b2e87c81c1c96464795112f99807f6591692b3daa91"
+  },
+  "artifacts/rank/RANK_BUDGET_INDEPENDENT_AUDIT.md": {
+    "bytes": 6231,
+    "sha256": "8789ecb3d823329917d602947b81fcb09a024875344753324c37f3b3cafcfb89"
+  },
+  "artifacts/rank/RANK_BUDGET_PROOF.md": {
+    "bytes": 6217,
+    "sha256": "bc663ceaecb398c2ed23d788be19eeedda0d24921d60469b390b8a85b90a5c9e"
+  },
+  "artifacts/rank/RANK_COLLISION_ADDENDUM.md": {
+    "bytes": 3256,
+    "sha256": "eeceb38fbc3ac99352de00f24841b2e9fbdc9c619d5e4bedc156f42aefca78fa"
+  },
+  "artifacts/rank/RANK_COLLISION_INDEPENDENT_AUDIT.md": {
+    "bytes": 3047,
+    "sha256": "e296d365294174ef8db04cf2ef19ca38250fc46893bd993e32c7875eb8fbf6cb"
+  },
+  "artifacts/rank/SHARP_WITNESS_INDEPENDENT_AUDIT.md": {
+    "bytes": 2805,
+    "sha256": "8bacb24e62896d50ec837fe0b18c5ab884b812995fd8e3df8e831fdce09b8a0d"
+  },
+  "artifacts/rank/rerun_sharp_audit.py": {
+    "bytes": 3197,
+    "sha256": "0a48d4cd68a827ae7684e8fe36ac1b8ccd1d6d7dddaea80458b1a82a1afc595f"
+  },
+  "artifacts/rank/sharp_rank_witness.json": {
+    "bytes": 780,
+    "sha256": "15dc4ad362c0536f2763c16582a62ba6c530ec8228a18e21c4256f7b8a4fd18a"
+  },
+  "artifacts/rank/sharp_witness_independent_result.json": {
+    "bytes": 935,
+    "sha256": "f117db89aebd3484544e06f67b46d313295dd72e37a5a46355998162cbfb6c74"
+  },
+  "object_registry.json": {
+    "bytes": 1453,
+    "sha256": "1e1d1c930e33aa39000e47c74d57c474eb240eac1616ac1626623f7775422732"
+  }
+}

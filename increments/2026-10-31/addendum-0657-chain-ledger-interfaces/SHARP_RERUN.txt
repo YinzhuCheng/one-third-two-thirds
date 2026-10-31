@@ -1,0 +1,86 @@
+{
+  "C2": true,
+  "A": [
+    "r",
+    "s",
+    "t",
+    "u",
+    "w"
+  ],
+  "F": [
+    "f0",
+    "f1",
+    "f2",
+    "f3"
+  ],
+  "R": [
+    "r",
+    "t",
+    "u"
+  ],
+  "K": [
+    "w"
+  ],
+  "profiles_F": {
+    "f0": [
+      "r",
+      "u"
+    ],
+    "f1": [
+      "r",
+      "t",
+      "u"
+    ],
+    "f2": [
+      "r",
+      "t",
+      "u"
+    ],
+    "f3": [
+      "t"
+    ]
+  },
+  "profiles_Us": {
+    "f1": [
+      "r",
+      "t",
+      "u"
+    ],
+    "f2": [
+      "r",
+      "t",
+      "u"
+    ]
+  },
+  "alpha": 1,
+  "beta": 3,
+  "common_anchors": [],
+  "max_inc": 9,
+  "very_good_pairs": [],
+  "mixed_topological_order": [
+    "v",
+    "c1",
+    "d",
+    "b",
+    "e",
+    "w",
+    "c2",
+    "r",
+    "s",
+    "t",
+    "u",
+    "f3",
+    "f0",
+    "f1",
+    "f2"
+  ],
+  "mixed_remaining": [],
+  "proper_nontrivial_modules": [],
+  "counts": {
+    "N": 168366,
+    "R0": 49873,
+    "K": 104621,
+    "E": 2690,
+    "G": 11687
+  }
+}

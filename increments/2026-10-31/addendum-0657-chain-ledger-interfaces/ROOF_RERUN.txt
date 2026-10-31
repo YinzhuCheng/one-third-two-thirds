@@ -1,0 +1,146 @@
+{
+  "hist_y_before_z": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2030,
+    7998,
+    18428,
+    28216,
+    28216,
+    28216
+  ],
+  "hist_z_before_y": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    3780,
+    14778,
+    32834,
+    36957,
+    0,
+    0
+  ],
+  "limit": "54/83",
+  "rows": [
+    {
+      "chain_length": 0,
+      "N": 201453,
+      "z_before_y": 88349,
+      "probability": "88349/201453",
+      "positive_good_pair_sign": true
+    },
+    {
+      "chain_length": 1,
+      "N": 633955,
+      "z_before_y": 338777,
+      "probability": "338777/633955",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 2,
+      "N": 1480172,
+      "z_before_y": 851132,
+      "probability": "212783/370043",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 3,
+      "N": 2940570,
+      "z_before_y": 1755160,
+      "probability": "175516/294057",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 4,
+      "N": 5267441,
+      "z_before_y": 3214285,
+      "probability": "3214285/5267441",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 5,
+      "N": 8770713,
+      "z_before_y": 5429389,
+      "probability": "775627/1252959",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 6,
+      "N": 13823760,
+      "z_before_y": 8642592,
+      "probability": "180054/287995",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 7,
+      "N": 20869212,
+      "z_before_y": 13141032,
+      "probability": "1095086/1739101",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 8,
+      "N": 30424765,
+      "z_before_y": 19260645,
+      "probability": "3852129/6084953",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 9,
+      "N": 43088991,
+      "z_before_y": 27389945,
+      "probability": "2489995/3917181",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 10,
+      "N": 59547148,
+      "z_before_y": 37973804,
+      "probability": "9493451/14886787",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 15,
+      "N": 229531008,
+      "z_before_y": 147703344,
+      "probability": "181009/281288",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 20,
+      "N": 657163793,
+      "z_before_y": 424548509,
+      "probability": "38595319/59742163",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 50,
+      "N": 28703284428,
+      "z_before_y": 18641448124,
+      "probability": "358489387/551986239",
+      "positive_good_pair_sign": false
+    },
+    {
+      "chain_length": 100,
+      "N": 675148591153,
+      "z_before_y": 438947439149,
+      "probability": "25820437597/39714623009",
+      "positive_good_pair_sign": false
+    }
+  ]
+}

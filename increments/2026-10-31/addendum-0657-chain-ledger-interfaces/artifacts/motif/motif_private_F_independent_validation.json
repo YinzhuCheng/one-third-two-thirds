@@ -1,0 +1,102 @@
+{
+  "N": 825714,
+  "candidate_count": 530536,
+  "candidate_probability": "265268/412857",
+  "R0": 275238,
+  "q0": "1/3",
+  "K": 566629,
+  "I_v": [
+    "c1",
+    "c2"
+  ],
+  "T": [
+    "b",
+    "d",
+    "e"
+  ],
+  "A": [
+    "s",
+    "a1",
+    "a2",
+    "a3",
+    "a4"
+  ],
+  "F": [
+    "f0",
+    "f1",
+    "f2",
+    "f3",
+    "newF"
+  ],
+  "d_lower_A_except_s": true,
+  "e_lower_F": true,
+  "b_incomparable_s": true,
+  "degrees": {
+    "v": 2,
+    "c1": 4,
+    "c2": 9,
+    "b": 7,
+    "d": 4,
+    "e": 5,
+    "s": 8,
+    "a1": 8,
+    "a2": 8,
+    "a3": 8,
+    "a4": 8,
+    "f0": 8,
+    "f1": 5,
+    "f2": 3,
+    "f3": 2,
+    "newF": 7
+  },
+  "max_inc": 9,
+  "very_good": [],
+  "dual_very_good": [],
+  "mixed_arcs": 113,
+  "mixed_topological": [
+    "v",
+    "c1",
+    "d",
+    "b",
+    "e",
+    "c2",
+    "s",
+    "a1",
+    "a3",
+    "a2",
+    "f0",
+    "a4",
+    "f1",
+    "f2",
+    "newF",
+    "f3"
+  ],
+  "modules": [],
+  "structural_candidate": {
+    "D_a2": [
+      "v",
+      "c1",
+      "b",
+      "d",
+      "e",
+      "s"
+    ],
+    "D_f1": [
+      "v",
+      "c1",
+      "c2",
+      "b",
+      "d",
+      "e",
+      "s",
+      "a3"
+    ],
+    "U_a2": [
+      "newF"
+    ],
+    "U_f1": [
+      "f2",
+      "f3"
+    ]
+  }
+}

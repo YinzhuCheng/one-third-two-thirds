@@ -1,0 +1,23 @@
+{
+  "single_edge_cap": {
+    "N": 173237,
+    "candidate_count": 88349,
+    "probability": "88349/173237",
+    "base_Q_extensions": 28216,
+    "signed_slack_before": "24755/28216"
+  },
+  "private_F": {
+    "N": 825714,
+    "candidate_count": 530536,
+    "probability": "265268/412857",
+    "R0": 275238,
+    "q0": "1/3",
+    "K": 566629,
+    "C2": true,
+    "A5": true,
+    "Delta9": true,
+    "no_VG": true,
+    "mixed_acyclic": true,
+    "no_proper_nontrivial_modules": true
+  }
+}

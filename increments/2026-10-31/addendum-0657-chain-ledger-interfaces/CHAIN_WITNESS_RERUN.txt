@@ -1,0 +1,1 @@
+PASS: C2 A5 Δ9, true full L/M, nonautonomous chain compensation, no VG/S112/module, all exact counts. q0 itself is balanced. {'N': 832932, 'R0': 289135, 'R1': 240177, 'B': 38147, 'Z': 48958}
