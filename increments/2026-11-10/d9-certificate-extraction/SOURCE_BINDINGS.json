@@ -1,0 +1,200 @@
+{
+  "source": "Kevin Fathi, Gold Certificates and Balanced Pairs, v22, https://zenodo.org/records/23933091",
+  "date": "2026-11-10",
+  "public_copy_policy": "Mathematical proof and research-review scope retained; local execution paths and operational storage statements omitted. No private conversation is included. Public-edition source/replay availability statements clarified; mathematical audit verdicts unchanged.",
+  "files": [
+    {
+      "public_path": "analytic/FOUR_MARK_ANALYTIC_REPLACEMENT.md",
+      "source_document": "FOUR_MARK_ANALYTIC_REPLACEMENT.md",
+      "source_sha256": "434bcf5fe6976b78903f41b3d9ad6a1c6d7f4af1b8b3b714bf5cc0a7509e36a1",
+      "public_sha256": "434bcf5fe6976b78903f41b3d9ad6a1c6d7f4af1b8b3b714bf5cc0a7509e36a1",
+      "public_bytes": 6480
+    },
+    {
+      "public_path": "analytic/FOUR_MARK_INDEPENDENT_REVIEW.md",
+      "source_document": "FOUR_MARK_INDEPENDENT_REVIEW.md",
+      "source_sha256": "7ac3dc80241e36e1b8477eb6172b8763fa44427881c68a569564b96fd3023f0f",
+      "public_sha256": "6100039d10d7afb3a9d8a59893cbd7bb1923dd8b8cb7d2eb97bd8780d18257ed",
+      "public_bytes": 8711
+    },
+    {
+      "public_path": "analytic/PRIVATE_FORK_ANALYTIC_REPLACEMENT.md",
+      "source_document": "PRIVATE_FORK_ANALYTIC_REPLACEMENT.md",
+      "source_sha256": "33f06f00e0c8b79ea5488ed7b0d6139e019beb5310ee73dfc1647b3d4463f708",
+      "public_sha256": "f7218da423bd460b4e9ec37b0bf9ba6813389295dfabefdd361c351997557533",
+      "public_bytes": 7792
+    },
+    {
+      "public_path": "analytic/PRIVATE_FORK_INDEPENDENT_REVIEW.md",
+      "source_document": "PRIVATE_FORK_INDEPENDENT_REVIEW.md",
+      "source_sha256": "12b4b6e7f006e0a68c5b6cb3275d5f77dec85cf607e94f4bde69c5fcc1b85434",
+      "public_sha256": "5a288f1dfd73f24540a325db430132ade7ddcd51e4ea4bf755749dd442058991",
+      "public_bytes": 11767
+    },
+    {
+      "public_path": "chain/SINGLE_FRONTIER_ANALYTIC_REPLACEMENT.md",
+      "source_document": "SINGLE_FRONTIER_ANALYTIC_REPLACEMENT.md",
+      "source_sha256": "fbfd37800b8e10e4122f439ff8a9fedd87da63f15b2634cf6ba3a11074af697e",
+      "public_sha256": "059edca36f99ec89443a67a4736088eaeffaccf46702e0458072afa30a5aeb56",
+      "public_bytes": 10735
+    },
+    {
+      "public_path": "chain/INDEPENDENT_REVIEW.md",
+      "source_document": "INDEPENDENT_REVIEW.md",
+      "source_sha256": "85bf272942b6a8df74942c9e434a9077854cd7388cc5a932e49ceef0d30b3571",
+      "public_sha256": "85bf272942b6a8df74942c9e434a9077854cd7388cc5a932e49ceef0d30b3571",
+      "public_bytes": 8816
+    },
+    {
+      "public_path": "chain/TWO_BLOCKER_FORK_GATE.md",
+      "source_document": "TWO_BLOCKER_FORK_GATE.md",
+      "source_sha256": "73f6972abec323da4da7a20e22ba96dfa796ebb785fd1e6fafc9fe51950810fd",
+      "public_sha256": "a21dc32f54dc8a5280fcfdef23642af8cbda12f61dfb941dcb953f29920cc7c0",
+      "public_bytes": 12972
+    },
+    {
+      "public_path": "chain/TWO_GATE_INDEPENDENT_REVIEW.md",
+      "source_document": "TWO_GATE_INDEPENDENT_REVIEW.md",
+      "source_sha256": "97d455d464eb06d843300a266ecd874ced190f4152fbfd2b9b41f157d193251f",
+      "public_sha256": "259e5475b944386ccec40800f4b3ddc8eabb6f1455cbfda9e994a9a268b088c7",
+      "public_bytes": 12010
+    },
+    {
+      "public_path": "chain/THREE_TAIL_FOUR_EVENT_ANALYTIC.md",
+      "source_document": "THREE_TAIL_FOUR_EVENT_ANALYTIC.md",
+      "source_sha256": "4ec9829d164c53f766cd2d762fbe4ac6e97728eef82a32583fd4e4a9d04c1dc6",
+      "public_sha256": "46b7bb0ab82452ffbdb8befe2db807d00f1439b54e9ad580d345e97a0f0f269e",
+      "public_bytes": 9955
+    },
+    {
+      "public_path": "chain/THREE_TAIL_INDEPENDENT_REVIEW.md",
+      "source_document": "THREE_TAIL_INDEPENDENT_REVIEW.md",
+      "source_sha256": "8b3fadcd386432c1be8c01c024a331babab25f6f71d8d89505dfc470c5a464f7",
+      "public_sha256": "8b3fadcd386432c1be8c01c024a331babab25f6f71d8d89505dfc470c5a464f7",
+      "public_bytes": 9334
+    },
+    {
+      "public_path": "chain/MIDDLE_HEAD_MEMORY_GATE.md",
+      "source_document": "MIDDLE_HEAD_MEMORY_GATE.md",
+      "source_sha256": "abc7cfc8cc2fb79e29f58304ca5d2e616e58aab6d13f2815991104e1d078784a",
+      "public_sha256": "b8791aea97c8520bbd714c2457b38c7b281564bbd5300e1853540f4a08baaffe",
+      "public_bytes": 9666
+    },
+    {
+      "public_path": "chain/MIDDLE_HEAD_INDEPENDENT_REVIEW.md",
+      "source_document": "MIDDLE_HEAD_INDEPENDENT_REVIEW.md",
+      "source_sha256": "e67b3dc144bee52fd1b9af1ec61079153b0e80054cc8e9a8fafee3ac0e8b4d7a",
+      "public_sha256": "311dc1d3b62690f072de4bef8b094b7e8175336d4263908e8c68e9d5a889e5cc",
+      "public_bytes": 9752
+    },
+    {
+      "public_path": "chain/DEFECT3_THIRD_EVENT_RESULT.md",
+      "source_document": "DEFECT3_THIRD_EVENT_RESULT.md",
+      "source_sha256": "64b5f7ecc2c1c269b237b388c2358b5eb6deb610de58e6cc27ea887e68e913e4",
+      "public_sha256": "15be72d424bec68a9ee1c62ba58acb66272c95370c8300bd733c36b14b4a69ac",
+      "public_bytes": 5505
+    },
+    {
+      "public_path": "chain/Q8_PROJECTED_WORD_CONTROL.md",
+      "source_document": "Q8_PROJECTED_WORD_CONTROL.md",
+      "source_sha256": "7b96f276338f59acf7ac652bcc431ee6576c790efa99c16db69b2908e3031bd4",
+      "public_sha256": "c0db2495335a301c623033d8d206333a482cc857deeb07657da9d3b7c0b2a47c",
+      "public_bytes": 3312
+    },
+    {
+      "public_path": "chain/Q8_FIRST_HEAD_EXIT_MAP.md",
+      "source_document": "Q8_FIRST_HEAD_EXIT_MAP.md",
+      "source_sha256": "3c4337b9d79cea602ac39a2bb8d75e4975bb4f3ed8a7c80c7e35a5f4a528bf49",
+      "public_sha256": "ae284c2172d76e39ade2563d63fe7292af26a84a8f0a2d424383a579e46f3ca4",
+      "public_bytes": 5341
+    },
+    {
+      "public_path": "chain/ANCHORED_FRONTIER_REPLACEMENTS.json",
+      "source_document": "ANCHORED_FRONTIER_REPLACEMENTS.json",
+      "source_sha256": "f7b67a8c0c883433a0f6e3a648feb9ae534c745f40dbbd098734165a7eafc20f",
+      "public_sha256": "f7b67a8c0c883433a0f6e3a648feb9ae534c745f40dbbd098734165a7eafc20f",
+      "public_bytes": 1241
+    },
+    {
+      "public_path": "chain/SUPPORTED_GATE_REPLACEMENTS.json",
+      "source_document": "SUPPORTED_GATE_REPLACEMENTS.json",
+      "source_sha256": "acfe07d9bebd2e4800ee0462b6d157fb965a561ee9d08e6d1c6e74ed97e9226f",
+      "public_sha256": "acfe07d9bebd2e4800ee0462b6d157fb965a561ee9d08e6d1c6e74ed97e9226f",
+      "public_bytes": 41503
+    },
+    {
+      "public_path": "chain/MIDDLE_HEAD_MEMORY_REPLACEMENTS.json",
+      "source_document": "MIDDLE_HEAD_MEMORY_REPLACEMENTS.json",
+      "source_sha256": "45ef1368b8e97674335634eef5835cfc9b5299484fd365820b795a1120a035cc",
+      "public_sha256": "45ef1368b8e97674335634eef5835cfc9b5299484fd365820b795a1120a035cc",
+      "public_bytes": 9040
+    },
+    {
+      "public_path": "finite-path/FOUR_EVENT_STEM_ANTICHAIN.md",
+      "source_document": "FOUR_EVENT_STEM_ANTICHAIN.md",
+      "source_sha256": "5070b2494e0ce4c5dfc6e796205df410fd7d3624a681d62823b3d36149247326",
+      "public_sha256": "5070b2494e0ce4c5dfc6e796205df410fd7d3624a681d62823b3d36149247326",
+      "public_bytes": 4097
+    },
+    {
+      "public_path": "finite-path/FOUR_EVENT_STEM_ANTICHAIN_INDEPENDENT_REVIEW.md",
+      "source_document": "FOUR_EVENT_STEM_ANTICHAIN_INDEPENDENT_REVIEW.md",
+      "source_sha256": "1c2c3571815ee8df133c0305b7decd7d3eab3b8dc18aa305e1cdcdf09916cb2c",
+      "public_sha256": "71c76898636923434fc9b3b822bdab416010adf3186e12465545bdaa4532c168",
+      "public_bytes": 5518
+    },
+    {
+      "public_path": "finite-path/THIRTEEN_ADJACENT_INDEPENDENT_REVIEW.md",
+      "source_document": "THIRTEEN_ADJACENT_INDEPENDENT_REVIEW.md",
+      "source_sha256": "caa33c1643166d1d40fda30a24b51f4a498ac4ee167b430d08c2c14becaeaf29",
+      "public_sha256": "51495740e75e06e755eef9f5da2c7599766fd82def1801042cfcd0b99f4267ea",
+      "public_bytes": 7465
+    },
+    {
+      "public_path": "finite-path/THIRTEEN_ADJACENT_REPLACEMENTS.json",
+      "source_document": "THIRTEEN_ADJACENT_REPLACEMENTS.json",
+      "source_sha256": "9a2d291f603c9530ea88ff84616baa88851854ff67df779726fbf240ec9e765c",
+      "public_sha256": "9a2d291f603c9530ea88ff84616baa88851854ff67df779726fbf240ec9e765c",
+      "public_bytes": 2698
+    },
+    {
+      "public_path": "finite-path/THIRTEEN_SKIP_STATES.json",
+      "source_document": "THIRTEEN_SKIP_STATES.json",
+      "source_sha256": "b135145e180498f0c03a101e3d694d076408f28bfea3164105ade1ac207b4f55",
+      "public_sha256": "b135145e180498f0c03a101e3d694d076408f28bfea3164105ade1ac207b4f55",
+      "public_bytes": 2364
+    },
+    {
+      "public_path": "finite-path/THIRTEEN_ADJACENT_REPLAY_INPUT.txt",
+      "source_document": "THIRTEEN_ADJACENT_REPLAY_INPUT.txt",
+      "source_sha256": "ea0a3763147b6f25a3482afbc6dd7df850b36acc462e988994eb54d4f52f3698",
+      "public_sha256": "ea0a3763147b6f25a3482afbc6dd7df850b36acc462e988994eb54d4f52f3698",
+      "public_bytes": 533
+    },
+    {
+      "public_path": "finite-path/INDEPENDENT_THIRTEEN_PER_ROW.json",
+      "source_document": "INDEPENDENT_THIRTEEN_PER_ROW.json",
+      "source_sha256": "12d86e91ca4dc84d9de94417bab0a7bfa4bebb86e883b1d0f98fe01b7c479234",
+      "public_sha256": "12d86e91ca4dc84d9de94417bab0a7bfa4bebb86e883b1d0f98fe01b7c479234",
+      "public_bytes": 1742
+    },
+    {
+      "public_path": "finite-path/CENSUS.json",
+      "source_document": "CENSUS.json",
+      "source_sha256": "e9276fe5f31d157c2df69f3713401fb75dcc32a90ae0c7b3f2f978b8cfc17558",
+      "public_sha256": "e9276fe5f31d157c2df69f3713401fb75dcc32a90ae0c7b3f2f978b8cfc17558",
+      "public_bytes": 337
+    },
+    {
+      "public_path": "finite-path/CONJECTURE_AND_NEXT_TEST.md",
+      "source_document": "CONJECTURE_AND_NEXT_TEST.md",
+      "source_sha256": "a2910c302d1e02b637c72e216cdd5fbe1a74b1042cea79eab3be21911a1cc280",
+      "public_sha256": "a2910c302d1e02b637c72e216cdd5fbe1a74b1042cea79eab3be21911a1cc280",
+      "public_bytes": 3736
+    }
+  ],
+  "public_authored_documents": [
+    "READ_FIRST.md",
+    "finite-path/REPRODUCTION.md"
+  ]
+}

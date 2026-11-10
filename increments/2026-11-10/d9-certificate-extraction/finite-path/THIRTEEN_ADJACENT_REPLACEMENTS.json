@@ -1,0 +1,205 @@
+[
+  {
+    "i": 0,
+    "nprofiles": 743,
+    "success": true,
+    "weights": [
+      1,
+      1
+    ],
+    "minraw": 33,
+    "margin": 0.24719101123595508,
+    "valid": true
+  },
+  {
+    "i": 1,
+    "nprofiles": 714,
+    "success": true,
+    "weights": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "minraw": 32,
+    "margin": 0.5,
+    "valid": true
+  },
+  {
+    "i": 2,
+    "nprofiles": 2380,
+    "success": true,
+    "weights": [
+      1,
+      1,
+      0
+    ],
+    "minraw": 70,
+    "margin": 0.2475660639777469,
+    "valid": true
+  },
+  {
+    "i": 3,
+    "nprofiles": 2513,
+    "success": true,
+    "weights": [
+      0,
+      1,
+      1
+    ],
+    "minraw": 63,
+    "margin": 0.3388909025009061,
+    "valid": true
+  },
+  {
+    "i": 4,
+    "nprofiles": 1680,
+    "success": true,
+    "weights": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "minraw": 100,
+    "margin": 0.5000000000000001,
+    "valid": true
+  },
+  {
+    "i": 5,
+    "nprofiles": 1680,
+    "success": true,
+    "weights": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "minraw": 100,
+    "margin": 0.5000000000000001,
+    "valid": true
+  },
+  {
+    "i": 6,
+    "nprofiles": 1645,
+    "success": true,
+    "weights": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "minraw": 50,
+    "margin": 0.5,
+    "valid": true
+  },
+  {
+    "i": 7,
+    "nprofiles": 11466,
+    "success": true,
+    "weights": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "minraw": 519,
+    "margin": 0.264018139141626,
+    "valid": true
+  },
+  {
+    "i": 8,
+    "nprofiles": 5740,
+    "success": true,
+    "weights": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "minraw": 500,
+    "margin": 0.25184261255166235,
+    "valid": true
+  },
+  {
+    "i": 9,
+    "nprofiles": 4312,
+    "success": true,
+    "weights": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "minraw": 945,
+    "margin": 0.2982201586502856,
+    "valid": true
+  },
+  {
+    "i": 10,
+    "nprofiles": 10528,
+    "success": true,
+    "weights": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "minraw": 1003,
+    "margin": 0.3197787545407874,
+    "valid": true
+  },
+  {
+    "i": 11,
+    "nprofiles": 6230,
+    "success": true,
+    "weights": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "minraw": 992,
+    "margin": 0.31452717489117854,
+    "valid": true
+  },
+  {
+    "i": 12,
+    "nprofiles": 6356,
+    "success": true,
+    "weights": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "minraw": 348,
+    "margin": 0.31687580934719173,
+    "valid": true
+  }
+]

@@ -1,0 +1,3811 @@
+[
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "mode": 1,
+    "H": [],
+    "Hmin": [],
+    "small": true,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mode": 1,
+    "H": [
+      4
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": true,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    "mode": 1,
+    "H": [
+      4
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": true,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        5,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "mode": 1,
+    "H": [
+      4
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": true,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      4,
+      3
+    ],
+    "mode": 1,
+    "H": [
+      4
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": true,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        4,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": true,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": true,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": true,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": true,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      21
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": true,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      23
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": true,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [
+      [
+        4,
+        5
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      7,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": true,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      7,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": true,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      7,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      4,
+      3,
+      5
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": true,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        4,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      7,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      5,
+      3,
+      4
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": true,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        5,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      7,
+      23
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": true,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        2
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      7,
+      23
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      4,
+      3,
+      5
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": true,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        4,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5,
+      21
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5,
+      23
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5,
+      6
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        3
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        10,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      5
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5,
+      6
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        3
+      ],
+      [
+        9,
+        1
+      ],
+      [
+        10,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5,
+      6
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        3
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        9,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      7
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      6,
+      4,
+      5
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5,
+      6
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        3
+      ],
+      [
+        7,
+        1
+      ],
+      [
+        9,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      23
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      39
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      39
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      55
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      55
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      21,
+      23
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      21,
+      53
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      21,
+      55
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      23,
+      23
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        5
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      23,
+      23
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      6,
+      5
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        5
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      23,
+      55
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        5
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5,
+      21,
+      117
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5,
+      21,
+      119
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [
+      [
+        4,
+        7
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5,
+      23,
+      87
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5,
+      23,
+      119
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21,
+      39
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21,
+      55
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        7
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21,
+      85
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21,
+      87
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        7
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21,
+      119
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        7
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      23,
+      39
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      23,
+      55
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      23,
+      87
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      23,
+      119
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      39,
+      55
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [
+      [
+        4,
+        7
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      39,
+      119
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      4,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [
+      [
+        4,
+        7
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      55,
+      119
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [
+      [
+        4,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        7,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      21,
+      53,
+      119
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [
+      [
+        4,
+        7
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      21,
+      55,
+      119
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 0,
+    "matching": [
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      23,
+      55,
+      119
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 2,
+    "matching": [
+      [
+        4,
+        5
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5,
+      23,
+      119,
+      247
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21,
+      55,
+      87
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21,
+      55,
+      119
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21,
+      55,
+      183
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [
+      [
+        4,
+        7
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21,
+      55,
+      247
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21,
+      119,
+      247
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 1,
+    "matching": [
+      [
+        4,
+        8
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      23,
+      55,
+      119,
+      247
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "Hmin": [
+      4
+    ],
+    "small": false,
+    "delayed": true,
+    "matching_deficit": 3,
+    "matching": [
+      [
+        4,
+        5
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": false,
+    "single_family": true
+  },
+  {
+    "stage": 0,
+    "pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      7,
+      21,
+      55,
+      247,
+      503
+    ],
+    "word": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "mode": 1,
+    "H": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "Hmin": [
+      4,
+      5
+    ],
+    "small": false,
+    "delayed": false,
+    "matching_deficit": 2,
+    "matching": [
+      [
+        4,
+        7
+      ],
+      [
+        6,
+        8
+      ]
+    ],
+    "events": [
+      [
+        2,
+        1,
+        2
+      ],
+      [
+        3,
+        2,
+        1
+      ]
+    ],
+    "old_bank": [
+      [
+        1,
+        1
+      ]
+    ],
+    "two_family": true,
+    "single_family": false
+  }
+]
