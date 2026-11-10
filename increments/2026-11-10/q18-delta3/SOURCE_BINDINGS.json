@@ -1,0 +1,103 @@
+{
+  "research_date": "2026-11-10",
+  "proof_status": "research-internal independent review; exact scope only",
+  "files": [
+    {
+      "public_path": "q18-delta3/PROOF_AND_INDEPENDENT_REVIEW.md",
+      "source_label": "final actual-first-O prefix cap and exact-channel union review",
+      "original_sha256": "76345d78f97181884239cb6c40d5044ed01a1147a58402602576b34d5ab8505b",
+      "adaptation": "保存/执行过程说明省略；数学与审级保留；引用路径公开化。",
+      "public_sha256": "82e23c4f9c54d4c90344facd33b6073517b81babd660882da095a651f3c9488c"
+    },
+    {
+      "public_path": "q18-delta3/sources/ROOT_INSERTION_KERNEL.md",
+      "source_label": "q18-joint-pivot-orbit-independent-20261109 :: PROOF.md",
+      "original_sha256": "112a23a2872920aaa47d43ad9836691535086cd1d1860139dae0801dc1e693be",
+      "adaptation": "原数学正文至第9节保留；第10节授权、磁盘、保存及执行过程省略；公开路径规范化。",
+      "public_sha256": "e5952496a8a090406b783a7a34281d2359ded4cd3fd70fb01efa52b4c9e1d07e"
+    },
+    {
+      "public_path": "q18-delta3/sources/SCALAR_CAP_ARGUMENT.md",
+      "source_label": "q18-delta3-m2-k2-chain-dc-cap-analysis-20261110 :: PROOF.md",
+      "original_sha256": "559f249223bc0029e2638765c9cc94b8cef6bf6cc5154abc6c3e497f23d0d7bc",
+      "adaptation": "仅摘录原稿第2节纯参数根核推导；不迁移 m2 几何或付款结论。",
+      "public_sha256": "8a1fb5ccc80de549fdc0605dc4a446eb16c5cd3f0e2d59e49b3fd37d3aadb186"
+    },
+    {
+      "public_path": "q18-delta3/sources/SCALAR_CAP_REVIEW.md",
+      "source_label": "q18-delta3-m2-k2-chain-dc-cap-independent-20261110 :: REVIEW.md",
+      "original_sha256": "c20652368e49a268bdd8f00654f93f6bad5cbf8d70c2bcf74628927c7057c60e",
+      "adaptation": "原数学正文与原审查状态保留；仅公开路径规范化。",
+      "public_sha256": "aadd5e1b72943f3b11a2f44059cd7ee2c8e650b157fd7e04dd3094b3bae73458"
+    },
+    {
+      "public_path": "q18-delta3/sources/CHAIN_BANK.md",
+      "source_label": "q18-delta3-m1-chain-bank-analysis-20261110 :: PROOF.md",
+      "original_sha256": "b33f3b003f54e00c704aa06a24bf239fe6b6795f14728aa1659c6c4eb85ab8c3",
+      "adaptation": "原数学正文与原审查状态保留；仅公开路径规范化。",
+      "public_sha256": "0d24ba44af39661003ac918e0d0ae0a2a6df503a75be25d9d1ba5f1541f65992"
+    },
+    {
+      "public_path": "q18-delta3/sources/CHAIN_BANK_REVIEW.md",
+      "source_label": "q18-delta3-m1-chain-bank-independent-20261110 :: REVIEW.md",
+      "original_sha256": "8fc9ee758a4eb0f91500b3c0310ed861b95ca10c564d02c5ee5f8759721cfd89",
+      "adaptation": "原数学正文与原审查状态保留；仅公开路径规范化。",
+      "public_sha256": "e5906914c1ad8cff38bdf2c6bee9d10e169a32ff42722fd5f3a1af734bfec4d4"
+    },
+    {
+      "public_path": "q18-delta3/sources/LOWER_BRIDGE.md",
+      "source_label": "q18-delta3-m1-original-assembly-analysis-20261110 :: BRIDGE_AND_UNIQUE_MINIMUM.md",
+      "original_sha256": "dd9c4de0990f252ab3ec9508647bb78af7c20f81182b089772a27638b75cbf91",
+      "adaptation": "原数学正文与原审查状态保留；仅公开路径规范化。",
+      "public_sha256": "4b321042992f6330ca4f276545b25aaf407c85283cbb4582f82c87818a2eac15"
+    },
+    {
+      "public_path": "q18-delta3/sources/LOWER_BRIDGE_REVIEW.md",
+      "source_label": "q18-delta3-m1-original-assembly-independent-20261110 :: BRIDGE_AND_UNIQUE_MINIMUM_REVIEW.md",
+      "original_sha256": "cc776ee3f733ee597592bbb9c21e50481b7ead5066490725c0b027518ca61797",
+      "adaptation": "原数学正文与原审查状态保留；仅公开路径规范化。",
+      "public_sha256": "214facdf2ead1713917c7dd8b8b16947ffbe7c621bc69a2f6152aced8d1e2be3"
+    },
+    {
+      "public_path": "q18-delta3/sources/M1_PREVIOUS_UNION_REVIEW.md",
+      "source_label": "q18-delta3-m1-original-assembly-independent-20261110 :: FINAL_BRANCH_UNION_REVIEW.md",
+      "original_sha256": "ec13f366af57f2ff333749528decff1512cffab42acb400c428b170c9c3cdb5f",
+      "adaptation": "原数学正文与原审查状态保留；仅公开路径规范化。",
+      "public_sha256": "594b8a1f33d48dce5fd0ea80a835d8b0b3ae0373b8cc74c95413ff7931612b6e"
+    },
+    {
+      "public_path": "q18-delta3/sources/M2_COMPLETE_REVIEW.md",
+      "source_label": "q18-delta3-m2-complete-original-independent-20261110 :: ASSEMBLY_AND_BRIDGE_REVIEW.md",
+      "original_sha256": "279397a7cebaa5cbd06f59a6bf07871dd22678c236e3174803c65016f3ff3ecc",
+      "adaptation": "原数学正文与原审查状态保留；仅公开路径规范化。",
+      "public_sha256": "f11663d4feafaa0f45e8d7f18d3777d60e52a81bd08d38fa6e038bd48457bdbb"
+    },
+    {
+      "public_path": "q18-delta3/sources/M3_COMPLETE_REVIEW.md",
+      "source_label": "q18-delta3-m3-complete-original-independent-20261110 :: ASSEMBLY_AND_BRIDGE_REVIEW.md",
+      "original_sha256": "b4fc21bdcab8e3ba5d648d7e581c5979873047db8874da0831d94199114c5b26",
+      "adaptation": "原数学正文与原审查状态保留；仅公开路径规范化。",
+      "public_sha256": "831d0faca27f7d146f6407038d00aaaf246934b99fd7369be89fa02c792036b3"
+    },
+    {
+      "public_path": "q18-delta3/sources/M4_ACCEPTED25_REVIEW.md",
+      "source_label": "q18-m4-coupled-independent-20261109 :: REVIEW.md",
+      "original_sha256": "8d6f680c6515ff063570b940fd41dd82a9006c7a789c99caba009e3286efce68",
+      "adaptation": "数学计数、验证方法和有限证书审级保留；资源计时、内部目录、写入配额、权限及运行过程省略；公开路径规范化。",
+      "public_sha256": "47a74bdf761ac09ae566cb7ffd3ed4fd09f2d2b1cd6fde23cc0c25430e63dab8"
+    },
+    {
+      "public_path": "q18-delta3/sources/POPULATION_REVIEW.md",
+      "source_label": "q18-delta3-population-and-old-guards-independent-20261110 :: REVIEW.md",
+      "original_sha256": "a55d9a87eb96526f5e8764e5513b32fe082219d4f456a8e3d571b9c4d96cd6b3",
+      "adaptation": "原数学正文与原审查状态保留；仅公开路径规范化。",
+      "public_sha256": "fb41a7c8a87de14209faecba774ab237d9849cf54bf0f4004f6599aa18340197"
+    }
+  ],
+  "limits": [
+    "No raw conversation or private runtime data",
+    "No complete migration/replay of all ancestral finite certificates",
+    "No full Q18 or D10 theorem",
+    "No net new population count"
+  ]
+}

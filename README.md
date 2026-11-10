@@ -1,3 +1,11 @@
+## 2026-11-10｜Q18 精确 child-u-zero δ_v=3 通道闭合
+
+最新接续：[首 O 前缀 cap 与原律付款](increments/2026-11-10/START_HERE.md)。保存准确原合同、新解析证明及研究内独审、真实负尾反控、来源与[公开边界](increments/2026-11-10/q18-delta3/PUBLICATION_SCOPE.md)。
+
+闭合范围仅为指定 seed/private/selected-fork、actual Q18、q=r_v=0、三 C 类非空、唯一人口缺额零在 child u 且 δ_v=3 的完整原通道；保任意原内部序、ports 及有限实际 O（含空）。m1–m3 为解析证明链，m4 继承旧有限证书及原律提升，不能把整个通道称为全纯解析。
+
+一般 1/3–2/3 猜想、全 Q18、B1/B2 及 D10 不由本结果解决；不增加净人口计数，不宣称跨所有旧守卫有统一六对或固定 pair。研究内独审不等于外部同行评审、形式化或优先权认证。下方旧日期记录原样保留；仅本节明确合同内的旧未付状态被更新。
+
 ## 2026-10-31 最新研究增量
 
 最新接续：[局部结构、首跳与缺陷补偿](increments/2026-10-31/START_HERE.md)。保存精确命题、证明与待补步骤、内部独审和必要实例；详见[公开范围与缺口](increments/2026-10-31/local-structure-and-defect-compensation/PUBLICATION_SCOPE.md)。
