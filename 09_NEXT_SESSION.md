@@ -1,3 +1,9 @@
+## 2026-11-10｜D9 解析提炼 607 次；EL10 精确 lift 普通闭包
+
+最新接续：[结构进展续编](increments/2026-11-10/structural-progress-v2/READ_FIRST.md)。D9 给定 v-first 树去重 607/3469 次银行已获解析替代（原 2862 次仍保留）；EL10 则证明指定 T3 / yz-signature E 理想 / 保原种子 induced 的实际 D10 lift 存在原闭窗平衡对，无 OLD moment、无 CA 正性证书依赖。
+
+两结论严格限于各自合同；不是全 D9 无证书重证、全 B1、任意 T4 或全 D10。不同支可用不同原物理对，不授全类统一指定(u,b)。旧固定对反控、CA 历史和此前 Q18 通道不删除；研究内独审不等于外部同行评审、形式化或优先权认证。下方原正文完整保留。
+
 ## 2026-11-10｜Q18 精确 child-u-zero δ_v=3 通道闭合
 
 最新接续：[首 O 前缀 cap 与原律付款](increments/2026-11-10/START_HERE.md)。保存准确原合同、新解析证明及研究内独审、真实负尾反控、来源与[公开边界](increments/2026-11-10/q18-delta3/PUBLICATION_SCOPE.md)。

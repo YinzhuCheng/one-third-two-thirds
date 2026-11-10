@@ -1,0 +1,167 @@
+{
+  "original_source_bank_occurrences": 3469,
+  "remaining_frontier_classes": {
+    "outside_interface": 1939,
+    "2": 916,
+    "3": 7
+  },
+  "pure_analytic": 607,
+  "additional_finite_symbolic": 0,
+  "total_with_changed_proof_style": 607,
+  "still_not_pure_analytic": 2862,
+  "other_original_banks_unchanged": 2862,
+  "history": {
+    "base_analytic400": 400,
+    "promoted_from_symbolic": 2,
+    "rank_gap_new": 2,
+    "four_equal_downset_new": 30,
+    "private_root_rank_new": 49,
+    "dominant_downset_four_new": 123,
+    "isolated_head_rooted_branch_new": 1
+  },
+  "promoted_Q8_rows": [
+    {
+      "stage": 0,
+      "pred": [
+        0,
+        0,
+        1,
+        1,
+        7,
+        7,
+        7,
+        23
+      ],
+      "word": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "mode": 1,
+      "old_bank": [
+        [
+          1,
+          15
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          12,
+          1
+        ]
+      ],
+      "style": "explicit integer-analytic boundary proof; promoted from finite-symbolic history",
+      "proof": "Q8_COMPLETE_ANALYTIC_PROOF.md"
+    },
+    {
+      "stage": 0,
+      "pred": [
+        0,
+        0,
+        1,
+        1,
+        7,
+        7,
+        7,
+        23
+      ],
+      "word": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        5,
+        7
+      ],
+      "mode": 1,
+      "old_bank": [
+        [
+          1,
+          15
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          8,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          11,
+          1
+        ]
+      ],
+      "style": "explicit integer-analytic boundary proof; promoted from finite-symbolic history",
+      "proof": "Q8_COMPLETE_ANALYTIC_PROOF.md"
+    }
+  ],
+  "rank_gap_new_rows": [
+    {
+      "stage": 0,
+      "pred": [
+        0,
+        0,
+        1,
+        1,
+        7,
+        23,
+        23
+      ],
+      "word": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        5,
+        6
+      ],
+      "mode": 1
+    },
+    {
+      "stage": 0,
+      "pred": [
+        0,
+        0,
+        1,
+        1,
+        7,
+        23,
+        23
+      ],
+      "word": [
+        0,
+        1,
+        2,
+        4,
+        3,
+        6,
+        5
+      ],
+      "mode": 1
+    }
+  ],
+  "warning": "The two old Q8 symbolic rows were reclassified, not added twice. Explicit structural/integer cases and the nine-term positive identity remain part of the analytic proof; not case-free or coefficient-free."
+}
