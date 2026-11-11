@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-11",
+  "status": "frozen public selection after source/review binding checks",
+  "source_increment": 0,
+  "files": [
+    {
+      "public_path": "virtanen/PROOF_SECTIONS_3_4.md",
+      "bytes": 2993,
+      "sha256": "4f6256a3f5c13cb021ee9f42340c7088d184c7445fbb864c5b5acd8a4c42149e",
+      "transformation": "Exact UTF-8 extraction from heading ## 3. through before ## 5.; §§1–2 and §§5–6 excluded",
+      "source_document": "READ_FIRST.md",
+      "source_sha256": "6cbe1f4840914c3d30823943600abf08642a63cd4a87ea029d5536da158eef4b",
+      "source_bytes": 10036
+    },
+    {
+      "public_path": "virtanen/SECTIONS_3_4_INDEPENDENT_REVIEW.md",
+      "bytes": 6688,
+      "sha256": "bb7be235eaffcf20d58ef21a1ee53faa0fc81ad6df1cebae7cb8e4905a62e7ee",
+      "transformation": "byte-identical frozen source",
+      "source_document": "SECTIONS_3_4_INDEPENDENT_REVIEW.md",
+      "source_sha256": "bb7be235eaffcf20d58ef21a1ee53faa0fc81ad6df1cebae7cb8e4905a62e7ee",
+      "source_bytes": 6688
+    },
+    {
+      "public_path": "virtanen/verify_counterexamples.py",
+      "bytes": 2440,
+      "sha256": "e6063c9f56696630766b51237075df3f150a264f73bdd42e928f4aabb71c3ff5",
+      "transformation": "byte-identical frozen source",
+      "source_document": "verify_counterexamples.py",
+      "source_sha256": "e6063c9f56696630766b51237075df3f150a264f73bdd42e928f4aabb71c3ff5",
+      "source_bytes": 2440
+    },
+    {
+      "public_path": "virtanen/COUNTEREXAMPLES_VERIFIED.json",
+      "bytes": 2800,
+      "sha256": "1e68adf780eac990429f7bd3bedddaf0c7b444cb4dcb1ee763bcd35a89276e69",
+      "transformation": "byte-identical frozen source",
+      "source_document": "COUNTEREXAMPLES_VERIFIED.json",
+      "source_sha256": "1e68adf780eac990429f7bd3bedddaf0c7b444cb4dcb1ee763bcd35a89276e69",
+      "source_bytes": 2800
+    },
+    {
+      "public_path": "virtanen/MIXED_BANK_CHECK.py",
+      "bytes": 489,
+      "sha256": "4900537dc24bfebaf8dc8881a2c1832780ef4ae44203d23a7c45bd131140fbc5",
+      "transformation": "byte-identical frozen source",
+      "source_document": "MIXED_BANK_CHECK.py",
+      "source_sha256": "4900537dc24bfebaf8dc8881a2c1832780ef4ae44203d23a7c45bd131140fbc5",
+      "source_bytes": 489
+    },
+    {
+      "public_path": "virtanen/MIXED_BANK_CHECK.json",
+      "bytes": 264,
+      "sha256": "de819747cd559eb73e4910948b26075bafbb57aa4359947c2267f3ea3adcad95",
+      "transformation": "byte-identical frozen source",
+      "source_document": "MIXED_BANK_CHECK.json",
+      "source_sha256": "de819747cd559eb73e4910948b26075bafbb57aa4359947c2267f3ea3adcad95",
+      "source_bytes": 264
+    },
+    {
+      "public_path": "virtanen/READ_FIRST.md",
+      "bytes": 1755,
+      "sha256": "022f94fe7c654fe754fb21c61dd9f0f9e34e29155eb4ecd87fa8b5be7afc848d",
+      "transformation": "New accurate public scope wrapper; no new mathematical result"
+    }
+  ],
+  "scope": "Only reviewed original §§3–4, independent review and matching small exact controls. No external preprint theorem acceptance."
+}

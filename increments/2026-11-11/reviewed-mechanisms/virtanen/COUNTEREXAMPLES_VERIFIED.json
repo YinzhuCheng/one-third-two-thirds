@@ -1,0 +1,182 @@
+{
+  "status": "all exact direct-permutation assertions passed",
+  "three_point_before": {
+    "labels": "abc",
+    "generating_edges": [
+      [
+        "a",
+        "b"
+      ]
+    ],
+    "ideal": [
+      "a",
+      "c"
+    ],
+    "LE": 3,
+    "minima": [
+      "a",
+      "c"
+    ],
+    "incomparable_degree": {
+      "a": 1,
+      "b": 1,
+      "c": 2
+    },
+    "layers": {
+      "2": {
+        "count": 2,
+        "words": [
+          "acb",
+          "cab"
+        ],
+        "before": {
+          "a": 1,
+          "c": 1
+        },
+        "through": {
+          "ac": 2
+        },
+        "last_label": {
+          "c": 1,
+          "a": 1
+        }
+      },
+      "3": {
+        "count": 1,
+        "words": [
+          "abc"
+        ],
+        "before": {
+          "ab": 1
+        },
+        "through": {
+          "abc": 1
+        },
+        "last_label": {
+          "c": 1
+        }
+      }
+    }
+  },
+  "five_point_through": {
+    "labels": "abcde",
+    "generating_edges": [
+      [
+        "a",
+        "d"
+      ],
+      [
+        "a",
+        "e"
+      ],
+      [
+        "b",
+        "c"
+      ]
+    ],
+    "ideal": [
+      "a",
+      "b"
+    ],
+    "LE": 20,
+    "minima": [
+      "a",
+      "b"
+    ],
+    "incomparable_degree": {
+      "a": 2,
+      "b": 3,
+      "c": 3,
+      "d": 3,
+      "e": 3
+    },
+    "layers": {
+      "2": {
+        "count": 12,
+        "words": [
+          "abcde",
+          "abced",
+          "abdce",
+          "abdec",
+          "abecd",
+          "abedc",
+          "bacde",
+          "baced",
+          "badce",
+          "badec",
+          "baecd",
+          "baedc"
+        ],
+        "before": {
+          "a": 6,
+          "b": 6
+        },
+        "through": {
+          "ab": 12
+        },
+        "last_label": {
+          "b": 6,
+          "a": 6
+        }
+      },
+      "3": {
+        "count": 6,
+        "words": [
+          "adbce",
+          "adbec",
+          "aebcd",
+          "aebdc",
+          "bcade",
+          "bcaed"
+        ],
+        "before": {
+          "ad": 2,
+          "ae": 2,
+          "bc": 2
+        },
+        "through": {
+          "abd": 2,
+          "abe": 2,
+          "abc": 2
+        },
+        "last_label": {
+          "b": 4,
+          "a": 2
+        }
+      },
+      "4": {
+        "count": 2,
+        "words": [
+          "adebc",
+          "aedbc"
+        ],
+        "before": {
+          "ade": 2
+        },
+        "through": {
+          "abde": 2
+        },
+        "last_label": {
+          "b": 2
+        }
+      }
+    }
+  },
+  "nonpivot_pair_nonmonotonicity": [
+    {
+      "prefix": "a",
+      "count": 1,
+      "Pr(a<b)": "1"
+    },
+    {
+      "prefix": "b",
+      "count": 1,
+      "Pr(a<b)": "0"
+    },
+    {
+      "prefix": "ab",
+      "count": 2,
+      "Pr(a<b)": "1/2"
+    }
+  ]
+}
