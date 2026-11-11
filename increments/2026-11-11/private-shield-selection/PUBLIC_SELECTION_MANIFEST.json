@@ -1,0 +1,74 @@
+{
+  "status": "frozen current PS1/PS2 publication selection; internal review PASS",
+  "author_manifest_sha256": "ee51e17b60737037d2384736520cc191a8856ebb7f6894bf9d2e3ad87ecf4071",
+  "source_increment": 0,
+  "accepted_ledger_change": 0,
+  "files": [
+    {
+      "path": "READ_FIRST.md",
+      "bytes": 3915,
+      "sha256": "0a9b3aa84335c9fa6a53d85434392382c87d7775b9c9fc7fb6764de6390fb463"
+    },
+    {
+      "path": "PRIVATE_SHIELD_SELECTION_PROOF.md",
+      "bytes": 11603,
+      "sha256": "41a076ec2ba3ff5e92f37952e7a4101e4a0428fb6e9359e8dbdec01b6e5de350"
+    },
+    {
+      "path": "PRIVATE_SHIELD_SELECTION_INDEPENDENT_REVIEW.md",
+      "bytes": 14618,
+      "sha256": "399136eb597bd77f5aa41ac9c6c50521a21a12ec80a30c2b41c26de51fe894e2"
+    },
+    {
+      "path": "DH_R_RELATION_CORRECTION.md",
+      "bytes": 4375,
+      "sha256": "0b17c2f3e4cb103da22468999a1868fd755dacbc5d73d5f98db098207884bc15"
+    },
+    {
+      "path": "private_shield_selector.py",
+      "bytes": 2787,
+      "sha256": "379deda0312b02fd5027f36b30025f3e6f1bb32df783310b3c10d2403acebbae"
+    },
+    {
+      "path": "check_private_shield_selection.py",
+      "bytes": 4775,
+      "sha256": "75fcc0adc2cd3b9ea7d39477042d545b4f44a9bcd955effb144914e19e6b8d82"
+    },
+    {
+      "path": "PRIVATE_SHIELD_SELECTION_CHECK.json",
+      "bytes": 1740,
+      "sha256": "0690bd0fa6fb0a7708bbeb67fa09109d6e45877db5ea1d4a60e09dd729c62d37"
+    },
+    {
+      "path": "PRIVATE_SHIELD_SELECTION_INDEPENDENT_CHECK.py",
+      "bytes": 11951,
+      "sha256": "bd8f31f9d7b9b9b586172aee7cdf1c46d3cb91bac1c99bad3ba9bdb2858c9740"
+    },
+    {
+      "path": "PRIVATE_SHIELD_SELECTION_INDEPENDENT_CHECK.json",
+      "bytes": 3092,
+      "sha256": "e0d37a479613c9c816842d7bb9fdbe180a31b0f98efda5d2052aba6ff56e7c2a"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "bytes": 1135,
+      "sha256": "05c8904a6ed2d87a697ba55a1a78cc9e8189f0580b78472b1cd44935fda6995a"
+    },
+    {
+      "path": "sources/PRIVATE_ROOT_RANK_GATE.md",
+      "bytes": 5997,
+      "sha256": "345e14b46c0fcd92a22c249664bce7088af18b8763e75a7be2fd4aaa6cdd093d"
+    },
+    {
+      "path": "sources/PRIVATE_ROOT_RANK_INDEPENDENT_REVIEW.md",
+      "bytes": 5358,
+      "sha256": "854f50cdb8843fbea48c7c227601e3baca515fd5a9fb5cf8e582d8b342e51fbf"
+    }
+  ],
+  "exclusions": [
+    "PRIVATE_SHIELD_SELECTION_DRAFT.md: signed new-PS historical draft remains in separate archive, not a current reader file",
+    "all caches",
+    "prior whole-private manuscripts are not copied; this is the new selected-private-shield result only"
+  ],
+  "dependency_note": "The current PS1/PS2 proof and its independent review rederive both ideal-first-color and full-root insertion identities; no prior whole-private manuscript is needed to read the complete mathematical argument. Prior-gate comparison sources are included at fixed c07 commit. Entire whole-private c=1 specialization is already DH-R; no thresholds or source counts are claimed again."
+}

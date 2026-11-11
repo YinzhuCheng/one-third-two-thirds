@@ -1,0 +1,22 @@
+{
+  "commit": "c07dfaf9fe4a82abcf3fd5b67c571a18ba1f3fba",
+  "source_increment": 0,
+  "files": [
+    {
+      "path": "sources/PRIVATE_ROOT_RANK_GATE.md",
+      "url": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/c07dfaf9fe4a82abcf3fd5b67c571a18ba1f3fba/increments/2026-11-10/structural-progress-v2/d9/PRIVATE_ROOT_RANK_GATE.md",
+      "git_blob": "93d3585650bb55586777bde45a0331de2000bf33"
+    },
+    {
+      "path": "sources/PRIVATE_ROOT_RANK_INDEPENDENT_REVIEW.md",
+      "url": "https://github.com/YinzhuCheng/one-third-two-thirds/blob/c07dfaf9fe4a82abcf3fd5b67c571a18ba1f3fba/increments/2026-11-10/structural-progress-v2/d9/PRIVATE_ROOT_RANK_INDEPENDENT_REVIEW.md",
+      "git_blob": "9b58914624f3b5137ea4944df2dbe7547861a31c"
+    }
+  ],
+  "prior_reviewed_shield": {
+    "root": "research-review/d9-general-mechanism-20261111",
+    "freeze_manifest_sha256": "7a0ec3ef52e9231d469b807ffecf623b336db63692b372074de82a56590bed3d",
+    "main_sha256": "6a86f787d59edcde5f90bbbf2618c837a4b4bf2659a3ef2883ec6fa022a5a90d",
+    "independent_review_sha256": "c82402f0619db068cf16d5ae533a8aa942db03aad94b4c06bb3b34668656dd5b"
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "scope": "all natural-label posets through six labels, every private ideal and every private subset; every ideal-shield gate accepted in full H; two full original-Q controls",
+  "natural_posets": 5232,
+  "private_ideals": 101659,
+  "rank_tests": 1359668,
+  "rank_equalities": 21095,
+  "gate_contracts": 76268,
+  "gate_choices": 538720,
+  "examples": [
+    {
+      "pred": [
+        0,
+        0,
+        1,
+        1,
+        5,
+        5,
+        37,
+        7,
+        151,
+        407,
+        919
+      ],
+      "degree": 9,
+      "N": 1638,
+      "K_ub": 840,
+      "K_vu": 210,
+      "margin": 252,
+      "choices": [
+        {
+          "S": 1,
+          "a": 1,
+          "s": 1,
+          "F": 1,
+          "deficit": 1
+        }
+      ],
+      "whole_C_shield": false,
+      "old_FG_D": false,
+      "old_FG_M": false,
+      "old_DH": [
+        {
+          "p": 4,
+          "r": 3,
+          "qualifies": false
+        },
+        {
+          "p": 5,
+          "r": 5,
+          "qualifies": false
+        }
+      ]
+    },
+    {
+      "pred": [
+        0,
+        0,
+        1,
+        1,
+        5,
+        5,
+        7,
+        87,
+        215,
+        471,
+        983
+      ],
+      "degree": 9,
+      "N": 506,
+      "K_ub": 240,
+      "K_vu": 66,
+      "margin": 40,
+      "choices": [
+        {
+          "S": 1,
+          "a": 1,
+          "s": 1,
+          "F": 1,
+          "deficit": 1
+        }
+      ],
+      "whole_C_shield": false,
+      "old_FG_D": false,
+      "old_FG_M": false,
+      "old_DH": [
+        {
+          "p": 4,
+          "r": 2,
+          "qualifies": false
+        },
+        {
+          "p": 5,
+          "r": 6,
+          "qualifies": false
+        }
+      ]
+    }
+  ]
+}

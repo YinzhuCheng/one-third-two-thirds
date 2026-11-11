@@ -1,0 +1,186 @@
+{
+  "status": "PASS",
+  "diagnostic_scope": "All naturally labelled H through size 5, all private ideals, all S subsets; literal first-shield cells through size 4; all one-exterior predecessor ideals for qualifying H through size 3. Finite diagnostics are not the proof.",
+  "totals": {
+    "natural_posets": 408,
+    "private_ideals": 5231,
+    "rank_all_subsets": 43722,
+    "rank_ideal_subsets": 27871,
+    "rank_equalities": 1856,
+    "full_root_instances": 5231,
+    "full_root_gate_instances": 4189,
+    "qualifying_ideal_choices": 21512,
+    "literal_cells": 3044,
+    "cell_partition_instances": 719,
+    "one_exterior_instances": 445
+  },
+  "per_n": {
+    "0": {
+      "posets": 1,
+      "private_ideals": 1,
+      "selected_ideals": 1
+    },
+    "1": {
+      "posets": 1,
+      "private_ideals": 2,
+      "selected_ideals": 3
+    },
+    "2": {
+      "posets": 2,
+      "private_ideals": 7,
+      "selected_ideals": 15
+    },
+    "3": {
+      "posets": 7,
+      "private_ideals": 40,
+      "selected_ideals": 119
+    },
+    "4": {
+      "posets": 40,
+      "private_ideals": 357,
+      "selected_ideals": 1447
+    },
+    "5": {
+      "posets": 357,
+      "private_ideals": 4824,
+      "selected_ideals": 26286
+    }
+  },
+  "strict_contract_separation": {
+    "tail_pred": [
+      0,
+      0,
+      0,
+      5,
+      13,
+      29,
+      61
+    ],
+    "private_mask": 3,
+    "selected_mask": 1,
+    "full_Q_pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5,
+      7,
+      87,
+      215,
+      471,
+      983
+    ],
+    "a": 1,
+    "s": 1,
+    "n": 7,
+    "F": 1,
+    "full_private_F": -8,
+    "Delta": 9,
+    "N": 506,
+    "A": 240,
+    "D": 66,
+    "margin": 40,
+    "tail_extension_count_and_rank_sum": [
+      14,
+      24
+    ]
+  },
+  "negative_F_control": {
+    "tail_pred": [
+      0,
+      0,
+      0,
+      7,
+      15,
+      31
+    ],
+    "private_mask": 1,
+    "selected_mask": 1,
+    "a": 1,
+    "s": 2,
+    "n": 6,
+    "F": -2,
+    "Delta": 8,
+    "N": 174,
+    "A": 72,
+    "D": 26,
+    "margin": -4
+  },
+  "author_strict_contract_control": {
+    "full_Q_pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5,
+      37,
+      7,
+      151,
+      407,
+      919
+    ],
+    "Delta": 9,
+    "N": 1638,
+    "A": 840,
+    "D": 210,
+    "margin": 252
+  },
+  "FG_D_not_included_control": {
+    "tail_pred": [
+      0,
+      0,
+      1,
+      1,
+      2,
+      2,
+      2
+    ],
+    "full_Q_pred": [
+      0,
+      0,
+      1,
+      1,
+      5,
+      5,
+      23,
+      23,
+      39,
+      39,
+      39
+    ],
+    "Delta": 9,
+    "N": 18780,
+    "A": 10800,
+    "D": 2340,
+    "margin": 5160,
+    "failed_choices": [
+      {
+        "S_mask": 0,
+        "a": 0,
+        "s": 0,
+        "F": -5
+      },
+      {
+        "S_mask": 1,
+        "a": 1,
+        "s": 3,
+        "F": -9
+      },
+      {
+        "S_mask": 2,
+        "a": 1,
+        "s": 2,
+        "F": -4
+      },
+      {
+        "S_mask": 3,
+        "a": 2,
+        "s": 5,
+        "F": -8
+      }
+    ]
+  },
+  "script_sha256": "bd8f31f9d7b9b9b586172aee7cdf1c46d3cb91bac1c99bad3ba9bdb2858c9740"
+}
