@@ -1,0 +1,60 @@
+{
+  "status": "Approved frozen nonchain manuscript with subsequent independent review and status; source URL index excluded.",
+  "path": "increments/2026-11-11/reviewed-mechanisms/nonchain",
+  "source_increment": 0,
+  "files": [
+    {
+      "path": "CURRENT_REVIEW_STATUS.md",
+      "bytes": 2937,
+      "sha256": "bdc67710e01ef7e1f60016a50bb879ae4bd57f3873272de93b784a1bb105b4d7"
+    },
+    {
+      "path": "INDEPENDENT_DIRECT_WORDS.json",
+      "bytes": 322441,
+      "sha256": "7e2d4974d9f201d81d32315d0d075033c261d9196b124ab0ad02a42fb04730fc"
+    },
+    {
+      "path": "INDEPENDENT_REVIEW.md",
+      "bytes": 10108,
+      "sha256": "0d6cef82dff3d81722c7c261696fccdd74d30fec1ba77fc4ded5a0bee93a6459"
+    },
+    {
+      "path": "PROOF.md",
+      "bytes": 11131,
+      "sha256": "42c020575bc74d0536f2405c2db15e866bb2d97270e61e43432e6f174ac40580"
+    },
+    {
+      "path": "READ_FIRST.md",
+      "bytes": 2773,
+      "sha256": "e8e18dbaf3a5bbaf0828a6beb9e67b44d466a59cbb8d3870d5971042d4444514"
+    },
+    {
+      "path": "SOURCE_BINDINGS.json",
+      "bytes": 2277,
+      "sha256": "96d811c2b018b7e5b6f46add5770d7c311b06e0a16692e83776003135d8b7571"
+    },
+    {
+      "path": "VERIFIED_COUNTERCONTROL.json",
+      "bytes": 13345,
+      "sha256": "5bb5649c3176da5a654fc692f90633fead6f75b1cb96b8be33b0ce5e09de97a1"
+    },
+    {
+      "path": "review_direct_words.py",
+      "bytes": 4655,
+      "sha256": "e9a631939ce1afa343598e14359962c4b73cd26aaaaa8424ec89c97fa59cd10d"
+    },
+    {
+      "path": "verify_countercontrol.py",
+      "bytes": 2764,
+      "sha256": "be9ff303fb3535ce7c7e3c7153b2bf66ee54c776f6e8e6c81bada578641d323e"
+    }
+  ],
+  "not_included": [
+    "SOURCE_URLS.json",
+    "DEPENDENCIES.md",
+    "backup-only sources and searches",
+    "other shielded manuscripts",
+    "separate Q16 saturation package"
+  ],
+  "scientific_scope": "Explicit P_n auxiliary-bank countercontrol and exact union/fixed-event transport boundary, not Q18/D10 payment or a conjecture counterexample."
+}

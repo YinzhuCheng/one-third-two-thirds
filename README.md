@@ -1,3 +1,9 @@
+## 2026-11-12｜已审非链原极小 anchor 运输止线
+
+最新：[D10 非链显式反控与真实纤维](increments/2026-11-11/reviewed-mechanisms/nonchain/READ_FIRST.md)。完整冻结原稿保留历史 pending 标记，其后独审给出 PASS_WITH_EXACT_SCOPE，当前状态和固定首 D 标签边界单独说明。全 n 解析论证与两份独立实现已核；本快照不含单独 SOURCE_URLS 索引，不以其他文件重建该索引，实际文件见专题清单。
+
+该族只否定宽泛自动银行与变量 bottom 向固定物理 anchor 的付款迁移，不满足 actual Q18 和饱和保护，仍有其他平衡对。无新增 source-bank occurrences、D9/D10 付款或源树计数。下方私人盾选择、Virtanen 与既有成果全部保留；其它盾蔽原稿和单独 Q16 包未纳入。
+
 ## 2026-11-11｜已审私人盾选择与旧门归属
 
 最新：[私人盾选择PS1/PS2](increments/2026-11-11/private-shield-selection/READ_FIRST.md)。保留全部额外私人点及真实完成权，允许选私人理想S作盾；完整证明、独审、双向分离控制与固定来源已核。整个全私人c=1专化就是已公开DH-R，旧阈值与映射不重计；新PS2与FG(D)不可比，保留两种机制。
@@ -78,6 +84,7 @@ Notion核心索引的可恢复文本见[registry/RESEARCH_CORE.md](registry/RESE
 [路线总图](02_RESEARCH_ATLAS.md) · [依赖](03_DEPENDENCIES.md) · [反例](04_FALSE_ROUTES_AND_GUARDS.md) · [优先级](05_PRIORITIES_AND_CONJECTURES.md) · [文献接口](06_LITERATURE_AND_THEOREM_MAP.md) · [本次学术检索核对](literature/TOOLCHAIN_SEARCH_20261002.md) · [审查状态](10_AUDIT_STATUS.md)
 
 [公开阅读网站](https://one-third-two-thirds.vercel.app/)可停用而不影响数学主档。成功写入或部署不表示证明已获外部审查。研究方式始终遵守[AGENTS.md](AGENTS.md)。
+
 
 
 
